@@ -5,7 +5,7 @@
 		<Name value="EricMods" />
 		<Description value="Stuff I've added to the game." />
 		<Author value="Eric Beaudoin" />
-		<Version value="1.07" />
+		<Version value="1.08" />
 		<!-- 1.00: 	Make door frames and window trims available to players
 					(including receipes) -->
 		<!-- 1.01:	Schematics stack to 5
@@ -17,6 +17,7 @@
 		<!-- 1.05:	Double the nitrate and coal harvests -->
 		<!-- 1.06:  Bring the lead havests to a comparable level then coal and nitrate -->
 		<!-- 1.07:	Add the receipe for the big garage door -->
+		<!-- 1.08:	Quicker scrapping -->
 
 		<!-- 
 

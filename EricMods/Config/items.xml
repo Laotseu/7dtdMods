@@ -11,4 +11,48 @@
 	<!-- Gas cans stact up to 6000 -->
 	<!-- <set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">6000</set> -->
 
+	<!-- Reduce the time it takes to scrap items -->
+	<append xpath="/items/item[@name='resourceYuccaFibers']">
+		<property name="CraftingIngredientTime" value="0.5"/>
+	</append>
+	
+	<append xpath="/items/item[@name='resourceScrapBrass']">
+		<property name="CraftingIngredientTime" value="0.5"/>
+	</append>
+	
+	<append xpath="/items/item[@name='resourceScrapLead']">
+		<property name="CraftingIngredientTime" value="0.5"/>
+	</append>
+	
+	<append xpath="/items/item[@name='resourceCloth']">
+		<property name="CraftingIngredientTime" value="0.5"/>
+	</append>
+	
+	<append xpath="/items/item[@name='resourcePaper']">
+		<property name="CraftingIngredientTime" value="0.5"/>
+	</append>
+	
+	<set xpath="/items/item[@name='resourceScrapIron']/property[@name='CraftingIngredientTime']/@value">0.1</set>
+	
+	<set xpath="/items/item[@name='resourceRockSmall']/property[@name='CraftingIngredientTime']/@value">0.25</set>
+
+	<set xpath="/items/item[@name='resourceWood']/property[@name='CraftingIngredientTime']/@value">0.125</set>
+	
+	<set xpath="/items/item[@name='resourceScrapPolymers']/property[@name='CraftingIngredientTime']/@value">1</set>
+	
+	<set xpath="/items/item[@name='resourceLeather']/property[@name='CraftingIngredientTime']/@value">1</set>
+	
+	<set xpath="/items/item[@name='resourceMilitaryFiber']/property[@name='CraftingIngredientTime']/@value">2</set>
+	
+	<set xpath="/items/item[@name='resourceElectricParts']/property[@name='CraftingIngredientTime']/@value">1</set>
+	
+	<set xpath="/items/item[@name='resourceElectronicParts']/property[@name='CraftingIngredientTime']/@value">1</set>
+	
+	<set xpath="/items/item[@name='resourceMechanicalParts']/property[@name='CraftingIngredientTime']/@value">1</set>	
+
+	<insertAfter  xpath="/items/item[@name='resourceBrokenGlass']/property[@name='EconomicBundleSize']">
+		<property name="CraftingIngredientTime" value="0.5"/>
+	</insertAfter>
+	
+
 </ericmods>
