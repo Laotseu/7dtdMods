@@ -1,8 +1,12 @@
 <ericmods>
 
+	<!-- Stack mods up to 5 -->
+	<set xpath="/item_modifiers/item_modifier/property[@name='Stacknumber']/@value">5</set>
+	<!-- This doesn't work because the game doesn't display the stack number for attachments -->
+
 <!-- 	<item_modifier name="modGunBarrelExtender" installable_tags="barrelAttachments" modifier_tags="barrelAttachment" type="attachment">
 		<property name="Stacknumber" value="1"/>
-		<!--DamageFalloffRange increased by x meters- ->
+		<!- -DamageFalloffRange increased by x meters- ->
 		<effect_group tiered="false">
 			<passive_effect name="DamageFalloffRange" operation="perc_add" value=".2"/>
 			<passive_effect name="MaxRange" operation="perc_add" value=".2"/>

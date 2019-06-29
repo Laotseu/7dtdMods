@@ -21,5 +21,17 @@
 	<append xpath="/blocks/block[@name='doorFrameMetal2']">
 		<property name="DowngradeBlock" value="doorFrameWhite2"/>
 	</append>
-	
+
+	<!-- Double the coal and nitrate harvest -->
+	<!-- <drop event="Harvest" name="resourcePotassiumNitratePowder" count="33" tag="oreWoodHarvest"/> -->
+	<!-- <drop event="Harvest" name="resourceCoal" count="8" prob="0.33" tag="oreWoodHarvest"/> -->
+	<set xpath="/blocks/block[@name='terrOrePotassiumNitrate']/drop[@event='Harvest' and @name='resourcePotassiumNitratePowder']/@count">66</set>
+	<set xpath="/blocks/block[@name='rockResource']/drop[@event='Harvest' and @name='resourcePotassiumNitratePowder']/@count">16</set>
+	<set xpath="/blocks/block[@name='rockResource']/drop[@event='Harvest' and @name='resourcePotassiumNitratePowder']/@prob">0.66</set>
+	<set xpath="/blocks/block[@name='stalactite01']/drop[@event='Harvest' and @name='resourcePotassiumNitratePowder']/@count">28</set>
+	<set xpath="/blocks/block[@name='terrOreCoal']/drop[@event='Harvest' and @name='resourceCoal']/@count">66</set>
+	<set xpath="/blocks/block[@name='rockResource']/drop[@event='Harvest' and @name='resourceCoal']/@count">16</set>
+	<set xpath="/blocks/block[@name='rockResource']/drop[@event='Harvest' and @name='resourceCoal']/@prob">0.66</set>
+
+stalactite01
 </ericmods>

@@ -8,4 +8,7 @@
 	<!-- Stack schematics up to 5 -->
 	<set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">5</set>
 
+	<!-- Gas cans stact up to 6000 -->
+	<!-- <set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">6000</set> -->
+
 </ericmods>
