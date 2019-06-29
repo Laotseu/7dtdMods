@@ -1,0 +1,24 @@
+<ericmods>
+
+<!-- 	<item_modifier name="modGunBarrelExtender" installable_tags="barrelAttachments" modifier_tags="barrelAttachment" type="attachment">
+		<property name="Stacknumber" value="1"/>
+		<!--DamageFalloffRange increased by x meters- ->
+		<effect_group tiered="false">
+			<passive_effect name="DamageFalloffRange" operation="perc_add" value=".2"/>
+			<passive_effect name="MaxRange" operation="perc_add" value=".2"/>
+
+			<passive_effect name="SpreadMultiplierHip" operation="perc_add" value=".25"/>
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.25"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value="-.3"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+
+		<item_property_overrides name="gunMR10">
+			<property name="BarrelOffset" value="0,-0.02,0.2182"/>
+			<property name="BarrelScale" value="0.88,0.88,0.88"/>
+
+			<property name="Sound_start" value="sniperrifle_s_fire"/>
+		</item_property_overrides> -->
+
+</ericmods>

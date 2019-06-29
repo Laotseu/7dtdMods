@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="EricMods" />
+		<Description value="Stuff I've added to the game." />
+		<Author value="Eric Beaudoin" />
+		<Version value="1.04" />
+		<!-- 1.00: 	Make door frames and window trims available to players
+					(including receipes) -->
+		<!-- 1.01:	Schematics stack to 5
+					Bigger tank for Auger and Chainsaw -->
+		<!-- 1.02:	Explosive Crossbow Blots have a small chance to be found in amo loot 
+					and can sometimes be bought from the traders -->
+		<!-- 1.03:	Gyrocopter is more fuel efficient and has a bigger tank -->
+		<!-- 1.04:	Tweek air drop to have less food and more usefull stuff -->
+	</ModInfo>
+</xml>

@@ -1,0 +1,12 @@
+<ericmods>
+	
+<!-- <SoundDataNode name="sniperrifle_s_fire"> <AudioSource name="Sounds/AudioSource_WeaponFire"/> <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+	<Noise ID="5" range="20" volume="60" time="2" heat_map_strength="0.3" heat_map_time="120"/>
+	<AudioClip ClipName="Sounds/Weapons/Ranged/sniperrifle/sniperrifle_s_fire1"/>
+  <AudioClip ClipName="Sounds/Weapons/Ranged/sniperrifle/sniperrifle_s_fire2"/>
+  <AudioClip ClipName="Sounds/Weapons/Ranged/sniperrifle/sniperrifle_s_fire3"/>
+  <AudioClip ClipName="Sounds/Weapons/Ranged/sniperrifle/sniperrifle_s_fire4"/>
+	<LocalCrouchVolumeScale value="1"/> <CrouchNoiseScale value="1"/> <NoiseScale value="1"/> <MaxVoices value="20"/> <MaxVoicesPerEntity value="6"/> <MaxRepeatRate value="0.001"/> </SoundDataNode>	
+ -->
+ 	
+ </ericmods>

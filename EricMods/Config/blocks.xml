@@ -1,0 +1,25 @@
+<ericmods>
+	
+	<!-- Wood door frames now can be upgraded to metal door frames -->
+	<set xpath="/blocks/block[@name='doorFrameWhite1']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">doorFrameMetal1</set>
+	<set xpath="/blocks/block[@name='doorFrameWhite1']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceForgedIron</set>
+	<set xpath="/blocks/block[@name='doorFrameWhite1']/property[@class='UpgradeBlock']/property[@name='ItemCount']/@value">7</set>
+	<set xpath="/blocks/block[@name='doorFrameWhite2']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">doorFrameMetal2</set>
+<!-- 	No need for that since it is inherited from doorFrameWhite1
+	<set xpath="/blocks/block[@name='doorFrameWhite2']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceForgedIron</set>
+	<set xpath="/blocks/block[@name='doorFrameWhite2']/property[@class='UpgradeBlock']/property[@name='ItemCount']/@value">7</set>
+
+ -->	
+ 	<!-- Metal door frames can no longer be upgraded to boarded metal door frames -->
+	<remove xpath="/blocks/block[@name='doorFrameMetal1']/property[@class='UpgradeBlock']" />
+	<remove xpath="/blocks/block[@name='doorFrameMetal2']/property[@class='UpgradeBlock']" />
+	
+	<!-- Metal door frames can be downgraded to wood door frames -->
+	<append xpath="/blocks/block[@name='doorFrameMetal1']">
+		<property name="DowngradeBlock" value="doorFrameWhite1"/>
+	</append>
+	<append xpath="/blocks/block[@name='doorFrameMetal2']">
+		<property name="DowngradeBlock" value="doorFrameWhite2"/>
+	</append>
+	
+</ericmods>

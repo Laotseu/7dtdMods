@@ -1,0 +1,8 @@
+<ericmods>
+	
+	<!-- Make exploding crossbow bolts available to traders -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='ammo']">
+		<item name="ammoCrossbowBoltExploding" count="10,20"/>
+	</append>
+
+ </ericmods>

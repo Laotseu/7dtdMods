@@ -1,0 +1,8 @@
+<ericmods>
+	
+	<!-- Make the Gyrocopter more fuel efficient and give it a bigger gas tank -->
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@class='engine']/property[@name='fuelKmPerL']/@value">2</set>
+	<set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@class='fuelTank']/property[@name='capacity']/@value">12</set>
+
+
+ </ericmods>

@@ -1,0 +1,11 @@
+<ericmods>
+
+	<!-- Augment the gas capacity for the Auger and the Chainsaw -->
+	<set xpath="/items/item[@name='meleeToolAuger']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize']/@value">1000</set>
+	<set xpath="/items/item[@name='meleeToolChainsaw']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize']/@value">1000</set>
+	<!-- <passive_effect name="DegradationPerUse" operation="base_set" value="3"/> -->
+
+	<!-- Stack schematics up to 5 -->
+	<set xpath="/items/item[@name='schematicMaster']/property[@name='Stacknumber']/@value">5</set>
+
+</ericmods>

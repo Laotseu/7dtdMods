@@ -1,0 +1,51 @@
+<ericmods>
+
+	<append xpath="/recipes">
+		<!-- Added recepies to be able to craft door frames and window trims -->
+		<recipe name="doorFrameWhite1" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="doorFrameWhite2" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="doorTrim2m" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="doorTrimTop" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="doorFrameMetal1" count="1" craft_area="tablesaw">
+			<ingredient name="resourceForgedIron" count="7"/>
+		</recipe>
+
+		<recipe name="woodWindowTrim" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="woodWindowTrimBottom" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="woodWindowTrimSides" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="woodWindowTrimTop" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="woodWindowTrimTopFancy" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="doorFrameMetal2" count="1" craft_area="tablesaw">
+			<ingredient name="resourceForgedIron" count="7"/>
+		</recipe>
+
+	</append>
+	
+</ericmods>
