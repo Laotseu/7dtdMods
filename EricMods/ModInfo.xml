@@ -5,7 +5,7 @@
 		<Name value="EricMods" />
 		<Description value="Stuff I've added to the game." />
 		<Author value="Eric Beaudoin" />
-		<Version value="1.05" />
+		<Version value="1.06" />
 		<!-- 1.00: 	Make door frames and window trims available to players
 					(including receipes) -->
 		<!-- 1.01:	Schematics stack to 5
@@ -15,5 +15,6 @@
 		<!-- 1.03:	Gyrocopter is more fuel efficient and has a bigger tank -->
 		<!-- 1.04:	Tweek air drop to have less food and more usefull stuff -->
 		<!-- 1.05:	Double the nitrate and coal harvests -->
+		<!-- 1.06:  Bring the lead havests to a comparable level then coal and nitrate -->
 	</ModInfo>
 </xml>

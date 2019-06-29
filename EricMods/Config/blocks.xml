@@ -33,5 +33,9 @@
 	<set xpath="/blocks/block[@name='rockResource']/drop[@event='Harvest' and @name='resourceCoal']/@count">16</set>
 	<set xpath="/blocks/block[@name='rockResource']/drop[@event='Harvest' and @name='resourceCoal']/@prob">0.66</set>
 
-stalactite01
+	<!-- The proportion of lead vs coal/nitrate should be 2/3 -->
+	<set xpath="/blocks/block[@name='terrOreLead']/drop[@event='Harvest' and @name='resourceScrapLead']/@count">44</set>
+	<set xpath="/blocks/block[@name='rockResource']/drop[@event='Harvest' and @name='resourceScrapLead']/@count">11</set>
+	<set xpath="/blocks/block[@name='rockResource']/drop[@event='Harvest' and @name='resourceScrapLead']/@prob">0.66</set>
+²stalactite01
 </ericmods>
