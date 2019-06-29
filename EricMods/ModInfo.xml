@@ -5,7 +5,7 @@
 		<Name value="EricMods" />
 		<Description value="Stuff I've added to the game." />
 		<Author value="Eric Beaudoin" />
-		<Version value="1.06" />
+		<Version value="1.07" />
 		<!-- 1.00: 	Make door frames and window trims available to players
 					(including receipes) -->
 		<!-- 1.01:	Schematics stack to 5
@@ -16,5 +16,21 @@
 		<!-- 1.04:	Tweek air drop to have less food and more usefull stuff -->
 		<!-- 1.05:	Double the nitrate and coal harvests -->
 		<!-- 1.06:  Bring the lead havests to a comparable level then coal and nitrate -->
+		<!-- 1.07:	Add the receipe for the big garage door -->
+
+		<!-- 
+
+		Localization.txt
+		================
+
+		It is not possible to mod the localization file as of Alpha 17.2. The following line need to be added manually at the en of Localization.txt.
+
+		path: 7 Days To Die\Data\Config\Localization.txt
+
+		Line to add:
+
+garageDoorHouse,blocks,Block,KgNone,Large Garage Door,Grande porte de garage,,,,
+
+		 -->
 	</ModInfo>
 </xml>

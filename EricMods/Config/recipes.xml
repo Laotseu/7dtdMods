@@ -46,6 +46,12 @@
 			<ingredient name="resourceForgedIron" count="7"/>
 		</recipe>
 
+		<!-- Add the big garage door  -->
+		<recipe name="garageDoorHouse" count="1" craft_time="150" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="40"/>
+			<ingredient name="resourceSpring" count="12"/>
+			<ingredient name="resourceMechanicalParts" count="24"/>
+		</recipe>
 	</append>
 	
 </ericmods>
