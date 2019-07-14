@@ -5,7 +5,7 @@
 		<Name value="EricMods" />
 		<Description value="Stuff I've added to the game." />
 		<Author value="Eric Beaudoin" />
-		<Version value="1.08" />
+		<Version value="1.11" />
 		<!-- 1.00: 	Make door frames and window trims available to players
 					(including receipes) -->
 		<!-- 1.01:	Schematics stack to 5
@@ -18,6 +18,10 @@
 		<!-- 1.06:  Bring the lead havests to a comparable level then coal and nitrate -->
 		<!-- 1.07:	Add the receipe for the big garage door -->
 		<!-- 1.08:	Quicker scrapping -->
+		<!-- 1.09:	Add Amityville House or Horror and Logan's Bar to the world generator
+					The prefabs files must be mannually copied from mods/EricMods/Prefabs to Data/Prefabs -->
+		<!-- 1.10:	Add the Quicker-Fixe-Upper to and the receipe create it -->
+		<!-- 1.11:	rwgmixer tweaks -->
 
 		<!-- 
 
@@ -31,6 +35,8 @@
 		Line to add:
 
 garageDoorHouse,blocks,Block,KgNone,Large Garage Door,Grande porte de garage,,,,
+Quicker Fixer Upper,item,Items,New,Enhanced Nail Gun,,,,,
+Quicker Fixer UpperDesc,item,Items,New,"Repair and upgrade with speed!",,,,,
 
 		 -->
 	</ModInfo>

@@ -24,7 +24,7 @@
 		</lootprobtemplate>
 	</append>
 
-	<!-- Only keep editable food and food that can be used in recipies -->
+	<!-- Only keep edible food and food that can be used in recipies -->
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='airdropfood']">
 		<lootgroup name="airdropcannedfood">
 			<!-- <item name="foodCanBeef"/> -->
@@ -53,56 +53,129 @@
 	</append>
 	<setattribute xpath="/lootcontainers/lootcontainer[@id='34']/item[@group='ammo']" name="loot_prob_template">baseProbTemplate</setattribute>
 
-<!-- 
-<lootprobtemplates>
-	<lootprobtemplate name="baseProbTemplate">
-		<loot level="1,100" prob="0.25"/>
-		<loot level="101,200" prob="0.5"/>
-		<loot level="201,300" prob="0.75"/>
-		<loot level="301,999999" prob="1"/>
-	</lootprobtemplate>
-</lootprobtemplates>
+	<!-- Quicker Fixer Upper -->
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='questChallenge']">
 
-<lootcontainer id="34" count="4" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="baseTemplate">
-	<item group="cannedfood" count="3,5" prob="2"/>
-	<item group="weaponsMilitaryGuns+ammo" loot_prob_template="probTemplate1.0"/>
-	<item group="weaponsBasicGuns+ammo" prob=".6"/>
-	<item group="rareBooks" prob="0.2"/>
-	<item group="airdropMedicine" count="1,4" prob="0.2"/>
-	<item name="meleeToolFlashlight02" prob="0.2"/>
-	<item group="ammo" count="2" prob="0.2"/>
-</lootcontainer>
+		<!-- <lootgroup name="drillgun" count="all">
+			<item name="mayicDrillGun" count="1"/>
+			<item name="mayicDrillBattery" count="1,3"/>
+		</lootgroup> -->
+		
+		<lootgroup name="modMotorToolStuff" count="1">
+<!-- 			<item name="modReserveGasTank1"/>
+			<item name="modGasTank1"/>
+			<item name="modBetterHandles"/>	
+			<item name="modEngineTurbo1"/>		
+			<item name="modDiamondTip1"/>
+			<item name="modChainsawTemperedFrame1"/>			
+			<item name="modEngineTurbo2"/>
+			<item name="modGasTank2"/>		
+			<item name="modReserveGasTank2"/>		
+			<item name="modMotorToolExtension1"/>
+			<item name="modMotorToolExtension2"/>		
+			<item name="modDiamondTip2"/>	
+			<item name="modMotorToolSilencer"/>
+			<item name="modChainsawTemperedFrame2"/>		
+			<item name="modEngineTurbo3"/>
+			<item name="modGasTank3"/>
+			<item name="modReserveGasTank3"/>
+			<item name="modMotorToolExtension3"/>
+			<item name="modDiamondTip3"/>
+			<item name="modChainsawTemperedFrame3"/> -->
+			<item name="Quicker Fixer Upper"/>
+<!-- 			<item name="mayicDrillGun"/>
+			<item name="mayicDrillBattery"/> -->
+		</lootgroup>
+	</insertAfter>
 
-<lootgroup name="cannedfood">
-	<item name="foodCanBeef"/>
-	<item name="foodCanCatfood"/>
-	<item name="foodCanChicken"/>
-	<item name="foodCanChili"/>
-	<item name="foodCanDogfood"/>
-	<item name="foodCanHam"/>
-	<item name="foodCanLamb"/>
-	<item name="foodCanMiso"/>
-	<item name="foodCanPasta"/>
-	<item name="foodCanPeas"/>
-	<item name="foodCanSalmon"/>
-	<item name="foodCanSoup"/>
-	<item name="foodCanStock"/>
-	<item name="foodCanTuna"/>
-	<item name="foodCanPears"/>
-	<item name="foodHoney"/>
-	<item name="foodCornMeal"/>
-</lootgroup>
+	<append xpath="/lootcontainers/lootgroup[@name='rareBooks']">
+<!-- 			<item name="modEngineTurbo1Schematic"/>
+			<item name="modEngineTurbo2Schematic"/>
+			<item name="modEngineTurbo3Schematic"/>
+			<item name="modGasTank1Schematic"/>
+			<item name="modGasTank2Schematic"/>
+			<item name="modGasTank3Schematic"/>	
+			<item name="modReserveGasTank1Schematic"/>
+			<item name="modReserveGasTank2Schematic"/>		
+			<item name="modReserveGasTank3Schematic"/>
+			<item name="modMotorToolExtension1Schematic"/>
+			<item name="modMotorToolExtension2Schematic"/>
+			<item name="modMotorToolExtension3Schematic"/>
+			<item name="modDiamondTip1Schematic"/>
+			<item name="modDiamondTip2Schematic"/>	
+			<item name="modDiamondTip3Schematic"/>
+			<item name="modBetterHandlesSchematic"/>		
+			<item name="modMotorToolSilencerSchematic"/>
+			<item name="modChainsawTemperedFrame1Schematic"/>
+			<item name="modChainsawTemperedFrame2Schematic"/>
+			<item name="modChainsawTemperedFrame3Schematic"/> -->
+			<item name="Quicker Fixer Upper Schematic"/>
+	</append>
 
- -->
-<!-- <lootgroup name="ammoSteel" count="1">
-	<item name="ammoShotgunShell" count="1,10"/>
-	<item name="ammo9mmBulletSteel" count="5,25" prob="1.5"/>
-	<item name="ammo762mmBulletFMJSteel" count="5,25"/>
-	<item name="ammo44MagnumBulletSteel" count="5,17" prob="0.2"/>
-	<item name="ammoArrowSteelAP" count="8,16"/>
-	<item name="ammoCrossbowBoltSteelAP" count="8,16"/>
-</lootgroup>
- -->
+	<append xpath="lootcontainers/lootgroup[@name='tools']">
+			<!-- <item group="drillgun" prob=".2"/> -->
+			<item group="modMotorToolStuff" prob=".2"/>
+	</append>
+
+	<append xpath="lootcontainers/lootgroup[@name='rareTools']">
+			<!-- <item group="drillgun" prob=".5"/> -->
+			<item group="modMotorToolStuff" prob=".5"/>
+	</append>
+
+	<append xpath="lootcontainers/lootgroup[@name='questTools']">
+			<!-- <item group="drillgun" loot_prob_template="GradeBLoot"/> -->
+			<item group="modMotorToolStuff" loot_prob_template="GradeBLoot"/>
+	</append>
+
+	<append xpath="lootcontainers/lootgroup[@name='workingStiffs']">
+			<item group="modMotorToolStuff"/>
+	</append>
+
+	<!-- <append xpath="/lootcontainers/lootgroup[@name='modMeleeT1']">
+			<item name="modReserveGasTank1"/>
+			<item name="modGasTank1"/>
+			<item name="modBetterHandles"/>	
+			<item name="modEngineTurbo1"/>		
+			<item name="modDiamondTip1"/>
+			<item name="modChainsawTemperedFrame1"/>
+	</append>	 -->
+
+	<!-- <append xpath="/lootcontainers/lootgroup[@name='modMeleeT2']">	
+			<item name="modEngineTurbo2"/>
+			<item name="modGasTank2"/>		
+			<item name="modReserveGasTank2"/>		
+			<item name="modMotorToolExtension1"/>
+			<item name="modMotorToolExtension2"/>		
+			<item name="modDiamondTip2"/>	
+			<item name="modMotorToolSilencer"/>
+			<item name="modChainsawTemperedFrame2"/>
+	</append> -->
+
+	<!-- <append xpath="/lootcontainers/lootgroup[@name='modMeleeT3']">
+			<item name="modEngineTurbo3"/>
+			<item name="modGasTank3"/>
+			<item name="modReserveGasTank3"/>
+			<item name="modMotorToolExtension3"/>
+			<item name="modDiamondTip3"/>
+			<item name="modChainsawTemperedFrame3"/>
+	</append> -->
+
+
+	<!-- garage stuff, tools, etc -->
+	<append xpath="/lootcontainers/lootcontainer[@id='22']">
+		<item group="modMotorToolStuff" count="1" prob="0.005"/>
+	</append> 
+			
+	<!-- construction supplies shipping crate -->	
+	<!--  THIS MIGHT BE TOSSING AN ERROR?
+	<append xpath="/lootcontainers/lootcontainer[@id='88']">
+		<item group="modMotorToolStuff" count="1" prob="0.01"/>
+	</append>	
+	-->
+	<!-- cntCollapsedWorkbench -->
+	<append xpath="/lootcontainers/lootcontainer[@id='92']">
+		<item group="modMotorToolStuff" count="1" prob="0.01"/>
+	</append>
 
  	
  </ericmods>

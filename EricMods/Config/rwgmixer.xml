@@ -1,0 +1,24 @@
+<ericmods>
+	
+	<!-- Generate flatter worlds -->
+
+	<!-- Add Amityville Horror House to the mixer -->
+	<setattribute xpath="/rwgmixer/prefab_rules/prefab_rule[@name='residentialNew_Bldgs']/prefab[@name='house_new_06']" name="prob">0.25</setattribute>
+
+	<!-- <set xpath="/rwgmixer/prefab_rules/prefab_rule[@name='residentialNew_Bldgs']/prefab[@name='house_new_06']/@prob">0.25</set>
+	<append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='residentialNew_Bldgs']">
+		<prefab name="amityville_horror_house" prob="10" max_count="1"/>
+	</append> -->
+
+	<!-- Add Logan's bar to the mixer -->
+  	<append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='downtownGroup']">
+		<prefab name="logans_bar" prob="2" max_count="1"/>
+	</append>
+
+	<!-- Tweak the mixer to get more of what I like :-) -->
+	<set xpath="/rwgmixer/prefab_rules/prefab_rule[@name='industrial_Bldgs']/prefab[@name='factory_lg_01']/@prob">0.18</set>
+	<set xpath="/rwgmixer/prefab_rules/prefab_rule[@name='industrial_Bldgs']/prefab[@name='factory_lg_02']/@prob">0.5</set>
+	<set xpath="/rwgmixer/prefab_rules/prefab_rule[@name='commercialGroup']/prefab[@rule='storeGroup']/@max_count">6</set>
+
+
+</ericmods>
