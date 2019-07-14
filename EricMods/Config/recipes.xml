@@ -71,6 +71,26 @@
 			<ingredient name="resourceWood" count="10"/>
 		</recipe>
 
+		<!-- Add commercial doors -->
+		<recipe name="commercialDoor1_v1" count="1" craft_area="workbench" craft_time="30">
+				<ingredient name="resourceForgedIron" count="10"/>
+				<ingredient name="resourceSpring" count="2"/>
+				<ingredient name="resourceMechanicalParts" count="2"/>
+		</recipe>
+
+		<recipe name="commercialDoor2_v1" count="1" craft_area="workbench" craft_time="30">
+				<ingredient name="resourceForgedIron" count="10"/>
+				<ingredient name="resourceSpring" count="2"/>
+				<ingredient name="resourceMechanicalParts" count="2"/>
+		</recipe>
+
+		<recipe name="commercialDoor4_v1" count="1" craft_area="workbench" craft_time="30">
+				<ingredient name="resourceForgedIron" count="10"/>
+				<ingredient name="resourceSpring" count="2"/>
+				<ingredient name="resourceMechanicalParts" count="2"/>
+				<ingredient name="glassCTRSheet" count="1"/>
+		</recipe>
+
 	</append>
 
 
