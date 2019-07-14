@@ -82,7 +82,7 @@
 			<item name="modMotorToolExtension3"/>
 			<item name="modDiamondTip3"/>
 			<item name="modChainsawTemperedFrame3"/> -->
-			<item name="Quicker Fixer Upper"/>
+			<item name="Quicker Fixer Upper Schematic"/>
 <!-- 			<item name="mayicDrillGun"/>
 			<item name="mayicDrillBattery"/> -->
 		</lootgroup>
@@ -114,21 +114,24 @@
 
 	<append xpath="lootcontainers/lootgroup[@name='tools']">
 			<!-- <item group="drillgun" prob=".2"/> -->
-			<item group="modMotorToolStuff" prob=".2"/>
+			<!-- <item group="modMotorToolStuff" prob=".05"/> -->
+			<item name="Quicker Fixer Upper Schematic" loot_prob_template="probTemplate0.5"/>
 	</append>
 
 	<append xpath="lootcontainers/lootgroup[@name='rareTools']">
 			<!-- <item group="drillgun" prob=".5"/> -->
-			<item group="modMotorToolStuff" prob=".5"/>
+			<!-- <item group="modMotorToolStuff" prob=".2"/> -->
+		<item name="Quicker Fixer Upper Schematic" loot_prob_template="probTemplate0.75"/>
 	</append>
 
 	<append xpath="lootcontainers/lootgroup[@name='questTools']">
 			<!-- <item group="drillgun" loot_prob_template="GradeBLoot"/> -->
-			<item group="modMotorToolStuff" loot_prob_template="GradeBLoot"/>
+			<item name="Quicker Fixer Upper Schematic" loot_prob_template="GradeBLoot"/>
 	</append>
 
 	<append xpath="lootcontainers/lootgroup[@name='workingStiffs']">
-			<item group="modMotorToolStuff"/>
+			<!-- <item group="modMotorToolStuff"/> -->
+		<item name="Quicker Fixer Upper Schematic" loot_prob_template="probTemplate0.75"/>
 	</append>
 
 	<!-- <append xpath="/lootcontainers/lootgroup[@name='modMeleeT1']">
@@ -163,19 +166,29 @@
 
 	<!-- garage stuff, tools, etc -->
 	<append xpath="/lootcontainers/lootcontainer[@id='22']">
-		<item group="modMotorToolStuff" count="1" prob="0.005"/>
+		<!-- <item group="modMotorToolStuff" count="1" prob="0.005"/> -->
+		<item name="Quicker Fixer Upper Schematic" prob="0.005"/>
 	</append> 
 			
 	<!-- construction supplies shipping crate -->	
 	<!--  THIS MIGHT BE TOSSING AN ERROR?
-	<append xpath="/lootcontainers/lootcontainer[@id='88']">
-		<item group="modMotorToolStuff" count="1" prob="0.01"/>
-	</append>	
 	-->
+	<append xpath="/lootcontainers/lootcontainer[@id='88']">
+		<!-- <item group="modMotorToolStuff" count="1" prob="0.01"/> -->
+		<item name="Quicker Fixer Upper Schematic" prob="0.01"/>
+	</append>	
 	<!-- cntCollapsedWorkbench -->
 	<append xpath="/lootcontainers/lootcontainer[@id='92']">
-		<item group="modMotorToolStuff" count="1" prob="0.01"/>
+		<!-- <item group="modMotorToolStuff" count="1" prob="0.01"/> -->
+		<item name="Quicker Fixer Upper Schematic" prob="0.01"/>
 	</append>
 
+	<!-- Add more gas in the gas pumps -->
+	<!-- <lootcontainer id="64" count="30,500" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="baseTemplate"> -->
+	<!-- <lootgroup name="gasPumps" >
+		<item name="ammoGasCan"/>
+	</lootgroup> -->
+	<setattribute xpath="/lootcontainers/lootcontainer[@id='64']" name="count">1,2</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='gasPumps']/item[@name='ammoGasCan']" name="count">25,200</setattribute>
  	
  </ericmods>

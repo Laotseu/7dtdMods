@@ -5,7 +5,7 @@
 		<Name value="EricMods" />
 		<Description value="Stuff I've added to the game." />
 		<Author value="Eric Beaudoin" />
-		<Version value="1.11" />
+		<Version value="1.13" />
 		<!-- 1.00: 	Make door frames and window trims available to players
 					(including receipes) -->
 		<!-- 1.01:	Schematics stack to 5
@@ -20,8 +20,12 @@
 		<!-- 1.08:	Quicker scrapping -->
 		<!-- 1.09:	Add Amityville House or Horror and Logan's Bar to the world generator
 					The prefabs files must be mannually copied from mods/EricMods/Prefabs to Data/Prefabs -->
-		<!-- 1.10:	Add the Quicker-Fixe-Upper to and the receipe create it -->
+		<!-- 1.10:	Add the Quicker-Fixer-Upper to and the receipe create it -->
 		<!-- 1.11:	rwgmixer tweaks -->
+		<!-- 1.12:	Remove the random drop for the Quicker-Fixer-Upper and replace it with drop for the schematic.
+					Also, make the schematic harder to get then the regular nailgun. -->
+		<!-- 1.13:	More gas in the gas pump -->
+		<!-- x.xx:  More stores -->
 
 		<!-- 
 
