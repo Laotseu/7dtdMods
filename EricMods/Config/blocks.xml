@@ -37,5 +37,16 @@
 	<set xpath="/blocks/block[@name='terrOreLead']/drop[@event='Harvest' and @name='resourceScrapLead']/@count">44</set>
 	<set xpath="/blocks/block[@name='rockResource']/drop[@event='Harvest' and @name='resourceScrapLead']/@count">11</set>
 	<set xpath="/blocks/block[@name='rockResource']/drop[@event='Harvest' and @name='resourceScrapLead']/@prob">0.66</set>
-²stalactite01
+
+	<!-- Fix the house doors economic value -->
+	<append xpath="/blocks/block[@name='houseFrontDoor1_v1']">
+		<property name="EconomicValue" value="5"/>
+		<property name="EconomicBundleSize" value="10"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='houseFrontDoor2_v1']">
+		<property name="EconomicValue" value="5"/>
+		<property name="EconomicBundleSize" value="10"/>
+	</append>
+
 </ericmods>

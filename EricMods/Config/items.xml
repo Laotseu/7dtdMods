@@ -134,6 +134,50 @@
 			</effect_group>
 		</item>	
 	</insertAfter>
+
+	<!-- Make bottles scrap into empty bottles -->
+		<!-- <property name="Material" value="drinkJarEmpty"/> <property name="Weight" value="1"/> -->
+	<!-- <set xpath="/items/item[@name='drinkJarBeer']/property[@name='Material']/@value">MdrinkJarEmpty</set>	 -->
+	<!-- <set xpath="/items/item[@name='drinkJarBeer']/property[@name='Weight']/@value">1</set>	 -->
+
+	<!-- <item name="drinkJarBeer">
+		<property name="HoldType" value="3"/>
+		<property name="Meshfile" value="Items/Food/bottled_waterPrefab"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="Material" value="Mglass"/>
+		<property name="Weight" value="10"/>
+		<property name="Stacknumber" value="15"/> <!- - STK drink - ->
+		<property name="EconomicValue" value="100"/>
+		<property class="Action0">
+			<property name="Class" value="Eat"/>
+			<property name="Delay" value="2"/>
+			<property name="Use_time" value="..."/>
+			<property name="Sound_start" value="player_drinking"/>
+			<property name="Create_item" value="drinkJarEmpty"/>
+		</property>
+		<effect_group tiered="false">
+			<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffBeer"/>
+		</effect_group>
+
+		<effect_group tiered="false">
+			<requirement name="HasBuff" buff="buffIsOnFire"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" target="self" buff="buffExtinguishFire"/>
+		</effect_group>
+	</item> -->
+
+	<!-- <insertAfter  xpath="/items/item[@name='drinkJarBeer']/property[@class='Action0']">
+		
+		<property class="Action1"> <!- - UseAction - ->
+			<property name="Class" value="ExchangeItem"/>
+			<property name="Delay" value="0.1"/>
+			<property name="Change_item_to" value="drinkJarEmpty"/>
+			<property name="Sound_start" value="bucketplace_water"/>
+		</property>
+
+	</insertAfter> -->
+
+
 		
 
 </ericmods>

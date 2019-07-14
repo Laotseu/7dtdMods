@@ -1,0 +1,24 @@
+<ericmods>
+	
+	<!-- Needed to make full glass jars scrap to emplty glass jars -->
+	<insertAfter xpath="/materials/material[@id='Mglass']">
+
+		<material id="MdrinkJarEmpty">
+			<property name="damage_category" value="glass"/>
+			<property name="surface_category" value="glass"/>
+			<property name="forge_category" value="drinkJarEmpty"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="lightopacity" value="1"/>
+			<property name="stepsound" value="metal"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		
+	</insertAfter>
+
+ </ericmods>

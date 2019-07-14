@@ -5,7 +5,7 @@
 		<Name value="EricMods" />
 		<Description value="Stuff I've added to the game." />
 		<Author value="Eric Beaudoin" />
-		<Version value="1.13" />
+		<Version value="1.14" />
 		<!-- 1.00: 	Make door frames and window trims available to players
 					(including receipes) -->
 		<!-- 1.01:	Schematics stack to 5
@@ -25,6 +25,8 @@
 		<!-- 1.12:	Remove the random drop for the Quicker-Fixer-Upper and replace it with drop for the schematic.
 					Also, make the schematic harder to get then the regular nailgun. -->
 		<!-- 1.13:	More gas in the gas pump -->
+		<!-- 1.14:	Make house doors available to players (including receipes) -->
+		<!-- x.xx:	Scraping bottles that contain liquid drop empty bottles instead of glass -->
 		<!-- x.xx:  More stores -->
 
 		<!-- 
@@ -41,6 +43,7 @@
 garageDoorHouse,blocks,Block,KgNone,Large Garage Door,Grande porte de garage,,,,
 Quicker Fixer Upper,item,Items,New,Enhanced Nail Gun,,,,,
 Quicker Fixer UpperDesc,item,Items,New,"Repair and upgrade with speed!",,,,,
+
 
 		 -->
 	</ModInfo>

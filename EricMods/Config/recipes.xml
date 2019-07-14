@@ -62,6 +62,14 @@
 			<ingredient name="resourceScrapPolymers" count="5"/>
 		</recipe>
 
+		<!-- Add House doors -->
+		<recipe name="houseFrontDoor1_v1" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="houseFrontDoor2_v1" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
 
 	</append>
 
