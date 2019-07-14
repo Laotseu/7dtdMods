@@ -1,11 +1,13 @@
 <ericmods>
 	
-	<!-- Add exploding crossbow bolts to the loot table -->
+	<!-- Add exploding crossbow bolts and flaming arrows to the loot table -->
 	<append xpath="/lootcontainers/lootgroup[@name='ammo']">
 		<item name="ammoCrossbowBoltExploding" count="5,10" prob="0.1"/>
+		<item name="ammoArrowFlaming" count="5,10" prob="0.1"/>
 	</append>
 	<append xpath="/lootcontainers/lootgroup[@name='ammoSteel']">
 		<item name="ammoCrossbowBoltExploding" count="5,10" prob="0.1"/>
+		<item name="ammoArrowFlaming" count="5,10" prob="0.1"/>
 	</append>
 
 	<!-- Air drops: the can food stuff will be lowered and amo will be raisedd as the loot level goes up 
@@ -189,6 +191,6 @@
 		<item name="ammoGasCan"/>
 	</lootgroup> -->
 	<setattribute xpath="/lootcontainers/lootcontainer[@id='64']" name="count">1,2</setattribute>
-	<setattribute xpath="/lootcontainers/lootgroup[@name='gasPumps']/item[@name='ammoGasCan']" name="count">25,200</setattribute>
+	<setattribute xpath="/lootcontainers/lootgroup[@name='gasPumps']/item[@name='ammoGasCan']" name="count">25,100</setattribute>
  	
  </ericmods>

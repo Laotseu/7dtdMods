@@ -5,7 +5,7 @@
 		<Name value="EricMods" />
 		<Description value="Stuff I've added to the game." />
 		<Author value="Eric Beaudoin" />
-		<Version value="1.15" />
+		<Version value="1.16" />
 		<!-- 1.00: 	Make door frames and window trims available to players
 					(including receipes) -->
 		<!-- 1.01:	Schematics stack to 5
@@ -27,6 +27,9 @@
 		<!-- 1.13:	More gas in the gas pump -->
 		<!-- 1.14:	Make house doors available to players (including receipes) -->
 		<!-- 1.15: 	Make commercial doors available to players (including receipes) -->
+		<!-- 1.16:	Remove the auger and chainsaw modifications. Let's use 330's PowerToolsMod instead.
+					Flaming Arrows have a small chance to be found in amo loot and 
+					can somtimes be bought from the traders. -->
 		<!-- x.xx:	Scraping bottles that contain liquid drop empty bottles instead of glass -->
 		<!-- x.xx:  More stores -->
 
