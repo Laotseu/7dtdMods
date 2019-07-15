@@ -1,7 +1,7 @@
 <ericmods>
 	
 	<!-- Needed to make full glass jars scrap to emplty glass jars -->
-	<insertAfter xpath="/materials/material[@id='Mglass']">
+	<!-- <insertAfter xpath="/materials/material[@id='Mglass']">
 
 		<material id="MdrinkJarEmpty">
 			<property name="damage_category" value="glass"/>
@@ -19,6 +19,6 @@
 			<property name="Experience" value="2"/>
 		</material>
 		
-	</insertAfter>
+	</insertAfter> -->
 
  </ericmods>

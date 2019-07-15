@@ -1,7 +1,7 @@
 <ericmods>
 
 	<!-- Stack mods up to 5 -->
-	<set xpath="/item_modifiers/item_modifier/property[@name='Stacknumber']/@value">5</set>
+	<!-- <set xpath="/item_modifiers/item_modifier/property[@name='Stacknumber']/@value">5</set> -->
 	<!-- This doesn't work because the game doesn't display the stack number for attachments -->
 
 <!-- 	<item_modifier name="modGunBarrelExtender" installable_tags="barrelAttachments" modifier_tags="barrelAttachment" type="attachment">
