@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <prefab>
     <property name="CopyAirBlocks" value="True" />
-    <property name="AllowTopSoilDecorations" value="False" />
+    <property name="AllowTopSoilDecorations" value="True" />
     <property name="TraderArea" value="False" />
     <property name="ExcludeDistantPOIMesh" value="False" />
     <property name="ExcludePOICulling" value="False" />
-    <property name="DifficultyTier" value="1" />
+    <property name="DifficultyTier" value="4" />
     <property name="Zoning" value="Commercial,Downtown" />
     <property name="RotationToFaceNorth" value="2" />
     <property name="YOffset" value="-5" />
@@ -14,8 +14,9 @@
     <property name="EditorGroups" value="commercial, downtown" />
     <property name="SleeperVolumeStart" value="43, -1, 35#11, 5, 32#63, 5, 32#23, 5, 46#12, 5, 9#1, 12, 0#40, -1, 11#9, -1, 36#9, -1, 11#47, -1, 11" />
     <property name="SleeperVolumeSize" value="32, 6, 24#13, 6, 28#13, 6, 28#41, 6, 13#57, 6, 35#82, 3, 73#7, 5, 23#34, 5, 23#31, 5, 23#28, 5, 23" />
-    <property name="SleeperVolumeGroup" value="S_-Generic_Zombie,6,10,S_-_Group_Biker_Bar,2,6,S_-_Group_Biker_Bar,2,6,S_-Generic_Zombie,3,9,S_-_Group_Biker_Bar,6,12,S_-_Group_Biker_Bar,8,12,S_-_Group_Zom_Badass,3,12,S_-Generic_Zombie,3,12,S_-Generic_Zombie,3,12,S_-Generic_Zombie,4,12" />
+    <property name="SleeperVolumeGroup" value="S_-Generic_Zombie,12,16,S_-_Group_Biker_Bar,2,6,S_-_Group_Biker_Bar,2,6,S_-Generic_Zombie,6,9,S_-_Group_Biker_Bar,10,16,S_-_Group_Biker_Bar,12,16,S_-_Group_Zom_Badass,9,16,S_-Generic_Zombie,7,12,S_-Generic_Zombie,6,12,S_-Generic_Zombie,4,12" />
     <property name="SleeperVolumeGameStageAdjust" value="" />
     <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False" />
     <property name="SleeperIsBossVolume" value="False,False,False,False,False,False,False,False,False,False" />
+    <property name="QuestTags" value="clear,fetch,hidden_cache" />
 </prefab>
