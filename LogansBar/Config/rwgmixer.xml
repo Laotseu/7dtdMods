@@ -1,0 +1,8 @@
+<logansbar>
+	
+	<!-- Add Logan's bar to the mixer -->
+  	<append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='downtownGroup']">
+		<prefab name="logans_bar" prob="2" max_count="1"/>
+	</append>
+
+</logansbar>
