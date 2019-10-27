@@ -1,0 +1,12 @@
+<storagesize>
+
+	<!-- Nightstands, dressers, and wooden desks -->
+	<setattribute xpath="/lootcontainers/lootcontainer[@id='6']" name="size">8,9</setattribute>
+	<!-- Cabinets and cupboards -->
+	<setattribute xpath="/lootcontainers/lootcontainer[@id='17']" name="size">8,9</setattribute>
+	<!-- Bookcases -->
+	<setattribute xpath="/lootcontainers/lootcontainer[@id='49']" name="size">8,9</setattribute>
+	<!-- Pillcases -->
+	<setattribute xpath="/lootcontainers/lootcontainer[@id='51']" name="size">8,9</setattribute>
+
+ </storagesize>

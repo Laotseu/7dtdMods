@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="StorageSize" />
+		<Description value="Make the capacity of craftable storage blocks the same as the Secure Chest." />
+		<Author value="Eric Beaudoin" />
+		<Version value="1.00" />
+		<!-- 1.00: 	 -->
+
+		<!-- Tested with 7 Days to Die Alpha 18.1 -->
+		
+	</ModInfo>
+</xml>
