@@ -2,7 +2,15 @@
 	
 	<!-- Add Logan's bar to the mixer -->
   	<append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='downtownGroup']">
-		<prefab name="logans_bar" prob="2" max_count="1"/>
+		<prefab name="../../Mods/LogansBar/Prefabs/logans_bar" prob="2" max_count="1"/>
+	</append>
+
+	<!-- Add Logan's bar to the mixer -->
+  	<append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='bigcitytownPOIS']">
+		<prefab name="../../Mods/LogansBar/Prefabs/logans_bar" prob="5" min_repeat_distance="500"/>
+	</append>
+  	<append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='newtownPOIS']">
+		<prefab name="../../Mods/LogansBar/Prefabs/logans_bar" prob="5" min_repeat_distance="500"/>
 	</append>
 
 </logansbar>

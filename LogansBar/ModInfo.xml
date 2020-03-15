@@ -4,15 +4,16 @@
 	<ModInfo>
 		<Name value="Logan's Bar" />
 		<Description value="Adding Logan's bar to your random world generator." />
-		<Author value="Eric Beaudoin" />
-		<Version value="1.17" />
-		<!-- 1.00: 	First versio of the mod.
+		<Author value="Logan, Éric Beaudoin" />
+		<Version value="1.1" />
+		<!-- 1.0: 	First versio of the mod.
 					The prefab is complete with sleepers, long distnace mesh, and quest loot.	-->
-
+		<!-- 1.1:	Make the bar works for 18.4
+					No longer need to copy files to the game Prefabs-->
 		<!-- 
 
 		See the ReadMe.md file for instructions on how to install and use the mod.
-		
+
 		-->
 	</ModInfo>
 </xml>

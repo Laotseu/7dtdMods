@@ -4,17 +4,15 @@ Installation
 For stand alone PC installation
 -------------------------------
 
-Copy the files located from the mod Prefabs folder into your local 7 Day do Die `Data/Prefabs` folder.
-
 Copy the LogansBar folder into your 7 Days do Die `Mods` folder.
 
 
 For dedicated server installation
 ---------------------------------
 
-It's pretty much the same thing then the stand alone PC installation, you copy the mod folder into the server `Mods` folder and the prefab files into the server `Data/Prefabs` folder.
+It's pretty much the same thing then the stand alone PC installation, you copy the mod folder into the server `Mods` folder. 
 
-**Important:** Each player must also install the prefab files locally as they would do for the stand alone PC installtion.
+There should be no need for the players to install the modlet, the require games files will be downloaded from the server when the players connect to the game.
 
 * [More information on how to install modlets](https://7daystodie.gamepedia.com/How_to_Install_Modlets)
 
