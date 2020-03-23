@@ -5,11 +5,12 @@
 		<Name value="Logan's Bar" />
 		<Description value="Adding Logan's bar to your random world generator." />
 		<Author value="Logan, Éric Beaudoin" />
-		<Version value="1.1" />
+		<Version value="1.2" />
 		<!-- 1.0: 	First versio of the mod.
 					The prefab is complete with sleepers, long distnace mesh, and quest loot.	-->
 		<!-- 1.1:	Make the bar works for 18.4
-					No longer need to copy files to the game Prefabs-->
+					No longer need to copy files to the game Prefabs -->
+		<!-- 1.2:	Added a secret entrance for the Speakeasy (hidden in a toilet stall) -->
 		<!-- 
 
 		See the ReadMe.md file for instructions on how to install and use the mod.
