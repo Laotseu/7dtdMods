@@ -3,12 +3,15 @@
 <xml>
 	<ModInfo>
 		<Name value="StorageSize" />
-		<Description value="Make the capacity of craftable storage blocks the same as the Secure Chest." />
+		<Description value="Make the capacity of craftable and buyable storage blocks the same as the Secure Chest." />
 		<Author value="Eric Beaudoin" />
-		<Version value="1.00" />
-		<!-- 1.00: 	 -->
+		<Version value="1.03" />
+		<!-- 1.00: 	Orinal version (Nightstands, dressers, wooden desks, cabinets, cupboards, bookcases, and pillcases). -->
+		<!-- 1.01:  Added military munitions ammo boxes and lockers. -->
+		<!-- 1.02:  Added file cabinets -->
+		<!-- 1.03:  Added desk and wall safes -->
 
-		<!-- Tested with 7 Days to Die Alpha 18.1 -->
+		<!-- Tested with 7 Days to Die Alpha 18.4 -->
 		
 	</ModInfo>
 </xml>
