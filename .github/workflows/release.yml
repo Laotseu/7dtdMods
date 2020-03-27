@@ -4,12 +4,16 @@ on:
     tags:
     - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
 
+  watch:
+    types: [started]
+
 name: Upload Release Asset
 
 jobs:
   build:
     name: Upload Release Asset
     runs-on: ubuntu-latest
+    if: github.actor == github.event.repository.owner.login
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
