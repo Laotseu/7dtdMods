@@ -7,12 +7,13 @@ Included Files
 --------------
 
 The following files and directories are included in the .ZIP package
-- `Modlet readme.md`  (the file you are reading right now)
-- `Mods\EricsGoods `  (Contains everything you need to copy to your game or server Mods directory)  
--- `ModInfo.xml     `  (Allow the mod to load, contain version information)
--- `Config          `  (Files that modify the game XML)
--- `Prefabs         `  (The actual POI files)
+- `Modlet readme.md` (The file you are reading right now)
+- `Mods\EricsGoods` (Contains everything you need to copy to your game or server Mods directory)  
+  - `ModInfo.xml` (Allow the mod to load, contain version information)
+  - `Config` (Files that modify the game XML)
+  - `Prefabs` (The actual POI files)
 
+For the latest version of the modlet, visit my [7dtdMods GitHub repository](https://github.com/Laotseu/7dtdMods)
 
 For stand-alone PC installation
 -------------------------------
@@ -38,8 +39,8 @@ Once the mod is installed, randomly generated worlds will have a chance to spawn
 
 As you may guess, this will only work with newly generated worlds. Any world that was generated before you installed the mod will not spawn the castle. You will also need to start a new game in order to use that new world.
 
-How to see if the Castle actually spawned in my generated world
-===============================================================
+How to see if the POI actually spawned in my generated world
+============================================================
 
 Once the world is generated, you will find a folder with the world name near where the save games are located. On my PC, the folder for the generated worlds is `%APPDATA%\7DaysToDie\GeneratedWorlds`. (I'm using a Windows 10 box.) For dedicated servers, you might find the folder by looking at the **UserDataFolder** in the **serverconfig.xml** file. You will need to find where that folder is on your PC or Server. 
 
