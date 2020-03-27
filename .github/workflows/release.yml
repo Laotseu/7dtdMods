@@ -30,8 +30,9 @@ jobs:
         uses: ncipollo/release-action@v1.6.1
         with:
           name: $ZIPNAME
+          tag: $ZIPNAME
           bodyFile: release.md
-          artifact: $ZIPNAME.zip
+          artifacts: $ZIPNAME.zip
           artifactContentType: application/zip
           draft: true
           prerelease: false
