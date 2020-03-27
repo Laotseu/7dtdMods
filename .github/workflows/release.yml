@@ -29,10 +29,10 @@ jobs:
         id: create_release
         uses: ncipollo/release-action@v1.6.1
         with:
-          name: $ZIPNAME
-          tag: $ZIPNAME
+          name: ${{ github.ref }}
+          tag: ${{ github.ref }}
           bodyFile: release.md
-          artifacts: $ZIPNAME.zip
+          artifacts: "*.zip"
           artifactContentType: application/zip
           draft: true
           prerelease: false
