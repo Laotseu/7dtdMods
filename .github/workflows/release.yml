@@ -24,7 +24,7 @@ jobs:
           mv ./EricsGoods/Modlet\ readme.md .
           mv ./EricsGoods/release.md .
           mv ./EricsGoods ./Mods
-          zip -r $ZIPNAME Mods Modlet\ readme.md release.md
+          zip -r ${GITHUB_REF##*/} Mods Modlet\ readme.md release.md
       - name: Create Release
         id: create_release
         uses: ncipollo/release-action@v1.6.1
