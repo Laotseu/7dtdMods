@@ -20,7 +20,7 @@ jobs:
       - name: Build project # This would actually build your project, using zip for an example artifact
         run: |
           mkdir ./Mods
-          mv './EricsGoods/Modlet readme.md' .
+          mv ./EricsGoods/Modlet\ readme.md .
           mv ./EricsGoods ./Mods
           zip -r EricsGoods Mods
       - name: Create Release
