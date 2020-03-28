@@ -4,8 +4,8 @@ on:
     tags:
     - 'EricsGoods_v*' # Push events to matching EricsGoods_vv*, i.e. EricsGoods_v1.0, EricsGoods_v20.15.10
 
-  watch:
-    types: [started]
+  #watch:
+  #  types: [started]
 
 name: Upload Release Asset
 
@@ -32,7 +32,6 @@ jobs:
           mv ./EricsGoods/Release\ Notes.md .
           mv ./EricsGoods ./Mods
           zip -r ${ZIPNAME} Mods Modlet\ readme.md Release\ Notes.md
-          ls -lsa .
       - name: Create Release
         id: create_release
         uses: ncipollo/release-action@v1.6.1
