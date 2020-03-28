@@ -21,7 +21,7 @@ Replaced the in game Eric's Stuff (oldwest_business_07) with Eric's Goods to add
 Logan's Bar (Alpha 18)
 ======================
 
-Custom POI created by Logan with some improvement by myself to make run as modlet.
+Custom POI created by my friend Logan J. Hunter with some improvement by myself to make run as modlet.
 
 EricMods (Alpha 17)
 ===================
