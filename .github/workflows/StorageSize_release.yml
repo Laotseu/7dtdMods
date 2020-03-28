@@ -7,7 +7,7 @@ on:
   watch:
     types: [started]
 
-name: Upload Release Asset
+name: Prepare StorageSize draft release
 
 jobs:
   build:
