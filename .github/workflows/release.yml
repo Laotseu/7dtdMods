@@ -39,7 +39,7 @@ jobs:
         with:
           name: ${{ env.RELEASE_NAME }}
           tag: ${{ github.ref }}
-          bodyFile: release.md
+          bodyFile: Release Notes.md
           artifacts: "./*.zip"
           artifactContentType: application/zip
           draft: true
