@@ -1,0 +1,114 @@
+<ericmods>
+
+	<append xpath="/recipes">
+		<!-- Added recepies to be able to craft door frames and window trims -->
+		<recipe name="doorFrameWhite1" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="doorFrameWhite2" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="doorTrim2m" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="doorTrimTop" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="doorFrameMetal1" count="1" craft_area="tablesaw">
+			<ingredient name="resourceForgedIron" count="7"/>
+		</recipe>
+
+		<recipe name="woodWindowTrim" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="woodWindowTrimBottom" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="woodWindowTrimSides" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="woodWindowTrimTop" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="woodWindowTrimTopFancy" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="doorFrameMetal2" count="1" craft_area="tablesaw">
+			<ingredient name="resourceForgedIron" count="7"/>
+		</recipe>
+
+		<!-- Add House doors -->
+		<recipe name="houseFrontDoor1_v1" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<recipe name="houseFrontDoor2_v1" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="10"/>
+		</recipe>
+
+		<!-- Add commercial doors -->
+		<recipe name="commercialDoor1_v1" count="1" craft_area="workbench" craft_time="30">
+				<ingredient name="resourceForgedIron" count="10"/>
+				<ingredient name="resourceSpring" count="2"/>
+				<ingredient name="resourceMechanicalParts" count="2"/>
+		</recipe>
+
+		<recipe name="commercialDoor2_v1" count="1" craft_area="workbench" craft_time="30">
+				<ingredient name="resourceForgedIron" count="10"/>
+				<ingredient name="resourceSpring" count="2"/>
+				<ingredient name="resourceMechanicalParts" count="2"/>
+		</recipe>
+
+		<recipe name="commercialDoor4_v1" count="1" craft_area="workbench" craft_time="30">
+				<ingredient name="resourceForgedIron" count="10"/>
+				<ingredient name="resourceSpring" count="2"/>
+				<ingredient name="resourceMechanicalParts" count="2"/>
+				<ingredient name="glassCTRSheet" count="1"/>
+		</recipe>
+
+		<!-- Add missing gable blocks -->
+		<recipe name="woodGable" count="1" craft_area="workbench">
+				<ingredient name="resourceWood" count="6"/>
+		</recipe>
+
+		<recipe name="woodGable1m" count="1" craft_area="workbench">
+				<ingredient name="resourceWood" count="6"/>
+		</recipe>
+		
+		<recipe name="woodGable1mhalf" count="1" craft_area="workbench">
+				<ingredient name="resourceWood" count="6"/>
+		</recipe>
+		
+		<!-- 
+			woodGable,,blocks,Block,newKey,wood Gable,,,,,
+			woodGable1m,,blocks,Block,newKey,Wood Gable 1m,,,,,
+			woodGable1mhalf,,blocks,Block,newKey,Wood Gable 1m half,,,,,
+			woodGable3Quarter,,blocks,Block,newKey,Wood Gable 3 Quarter,,,,,
+			woodGable3quarterhalf,,blocks,Block,newKey,Wood Gable 3 quarter half,,,,,
+			woodGablehalf,,blocks,Block,newKey,Wood Gable half,,,,,
+			woodGableInvertedHalf,,blocks,Block,newKey,Wood Gable Inverted Half,,,,,
+			woodGableInvertedQuarter,,blocks,Block,newKey,Wood Gable Inverted Quarter,,,,,
+			woodGableInvertedQuarterHalf,,blocks,Block,newKey,Wood Gable Inverted Quarter Half,,,,,
+			woodGableInvertedRampHalf,,blocks,Block,newKey,Wood Gable Inverted Ramp Half,,,,,
+			woodGableInvertedSteep,,blocks,Block,newKey,Wood Gable Inverted Steep,,,,,
+			woodGableInvertedSteepHalf,,blocks,Block,newKey,Wood Gable Inverted Steep Half,,,,,
+			woodGablePyramid,,blocks,Block,newKey,Wood Gable Pyramid,,,,,
+			woodGablePyramidDesc,,blocks,Block,newKey,This block ends a consecutive row of gable blocks with a pyramid.,,,,,
+			woodGableQuarter,,blocks,Block,newKey,Wood Gable Quarter,,,,,
+			woodGablequarterhalf,,blocks,Block,newKey,Wood Gable quarter half,,,,,
+			 -->
+
+	</append>
+
+
+	
+</ericmods>

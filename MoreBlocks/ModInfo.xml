@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="MoreBlocks" />
+		<Description value="Add recipies for blocks that are missing." />
+		<Author value="Eric Beaudoin" />
+		<Version value="1.01" />
+		<!-- 1.00: 	Make door frames, window trims, and more doors available to players
+					(including recipes) -->
+		<!-- 1.01:  Make missing gable block available (including recipes) -->
+		
+	</ModInfo>
+</xml>

@@ -1,0 +1,79 @@
+<moreblocks>
+	
+	<!-- Wood door frames now can be upgraded to metal door frames -->
+	<set xpath="/blocks/block[@name='doorFrameWhite1']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">doorFrameMetal1</set>
+	<set xpath="/blocks/block[@name='doorFrameWhite1']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceForgedIron</set>
+	<set xpath="/blocks/block[@name='doorFrameWhite1']/property[@class='UpgradeBlock']/property[@name='ItemCount']/@value">7</set>
+	<set xpath="/blocks/block[@name='doorFrameWhite2']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">doorFrameMetal2</set>
+<!-- 	No need for that since it is inherited from doorFrameWhite1
+	<set xpath="/blocks/block[@name='doorFrameWhite2']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceForgedIron</set>
+	<set xpath="/blocks/block[@name='doorFrameWhite2']/property[@class='UpgradeBlock']/property[@name='ItemCount']/@value">7</set>
+
+ -->	
+ 	<!-- Metal door frames can no longer be upgraded to boarded metal door frames -->
+	<remove xpath="/blocks/block[@name='doorFrameMetal1']/property[@class='UpgradeBlock']" />
+	<remove xpath="/blocks/block[@name='doorFrameMetal2']/property[@class='UpgradeBlock']" />
+	
+	<!-- Metal door frames can be downgraded to wood door frames -->
+	<append xpath="/blocks/block[@name='doorFrameMetal1']">
+		<property name="DowngradeBlock" value="doorFrameWhite1"/>
+	</append>
+	<append xpath="/blocks/block[@name='doorFrameMetal2']">
+		<property name="DowngradeBlock" value="doorFrameWhite2"/>
+	</append>
+
+	<!-- Fix the house doors economic value -->
+	<append xpath="/blocks/block[@name='houseFrontDoor1_v1']">
+		<property name="EconomicValue" value="5"/>
+		<property name="EconomicBundleSize" value="10"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='houseFrontDoor2_v1']">
+		<property name="EconomicValue" value="5"/>
+		<property name="EconomicBundleSize" value="10"/>
+	</append>
+
+	<!-- Wood gable upgrades -->
+	<set xpath="/blocks/block[@name='woodGable']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">rWoodGable</set>
+
+	<append xpath="/blocks/block[@name='rWoodGable']">
+		<property name="Extends" value="rWoodMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="wedge_tip_half"/>
+		<property name="SortOrder2" value="0440"/> <!-- SortShape -->
+		<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneGaboe"/> </property>
+		<property name="DowngradeBlock" value="woodGable"/>
+	</append>
+
+
+	<!-- test frame -->
+<!-- 	<append xpath="/blocks/block[@name='woodFrameGableQuarter']">
+		<property name="Extends" value="woodFrameMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="wedge_tip_quarter"/>
+		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+		<property name="SortOrder2" value="0390"/> 
+		<property class="UpgradeBlock"> <property name="ToBlock" value="woodGableQuarter"/> </property>
+		<drop event="Fall" count="0" prob="0"/>
+	</append>
+	<block name="woodGable">
+		<property name="Extends" value="woodNoUpgradeMaster"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="wedge_tip_half"/>
+		<property name="SortOrder2" value="0250"/> 
+	</block>
+ -->
+<!-- 	<append xpath="/blocks/block[@name='woodFrameGable']">
+		<property name="Extends" value="woodFrameMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="Shape" value="New"/>
+		<property name="Model" value="wedge_tip_half"/>
+		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+		<property name="SortOrder2" value="0250"/> 
+		<property class="UpgradeBlock"> <property name="ToBlock" value="woodGable"/> </property>
+		<drop event="Fall" count="0" prob="0"/>
+	</append> -->
+
+</moreblocks>
