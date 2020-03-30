@@ -2,8 +2,8 @@ on:
   release:
     # types: [created]    
     # Sequence of patterns matched against refs/tags
-    # tags:
-    # - 'MoreBlocks_v*' # Push events to matching MoreBlocks_v*, i.e. MoreBlocks_v1.0, MoreBlocks_v20.15.10
+    tags:
+     - 'MoreBlocks_v*' # Push events to matching MoreBlocks_v*, i.e. MoreBlocks_v1.0, MoreBlocks_v20.15.10
 
   # watch:
     # types: [started]
