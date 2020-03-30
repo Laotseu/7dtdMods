@@ -23,7 +23,7 @@ MoreBlocks (Alpha 18)
 
 Add recipes to create decorative blocks and make them available to players (as oppose to being only available in Creative Mode).
 
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreBlocks_v1.01/MoreBlocks.zip)<br />
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreBlocks_v1.01/MoreBlocks_v1.01.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreBlocks_v1.01)
 
 Logan's Bar (Alpha 18)
