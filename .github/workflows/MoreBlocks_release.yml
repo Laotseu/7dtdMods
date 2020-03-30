@@ -1,6 +1,6 @@
 on:
   release:
-    types: [created]    
+    # types: [created]    
     # Sequence of patterns matched against refs/tags
     # tags:
     # - 'MoreBlocks_v*' # Push events to matching MoreBlocks_v*, i.e. MoreBlocks_v1.0, MoreBlocks_v20.15.10
@@ -15,7 +15,7 @@ jobs:
     name: Upload Release Asset
     runs-on: ubuntu-latest
     # if: github.actor == github.event.repository.owner.login
-    if: github.actor == github.event.repository.owner.login && contains( github.ref, 'MoreBlocks_v')
+    # if: github.actor == github.event.repository.owner.login && contains( github.ref, 'MoreBlocks_v')
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
