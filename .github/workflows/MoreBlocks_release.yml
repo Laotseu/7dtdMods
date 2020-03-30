@@ -1,0 +1,45 @@
+on:
+  release:
+    # Sequence of patterns matched against refs/tags
+    tags:
+    - 'MoreBlocks_v*' # Push events to matching MoreBlocks_v*, i.e. MoreBlocks_v1.0, MoreBlocks_v20.15.10
+
+  # watch:
+    # types: [started]
+
+name: Prepare MoreBlocks draft release
+
+jobs:
+  build:
+    name: Upload Release Asset
+    runs-on: ubuntu-latest
+    if: github.actor == github.event.repository.owner.login
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Build project # This would actually build your project, using zip for an example artifact
+        run: |
+          if [ ${GITHUB_REF##*/} == 'master' ]
+          then
+            ZIPNAME="MoreBlocks.zip"
+          else
+            ZIPNAME="${GITHUB_REF##*/}.zip"
+          fi
+          echo "Creating ${ZIPNAME}"
+          echo "::set-env name=RELEASE_NAME::${ZIPNAME%\.zip}"
+          mkdir ./Mods
+          mv ./MoreBlocks/Release\ Notes.md .
+          mv ./MoreBlocks ./Mods
+          zip -r ${ZIPNAME} Mods Release\ Notes.md
+      - name: Create Release
+        id: create_release
+        uses: ncipollo/release-action@v1.6.1
+        with:
+          name: ${{ env.RELEASE_NAME }}
+          tag: ${{ github.ref }}
+          bodyFile: Release Notes.md
+          artifacts: "./*.zip"
+          artifactContentType: application/zip
+          draft: true
+          prerelease: false
+          token: ${{ secrets.GITHUB_TOKEN }}
