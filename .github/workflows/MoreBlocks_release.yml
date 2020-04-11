@@ -40,7 +40,8 @@ jobs:
         uses: ncipollo/release-action@v1.6.1
         with:
           name: ${{ env.RELEASE_NAME }}
-          tag: ${{ github.ref }}
+          # tag: ${{ github.ref }}
+          tag: ${{ env.RELEASE_NAME }}
           bodyFile: Release Notes.md
           artifacts: "./*.zip"
           artifactContentType: application/zip
