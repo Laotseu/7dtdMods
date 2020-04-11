@@ -5,12 +5,8 @@
 	<set xpath="/blocks/block[@name='doorFrameWhite1']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceForgedIron</set>
 	<set xpath="/blocks/block[@name='doorFrameWhite1']/property[@class='UpgradeBlock']/property[@name='ItemCount']/@value">7</set>
 	<set xpath="/blocks/block[@name='doorFrameWhite2']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">doorFrameMetal2</set>
-<!-- 	No need for that since it is inherited from doorFrameWhite1
-	<set xpath="/blocks/block[@name='doorFrameWhite2']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceForgedIron</set>
-	<set xpath="/blocks/block[@name='doorFrameWhite2']/property[@class='UpgradeBlock']/property[@name='ItemCount']/@value">7</set>
 
- -->	
- 	<!-- Metal door frames can no longer be upgraded to boarded metal door frames -->
+	<!-- Metal door frames can no longer be upgraded to boarded metal door frames -->
 	<remove xpath="/blocks/block[@name='doorFrameMetal1']/property[@class='UpgradeBlock']" />
 	<remove xpath="/blocks/block[@name='doorFrameMetal2']/property[@class='UpgradeBlock']" />
 	
@@ -33,18 +29,50 @@
 		<property name="EconomicBundleSize" value="10"/>
 	</append>
 
-	<!-- Wood gable upgrades -->
-	<set xpath="/blocks/block[@name='woodGable']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">rWoodGable</set>
+	<!-- Add all windows to Business Glass Pane helper block -->
+	<set xpath="/blocks/block[@name='glassBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">glassBusinessSheet,glassBusinessCTRSheet,glassBusinessBlock,glassBusinessPlate,glassBusinessPlateCurved,glassRampSheet,glassRampSheetCap,glassRampSheetCap2,glassCTRSheet,glassShowerBlock,glassShowerRamp,glassIndustrial02CTRPlate,glassIndustrialCTRPlate,opaqueBusinessGlass,glassIndustrialPlate,glassIndustrial02Plate,stainedGlassPlate,stainedGlassCTRPlate,window02,window02Frame,window03Broke1,window03Broke2,window03Broke3,window03Broke4,windowStoreOneSided,windowStoreTwoSided,windowStoreTwoSidedCorner,windowStoreThreeSided,windowStoreFourSided,windowStoreOneSidedEmpty,windowStoreTwoSidedCornerEmpty,windowStoreThreeSidedEmpty,windowStoreFourSidedEmpty,window03,window03Frame,window03WoodBroke1,window03WoodBroke2,window03WoodBroke3,window03WoodBroke4,window03Wood,window03WoodFrame,window04,window04Frame</set>
+	
 
-	<append xpath="/blocks/block[@name='rWoodGable']">
-		<property name="Extends" value="rWoodMaster"/>
-		<property name="CreativeMode" value="Player"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="wedge_tip_half"/>
-		<property name="SortOrder2" value="0440"/> <!-- SortShape -->
-		<property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneGaboe"/> </property>
-		<property name="DowngradeBlock" value="woodGable"/>
+	<!-- Create a Wood Frame and Trim helper block -->
+	<append xpath="/blocks">
+		<block name="mbWoodFrameAndTrimVariantHelper">
+			<property name="Extends" value="doorFrameWhite2"/>
+			<property name="CustomIcon" value="doorFrameWhite2"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true" />
+			<property name="DescriptionKey" value="mbWoodFrameAndTrimVariantHelperDesc"/>
+			<property name="PlaceAltBlockValue" value="doorFrameWhite2,doorFrameWhite1,doorFrameWhiteBoarded2,doorFrameWhiteBoarded1,doorTrimTop,doorTrim2m,woodWindowTrim,woodWindowTrimBottom,woodWindowTrimSides,woodWindowTrimTop,woodWindowTrimTopFancy"/>
+		</block>
 	</append>
+
+	<!-- Create a Metal Door Frame helper block -->
+	<append xpath="/blocks">
+		<block name="mbMetalFrameVariantHelper">
+			<property name="Extends" value="doorFrameMetal2"/>
+			<property name="CustomIcon" value="doorFrameMetal2"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true" />
+			<property name="DescriptionKey" value="mbMetalFrameVariantHelperDesc"/>
+			<property name="PlaceAltBlockValue" value="doorFrameMetal2,doorFrameMetal1,doorFrameMetalBoarded2,doorFrameMetalBoarded1"/>
+		</block>
+	</append>
+
+
+
+	<!-- Wood gable upgrades -->
+	<!-- <set xpath="/blocks/block[@name='woodGable']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">rWoodGable</set> -->
+
+	<!-- <append xpath="/blocks/block[@name='rWoodGable']"> -->
+		<!-- <property name="Extends" value="rWoodMaster"/> -->
+		<!-- <property name="CreativeMode" value="Player"/> -->
+		<!-- <property name="Shape" value="New"/> -->
+		<!-- <property name="Model" value="wedge_tip_half"/> -->
+		<!-- <property name="SortOrder2" value="0440"/>  --> <!-- SortShape -->
+		<!-- <property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneGaboe"/> </property> -->
+		<!-- <property name="DowngradeBlock" value="woodGable"/> -->
+	<!-- </append> -->
 
 
 	<!-- test frame -->
@@ -75,5 +103,16 @@
 		<property class="UpgradeBlock"> <property name="ToBlock" value="woodGable"/> </property>
 		<drop event="Fall" count="0" prob="0"/>
 	</append> -->
+
+	<!--
+<block name=" BlockVariantHelper">
+	<property name="Extends" value="XXXXXXXXXXXXXXXXXXXXXX"/>
+	<property name="CustomIcon" value="XXXXXXXXXXXXXXXXXXXXXX"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true" />
+	<property name="PlaceAltBlockValue" value="XXXXXXXXXXXXXXXXXXXXXX"/>
+</block>
+-->
 
 </moreblocks>

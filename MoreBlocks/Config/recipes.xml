@@ -1,50 +1,16 @@
 <ericmods>
 
 	<append xpath="/recipes">
-		<!-- Added recepies to be able to craft door frames and window trims -->
-		<recipe name="doorFrameWhite1" count="1" craft_area="tablesaw">
+		<!-- Add the recepi for the new Wood Frame and Trim helper block -->
+		<recipe name="mbWoodFrameAndTrimVariantHelper" count="1" craft_area="tablesaw">
 			<ingredient name="resourceWood" count="10"/>
 		</recipe>
 
-		<recipe name="doorFrameWhite2" count="1" craft_area="tablesaw">
-			<ingredient name="resourceWood" count="10"/>
+		<!-- Add  the recepi for the new Metal Frame helper block -->
+		<recipe name="mbMetalFrameVariantHelper" count="1" craft_area="workbench" craft_time="10">
+			<ingredient name="resourceForgedIron" count="15"/>
 		</recipe>
 
-		<recipe name="doorTrim2m" count="1" craft_area="tablesaw">
-			<ingredient name="resourceWood" count="10"/>
-		</recipe>
-
-		<recipe name="doorTrimTop" count="1" craft_area="tablesaw">
-			<ingredient name="resourceWood" count="10"/>
-		</recipe>
-
-		<recipe name="doorFrameMetal1" count="1" craft_area="tablesaw">
-			<ingredient name="resourceForgedIron" count="7"/>
-		</recipe>
-
-		<recipe name="woodWindowTrim" count="1" craft_area="tablesaw">
-			<ingredient name="resourceWood" count="10"/>
-		</recipe>
-
-		<recipe name="woodWindowTrimBottom" count="1" craft_area="tablesaw">
-			<ingredient name="resourceWood" count="10"/>
-		</recipe>
-
-		<recipe name="woodWindowTrimSides" count="1" craft_area="tablesaw">
-			<ingredient name="resourceWood" count="10"/>
-		</recipe>
-
-		<recipe name="woodWindowTrimTop" count="1" craft_area="tablesaw">
-			<ingredient name="resourceWood" count="10"/>
-		</recipe>
-
-		<recipe name="woodWindowTrimTopFancy" count="1" craft_area="tablesaw">
-			<ingredient name="resourceWood" count="10"/>
-		</recipe>
-
-		<recipe name="doorFrameMetal2" count="1" craft_area="tablesaw">
-			<ingredient name="resourceForgedIron" count="7"/>
-		</recipe>
 
 		<!-- Add House doors -->
 		<recipe name="houseFrontDoor1_v1" count="1" craft_area="tablesaw">
@@ -76,7 +42,7 @@
 		</recipe>
 
 		<!-- Add missing gable blocks -->
-		<recipe name="woodGable" count="1" craft_area="workbench">
+<!-- 		<recipe name="woodGable" count="1" craft_area="workbench">
 				<ingredient name="resourceWood" count="6"/>
 		</recipe>
 
@@ -85,8 +51,9 @@
 		</recipe>
 		
 		<recipe name="woodGable1mhalf" count="1" craft_area="workbench">
-				<ingredient name="resourceWood" count="6"/>
-		</recipe>
+				<ingredient name="resourceWood" count="10"/>
+				<ingredient name="glassBlockVariantHelper" count="1"/>
+		</recipe> -->
 		
 		<!-- 
 			woodGable,,blocks,Block,newKey,wood Gable,,,,,
@@ -106,6 +73,9 @@
 			woodGableQuarter,,blocks,Block,newKey,Wood Gable Quarter,,,,,
 			woodGablequarterhalf,,blocks,Block,newKey,Wood Gable quarter half,,,,,
 			 -->
+
+		<!-- <recipe name="mbWindowsVariantHelper" count="1" craft_area="tablesaw">
+		</recipe> -->
 
 	</append>
 
