@@ -45,7 +45,7 @@
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true" />
 			<property name="DescriptionKey" value="mbWoodFrameAndTrimVariantHelperDesc"/>
-			<property name="PlaceAltBlockValue" value="doorFrameWhite2,doorFrameWhite1,doorFrameWhiteBoarded2,doorFrameWhiteBoarded1,doorTrimTop,doorTrim2m,woodWindowTrim,woodWindowTrimBottom,woodWindowTrimSides,woodWindowTrimTop,woodWindowTrimTopFancy"/>
+			<property name="PlaceAltBlockValue" value="doorFrameWhite2,doorFrameWhite1,doorFrameWhiteBoarded2,doorFrameWhiteBoarded1,doorTrimTop,doorTrim2m,woodWindowTrim,woodWindowTrimBottom,woodWindowTrimSides,woodWindowTrimTop,woodWindowTrimTopFancy,woodCrown,woodCrownInsideCorner"/>
 		</block>
 	</append>
 
@@ -88,5 +88,20 @@
 			<property name="PlaceAltBlockValue" value="commercialDoor1_v1,commercialDoor2_v1,commercialDoor4_v1,ironDoor1_v1"/>
 		</block>
 	</append>
+
+	<!-- Create a Wood helper block to all crafing of all wood blocks that do not have a corresponding wood frame. -->
+	<append xpath="/blocks">
+		<block name="mbWoodBlockVariantHelper">
+			<property name="Extends" value="woodBlock"/>
+			<property name="CustomIcon" value="woodBlock"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true" />
+			<property name="DescriptionKey" value="mbWoodBlockVariantHelperDesc"/>
+			<property name="PlaceAltBlockValue" value="woodBlock,woodPlate,woodHalfPlate,woodCTRPlate,woodPlateOffset,woodPole,woodPoleSCTR,woodCTRpole,woodPoleSupport,woodPoleSupport2,woodPoleSupportCtr,woodCross,woodCrossCtr,woodCrossHalf,woodGable,woodGable1m,woodGable1mhalf,woodGable3Quarter,woodGable3quarterhalf,woodGablehalf,woodGablePyramid,woodGableQuarter,woodGablequarterhalf,woodArch,woodCNRRound,woodCNRRoundTop,woodArrowSlitHalf,woodGableInvertedRampHalf,woodGableInvertedSteep,woodGableInvertedSteepHalf,woodHalf,woodInclineTipHalf2,woodLogPillar100,woodPillar50,woodPillar50CNR,woodPillar50CNRPlate,woodQuarter,woodQuarterCNR,woodQuarterCNR3Way,woodQuarterTeeSCtr,woodRamp,woodCNRRamp,woodCNRRampFiller,woodWedgeStairs,woodWedgeTipStairs,woodRampIncline,woodCNRIncline,woodRampInclineFiller,woodRampInclineFillerHalf1,woodRampInclineFillerHalf2,woodRampInclineHalf1,woodRampInclineHalf2,woodRampInclineInsideCNR,woodRampInclineInsideCNRFiller,woodRampInclineOutsideCNR,woodRampInclineOutsideCNRFiller,woodHalfRampStairs50,woodHalfRampStairs50Filler,woodWedge,woodWedgeTip,woodWedgeTipHalf1,woodWedgeTipHalf2,woodWedgeCNRInsideBottom,woodWedgeCNRInsideSteepBase,woodWedgeCNRInsideSteepTop,woodWedgeCNRInsideTop,woodWedgeCNRSteepBase,woodWedgeCNRSteepTop,woodWedgeIncline,woodWedgeInclineCornerTop,woodStairs25,woodStairs25CornerCNR,woodStairsFilledRailingLeft,woodStairsFilledRailingRight,woodStairs50,woodQuarterSCtr,woodArrowBlock,woodBlockBaseboard4,woodBlockBaseboardChairRail1"/>
+		</block>
+	</append>
+
+	<!-- Need to prevent upgrade?	woodBlockBaseboard4  woodBlockBaseboardChairRail1 -->
 
 </moreblocks>
