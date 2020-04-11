@@ -32,6 +32,10 @@
 	<!-- Add all windows to Business Glass Pane helper block -->
 	<set xpath="/blocks/block[@name='glassBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">glassBusinessSheet,glassBusinessCTRSheet,glassBusinessBlock,glassBusinessPlate,glassBusinessPlateCurved,glassRampSheet,glassRampSheetCap,glassRampSheetCap2,glassCTRSheet,glassShowerBlock,glassShowerRamp,glassIndustrial02CTRPlate,glassIndustrialCTRPlate,opaqueBusinessGlass,glassIndustrialPlate,glassIndustrial02Plate,stainedGlassPlate,stainedGlassCTRPlate,window02,window02Frame,window03Broke1,window03Broke2,window03Broke3,window03Broke4,windowStoreOneSided,windowStoreTwoSided,windowStoreTwoSidedCorner,windowStoreThreeSided,windowStoreFourSided,windowStoreOneSidedEmpty,windowStoreTwoSidedCornerEmpty,windowStoreThreeSidedEmpty,windowStoreFourSidedEmpty,window03,window03Frame,window03WoodBroke1,window03WoodBroke2,window03WoodBroke3,window03WoodBroke4,window03Wood,window03WoodFrame,window04,window04Frame</set>
 	
+	<!-- Logan's Special: add Bar Stool to the Furniture helper block -->
+	<set xpath="/blocks/block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">storeShelving01,storeShelving01Top,storeShelving01Double,storeShelving01TopDouble,cntLockersTallClosed,cntLockersShortClosed,cntLockersTallDoubleClosed,cntLockersTallMixClosed,cntLockersTallMixLinkClosed,cntMetalDesk02Closed,cntMetalDesk02Open,rustyIronTable,rScrapIronTable,cntMailBox01,cntMailBox02,cntMailBox03,cntMailbox,cntBin,cntTrash_can01,cntDomedTrashCanFull,radiatorHouse01Player,showerHead,faucet04,faucet02,barStool</set>
+
+
 	<!-- Create a Wood Frame and Trim helper block -->
 	<append xpath="/blocks">
 		<block name="mbWoodFrameAndTrimVariantHelper">
@@ -84,62 +88,5 @@
 			<property name="PlaceAltBlockValue" value="commercialDoor1_v1,commercialDoor2_v1,commercialDoor4_v1,ironDoor1_v1"/>
 		</block>
 	</append>
-
-
-	<!-- commercialDoor1_v1, commercialDoor2_v1, -->
-
-	<!-- Wood gable upgrades -->
-	<!-- <set xpath="/blocks/block[@name='woodGable']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">rWoodGable</set> -->
-
-	<!-- <append xpath="/blocks/block[@name='rWoodGable']"> -->
-		<!-- <property name="Extends" value="rWoodMaster"/> -->
-		<!-- <property name="CreativeMode" value="Player"/> -->
-		<!-- <property name="Shape" value="New"/> -->
-		<!-- <property name="Model" value="wedge_tip_half"/> -->
-		<!-- <property name="SortOrder2" value="0440"/>  --> <!-- SortShape -->
-		<!-- <property class="UpgradeBlock"> <property name="ToBlock" value="cobblestoneGaboe"/> </property> -->
-		<!-- <property name="DowngradeBlock" value="woodGable"/> -->
-	<!-- </append> -->
-
-
-	<!-- test frame -->
-<!-- 	<append xpath="/blocks/block[@name='woodFrameGableQuarter']">
-		<property name="Extends" value="woodFrameMaster"/>
-		<property name="CreativeMode" value="Player"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="wedge_tip_quarter"/>
-		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-		<property name="SortOrder2" value="0390"/> 
-		<property class="UpgradeBlock"> <property name="ToBlock" value="woodGableQuarter"/> </property>
-		<drop event="Fall" count="0" prob="0"/>
-	</append>
-	<block name="woodGable">
-		<property name="Extends" value="woodNoUpgradeMaster"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="wedge_tip_half"/>
-		<property name="SortOrder2" value="0250"/> 
-	</block>
- -->
-<!-- 	<append xpath="/blocks/block[@name='woodFrameGable']">
-		<property name="Extends" value="woodFrameMaster"/>
-		<property name="CreativeMode" value="Player"/>
-		<property name="Shape" value="New"/>
-		<property name="Model" value="wedge_tip_half"/>
-		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-		<property name="SortOrder2" value="0250"/> 
-		<property class="UpgradeBlock"> <property name="ToBlock" value="woodGable"/> </property>
-		<drop event="Fall" count="0" prob="0"/>
-	</append> -->
-
-	<!--
-<block name=" BlockVariantHelper">
-	<property name="Extends" value="XXXXXXXXXXXXXXXXXXXXXX"/>
-	<property name="CustomIcon" value="XXXXXXXXXXXXXXXXXXXXXX"/>
-	<property name="CreativeMode" value="Player"/>
-	<property name="ItemTypeIcon" value="all_blocks"/>
-	<property name="SelectAlternates" value="true" />
-	<property name="PlaceAltBlockValue" value="XXXXXXXXXXXXXXXXXXXXXX"/>
-</block>
--->
 
 </moreblocks>

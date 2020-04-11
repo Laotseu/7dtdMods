@@ -3,13 +3,19 @@
 <xml>
 	<ModInfo>
 		<Name value="MoreBlocks" />
-		<Description value="Add recipies for blocks that are missing." />
+		<Description value="Add missing decorative block recipies and helper blocks." />
 		<Author value="Eric Beaudoin" />
-		<Version value="1.01" />
+		<Version value="1.02" />
 		<!-- 1.00: 	Make door frames, window trims, and more doors available to players
 					(including recipes) -->
 		<!-- 1.01:  Make missing gable block available (including recipes) -->
 		<!-- 1.02:  Add all windows to Business Glass Pane helper block 
+					Created new craftable helper blocks for
+					- Wood Door Frames and Windows Trims
+					- Metal Door Frames
+					- Wood Doors
+					- Metal Doors
+					Logan's Special: add Bar Stools to the craftable Metal Furniture
 		-->
 		
 	</ModInfo>
