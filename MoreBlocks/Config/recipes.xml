@@ -3,23 +3,30 @@
 	<append xpath="/recipes">
 		<!-- Add the recepi for the new Wood Frame and Trim helper block -->
 		<recipe name="mbWoodFrameAndTrimVariantHelper" count="1" craft_area="tablesaw">
-			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourceWood" count="6"/>
 		</recipe>
 
-		<!-- Add  the recepi for the new Metal Frame helper block -->
+		<!-- Add the recepi for the new Metal Frame helper block -->
 		<recipe name="mbMetalFrameVariantHelper" count="1" craft_area="workbench" craft_time="10">
-			<ingredient name="resourceForgedIron" count="15"/>
+			<ingredient name="resourceForgedIron" count="1"/>
+		</recipe>
+		<recipe name="mbMetalFrameVariantHelper" count="1" craft_area="workbench" craft_time="10">
+			<ingredient name="resourceScrapIron" count="18"/>
 		</recipe>
 
+		<!-- Add the recepi for the House Door helper block -->
+		<recipe name="mbHouseDoorVariantHelper" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="6"/>
+		</recipe>
 
 		<!-- Add House doors -->
-		<recipe name="houseFrontDoor1_v1" count="1" craft_area="tablesaw">
+		<!-- <recipe name="houseFrontDoor1_v1" count="1" craft_area="tablesaw">
 			<ingredient name="resourceWood" count="10"/>
 		</recipe>
 
 		<recipe name="houseFrontDoor2_v1" count="1" craft_area="tablesaw">
 			<ingredient name="resourceWood" count="10"/>
-		</recipe>
+		</recipe> -->
 
 		<!-- Add commercial doors -->
 		<recipe name="commercialDoor1_v1" count="1" craft_area="workbench" craft_time="30">

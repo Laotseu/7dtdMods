@@ -32,7 +32,6 @@
 	<!-- Add all windows to Business Glass Pane helper block -->
 	<set xpath="/blocks/block[@name='glassBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">glassBusinessSheet,glassBusinessCTRSheet,glassBusinessBlock,glassBusinessPlate,glassBusinessPlateCurved,glassRampSheet,glassRampSheetCap,glassRampSheetCap2,glassCTRSheet,glassShowerBlock,glassShowerRamp,glassIndustrial02CTRPlate,glassIndustrialCTRPlate,opaqueBusinessGlass,glassIndustrialPlate,glassIndustrial02Plate,stainedGlassPlate,stainedGlassCTRPlate,window02,window02Frame,window03Broke1,window03Broke2,window03Broke3,window03Broke4,windowStoreOneSided,windowStoreTwoSided,windowStoreTwoSidedCorner,windowStoreThreeSided,windowStoreFourSided,windowStoreOneSidedEmpty,windowStoreTwoSidedCornerEmpty,windowStoreThreeSidedEmpty,windowStoreFourSidedEmpty,window03,window03Frame,window03WoodBroke1,window03WoodBroke2,window03WoodBroke3,window03WoodBroke4,window03Wood,window03WoodFrame,window04,window04Frame</set>
 	
-
 	<!-- Create a Wood Frame and Trim helper block -->
 	<append xpath="/blocks">
 		<block name="mbWoodFrameAndTrimVariantHelper">
@@ -59,7 +58,21 @@
 		</block>
 	</append>
 
+	<!-- Create a Wood Door helper block (the wood door that can already be crafted is included) -->
+	<!-- Create a Metal Door Frame helper block -->
+	<append xpath="/blocks">
+		<block name="mbHouseDoorVariantHelper">
+			<property name="Extends" value="houseFrontDoor1_v1"/>
+			<property name="CustomIcon" value="houseFrontDoor1_v1"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true" />
+			<property name="DescriptionKey" value="mbHouseDoorVariantHelperDesc"/>
+			<property name="PlaceAltBlockValue" value="houseFrontDoor1_v1,houseFrontDoor2_v1,secureDoorWooden"/>
+		</block>
+	</append>
 
+	<!-- commercialDoor1_v1, commercialDoor2_v1, -->
 
 	<!-- Wood gable upgrades -->
 	<!-- <set xpath="/blocks/block[@name='woodGable']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">rWoodGable</set> -->
