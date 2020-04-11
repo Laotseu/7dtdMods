@@ -20,11 +20,17 @@
 		</recipe>
 
 		<!-- Add the recepi for the Metal Door help block -->
-		<recipe name="mbHouseDoorVariantHelper" count="1" craft_area="tablesaw">
-				<ingredient name="resourceForgedIron" count="10"/>
-				<ingredient name="resourceSpring" count="2"/>
-				<ingredient name="resourceMechanicalParts" count="2"/>
+		<recipe name="mbCommercialDoorVariantHelper" craft_area="workbench" craft_time="100">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceSpring" count="2"/>
+			<ingredient name="resourceMechanicalParts" count="2"/>
 		</recipe>
+
+		<!-- Add the recepi for the Wood helper block -->
+		<recipe name="mbWoodBlockVariantHelper" count="1" craft_area="tablesaw">
+			<ingredient name="resourceWood" count="6"/>
+		</recipe>
+
 	</append>
 	
 </ericmods>
