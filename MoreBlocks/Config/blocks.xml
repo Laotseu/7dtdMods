@@ -18,7 +18,7 @@
 		<property name="DowngradeBlock" value="doorFrameWhite2"/>
 	</append>
 
-	<!-- Fix the house doors economic value -->
+	<!-- Fix doors economic value -->
 	<append xpath="/blocks/block[@name='houseFrontDoor1_v1']">
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="10"/>
@@ -55,11 +55,11 @@
 			<property name="SelectAlternates" value="true" />
 			<property name="DescriptionKey" value="mbMetalFrameVariantHelperDesc"/>
 			<property name="PlaceAltBlockValue" value="doorFrameMetal2,doorFrameMetal1,doorFrameMetalBoarded2,doorFrameMetalBoarded1"/>
+			<property name="Weight" value="24"/>
 		</block>
 	</append>
 
 	<!-- Create a Wood Door helper block (the wood door that can already be crafted is included) -->
-	<!-- Create a Metal Door Frame helper block -->
 	<append xpath="/blocks">
 		<block name="mbHouseDoorVariantHelper">
 			<property name="Extends" value="houseFrontDoor1_v1"/>
@@ -71,6 +71,20 @@
 			<property name="PlaceAltBlockValue" value="houseFrontDoor1_v1,houseFrontDoor2_v1,secureDoorWooden"/>
 		</block>
 	</append>
+
+	<!-- Create a Metal Door helper block (the Iron Door that can already be crafted is included) -->
+	<append xpath="/blocks">
+		<block name="mbCommercialDoorVariantHelper">
+			<property name="Extends" value="commercialDoor1_v1"/>
+			<property name="CustomIcon" value="commercialDoor1_v1"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true" />
+			<property name="DescriptionKey" value="mbCommercialDoorVariantHelperDesc"/>
+			<property name="PlaceAltBlockValue" value="commercialDoor1_v1,commercialDoor2_v1,commercialDoor4_v1,ironDoor1_v1"/>
+		</block>
+	</append>
+
 
 	<!-- commercialDoor1_v1, commercialDoor2_v1, -->
 
