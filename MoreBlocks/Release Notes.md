@@ -16,4 +16,4 @@
 	  including the wood gable blocks
 	* Added Crowns to the Wood Door Frames and Window Trims helper
 
-[Click for a list of all my mods](https://github.com/Laotseu/7dtdMods/blob/master/README.md)
+[Click here for a list of all my mods](https://github.com/Laotseu/7dtdMods/blob/master/README.md)
