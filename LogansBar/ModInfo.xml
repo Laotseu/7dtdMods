@@ -6,6 +6,7 @@
 		<Description value="Adding Logan's bar to your random world generator." />
 		<Author value="Logan, Éric Beaudoin" />
 		<Version value="1.2" />
+		<Website value="https://github.com/Laotseu/7dtdMods/blob/master/README.md" />
 		<!-- 1.0: 	First versio of the mod.
 					The prefab is complete with sleepers, long distnace mesh, and quest loot.	-->
 		<!-- 1.1:	Make the bar works for 18.4

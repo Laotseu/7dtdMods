@@ -6,6 +6,7 @@
 		<Description value="Add missing decorative block recipies and helper blocks." />
 		<Author value="Eric Beaudoin" />
 		<Version value="1.03" />
+		<Website value="https://github.com/Laotseu/7dtdMods/blob/master/README.md" />
 		<!-- 1.00: 	Make door frames, window trims, and more doors available to players
 					(including recipes) -->
 		<!-- 1.01:  Make missing gable block available (including recipes) -->

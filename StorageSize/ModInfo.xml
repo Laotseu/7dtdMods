@@ -6,6 +6,7 @@
 		<Description value="Make the capacity of craftable and buyable storage blocks the same as the Secure Chest." />
 		<Author value="Eric Beaudoin" />
 		<Version value="1.03" />
+		<Website value="https://github.com/Laotseu/7dtdMods/blob/master/README.md" />
 		<!-- 1.00: 	Orinal version (Nightstands, dressers, wooden desks, cabinets, cupboards, bookcases, and pillcases). -->
 		<!-- 1.01:  Added military munitions ammo boxes and lockers. -->
 		<!-- 1.02:  Added file cabinets -->
