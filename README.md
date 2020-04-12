@@ -31,7 +31,7 @@ Castle Spartan (on GitLab)
 
 <img align="left" width="150" height="150" src="https://gitlab.com/spartan-designs/castle-spartan/-/raw/master/Mods/CastleSpartan/Prefabs/CastleSpartan_v3.jpg">Looking for **Castle Spartan**? you can find it in his GitLab repository.
 
-[https://gitlab.com/spartan-designs/castle-spartan]<br /><br /><br /><br /><br />
+[https://gitlab.com/spartan-designs/castle-spartan](https://gitlab.com/spartan-designs/castle-spartan)<br /><br /><br /><br /><br />
 
 Logan's Bar (Alpha 18)
 ----------------------
