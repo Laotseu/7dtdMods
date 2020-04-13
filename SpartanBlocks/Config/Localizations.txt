@@ -1,0 +1,2 @@
+Key,Source,Context,Changes,English
+SpartanCubeDesc,blocks,Variant,New,Special flastone block that sports the Spartan logo.\n(Courtesy of the SpartanBlocks mod)

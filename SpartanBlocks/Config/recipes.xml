@@ -1,0 +1,7 @@
+<configs>
+	<append xpath="/recipes" >
+		<recipe name="Spartan Cube" count="1" >
+			<ingredient name="resourceCobblestones" count="4"/>
+		</recipe>
+	</append>
+</configs>

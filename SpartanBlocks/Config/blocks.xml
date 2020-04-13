@@ -1,0 +1,13 @@
+<configs>
+	<append xpath="/blocks">
+		<block name="Spartan Cube">
+			<property name="Extends" value="flagstoneNoUpgradeMaster"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/SpartanCube.unity3d?SpartanCubePrefab" /> 
+			<property name="CustomIcon" value="GrandSpartanIcon" />
+			<property name="SortOrder2" value="9999" />
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="DescriptionKey" value="SpartanCubeDesc"/>
+		</block>
+	</append>
+</configs>

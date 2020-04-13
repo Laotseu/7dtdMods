@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="SpartanBlocks" />
+		<Description value="Grand Spartan branded and other related blocks" />
+		<Author value="Éric Beaudon" />
+		<Version value="1.0" />
+	</ModInfo>
+
+	<!-- v1.0:	SpartanCube with recepi -->
+</xml>
