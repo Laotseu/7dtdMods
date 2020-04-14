@@ -26,6 +26,15 @@ Add recipes to create decorative blocks and make them available to players (as o
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreBlocks_v1.03/MoreBlocks_v1.03.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreBlocks_v1.03)
 
+SpartanBlocks v1.0 (Alpha 18)
+-----------------------------
+
+<img align="left" width="150" height="150" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/SpartanBlocks/SpartanBlocks.jpg" />
+Add custom blocks and items for all the Grand Spartan's fans out there.<br />
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/SpartanBlocks_v1.0/SpartanBlocks_v1.0.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/SpartanBlocks_v1.0)<br /><br /><br /><br />
+
 Castle Spartan (on GitLab)
 --------------------------
 
