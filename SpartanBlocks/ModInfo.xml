@@ -8,5 +8,10 @@
 		<Version value="1.0" />
 	</ModInfo>
 
-	<!-- v1.0:	SpartanCube with recepi -->
+	<!-- v1.0:	Spartan Cube with recipe 
+				Spartan Flag, Pole, and Canvas with recipes
+
+	Thanks to Xyth for the code in FunWithFlags and the video tutorials
+	https://forums.7daystodie.com/forum/-7-days-to-die-pc/game-modification/tutorials-guides/99698-unity-tutorials-for-7d2d-modders
+	-->
 </xml>

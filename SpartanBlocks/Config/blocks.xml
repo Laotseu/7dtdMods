@@ -1,4 +1,5 @@
 <configs>
+	<!-- Special flagstone block with Grand Spartan pattern -->
 	<append xpath="/blocks">
 		<block name="Spartan Cube">
 			<property name="Extends" value="flagstoneNoUpgradeMaster"/>
@@ -10,4 +11,31 @@
 			<property name="DescriptionKey" value="SpartanCubeDesc"/>
 		</block>
 	</append>
+
+	<!-- Flag pole and flag with Grand Spartan pattern -->
+	<append xpath="/blocks">	
+		<block name="Spartan Flag">
+			<property name="Material" value="Mmetal"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,5,1"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="Path" value="solid"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="OnlySimpleRotations" value="true"/> 
+			<property name="CanPickup" value="true" /> 
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceMetalPipe" count="4,8" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" count="2,5" tag="allHarvest"/>
+			<drop event="Destroy" name="resourceScrapIron" count="2,5"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="DescriptionKey" value="SpartanFlagDesc"/> 
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/FlagSpartan.unity3d?FlagSpartan" />
+			<property name="CustomIcon" value="GrandSpartanFlagIcon" />
+			<property name="EconomicValue" value="5"/>
+			<property name="Stacknumber" value="25"/> <!-- STK resource -->
+		</block>
+	</append>
+
 </configs>
