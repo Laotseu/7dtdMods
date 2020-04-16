@@ -1,5 +1,9 @@
 **SpartanBlocks** is a 7 Days to Die modlet that adds Grand Spartan branded blocks and other related items.
 
+* 1.1: Bug fix and tweaks
+	- Fix an issue with the flag Unity tag that prevented the flag from being picked-up
+	- Ajust economic and stack values for all blocks
+	- Remove glue for the flag pole recipe
 * 1.0: Fist official version which includes
 	- Spartan Cube with recipe
 	- Flag Pole, Flag Canvas, and Spartan Flag with recipes
