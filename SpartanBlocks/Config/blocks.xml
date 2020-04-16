@@ -9,6 +9,7 @@
 			<property name="SortOrder2" value="9999" />
 			<property name="Place" value="TowardsPlacerInverted"/>
 			<property name="DescriptionKey" value="SpartanCubeDesc"/>
+			<!-- <property name="Stacknumber" value="25"/> -->
 		</block>
 	</append>
 
@@ -34,7 +35,8 @@
 			<property name="Model" value="#@modfolder:Resources/FlagSpartan.unity3d?FlagSpartan" />
 			<property name="CustomIcon" value="GrandSpartanFlagIcon" />
 			<property name="EconomicValue" value="5"/>
-			<property name="Stacknumber" value="25"/> <!-- STK resource -->
+			<property name="Stacknumber" value="25"/>
+			<property name="TakeDelay" value="5"/>
 		</block>
 	</append>
 
