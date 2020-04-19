@@ -2,6 +2,8 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 1.2: Unity asset improvements
+	- New Spartan flag with better animation and texture
 * 1.1: Bug fix and tweaks
 	- Fix an issue with the flag Unity tag that prevented the flag from being picked-up
 	- Ajust economic and stack values for all blocks
