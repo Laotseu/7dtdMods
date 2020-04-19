@@ -32,7 +32,7 @@
 			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 			<property name="DescriptionKey" value="SpartanFlagDesc"/> 
 			<property name="Shape" value="ModelEntity" />
-			<property name="Model" value="#@modfolder:Resources/FlagSpartan.unity3d?FlagSpartan" />
+			<property name="Model" value="#@modfolder:Resources/Flags2.unity3d?FlagSpartan" />
 			<property name="CustomIcon" value="GrandSpartanFlagIcon" />
 			<property name="EconomicValue" value="5"/>
 			<property name="Stacknumber" value="25"/>
