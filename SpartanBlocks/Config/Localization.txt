@@ -1,0 +1,10 @@
+Key,Source,Context,Changes,English
+sbSpartanCubeOriginal,blocks,Block,New,Spartan Cube Original
+sbSpartanCubeDesc,blocks,Block,New,Special flastone block that sports the Spartan logo.\n(Courtesy of the SpartanBlocks mod)
+spSpartanCubeRocks,blocks,Block,New,Spartan Cube Rocks
+sbSpartanCubesVariantHelper,blocks,Variant,New,Spartan Cubes
+sbSpartanCubesVariantHelperDesc,blocks,Variant,New,Helper block for all the different Spartan Cubes.\n(Courtesy of the SpartanBlocks mod)
+spSpartanFlag,blocks,Block,New,Spartan Plag
+spSpartanFlagDesc,blocks,Block,New,Flag for all the Grand Spartan fans out there.\n(Courtesy of the SpartanBlocks mod)
+spFlagPole,blocks,Variant,New,Flag Pole
+spFlagCanvas,blocks,Variant,New,Flag Canvas

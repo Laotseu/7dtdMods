@@ -1,6 +1,6 @@
 <configs>
 	<append xpath="/items">	
-		<item name="Flag Pole">
+		<item name="spFlagPole">
 			<property name="HoldType" value="45"/>
 			<property name="CustomIcon" value="flagPole" />		
 			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -13,7 +13,7 @@
 			<property name="CreativeMode" value="Player"/>
 		</item>
 		
-		<item name="Flag Canvas"> 
+		<item name="spFlagCanvas"> 
 			<property name="HoldType" value="45"/>
 			<property name="CustomIcon" value="flagCanvas" />			
 			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
