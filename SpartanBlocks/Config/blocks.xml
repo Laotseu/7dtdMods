@@ -1,21 +1,41 @@
 <configs>
-	<!-- Special flagstone block with Grand Spartan pattern -->
 	<append xpath="/blocks">
-		<block name="Spartan Cube">
+		
+
+		<!-- Special flagstone blocks with Grand Spartan pattern -->
+		<block name="sbSpartanCubeOriginal">
 			<property name="Extends" value="flagstoneNoUpgradeMaster"/>
 			<property name="Shape" value="ModelEntity" />
 			<property name="Model" value="#@modfolder:Resources/SpartanCube.unity3d?SpartanCubePrefab" /> 
 			<property name="CustomIcon" value="GrandSpartanIcon" />
 			<property name="SortOrder2" value="9999" />
 			<property name="Place" value="TowardsPlacerInverted"/>
-			<property name="DescriptionKey" value="SpartanCubeDesc"/>
-			<!-- <property name="Stacknumber" value="25"/> -->
+			<property name="DescriptionKey" value="sbSpartanCubeDesc"/>
 		</block>
+
+		<block name="spSpartanCubeRocks">
+			<property name="Extends" value="sbSpartanCubeOriginal"/>
+			<property name="Model" value="#@modfolder:Resources/SpartanCube.unity3d?RocksSpartan" /> 
+			<property name="CustomIcon" value="RocksCubeIcon" />
+			<property name="SortOrder2" value="9998" />
+		</block>
+
+		<!-- Create a Wood Frame and Trim helper block -->
+		<block name="sbSpartanCubesVariantHelper">
+			<property name="Extends" value="sbSpartanCubeOriginal"/>
+			<property name="CustomIcon" value="GrandSpartanIcon"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true" />
+			<property name="DescriptionKey" value="sbSpartanCubesVariantHelperDesc"/>
+			<property name="PlaceAltBlockValue" value="sbSpartanCubeOriginal,spSpartanCubeRocks"/>
+		</block>
+
 	</append>
 
 	<!-- Flag pole and flag with Grand Spartan pattern -->
 	<append xpath="/blocks">	
-		<block name="Spartan Flag">
+		<block name="spSpartanFlag">
 			<property name="Material" value="Mmetal"/>
 			<property name="DisplayType" value="blockMulti" />
 			<property name="MultiBlockDim" value="1,5,1"/>
@@ -30,7 +50,7 @@
 			<drop event="Harvest" name="resourceScrapIron" count="2,5" tag="allHarvest"/>
 			<drop event="Destroy" name="resourceScrapIron" count="2,5"/>
 			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-			<property name="DescriptionKey" value="SpartanFlagDesc"/> 
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
 			<property name="Shape" value="ModelEntity" />
 			<property name="Model" value="#@modfolder:Resources/Flags2.unity3d?FlagSpartan" />
 			<property name="CustomIcon" value="GrandSpartanFlagIcon" />

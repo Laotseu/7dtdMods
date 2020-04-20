@@ -1,21 +1,22 @@
 <configs>
 	<append xpath="/recipes" >
-		<recipe name="Spartan Cube" count="1" >
+		<recipe name="sbSpartanCubesVariantHelper" count="1" >
 			<ingredient name="resourceCobblestones" count="4"/>
+			<ingredient name="resourcePaint" count="1"/>
 		</recipe>
-		<recipe name="Flag Pole" count="1" craft_area="workbench" >
+		<recipe name="spFlagPole" count="1" craft_area="workbench" >
 			<ingredient name="resourceMetalPipe" count="10"/>
 			<ingredient name="resourceMechanicalParts" count="1"/>
 			<ingredient name="resourceDuctTape" count="1"/>
 			<!-- <ingredient name="resourceGlue" count="1"/> -->
 		</recipe>
-		<recipe name="Flag Canvas" count="1" craft_area="workbench" >
+		<recipe name="spFlagCanvas" count="1" craft_area="workbench" >
 			<ingredient name="resourceGlue" count="1"/>
 			<ingredient name="resourceCloth" count="5"/>
 		</recipe>
-		<recipe name="Spartan Flag" count="1" craft_area="workbench" >
-			<ingredient name="Flag Pole" count="1"/>
-			<ingredient name="Flag Canvas" count="1"/>
+		<recipe name="spSpartanFlag" count="1" craft_area="workbench" >
+			<ingredient name="spFlagPole" count="1"/>
+			<ingredient name="spFlagCanvas" count="1"/>
 			<ingredient name="resourcePaint" count="5"/>
 		</recipe>
 

@@ -16,7 +16,9 @@
 		For this model to work properly, it needs to be installed on the server and every player's computer.
 	-->
 
-	<!-- v1.2:	New Spartan flag with better animation and texture -->
+	<!-- v1.2:	New Spartan flag with better animation and texture
+				New pattern for the cube
+				New helper for the cube noew that there is more then one pattern -->
 	<!-- v1.1: 	Fixed an issue with the flag Unity tag that prevented the flag from being picked-up -->
 	<!-- v1.0:	Spartan Cube with recipe 
 				Spartan Flag, Pole, and Canvas with recipes

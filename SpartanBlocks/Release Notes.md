@@ -4,6 +4,8 @@
 
 * 1.2: Unity asset improvements
 	- New Spartan flag with better animation and texture
+	- New pattern for the cube
+	- New helper for the cube noew that there is more then one pattern
 * 1.1: Bug fix and tweaks
 	- Fix an issue with the flag Unity tag that prevented the flag from being picked-up
 	- Ajust economic and stack values for all blocks
