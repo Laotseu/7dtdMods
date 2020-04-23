@@ -20,7 +20,7 @@
 			<property name="SortOrder2" value="9998" />
 		</block>
 
-		<!-- Create a Wood Frame and Trim helper block -->
+		<!-- Create a Spartan Cube helper block -->
 		<block name="sbSpartanCubesVariantHelper">
 			<property name="Extends" value="sbSpartanCubeOriginal"/>
 			<property name="CustomIcon" value="GrandSpartanIcon"/>
@@ -58,6 +58,25 @@
 			<property name="Stacknumber" value="25"/>
 			<property name="TakeDelay" value="5"/>
 		</block>
+
+		<block name="spPatrolFlag">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/Flags2.unity3d?FlagPatrol" />
+			<property name="DescriptionKey" value="spPatrolFlagDesc"/> 
+			<property name="CustomIcon" value="PatrolFlagIcon" />
+		</block>
+
+		<!-- Create a flag helper block -->
+		<block name="sbFlagsVariantHelper">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="CustomIcon" value="FlagsIcon"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true" />
+			<property name="DescriptionKey" value="sbFlagsVariantHelperDesc"/>
+			<property name="PlaceAltBlockValue" value="spSpartanFlag,spPatrolFlag"/>
+		</block>
+
 	</append>
 
 </configs>

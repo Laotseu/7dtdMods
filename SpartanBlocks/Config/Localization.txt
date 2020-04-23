@@ -4,7 +4,11 @@ sbSpartanCubeDesc,blocks,Block,New,Special flastone block that sports the Sparta
 spSpartanCubeRocks,blocks,Block,New,Spartan Cube Rocks
 sbSpartanCubesVariantHelper,blocks,Variant,New,Spartan Cubes
 sbSpartanCubesVariantHelperDesc,blocks,Variant,New,Helper block for all the different Spartan Cubes.\n(Courtesy of the SpartanBlocks mod)
-spSpartanFlag,blocks,Block,New,Spartan Plag
+spSpartanFlag,blocks,Block,New,Spartan Flag
 spSpartanFlagDesc,blocks,Block,New,Flag for all the Grand Spartan fans out there.\n(Courtesy of the SpartanBlocks mod)
 spFlagPole,blocks,Variant,New,Flag Pole
 spFlagCanvas,blocks,Variant,New,Flag Canvas
+spPatrolFlag,blocks,Block,New,Patrol Gaming Flag
+spPatrolFlagDesc,blocks,Block,New,Flag for all the Patrol Gaming fans out there.\n(Courtesy of the SpartanBlocks mod)
+sbFlagsVariantHelper,blocks,Variant,New,Branded Flags
+sbFlagsVariantHelperDesc,blocks,Variant,New,Proof through the night that our flag was still there... or not, we'll see.\n(Courtesy of the SpartanBlocks mod)
