@@ -2,6 +2,10 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 1.3: Patrol Gaming
+	- New Patrol Gaming flag
+	- New help blocks for flags
+	- New Patrol Gaming cube
 * 1.2: Unity asset improvements
 	- New Spartan flag with better animation and texture
 	- New pattern for the cube

@@ -6,18 +6,26 @@
 		<block name="sbSpartanCubeOriginal">
 			<property name="Extends" value="flagstoneNoUpgradeMaster"/>
 			<property name="Shape" value="ModelEntity" />
-			<property name="Model" value="#@modfolder:Resources/SpartanCube.unity3d?SpartanCubePrefab" /> 
+			<property name="Model" value="#@modfolder:Resources/SpartanCube.unity3d?SpartanCubeV1" /> 
 			<property name="CustomIcon" value="GrandSpartanIcon" />
-			<property name="SortOrder2" value="9999" />
+			<property name="SortOrder2" value="9990" />
 			<property name="Place" value="TowardsPlacerInverted"/>
 			<property name="DescriptionKey" value="sbSpartanCubeDesc"/>
 		</block>
 
 		<block name="spSpartanCubeRocks">
 			<property name="Extends" value="sbSpartanCubeOriginal"/>
-			<property name="Model" value="#@modfolder:Resources/SpartanCube.unity3d?RocksSpartan" /> 
+			<property name="Model" value="#@modfolder:Resources/SpartanCube.unity3d?SpartanCubeRocks" /> 
 			<property name="CustomIcon" value="RocksCubeIcon" />
-			<property name="SortOrder2" value="9998" />
+			<property name="SortOrder2" value="9991" />
+		</block>
+
+		<block name="spPatrolCubeRocks">
+			<property name="Extends" value="sbSpartanCubeOriginal"/>
+			<property name="Model" value="#@modfolder:Resources/SpartanCube.unity3d?PatrolCubeRocks" /> 
+			<property name="CustomIcon" value="PatrolRocksCubeIcon" />
+			<property name="SortOrder2" value="9992" />
+			<property name="DescriptionKey" value="sbPatrolCubeDesc"/>
 		</block>
 
 		<!-- Create a Spartan Cube helper block -->
@@ -28,7 +36,7 @@
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true" />
 			<property name="DescriptionKey" value="sbSpartanCubesVariantHelperDesc"/>
-			<property name="PlaceAltBlockValue" value="sbSpartanCubeOriginal,spSpartanCubeRocks"/>
+			<property name="PlaceAltBlockValue" value="sbSpartanCubeOriginal,spSpartanCubeRocks,spPatrolCubeRocks"/>
 		</block>
 
 	</append>
