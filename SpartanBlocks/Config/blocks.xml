@@ -23,9 +23,23 @@
 		<block name="spPatrolCubeRocks">
 			<property name="Extends" value="sbSpartanCubeOriginal"/>
 			<property name="Model" value="#@modfolder:Resources/SpartanCube.unity3d?PatrolCubeRocks" /> 
-			<property name="CustomIcon" value="PatrolRocksCubeIcon" />
+			<property name="CustomIcon" value="PatrolCubeRocksIcon" />
 			<property name="SortOrder2" value="9992" />
 			<property name="DescriptionKey" value="sbPatrolCubeDesc"/>
+		</block>
+
+		<block name="spSpartanCubeMarble">
+			<property name="Extends" value="sbSpartanCubeOriginal"/>
+			<property name="Model" value="#@modfolder:Resources/SpartanCube.unity3d?SpartanCubeMarble" /> 
+			<property name="CustomIcon" value="SpartanCubeMarbleIcon" />
+			<property name="SortOrder2" value="9993" />
+		</block>
+
+		<block name="spPatrolCubeMarble">
+			<property name="Extends" value="spPatrolCubeRocks"/>
+			<property name="Model" value="#@modfolder:Resources/SpartanCube.unity3d?PatrolCubeMarble" /> 
+			<property name="CustomIcon" value="PatrolCubeMarbleIcon" />
+			<property name="SortOrder2" value="9994" />
 		</block>
 
 		<!-- Create a Spartan Cube helper block -->
@@ -36,7 +50,7 @@
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true" />
 			<property name="DescriptionKey" value="sbSpartanCubesVariantHelperDesc"/>
-			<property name="PlaceAltBlockValue" value="sbSpartanCubeOriginal,spSpartanCubeRocks,spPatrolCubeRocks"/>
+			<property name="PlaceAltBlockValue" value="sbSpartanCubeOriginal,spSpartanCubeRocks,spPatrolCubeRocks,spSpartanCubeMarble,spPatrolCubeMarble"/>
 		</block>
 
 	</append>
@@ -60,7 +74,7 @@
 			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
 			<property name="Shape" value="ModelEntity" />
-			<property name="Model" value="#@modfolder:Resources/Flags2.unity3d?FlagSpartan" />
+			<property name="Model" value="#@modfolder:Resources/Flags.unity3d?FlagSpartan" />
 			<property name="CustomIcon" value="GrandSpartanFlagIcon" />
 			<property name="EconomicValue" value="5"/>
 			<property name="Stacknumber" value="25"/>
@@ -69,7 +83,7 @@
 
 		<block name="spPatrolFlag">
 			<property name="Extends" value="spSpartanFlag"/>
-			<property name="Model" value="#@modfolder:Resources/Flags2.unity3d?FlagPatrol" />
+			<property name="Model" value="#@modfolder:Resources/Flags.unity3d?FlagPatrol" />
 			<property name="DescriptionKey" value="spPatrolFlagDesc"/> 
 			<property name="CustomIcon" value="PatrolFlagIcon" />
 		</block>

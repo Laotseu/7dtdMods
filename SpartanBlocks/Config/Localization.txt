@@ -2,7 +2,9 @@ Key,Source,Context,Changes,English
 sbSpartanCubeOriginal,blocks,Block,New,"Spartan Cube, Original"
 sbSpartanCubeDesc,blocks,Block,New,Special flastone block that sports the Spartan logo.\n(Courtesy of the SpartanBlocks mod)
 spSpartanCubeRocks,blocks,Block,New,"Spartan Cube, Rocks"
+spSpartanCubeMarble,blocks,Block,New,"Spartan Cube, Marble"
 spPatrolCubeRocks,blocks,Block,New,"Patrol Gaming Cube, Rocks"
+spPatrolCubeMarble,blocks,Block,New,"Patrol Gaming Cube, Marble"
 sbPatrolCubeDesc,blocks,Block,New,Special flastone block that sports the Patrol Gaming logo.\n(Courtesy of the SpartanBlocks mod)
 sbSpartanCubesVariantHelper,blocks,Variant,New,Spartan Cubes
 sbSpartanCubesVariantHelperDesc,blocks,Variant,New,Helper block for all the different Spartan Cubes.\n(Courtesy of the SpartanBlocks mod)
