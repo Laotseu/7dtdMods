@@ -16,7 +16,9 @@
 		For this model to work properly, it needs to be installed on the server and every player's computer.
 	-->
 
-	<!-- v1.3:	Added Patrol Gaming's flag and cube -->
+	<!-- v1.3:	Added Patrol Gaming's flag and cube 
+				New marble cubes
+				New texture for the rocks cube -->
 	<!-- v1.2:	New Spartan flag with better animation and texture
 				New pattern for the cube
 				New helper for the cube noew that there is more then one pattern -->

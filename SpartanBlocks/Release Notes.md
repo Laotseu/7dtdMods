@@ -6,6 +6,8 @@
 	- New Patrol Gaming flag
 	- New help blocks for flags
 	- New Patrol Gaming cube
+	- New Marble cubes
+	- Replace the Rocks texture for a new one
 * 1.2: Unity asset improvements
 	- New Spartan flag with better animation and texture
 	- New pattern for the cube
