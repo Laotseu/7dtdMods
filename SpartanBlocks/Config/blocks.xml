@@ -81,11 +81,24 @@
 			<property name="TakeDelay" value="5"/>
 		</block>
 
+		<block name="spSpartanFlagBlack">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/Flags.unity3d?FlagSpartanBlack" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="SpartanFlagBlackIcon" />
+		</block>
+
 		<block name="spPatrolFlag">
 			<property name="Extends" value="spSpartanFlag"/>
 			<property name="Model" value="#@modfolder:Resources/Flags.unity3d?FlagPatrol" />
 			<property name="DescriptionKey" value="spPatrolFlagDesc"/> 
 			<property name="CustomIcon" value="PatrolFlagIcon" />
+		</block>
+
+		<block name="spPatrolFlagBlack">
+			<property name="Extends" value="spPatrolFlag"/>
+			<property name="Model" value="#@modfolder:Resources/Flags.unity3d?FlagPatrolBlack" />
+			<property name="CustomIcon" value="PatrolFlagBlackIcon" />
 		</block>
 
 		<!-- Create a flag helper block -->
@@ -96,7 +109,7 @@
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true" />
 			<property name="DescriptionKey" value="sbFlagsVariantHelperDesc"/>
-			<property name="PlaceAltBlockValue" value="spSpartanFlag,spPatrolFlag"/>
+			<property name="PlaceAltBlockValue" value="spSpartanFlag,spSpartanFlagBlack,spPatrolFlag,spPatrolFlagBlack"/>
 		</block>
 
 	</append>
