@@ -1,0 +1,5 @@
+<PG13>
+	<!-- Trader Jen is such a nice person, let's give her more chance to spawn -->
+    <setattribute xpath="//block[@name='spawnTrader']/property[@name='SpawnClass']" name="value">npcTraderJoel,npcTraderJen,npcTraderRekt,npcTraderHugh,npcTraderBob,npcTraderJen</setattribute>
+
+</PG13>

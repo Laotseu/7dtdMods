@@ -1,0 +1,5 @@
+<PG13>
+
+	<!-- The faul language is only used when a trader dislike you. Let remove all the faul disponitions. -->
+	<setattribute xpath="//*[@stance='Dislike']"  name="stance">Neutral</setattribute>
+</PG13>
