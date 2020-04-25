@@ -16,7 +16,7 @@ Eric's Goods v1.0 (Alpha 18)
 <img align="left" width="150" height="150" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/EricsGoods/Prefabs/EricsGoods.jpg" />Replaced the in game Eric's Stuff (oldwest_business_07) with Eric's Goods to add chalenge, quest, and loot to the otherwise cute but very boring POI.
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/EricsGoods_v1.0/EricsGoods_v1.0.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/EricsGoods_v1.0)<br /><br /><br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/EricsGoods_v1.0)<br /><br />
 
 MoreBlocks v1.03 (Alpha 18)
 ---------------------------
@@ -25,6 +25,17 @@ Add recipes to create decorative blocks and make them available to players (as o
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreBlocks_v1.03/MoreBlocks_v1.03.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreBlocks_v1.03)
+
+PG13
+----
+
+<img align="left" width="150" height="150" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/PG13/PG13.png" />
+
+To help my YouTuber friends to comply with the stricter YouTube rules about profanity and nudity, I'm made this little 
+modlet that remove said profanity and nudity from the game.
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/PG13_v1.0/PG13_v1.0.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PG13_v1.0)<br /><br /><br /><br />
 
 SpartanBlocks v1.3 (Alpha 18)
 -----------------------------
