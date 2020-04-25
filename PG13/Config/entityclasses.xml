@@ -1,0 +1,11 @@
+<PG13>
+
+	<!-- Replace  <property name="Mesh" value="Zombies/zombieStandardStripperRagdoll"/> -->
+	<!-- by  <property name="Mesh" value="Zombies/zombieStandardCheerleaderRagdoll"/> -->
+	<!-- //entity_class/property[@name="Mesh"][contains(@value,"Stripper")] -->
+	<insertAfter xpath="//entity_class/property[@name='Mesh'][contains(@value, 'Stripper')]">
+		<property name="Mesh" value="Zombies/zombieStandardCheerleaderRagdoll"/>
+	</insertAfter>
+	<remove xpath="//entity_class/property[@name='Mesh'][contains(@value,'Stripper')]" />
+
+</PG13>

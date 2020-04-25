@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="PG13" />
+		<Description value="Remove profanity and nudity from the game." />
+		<Author value="Eric Beaudoin" />
+		<Version value="1.0" />
+		<Website value="https://github.com/Laotseu/7dtdMods/blob/master/README.md" />
+		<!-- 1.0: 	First attemp at removing faul mouth traders greetings and stippers from the game -->
+		
+	</ModInfo>
+</xml>
