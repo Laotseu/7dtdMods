@@ -27,5 +27,14 @@
 			<property name="Group" value="Resources"/>
 			<property name="CraftingSkillGroup" value="craftSkillMiscellaneous"/>
 		</item>
+
+		<!-- <item name="spVehicle4x4TruckPlaceable">
+			<property name="Extends" value="vehicle4x4TruckPlaceable" />
+			<property name="Meshfile" value="#@modfolder:Resources/Jeep.unity3d?4x4"/>
+			<property class="Action1">
+				<property name="Vehicle" value="spVehicle4x4Truck"/>
+				<property name="VehicleSize" value="2.5, 2.1, 5"/>
+			</property> 
+		</item> -->
 	</append>
 </configs>

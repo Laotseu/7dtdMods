@@ -5,7 +5,7 @@
 		<Name value="SpartanBlocks" />
 		<Description value="Grand Spartan branded and other related blocks" />
 		<Author value="Éric Beaudon" />
-		<Version value="1.3" />
+		<Version value="1.4" />
 	</ModInfo>
 
 	<!--
@@ -16,6 +16,10 @@
 		For this model to work properly, it needs to be installed on the server and every player's computer.
 	-->
 
+	<!-- v1.4:	Black flags
+				New Spartan black flag
+				New Patrol black flag
+				Change pole texture to aluminum -->
 	<!-- v1.3:	Added Patrol Gaming's flag and cube 
 				New marble cubes
 				New texture for the rocks cube -->

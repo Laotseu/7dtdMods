@@ -2,6 +2,10 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 1.4: Black flags
+	- New Spartan black flag
+	- New Patrol black flag
+	- Change pole texture to aluminum
 * 1.3: Patrol Gaming
 	- New Patrol Gaming flag
 	- New help blocks for flags
