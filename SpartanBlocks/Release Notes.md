@@ -5,6 +5,7 @@
 * 1.4: Black flags
 	- New Spartan black flag
 	- New Patrol black flag
+	- New Half-Mast version of all flags (because, people die in this game apparently)
 	- Change pole texture to aluminum
 * 1.3: Patrol Gaming
 	- New Patrol Gaming flag
