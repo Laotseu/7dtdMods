@@ -11,8 +11,11 @@ sbSpartanCubesVariantHelperDesc,blocks,Variant,New,Helper block for all the diff
 spSpartanFlag,blocks,Block,New,Grand Spartan Flag
 spPatrolFlag,blocks,Block,New,Patrol Gaming Flag
 spSpartanFlagBlack,blocks,Block,New,"Grand Spartan Flag, Black"
-spPatrolFlag,blocks,Block,New,Patrol Gaming Flag
 spPatrolFlagBlack,blocks,Block,New,"Patrol Gaming Flag, Black"
+spSpartanFlagHalf,blocks,Block,New,"Grand Spartan Flag, Half-Mast"
+spPatrolFlagHalf,blocks,Block,New,"Patrol Gaming Flag, Half-Mast"
+spSpartanFlagBlackHalf,blocks,Block,New,"Grand Spartan Flag, Black Half-Mast"
+spPatrolFlagBlackHalf,blocks,Block,New,"Patrol Gaming Flag, Black Half-Mast"
 spSpartanFlagDesc,blocks,Block,New,Flag for all the Grand Spartan fans out there.\n(Courtesy of the SpartanBlocks mod)
 spFlagPole,blocks,Variant,New,Flag Pole
 spFlagCanvas,blocks,Variant,New,Flag Canvas

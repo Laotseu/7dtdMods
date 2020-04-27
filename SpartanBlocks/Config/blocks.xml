@@ -101,6 +101,33 @@
 			<property name="CustomIcon" value="PatrolFlagBlackIcon" />
 		</block>
 
+		<block name="spSpartanFlagHalf">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/Flags.unity3d?FlagSpartan-half" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="SpartanFlagHalfIcon" />
+		</block>
+
+		<block name="spSpartanFlagBlackHalf">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/Flags.unity3d?FlagSpartanBlack-half" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="SpartanFlagBlackHalfIcon" />
+		</block>
+
+		<block name="spPatrolFlagHalf">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/Flags.unity3d?FlagPatrol-half" />
+			<property name="DescriptionKey" value="spPatrolFlagDesc"/> 
+			<property name="CustomIcon" value="PatrolFlagHalfIcon" />
+		</block>
+
+		<block name="spPatrolFlagBlackHalf">
+			<property name="Extends" value="spPatrolFlag"/>
+			<property name="Model" value="#@modfolder:Resources/Flags.unity3d?FlagPatrolBlack-half" />
+			<property name="CustomIcon" value="PatrolFlagBlackHalfIcon" />
+		</block>
+
 		<!-- Create a flag helper block -->
 		<block name="sbFlagsVariantHelper">
 			<property name="Extends" value="spSpartanFlag"/>
@@ -109,7 +136,7 @@
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true" />
 			<property name="DescriptionKey" value="sbFlagsVariantHelperDesc"/>
-			<property name="PlaceAltBlockValue" value="spSpartanFlag,spSpartanFlagBlack,spPatrolFlag,spPatrolFlagBlack"/>
+			<property name="PlaceAltBlockValue" value="spSpartanFlag,spSpartanFlagBlack,spPatrolFlag,spPatrolFlagBlack,spSpartanFlagHalf,spSpartanFlagBlackHalf,spPatrolFlagHalf,spPatrolFlagBlackHalf"/>
 		</block>
 
 	</append>
