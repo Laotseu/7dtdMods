@@ -30,11 +30,10 @@
 	</append>
 
 	<!-- Add all windows to Business Glass Pane helper block -->
-	<set xpath="/blocks/block[@name='glassBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">glassBusinessSheet,glassBusinessCTRSheet,glassBusinessBlock,glassBusinessPlate,glassBusinessPlateCurved,glassRampSheet,glassRampSheetCap,glassRampSheetCap2,glassCTRSheet,glassShowerBlock,glassShowerRamp,glassIndustrial02CTRPlate,glassIndustrialCTRPlate,opaqueBusinessGlass,glassIndustrialPlate,glassIndustrial02Plate,stainedGlassPlate,stainedGlassCTRPlate,window02,window02Frame,window03Broke1,window03Broke2,window03Broke3,window03Broke4,windowStoreOneSided,windowStoreTwoSided,windowStoreTwoSidedCorner,windowStoreThreeSided,windowStoreFourSided,windowStoreOneSidedEmpty,windowStoreTwoSidedCornerEmpty,windowStoreThreeSidedEmpty,windowStoreFourSidedEmpty,window03,window03Frame,window03WoodBroke1,window03WoodBroke2,window03WoodBroke3,window03WoodBroke4,window03Wood,window03WoodFrame,window04,window04Frame</set>
+	<append xpath="/blocks/block[@name='glassBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,window02,window02Frame,window03Broke1,window03Broke2,window03Broke3,window03Broke4,windowStoreOneSided,windowStoreTwoSided,windowStoreTwoSidedCorner,windowStoreThreeSided,windowStoreFourSided,windowStoreOneSidedEmpty,windowStoreTwoSidedCornerEmpty,windowStoreThreeSidedEmpty,windowStoreFourSidedEmpty,window03,window03Frame,window03WoodBroke1,window03WoodBroke2,window03WoodBroke3,window03WoodBroke4,window03Wood,window03WoodFrame,window04,window04Frame</append>
 	
 	<!-- Logan's Special: add Bar Stool to the Furniture helper block -->
-	<set xpath="/blocks/block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">storeShelving01,storeShelving01Top,storeShelving01Double,storeShelving01TopDouble,cntLockersTallClosed,cntLockersShortClosed,cntLockersTallDoubleClosed,cntLockersTallMixClosed,cntLockersTallMixLinkClosed,cntMetalDesk02Closed,cntMetalDesk02Open,rustyIronTable,rScrapIronTable,cntMailBox01,cntMailBox02,cntMailBox03,cntMailbox,cntBin,cntTrash_can01,cntDomedTrashCanFull,radiatorHouse01Player,showerHead,faucet04,faucet02,barStool</set>
-
+	<append xpath="/blocks/block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,barStool</append>
 
 	<!-- Create a Wood Frame and Trim helper block -->
 	<append xpath="/blocks">
