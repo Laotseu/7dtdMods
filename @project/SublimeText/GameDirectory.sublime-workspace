@@ -1,0 +1,1624 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"release"
+			],
+			[
+				"Mo",
+				"MoreBlocks"
+			],
+			[
+				"cr",
+				"craft_area"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"blo",
+				"blocks"
+			],
+			[
+				"a",
+				"append"
+			],
+			[
+				"lo",
+				"loot"
+			],
+			[
+				"ite",
+				"item"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/blocks.xml",
+			"settings":
+			{
+				"buffer_size": 6619,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<configs>\n\t\n\t<append xpath=\"/entity_classes\">\n\n\t\t<!-- <entity_class name=\"pjVehicle4x4Truck\">\n\t\t\t<property name=\"Extends\" value=\"vehicle4x4Truck\"/>\n\t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_Prefab\"/>\n\t\t</entity_class> -->\n\n\t\t<entity_class name=\"pjVehicle4x4TruckWhite\">\n\t\t\t<property name=\"Tags\" value=\"vehicle\"/>\n\t\t\t<property name=\"Class\" value=\"EntityVJeep\"/>\n\t\t\t<property name=\"Parent\" value=\"Cars\"/>\n\t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_white\"/>\n\t\t\t<property name=\"ModelType\" value=\"Standard\"/>\n\t\t\t<property name=\"SurfaceCategory\" value=\"metal\"/>\n\t\t\t<property name=\"IgnoreTrigger\" value=\"true\"/>\n\t\t\t<property name=\"LootListAlive\" value=\"79\"/>\n\t\t\t<property name=\"IsEnemyEntity\" value=\"false\"/>\n\t\t\t<property name=\"Explosion.ParticleIndex\" value=\"6\"/>\n\t\t\t<property name=\"Explosion.RadiusBlocks\" value=\"5\"/>\n\t\t\t<property name=\"Explosion.RadiusEntities\" value=\"5\"/>\n\t\t\t<property name=\"Explosion.BlockDamage\" value=\"100\"/>\n\t\t\t<property name=\"Explosion.EntityDamage\" value=\"100\"/>\n\t\t\t<property name=\"RotateToGround\" value=\"true\"/>\n\t\t\t<property name=\"Faction\" value=\"none\"/>\n\t\t\t<property name=\"MapIcon\" value=\"ui_game_symbol_4x4\"/>\n\t\t</entity_class>\n\n\t\t<entity_class name=\"pjVehicle4x4TruckBlue\">\n\t\t\t<property name=\"Tags\" value=\"vehicle\"/>\n\t\t\t<property name=\"Class\" value=\"EntityVJeep\"/>\n\t\t\t<property name=\"Parent\" value=\"Cars\"/>\n\t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_blue\"/>\n\t\t\t<property name=\"ModelType\" value=\"Standard\"/>\n\t\t\t<property name=\"SurfaceCategory\" value=\"metal\"/>\n\t\t\t<property name=\"IgnoreTrigger\" value=\"true\"/>\n\t\t\t<property name=\"LootListAlive\" value=\"79\"/>\n\t\t\t<property name=\"IsEnemyEntity\" value=\"false\"/>\n\t\t\t<property name=\"Explosion.ParticleIndex\" value=\"6\"/>\n\t\t\t<property name=\"Explosion.RadiusBlocks\" value=\"5\"/>\n\t\t\t<property name=\"Explosion.RadiusEntities\" value=\"5\"/>\n\t\t\t<property name=\"Explosion.BlockDamage\" value=\"100\"/>\n\t\t\t<property name=\"Explosion.EntityDamage\" value=\"100\"/>\n\t\t\t<property name=\"RotateToGround\" value=\"true\"/>\n\t\t\t<property name=\"Faction\" value=\"none\"/>\n\t\t\t<property name=\"MapIcon\" value=\"ui_game_symbol_4x4\"/>\n\t\t</entity_class>\n\n\t\t<entity_class name=\"pjVehicle4x4TruckRed\">\n\t\t\t<property name=\"Tags\" value=\"vehicle\"/>\n\t\t\t<property name=\"Class\" value=\"EntityVJeep\"/>\n\t\t\t<property name=\"Parent\" value=\"Cars\"/>\n\t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_red\"/>\n\t\t\t<property name=\"ModelType\" value=\"Standard\"/>\n\t\t\t<property name=\"SurfaceCategory\" value=\"metal\"/>\n\t\t\t<property name=\"IgnoreTrigger\" value=\"true\"/>\n\t\t\t<property name=\"LootListAlive\" value=\"79\"/>\n\t\t\t<property name=\"IsEnemyEntity\" value=\"false\"/>\n\t\t\t<property name=\"Explosion.ParticleIndex\" value=\"6\"/>\n\t\t\t<property name=\"Explosion.RadiusBlocks\" value=\"5\"/>\n\t\t\t<property name=\"Explosion.RadiusEntities\" value=\"5\"/>\n\t\t\t<property name=\"Explosion.BlockDamage\" value=\"100\"/>\n\t\t\t<property name=\"Explosion.EntityDamage\" value=\"100\"/>\n\t\t\t<property name=\"RotateToGround\" value=\"true\"/>\n\t\t\t<property name=\"Faction\" value=\"none\"/>\n\t\t\t<property name=\"MapIcon\" value=\"ui_game_symbol_4x4\"/>\n\t\t</entity_class>\n\n\n\t</append>\n\n</configs>",
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/entityclasses.xml",
+			"file_size": 3240,
+			"file_write_time": 132326659555346201,
+			"settings":
+			{
+				"buffer_size": 3168,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Key,Source,Context,Changes,English\npjVehicle4x4TruckWhitePlaceable,blocks,Block,New,\"Scrubed 4x4\"\npjVehicle4x4TruckBluePlaceable,blocks,Block,New,\"4x4, Blue\"\npjVehicle4x4TruckRedPlaceable,blocks,Block,New,\"4x4, Red\"\n\n",
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/Localization.txt",
+			"file_size": 222,
+			"file_write_time": 132326622610755408,
+			"settings":
+			{
+				"buffer_size": 217,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<configs>\n\t<append xpath=\"/items\">\t\n\n\t\t<item name=\"pjVehicle4x4TruckWhitePlaceable\">\n\t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n\t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_white\"/>\n\t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n\t\t\t<property class=\"Action1\">\n\t\t\t\t<property name=\"Vehicle\" value=\"pjVehicle4x4TruckWhite\"/>\n\t\t\t\t<property name=\"VehicleSize\" value=\"2.5, 2.1, 5\"/>\n\t\t\t</property>\n\t\t\t<effect_group name=\"pjVehicle4x4TruckWhitePlaceable\" tiered=\"false\">\n\t\t\t\t<passive_effect name=\"ModSlots\" operation=\"base_set\" value=\"4\"/>\n\t\t\t\t<passive_effect name=\"ModPowerBonus\" operation=\"base_add\" value=\"300\" tags=\"EconomicValue\"/>\n\t\t\t\t<passive_effect name=\"DegradationMax\" operation=\"base_set\" value=\"7500\"/>\n\t\t\t</effect_group>\n\t\t</item>\n\n\t\t<item name=\"pjVehicle4x4TruckBluePlaceable\">\n\t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n\t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_blue\"/>\n\t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n\t\t\t<property class=\"Action1\">\n\t\t\t\t<property name=\"Vehicle\" value=\"pjVehicle4x4TruckBlue\"/>\n\t\t\t\t<property name=\"VehicleSize\" value=\"2.5, 2.1, 5\"/>\n\t\t\t</property>\n\t\t\t<effect_group name=\"pjVehicle4x4TruckBluePlaceable\" tiered=\"false\">\n\t\t\t\t<passive_effect name=\"ModSlots\" operation=\"base_set\" value=\"4\"/>\n\t\t\t\t<passive_effect name=\"ModPowerBonus\" operation=\"base_add\" value=\"300\" tags=\"EconomicValue\"/>\n\t\t\t\t<passive_effect name=\"DegradationMax\" operation=\"base_set\" value=\"7500\"/>\n\t\t\t</effect_group>\n\t\t</item>\n\n\t\t<item name=\"pjVehicle4x4TruckRedPlaceable\">\n\t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n\t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_red\"/>\n\t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n\t\t\t<property class=\"Action1\">\n\t\t\t\t<property name=\"Vehicle\" value=\"pjVehicle4x4TruckRed\"/>\n\t\t\t\t<property name=\"VehicleSize\" value=\"2.5, 2.1, 5\"/>\n\t\t\t</property>\n\t\t\t<effect_group name=\"pjVehicle4x4TruckRedPlaceable\" tiered=\"false\">\n\t\t\t\t<passive_effect name=\"ModSlots\" operation=\"base_set\" value=\"4\"/>\n\t\t\t\t<passive_effect name=\"ModPowerBonus\" operation=\"base_add\" value=\"300\" tags=\"EconomicValue\"/>\n\t\t\t\t<passive_effect name=\"DegradationMax\" operation=\"base_set\" value=\"7500\"/>\n\t\t\t</effect_group>\n\t\t</item>\n\n\n\t</append>\n</configs>",
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/items.xml",
+			"file_size": 2371,
+			"file_write_time": 132326659324629518,
+			"settings":
+			{
+				"buffer_size": 2321,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<configs>\n\n\t<append xpath=\"/vehicles\" >\n\n\t<vehicle name=\"pjVehicle4x4TruckWhite\">\n\t\t<property name=\"cameraDistance\" value=\"5.5, 7\"/>\n\t\t<property name=\"cameraTurnRate\" value=\".2, .35\"/>\n\t\t<property name=\"motorTorqueMinQ\" value=\"5000\"/>\n\t\t<property name=\"motorTorqueMaxQ\" value=\"5000\"/>\n\t\t<property name=\"brakeTorque\" value=\"5000\"/>\n\t\t<property name=\"upAngleMax\" value=\"70\"/>\n\t\t<property name=\"upForce\" value=\"1\"/>\n\t\t<property name=\"steerRate\" value=\"130\"/>\n\t\t<property name=\"steerCenteringRate\" value=\"90\"/>\n\t\t<property name=\"tiltAngleMax\" value=\"80\"/>\n\t\t<property name=\"tiltThreshold\" value=\"3\"/>\n\t\t<property name=\"tiltDampening\" value=\".22\"/>\n\t\t<property name=\"tiltDampenThreshold\" value=\"8\"/>\n\t\t<property name=\"tiltUpForce\" value=\"0\"/>\n\t\t<property name=\"unstickForce\" value=\"1\"/>\n\t\t<property name=\"velocityMax\" value=\"9, 13\"/>\n\t\t<property name=\"waterDrag_y_velScale_velMaxScale\" value=\"1.8, .9, .1\"/>\n\t\t<property name=\"wheelPtlScale\" value=\"1\"/>\n\n\t\t<property name=\"hornSound\" value=\"vehicle/minibike/minibike_horn\"/>\n\n\t\t<property class=\"battery\">\n\t\t\t<property name=\"class\" value=\"Battery\"/>\n\t\t\t<property name=\"slot_type\" value=\"battery\"/>\n\t\t\t<property name=\"mesh\" value=\"battery\"/>\n\t\t\t<property name=\"transform\" value=\"battery\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t</property>\n\n\t\t<property class=\"chassis\">\n\t\t\t<property name=\"class\" value=\"Chassis\"/>\n\t\t\t<property name=\"display_name\" value=\"chassis\"/>\n\t\t\t<property name=\"slot_type\" value=\"chassis\"/>\n\t\t\t<property name=\"mesh\" value=\"chassis\"/>\n\t\t\t<property name=\"transform\" value=\"Origin\"/>\n\t\t</property>\n\n\t\t<property class=\"engine\">\n\t\t\t<property name=\"class\" value=\"Engine\"/>\n\t\t\t<property name=\"slot_type\" value=\"engine\"/>\n\t\t\t<property name=\"mesh\" value=\"engine_small\"/>\n\t\t\t<property name=\"transform\" value=\"engine_small\"/>\n\t\t\t<property name=\"particle_transform\" value=\"engine_small/MinibikeParticles/p_engine_fire\"/>\n\t\t\t<property name=\"fuelKmPerL\" value=\".1\"/>\n\t\t\t<property name=\"gear1\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -1400,800,0, 700,2200,900,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_accel1,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel1,\n\t\t\t\t\t\t\t\t0, .7, 1, .1, -9, .12, .1, Vehicles/Suv/suv_idle_lp,\n\t\t\t\t\t\t\t\t-.4, -.02, .7, .7, -.2, 9, .2, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"gear2\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -2000,1000,2000, 600,2200,800,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_accel2,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel1,\n\t\t\t\t\t\t\t\t-.25, -.05, .2, .4, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"gear3\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -2000,1000,2000, 500,2200,1000,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_accel3,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel2,\n\t\t\t\t\t\t\t\t-.28, -.07, .3, .6, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"gear4\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -2000,1000,2000, 500,9999,9999,\n\t\t\t\t\t\t\t\t,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel2,\n\t\t\t\t\t\t\t\t-.31, -.08, .6, .9, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"sound_start\" value=\"Vehicles/Suv/suv_startup\"/>\n\t\t\t<property name=\"sound_shut_off\" value=\"Vehicles/Suv/suv_shutoff\"/>\n\t\t\t<property name=\"sound_no_fuel_shut_off\" value=\"Vehicles/Motorbike/motorbike_empty\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t</property>\n\n\t\t<property class=\"fuelTank\">\n\t\t\t<property name=\"class\" value=\"FuelTank\"/>\n\t\t\t<property name=\"parent_part\" value=\"engine\"/>\n\t\t\t<property name=\"capacity\" value=\"400\"/>\n\t\t</property>\n\n\t\t<property class=\"handlebars\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"class\" value=\"Steering\"/>\n\t\t\t<property name=\"slot_type\" value=\"handlebars\"/>\n\t\t\t<property name=\"transform\" value=\"Origin/steering_joint\"/>\n\t\t\t<property name=\"steerMaxAngle\" value=\"60\"/>\n\t\t\t<property name=\"IKHandLPosition\" value=\"-.154, .1256, .0265\"/>\n\t\t\t<property name=\"IKHandLRotation\" value=\"37.55, -13.433, 49.88\"/>\n\t\t\t<property name=\"IKHandRPosition\" value=\".154, .1256, .0265\"/>\n\t\t\t<property name=\"IKHandRRotation\" value=\"37.55, 13.433, -49.88\"/>\n\t\t</property>\n\n\t\t<property class=\"seat0\">\n\t\t\t<property name=\"position\" value=\"-.4, .36, .06\"/>\n\t\t\t<property name=\"rotation\" value=\"-25, 0, 0\"/>\n\t\t\t<property name=\"exit\" value=\"-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0\"/>\n\t\t</property>\n\n\t\t<property class=\"seat1\">\n\t\t\t<property name=\"position\" value=\".4, .36, .06\"/>\n\t\t\t<property name=\"rotation\" value=\"-25, 0, 0\"/>\n\t\t\t<property name=\"exit\" value=\"1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel0\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"steerTransform\" value=\"Origin/frontLeftWheelStear_joint\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/frontLeftWheelStear_joint/frontLeftWheel_joint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, .8\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel1\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"steerTransform\" value=\"Origin/frontRightWheelStear_joint\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/frontRightWheelStear_joint/frontRightWheel_joint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, .8\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel2\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/backLeftWheelJoint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, 1\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel3\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/backRightWheelJoint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, 1\"/>\n\t\t</property>\n\n\t\t<property class=\"headlight\">\n\t\t\t<property name=\"class\" value=\"Headlight\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"transform\" value=\"Origin/headlight\"/>\n\t\t\t<property name=\"bright\" value=\".75\"/>\n\t\t</property>\n\n\t\t<property class=\"storage\">\n\t\t\t<property name=\"class\" value=\"Storage\"/>\n\t\t\t<property name=\"display_name\" value=\"basket\"/>\n\t\t\t<property name=\"slot_type\" value=\"basket\"/>\n\t\t\t<property name=\"mesh\" value=\"basket\"/>\n\t\t\t<property name=\"transform\" value=\"basket\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t</property>\n\n\t</vehicle>\n\t\n\t<vehicle name=\"pjVehicle4x4TruckBlue\">\n\t\t<property name=\"cameraDistance\" value=\"5.5, 7\"/>\n\t\t<property name=\"cameraTurnRate\" value=\".2, .35\"/>\n\t\t<property name=\"motorTorqueMinQ\" value=\"5000\"/>\n\t\t<property name=\"motorTorqueMaxQ\" value=\"5000\"/>\n\t\t<property name=\"brakeTorque\" value=\"5000\"/>\n\t\t<property name=\"upAngleMax\" value=\"70\"/>\n\t\t<property name=\"upForce\" value=\"1\"/>\n\t\t<property name=\"steerRate\" value=\"130\"/>\n\t\t<property name=\"steerCenteringRate\" value=\"90\"/>\n\t\t<property name=\"tiltAngleMax\" value=\"80\"/>\n\t\t<property name=\"tiltThreshold\" value=\"3\"/>\n\t\t<property name=\"tiltDampening\" value=\".22\"/>\n\t\t<property name=\"tiltDampenThreshold\" value=\"8\"/>\n\t\t<property name=\"tiltUpForce\" value=\"0\"/>\n\t\t<property name=\"unstickForce\" value=\"1\"/>\n\t\t<property name=\"velocityMax\" value=\"9, 13\"/>\n\t\t<property name=\"waterDrag_y_velScale_velMaxScale\" value=\"1.8, .9, .1\"/>\n\t\t<property name=\"wheelPtlScale\" value=\"1\"/>\n\n\t\t<property name=\"hornSound\" value=\"vehicle/minibike/minibike_horn\"/>\n\n\t\t<property class=\"battery\">\n\t\t\t<property name=\"class\" value=\"Battery\"/>\n\t\t\t<property name=\"slot_type\" value=\"battery\"/>\n\t\t\t<property name=\"mesh\" value=\"battery\"/>\n\t\t\t<property name=\"transform\" value=\"battery\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t</property>\n\n\t\t<property class=\"chassis\">\n\t\t\t<property name=\"class\" value=\"Chassis\"/>\n\t\t\t<property name=\"display_name\" value=\"chassis\"/>\n\t\t\t<property name=\"slot_type\" value=\"chassis\"/>\n\t\t\t<property name=\"mesh\" value=\"chassis\"/>\n\t\t\t<property name=\"transform\" value=\"Origin\"/>\n\t\t</property>\n\n\t\t<property class=\"engine\">\n\t\t\t<property name=\"class\" value=\"Engine\"/>\n\t\t\t<property name=\"slot_type\" value=\"engine\"/>\n\t\t\t<property name=\"mesh\" value=\"engine_small\"/>\n\t\t\t<property name=\"transform\" value=\"engine_small\"/>\n\t\t\t<property name=\"particle_transform\" value=\"engine_small/MinibikeParticles/p_engine_fire\"/>\n\t\t\t<property name=\"fuelKmPerL\" value=\".1\"/>\n\t\t\t<property name=\"gear1\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -1400,800,0, 700,2200,900,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_accel1,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel1,\n\t\t\t\t\t\t\t\t0, .7, 1, .1, -9, .12, .1, Vehicles/Suv/suv_idle_lp,\n\t\t\t\t\t\t\t\t-.4, -.02, .7, .7, -.2, 9, .2, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"gear2\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -2000,1000,2000, 600,2200,800,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_accel2,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel1,\n\t\t\t\t\t\t\t\t-.25, -.05, .2, .4, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"gear3\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -2000,1000,2000, 500,2200,1000,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_accel3,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel2,\n\t\t\t\t\t\t\t\t-.28, -.07, .3, .6, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"gear4\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -2000,1000,2000, 500,9999,9999,\n\t\t\t\t\t\t\t\t,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel2,\n\t\t\t\t\t\t\t\t-.31, -.08, .6, .9, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"sound_start\" value=\"Vehicles/Suv/suv_startup\"/>\n\t\t\t<property name=\"sound_shut_off\" value=\"Vehicles/Suv/suv_shutoff\"/>\n\t\t\t<property name=\"sound_no_fuel_shut_off\" value=\"Vehicles/Motorbike/motorbike_empty\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t</property>\n\n\t\t<property class=\"fuelTank\">\n\t\t\t<property name=\"class\" value=\"FuelTank\"/>\n\t\t\t<property name=\"parent_part\" value=\"engine\"/>\n\t\t\t<property name=\"capacity\" value=\"400\"/>\n\t\t</property>\n\n\t\t<property class=\"handlebars\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"class\" value=\"Steering\"/>\n\t\t\t<property name=\"slot_type\" value=\"handlebars\"/>\n\t\t\t<property name=\"transform\" value=\"Origin/steering_joint\"/>\n\t\t\t<property name=\"steerMaxAngle\" value=\"60\"/>\n\t\t\t<property name=\"IKHandLPosition\" value=\"-.154, .1256, .0265\"/>\n\t\t\t<property name=\"IKHandLRotation\" value=\"37.55, -13.433, 49.88\"/>\n\t\t\t<property name=\"IKHandRPosition\" value=\".154, .1256, .0265\"/>\n\t\t\t<property name=\"IKHandRRotation\" value=\"37.55, 13.433, -49.88\"/>\n\t\t</property>\n\n\t\t<property class=\"seat0\">\n\t\t\t<property name=\"position\" value=\"-.4, .36, .06\"/>\n\t\t\t<property name=\"rotation\" value=\"-25, 0, 0\"/>\n\t\t\t<property name=\"exit\" value=\"-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0\"/>\n\t\t</property>\n\n\t\t<property class=\"seat1\">\n\t\t\t<property name=\"position\" value=\".4, .36, .06\"/>\n\t\t\t<property name=\"rotation\" value=\"-25, 0, 0\"/>\n\t\t\t<property name=\"exit\" value=\"1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel0\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"steerTransform\" value=\"Origin/frontLeftWheelStear_joint\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/frontLeftWheelStear_joint/frontLeftWheel_joint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, .8\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel1\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"steerTransform\" value=\"Origin/frontRightWheelStear_joint\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/frontRightWheelStear_joint/frontRightWheel_joint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, .8\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel2\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/backLeftWheelJoint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, 1\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel3\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/backRightWheelJoint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, 1\"/>\n\t\t</property>\n\n\t\t<property class=\"headlight\">\n\t\t\t<property name=\"class\" value=\"Headlight\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"transform\" value=\"Origin/headlight\"/>\n\t\t\t<property name=\"bright\" value=\".75\"/>\n\t\t</property>\n\n\t\t<property class=\"storage\">\n\t\t\t<property name=\"class\" value=\"Storage\"/>\n\t\t\t<property name=\"display_name\" value=\"basket\"/>\n\t\t\t<property name=\"slot_type\" value=\"basket\"/>\n\t\t\t<property name=\"mesh\" value=\"basket\"/>\n\t\t\t<property name=\"transform\" value=\"basket\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t</property>\n\n\t</vehicle>\n\n\t<vehicle name=\"pjVehicle4x4TruckRed\">\n\t\t<property name=\"cameraDistance\" value=\"5.5, 7\"/>\n\t\t<property name=\"cameraTurnRate\" value=\".2, .35\"/>\n\t\t<property name=\"motorTorqueMinQ\" value=\"5000\"/>\n\t\t<property name=\"motorTorqueMaxQ\" value=\"5000\"/>\n\t\t<property name=\"brakeTorque\" value=\"5000\"/>\n\t\t<property name=\"upAngleMax\" value=\"70\"/>\n\t\t<property name=\"upForce\" value=\"1\"/>\n\t\t<property name=\"steerRate\" value=\"130\"/>\n\t\t<property name=\"steerCenteringRate\" value=\"90\"/>\n\t\t<property name=\"tiltAngleMax\" value=\"80\"/>\n\t\t<property name=\"tiltThreshold\" value=\"3\"/>\n\t\t<property name=\"tiltDampening\" value=\".22\"/>\n\t\t<property name=\"tiltDampenThreshold\" value=\"8\"/>\n\t\t<property name=\"tiltUpForce\" value=\"0\"/>\n\t\t<property name=\"unstickForce\" value=\"1\"/>\n\t\t<property name=\"velocityMax\" value=\"9, 13\"/>\n\t\t<property name=\"waterDrag_y_velScale_velMaxScale\" value=\"1.8, .9, .1\"/>\n\t\t<property name=\"wheelPtlScale\" value=\"1\"/>\n\n\t\t<property name=\"hornSound\" value=\"vehicle/minibike/minibike_horn\"/>\n\n\t\t<property class=\"battery\">\n\t\t\t<property name=\"class\" value=\"Battery\"/>\n\t\t\t<property name=\"slot_type\" value=\"battery\"/>\n\t\t\t<property name=\"mesh\" value=\"battery\"/>\n\t\t\t<property name=\"transform\" value=\"battery\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t</property>\n\n\t\t<property class=\"chassis\">\n\t\t\t<property name=\"class\" value=\"Chassis\"/>\n\t\t\t<property name=\"display_name\" value=\"chassis\"/>\n\t\t\t<property name=\"slot_type\" value=\"chassis\"/>\n\t\t\t<property name=\"mesh\" value=\"chassis\"/>\n\t\t\t<property name=\"transform\" value=\"Origin\"/>\n\t\t</property>\n\n\t\t<property class=\"engine\">\n\t\t\t<property name=\"class\" value=\"Engine\"/>\n\t\t\t<property name=\"slot_type\" value=\"engine\"/>\n\t\t\t<property name=\"mesh\" value=\"engine_small\"/>\n\t\t\t<property name=\"transform\" value=\"engine_small\"/>\n\t\t\t<property name=\"particle_transform\" value=\"engine_small/MinibikeParticles/p_engine_fire\"/>\n\t\t\t<property name=\"fuelKmPerL\" value=\".1\"/>\n\t\t\t<property name=\"gear1\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -1400,800,0, 700,2200,900,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_accel1,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel1,\n\t\t\t\t\t\t\t\t0, .7, 1, .1, -9, .12, .1, Vehicles/Suv/suv_idle_lp,\n\t\t\t\t\t\t\t\t-.4, -.02, .7, .7, -.2, 9, .2, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"gear2\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -2000,1000,2000, 600,2200,800,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_accel2,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel1,\n\t\t\t\t\t\t\t\t-.25, -.05, .2, .4, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"gear3\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -2000,1000,2000, 500,2200,1000,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_accel3,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel2,\n\t\t\t\t\t\t\t\t-.28, -.07, .3, .6, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"gear4\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -2000,1000,2000, 500,9999,9999,\n\t\t\t\t\t\t\t\t,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel2,\n\t\t\t\t\t\t\t\t-.31, -.08, .6, .9, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"sound_start\" value=\"Vehicles/Suv/suv_startup\"/>\n\t\t\t<property name=\"sound_shut_off\" value=\"Vehicles/Suv/suv_shutoff\"/>\n\t\t\t<property name=\"sound_no_fuel_shut_off\" value=\"Vehicles/Motorbike/motorbike_empty\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t</property>\n\n\t\t<property class=\"fuelTank\">\n\t\t\t<property name=\"class\" value=\"FuelTank\"/>\n\t\t\t<property name=\"parent_part\" value=\"engine\"/>\n\t\t\t<property name=\"capacity\" value=\"400\"/>\n\t\t</property>\n\n\t\t<property class=\"handlebars\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"class\" value=\"Steering\"/>\n\t\t\t<property name=\"slot_type\" value=\"handlebars\"/>\n\t\t\t<property name=\"transform\" value=\"Origin/steering_joint\"/>\n\t\t\t<property name=\"steerMaxAngle\" value=\"60\"/>\n\t\t\t<property name=\"IKHandLPosition\" value=\"-.154, .1256, .0265\"/>\n\t\t\t<property name=\"IKHandLRotation\" value=\"37.55, -13.433, 49.88\"/>\n\t\t\t<property name=\"IKHandRPosition\" value=\".154, .1256, .0265\"/>\n\t\t\t<property name=\"IKHandRRotation\" value=\"37.55, 13.433, -49.88\"/>\n\t\t</property>\n\n\t\t<property class=\"seat0\">\n\t\t\t<property name=\"position\" value=\"-.4, .36, .06\"/>\n\t\t\t<property name=\"rotation\" value=\"-25, 0, 0\"/>\n\t\t\t<property name=\"exit\" value=\"-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0\"/>\n\t\t</property>\n\n\t\t<property class=\"seat1\">\n\t\t\t<property name=\"position\" value=\".4, .36, .06\"/>\n\t\t\t<property name=\"rotation\" value=\"-25, 0, 0\"/>\n\t\t\t<property name=\"exit\" value=\"1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel0\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"steerTransform\" value=\"Origin/frontLeftWheelStear_joint\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/frontLeftWheelStear_joint/frontLeftWheel_joint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, .8\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel1\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"steerTransform\" value=\"Origin/frontRightWheelStear_joint\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/frontRightWheelStear_joint/frontRightWheel_joint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, .8\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel2\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/backLeftWheelJoint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, 1\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel3\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/backRightWheelJoint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, 1\"/>\n\t\t</property>\n\n\t\t<property class=\"headlight\">\n\t\t\t<property name=\"class\" value=\"Headlight\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"transform\" value=\"Origin/headlight\"/>\n\t\t\t<property name=\"bright\" value=\".75\"/>\n\t\t</property>\n\n\t\t<property class=\"storage\">\n\t\t\t<property name=\"class\" value=\"Storage\"/>\n\t\t\t<property name=\"display_name\" value=\"basket\"/>\n\t\t\t<property name=\"slot_type\" value=\"basket\"/>\n\t\t\t<property name=\"mesh\" value=\"basket\"/>\n\t\t\t<property name=\"transform\" value=\"basket\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t</property>\n\n\t</vehicle>\n\n\t</append>\n\t\n</configs>",
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/vehicles.xml",
+			"file_size": 19292,
+			"file_write_time": 132326634343831040,
+			"settings":
+			{
+				"buffer_size": 18824,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 1441 files for \"pjVehicle4x4TruckBlue\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\items.xml:\n   17  \t\t</item>\n   18  \n   19: \t\t<item name=\"pjVehicle4x4TruckBluePlaceable\">\n   20  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n   21  \t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_blue\"/>\n   22  \t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n   23  \t\t\t<property class=\"Action1\">\n   24: \t\t\t\t<property name=\"Vehicle\" value=\"pjVehicle4x4TruckBlue\"/>\n   25  \t\t\t\t<property name=\"VehicleSize\" value=\"2.5, 2.1, 5\"/>\n   26  \t\t\t</property>\n   27: \t\t\t<effect_group name=\"pjVehicle4x4TruckBluePlaceable\" tiered=\"false\">\n   28  \t\t\t\t<passive_effect name=\"ModSlots\" operation=\"base_set\" value=\"4\"/>\n   29  \t\t\t\t<passive_effect name=\"ModPowerBonus\" operation=\"base_add\" value=\"300\" tags=\"EconomicValue\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\Localization.txt:\n    1  Key,Source,Context,Changes,English\n    2  pjVehicle4x4TruckWhitePlaceable,blocks,Block,New,\"Scrubed 4x4\"\n    3: pjVehicle4x4TruckBluePlaceable,blocks,Block,New,\"4x4, Blue\"\n    4  pjVehicle4x4TruckRedPlaceable,blocks,Block,New,\"4x4, Red\"\n    5  \n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\recipes.xml:\n    7  \n    8  \t\t<recipe name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\">\n    9: \t\t\t<ingredient name=\"pjVehicle4x4TruckBluePlaceable\" count=\"1\"/>\n   10  \t\t</recipe>\n   11  \t\n   ..\n   18  \t\t</recipe>\n   19  \n   20: \t\t<recipe name=\"pjVehicle4x4TruckBluePlaceable\" count=\"1\">\n   21  \t\t\t<ingredient name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\"/>\n   22  \t\t</recipe>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\vehicles.xml:\n  157  \t</vehicle>\n  158  \t\n  159: \t<vehicle name=\"pjVehicle4x4TruckBlue\">\n  160  \t\t<property name=\"cameraDistance\" value=\"5.5, 7\"/>\n  161  \t\t<property name=\"cameraTurnRate\" value=\".2, .35\"/>\n\n7 matches across 4 files\n\n\nSearching 1441 files for \"jeep_blue\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\entityclasses.xml:\n   32  \t\t\t<property name=\"Class\" value=\"EntityVJeep\"/>\n   33  \t\t\t<property name=\"Parent\" value=\"Cars\"/>\n   34: \t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_blue\"/>\n   35  \t\t\t<property name=\"ModelType\" value=\"Standard\"/>\n   36  \t\t\t<property name=\"SurfaceCategory\" value=\"metal\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\items.xml:\n   19  \t\t<item name=\"pjVehicle4x4TruckBluePlaceable\">\n   20  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n   21: \t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_blue\"/>\n   22  \t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n   23  \t\t\t<property class=\"Action1\">\n\n2 matches across 2 files\n\n\nSearching 1441 files for \"pjVehicle4x4TruckRed\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\entityclasses.xml:\n   48  \t\t</entity_class>\n   49  \n   50: \t\t<entity_class name=\"pjVehicle4x4TruckRed\">\n   51  \t\t\t<property name=\"Tags\" value=\"vehicle\"/>\n   52  \t\t\t<property name=\"Class\" value=\"EntityVJeep\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\items.xml:\n   32  \t\t</item>\n   33  \n   34: \t\t<item name=\"pjVehicle4x4TruckRedPlaceable\">\n   35  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n   36  \t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_red\"/>\n   37  \t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n   38  \t\t\t<property class=\"Action1\">\n   39: \t\t\t\t<property name=\"Vehicle\" value=\"pjVehicle4x4TruckRed\"/>\n   40  \t\t\t\t<property name=\"VehicleSize\" value=\"2.5, 2.1, 5\"/>\n   41  \t\t\t</property>\n   42: \t\t\t<effect_group name=\"pjVehicle4x4TruckRedPlaceable\" tiered=\"false\">\n   43  \t\t\t\t<passive_effect name=\"ModSlots\" operation=\"base_set\" value=\"4\"/>\n   44  \t\t\t\t<passive_effect name=\"ModPowerBonus\" operation=\"base_add\" value=\"300\" tags=\"EconomicValue\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\Localization.txt:\n    2  pjVehicle4x4TruckWhitePlaceable,blocks,Block,New,\"Scrubed 4x4\"\n    3  pjVehicle4x4TruckBluePlaceable,blocks,Block,New,\"4x4, Blue\"\n    4: pjVehicle4x4TruckRedPlaceable,blocks,Block,New,\"4x4, Red\"\n    5  \n    6  \n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\recipes.xml:\n   11  \t\n   12  \t\t<recipe name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\">\n   13: \t\t\t<ingredient name=\"pjVehicle4x4TruckRedPlaceable\" count=\"1\"/>\n   14  \t\t</recipe>\n   15  \n   ..\n   22  \t\t</recipe>\n   23  \n   24: \t\t<recipe name=\"pjVehicle4x4TruckRedPlaceable\" count=\"1\">\n   25  \t\t\t<ingredient name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\"/>\n   26  \t\t</recipe>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\vehicles.xml:\n  311  \t</vehicle>\n  312  \n  313: \t<vehicle name=\"pjVehicle4x4TruckRed\">\n  314  \t\t<property name=\"cameraDistance\" value=\"5.5, 7\"/>\n  315  \t\t<property name=\"cameraTurnRate\" value=\".2, .35\"/>\n\n8 matches across 5 files\n\n\nSearching 1441 files for \"pjVehicle4x4TruckBlue\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\items.xml:\n   17  \t\t</item>\n   18  \n   19: \t\t<item name=\"pjVehicle4x4TruckBluePlaceable\">\n   20  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n   21  \t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_blue\"/>\n   22  \t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n   23  \t\t\t<property class=\"Action1\">\n   24: \t\t\t\t<property name=\"Vehicle\" value=\"pjVehicle4x4TruckBlue\"/>\n   25  \t\t\t\t<property name=\"VehicleSize\" value=\"2.5, 2.1, 5\"/>\n   26  \t\t\t</property>\n   27: \t\t\t<effect_group name=\"pjVehicle4x4TruckBluePlaceable\" tiered=\"false\">\n   28  \t\t\t\t<passive_effect name=\"ModSlots\" operation=\"base_set\" value=\"4\"/>\n   29  \t\t\t\t<passive_effect name=\"ModPowerBonus\" operation=\"base_add\" value=\"300\" tags=\"EconomicValue\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\Localization.txt:\n    1  Key,Source,Context,Changes,English\n    2  pjVehicle4x4TruckWhitePlaceable,blocks,Block,New,\"Scrubed 4x4\"\n    3: pjVehicle4x4TruckBluePlaceable,blocks,Block,New,\"4x4, Blue\"\n    4  pjVehicle4x4TruckRedPlaceable,blocks,Block,New,\"4x4, Red\"\n    5  \n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\recipes.xml:\n    7  \n    8  \t\t<recipe name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\">\n    9: \t\t\t<ingredient name=\"pjVehicle4x4TruckBluePlaceable\" count=\"1\"/>\n   10  \t\t</recipe>\n   11  \t\n   ..\n   18  \t\t</recipe>\n   19  \n   20: \t\t<recipe name=\"pjVehicle4x4TruckBluePlaceable\" count=\"1\">\n   21  \t\t\t<ingredient name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\"/>\n   22  \t\t</recipe>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\vehicles.xml:\n  157  \t</vehicle>\n  158  \t\n  159: \t<vehicle name=\"pjVehicle4x4TruckBlue\">\n  160  \t\t<property name=\"cameraDistance\" value=\"5.5, 7\"/>\n  161  \t\t<property name=\"cameraTurnRate\" value=\".2, .35\"/>\n\n7 matches across 4 files\n\n\nSearching 1441 files for \"pjVehicle4x4TruckBluePlaceable\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\items.xml:\n   17  \t\t</item>\n   18  \n   19: \t\t<item name=\"pjVehicle4x4TruckBluePlaceable\">\n   20  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n   21  \t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_blue\"/>\n   ..\n   25  \t\t\t\t<property name=\"VehicleSize\" value=\"2.5, 2.1, 5\"/>\n   26  \t\t\t</property>\n   27: \t\t\t<effect_group name=\"pjVehicle4x4TruckBluePlaceable\" tiered=\"false\">\n   28  \t\t\t\t<passive_effect name=\"ModSlots\" operation=\"base_set\" value=\"4\"/>\n   29  \t\t\t\t<passive_effect name=\"ModPowerBonus\" operation=\"base_add\" value=\"300\" tags=\"EconomicValue\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\Localization.txt:\n    1  Key,Source,Context,Changes,English\n    2  pjVehicle4x4TruckWhitePlaceable,blocks,Block,New,\"Scrubed 4x4\"\n    3: pjVehicle4x4TruckBluePlaceable,blocks,Block,New,\"4x4, Blue\"\n    4  pjVehicle4x4TruckRedPlaceable,blocks,Block,New,\"4x4, Red\"\n    5  \n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\recipes.xml:\n    7  \n    8  \t\t<recipe name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\">\n    9: \t\t\t<ingredient name=\"pjVehicle4x4TruckBluePlaceable\" count=\"1\"/>\n   10  \t\t</recipe>\n   11  \t\n   ..\n   18  \t\t</recipe>\n   19  \n   20: \t\t<recipe name=\"pjVehicle4x4TruckBluePlaceable\" count=\"1\">\n   21  \t\t\t<ingredient name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\"/>\n   22  \t\t</recipe>\n\n5 matches across 3 files\n\n\nSearching 1441 files for \"pjVehicle4x4TruckRedPlaceable\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\items.xml:\n   32  \t\t</item>\n   33  \n   34: \t\t<item name=\"pjVehicle4x4TruckRedPlaceable\">\n   35  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n   36  \t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_red\"/>\n   ..\n   40  \t\t\t\t<property name=\"VehicleSize\" value=\"2.5, 2.1, 5\"/>\n   41  \t\t\t</property>\n   42: \t\t\t<effect_group name=\"pjVehicle4x4TruckRedPlaceable\" tiered=\"false\">\n   43  \t\t\t\t<passive_effect name=\"ModSlots\" operation=\"base_set\" value=\"4\"/>\n   44  \t\t\t\t<passive_effect name=\"ModPowerBonus\" operation=\"base_add\" value=\"300\" tags=\"EconomicValue\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\Localization.txt:\n    2  pjVehicle4x4TruckWhitePlaceable,blocks,Block,New,\"Scrubed 4x4\"\n    3  pjVehicle4x4TruckBluePlaceable,blocks,Block,New,\"4x4, Blue\"\n    4: pjVehicle4x4TruckRedPlaceable,blocks,Block,New,\"4x4, Red\"\n    5  \n    6  \n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\recipes.xml:\n   11  \t\n   12  \t\t<recipe name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\">\n   13: \t\t\t<ingredient name=\"pjVehicle4x4TruckRedPlaceable\" count=\"1\"/>\n   14  \t\t</recipe>\n   15  \n   ..\n   22  \t\t</recipe>\n   23  \n   24: \t\t<recipe name=\"pjVehicle4x4TruckRedPlaceable\" count=\"1\">\n   25  \t\t\t<ingredient name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\"/>\n   26  \t\t</recipe>\n\n5 matches across 3 files\n",
+			"settings":
+			{
+				"buffer_size": 9895,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"contents": "<configs>\n\t<append xpath=\"/recipes\" >\n\n\t\t<recipe name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\">\n\t\t\t<ingredient name=\"vehicle4x4TruckPlaceable\" count=\"1\"/>\n\t\t\t<ingredient name=\"resourceAcid\" count=\"1\"/>\n\t\t\t<ingredient name=\"drinkJarGrainAlcohol\" count=\"5\"/>\n\t\t</recipe>\n\n\t\t<recipe name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\">\n\t\t\t<ingredient name=\"pjVehicle4x4TruckBluePlaceable\" count=\"1\"/>\n\t\t\t<ingredient name=\"resourceAcid\" count=\"1\"/>\n\t\t\t<ingredient name=\"drinkJarGrainAlcohol\" count=\"5\"/>\n\t\t</recipe>\n\t\n\t\t<recipe name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\">\n\t\t\t<ingredient name=\"pjVehicle4x4TruckRedPlaceable\" count=\"1\"/>\n\t\t\t<ingredient name=\"resourceAcid\" count=\"1\"/>\n\t\t\t<ingredient name=\"drinkJarGrainAlcohol\" count=\"5\"/>\n\t\t</recipe>\n\n\t\t<recipe name=\"vehicle4x4TruckPlaceable\" count=\"1\">\n\t\t\t<ingredient name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\"/>\n\t\t\t<ingredient name=\"resourcePaint\" count=\"30\"/>\n\t\t</recipe>\n\n\t\t<recipe name=\"pjVehicle4x4TruckBluePlaceable\" count=\"1\">\n\t\t\t<ingredient name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\"/>\n\t\t\t<ingredient name=\"resourcePaint\" count=\"30\"/>\n\t\t</recipe>\n\n\t\t<recipe name=\"pjVehicle4x4TruckRedPlaceable\" count=\"1\">\n\t\t\t<ingredient name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\"/>\n\t\t\t<ingredient name=\"resourcePaint\" count=\"30\"/>\n\t\t</recipe>\n\n\t</append>\n</configs>",
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/recipes.xml",
+			"file_size": 1365,
+			"file_write_time": 132326723852028028,
+			"settings":
+			{
+				"buffer_size": 1328,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
+			"settings":
+			{
+				"buffer_size": 464,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
+			"settings":
+			{
+				"buffer_size": 520,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/Data/Worlds/DFalls-Medium/prefabs.xml",
+			"settings":
+			{
+				"buffer_size": 435917,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/7DaysToDie_Data/output_log.txt",
+			"settings":
+			{
+				"buffer_size": 33628,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/7d2d/Saves/Darkness Falls/Darkness Falls/DFalls-Medium/Eric Test DF/ConfigsDump/npc.xml",
+			"settings":
+			{
+				"buffer_size": 7784,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/7d2d/Saves/Darkness Falls/Darkness Falls/DFalls-Medium/Eric Test DF/ConfigsDump/sounds.xml",
+			"settings":
+			{
+				"buffer_size": 520508,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/items.xml",
+			"settings":
+			{
+				"buffer_size": 1048860,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/vehicles.xml",
+			"settings":
+			{
+				"buffer_size": 29697,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die - A17.4 + My mods/Mods/manux_CustomVehicles_A17_modlet/Config/vehicles.xml",
+			"settings":
+			{
+				"buffer_size": 59883,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/entityclasses.xml",
+			"settings":
+			{
+				"buffer_size": 207967,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/archetypes.xml",
+			"settings":
+			{
+				"buffer_size": 146577,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/items.xml",
+			"settings":
+			{
+				"buffer_size": 1332,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/7dtd/7dtdMods/PG13/ModInfo.xml",
+			"settings":
+			{
+				"buffer_size": 412,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/Config/blocks.xml",
+			"settings":
+			{
+				"buffer_size": 288,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/North Jiyasu Mountains/prefabs.xml",
+			"settings":
+			{
+				"buffer_size": 127171,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/X/7 days mods/War3zuk-Alpha-18-Stable-AIO-master/Config/entityclasses.xml",
+			"settings":
+			{
+				"buffer_size": 309748,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Vehicle Parts\n^(cntLootCrateCarParts|cntCollapsedWorkbench)$\n\nbrewerySafeFiller\n\n^(cntBookcasePoorRandomLootHelper|cntBookcaseGoodRandomLootHelper|cntBookcaseFull)$",
+			"settings":
+			{
+				"buffer_size": 164,
+				"line_ending": "Windows",
+				"name": "Vehicle Parts"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
+			"settings":
+			{
+				"buffer_size": 1310328,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"mak",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mas",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Steam/steamapps/common/7 Days To Die",
+		"/C/Steam/steamapps/common/7 Days To Die/Data",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config"
+	],
+	"file_history":
+	[
+		"/F/setup.xml",
+		"/X/BrightSign/brightsign-xt4-8.0.127-update.bsfw.sha1.txt",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/North Jaxuhe Mountains/serverconfig.xml",
+		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/serverconfig.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/entityclasses.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/vehicles.xml",
+		"/C/Steam/steamapps/common/7 Days To Die - A17.4 + My mods/Mods/manux_CustomVehicles_A17_modlet/Config/sounds.xml",
+		"/X/Unity/@Ressources/FunPims/globalgamemanagers/ProjectSettings/AudioManager.asset",
+		"/X/Unity/@Ressources/FunPims/globalgamemanagers/ProjectSettings/TagManager.asset",
+		"/D/7dtd/7dtdMods/PG13/Release Notes.md",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/Config/npc.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/Release Notes.md",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/ModInfo.xml",
+		"/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/7DaysToDie_Data/output_log__2020-04-25__08-44-44.txt",
+		"/X/7 days mods/darknessfallsa18client-master/darknessfallsa18client-master/README.md",
+		"/X/Unity/@Ressources/Vehicles_mods/manux_4x4TruckReplica.unity3d/Assets/AssetBundles/prefabs/vehicles/a17/4x4_test_prefab.prefab.meta",
+		"/C/Steam/steamapps/common/7 Days To Die - A17.4 + My mods/Mods/manux_CustomVehicles_A17_modlet/Config/entityclasses.xml",
+		"/X/7 days mods/darknessfallsa18client-master/darknessfallsa18client-master/Mods/StaminaFloattoInt/ModInfo.xml",
+		"/D/7dtd/7dtdMods/.github/workflows/PG13.yml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/Config/entityclasses.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/Config/recipes.xml",
+		"/C/Steam/steamapps/common/7 Days To Die - A17.4 + My mods/Mods/manux_CustomVehicles_A17_modlet/Config/items.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/ModInfo.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Release Notes.md",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/loot.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/Localization.txt",
+		"/X/Unity/SpartanCube/Packages/manifest.json",
+		"/X/Unity/7dtd Template/ProjectSettings/TagManager.asset",
+		"/X/Unity/New Empty Project/ProjectSettings/TagManager.asset",
+		"/X/Unity/7dtd Template/Packages/manifest.json",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/255C3814CDC8DB4DA23B282BACF95F83/hosts.txt",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/22439C5BB694834488598F7199F1EB87/hosts.txt",
+		"/X/Unity/SpartanCube/ProjectSettings/ProjectVersion.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/XML.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/recipes.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/items.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/Localization.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/recipes.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/items.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/blocks.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
+		"/X/SF/_Admin/SFFVersion.txt",
+		"/D/@sffebooks/@SFF Collection/_Admin/SFFVersion.txt",
+		"/X/Unity Editors/NitroGen_WorldGenerator/Readme.txt",
+		"/X/Unity Editors/NitroGen_WorldGenerator/tools/SplatFixer/readme.txt",
+		"/X/Unity Editors/NitroGen_WorldGenerator/tools/DTMtoPNG/run.bat",
+		"/X/Unity Editors/NitroGen_WorldGenerator/start_8G_Ram_16kMaps.bat",
+		"/X/Unity Editors/NitroGen_WorldGenerator/tools/DTMtoPNG/readme.txt",
+		"/X/Unity Editors/gimp-normalmap-win64-1.2.3/readme.txt",
+		"/X/Unity/7dtd Template/.vs/7dtd Template/v15/.suo",
+		"/X/Unity/7dtd Template/.vs/7dtd Template/v15/Server/sqlite3/storage.ide",
+		"/X/Unity/7dtd Template/Assets/MultiPlatformExportAssetBundles.cs.meta",
+		"/X/Unity/7dtd Template/FunwithFlags.sln",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/North Jiyasu Mountains/run.bat",
+		"/X/Unity Editors/NitroGen_WorldGenerator/tools/BiomeFixer/readme.txt",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/F31880080D975A46BCF1CB4D8D4D5B3B/hosts.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/Localizations.txt",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/8CC1789BC4649945A9B65BEB57ED8946/hosts.txt",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/Saves/North Jiyasu Mountains/Eric Test 2/ConfigsDump/blocks.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-04-18__23-37-48.txt",
+		"/X/Unity/7dtd Template/Assets/Flag.prefab",
+		"/X/Unity/7dtd Template/Assets/FlagSpartan.meta",
+		"/X/Unity/7dtd Template/Assets/Flag.prefab.meta",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Resources/FlagSpartan2.unity3d",
+		"/X/Unity/7dtd Template/Assets/flag_med.fbx.meta",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocksA16PrefabConversion.xml",
+		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa7208.43867/README.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Bundles/Entities/vehicles.manifest",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Bundles/Entities/Entities.manifest",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Bundles/Entities/lootcontainers.manifest",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Bundles/Bundles.manifest",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Bundles/blocktextureatlases.manifest",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/LootContainer-globalgamemanagers.assets-988-MonoScript.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/MonoBleedingEdge/etc/mono/mconfig/config.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/unnamed asset-globalgamemanagers.assets-988.dat",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/unnamed asset-globalgamemanagers.assets-288.dat",
+		"/X/Unity/SpartanCube/FunwithFlags.sln",
+		"/X/Unity/SpartanCube/Assembly-CSharp.csproj",
+		"/X/Unity/SpartanCube/Assets/SpartanCubePrefab.prefab",
+		"/X/Unity/SpartanCube/Assets/MultiPlatformExportAssetBundles.cs",
+		"/X/Unity/SpartanCube/Assets/Materials.meta",
+		"/X/Unity/SpartanCube/Assets/Materials/GrandSpartanSpare.mat.meta",
+		"/X/Unity/SpartanCube/Assets/Materials/GrandSpartanSpare.mat",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/UABE/GrandSpartanSpare-CAB-7595cecdc55f3294cb425f67d9b51586-3-Texture2D.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/UABE/GrandSpartanSpare-CAB-7595cecdc55f3294cb425f67d9b51586-2-Material.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/TextureAtlas-globalgamemanagers.assets-288-MonoScript.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/painting.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/brick-resources.assets-1373-Texture2D.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/cube_frame-resources.assets-12856-GameObject.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/paint_splat-resources.assets-1436-Texture2D.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/01 _ Default-resources.assets-182-Material.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/p_paint_block-resources.assets-24367-GameObject.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/p_paint_block-resources.assets-723-Material.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/app.info",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-04-15__23-16-46.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-04-15__22-53-13.txt",
+		"/D/7dtd/7dtdMods/SpartanBlocks/ModInfo.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreBlocks/Release Notes.md",
+		"/D/7dtd/7dtdMods/SpartanBlocks/Config/blocks.xml",
+		"/D/7dtd/7dtdMods/SpartanBlocks/Release Notes.md",
+		"/X/Git Repo/XythQ/A18Mods/FunwithFlags/Config/items.xml",
+		"/X/Git Repo/XythQ/A18Mods/FunwithFlags/Config/blocks.xml",
+		"/D/7dtd/7dtdMods/.github/workflows/SpartanBlocks_release.yml",
+		"/C/Steam/userdata/115230102/760/remote/251570/screenshots/20200413223749_1.jpg",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/Telrics Health Bars 2.0/Config/buffs.xml",
+		"/X/Git Repo/gniht/7d2dMods/gnihtsMoreWoodFrameShapes/Config/blocks.xml",
+		"/X/Git Repo/XythQ/A18Mods/BillBoards/ModInfo.xml",
+		"/D/7dtd/test.md",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/XUi/xui.xml",
+		"/C/bin/MountNasDrive.CMD",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/XUi/windows.xml",
+		"/D/7dtd/7dtdMods/README.md",
+		"/D/SDXModding/README.md",
+		"/X/Git Repo/DerPopo/64bit/Usage.txt",
+		"/D/7dtd Saves/Random Gen/163b7/players.xml",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/Xihutu Territory/map_info.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/EricsGoods/Release Notes.md",
+		"/D/7dtd/Castle Spartan/castle-spartan/README.md",
+		"/D/7dtd/Castle Spartan/castle-spartan/Mods/CastleSpartan/ModInfo.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/StorageSize/ModInfo.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/EricsGoods/ModInfo.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreBlocks/ModInfo.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/LogansBar/ModInfo.xml",
+		"/D/7dtd/7dtdMods/StorageSize/ModInfo.xml",
+		"/D/7dtd/7dtdMods/StorageSize/Release Notes.md",
+		"/D/7dtd/7dtdMods/MoreBlocks/Release Notes.md",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreBlocks/Config/blocks.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreBlocks/Config/Localization.txt"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"*.xml,*.txt,<open folders>",
+			"*.xml,C:\\Steam\\steamapps\\common\\7 Days To Die\\Data,*.txt",
+			"C:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\UABE Dump",
+			"*.xml,C:\\Steam\\steamapps\\common\\7 Days To Die\\Data,*.txt",
+			"*.xml,C:\\Steam\\steamapps\\common\\7 Days To Die\\Config,*.txt",
+			"*.xml,C:\\Steam\\steamapps\\common\\7 Days To Die,*.txt",
+			"*.xml,C:\\Steam\\steamapps\\common\\7 Days To Die",
+			"*.xml",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"alc",
+			"pjVehicle4x4TruckRedPlaceable",
+			"pjVehicle4x4TruckBluePlaceable",
+			"pjVehicle4x4TruckBlue",
+			"pjVehicle4x4TruckRed",
+			"jeep_blue",
+			"pjVehicle4x4TruckBlue",
+			"vehicle4x4Truck",
+			"vehicle4x4TruckPlaceable",
+			"vehicle4x4Truck",
+			"4x4",
+			"jeep",
+			"vehicle4x4TruckPlaceable",
+			"zombieStandardStripperRagdoll",
+			"zombieStripper",
+			"StorageSize",
+			"trader",
+			"stripper",
+			"zombieStripper",
+			"zombieStandardStripperRagdoll",
+			"trader",
+			"Entities/Traders",
+			"JoelRagdoll",
+			"npcTraderJoel",
+			"trader",
+			"zombieStripper",
+			"vehicle4x4Truck",
+			"jeep_Prefab.prefab",
+			"4x4",
+			"manux_4x4TruckReplica",
+			"\"books\"",
+			"booksNoFiller",
+			"perkBooks",
+			"quest",
+			"Mpaint",
+			"part",
+			"MMotorToolParts",
+			"part",
+			"flagPoleWhiteRiver",
+			"4x",
+			"4x4",
+			"meleeToolFireaxeIron",
+			"white river",
+			"flag",
+			"varian",
+			"flagstone",
+			"flagstoneNoUpgradeMaster",
+			"varia",
+			"Spartan Cube",
+			"rotation",
+			"Stacknumber",
+			"tag",
+			"FlagSpartan2",
+			"Mesh-Damage-1",
+			"fdoors",
+			"door",
+			"cobblestoneMaster",
+			"master",
+			"Mast",
+			"crack",
+			"resourceBulletCasing",
+			"bullet",
+			"casino",
+			"coins",
+			"duke coin",
+			"dukecoin",
+			"duke coin",
+			"duke coins token",
+			"duke coin token",
+			"duke c",
+			"duke",
+			"\"woodNoUpgradeMaster\"",
+			"\"woodMaster\"",
+			"\"woodBlock\"",
+			"locker",
+			"bullet",
+			"\"New\"",
+			"Brick",
+			"txName_Brick",
+			"TextureId",
+			"txName_Brick",
+			"\"TakeDelay\"",
+			"delay",
+			"detail",
+			"MoreBlocks",
+			"comp",
+			"windowTargetBar",
+			"compass",
+			"windowCompass",
+			"windowTargetBar",
+			"variant",
+			"lucker",
+			"Courtusy",
+			"\\n",
+			"stai",
+			",",
+			"\\n",
+			",",
+			"\\n",
+			"fill",
+			"plate",
+			",",
+			" ",
+			"woodwedge\"",
+			",",
+			"irondoor",
+			"commercialdoor",
+			"commerdoor",
+			"commer",
+			"CraftingIngredientCount",
+			"glue",
+			"door",
+			"woodWindowTrimSide",
+			"gable",
+			"moreb",
+			"glassBusinessBlock",
+			"Mglass",
+			"\"window",
+			"PlaceAltBlockValue",
+			"windowStoreOneSided",
+			"window store",
+			"store window",
+			"store windows",
+			"store ",
+			"store window",
+			"windows",
+			"doorFrameWhite1",
+			"\"tools\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Courtesy",
+			"",
+			",\\n",
+			"",
+			",\\n",
+			"",
+			",\\n",
+			"",
+			",\\n",
+			"\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/blocks.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6619,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1134.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/entityclasses.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1245,
+								1266
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/Localization.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/items.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2321,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								989,
+								989
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/vehicles.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18824,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6330,
+								6330
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9895,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										168,
+										189
+									],
+									[
+										503,
+										524
+									],
+									[
+										642,
+										663
+									],
+									[
+										1069,
+										1090
+									],
+									[
+										1380,
+										1401
+									],
+									[
+										1508,
+										1529
+									],
+									[
+										1770,
+										1791
+									],
+									[
+										2241,
+										2250
+									],
+									[
+										2648,
+										2657
+									],
+									[
+										2974,
+										2994
+									],
+									[
+										3221,
+										3241
+									],
+									[
+										3554,
+										3574
+									],
+									[
+										3692,
+										3712
+									],
+									[
+										4143,
+										4163
+									],
+									[
+										4396,
+										4416
+									],
+									[
+										4522,
+										4542
+									],
+									[
+										4782,
+										4802
+									],
+									[
+										5118,
+										5139
+									],
+									[
+										5453,
+										5474
+									],
+									[
+										5592,
+										5613
+									],
+									[
+										6019,
+										6040
+									],
+									[
+										6330,
+										6351
+									],
+									[
+										6458,
+										6479
+									],
+									[
+										6720,
+										6741
+									],
+									[
+										7066,
+										7096
+									],
+									[
+										7384,
+										7414
+									],
+									[
+										7811,
+										7841
+									],
+									[
+										8122,
+										8152
+									],
+									[
+										8250,
+										8280
+									],
+									[
+										8589,
+										8618
+									],
+									[
+										8905,
+										8934
+									],
+									[
+										9356,
+										9385
+									],
+									[
+										9609,
+										9638
+									],
+									[
+										9735,
+										9764
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								8413,
+								8413
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 6,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3024.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/recipes.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1294,
+								1294
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122,
+								122
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								420,
+								420
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/Data/Worlds/DFalls-Medium/prefabs.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 435917,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								243555,
+								243561
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 45062.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/7DaysToDie_Data/output_log.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 33628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32708,
+								32761
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 10330.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/7d2d/Saves/Darkness Falls/Darkness Falls/DFalls-Medium/Eric Test DF/ConfigsDump/npc.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								152
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/7d2d/Saves/Darkness Falls/Darkness Falls/DFalls-Medium/Eric Test DF/ConfigsDump/sounds.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 520508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								449586,
+								449586
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 122416.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/items.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1048860,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								412253,
+								412277
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 131013.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/vehicles.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								742,
+								750
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 418.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/C/Steam/steamapps/common/7 Days To Die - A17.4 + My mods/Mods/manux_CustomVehicles_A17_modlet/Config/vehicles.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 59883,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1944.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/entityclasses.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 207967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								181578,
+								181596
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 58578.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/archetypes.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 146577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2196.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/items.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								940,
+								940
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/D/7dtd/7dtdMods/PG13/ModInfo.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								359,
+								359
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/Config/blocks.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								288,
+								288
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/North Jiyasu Mountains/prefabs.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 127171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103655,
+								103661
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 512.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "/X/7 days mods/War3zuk-Alpha-18-Stable-AIO-master/Config/entityclasses.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 309748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8044,
+								8044
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1952.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								164,
+								81
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Vehicle Parts",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1310328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								898884,
+								898899
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8437.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "GameDirectory.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\7dtd\\7dtdMods\\Unity\\DarknessFall.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 349.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

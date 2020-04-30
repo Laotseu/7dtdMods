@@ -1,0 +1,672 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"release"
+			],
+			[
+				"Mo",
+				"MoreBlocks"
+			],
+			[
+				"cr",
+				"craft_area"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"blo",
+				"blocks"
+			],
+			[
+				"a",
+				"append"
+			],
+			[
+				"lo",
+				"loot"
+			],
+			[
+				"ite",
+				"item"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/Data/Config/entitygroups.xml",
+			"settings":
+			{
+				"buffer_size": 1832628,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 1778 files for \"MeleeBandit\"\n\nC:\\7d2d\\Alpha18\\Darkness_Falls\\Darkness_Falls\\Data\\Config\\entitygroups.xml:\n 1341  \t</entitygroup>\n 1342  \t\n 1343: \t<entitygroup name=\"MeleeBandit\">\n 1344  \t\t<entity name=\"invisibleBandit\" prob=\"80\"/>\n 1345  \t\t<entity name=\"DFFemaleBandit1\" />\n\nC:\\7d2d\\Alpha18\\Darkness_Falls\\Darkness_Falls\\Data\\Config\\spawning.xml:\n   51  \t\t<spawn maxcount=\"1\" respawndelay=\"7\" time=\"Any\" entitygroup=\"FriendlyAnimalsDesert\" spawnDeadChance=\"0\" />\n   52  \t\t<spawn maxcount=\"1\" respawndelay=\"15\" time=\"Any\" entitygroup=\"MeleeSurvivor\" />\n   53: \t\t<spawn maxcount=\"1\" respawndelay=\"30\" time=\"Any\" entitygroup=\"MeleeBandit\" />\n   54  \t</biome>\n   55  \n   ..\n   66  \t\t<spawn maxcount=\"4\" respawndelay=\"4\" time=\"Night\" entitygroup=\"ZombiesBurntForestNight\" />\n   67  \t\t<spawn maxcount=\"1\" respawndelay=\"15\" time=\"Any\" entitygroup=\"EnemyAnimalsBurntForest\" spawnDeadChance=\"0\" />\n   68: \t\t<spawn maxcount=\"1\" respawndelay=\"15\" time=\"Any\" entitygroup=\"MeleeBandit\" />\n   69  \t\t<spawn maxcount=\"1\" respawndelay=\"21\" time=\"Any\" entitygroup=\"FriendlyAnimalsBurntForest\" spawnDeadChance=\"0\" />\n   70  \t</biome>\n\nC:\\7d2d\\Alpha18\\Darkness_Falls\\Darkness_Falls\\TempMods\\Data\\Config\\entitygroups.xml:\n 1341  \t</entitygroup>\n 1342  \t\n 1343: \t<entitygroup name=\"MeleeBandit\">\n 1344  \t\t<entity name=\"invisibleBandit\" prob=\"80\"/>\n 1345  \t\t<entity name=\"DFFemaleBandit1\" />\n\nC:\\7d2d\\Alpha18\\Darkness_Falls\\Darkness_Falls\\TempMods\\Data\\Config\\spawning.xml:\n   51  \t\t<spawn maxcount=\"1\" respawndelay=\"7\" time=\"Any\" entitygroup=\"FriendlyAnimalsDesert\" spawnDeadChance=\"0\" />\n   52  \t\t<spawn maxcount=\"1\" respawndelay=\"15\" time=\"Any\" entitygroup=\"MeleeSurvivor\" />\n   53: \t\t<spawn maxcount=\"1\" respawndelay=\"30\" time=\"Any\" entitygroup=\"MeleeBandit\" />\n   54  \t</biome>\n   55  \n   ..\n   66  \t\t<spawn maxcount=\"4\" respawndelay=\"4\" time=\"Night\" entitygroup=\"ZombiesBurntForestNight\" />\n   67  \t\t<spawn maxcount=\"1\" respawndelay=\"15\" time=\"Any\" entitygroup=\"EnemyAnimalsBurntForest\" spawnDeadChance=\"0\" />\n   68: \t\t<spawn maxcount=\"1\" respawndelay=\"15\" time=\"Any\" entitygroup=\"MeleeBandit\" />\n   69  \t\t<spawn maxcount=\"1\" respawndelay=\"21\" time=\"Any\" entitygroup=\"FriendlyAnimalsBurntForest\" spawnDeadChance=\"0\" />\n   70  \t</biome>\n\n6 matches across 4 files\n",
+			"settings":
+			{
+				"buffer_size": 2255,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/Data/Config/spawning.xml",
+			"settings":
+			{
+				"buffer_size": 44222,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"mak",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mas",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls",
+		"/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/Data",
+		"/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/Data/Config"
+	],
+	"file_history":
+	[
+		"/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/TempMods/README.md",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/Config/npc.xml",
+		"/D/7dtd/7dtdMods/PG13/Release Notes.md",
+		"/X/7 days mods/War3zuk-Alpha-18-Stable-AIO-master/Config/entityclasses.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/ModInfo.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/Release Notes.md",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/North Jiyasu Mountains/prefabs.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/Config/blocks.xml",
+		"/D/7dtd/7dtdMods/PG13/ModInfo.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/items.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/archetypes.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/entityclasses.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/items.xml",
+		"/C/7d2d/Saves/Darkness Falls/Darkness Falls/DFalls-Medium/Eric Test DF/ConfigsDump/sounds.xml",
+		"/C/7d2d/Saves/Darkness Falls/Darkness Falls/DFalls-Medium/Eric Test DF/ConfigsDump/npc.xml",
+		"/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/7DaysToDie_Data/output_log.txt",
+		"/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/Data/Worlds/DFalls-Medium/prefabs.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/entityclasses.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/blocks.xml",
+		"/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/7DaysToDie_Data/output_log__2020-04-25__08-44-44.txt",
+		"/X/7 days mods/darknessfallsa18client-master/darknessfallsa18client-master/README.md",
+		"/X/Unity/@Ressources/Vehicles_mods/manux_4x4TruckReplica.unity3d/Assets/AssetBundles/prefabs/vehicles/a17/4x4_test_prefab.prefab.meta",
+		"/C/Steam/steamapps/common/7 Days To Die - A17.4 + My mods/Mods/manux_CustomVehicles_A17_modlet/Config/entityclasses.xml",
+		"/X/7 days mods/darknessfallsa18client-master/darknessfallsa18client-master/Mods/StaminaFloattoInt/ModInfo.xml",
+		"/D/7dtd/7dtdMods/.github/workflows/PG13.yml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/Config/entityclasses.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/Config/recipes.xml",
+		"/C/Steam/steamapps/common/7 Days To Die - A17.4 + My mods/Mods/manux_CustomVehicles_A17_modlet/Config/items.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/ModInfo.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Release Notes.md",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/loot.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/Localization.txt",
+		"/X/Unity/SpartanCube/Packages/manifest.json",
+		"/X/Unity/7dtd Template/ProjectSettings/TagManager.asset",
+		"/X/Unity/New Empty Project/ProjectSettings/TagManager.asset",
+		"/X/Unity/7dtd Template/Packages/manifest.json",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/255C3814CDC8DB4DA23B282BACF95F83/hosts.txt",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/22439C5BB694834488598F7199F1EB87/hosts.txt",
+		"/X/Unity/SpartanCube/ProjectSettings/ProjectVersion.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/XML.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/recipes.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/Localization.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/recipes.xml",
+		"/X/SF/_Admin/SFFVersion.txt",
+		"/D/@sffebooks/@SFF Collection/_Admin/SFFVersion.txt",
+		"/X/Unity Editors/NitroGen_WorldGenerator/Readme.txt",
+		"/X/Unity Editors/NitroGen_WorldGenerator/tools/SplatFixer/readme.txt",
+		"/X/Unity Editors/NitroGen_WorldGenerator/tools/DTMtoPNG/run.bat",
+		"/X/Unity Editors/NitroGen_WorldGenerator/start_8G_Ram_16kMaps.bat",
+		"/X/Unity Editors/NitroGen_WorldGenerator/tools/DTMtoPNG/readme.txt",
+		"/X/Unity Editors/gimp-normalmap-win64-1.2.3/readme.txt",
+		"/X/Unity/7dtd Template/.vs/7dtd Template/v15/.suo",
+		"/X/Unity/7dtd Template/.vs/7dtd Template/v15/Server/sqlite3/storage.ide",
+		"/X/Unity/7dtd Template/Assets/MultiPlatformExportAssetBundles.cs.meta",
+		"/X/Unity/7dtd Template/FunwithFlags.sln",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/North Jiyasu Mountains/run.bat",
+		"/X/Unity Editors/NitroGen_WorldGenerator/tools/BiomeFixer/readme.txt",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/F31880080D975A46BCF1CB4D8D4D5B3B/hosts.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/Localizations.txt",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/8CC1789BC4649945A9B65BEB57ED8946/hosts.txt",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/Saves/North Jiyasu Mountains/Eric Test 2/ConfigsDump/blocks.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-04-18__23-37-48.txt",
+		"/X/Unity/7dtd Template/Assets/Flag.prefab",
+		"/X/Unity/7dtd Template/Assets/FlagSpartan.meta",
+		"/X/Unity/7dtd Template/Assets/Flag.prefab.meta",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Resources/FlagSpartan2.unity3d",
+		"/X/Unity/7dtd Template/Assets/flag_med.fbx.meta",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocksA16PrefabConversion.xml",
+		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa7208.43867/README.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Bundles/Entities/vehicles.manifest",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Bundles/Entities/Entities.manifest",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Bundles/Entities/lootcontainers.manifest",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Bundles/Bundles.manifest",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Bundles/blocktextureatlases.manifest",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/LootContainer-globalgamemanagers.assets-988-MonoScript.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/MonoBleedingEdge/etc/mono/mconfig/config.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/unnamed asset-globalgamemanagers.assets-988.dat",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/unnamed asset-globalgamemanagers.assets-288.dat",
+		"/X/Unity/SpartanCube/FunwithFlags.sln",
+		"/X/Unity/SpartanCube/Assembly-CSharp.csproj",
+		"/X/Unity/SpartanCube/Assets/SpartanCubePrefab.prefab",
+		"/X/Unity/SpartanCube/Assets/MultiPlatformExportAssetBundles.cs",
+		"/X/Unity/SpartanCube/Assets/Materials.meta",
+		"/X/Unity/SpartanCube/Assets/Materials/GrandSpartanSpare.mat.meta",
+		"/X/Unity/SpartanCube/Assets/Materials/GrandSpartanSpare.mat",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/UABE/GrandSpartanSpare-CAB-7595cecdc55f3294cb425f67d9b51586-3-Texture2D.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/UABE/GrandSpartanSpare-CAB-7595cecdc55f3294cb425f67d9b51586-2-Material.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/TextureAtlas-globalgamemanagers.assets-288-MonoScript.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/painting.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/brick-resources.assets-1373-Texture2D.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/cube_frame-resources.assets-12856-GameObject.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/paint_splat-resources.assets-1436-Texture2D.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/01 _ Default-resources.assets-182-Material.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/p_paint_block-resources.assets-24367-GameObject.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/p_paint_block-resources.assets-723-Material.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/app.info",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-04-15__23-16-46.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-04-15__22-53-13.txt",
+		"/D/7dtd/7dtdMods/SpartanBlocks/ModInfo.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreBlocks/Release Notes.md",
+		"/D/7dtd/7dtdMods/SpartanBlocks/Config/blocks.xml",
+		"/D/7dtd/7dtdMods/SpartanBlocks/Release Notes.md",
+		"/X/Git Repo/XythQ/A18Mods/FunwithFlags/Config/items.xml",
+		"/X/Git Repo/XythQ/A18Mods/FunwithFlags/Config/blocks.xml",
+		"/D/7dtd/7dtdMods/.github/workflows/SpartanBlocks_release.yml",
+		"/C/Steam/userdata/115230102/760/remote/251570/screenshots/20200413223749_1.jpg",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/Telrics Health Bars 2.0/Config/buffs.xml",
+		"/X/Git Repo/gniht/7d2dMods/gnihtsMoreWoodFrameShapes/Config/blocks.xml",
+		"/X/Git Repo/XythQ/A18Mods/BillBoards/ModInfo.xml",
+		"/D/7dtd/test.md",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/XUi/xui.xml",
+		"/C/bin/MountNasDrive.CMD",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/XUi/windows.xml",
+		"/D/7dtd/7dtdMods/README.md",
+		"/D/SDXModding/README.md",
+		"/X/Git Repo/DerPopo/64bit/Usage.txt",
+		"/D/7dtd Saves/Random Gen/163b7/players.xml",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/Xihutu Territory/map_info.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/EricsGoods/Release Notes.md",
+		"/D/7dtd/Castle Spartan/castle-spartan/README.md",
+		"/D/7dtd/Castle Spartan/castle-spartan/Mods/CastleSpartan/ModInfo.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/StorageSize/ModInfo.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/EricsGoods/ModInfo.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreBlocks/ModInfo.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/LogansBar/ModInfo.xml",
+		"/D/7dtd/7dtdMods/StorageSize/ModInfo.xml",
+		"/D/7dtd/7dtdMods/StorageSize/Release Notes.md"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"*.xml,*.txt,C:\\7d2d\\Alpha18\\Darkness_Falls\\Darkness_Falls",
+			"*.xml,C:\\Steam\\steamapps\\common\\7 Days To Die\\Data,*.txt",
+			"C:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\UABE Dump",
+			"*.xml,C:\\Steam\\steamapps\\common\\7 Days To Die\\Data,*.txt",
+			"*.xml,C:\\Steam\\steamapps\\common\\7 Days To Die\\Config,*.txt",
+			"*.xml,C:\\Steam\\steamapps\\common\\7 Days To Die,*.txt",
+			"*.xml,C:\\Steam\\steamapps\\common\\7 Days To Die",
+			"*.xml",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"entitygroup=\"MeleeBandit\"",
+			"MeleeBandit",
+			"bandit",
+			"4x4",
+			"jeep",
+			"vehicle4x4TruckPlaceable",
+			"zombieStandardStripperRagdoll",
+			"zombieStripper",
+			"StorageSize",
+			"trader",
+			"stripper",
+			"zombieStripper",
+			"zombieStandardStripperRagdoll",
+			"trader",
+			"Entities/Traders",
+			"JoelRagdoll",
+			"npcTraderJoel",
+			"trader",
+			"zombieStripper",
+			"vehicle4x4Truck",
+			"jeep_Prefab.prefab",
+			"4x4",
+			"manux_4x4TruckReplica",
+			"\"books\"",
+			"booksNoFiller",
+			"perkBooks",
+			"quest",
+			"Mpaint",
+			"part",
+			"MMotorToolParts",
+			"part",
+			"flagPoleWhiteRiver",
+			"4x",
+			"4x4",
+			"meleeToolFireaxeIron",
+			"white river",
+			"flag",
+			"varian",
+			"flagstone",
+			"flagstoneNoUpgradeMaster",
+			"varia",
+			"Spartan Cube",
+			"rotation",
+			"Stacknumber",
+			"tag",
+			"FlagSpartan2",
+			"Mesh-Damage-1",
+			"fdoors",
+			"door",
+			"cobblestoneMaster",
+			"master",
+			"Mast",
+			"crack",
+			"resourceBulletCasing",
+			"bullet",
+			"casino",
+			"coins",
+			"duke coin",
+			"dukecoin",
+			"duke coin",
+			"duke coins token",
+			"duke coin token",
+			"duke c",
+			"duke",
+			"\"woodNoUpgradeMaster\"",
+			"\"woodMaster\"",
+			"\"woodBlock\"",
+			"locker",
+			"bullet",
+			"\"New\"",
+			"Brick",
+			"txName_Brick",
+			"TextureId",
+			"txName_Brick",
+			"\"TakeDelay\"",
+			"delay",
+			"detail",
+			"MoreBlocks",
+			"comp",
+			"windowTargetBar",
+			"compass",
+			"windowCompass",
+			"windowTargetBar",
+			"variant",
+			"lucker",
+			"Courtusy",
+			"\\n",
+			"stai",
+			",",
+			"\\n",
+			",",
+			"\\n",
+			"fill",
+			"plate",
+			",",
+			" ",
+			"woodwedge\"",
+			",",
+			"irondoor",
+			"commercialdoor",
+			"commerdoor",
+			"commer",
+			"CraftingIngredientCount",
+			"glue",
+			"door",
+			"woodWindowTrimSide",
+			"gable",
+			"moreb",
+			"glassBusinessBlock",
+			"Mglass",
+			"\"window",
+			"PlaceAltBlockValue",
+			"windowStoreOneSided",
+			"window store",
+			"store window",
+			"store windows",
+			"store ",
+			"store window",
+			"windows",
+			"doorFrameWhite1",
+			"\"tools\"",
+			"tools",
+			"toolParts",
+			"meleeToolChainsawParts",
+			"motor tool part",
+			"motor tool",
+			"motor p",
+			"Motor P"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Courtesy",
+			"",
+			",\\n",
+			"",
+			",\\n",
+			"",
+			",\\n",
+			"",
+			",\\n",
+			"\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/Data/Config/entitygroups.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1832628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51418,
+								51429
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 23804.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2255,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										175,
+										186
+									],
+									[
+										633,
+										644
+									],
+									[
+										970,
+										981
+									],
+									[
+										1270,
+										1281
+									],
+									[
+										1737,
+										1748
+									],
+									[
+										2074,
+										2085
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								1430,
+								1430
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/Data/Config/spawning.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 44222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2647,
+								2672
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 474.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "DarknessFall.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\7dtd\\7dtdMods\\Unity\\GameDirectory.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 349.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
