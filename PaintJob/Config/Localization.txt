@@ -2,4 +2,4 @@ Key,Source,Context,Changes,English
 pjVehicle4x4TruckWhitePlaceable,blocks,Block,New,"Scrubed 4x4"
 pjVehicle4x4TruckBluePlaceable,blocks,Block,New,"4x4, Blue"
 pjVehicle4x4TruckRedPlaceable,blocks,Block,New,"4x4, Red"
-
+pjVehicle4x4TruckSpartanPlaceable,blocks,Block,New,"4x4, Spartan Black and Gold"
