@@ -37,6 +37,15 @@ modlet that remove said profanity and nudity from the game.
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/PG13_v1.0/PG13_v1.0.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PG13_v1.0)<br /><br /><br /><br />
 
+PaintJob v1.0 (Alpha 18)
+------------------------
+
+<img align="left" width="150" height="150" hspace="8" src="https://github.com/Laotseu/7dtdMods/blob/master/PaintJob/PaintJob.png" />
+Are you tired of driving the exact same Jeep as you friend? Do you want to pimp your ride? PaintJob is for you! This mod add recepies that you to change the colour of your ride.<br />
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v1.0/PaintJob_v1.0.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PaintJob_v1.0)<br /><br /><br /><br />
+
 SpartanBlocks v1.3 (Alpha 18)
 -----------------------------
 
