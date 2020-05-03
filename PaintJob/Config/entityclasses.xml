@@ -87,6 +87,26 @@
 			<property name="MapIcon" value="ui_game_symbol_4x4"/>
 		</entity_class>
 
+		<!-- Maping guide on! -->
+		<entity_class name="pjVehicleMotorcycleTest">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityMotorcycle"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/Motorcycle.unity3d?motorcycle_test"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="78"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="4"/>
+			<property name="Explosion.RadiusEntities" value="4"/>
+			<property name="Explosion.BlockDamage" value="50"/>
+			<property name="Explosion.EntityDamage" value="50"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="ui_game_symbol_motorcycle"/>
+		</entity_class>
 
 	</append>
 

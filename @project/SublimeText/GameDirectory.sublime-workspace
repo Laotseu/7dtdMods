@@ -49,49 +49,46 @@
 			}
 		},
 		{
-			"contents": "<configs>\n\t\n\t<append xpath=\"/entity_classes\">\n\n\t\t<!-- <entity_class name=\"pjVehicle4x4Truck\">\n\t\t\t<property name=\"Extends\" value=\"vehicle4x4Truck\"/>\n\t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_Prefab\"/>\n\t\t</entity_class> -->\n\n\t\t<entity_class name=\"pjVehicle4x4TruckWhite\">\n\t\t\t<property name=\"Tags\" value=\"vehicle\"/>\n\t\t\t<property name=\"Class\" value=\"EntityVJeep\"/>\n\t\t\t<property name=\"Parent\" value=\"Cars\"/>\n\t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_white\"/>\n\t\t\t<property name=\"ModelType\" value=\"Standard\"/>\n\t\t\t<property name=\"SurfaceCategory\" value=\"metal\"/>\n\t\t\t<property name=\"IgnoreTrigger\" value=\"true\"/>\n\t\t\t<property name=\"LootListAlive\" value=\"79\"/>\n\t\t\t<property name=\"IsEnemyEntity\" value=\"false\"/>\n\t\t\t<property name=\"Explosion.ParticleIndex\" value=\"6\"/>\n\t\t\t<property name=\"Explosion.RadiusBlocks\" value=\"5\"/>\n\t\t\t<property name=\"Explosion.RadiusEntities\" value=\"5\"/>\n\t\t\t<property name=\"Explosion.BlockDamage\" value=\"100\"/>\n\t\t\t<property name=\"Explosion.EntityDamage\" value=\"100\"/>\n\t\t\t<property name=\"RotateToGround\" value=\"true\"/>\n\t\t\t<property name=\"Faction\" value=\"none\"/>\n\t\t\t<property name=\"MapIcon\" value=\"ui_game_symbol_4x4\"/>\n\t\t</entity_class>\n\n\t\t<entity_class name=\"pjVehicle4x4TruckBlue\">\n\t\t\t<property name=\"Tags\" value=\"vehicle\"/>\n\t\t\t<property name=\"Class\" value=\"EntityVJeep\"/>\n\t\t\t<property name=\"Parent\" value=\"Cars\"/>\n\t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_blue\"/>\n\t\t\t<property name=\"ModelType\" value=\"Standard\"/>\n\t\t\t<property name=\"SurfaceCategory\" value=\"metal\"/>\n\t\t\t<property name=\"IgnoreTrigger\" value=\"true\"/>\n\t\t\t<property name=\"LootListAlive\" value=\"79\"/>\n\t\t\t<property name=\"IsEnemyEntity\" value=\"false\"/>\n\t\t\t<property name=\"Explosion.ParticleIndex\" value=\"6\"/>\n\t\t\t<property name=\"Explosion.RadiusBlocks\" value=\"5\"/>\n\t\t\t<property name=\"Explosion.RadiusEntities\" value=\"5\"/>\n\t\t\t<property name=\"Explosion.BlockDamage\" value=\"100\"/>\n\t\t\t<property name=\"Explosion.EntityDamage\" value=\"100\"/>\n\t\t\t<property name=\"RotateToGround\" value=\"true\"/>\n\t\t\t<property name=\"Faction\" value=\"none\"/>\n\t\t\t<property name=\"MapIcon\" value=\"ui_game_symbol_4x4\"/>\n\t\t</entity_class>\n\n\t\t<entity_class name=\"pjVehicle4x4TruckRed\">\n\t\t\t<property name=\"Tags\" value=\"vehicle\"/>\n\t\t\t<property name=\"Class\" value=\"EntityVJeep\"/>\n\t\t\t<property name=\"Parent\" value=\"Cars\"/>\n\t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_red\"/>\n\t\t\t<property name=\"ModelType\" value=\"Standard\"/>\n\t\t\t<property name=\"SurfaceCategory\" value=\"metal\"/>\n\t\t\t<property name=\"IgnoreTrigger\" value=\"true\"/>\n\t\t\t<property name=\"LootListAlive\" value=\"79\"/>\n\t\t\t<property name=\"IsEnemyEntity\" value=\"false\"/>\n\t\t\t<property name=\"Explosion.ParticleIndex\" value=\"6\"/>\n\t\t\t<property name=\"Explosion.RadiusBlocks\" value=\"5\"/>\n\t\t\t<property name=\"Explosion.RadiusEntities\" value=\"5\"/>\n\t\t\t<property name=\"Explosion.BlockDamage\" value=\"100\"/>\n\t\t\t<property name=\"Explosion.EntityDamage\" value=\"100\"/>\n\t\t\t<property name=\"RotateToGround\" value=\"true\"/>\n\t\t\t<property name=\"Faction\" value=\"none\"/>\n\t\t\t<property name=\"MapIcon\" value=\"ui_game_symbol_4x4\"/>\n\t\t</entity_class>\n\n\n\t</append>\n\n</configs>",
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/entityclasses.xml",
-			"file_size": 3240,
-			"file_write_time": 132326659555346201,
 			"settings":
 			{
-				"buffer_size": 3168,
+				"buffer_size": 4136,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Key,Source,Context,Changes,English\npjVehicle4x4TruckWhitePlaceable,blocks,Block,New,\"Scrubed 4x4\"\npjVehicle4x4TruckBluePlaceable,blocks,Block,New,\"4x4, Blue\"\npjVehicle4x4TruckRedPlaceable,blocks,Block,New,\"4x4, Red\"\n\n",
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/Localization.txt",
-			"file_size": 222,
-			"file_write_time": 132326622610755408,
 			"settings":
 			{
-				"buffer_size": 217,
+				"buffer_size": 297,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<configs>\n\t<append xpath=\"/items\">\t\n\n\t\t<item name=\"pjVehicle4x4TruckWhitePlaceable\">\n\t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n\t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_white\"/>\n\t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n\t\t\t<property class=\"Action1\">\n\t\t\t\t<property name=\"Vehicle\" value=\"pjVehicle4x4TruckWhite\"/>\n\t\t\t\t<property name=\"VehicleSize\" value=\"2.5, 2.1, 5\"/>\n\t\t\t</property>\n\t\t\t<effect_group name=\"pjVehicle4x4TruckWhitePlaceable\" tiered=\"false\">\n\t\t\t\t<passive_effect name=\"ModSlots\" operation=\"base_set\" value=\"4\"/>\n\t\t\t\t<passive_effect name=\"ModPowerBonus\" operation=\"base_add\" value=\"300\" tags=\"EconomicValue\"/>\n\t\t\t\t<passive_effect name=\"DegradationMax\" operation=\"base_set\" value=\"7500\"/>\n\t\t\t</effect_group>\n\t\t</item>\n\n\t\t<item name=\"pjVehicle4x4TruckBluePlaceable\">\n\t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n\t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_blue\"/>\n\t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n\t\t\t<property class=\"Action1\">\n\t\t\t\t<property name=\"Vehicle\" value=\"pjVehicle4x4TruckBlue\"/>\n\t\t\t\t<property name=\"VehicleSize\" value=\"2.5, 2.1, 5\"/>\n\t\t\t</property>\n\t\t\t<effect_group name=\"pjVehicle4x4TruckBluePlaceable\" tiered=\"false\">\n\t\t\t\t<passive_effect name=\"ModSlots\" operation=\"base_set\" value=\"4\"/>\n\t\t\t\t<passive_effect name=\"ModPowerBonus\" operation=\"base_add\" value=\"300\" tags=\"EconomicValue\"/>\n\t\t\t\t<passive_effect name=\"DegradationMax\" operation=\"base_set\" value=\"7500\"/>\n\t\t\t</effect_group>\n\t\t</item>\n\n\t\t<item name=\"pjVehicle4x4TruckRedPlaceable\">\n\t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n\t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_red\"/>\n\t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n\t\t\t<property class=\"Action1\">\n\t\t\t\t<property name=\"Vehicle\" value=\"pjVehicle4x4TruckRed\"/>\n\t\t\t\t<property name=\"VehicleSize\" value=\"2.5, 2.1, 5\"/>\n\t\t\t</property>\n\t\t\t<effect_group name=\"pjVehicle4x4TruckRedPlaceable\" tiered=\"false\">\n\t\t\t\t<passive_effect name=\"ModSlots\" operation=\"base_set\" value=\"4\"/>\n\t\t\t\t<passive_effect name=\"ModPowerBonus\" operation=\"base_add\" value=\"300\" tags=\"EconomicValue\"/>\n\t\t\t\t<passive_effect name=\"DegradationMax\" operation=\"base_set\" value=\"7500\"/>\n\t\t\t</effect_group>\n\t\t</item>\n\n\n\t</append>\n</configs>",
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/items.xml",
-			"file_size": 2371,
-			"file_write_time": 132326659324629518,
 			"settings":
 			{
-				"buffer_size": 2321,
+				"buffer_size": 3087,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<configs>\n\n\t<append xpath=\"/vehicles\" >\n\n\t<vehicle name=\"pjVehicle4x4TruckWhite\">\n\t\t<property name=\"cameraDistance\" value=\"5.5, 7\"/>\n\t\t<property name=\"cameraTurnRate\" value=\".2, .35\"/>\n\t\t<property name=\"motorTorqueMinQ\" value=\"5000\"/>\n\t\t<property name=\"motorTorqueMaxQ\" value=\"5000\"/>\n\t\t<property name=\"brakeTorque\" value=\"5000\"/>\n\t\t<property name=\"upAngleMax\" value=\"70\"/>\n\t\t<property name=\"upForce\" value=\"1\"/>\n\t\t<property name=\"steerRate\" value=\"130\"/>\n\t\t<property name=\"steerCenteringRate\" value=\"90\"/>\n\t\t<property name=\"tiltAngleMax\" value=\"80\"/>\n\t\t<property name=\"tiltThreshold\" value=\"3\"/>\n\t\t<property name=\"tiltDampening\" value=\".22\"/>\n\t\t<property name=\"tiltDampenThreshold\" value=\"8\"/>\n\t\t<property name=\"tiltUpForce\" value=\"0\"/>\n\t\t<property name=\"unstickForce\" value=\"1\"/>\n\t\t<property name=\"velocityMax\" value=\"9, 13\"/>\n\t\t<property name=\"waterDrag_y_velScale_velMaxScale\" value=\"1.8, .9, .1\"/>\n\t\t<property name=\"wheelPtlScale\" value=\"1\"/>\n\n\t\t<property name=\"hornSound\" value=\"vehicle/minibike/minibike_horn\"/>\n\n\t\t<property class=\"battery\">\n\t\t\t<property name=\"class\" value=\"Battery\"/>\n\t\t\t<property name=\"slot_type\" value=\"battery\"/>\n\t\t\t<property name=\"mesh\" value=\"battery\"/>\n\t\t\t<property name=\"transform\" value=\"battery\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t</property>\n\n\t\t<property class=\"chassis\">\n\t\t\t<property name=\"class\" value=\"Chassis\"/>\n\t\t\t<property name=\"display_name\" value=\"chassis\"/>\n\t\t\t<property name=\"slot_type\" value=\"chassis\"/>\n\t\t\t<property name=\"mesh\" value=\"chassis\"/>\n\t\t\t<property name=\"transform\" value=\"Origin\"/>\n\t\t</property>\n\n\t\t<property class=\"engine\">\n\t\t\t<property name=\"class\" value=\"Engine\"/>\n\t\t\t<property name=\"slot_type\" value=\"engine\"/>\n\t\t\t<property name=\"mesh\" value=\"engine_small\"/>\n\t\t\t<property name=\"transform\" value=\"engine_small\"/>\n\t\t\t<property name=\"particle_transform\" value=\"engine_small/MinibikeParticles/p_engine_fire\"/>\n\t\t\t<property name=\"fuelKmPerL\" value=\".1\"/>\n\t\t\t<property name=\"gear1\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -1400,800,0, 700,2200,900,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_accel1,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel1,\n\t\t\t\t\t\t\t\t0, .7, 1, .1, -9, .12, .1, Vehicles/Suv/suv_idle_lp,\n\t\t\t\t\t\t\t\t-.4, -.02, .7, .7, -.2, 9, .2, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"gear2\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -2000,1000,2000, 600,2200,800,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_accel2,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel1,\n\t\t\t\t\t\t\t\t-.25, -.05, .2, .4, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"gear3\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -2000,1000,2000, 500,2200,1000,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_accel3,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel2,\n\t\t\t\t\t\t\t\t-.28, -.07, .3, .6, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"gear4\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -2000,1000,2000, 500,9999,9999,\n\t\t\t\t\t\t\t\t,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel2,\n\t\t\t\t\t\t\t\t-.31, -.08, .6, .9, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"sound_start\" value=\"Vehicles/Suv/suv_startup\"/>\n\t\t\t<property name=\"sound_shut_off\" value=\"Vehicles/Suv/suv_shutoff\"/>\n\t\t\t<property name=\"sound_no_fuel_shut_off\" value=\"Vehicles/Motorbike/motorbike_empty\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t</property>\n\n\t\t<property class=\"fuelTank\">\n\t\t\t<property name=\"class\" value=\"FuelTank\"/>\n\t\t\t<property name=\"parent_part\" value=\"engine\"/>\n\t\t\t<property name=\"capacity\" value=\"400\"/>\n\t\t</property>\n\n\t\t<property class=\"handlebars\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"class\" value=\"Steering\"/>\n\t\t\t<property name=\"slot_type\" value=\"handlebars\"/>\n\t\t\t<property name=\"transform\" value=\"Origin/steering_joint\"/>\n\t\t\t<property name=\"steerMaxAngle\" value=\"60\"/>\n\t\t\t<property name=\"IKHandLPosition\" value=\"-.154, .1256, .0265\"/>\n\t\t\t<property name=\"IKHandLRotation\" value=\"37.55, -13.433, 49.88\"/>\n\t\t\t<property name=\"IKHandRPosition\" value=\".154, .1256, .0265\"/>\n\t\t\t<property name=\"IKHandRRotation\" value=\"37.55, 13.433, -49.88\"/>\n\t\t</property>\n\n\t\t<property class=\"seat0\">\n\t\t\t<property name=\"position\" value=\"-.4, .36, .06\"/>\n\t\t\t<property name=\"rotation\" value=\"-25, 0, 0\"/>\n\t\t\t<property name=\"exit\" value=\"-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0\"/>\n\t\t</property>\n\n\t\t<property class=\"seat1\">\n\t\t\t<property name=\"position\" value=\".4, .36, .06\"/>\n\t\t\t<property name=\"rotation\" value=\"-25, 0, 0\"/>\n\t\t\t<property name=\"exit\" value=\"1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel0\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"steerTransform\" value=\"Origin/frontLeftWheelStear_joint\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/frontLeftWheelStear_joint/frontLeftWheel_joint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, .8\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel1\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"steerTransform\" value=\"Origin/frontRightWheelStear_joint\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/frontRightWheelStear_joint/frontRightWheel_joint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, .8\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel2\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/backLeftWheelJoint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, 1\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel3\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/backRightWheelJoint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, 1\"/>\n\t\t</property>\n\n\t\t<property class=\"headlight\">\n\t\t\t<property name=\"class\" value=\"Headlight\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"transform\" value=\"Origin/headlight\"/>\n\t\t\t<property name=\"bright\" value=\".75\"/>\n\t\t</property>\n\n\t\t<property class=\"storage\">\n\t\t\t<property name=\"class\" value=\"Storage\"/>\n\t\t\t<property name=\"display_name\" value=\"basket\"/>\n\t\t\t<property name=\"slot_type\" value=\"basket\"/>\n\t\t\t<property name=\"mesh\" value=\"basket\"/>\n\t\t\t<property name=\"transform\" value=\"basket\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t</property>\n\n\t</vehicle>\n\t\n\t<vehicle name=\"pjVehicle4x4TruckBlue\">\n\t\t<property name=\"cameraDistance\" value=\"5.5, 7\"/>\n\t\t<property name=\"cameraTurnRate\" value=\".2, .35\"/>\n\t\t<property name=\"motorTorqueMinQ\" value=\"5000\"/>\n\t\t<property name=\"motorTorqueMaxQ\" value=\"5000\"/>\n\t\t<property name=\"brakeTorque\" value=\"5000\"/>\n\t\t<property name=\"upAngleMax\" value=\"70\"/>\n\t\t<property name=\"upForce\" value=\"1\"/>\n\t\t<property name=\"steerRate\" value=\"130\"/>\n\t\t<property name=\"steerCenteringRate\" value=\"90\"/>\n\t\t<property name=\"tiltAngleMax\" value=\"80\"/>\n\t\t<property name=\"tiltThreshold\" value=\"3\"/>\n\t\t<property name=\"tiltDampening\" value=\".22\"/>\n\t\t<property name=\"tiltDampenThreshold\" value=\"8\"/>\n\t\t<property name=\"tiltUpForce\" value=\"0\"/>\n\t\t<property name=\"unstickForce\" value=\"1\"/>\n\t\t<property name=\"velocityMax\" value=\"9, 13\"/>\n\t\t<property name=\"waterDrag_y_velScale_velMaxScale\" value=\"1.8, .9, .1\"/>\n\t\t<property name=\"wheelPtlScale\" value=\"1\"/>\n\n\t\t<property name=\"hornSound\" value=\"vehicle/minibike/minibike_horn\"/>\n\n\t\t<property class=\"battery\">\n\t\t\t<property name=\"class\" value=\"Battery\"/>\n\t\t\t<property name=\"slot_type\" value=\"battery\"/>\n\t\t\t<property name=\"mesh\" value=\"battery\"/>\n\t\t\t<property name=\"transform\" value=\"battery\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t</property>\n\n\t\t<property class=\"chassis\">\n\t\t\t<property name=\"class\" value=\"Chassis\"/>\n\t\t\t<property name=\"display_name\" value=\"chassis\"/>\n\t\t\t<property name=\"slot_type\" value=\"chassis\"/>\n\t\t\t<property name=\"mesh\" value=\"chassis\"/>\n\t\t\t<property name=\"transform\" value=\"Origin\"/>\n\t\t</property>\n\n\t\t<property class=\"engine\">\n\t\t\t<property name=\"class\" value=\"Engine\"/>\n\t\t\t<property name=\"slot_type\" value=\"engine\"/>\n\t\t\t<property name=\"mesh\" value=\"engine_small\"/>\n\t\t\t<property name=\"transform\" value=\"engine_small\"/>\n\t\t\t<property name=\"particle_transform\" value=\"engine_small/MinibikeParticles/p_engine_fire\"/>\n\t\t\t<property name=\"fuelKmPerL\" value=\".1\"/>\n\t\t\t<property name=\"gear1\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -1400,800,0, 700,2200,900,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_accel1,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel1,\n\t\t\t\t\t\t\t\t0, .7, 1, .1, -9, .12, .1, Vehicles/Suv/suv_idle_lp,\n\t\t\t\t\t\t\t\t-.4, -.02, .7, .7, -.2, 9, .2, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"gear2\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -2000,1000,2000, 600,2200,800,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_accel2,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel1,\n\t\t\t\t\t\t\t\t-.25, -.05, .2, .4, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"gear3\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -2000,1000,2000, 500,2200,1000,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_accel3,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel2,\n\t\t\t\t\t\t\t\t-.28, -.07, .3, .6, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"gear4\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -2000,1000,2000, 500,9999,9999,\n\t\t\t\t\t\t\t\t,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel2,\n\t\t\t\t\t\t\t\t-.31, -.08, .6, .9, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"sound_start\" value=\"Vehicles/Suv/suv_startup\"/>\n\t\t\t<property name=\"sound_shut_off\" value=\"Vehicles/Suv/suv_shutoff\"/>\n\t\t\t<property name=\"sound_no_fuel_shut_off\" value=\"Vehicles/Motorbike/motorbike_empty\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t</property>\n\n\t\t<property class=\"fuelTank\">\n\t\t\t<property name=\"class\" value=\"FuelTank\"/>\n\t\t\t<property name=\"parent_part\" value=\"engine\"/>\n\t\t\t<property name=\"capacity\" value=\"400\"/>\n\t\t</property>\n\n\t\t<property class=\"handlebars\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"class\" value=\"Steering\"/>\n\t\t\t<property name=\"slot_type\" value=\"handlebars\"/>\n\t\t\t<property name=\"transform\" value=\"Origin/steering_joint\"/>\n\t\t\t<property name=\"steerMaxAngle\" value=\"60\"/>\n\t\t\t<property name=\"IKHandLPosition\" value=\"-.154, .1256, .0265\"/>\n\t\t\t<property name=\"IKHandLRotation\" value=\"37.55, -13.433, 49.88\"/>\n\t\t\t<property name=\"IKHandRPosition\" value=\".154, .1256, .0265\"/>\n\t\t\t<property name=\"IKHandRRotation\" value=\"37.55, 13.433, -49.88\"/>\n\t\t</property>\n\n\t\t<property class=\"seat0\">\n\t\t\t<property name=\"position\" value=\"-.4, .36, .06\"/>\n\t\t\t<property name=\"rotation\" value=\"-25, 0, 0\"/>\n\t\t\t<property name=\"exit\" value=\"-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0\"/>\n\t\t</property>\n\n\t\t<property class=\"seat1\">\n\t\t\t<property name=\"position\" value=\".4, .36, .06\"/>\n\t\t\t<property name=\"rotation\" value=\"-25, 0, 0\"/>\n\t\t\t<property name=\"exit\" value=\"1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel0\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"steerTransform\" value=\"Origin/frontLeftWheelStear_joint\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/frontLeftWheelStear_joint/frontLeftWheel_joint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, .8\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel1\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"steerTransform\" value=\"Origin/frontRightWheelStear_joint\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/frontRightWheelStear_joint/frontRightWheel_joint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, .8\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel2\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/backLeftWheelJoint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, 1\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel3\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/backRightWheelJoint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, 1\"/>\n\t\t</property>\n\n\t\t<property class=\"headlight\">\n\t\t\t<property name=\"class\" value=\"Headlight\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"transform\" value=\"Origin/headlight\"/>\n\t\t\t<property name=\"bright\" value=\".75\"/>\n\t\t</property>\n\n\t\t<property class=\"storage\">\n\t\t\t<property name=\"class\" value=\"Storage\"/>\n\t\t\t<property name=\"display_name\" value=\"basket\"/>\n\t\t\t<property name=\"slot_type\" value=\"basket\"/>\n\t\t\t<property name=\"mesh\" value=\"basket\"/>\n\t\t\t<property name=\"transform\" value=\"basket\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t</property>\n\n\t</vehicle>\n\n\t<vehicle name=\"pjVehicle4x4TruckRed\">\n\t\t<property name=\"cameraDistance\" value=\"5.5, 7\"/>\n\t\t<property name=\"cameraTurnRate\" value=\".2, .35\"/>\n\t\t<property name=\"motorTorqueMinQ\" value=\"5000\"/>\n\t\t<property name=\"motorTorqueMaxQ\" value=\"5000\"/>\n\t\t<property name=\"brakeTorque\" value=\"5000\"/>\n\t\t<property name=\"upAngleMax\" value=\"70\"/>\n\t\t<property name=\"upForce\" value=\"1\"/>\n\t\t<property name=\"steerRate\" value=\"130\"/>\n\t\t<property name=\"steerCenteringRate\" value=\"90\"/>\n\t\t<property name=\"tiltAngleMax\" value=\"80\"/>\n\t\t<property name=\"tiltThreshold\" value=\"3\"/>\n\t\t<property name=\"tiltDampening\" value=\".22\"/>\n\t\t<property name=\"tiltDampenThreshold\" value=\"8\"/>\n\t\t<property name=\"tiltUpForce\" value=\"0\"/>\n\t\t<property name=\"unstickForce\" value=\"1\"/>\n\t\t<property name=\"velocityMax\" value=\"9, 13\"/>\n\t\t<property name=\"waterDrag_y_velScale_velMaxScale\" value=\"1.8, .9, .1\"/>\n\t\t<property name=\"wheelPtlScale\" value=\"1\"/>\n\n\t\t<property name=\"hornSound\" value=\"vehicle/minibike/minibike_horn\"/>\n\n\t\t<property class=\"battery\">\n\t\t\t<property name=\"class\" value=\"Battery\"/>\n\t\t\t<property name=\"slot_type\" value=\"battery\"/>\n\t\t\t<property name=\"mesh\" value=\"battery\"/>\n\t\t\t<property name=\"transform\" value=\"battery\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t</property>\n\n\t\t<property class=\"chassis\">\n\t\t\t<property name=\"class\" value=\"Chassis\"/>\n\t\t\t<property name=\"display_name\" value=\"chassis\"/>\n\t\t\t<property name=\"slot_type\" value=\"chassis\"/>\n\t\t\t<property name=\"mesh\" value=\"chassis\"/>\n\t\t\t<property name=\"transform\" value=\"Origin\"/>\n\t\t</property>\n\n\t\t<property class=\"engine\">\n\t\t\t<property name=\"class\" value=\"Engine\"/>\n\t\t\t<property name=\"slot_type\" value=\"engine\"/>\n\t\t\t<property name=\"mesh\" value=\"engine_small\"/>\n\t\t\t<property name=\"transform\" value=\"engine_small\"/>\n\t\t\t<property name=\"particle_transform\" value=\"engine_small/MinibikeParticles/p_engine_fire\"/>\n\t\t\t<property name=\"fuelKmPerL\" value=\".1\"/>\n\t\t\t<property name=\"gear1\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -1400,800,0, 700,2200,900,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_accel1,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel1,\n\t\t\t\t\t\t\t\t0, .7, 1, .1, -9, .12, .1, Vehicles/Suv/suv_idle_lp,\n\t\t\t\t\t\t\t\t-.4, -.02, .7, .7, -.2, 9, .2, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"gear2\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -2000,1000,2000, 600,2200,800,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_accel2,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel1,\n\t\t\t\t\t\t\t\t-.25, -.05, .2, .4, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"gear3\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -2000,1000,2000, 500,2200,1000,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_accel3,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel2,\n\t\t\t\t\t\t\t\t-.28, -.07, .3, .6, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"gear4\" value=\"\n\t\t\t\t\t\t\t\t500,2500, -2000,1000,2000, 500,9999,9999,\n\t\t\t\t\t\t\t\t,\n\t\t\t\t\t\t\t\tVehicles/Suv/suv_decel2,\n\t\t\t\t\t\t\t\t-.31, -.08, .6, .9, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp\n\t\t\t\t\t\t\t\t\"/>\n\t\t\t<property name=\"sound_start\" value=\"Vehicles/Suv/suv_startup\"/>\n\t\t\t<property name=\"sound_shut_off\" value=\"Vehicles/Suv/suv_shutoff\"/>\n\t\t\t<property name=\"sound_no_fuel_shut_off\" value=\"Vehicles/Motorbike/motorbike_empty\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t</property>\n\n\t\t<property class=\"fuelTank\">\n\t\t\t<property name=\"class\" value=\"FuelTank\"/>\n\t\t\t<property name=\"parent_part\" value=\"engine\"/>\n\t\t\t<property name=\"capacity\" value=\"400\"/>\n\t\t</property>\n\n\t\t<property class=\"handlebars\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"class\" value=\"Steering\"/>\n\t\t\t<property name=\"slot_type\" value=\"handlebars\"/>\n\t\t\t<property name=\"transform\" value=\"Origin/steering_joint\"/>\n\t\t\t<property name=\"steerMaxAngle\" value=\"60\"/>\n\t\t\t<property name=\"IKHandLPosition\" value=\"-.154, .1256, .0265\"/>\n\t\t\t<property name=\"IKHandLRotation\" value=\"37.55, -13.433, 49.88\"/>\n\t\t\t<property name=\"IKHandRPosition\" value=\".154, .1256, .0265\"/>\n\t\t\t<property name=\"IKHandRRotation\" value=\"37.55, 13.433, -49.88\"/>\n\t\t</property>\n\n\t\t<property class=\"seat0\">\n\t\t\t<property name=\"position\" value=\"-.4, .36, .06\"/>\n\t\t\t<property name=\"rotation\" value=\"-25, 0, 0\"/>\n\t\t\t<property name=\"exit\" value=\"-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0\"/>\n\t\t</property>\n\n\t\t<property class=\"seat1\">\n\t\t\t<property name=\"position\" value=\".4, .36, .06\"/>\n\t\t\t<property name=\"rotation\" value=\"-25, 0, 0\"/>\n\t\t\t<property name=\"exit\" value=\"1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel0\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"steerTransform\" value=\"Origin/frontLeftWheelStear_joint\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/frontLeftWheelStear_joint/frontLeftWheel_joint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, .8\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel1\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"steerTransform\" value=\"Origin/frontRightWheelStear_joint\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/frontRightWheelStear_joint/frontRightWheel_joint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, .8\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel2\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/backLeftWheelJoint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, 1\"/>\n\t\t</property>\n\n\t\t<property class=\"wheel3\">\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"tireTransform\" value=\"Origin/backRightWheelJoint\"/>\n\t\t\t<property name=\"tireSuspensionPercent\" value=\"1\"/>\n\t\t\t<property name=\"torqueScale_motor_brake\" value=\"1, 1\"/>\n\t\t</property>\n\n\t\t<property class=\"headlight\">\n\t\t\t<property name=\"class\" value=\"Headlight\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t\t<property name=\"transform\" value=\"Origin/headlight\"/>\n\t\t\t<property name=\"bright\" value=\".75\"/>\n\t\t</property>\n\n\t\t<property class=\"storage\">\n\t\t\t<property name=\"class\" value=\"Storage\"/>\n\t\t\t<property name=\"display_name\" value=\"basket\"/>\n\t\t\t<property name=\"slot_type\" value=\"basket\"/>\n\t\t\t<property name=\"mesh\" value=\"basket\"/>\n\t\t\t<property name=\"transform\" value=\"basket\"/>\n\t\t\t<property name=\"parent_part\" value=\"chassis\"/>\n\t\t</property>\n\n\t</vehicle>\n\n\t</append>\n\t\n</configs>",
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/vehicles.xml",
-			"file_size": 19292,
-			"file_write_time": 132326634343831040,
+			"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/North Jaxuhe Mountains/La gang est de retour/serverconfig.xml",
 			"settings":
 			{
-				"buffer_size": 18824,
+				"buffer_size": 12553,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/vehicles.xml",
+			"settings":
+			{
+				"buffer_size": 25080,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -107,13 +104,10 @@
 			}
 		},
 		{
-			"contents": "<configs>\n\t<append xpath=\"/recipes\" >\n\n\t\t<recipe name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\">\n\t\t\t<ingredient name=\"vehicle4x4TruckPlaceable\" count=\"1\"/>\n\t\t\t<ingredient name=\"resourceAcid\" count=\"1\"/>\n\t\t\t<ingredient name=\"drinkJarGrainAlcohol\" count=\"5\"/>\n\t\t</recipe>\n\n\t\t<recipe name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\">\n\t\t\t<ingredient name=\"pjVehicle4x4TruckBluePlaceable\" count=\"1\"/>\n\t\t\t<ingredient name=\"resourceAcid\" count=\"1\"/>\n\t\t\t<ingredient name=\"drinkJarGrainAlcohol\" count=\"5\"/>\n\t\t</recipe>\n\t\n\t\t<recipe name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\">\n\t\t\t<ingredient name=\"pjVehicle4x4TruckRedPlaceable\" count=\"1\"/>\n\t\t\t<ingredient name=\"resourceAcid\" count=\"1\"/>\n\t\t\t<ingredient name=\"drinkJarGrainAlcohol\" count=\"5\"/>\n\t\t</recipe>\n\n\t\t<recipe name=\"vehicle4x4TruckPlaceable\" count=\"1\">\n\t\t\t<ingredient name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\"/>\n\t\t\t<ingredient name=\"resourcePaint\" count=\"30\"/>\n\t\t</recipe>\n\n\t\t<recipe name=\"pjVehicle4x4TruckBluePlaceable\" count=\"1\">\n\t\t\t<ingredient name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\"/>\n\t\t\t<ingredient name=\"resourcePaint\" count=\"30\"/>\n\t\t</recipe>\n\n\t\t<recipe name=\"pjVehicle4x4TruckRedPlaceable\" count=\"1\">\n\t\t\t<ingredient name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\"/>\n\t\t\t<ingredient name=\"resourcePaint\" count=\"30\"/>\n\t\t</recipe>\n\n\t</append>\n</configs>",
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/recipes.xml",
-			"file_size": 1365,
-			"file_write_time": 132326723852028028,
 			"settings":
 			{
-				"buffer_size": 1328,
+				"buffer_size": 1761,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -122,16 +116,44 @@
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
 			"settings":
 			{
-				"buffer_size": 464,
+				"buffer_size": 469,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/7dtd/7dtdMods/Modlet Installation",
+			"settings":
+			{
+				"buffer_size": 2693,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "Modlet Installation"
+			}
+		},
+		{
+			"contents": "Sample Markdown Cheat Sheet\n=========================== \n\nThis is a sample markdown file to help you write Markdown quickly :)\n\nIf you use the fabulous [Sublime Text 2/3 editor][ST] along with the [Markdown Preview plugin][MarkdownPreview], open your ST2 Palette with `CMD+⇧+P` then choose `Markdown Preview in browser` to see the result in your browser.\n\n## Text basics\nthis is *italic* and this is **bold** .  another _italic_ and another __bold__\n\nthis is `important` text. and percentage signs : % and `%`\n\nThis is a paragraph with a footnote (builtin parser only). [^note-id]\n\nInsert `[ TOC ]` without spaces to generate a table of contents (builtin parsers only).\n\n## Indentation\n> Here is some indented text\n>> even more indented\n\n## Titles\n# Big title (h1)\n## Middle title (h2)\n### Smaller title (h3)\n#### and so on (hX)\n##### and so on (hX)\n###### and so on (hX)\n\n## Example lists (1)\n\n - bullets can be `-`, `+`, or `*`\n - bullet list 1\n - bullet list 2\n    - sub item 1\n    - sub item 2\n\n        with indented text inside\n\n - bullet list 3\n + bullet list 4\n * bullet list 5\n\n## Links\n\nThis is an [example inline link](http://lmgtfy.com/) and [another one with a title](http://lmgtfy.com/ \"Hello, world\").\n\nLinks can also be reference based : [reference 1][ref1] or [reference 2 with title][ref2].\n\nReferences are usually placed at the bottom of the document\n\n## Images\n\nA sample image :\n\n![revolunet logo](http://www.revolunet.com/static/parisjs8/img/logo-revolunet-carre.jpg \"revolunet logo\")\n\nAs links, images can also use references instead of inline links :\n\n![revolunet logo][revolunet-logo]\n\n\n## Code\n\nIt's quite easy to show code in markdown files.\n\nBackticks can be used to `highlight` some words.\n\nAlso, any indented block is considered a code block.  If `enable_highlight` is `true`, syntax highlighting will be included (for the builtin parser - the github parser does this automatically).\n\n    <script>\n        document.location = 'http://lmgtfy.com/?q=markdown+cheat+sheet';\n    </script>\n\n## Math\n\nMath can be displayed in the browser using MathJax or Katex. The feature can be enabled by correctly configuring the `\"js\"`, `\"css\"`, and `\"markdown_extensions\"` configuration fields. This allows for inline math to be included \\\\(\\frac{\\pi}{2}\\\\) $\\pi$.\n\nAlternatively, math can be written on its own line:\n\n$$F(\\omega) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(t) \\, e^{ - i \\omega t}dt$$\n\n\\\\[\\int_0^1 f(t) \\mathrm{d}t\\\\]\n\n\\\\[\\sum_j \\gamma_j^2/d_j\\\\]\n\n\n\n## GitHub Flavored Markdown\n\nIf you use the Github parser, you can use some of [Github Flavored Markdown][gfm] syntax :\n\n * User/Project@SHA: revolunet/sublimetext-markdown-preview@7da61badeda468b5019869d11000307e07e07401\n * User/Project#Issue: revolunet/sublimetext-markdown-preview#1\n * User : @revolunet\n\nSome Python code :\n\n```python\nimport random\n\nclass CardGame(object):\n    \"\"\" a sample python class \"\"\"\n    NB_CARDS = 32\n    def __init__(self, cards=5):\n        self.cards = random.sample(range(self.NB_CARDS), 5)\n        print 'ready to play'\n```\n\nSome Javascript code :\n\n```js\nvar config = {\n    duration: 5,\n    comment: 'WTF'\n}\n// callbacks beauty un action\nasync_call('/path/to/api', function(json) {\n    another_call(json, function(result2) {\n        another_another_call(result2, function(result3) {\n            another_another_another_call(result3, function(result4) {\n                alert('And if all went well, i got my result :)');\n            });\n        });\n    });\n})\n```\n\nThe Github Markdown also brings some [nice Emoji support][emoji] : :+1: :heart: :beer:\n\n[^note-id]: This is the text of the note. \n\n## Parsers and Extensions\n\nMarkdown Preview comes with **Python-Markdown** preloaded.\n\n### *Python-Markdown*\n\nThe [Python-Markdown Parser][] provides support for several extensions.\n\n[Python-Markdown Parser]: https://github.com/Python-Markdown/markdown\n\n#### Extra Extensions\n\n* `abbr` -- [Abbreviations][]\n* `attr_list` -- [Attribute Lists][]\n* `def_list` -- [Definition Lists][]\n* `fenced_code` -- [Fenced Code Blocks][]\n* `footnotes` -- [Footnotes][]\n* `tables` -- [Tables][]\n* `smart_strong` -- [Smart Strong][]\n\n[Abbreviations]: https://python-markdown.github.io/extensions/abbreviations\n[Attribute Lists]: https://python-markdown.github.io/extensions/attr_list\n[Definition Lists]: https://python-markdown.github.io/extensions/definition_lists\n[Fenced Code Blocks]: https://python-markdown.github.io/extensions/fenced_code_blocks\n[Footnotes]: https://python-markdown.github.io/extensions/footnotes\n[Tables]: https://python-markdown.github.io/extensions/tables\n[Smart Strong]: https://python-markdown.github.io/extensions/smart_strong\n\n\nYou can enable them all at once using the `extra` keyword.\n\n    extensions: [ 'extra' ]\n\nIf you want all the extras plus the `toc` extension,\nyour settings would look like this:\n\n    {\n        ...\n        parser: 'markdown',\n        extensions: ['extra', 'toc'],\n        ...\n    }\n\n\n#### Other Extensions\n\nThere are also some extensions that are not included in Markdown Extra\nbut come in the standard Python-Markdown library.\n\n* `code-hilite` -- [CodeHilite][]\n* `header-id` -- [HeaderId][]\n* `meta_data` -- [Meta-Data][]\n* `nl2br` -- [New Line to Break][]\n* `sane_lists` -- [Sane Lists][]\n* `smarty` -- [Smarty][]\n* `toc` -- [Table of Contents][]\n* `wikilinks` -- [WikiLinks][]\n\n[CodeHilite]:  https://python-markdown.github.io/extensions/code_hilite\n[HeaderId]:  https://python-markdown.github.io/extensions/header_id\n[Meta-Data]:  https://python-markdown.github.io/extensions/meta_data\n[New Line to Break]:  https://python-markdown.github.io/extensions/nl2br\n[Sane Lists]:  https://python-markdown.github.io/extensions/sane_lists\n[Table of Contents]:  https://python-markdown.github.io/extensions/toc\n[WikiLinks]:  https://python-markdown.github.io/extensions/wikilinks\n[Smarty]: hhttps://python-markdown.github.io/extensions/smarty\n\n#### 3rd Party Extensions\n\n*Python-Markdown* is designed to be extended.\n\nSome included ones are:\n\n* `delete` -- github style delte support via `~~word~~`\n* `githubemoji` --  github emoji support\n* `tasklist` -- github style tasklists\n* `magiclink` -- github style auto link conversion of http|ftp links\n* `headeranchor` -- github style header anchor links\n* `github` -- Adds the above extensions in one shot\n* `b64` -- convert and embed local images to base64.  Setup by adding this `b64(base_path=${BASE_PATH})`\n\nThere are also a number of others available:\n\nJust fork this repo and add your extensions inside the `.../Packages/Markdown Preview/markdown/extensions/` folder.\n\nCheck out the list of [3rd Party extensions](\nhttps://github.com/waylan/Python-Markdown/wiki/Third-Party-Extensions).\n\n\n#### Default Extensions\n\nThe default extensions are:\n\n* `footnotes` -- [Footnotes]\n* `toc` -- [Table of Contents]\n* `fenced_code` -- [Fenced Code Blocks] \n* `tables` -- [Tables]\n\nUse the `default` keyword, to select them all.\nIf you want all the defaults plus the `definition_lists` extension,\nyour settings would look like this:\n\n    {\n        ...\n        parser: 'markdown',\n        extensions: ['default', 'definition_lists'],\n        ...\n    }\n\n## Examples\n\n### Tables\n\nThe `tables` extension of the *Python-Markdown* parser is activated by default,\nbut is currently **not** available in *Markdown2*.\n\nThe syntax was adopted from the [php markdown project](http://michelf.ca/projects/php-markdown/extra/#table),\nand is also used in github flavoured markdown.\n\n| Year | Temperature (low) | Temperature (high) |  \n| ---- | ----------------- | -------------------|  \n| 1900 |               -10 |                 25 |  \n| 1910 |               -15 |                 30 |  \n| 1920 |               -10 |                 32 |  \n\n\n### Wiki Tables\n\nIf you are using *Markdown2* with the `wiki-tables` extra activated you should see a table below:\n\n|| *Year* || *Temperature (low)* || *Temperature (high)* ||  \n||   1900 ||                 -10 ||                   25 ||  \n||   1910 ||                 -15 ||                   30 ||  \n||   1920 ||                 -10 ||                   32 ||  \n\n\n### Definition Lists\n\nThis example requires *Python Markdown*'s `def_list` extension.\n\nApple\n:   Pomaceous fruit of plants of the genus Malus in \n    the family Rosaceae.\n\nOrange\n:   The fruit of an evergreen tree of the genus Citrus.\n\n\n## About\n\nThis plugin and this sample file is proudly brought to you by the [revolunet team][revolunet]\n\n [ref1]: http://revolunet.com\n [ref2]: http://revolunet.com \"rich web apps\"\n [MarkdownREF]: http://daringfireball.net/projects/markdown/basics\n [MarkdownPreview]: https://github.com/revolunet/sublimetext-markdown-preview\n [ST]: http://sublimetext.com\n [revolunet]: http://revolunet.com\n [revolunet-logo]: http://www.revolunet.com/static/parisjs8/img/logo-revolunet-carre.jpg \"revolunet logo\"\n [gfm]: https://help.github.com/articles/github-flavored-markdown/\n [emoji]: http://www.emoji-cheat-sheet.com/",
+			"settings":
+			{
+				"buffer_size": 8927,
+				"line_ending": "Windows",
+				"name": "Markdown Cheatsheet",
+				"scratch": true
 			}
 		},
 		{
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
 			"settings":
 			{
-				"buffer_size": 520,
+				"buffer_size": 544,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/blocks.xml",
+			"settings":
+			{
+				"buffer_size": 62,
 				"line_ending": "Windows"
 			}
 		},
@@ -214,7 +236,7 @@
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/items.xml",
 			"settings":
 			{
-				"buffer_size": 1332,
+				"buffer_size": 1333,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -283,11 +305,11 @@
 		"selected_items":
 		[
 			[
-				"mak",
+				"mark",
 				"Markdown Preview: Preview in Browser"
 			],
 			[
-				"mark",
+				"mak",
 				"Markdown Preview: Preview in Browser"
 			],
 			[
@@ -348,11 +370,14 @@
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config"
 	],
 	"file_history":
 	[
+		"/D/7dtd/7dtdMods/.github/workflows/PaintJob.yml",
+		"/D/7dtd/7dtdMods/.git/config",
 		"/F/setup.xml",
 		"/X/BrightSign/brightsign-xt4-8.0.127-update.bsfw.sha1.txt",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/North Jaxuhe Mountains/serverconfig.xml",
@@ -478,13 +503,11 @@
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/LogansBar/ModInfo.xml",
 		"/D/7dtd/7dtdMods/StorageSize/ModInfo.xml",
 		"/D/7dtd/7dtdMods/StorageSize/Release Notes.md",
-		"/D/7dtd/7dtdMods/MoreBlocks/Release Notes.md",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreBlocks/Config/blocks.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreBlocks/Config/Localization.txt"
+		"/D/7dtd/7dtdMods/MoreBlocks/Release Notes.md"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -507,6 +530,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"PG13",
 			"alc",
 			"pjVehicle4x4TruckRedPlaceable",
 			"pjVehicle4x4TruckBluePlaceable",
@@ -633,8 +657,7 @@
 			"store ",
 			"store window",
 			"windows",
-			"doorFrameWhite1",
-			"\"tools\""
+			"doorFrameWhite1"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -662,7 +685,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -691,7 +714,7 @@
 						"translation.y": 1134.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
@@ -700,15 +723,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3168,
+						"buffer_size": 4136,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1245,
-								1266
+								3412,
+								3412
 							]
 						],
 						"settings":
@@ -717,10 +740,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
+						"translation.y": 1041.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -729,15 +752,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 217,
+						"buffer_size": 297,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								35,
-								35
+								295,
+								295
 							]
 						],
 						"settings":
@@ -748,7 +771,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -757,15 +780,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2321,
+						"buffer_size": 3087,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								989,
-								989
+								2313,
+								2346
 							]
 						],
 						"settings":
@@ -774,7 +797,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 573.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
@@ -782,19 +805,48 @@
 				},
 				{
 					"buffer": 4,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/vehicles.xml",
+					"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/North Jaxuhe Mountains/La gang est de retour/serverconfig.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18824,
+						"buffer_size": 12553,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6330,
-								6330
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1242.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/vehicles.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25080,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18894,
+								18894
 							]
 						],
 						"settings":
@@ -806,11 +858,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"semi_transient": false,
 					"settings":
 					{
@@ -984,24 +1036,24 @@
 						"translation.y": 3024.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/recipes.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1328,
+						"buffer_size": 1761,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1294,
-								1294
+								1590,
+								1590
 							]
 						],
 						"settings":
@@ -1009,27 +1061,27 @@
 							"syntax": "Packages/XML/XML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 324.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 464,
+						"buffer_size": 469,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								122,
-								122
+								394,
+								394
 							]
 						],
 						"settings":
@@ -1041,24 +1093,84 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
+					"buffer": 9,
+					"file": "/D/7dtd/7dtdMods/Modlet Installation",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 520,
+						"buffer_size": 2693,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								420,
-								420
+								606,
+								606
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Modlet Installation",
+							"parser": "github",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"target": "browser",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8927,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 544,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								273
 							]
 						],
 						"settings":
@@ -1069,11 +1181,39 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 12,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/blocks.xml",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 62,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
 					"file": "/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/Data/Worlds/DFalls-Medium/prefabs.xml",
 					"semi_transient": false,
 					"settings":
@@ -1097,11 +1237,11 @@
 						"translation.y": 45062.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 14,
 					"file": "/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/7DaysToDie_Data/output_log.txt",
 					"semi_transient": false,
 					"settings":
@@ -1125,11 +1265,11 @@
 						"translation.y": 10330.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 15,
 					"file": "/C/7d2d/Saves/Darkness Falls/Darkness Falls/DFalls-Medium/Eric Test DF/ConfigsDump/npc.xml",
 					"semi_transient": false,
 					"settings":
@@ -1153,11 +1293,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 16,
 					"file": "/C/7d2d/Saves/Darkness Falls/Darkness Falls/DFalls-Medium/Eric Test DF/ConfigsDump/sounds.xml",
 					"semi_transient": false,
 					"settings":
@@ -1181,11 +1321,11 @@
 						"translation.y": 122416.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 17,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/items.xml",
 					"semi_transient": false,
 					"settings":
@@ -1210,11 +1350,11 @@
 						"translation.y": 131013.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 18,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/vehicles.xml",
 					"semi_transient": false,
 					"settings":
@@ -1239,11 +1379,11 @@
 						"translation.y": 418.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 19,
 					"file": "/C/Steam/steamapps/common/7 Days To Die - A17.4 + My mods/Mods/manux_CustomVehicles_A17_modlet/Config/vehicles.xml",
 					"semi_transient": false,
 					"settings":
@@ -1268,11 +1408,11 @@
 						"translation.y": 1944.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 20,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/entityclasses.xml",
 					"semi_transient": false,
 					"settings":
@@ -1297,11 +1437,11 @@
 						"translation.y": 58578.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 21,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/archetypes.xml",
 					"semi_transient": false,
 					"settings":
@@ -1326,24 +1466,24 @@
 						"translation.y": 2196.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 22,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/items.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1332,
+						"buffer_size": 1333,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								940,
-								940
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1355,11 +1495,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 23,
 					"file": "/D/7dtd/7dtdMods/PG13/ModInfo.xml",
 					"semi_transient": false,
 					"settings":
@@ -1384,11 +1524,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 24,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/Config/blocks.xml",
 					"semi_transient": false,
 					"settings":
@@ -1413,11 +1553,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 25,
 					"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/North Jiyasu Mountains/prefabs.xml",
 					"semi_transient": false,
 					"settings":
@@ -1443,11 +1583,11 @@
 						"translation.y": 512.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 26,
 					"file": "/X/7 days mods/War3zuk-Alpha-18-Stable-AIO-master/Config/entityclasses.xml",
 					"semi_transient": false,
 					"settings":
@@ -1472,11 +1612,11 @@
 						"translation.y": 1952.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 27,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1500,11 +1640,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 28,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
 					"semi_transient": false,
 					"settings":
@@ -1529,7 +1669,7 @@
 						"translation.y": 8437.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 26,
 					"type": "text"
 				}
 			]
