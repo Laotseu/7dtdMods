@@ -5,7 +5,7 @@
 		<Name value="PaintJob" />
 		<Description value="New colour schemes for FunPims vehicles" />
 		<Author value="Éric Beaudon" />
-		<Version value="1.0" />
+		<Version value="1.1" />
 	</ModInfo>
 
 	<!--
@@ -16,6 +16,6 @@
 		For this model to work properly, it needs to be installed on the server and every player's computer.
 	-->
 
-	<!-- v1.0:	Ride in style! Change the colour skin of your 4x4
-	-->
+	<!-- v1.0:	Ride in style! Change the colour skin of your 4x4 -->
+	<!-- v1.1:	Pimp your motorcyle -->
 </xml>
