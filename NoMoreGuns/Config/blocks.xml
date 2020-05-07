@@ -1,0 +1,4 @@
+<NoMoreGuns>
+		<remove xpath="//block[@name='autoTurret']" />
+		<remove xpath="//block[@name='shotgunTurret']" />
+</NoMoreGuns>

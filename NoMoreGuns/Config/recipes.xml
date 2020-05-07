@@ -1,0 +1,22 @@
+<NoMoreGuns>
+	<remove xpath="//recipe[@name='autoTurret']" />
+	<remove xpath="//recipe[@name='shotgunTurret']" />
+	<remove xpath="//recipe[@name='gunPistol']" />
+	<remove xpath="//recipe[@name='gun44Magnum']" />
+	<remove xpath="//recipe[@name='gunSMG5']" />
+	<remove xpath="//recipe[@name='gunDoubleBarrelShotgun']" />
+	<remove xpath="//recipe[@name='gunPumpShotgun']" />
+	<remove xpath="//recipe[@name='gunHuntingRifle']" />
+	<remove xpath="//recipe[@name='gunMR10']" />
+	<remove xpath="//recipe[@name='gunAK47']" />
+	<!-- <remove xpath="//recipe[@name='gunTacticalAR']" /> -->
+	<remove xpath="//recipe[@name='gunM60']" />
+	<remove xpath="//recipe[@name='gunRocketLauncher']" />
+	<remove xpath="//recipe[@name='gunJunkTurret']" />
+	<remove xpath="//recipe[@name='thrownAmmoPipeBomb']" />
+	<remove xpath="//recipe[@name='thrownGrenadeContact']" />
+	<remove xpath="//recipe[@name='thrownTimedCharge']" />
+	<remove xpath="//recipe[@name='thrownDynamite']" />
+	<remove xpath="//recipe[@name='thrownGrenade']" />
+
+</NoMoreGuns>

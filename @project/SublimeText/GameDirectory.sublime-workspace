@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"CubeForge_",
+				"CubeForge_6"
+			],
+			[
 				"re",
 				"release"
 			],
@@ -40,242 +44,6 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/blocks.xml",
-			"settings":
-			{
-				"buffer_size": 6619,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/entityclasses.xml",
-			"settings":
-			{
-				"buffer_size": 4136,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/Localization.txt",
-			"settings":
-			{
-				"buffer_size": 297,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/items.xml",
-			"settings":
-			{
-				"buffer_size": 3087,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/North Jaxuhe Mountains/La gang est de retour/serverconfig.xml",
-			"settings":
-			{
-				"buffer_size": 12553,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/vehicles.xml",
-			"settings":
-			{
-				"buffer_size": 25080,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Searching 1441 files for \"pjVehicle4x4TruckBlue\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\items.xml:\n   17  \t\t</item>\n   18  \n   19: \t\t<item name=\"pjVehicle4x4TruckBluePlaceable\">\n   20  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n   21  \t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_blue\"/>\n   22  \t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n   23  \t\t\t<property class=\"Action1\">\n   24: \t\t\t\t<property name=\"Vehicle\" value=\"pjVehicle4x4TruckBlue\"/>\n   25  \t\t\t\t<property name=\"VehicleSize\" value=\"2.5, 2.1, 5\"/>\n   26  \t\t\t</property>\n   27: \t\t\t<effect_group name=\"pjVehicle4x4TruckBluePlaceable\" tiered=\"false\">\n   28  \t\t\t\t<passive_effect name=\"ModSlots\" operation=\"base_set\" value=\"4\"/>\n   29  \t\t\t\t<passive_effect name=\"ModPowerBonus\" operation=\"base_add\" value=\"300\" tags=\"EconomicValue\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\Localization.txt:\n    1  Key,Source,Context,Changes,English\n    2  pjVehicle4x4TruckWhitePlaceable,blocks,Block,New,\"Scrubed 4x4\"\n    3: pjVehicle4x4TruckBluePlaceable,blocks,Block,New,\"4x4, Blue\"\n    4  pjVehicle4x4TruckRedPlaceable,blocks,Block,New,\"4x4, Red\"\n    5  \n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\recipes.xml:\n    7  \n    8  \t\t<recipe name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\">\n    9: \t\t\t<ingredient name=\"pjVehicle4x4TruckBluePlaceable\" count=\"1\"/>\n   10  \t\t</recipe>\n   11  \t\n   ..\n   18  \t\t</recipe>\n   19  \n   20: \t\t<recipe name=\"pjVehicle4x4TruckBluePlaceable\" count=\"1\">\n   21  \t\t\t<ingredient name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\"/>\n   22  \t\t</recipe>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\vehicles.xml:\n  157  \t</vehicle>\n  158  \t\n  159: \t<vehicle name=\"pjVehicle4x4TruckBlue\">\n  160  \t\t<property name=\"cameraDistance\" value=\"5.5, 7\"/>\n  161  \t\t<property name=\"cameraTurnRate\" value=\".2, .35\"/>\n\n7 matches across 4 files\n\n\nSearching 1441 files for \"jeep_blue\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\entityclasses.xml:\n   32  \t\t\t<property name=\"Class\" value=\"EntityVJeep\"/>\n   33  \t\t\t<property name=\"Parent\" value=\"Cars\"/>\n   34: \t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_blue\"/>\n   35  \t\t\t<property name=\"ModelType\" value=\"Standard\"/>\n   36  \t\t\t<property name=\"SurfaceCategory\" value=\"metal\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\items.xml:\n   19  \t\t<item name=\"pjVehicle4x4TruckBluePlaceable\">\n   20  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n   21: \t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_blue\"/>\n   22  \t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n   23  \t\t\t<property class=\"Action1\">\n\n2 matches across 2 files\n\n\nSearching 1441 files for \"pjVehicle4x4TruckRed\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\entityclasses.xml:\n   48  \t\t</entity_class>\n   49  \n   50: \t\t<entity_class name=\"pjVehicle4x4TruckRed\">\n   51  \t\t\t<property name=\"Tags\" value=\"vehicle\"/>\n   52  \t\t\t<property name=\"Class\" value=\"EntityVJeep\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\items.xml:\n   32  \t\t</item>\n   33  \n   34: \t\t<item name=\"pjVehicle4x4TruckRedPlaceable\">\n   35  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n   36  \t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_red\"/>\n   37  \t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n   38  \t\t\t<property class=\"Action1\">\n   39: \t\t\t\t<property name=\"Vehicle\" value=\"pjVehicle4x4TruckRed\"/>\n   40  \t\t\t\t<property name=\"VehicleSize\" value=\"2.5, 2.1, 5\"/>\n   41  \t\t\t</property>\n   42: \t\t\t<effect_group name=\"pjVehicle4x4TruckRedPlaceable\" tiered=\"false\">\n   43  \t\t\t\t<passive_effect name=\"ModSlots\" operation=\"base_set\" value=\"4\"/>\n   44  \t\t\t\t<passive_effect name=\"ModPowerBonus\" operation=\"base_add\" value=\"300\" tags=\"EconomicValue\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\Localization.txt:\n    2  pjVehicle4x4TruckWhitePlaceable,blocks,Block,New,\"Scrubed 4x4\"\n    3  pjVehicle4x4TruckBluePlaceable,blocks,Block,New,\"4x4, Blue\"\n    4: pjVehicle4x4TruckRedPlaceable,blocks,Block,New,\"4x4, Red\"\n    5  \n    6  \n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\recipes.xml:\n   11  \t\n   12  \t\t<recipe name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\">\n   13: \t\t\t<ingredient name=\"pjVehicle4x4TruckRedPlaceable\" count=\"1\"/>\n   14  \t\t</recipe>\n   15  \n   ..\n   22  \t\t</recipe>\n   23  \n   24: \t\t<recipe name=\"pjVehicle4x4TruckRedPlaceable\" count=\"1\">\n   25  \t\t\t<ingredient name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\"/>\n   26  \t\t</recipe>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\vehicles.xml:\n  311  \t</vehicle>\n  312  \n  313: \t<vehicle name=\"pjVehicle4x4TruckRed\">\n  314  \t\t<property name=\"cameraDistance\" value=\"5.5, 7\"/>\n  315  \t\t<property name=\"cameraTurnRate\" value=\".2, .35\"/>\n\n8 matches across 5 files\n\n\nSearching 1441 files for \"pjVehicle4x4TruckBlue\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\items.xml:\n   17  \t\t</item>\n   18  \n   19: \t\t<item name=\"pjVehicle4x4TruckBluePlaceable\">\n   20  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n   21  \t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_blue\"/>\n   22  \t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n   23  \t\t\t<property class=\"Action1\">\n   24: \t\t\t\t<property name=\"Vehicle\" value=\"pjVehicle4x4TruckBlue\"/>\n   25  \t\t\t\t<property name=\"VehicleSize\" value=\"2.5, 2.1, 5\"/>\n   26  \t\t\t</property>\n   27: \t\t\t<effect_group name=\"pjVehicle4x4TruckBluePlaceable\" tiered=\"false\">\n   28  \t\t\t\t<passive_effect name=\"ModSlots\" operation=\"base_set\" value=\"4\"/>\n   29  \t\t\t\t<passive_effect name=\"ModPowerBonus\" operation=\"base_add\" value=\"300\" tags=\"EconomicValue\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\Localization.txt:\n    1  Key,Source,Context,Changes,English\n    2  pjVehicle4x4TruckWhitePlaceable,blocks,Block,New,\"Scrubed 4x4\"\n    3: pjVehicle4x4TruckBluePlaceable,blocks,Block,New,\"4x4, Blue\"\n    4  pjVehicle4x4TruckRedPlaceable,blocks,Block,New,\"4x4, Red\"\n    5  \n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\recipes.xml:\n    7  \n    8  \t\t<recipe name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\">\n    9: \t\t\t<ingredient name=\"pjVehicle4x4TruckBluePlaceable\" count=\"1\"/>\n   10  \t\t</recipe>\n   11  \t\n   ..\n   18  \t\t</recipe>\n   19  \n   20: \t\t<recipe name=\"pjVehicle4x4TruckBluePlaceable\" count=\"1\">\n   21  \t\t\t<ingredient name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\"/>\n   22  \t\t</recipe>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\vehicles.xml:\n  157  \t</vehicle>\n  158  \t\n  159: \t<vehicle name=\"pjVehicle4x4TruckBlue\">\n  160  \t\t<property name=\"cameraDistance\" value=\"5.5, 7\"/>\n  161  \t\t<property name=\"cameraTurnRate\" value=\".2, .35\"/>\n\n7 matches across 4 files\n\n\nSearching 1441 files for \"pjVehicle4x4TruckBluePlaceable\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\items.xml:\n   17  \t\t</item>\n   18  \n   19: \t\t<item name=\"pjVehicle4x4TruckBluePlaceable\">\n   20  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n   21  \t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_blue\"/>\n   ..\n   25  \t\t\t\t<property name=\"VehicleSize\" value=\"2.5, 2.1, 5\"/>\n   26  \t\t\t</property>\n   27: \t\t\t<effect_group name=\"pjVehicle4x4TruckBluePlaceable\" tiered=\"false\">\n   28  \t\t\t\t<passive_effect name=\"ModSlots\" operation=\"base_set\" value=\"4\"/>\n   29  \t\t\t\t<passive_effect name=\"ModPowerBonus\" operation=\"base_add\" value=\"300\" tags=\"EconomicValue\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\Localization.txt:\n    1  Key,Source,Context,Changes,English\n    2  pjVehicle4x4TruckWhitePlaceable,blocks,Block,New,\"Scrubed 4x4\"\n    3: pjVehicle4x4TruckBluePlaceable,blocks,Block,New,\"4x4, Blue\"\n    4  pjVehicle4x4TruckRedPlaceable,blocks,Block,New,\"4x4, Red\"\n    5  \n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\recipes.xml:\n    7  \n    8  \t\t<recipe name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\">\n    9: \t\t\t<ingredient name=\"pjVehicle4x4TruckBluePlaceable\" count=\"1\"/>\n   10  \t\t</recipe>\n   11  \t\n   ..\n   18  \t\t</recipe>\n   19  \n   20: \t\t<recipe name=\"pjVehicle4x4TruckBluePlaceable\" count=\"1\">\n   21  \t\t\t<ingredient name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\"/>\n   22  \t\t</recipe>\n\n5 matches across 3 files\n\n\nSearching 1441 files for \"pjVehicle4x4TruckRedPlaceable\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\items.xml:\n   32  \t\t</item>\n   33  \n   34: \t\t<item name=\"pjVehicle4x4TruckRedPlaceable\">\n   35  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n   36  \t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/Vehicles.unity3d?jeep_red\"/>\n   ..\n   40  \t\t\t\t<property name=\"VehicleSize\" value=\"2.5, 2.1, 5\"/>\n   41  \t\t\t</property>\n   42: \t\t\t<effect_group name=\"pjVehicle4x4TruckRedPlaceable\" tiered=\"false\">\n   43  \t\t\t\t<passive_effect name=\"ModSlots\" operation=\"base_set\" value=\"4\"/>\n   44  \t\t\t\t<passive_effect name=\"ModPowerBonus\" operation=\"base_add\" value=\"300\" tags=\"EconomicValue\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\Localization.txt:\n    2  pjVehicle4x4TruckWhitePlaceable,blocks,Block,New,\"Scrubed 4x4\"\n    3  pjVehicle4x4TruckBluePlaceable,blocks,Block,New,\"4x4, Blue\"\n    4: pjVehicle4x4TruckRedPlaceable,blocks,Block,New,\"4x4, Red\"\n    5  \n    6  \n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\recipes.xml:\n   11  \t\n   12  \t\t<recipe name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\">\n   13: \t\t\t<ingredient name=\"pjVehicle4x4TruckRedPlaceable\" count=\"1\"/>\n   14  \t\t</recipe>\n   15  \n   ..\n   22  \t\t</recipe>\n   23  \n   24: \t\t<recipe name=\"pjVehicle4x4TruckRedPlaceable\" count=\"1\">\n   25  \t\t\t<ingredient name=\"pjVehicle4x4TruckWhitePlaceable\" count=\"1\"/>\n   26  \t\t</recipe>\n\n5 matches across 3 files\n",
-			"settings":
-			{
-				"buffer_size": 9895,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/recipes.xml",
-			"settings":
-			{
-				"buffer_size": 1761,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
-			"settings":
-			{
-				"buffer_size": 469,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/7dtd/7dtdMods/Modlet Installation",
-			"settings":
-			{
-				"buffer_size": 2693,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "Modlet Installation"
-			}
-		},
-		{
-			"contents": "Sample Markdown Cheat Sheet\n=========================== \n\nThis is a sample markdown file to help you write Markdown quickly :)\n\nIf you use the fabulous [Sublime Text 2/3 editor][ST] along with the [Markdown Preview plugin][MarkdownPreview], open your ST2 Palette with `CMD+⇧+P` then choose `Markdown Preview in browser` to see the result in your browser.\n\n## Text basics\nthis is *italic* and this is **bold** .  another _italic_ and another __bold__\n\nthis is `important` text. and percentage signs : % and `%`\n\nThis is a paragraph with a footnote (builtin parser only). [^note-id]\n\nInsert `[ TOC ]` without spaces to generate a table of contents (builtin parsers only).\n\n## Indentation\n> Here is some indented text\n>> even more indented\n\n## Titles\n# Big title (h1)\n## Middle title (h2)\n### Smaller title (h3)\n#### and so on (hX)\n##### and so on (hX)\n###### and so on (hX)\n\n## Example lists (1)\n\n - bullets can be `-`, `+`, or `*`\n - bullet list 1\n - bullet list 2\n    - sub item 1\n    - sub item 2\n\n        with indented text inside\n\n - bullet list 3\n + bullet list 4\n * bullet list 5\n\n## Links\n\nThis is an [example inline link](http://lmgtfy.com/) and [another one with a title](http://lmgtfy.com/ \"Hello, world\").\n\nLinks can also be reference based : [reference 1][ref1] or [reference 2 with title][ref2].\n\nReferences are usually placed at the bottom of the document\n\n## Images\n\nA sample image :\n\n![revolunet logo](http://www.revolunet.com/static/parisjs8/img/logo-revolunet-carre.jpg \"revolunet logo\")\n\nAs links, images can also use references instead of inline links :\n\n![revolunet logo][revolunet-logo]\n\n\n## Code\n\nIt's quite easy to show code in markdown files.\n\nBackticks can be used to `highlight` some words.\n\nAlso, any indented block is considered a code block.  If `enable_highlight` is `true`, syntax highlighting will be included (for the builtin parser - the github parser does this automatically).\n\n    <script>\n        document.location = 'http://lmgtfy.com/?q=markdown+cheat+sheet';\n    </script>\n\n## Math\n\nMath can be displayed in the browser using MathJax or Katex. The feature can be enabled by correctly configuring the `\"js\"`, `\"css\"`, and `\"markdown_extensions\"` configuration fields. This allows for inline math to be included \\\\(\\frac{\\pi}{2}\\\\) $\\pi$.\n\nAlternatively, math can be written on its own line:\n\n$$F(\\omega) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(t) \\, e^{ - i \\omega t}dt$$\n\n\\\\[\\int_0^1 f(t) \\mathrm{d}t\\\\]\n\n\\\\[\\sum_j \\gamma_j^2/d_j\\\\]\n\n\n\n## GitHub Flavored Markdown\n\nIf you use the Github parser, you can use some of [Github Flavored Markdown][gfm] syntax :\n\n * User/Project@SHA: revolunet/sublimetext-markdown-preview@7da61badeda468b5019869d11000307e07e07401\n * User/Project#Issue: revolunet/sublimetext-markdown-preview#1\n * User : @revolunet\n\nSome Python code :\n\n```python\nimport random\n\nclass CardGame(object):\n    \"\"\" a sample python class \"\"\"\n    NB_CARDS = 32\n    def __init__(self, cards=5):\n        self.cards = random.sample(range(self.NB_CARDS), 5)\n        print 'ready to play'\n```\n\nSome Javascript code :\n\n```js\nvar config = {\n    duration: 5,\n    comment: 'WTF'\n}\n// callbacks beauty un action\nasync_call('/path/to/api', function(json) {\n    another_call(json, function(result2) {\n        another_another_call(result2, function(result3) {\n            another_another_another_call(result3, function(result4) {\n                alert('And if all went well, i got my result :)');\n            });\n        });\n    });\n})\n```\n\nThe Github Markdown also brings some [nice Emoji support][emoji] : :+1: :heart: :beer:\n\n[^note-id]: This is the text of the note. \n\n## Parsers and Extensions\n\nMarkdown Preview comes with **Python-Markdown** preloaded.\n\n### *Python-Markdown*\n\nThe [Python-Markdown Parser][] provides support for several extensions.\n\n[Python-Markdown Parser]: https://github.com/Python-Markdown/markdown\n\n#### Extra Extensions\n\n* `abbr` -- [Abbreviations][]\n* `attr_list` -- [Attribute Lists][]\n* `def_list` -- [Definition Lists][]\n* `fenced_code` -- [Fenced Code Blocks][]\n* `footnotes` -- [Footnotes][]\n* `tables` -- [Tables][]\n* `smart_strong` -- [Smart Strong][]\n\n[Abbreviations]: https://python-markdown.github.io/extensions/abbreviations\n[Attribute Lists]: https://python-markdown.github.io/extensions/attr_list\n[Definition Lists]: https://python-markdown.github.io/extensions/definition_lists\n[Fenced Code Blocks]: https://python-markdown.github.io/extensions/fenced_code_blocks\n[Footnotes]: https://python-markdown.github.io/extensions/footnotes\n[Tables]: https://python-markdown.github.io/extensions/tables\n[Smart Strong]: https://python-markdown.github.io/extensions/smart_strong\n\n\nYou can enable them all at once using the `extra` keyword.\n\n    extensions: [ 'extra' ]\n\nIf you want all the extras plus the `toc` extension,\nyour settings would look like this:\n\n    {\n        ...\n        parser: 'markdown',\n        extensions: ['extra', 'toc'],\n        ...\n    }\n\n\n#### Other Extensions\n\nThere are also some extensions that are not included in Markdown Extra\nbut come in the standard Python-Markdown library.\n\n* `code-hilite` -- [CodeHilite][]\n* `header-id` -- [HeaderId][]\n* `meta_data` -- [Meta-Data][]\n* `nl2br` -- [New Line to Break][]\n* `sane_lists` -- [Sane Lists][]\n* `smarty` -- [Smarty][]\n* `toc` -- [Table of Contents][]\n* `wikilinks` -- [WikiLinks][]\n\n[CodeHilite]:  https://python-markdown.github.io/extensions/code_hilite\n[HeaderId]:  https://python-markdown.github.io/extensions/header_id\n[Meta-Data]:  https://python-markdown.github.io/extensions/meta_data\n[New Line to Break]:  https://python-markdown.github.io/extensions/nl2br\n[Sane Lists]:  https://python-markdown.github.io/extensions/sane_lists\n[Table of Contents]:  https://python-markdown.github.io/extensions/toc\n[WikiLinks]:  https://python-markdown.github.io/extensions/wikilinks\n[Smarty]: hhttps://python-markdown.github.io/extensions/smarty\n\n#### 3rd Party Extensions\n\n*Python-Markdown* is designed to be extended.\n\nSome included ones are:\n\n* `delete` -- github style delte support via `~~word~~`\n* `githubemoji` --  github emoji support\n* `tasklist` -- github style tasklists\n* `magiclink` -- github style auto link conversion of http|ftp links\n* `headeranchor` -- github style header anchor links\n* `github` -- Adds the above extensions in one shot\n* `b64` -- convert and embed local images to base64.  Setup by adding this `b64(base_path=${BASE_PATH})`\n\nThere are also a number of others available:\n\nJust fork this repo and add your extensions inside the `.../Packages/Markdown Preview/markdown/extensions/` folder.\n\nCheck out the list of [3rd Party extensions](\nhttps://github.com/waylan/Python-Markdown/wiki/Third-Party-Extensions).\n\n\n#### Default Extensions\n\nThe default extensions are:\n\n* `footnotes` -- [Footnotes]\n* `toc` -- [Table of Contents]\n* `fenced_code` -- [Fenced Code Blocks] \n* `tables` -- [Tables]\n\nUse the `default` keyword, to select them all.\nIf you want all the defaults plus the `definition_lists` extension,\nyour settings would look like this:\n\n    {\n        ...\n        parser: 'markdown',\n        extensions: ['default', 'definition_lists'],\n        ...\n    }\n\n## Examples\n\n### Tables\n\nThe `tables` extension of the *Python-Markdown* parser is activated by default,\nbut is currently **not** available in *Markdown2*.\n\nThe syntax was adopted from the [php markdown project](http://michelf.ca/projects/php-markdown/extra/#table),\nand is also used in github flavoured markdown.\n\n| Year | Temperature (low) | Temperature (high) |  \n| ---- | ----------------- | -------------------|  \n| 1900 |               -10 |                 25 |  \n| 1910 |               -15 |                 30 |  \n| 1920 |               -10 |                 32 |  \n\n\n### Wiki Tables\n\nIf you are using *Markdown2* with the `wiki-tables` extra activated you should see a table below:\n\n|| *Year* || *Temperature (low)* || *Temperature (high)* ||  \n||   1900 ||                 -10 ||                   25 ||  \n||   1910 ||                 -15 ||                   30 ||  \n||   1920 ||                 -10 ||                   32 ||  \n\n\n### Definition Lists\n\nThis example requires *Python Markdown*'s `def_list` extension.\n\nApple\n:   Pomaceous fruit of plants of the genus Malus in \n    the family Rosaceae.\n\nOrange\n:   The fruit of an evergreen tree of the genus Citrus.\n\n\n## About\n\nThis plugin and this sample file is proudly brought to you by the [revolunet team][revolunet]\n\n [ref1]: http://revolunet.com\n [ref2]: http://revolunet.com \"rich web apps\"\n [MarkdownREF]: http://daringfireball.net/projects/markdown/basics\n [MarkdownPreview]: https://github.com/revolunet/sublimetext-markdown-preview\n [ST]: http://sublimetext.com\n [revolunet]: http://revolunet.com\n [revolunet-logo]: http://www.revolunet.com/static/parisjs8/img/logo-revolunet-carre.jpg \"revolunet logo\"\n [gfm]: https://help.github.com/articles/github-flavored-markdown/\n [emoji]: http://www.emoji-cheat-sheet.com/",
-			"settings":
-			{
-				"buffer_size": 8927,
-				"line_ending": "Windows",
-				"name": "Markdown Cheatsheet",
-				"scratch": true
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
-			"settings":
-			{
-				"buffer_size": 544,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/blocks.xml",
-			"settings":
-			{
-				"buffer_size": 62,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/Data/Worlds/DFalls-Medium/prefabs.xml",
-			"settings":
-			{
-				"buffer_size": 435917,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/7DaysToDie_Data/output_log.txt",
-			"settings":
-			{
-				"buffer_size": 33628,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/7d2d/Saves/Darkness Falls/Darkness Falls/DFalls-Medium/Eric Test DF/ConfigsDump/npc.xml",
-			"settings":
-			{
-				"buffer_size": 7784,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/7d2d/Saves/Darkness Falls/Darkness Falls/DFalls-Medium/Eric Test DF/ConfigsDump/sounds.xml",
-			"settings":
-			{
-				"buffer_size": 520508,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/items.xml",
-			"settings":
-			{
-				"buffer_size": 1048860,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/vehicles.xml",
-			"settings":
-			{
-				"buffer_size": 29697,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die - A17.4 + My mods/Mods/manux_CustomVehicles_A17_modlet/Config/vehicles.xml",
-			"settings":
-			{
-				"buffer_size": 59883,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/entityclasses.xml",
-			"settings":
-			{
-				"buffer_size": 207967,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/archetypes.xml",
-			"settings":
-			{
-				"buffer_size": 146577,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/items.xml",
-			"settings":
-			{
-				"buffer_size": 1333,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/7dtd/7dtdMods/PG13/ModInfo.xml",
-			"settings":
-			{
-				"buffer_size": 412,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/Config/blocks.xml",
-			"settings":
-			{
-				"buffer_size": 288,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/North Jiyasu Mountains/prefabs.xml",
-			"settings":
-			{
-				"buffer_size": 127171,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/X/7 days mods/War3zuk-Alpha-18-Stable-AIO-master/Config/entityclasses.xml",
-			"settings":
-			{
-				"buffer_size": 309748,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"contents": "Vehicle Parts\n^(cntLootCrateCarParts|cntCollapsedWorkbench)$\n\nbrewerySafeFiller\n\n^(cntBookcasePoorRandomLootHelper|cntBookcaseGoodRandomLootHelper|cntBookcaseFull)$",
 			"settings":
 			{
@@ -285,10 +53,90 @@
 			}
 		},
 		{
+			"contents": "Searching 1449 files for \"candleWallLight\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\blocks.xml:\n 22753  </block>\n 22754  \n 22755: <block name=\"candleWallLight\">\n 22756  \t<property name=\"CreativeMode\" value=\"Dev\"/>\n 22757  \t<property name=\"Class\" value=\"Light\"/>\n .....\n 22776  \n 22777  <block name=\"candleTableLight\">\n 22778: \t<property name=\"Extends\" value=\"candleWallLight\"/>\n 22779  \t<property name=\"CreativeMode\" value=\"Dev\"/>\n 22780  \t<property name=\"Model\" value=\"Entities/Lighting/candle_tablePrefab\"/>\n .....\n 22796  </block>\n 22797  \n 22798: <block name=\"candleWallLightPlayer\">\n 22799: \t<property name=\"Extends\" value=\"candleWallLight\"/>\n 22800  \t<property name=\"Model\" value=\"Entities/Lighting/candle_wall_playerPrefab\"/>\n 22801  \t<property name=\"StabilitySupport\" value=\"false\"/>\n 22802  \t<property name=\"CreativeMode\" value=\"Player\"/>\n 22803: \t<property name=\"CustomIcon\" value=\"candleWallLight\"/>\n 22804  \t<property name=\"Stacknumber\" value=\"50\"/>\n 22805  \t<property name=\"Class\" value=\"TorchHeatMap\"/>\n .....\n 22810  \n 22811  <block name=\"candleTableLightPlayer\">\n 22812: \t<property name=\"Extends\" value=\"candleWallLightPlayer\"/>\n 22813  \t<property name=\"StabilitySupport\" value=\"false\"/>\n 22814  \t<property name=\"CreativeMode\" value=\"Player\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\blocksA16PrefabConversion.xml:\n 9934  </block>\n 9935  \n 9936: <block id=\"1301\" name=\"candleWallLight\">\n 9937  \t<property name=\"Class\" value=\"Torch\"/>\n 9938  \t<property name=\"IsTerrainDecoration\" value=\"true\"/>\n ....\n 10117  \n 10118  <block id=\"1327\" name=\"candleTableLight\">\n 10119: \t<property name=\"Extends\" value=\"candleWallLight\"/>\n 10120  \t<property name=\"Model\" value=\"Lighting/candleTable\" param1=\"main_mesh\"/>\n 10121  \t<property name=\"ParticleName\" value=\"candle_flame\"/>\n .....\n 10292  </block>\n 10293  \n 10294: <block id=\"1353\" name=\"candleWallLightPlayer\">\n 10295: \t<property name=\"Extends\" value=\"candleWallLight\"/>\n 10296  \t<property name=\"Stacknumber\" value=\"50\"/>\n 10297  \t<property name=\"Class\" value=\"TorchHeatMap\"/>\n .....\n 10302  \n 10303  <block id=\"1354\" name=\"candleTableLightPlayer\">\n 10304: \t<property name=\"Extends\" value=\"candleWallLightPlayer\"/>\n 10305  \t<property name=\"Model\" value=\"Lighting/candleTable\" param1=\"main_mesh\"/>\n 10306  \t<property name=\"ParticleName\" value=\"candle_flame\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\items.xml:\n 15983  \t\t<property name=\"Class\" value=\"PlaceAsBlock\"/>\n 15984  \t\t<property name=\"Delay\" value=\".5\"/>\n 15985: \t\t<property name=\"Blockname\" value=\"candleWallLightPlayer\"/>\n 15986  \t</property>\n 15987  \t<effect_group name=\"light/douse torch always\" tiered=\"false\">\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\Localization.txt:\n 2289  candleTableLight,blocks,Light,,,Candle Table (POI),,Kerzentisch (Sehenswürdigkeit),Mesa con vela (PDI),Table avec bougie (point d'intérêt),Candela da tavolo (PDI),キャンドルテーブル（POI）,양초 테이블 (POI),Świeca — stół (POI),Vela de Mesa (PDT),Стол со свечой (важный объект),Masa Mumu (İlgi Alanı),烛台（POI）,燭桌（信息點）,Mesa con vela (PDI)\n 2290  candleTableLightPlayer,blocks,Light,,,Candle Table,,Kerzentisch,Mesa con vela,Table avec bougie,Candela da tavolo,キャンドルテーブル,양초 테이블,Świeca — stół,Vela de Mesa,Стол со свечой,Masa Mumu,烛台,燭桌,Mesa con vela\n 2291: candleWallLight,blocks,Light,,,Candle Wall (POI),,Kerzenmauer (Sehenswürdigkeit),Pared con vela (PDI),Mur avec bougie (point d'intérêt),Candela da parete (PDI),壁キャンドルl（POI）,양초 벽 (POI),Świeca — ściana (POI),Vela de Parede (PDT),Настенная свеча (важный объект),Duvar Mumu (İlgi Alanı),壁挂烛台（POI）,燭墻（信息點）,Pared con vela (PDI)\n 2292: candleWallLightPlayer,blocks,Light,,,Candle Wall,,Kerzenmauer,Pared con vela,Mur avec bougie,Candela da parete,壁キャンドル,양초 벽,Świeca — ściana,Vela de Parede,Настенная свеча,Duvar Mumu,壁挂烛台,燭墻,Pared con vela\n 2293  ceilingFanLight,blocks,Light,,,Ceiling Fan Light (POI),,Deckenventilator-Licht (Sehenswürdigkeit),Lámpara de ventilador de techo (PDI),Lampe de ventilateur de plafond (point d'intérêt),Lampadario con ventilatore (PDI),シーリングファン照明（POI）,천장형 팬 조명 (POI),\"Sufit — wentylator, oświetlenie (POI)\",Luz de Ventilador de Teto (PDT),Потолочный вентилятор-светильник (важный объект),Tavan Havalandırması Işığı (İlgi Alanı),吊扇灯（POI）,吊扇燈（信息點）,Lámpara de ventilador de techo (PDI)\n 2294  ceilingLight01,blocks,Light,,,Simple Light (POI),,Einfaches Licht (Sehenswürdigkeit),Lámpara simple (PDI),Lampe simple (point d'intérêt),Luce da soffitto (PDI),シンプル照明（POI）,단일 조명 (POI),Prosta lampa (POI),Luz Simples (PDT),Простой светильник (важный объект),Basit Işık (İlgi Alanı),简易灯（POI）,普通燈（信息點）,Lámpara simple (PDI)\n\n14 matches across 4 files\n\n\nSearching 1449 files for \"Torch\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\blocks.xml:\n 22711  </block>\n 22712  \n 22713: <block name=\"wallTorchLight\">\n 22714  \t<property name=\"CreativeMode\" value=\"Dev\"/>\n 22715  \t<property name=\"Class\" value=\"Light\"/>\n .....\n 22720  \t<property name=\"Shape\" value=\"ModelEntity\"/>\n 22721  \t<property name=\"Mesh\" value=\"models\"/>\n 22722: \t<property name=\"Model\" value=\"Entities/Lighting/torch_wallPrefab\"/>\n 22723: \t<!--property name=\"ParticleName\" value=\"torch_wall\"/-->\n 22724: \t<property name=\"Place\" value=\"Torch\"/>\n 22725  \t<property name=\"OnlySimpleRotations\" value=\"true\"/>\n 22726  \t<property name=\"Collide\" value=\"movement,melee,bullet,arrow,rocket\"/>\n 22727: \t<property name=\"CanPickup\" value=\"true\" param1=\"meleeToolTorch\"/>\n 22728  \t<property class=\"RepairItems\"> <property name=\"resourceWood\" value=\"1\"/> </property>\n 22729: \t<drop event=\"Destroy\" name=\"meleeToolTorch\" count=\"1\"/>\n 22730  \t<property name=\"Group\" value=\"Building,advBuilding\"/>\n 22731: \t<property name=\"DescriptionKey\" value=\"torchGroupDesc\"/>\n 22732  \t<property name=\"FilterTags\" value=\"fdecor,felectrical\"/>\n 22733  \t<property name=\"SortOrder1\" value=\"70a0\"/>\n 22734  </block>\n 22735  \n 22736: <block name=\"torchWallHolder\">\n 22737  \t<property name=\"Material\" value=\"Mmetal_weak\"/>\n 22738  \t<property name=\"StabilitySupport\" value=\"false\"/> <!-- build restriction -->\n 22739  \t<property name=\"Shape\" value=\"ModelEntity\"/>\n 22740  \t<property name=\"Mesh\" value=\"models\"/>\n 22741: \t<property name=\"Model\" value=\"Entities/Lighting/torch_wallPrefab\"/>\n 22742  \t<property name=\"Collide\" value=\"movement,melee,bullet,arrow,rocket\"/>\n 22743  \t<property name=\"Group\" value=\"Decor/Miscellaneous\"/>\n 22744  \t<property class=\"UpgradeBlock\">\n 22745: \t\t<property name=\"ToBlock\" value=\"wallTorchLightPlayer\"/>\n 22746: \t\t<property name=\"Item\" value=\"meleeToolTorch\"/>\n 22747  \t\t<property name=\"ItemCount\" value=\"1\"/>\n 22748  \t\t<property name=\"UpgradeHitCount\" value=\"4\"/>\n 22749  \t</property>\n 22750: \t<property name=\"DescriptionKey\" value=\"torchPlayerGroupDesc\"/>\n 22751  \t<property name=\"FilterTags\" value=\"fdecor,felectrical\"/>\n 22752  \t<property name=\"SortOrder1\" value=\"70a0\"/>\n .....\n 22770  \t<drop event=\"Destroy\" name=\"candle\" count=\"1\"/>\n 22771  \t<property name=\"Group\" value=\"Building,advBuilding\"/>\n 22772: \t<property name=\"DescriptionKey\" value=\"torchGroupDesc\"/>\n 22773  \t<property name=\"FilterTags\" value=\"fdecor,felectrical\"/>\n 22774  \t<property name=\"SortOrder1\" value=\"70a0\"/>\n .....\n 22783  </block>\n 22784  \n 22785: <block name=\"wallTorchLightPlayer\">\n 22786: \t<property name=\"Extends\" value=\"wallTorchLight\"/>\n 22787: \t<property name=\"Model\" value=\"Entities/Lighting/torch_wall_playerPrefab\"/>\n 22788  \t<property name=\"StabilitySupport\" value=\"false\"/>\n 22789  \t<property name=\"CreativeMode\" value=\"Player\"/>\n 22790: \t<property name=\"CustomIcon\" value=\"wallTorchLight\"/>\n 22791  \t<property name=\"Stacknumber\" value=\"50\"/>\n 22792: \t<property name=\"Class\" value=\"TorchHeatMap\"/> <!-- HeatMapFrequency is not used. 1 min realtime updates that scale to match world time rate -->\n 22793  \t<property name=\"HeatMapStrength\" value=\"1\"/>\n 22794  \t<property name=\"HeatMapTime\" value=\"4000\"/> <!-- 1000 per world hour. str1, t6000, f5 = 2.5; str1, t9000, f5 = 4; str4.05, t12000, f15 = 4.05-8.1; -->\n 22795: \t<property name=\"DescriptionKey\" value=\"torchPlayerGroupDesc\"/>\n 22796  </block>\n 22797  \n .....\n 22803  \t<property name=\"CustomIcon\" value=\"candleWallLight\"/>\n 22804  \t<property name=\"Stacknumber\" value=\"50\"/>\n 22805: \t<property name=\"Class\" value=\"TorchHeatMap\"/>\n 22806  \t<property name=\"HeatMapStrength\" value=\".5\"/>\n 22807  \t<property name=\"HeatMapTime\" value=\"4000\"/>\n 22808: \t<property name=\"DescriptionKey\" value=\"torchPlayerGroupDesc\"/>\n 22809  </block>\n 22810  \n .....\n 22829  \t<property name=\"ImposterDontBlock\" value=\"true\"/>\n 22830  \t<property name=\"Stacknumber\" value=\"50\"/>\n 22831: \t<property name=\"Class\" value=\"TorchHeatMap\"/>\n 22832  \t<property name=\"HeatMapStrength\" value=\"1\"/>\n 22833  \t<property name=\"HeatMapTime\" value=\"4000\"/>\n 22834  \t<property name=\"Group\" value=\"Building,advBuilding\"/>\n 22835: \t<property name=\"DescriptionKey\" value=\"torchPlayerGroupDesc\"/>\n 22836  \t<property name=\"SortOrder1\" value=\"70a0\"/>\n 22837  \t<property name=\"FilterTags\" value=\"fdecor,felectrical\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\blocksA16PrefabConversion.xml:\n 2863  </block>\n 2864  \n 2865: <block id=\"351\" name=\"wallTorchLight\">\n 2866: \t<property name=\"Class\" value=\"Torch\"/> <!-- no effect on the heat map -->\n 2867  \t<property name=\"Material\" value=\"Mstone\"/>\n 2868  \t<property name=\"MaxDamage\" value=\"1\"/>\n ....\n 2871  \t<property name=\"Shape\" value=\"Ext3dModel\"/>\t<property name=\"Texture\" value=\"293\"/>\n 2872  \t<property name=\"Mesh\" value=\"models\"/>\n 2873: \t<property name=\"Model\" value=\"Lighting/torch_wall\" param1=\"main_mesh\"/> <property name=\"HandleFace\" value=\"South\"/>\n 2874: \t<property name=\"ParticleName\" value=\"torch_wall\"/>\n 2875  \t<property name=\"Place\" value=\"TowardsPlacerInverted\"/>\n 2876: \t<property name=\"CanPickup\" value=\"true\" param1=\"torch\"/>\n 2877  \t<property name=\"Group\" value=\"Basics,Building\"/>\n 2878  </block>\n ....\n 9561  </block>\n 9562  \n 9563: <block id=\"1255\" name=\"torchWallHolder\">\n 9564  \t<property name=\"Material\" value=\"Mstone\"/>\n 9565  \t<property name=\"StabilitySupport\" value=\"false\"/> <!-- build restriction -->\n 9566  \t<property name=\"Shape\" value=\"Ext3dModel\"/>\t<property name=\"Texture\" value=\"293\"/>\n 9567  \t<property name=\"Mesh\" value=\"models\"/>\n 9568: \t<property name=\"Model\" value=\"Lighting/torch_wall_holder\" param1=\"main_mesh\"/> <property name=\"HandleFace\" value=\"South\"/>\n 9569  \t<property name=\"Group\" value=\"Building,Decor/Miscellaneous\"/>\n 9570  \t<property class=\"UpgradeBlock\">\n 9571: \t\t<property name=\"ToBlock\" value=\"wallTorchLightPlayer\"/>\n 9572: \t\t<property name=\"Item\" value=\"torch\"/>\n 9573  \t\t<property name=\"ItemCount\" value=\"1\"/>\n 9574  \t\t<property name=\"UpgradeHitCount\" value=\"4\"/>\n ....\n 9935  \n 9936  <block id=\"1301\" name=\"candleWallLight\">\n 9937: \t<property name=\"Class\" value=\"Torch\"/>\n 9938  \t<property name=\"IsTerrainDecoration\" value=\"true\"/>\n 9939  \t<property name=\"Material\" value=\"Mstone\"/>\n ....\n 10274  </block>\n 10275  \n 10276: <block id=\"1351\" name=\"wallTorchLightPlayer\">\n 10277: \t<property name=\"Extends\" value=\"wallTorchLight\"/>\n 10278  \t<property name=\"Stacknumber\" value=\"50\"/>\n 10279: \t<property name=\"Class\" value=\"TorchHeatMap\"/>\n 10280  \t<property name=\"HeatMapStrength\" value=\"4.05\"/>\n 10281  \t<property name=\"HeatMapTime\" value=\"1200\"/> <!-- str1, t600, f5 = 2.5; str1, t900, f5 = 4; str4.05, t1200, f15 = 4.05-8.1; -->\n .....\n 10295  \t<property name=\"Extends\" value=\"candleWallLight\"/>\n 10296  \t<property name=\"Stacknumber\" value=\"50\"/>\n 10297: \t<property name=\"Class\" value=\"TorchHeatMap\"/>\n 10298  \t<property name=\"HeatMapStrength\" value=\"1\"/>\n 10299  \t<property name=\"HeatMapTime\" value=\"1200\"/>\n .....\n 12441  \t<property name=\"IsTerrainDecoration\" value=\"true\"/>\n 12442  \t<property name=\"Stacknumber\" value=\"50\"/>\n 12443: \t<property name=\"Class\" value=\"TorchHeatMap\"/>\n 12444  \t<property name=\"HeatMapStrength\" value=\"4.05\"/>\n 12445  \t<property name=\"HeatMapTime\" value=\"1200\"/>\n .....\n 12450  <block id=\"1775\" name=\"burningBarrel\">\n 12451  \t<property name=\"Extends\" value=\"burningBarrelPlayer\"/>\n 12452: \t<property name=\"Class\" value=\"Torch\"/> <!-- no effect on the heat map -->\n 12453  \t<property name=\"Stacknumber\" value=\"500\"/>\n 12454  \t<property name=\"CanPickup\" value=\"true\" param1=\"burningBarrelPlayer\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\buffs.xml:\n 2377  \t\t<effect_group>\n 2378  \t\t\t<requirements compare_type=\"or\">\n 2379: \t\t\t\t<requirement name=\"HoldingItemHasTags\" tags=\"heldTorch\"/>\n 2380  \t\t\t\t<requirement name=\"HasBuff\" buff=\"buffCampfireAOE\"/>\n 2381  \t\t\t</requirements>\n ....\n 2641  \t\t\t\t<requirement name=\"NotHasBuff\" buff=\"buffBurningEnvironmentHack\"/>\n 2642  \t\t\t\t<requirement name=\"NotHasBuff\" buff=\"buffBurningEnvironment\"/>\n 2643: \t\t\t\t<requirement name=\"NotHasBuff\" buff=\"buffBurningElement\"/> <!-- torch, burning zombie -->\n 2644  \t\t\t</requirements>\n 2645  \t\t\t\t<triggered_effect trigger=\"onSelfBuffUpdate\" action=\"RemoveBuff\" buff=\"buffIsOnFire\"/>\n ....\n 2680  \n 2681  \t\t<effect_group>\n 2682: \t\t\t\t<triggered_effect trigger=\"onSelfBuffStart\" action=\"AttachParticleEffectToEntity\" particle=\"p_torch_wall\" local_offset=\"0,0.3,0\" parent_transform=\"GunJoint\"/>\n 2683  \t\t\t\t<triggered_effect trigger=\"onSelfBuffStart\" action=\"AttachPrefabToEntity\" prefab=\"p_onFire\" local_offset=\"0,0.3,0\" parent_transform=\"GunJoint\"/>\n 2684  \t\t\t\t<passive_effect name=\"DegradationPerUse\" operation=\"perc_add\" value=\"1.5\"/>\n 2685  \n 2686: \t\t\t<triggered_effect trigger=\"onSelfBuffStart\" action=\"AttachParticleEffectToEntity\" particle=\"p_torch_wall\"/>\n 2687: \t\t\t<triggered_effect trigger=\"onSelfBuffRemove\" action=\"RemoveParticleEffectFromEntity\" particle=\"p_torch_wall\"/>\n 2688: \t\t\t<triggered_effect trigger=\"onSelfDied\" action=\"RemoveParticleEffectFromEntity\" particle=\"p_torch_wall\"/>\n 2689  \t\t</effect_group>\n 2690  <!--\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\entityclasses.xml:\n   52  \t<property name=\"IsEnemyEntity\" value=\"false\"/>\n   53  \t<property name=\"DropInventoryBlock\" value=\"cntBackpackDropped\"/> <!-- deprecated. It's an entity now \"Backpack\" -->\n   54: \t<property name=\"ItemsOnEnterGame.GameModeSurvival\" value=\"drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,noteDuke01\"/>\n   55: \t<property name=\"ItemsOnEnterGame.GameModeSurvivalSP\" value=\"drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,meleeToolTorch,keystoneBlock\"/>\n   56: \t<property name=\"ItemsOnEnterGame.GameModeSurvivalMP\" value=\"drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,meleeToolTorch,keystoneBlock\"/>\n   57  \t<property name=\"ExperienceGain\" value=\"130\"/>\n   58  \t<property name=\"LegsExplosionDamageMultiplier\" value=\".41\"/> <!-- Player gets 20% damage reduction (where from?) and this takes it to 33% total -->\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\item_modifiers.xml:\n 1207  \t\t\t<property name=\"ActivateObject\" value=\"lightSource\"/>\n 1208  \t\t\t<property name=\"AlwaysActive\" value=\"true\"/>\n 1209: \t\t\t<property name=\"FlameEffect\" value=\"ParticleEffects/p_torch_wall\"/>\n 1210  \t\t</item_property_overrides>\n 1211  \n ....\n 1245  \t\t</effect_group>\n 1246  \n 1247: \t\t<effect_group name=\"light/douse torch always\" tiered=\"false\">\n 1248  \n 1249  \t\t\t<triggered_effect trigger=\"onSelfWaterSurface\" action=\"AddPart\" part=\"Flames\" prefab=\"property?FlameEffect\" parentTransform=\"#HeldItemRoot\"/>\n ....\n 1253  \t\t</effect_group>\n 1254  \n 1255: \t\t<effect_group name=\"light torch\" tiered=\"false\">\n 1256  \t\t\t<requirement name=\"CVarCompare\" cvar=\"_underwater\" operation=\"LT\" value=\"1\"/>\n 1257  \t\t\t\t<triggered_effect trigger=\"onSelfEquipStart\" action=\"AddPart\" part=\"Flames\" prefab=\"property?FlameEffect\" parentTransform=\"#HeldItemRoot\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\items.xml:\n 2583  </item>\n 2584  \n 2585: <item name=\"meleeToolTorch\">\n 2586: \t<property name=\"Tags\" value=\"blunt,melee,tool,weapon,meleeWeapon,heldTorch\"/>\n 2587: \t<property name=\"DisplayType\" value=\"meleeTorch\"/>\n 2588: \t<property name=\"Class\" value=\"ItemClassTorch\"/>\n 2589  \t<property name=\"HoldType\" value=\"12\"/>\n 2590: \t<property name=\"Meshfile\" value=\"#Other/Items?Tools/torch02Prefab.prefab\"/>\n 2591: \t<property name=\"DropMeshfile\" value=\"#Other/Items?Tools/torch02_droppedPrefab.prefab\"/>\n 2592  \t<!--<property name=\"DropScale\" value=\".4\"/>-->\n 2593  \t<property name=\"Material\" value=\"Morganic\"/>\n 2594: \t<property name=\"Stacknumber\" value=\"50\"/> <!-- STK torch -->\n 2595  \t<property name=\"FuelValue\" value=\"25\"/>\n 2596  \t<property name=\"EconomicValue\" value=\"10\"/>\n 2597: \t<property name=\"SoundIdle\" value=\"torch_lp\"/>\n 2598  \t<!-- examples for joel<property name=\"SoundUnholster\" value=\"weapon_empty\"/><property name=\"SoundHolster\" value=\"Pistol_Fire\"/>-->\n 2599  \t<!-- <property name=\"LightSource\" value=\"ParticleEffect/Point light\"/>-->\n ....\n 2601  \t\t<property name=\"Class\" value=\"DynamicMelee\"/>\n 2602  \t\t<property name=\"Sphere\" value=\".1\"/>\n 2603: \t\t<property name=\"Sound_start\" value=\"torch_swoosh\"/>\n 2604  \t\t<property name=\"DamageType\" value=\"Heat\"/>\n 2605  \t\t<property name=\"ToolCategory.harvestingTools\" value=\".5\" param1=\"1\"/>\n ....\n 2613  \t<property class=\"Action1\">\n 2614  \t\t<property name=\"Class\" value=\"PlaceAsBlock\"/>\n 2615: \t\t<property name=\"Blockname\" value=\"wallTorchLightPlayer\"/>\n 2616  \t</property>\n 2617  \t<property name=\"Group\" value=\"Basics,Building,advBuilding\"/>\n ....\n 2621  \t<property name=\"AlwaysActive\" value=\"true\"/>\n 2622  \n 2623: \t<effect_group name=\"meleeToolTorch\" tiered=\"false\">\n 2624  \t\t<passive_effect name=\"MaxRange\" operation=\"base_set\" value=\"2.4\"/>\n 2625  \t\t<passive_effect name=\"BlockRange\" operation=\"base_set\" value=\"3\"/>\n 2626: \t\t<passive_effect name=\"EntityDamage\" operation=\"base_set\" value=\"10.2\"/> <!-- meleeToolTorch -->\n 2627  \t\t<passive_effect name=\"BlockDamage\" operation=\"base_set\" value=\"7\"/>\n 2628  \t\t<passive_effect name=\"DamageModifier\" operation=\"perc_add\" value=\"-.5\" tags=\"earth\"/>\n ....\n 2661  \t</effect_group>\n 2662  \n 2663: \t<!--\trev 32792  Changing torch back to correct handheld model and removing XML for turning off flames underwater until we have a code version.\n 2664: \t<effect_group name=\"light/douse torch always\" tiered=\"false\">\n 2665: \t\t<triggered_effect trigger=\"onSelfWaterSurface\" action=\"AttachParticleEffectToEntity\" particle=\"p_torch_wall\" local_offset=\"0,.5,0\" parent_transform=\"Gunjoint\"/>\n 2666: \t\t<triggered_effect trigger=\"onSelfWaterSubmerge\" action=\"RemoveParticleEffectFromEntity\" particle=\"p_torch_wall\" parent_transform=\"Gunjoint\"/>\n 2667: \t\t<triggered_effect trigger=\"onSelfEquipStop\" action=\"RemoveParticleEffectFromEntity\" particle=\"p_torch_wall\" parent_transform=\"Gunjoint\"/>\n 2668: \t\t<triggered_effect trigger=\"onSelfDied\" action=\"RemoveParticleEffectFromEntity\" particle=\"p_torch_wall\" parent_transform=\"Gunjoint\"/>\n 2669  \t</effect_group>\n 2670  \n 2671: \t<effect_group name=\"light torch\" tiered=\"false\">\n 2672  \t\t<requirement name=\"CVarCompare\" cvar=\"_underwater\" operation=\"LT\" value=\"1\"/>\n 2673: \t\t\t<triggered_effect trigger=\"onSelfEnteredGame\" action=\"AttachParticleEffectToEntity\" particle=\"p_torch_wall\" local_offset=\"0,.5,0\" parent_transform=\"Gunjoint\"/>\n 2674: \t\t\t<triggered_effect trigger=\"onSelfHoldingItemCreated\" action=\"AttachParticleEffectToEntity\" particle=\"p_torch_wall\" local_offset=\"0,.5,0\" parent_transform=\"Gunjoint\"/>\n 2675: \t\t\t<triggered_effect trigger=\"onSelfSwimStop\" action=\"AttachParticleEffectToEntity\" particle=\"p_torch_wall\" local_offset=\"0,.5,0\" parent_transform=\"Gunjoint\"/>\n 2676  \t</effect_group>\n 2677  \t-->\n ....\n 15972  \n 15973  <item name=\"candle\">\n 15974: \t<property name=\"Class\" value=\"ItemClassTorch\"/>\n 15975  \t<property name=\"HoldType\" value=\"12\"/>\n 15976  \t<property name=\"Tags\" value=\"junk\"/>\n 15977  \t<property name=\"Meshfile\" value=\"#Other/Items?Tools/candlePrefab.prefab\"/>\n 15978  \t<property name=\"Material\" value=\"Morganic\"/>\n 15979: \t<property name=\"Stacknumber\" value=\"50\"/> <!-- STK torch -->\n 15980  \t<property name=\"FuelValue\" value=\"16\"/>\n 15981  \t<property name=\"EconomicValue\" value=\"24\"/>\n .....\n 15985  \t\t<property name=\"Blockname\" value=\"candleWallLightPlayer\"/>\n 15986  \t</property>\n 15987: \t<effect_group name=\"light/douse torch always\" tiered=\"false\">\n 15988  \t\t<triggered_effect trigger=\"onSelfWaterSurface\" action=\"AttachParticleEffectToEntity\" particle=\"p_candleWall_flame\" local_offset=\"0,.7,-.03\" parent_transform=\"Gunjoint\"/>\n 15989  \t\t<triggered_effect trigger=\"onSelfWaterSubmerge\" action=\"RemoveParticleEffectFromEntity\" particle=\"p_candleWall_flame\" parent_transform=\"Gunjoint\"/>\n .....\n 15991  \t\t<triggered_effect trigger=\"onSelfDied\" action=\"RemoveParticleEffectFromEntity\" particle=\"p_candleWall_flame\" parent_transform=\"Gunjoint\"/>\n 15992  \t</effect_group>\n 15993: \t<effect_group name=\"light torch\" tiered=\"false\">\n 15994  \t\t<requirement name=\"CVarCompare\" cvar=\"_underwater\" operation=\"LT\" value=\"1\"/>\n 15995  \t\t\t<triggered_effect trigger=\"onSelfEnteredGame\" action=\"AttachParticleEffectToEntity\" particle=\"p_candleWall_flame\" local_offset=\"0,.7,-.03\" parent_transform=\"Gunjoint\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\Localization.txt:\n 2330  tableLampLight,blocks,Light,,,Table Lamp,,Tischlampe,Lámpara de mesa,Lampe de table,Lampada da tavolo,テーブルランプ,테이블 전등,Lampa biurkowa,Lâmpada de Mesa,Настольная лампа,Masa Lambası,台灯,臺燈,Lámpara de mesa\n 2331  tableLampTippedOverLight,blocks,Light,,,\"Table Lamp, Fallen\",,\"Tischlampe, heruntergefallen\",Lámpara de mesa caída,\"Lampe de table, tombée\",Lampada da tavolo caduta,落ちたテーブルランプ,테이블 전등 (떨어짐),\"Lampa biurkowa, przewrócona\",Lâmpada de Mesa (caída),Упавшая настольная лампа,\"Masa Lambası, Devrik\",台灯-倒下,落地臺燈,Lámpara de mesa caída\n 2332: torchGroupDesc,blocks,Light,,,CREATIVE: Has no effect on the heat map.,,KREATIV: Hat keine Wirkung auf das Wärmebild.,CREATIVO: No tiene efecto en el mapa de calor.,CRÉATION : N'a aucun effet sur la carte thermique.,CREATIVO: Non ha effetti sulla mappa del calore.,創造:ヒートマップには反映されません。,제작: 열지도에서는 효과를 발휘하지 않습니다.,KREATYWNE: Nie wpływa na mapę cieplną.,CRIATIVO: não afeta o mapa térmico.,ТВОРЧЕСТВО: Не влияет на карту активности.,YARATICI: Isı haritasına etkisi yok.,创意：对热图没有影响。,創意：對熱度圖未產生影響。,CREATIVO: No tiene efecto en el mapa de calor.\n 2333: torchPlayerGroupDesc,blocks,Light,,,Open flames and flickering lights like with torches (less so with candles) will attract zombies.,,\"Offenes Feuer und flackerndes Licht, wie bei Fackeln (weniger bei Kerzen) ziehen Zombies an.\",\"Las llamas vivas y las luces que parpadean, como antorchas (y en cierto modo, las velas) atraerán a los zombis.\",\"Les flammes nues et les lumières scintillantes comme les torches (et dans une moindre mesure, les bougies) attirent les zombies.\",Le fiamme libere e le luci tremolanti come quelle delle torce (nonché delle candele) attraggono gli zombie.,はだか火で松明のようなちらつきが（キャンドルよりも少なめに）発生するため、ゾンビを引き付けます。,화염이나 횃불처럼 깜박이는 불빛(양초는 광원이 적음)은 좀비를 끌어들입니다.,\"Ogień i migające światła, na przykład pochodnie (świece w mniejszym stopniu) to prawdziwe wabiki na zombie.\",\"Chamas abertas e luzes piscantes, como tochas (menos com velas), atrairão zumbis.\",Открытое пламя и мигающий свет факелов (в меньшей мере — свечей) привлекает зомби.,\"Açık alevler ve meşale gibi titreşen ışık kaynakları (mumlar da biraz titrer), zombileri çeker.\",有明火和闪烁的灯光，像火把一样（比蜡烛轻微），会吸引丧尸。,像火把（蠟燭同理）一樣，明火和閃爍的燈光會引來殭屍。,\"Las llamas vivas y las luces que parpadean, como antorchas (y en cierto modo, las velas) atraerán a los zombis.\"\n 2334: torchWallHolder,blocks,Light,,,Torch Wall Holder,,Wandhalter für Fackeln,Portantorchas de pared,Support de torche mural,Porta torcia da parete,松明用壁ホルダー,횃불 거치대,Uchwyt ścienny na pochodnię,Suporte de Tocha de Parede,Настенный держатель факела,Meşale Duvar Tutucusu,壁挂火把架,火把壁架,Portantorchas de pared\n 2335  wallLight01,blocks,Light,,,Warehouse Outdoor Light (POI),,Kaufhaus-Außenlicht (Sehenswürdigkeit),Lámpara exterior del almacén (PDI),Lampe extérieure d'entrepôt (point d'intérêt),Luce esterna da magazzino (PDI),倉庫用屋外照明（POI）,창고 야외 조명 (POI),Lampa zewnętrzna — magazynowa (POI),Luz Externa de Depósito (PDT),Уличный светильник склада (важный объект),Depo Dış Mekan Lambası (İlgi Alanı),仓库室外灯（POI）,倉庫戶外燈（信息點）,Lámpara exterior del almacén (PDI)\n 2336  wallLight01_player,blocks,Light,,,Warehouse Outdoor Light,,Kaufhaus-Außenlicht,Lámpara exterior del almacén,Lampe extérieure d'entrepôt,Luce esterna da magazzino,倉庫用屋外照明,창고 야외 조명,Lampa zewnętrzna — magazynowa,Luz Externa de Depósito,Уличный светильник склада,Depo Dış Mekan Lambası,仓库室外灯,倉庫戶外燈,Lámpara exterior del almacén\n 2337: wallTorchLight,blocks,Light,,,Wall Torch (POI),,Wandfackel (Sehenswürdigkeit),Antorcha de pared (PDI),Torche murale (point d'intérêt),Torcia da parete (PDI),壁松明（POI）,벽 횃불 (POI),Pochodnia ścienna (POI),Tocha de Parede (PDT),Настенный факел (важный объект),Duvar Meşalesi (İlgi Alanı),壁挂火把（POI）,墻上火把（信息點）,Antorcha de pared (PDI)\n 2338: wallTorchLightPlayer,blocks,Light,,,Wall Torch,,Wandfackel,Antorcha de pared,Torche murale,Torcia da parete,壁松明,벽 횃불,Pochodnia ścienna,Tocha de Parede,Настенный факел,Duvar Meşalesi,壁挂火把,墻上火把,Antorcha de pared\n 2339  workLightPOI,blocks,Light,,,Work Light (POI),,Arbeitslicht (Sehenswürdigkeit),Lámpara de trabajo (PDI),Lampe de travail (point d'intérêt),Lampada da lavoro (PDI),作業用ライト（POI）,작업용 조명 (POI),Lampa robocza (POI),Luz de Serviço (PDT),Осветительный прибор (важный объект),Çalışma Işığı (İlgi Alanı),工作灯（POI）,工作燈（信息點）,Lámpara de trabajo (PDI)\n 2340  cntBuriedStashChest,blocks,Quest,,,Buried Stash,,Vergrabener Schatz,Reserva enterrada,Cache enterrée,Scorte sepolte,埋蔵物,땅에 묻힌 보관함,Zakopane graty,Estoque Enterrado,Закопанный тайник,Gömülü Zula,埋藏的库存,埋藏藏匿處,Reserva enterrada\n ....\n 2672  buffDysenteryCureDisplayDesc,buffs,Buff,,,You have taken dysentery medicine which will reduce dysentery that you may be suffering. You can stack dysentery medicines to increase duration.,,\"Du hast Durchfall-Medizin eingenommen, die die Durchfall lindern wird, an der du leidest. Du kannst Durchfall-Medizin aufhäufen, um die Dauer zu erhöhen.\",Has tomado medicina para disentería que reducirá el grado de esta enfermedad que puedas tener. Puedes acumular medicina para disentería para aumentar la duración.,Vous avez pris un médicament contre la dysenterie qui réduira les symptômes dont vous souffrez. Vous pouvez prendre plusieurs médicaments contre la dysenterie pour augmenter la durée de leurs effets.,Hai preso il medicinale per la dissenteria che ti aiuterà a riprenderti. Puoi accumulare i medicinali per aumentarne la durata.,赤痢薬を飲みました。苦しい赤痢の症状を緩和してくれるでしょう。赤痢薬を複数回飲むことで効果持続時間を延長することが出来ます。,이질로 인한 고통을 덜기 위해 이질약을 복용했습니다. 이질약을 연속으로 복용해 지속시간을 늘릴 수 있습니다.,Po zażyciu lekarstwa na dyzenterię nieprzyjemne objawy choroby złagodnieją. Kolejne dawki lekarstwa przedłużą czas działania.,Você tomou o remédio para desinteria que pode ajudar a aliviar seu sofrimento. Acumule remédios para desinteria para aumentar a duração.,\"Вы приняли лекарство от дизентерии, которое поможет справиться с симптомами болезни, если они у вас есть. Примите несколько порций лекарства, чтобы повысить длительность их действия.\",Dizanterini hafifletebilecek dizanteri ilacını aldın. Süresini uzatmak için dizanteri ilaçlarını istifleyebilirsin.,你服用了治疗痢疾的药物，可减轻痢疾带给你的痛苦。你可以叠加使用痢疾药，以延长效果的持续时间。,你已服用痢疾用藥，相關症狀可緩解。可以囤積痢疾藥物以延長功效。,Has tomado medicina para disentería que reducirá el grado de esta enfermedad que puedas tener. Puedes acumular medicina para disentería para aumentar la duración.\n 2673  buffDysenteryCureDisplayName,buffs,Buff,,,Dysentery Medicine,,Durchfall-Medizin,Medicina para disentería,Médicament contre la dysenterie,Medicinale per la dissenteria,赤痢薬,이질약,Lek na dyzenterię,Remédio para desinteria,Лекарство от дизентерии,Dizanteri İlacı,痢疾药,痢疾用藥,Medicina para disentería\n 2674: buffElementColdDesc,buffs,Buff,,,\"You are cold. Find clothing, take shelter, equip a torch or build a campfire. When you are cold you will burn more calories.\",,\"Dir ist kalt. Suche Kleidung, finde einen Unterschlupf, zünde eine Fackel an oder mache ein Lagerfeuer. Wenn dir kalt ist, verbrennst du mehr Kalorien.\",\"Tienes frío. Busca ropa, encuentra un refugio, equípate una antorcha o enciende una fogata. Quemas más calorías cuando tienes frío.\",\"Vous avez froid. Trouvez des vêtements, abritez-vous, équipez-vous d'une torche ou construisez un feu de camp. Vous brûlez plus de calories quand vous avez froid.\",\"Hai freddo. Trova vestiti, cerca un rifugio, equipaggia una torcia o accendi un falò. Quando hai freddo, bruci più calorie.\",体が冷えています。衣類を見つけ、どこかに退避し、松明を装備するか、キャンプファイヤーをしましょう。体が冷えていると通常時よりも多くのカロリーを燃焼します。,추위에 괴로워하고 있습니다. 옷 또는 피난처를 찾거나 횃불을 장비하거나 캠프파이어를 만드세요. 추위에 떠는 동안 더 많은 칼로리를 소비하게 됩니다.,\"Jest ci zimno. Znajdź ubranie, schroń się, wyposaż pochodnię lub wybuduj ognisko. Gdy jest ci zimno, spalasz więcej kalorii.\",\"Você está com frio. Encontre roupas, abrigue-se, equipe uma tocha ou faça uma fogueira. Você gastará mais calorias se estiver com frio.\",\"Вы замерзли. Найдите одежду или убежище, возьмите факел или разведите костер. В холоде вы тратите больше калорий.\",\"Üşüyorsun. Giysi bul, korunaklı bir yere sığın, meşaleni kullan ya da kamp ateşi yak. Üşüdüğünde daha fazla kalori yakarsın.\",你感到寒冷。可寻找衣物、找个躲避的地方、装备火把或建造篝火。感到寒冷时，你会消耗更多热量。,你感到寒冷。披上衣物或尋找遮蔽物，燒上火把或生起營火。感到寒冷時你會消耗更多能量。,\"Tienes frío. Busca ropa, encuentra un refugio, equípate una antorcha o enciende una fogata. Quemas más calorías cuando tienes frío.\"\n 2675  buffElementColdName,buffs,Buff,,,Cold,,Kalt,Frío,Froid,Freddo,寒い,추위,Zimno,Frio,Холод,Soğuk,寒冷,寒冷,Frío\n 2676: buffElementColdTooltip,buffs,Buff,,,\"You are cold. Find clothing, take shelter, equip a torch or build a campfire.\",,\"Dir ist kalt. Suche Kleidung, finde einen Unterschlupf, zünde eine Fackel an oder mache ein Lagerfeuer.\",\"Tienes frío. Busca ropa, encuentra un refugio, equípate una antorcha o enciende una fogata.\",\"Vous avez froid. Trouvez des vêtements, abritez-vous, équipez-vous d'une torche ou construisez un feu de camp.\",\"Hai freddo. Trova vestiti, cerca un rifugio, equipaggia una torcia o accendi un falò.\",体が冷えています。衣類を見つけ、どこかに退避し、松明を装備するか、キャンプファイヤーをしましょう。,추위에 괴로워하고 있습니다. 옷 또는 피난처를 찾거나 횃불을 장비하거나 캠프파이어를 만드세요.,\"Jest ci zimno. Znajdź ubranie, schroń się, wyposaż pochodnię lub wybuduj ognisko.\",\"Você está com frio. Encontre roupas, abrigue-se, equipe uma tocha ou faça uma fogueira.\",\"Вы замерзли. Найдите одежду или убежище, возьмите факел или разведите костер.\",\"Üşüyorsun. Giysi bul, korunaklı bir yere sığın, meşaleni kullan ya da kamp ateşi yak.\",你感到寒冷。可寻找衣物、找个躲避的地方、装备火把或建造篝火。,你感到寒冷。披上衣物或尋找遮蔽物，燒上火把或生起營火。,\"Tienes frío. Busca ropa, encuentra un refugio, equípate una antorcha o enciende una fogata.\"\n 2677: buffElementFreezingDesc,buffs,Buff,,,\"You are freezing. Find clothing, take shelter, equip a torch or build a campfire. When you're freezing you will burn more calories.\",,\"Du frierst. Suche Kleidung, finde einen Unterschlupf, zünde eine Fackel an oder mache ein Lagerfeuer. Wenn du frierst, verbrennst du mehr Kalorien.\",\"Te estás congelando. Busca ropa, encuentra un refugio, equípate una antorcha o enciende una fogata. Quemas más calorías cuando te estás congelando.\",\"Vous gelez. Trouvez des vêtements, abritez-vous, équipez-vous d'une torche ou construisez un feu de camp. Vous brûlez plus de calories quand vous gelez.\",\"Stai congelando. Trova vestiti, cerca un rifugio, equipaggia una torcia o accendi un falò. Quando stai congelando, bruci più calorie.\",凍えています。衣類を見つけ、どこかに退避し、松明を装備するか、キャンプファイヤーをしましょう。体が凍えていると通常時よりも多くのカロリーを燃焼します。,얼어붙고 있습니다. 옷 또는 피난처를 찾거나 횃불을 장비하거나 캠프파이어를 만드세요. 추위에 떠는 동안 더 많은 칼로리를 소비하게 됩니다.,\"Jest ci bardzo zimno. Znajdź ubranie, schroń się, wyposaż pochodnię lub wybuduj ognisko. Gdy jest ci bardzo zimno, spalasz więcej kalorii.\",\"Você está congelando. Encontre roupas, abrigue-se, equipe uma tocha ou faça uma fogueira. Você gastará mais calorias se estiver congelando.\",\"Вы замерзаете. Найдите одежду или убежище, возьмите факел или разведите костер. При замерзании вы тратите больше калорий.\",\"Donuyorsun. Giysi bul, korunaklı bir yere sığın, meşaleni kullan ya da kamp ateşi yak. Donarken daha da fazla kalori yakarsın.\",你冻僵了。可寻找衣物、找个躲避的地方、装备火把或建造篝火。你感到冻僵时，会消耗更多热量。,你要凍僵了。披上衣物或尋找遮蔽物，燒上火把或生起營火。當你要凍僵時，會消耗更多能量。,\"Te estás congelando. Busca ropa, encuentra un refugio, equípate una antorcha o enciende una fogata. Quemas más calorías cuando te estás congelando.\"\n 2678  buffElementFreezingName,buffs,Buff,,,Freezing,,Frieren,Congelándote,Gel,Congelamento,非常に寒い,동상,Bardzo zimno,Congelamento,Мороз,Dondurucu,冻僵,凍僵,Congelándote\n 2679: buffElementFreezingTooltip,buffs,Buff,,,\"You are Freezing. Find clothing, take shelter, equip a torch or build a campfire.\",,\"Du frierst. Suche Kleidung, finde einen Unterschlupf, zünde eine Fackel an oder mache ein Lagerfeuer.\",\"Te estás congelando. Busca ropa, encuentra un refugio, equípate una antorcha o enciende una fogata.\",\"Vous gelez. Trouvez des vêtements, abritez-vous, équipez-vous d'une torche ou construisez un feu de camp.\",\"Stai congelando. Trova vestiti, cerca un rifugio, equipaggia una torcia o accendi un falò.\",凍えています。衣類を見つけ、どこかに退避し、松明を装備するか、キャンプファイヤーをしましょう。,얼어붙고 있습니다. 옷 또는 피난처를 찾거나 횃불을 장비하거나 캠프파이어를 만드세요.,\"Jest ci bardzo zimno. Znajdź ubranie, schroń się, wyposaż pochodnię lub wybuduj ognisko.\",\"Você está congelando. Encontre roupas, abrigue-se, equipe uma tocha ou faça uma fogueira.\",\"Вы замерзаете. Найдите одежду или убежище, возьмите факел или разведите костер.\",\"Donuyorsun. Giysi bul, korunaklı bir yere sığın, meşaleni kullan ya da kamp ateşi yak.\",你冻僵了。可寻找衣物、找个躲避的地方、装备火把或建造篝火。,你要凍僵了。披上衣物或尋找遮蔽物，燒上火把或生起營火。,\"Te estás congelando. Busca ropa, encuentra un refugio, equípate una antorcha o enciende una fogata.\"\n 2680  buffElementHotDesc,buffs,Buff,,,You are hot. Find clothing or take shelter. When you're hot you will get thirsty faster.,,\"Dir ist warm. Suche Kleidung oder finde einen Unterschlupf. Wenn dir warm ist, wirst du schneller durstig.\",\"Tienes calor. Busca ropa o refúgiate. Cuando tienes calor, te entrará sed más rápido.\",Vous avez chaud. Trouvez des vêtements ou abritez-vous. Vous avez soif plus rapidement quand vous avez chaud.,\"Hai caldo. Trova vestiti o cerca un rifugio. Quando hai caldo, ti viene sete più velocemente.\",体が熱くなっています。衣類を見つけるかどこかに避難しましょう。体温が高くなると喉が渇きやすくなります。,더위에 괴로워하고 있습니다. 옷이나 피난처를 찾으세요. 더위의 영향을 받는 동안 목이 더 빠르게 마릅니다.,\"Jest ci gorąco. Znajdź ubranie lub schowaj się. Gdy jest ci gorąco, szybciej czujesz pragnienie.\",Você está com calor. Encontre roupas ou abrigue-se. Você sentirá sede mais rápido se estiver com calor.,Вам жарко. Найдите одежду или убежище. В жаре вам быстрее захочется пить.,Sıcakladın. Giysi bul veya korunaklı bir yere sığın. Sıcakladığında daha çabuk susarsın.,你很热。寻找衣物或找个躲避的地方。你感到热时，会更快口渴。,你感到很熱。尋找輕薄衣物或陰涼處。感到很熱時你會更快容易口渴。,\"Tienes calor. Busca ropa o refúgiate. Cuando tienes calor, te entrará sed más rápido.\"\n 2681  buffElementHotName,buffs,Buff,,,Hot,,Heiß,Calor,Chaud,Caldo,熱い,더위,Gorąco,Calor,Жара,Sıcak,热,酷熱,Calor\n ....\n 4081  meleeToolStoneAxeTazas,items,Tool,,,Taza's Stone Axe,,Tazas Steinaxt,Hacha de piedra de Taza,Hache de pierre de Taza,Ascia di pietra di Taza,タサの石斧,타자의 돌 도끼,Kamienna Siekiera Tazy,Machado de Pedra do Taza,Каменный топор Тазы,Taza'nın Taş Baltası,塔萨的石斧,塔紮的石斧,Hacha de piedra de Taza\n 4082  meleeToolStoneAxeTazasDesc,items,Tool,,,\"Taza's stone axe is a rare, powerful, ancient Indian artifact. The Apache believed those who wielded it were invincible in battle.\\nRepair with Small Stone.\",,\"Tazas Steinaxt ist ein seltenes und mächtiges Artefakt der Indianer. Die Apachen glaubten, dass der Träger dieser Axt im Kampf unbesiegbar sei.\\nKann mit kleinen Steinen repariert werden.\",El hacha de piedra de Taza es un extraño y poderoso artefacto de los antiguos indios. Los Apaches creían que aquel que lo blandiera sería invencible en batalla.\\nSe repara con piedras pequeñas.,La hache de pierre de Taza est un ancien et puissant artefact indien. Les Apaches croyaient que ceux qui brandissaient cette arme devenaient invulnérables lors des batailles.\\nSe répare avec une petite pierre.,L'ascia di pietra di Taza è un manufatto indiano raro e potente. Gli Apache credevano che chi la impugnava fosse invincibile in battaglia.\\nSi ripara con un sasso.,タサの石斧はレアでパワフルな古代インディアンの秘宝です。アパッチ族の間では、これを手にするものは戦闘で無敵になると信じられています。\\n小石で修復可能。,타자의 돌 도끼는 희귀하고 강력한 고대 원주민의 유물입니다. 아파치족은 이 무기를 지닌 사람은 전투에서 무적이 된다고 믿었습니다.\\n작은 돌로 수리할 수 있습니다.,\"To starożytny, niezwykle rzadki i potężny indiański artefakt. Apacze wierzyli, że posiadacz oręża jest niezwyciężony w walce.\\nPrzedmiot naprawisz z użyciem małego kamyka.\",O machado de pedra do Taza é um antigo artefato indígena raro e poderoso. Os apaches acreditavam que quem o empunhava era invencível em batalha.\\nConserte com Pedra Pequena.,\"Каменный топор Тазы – редкий древний мощный индейский артефакт. Апачи верили, что тот, кто держит этот топор, неуязвим в битве.\\nРемонтируется с помощью маленького камня.\",\"Taza'nın Taş Baltası son derece nadir, güçlü kadim bir Kızılderili eşyasıdır. Apaçiler silahta bu baltayı kullananın ölümsüz olacağına inanıyormuş.\\nKüçük Taş ile onar.\",塔萨的石斧是一把罕见而强大的古代印度手工制品。阿帕奇人相信那些使用它的人能够战无不胜。\\n可用小石子修理。,塔紮的石斧是一種罕見的、強大的古印度人工製品。阿帕奇人相信使用它的人戰無不勝。\\n用小石頭修復。,El hacha de piedra de Taza es un extraño y poderoso artefacto de los antiguos indios. Los Apaches creían que aquel que lo blandiera sería invencible en batalla.\\nSe repara con piedras pequeñas.\n 4083: meleeToolTorch,items,Tool,,,Torch,,Fackel,Antorcha,Torche,Torcia,松明,횃불,Pochodnia,Tocha,Факел,Meşale,火把,火把,Antorcha\n 4084: meleeToolTorchDesc,items,Tool,,,This torch can be used as a light source or weapon with a chance to catch enemies on fire. Place with secondary action. May attract zombies.,,\"Diese Fackel dient als Lichtquelle oder als Waffe mit der Chance, Feinde in Brand zu setzen. Wird mit der sekundären Aktion platziert. Könnte Zombies anziehen.\",Esta antorcha se puede usar como fuente de luz o arma con una posibilidad de prender a los enemigos en llamas. Colócala con la acción secundaria. Podría atraer a los zombis.,Cette torche peut être utilisée comme source lumineuse ou comme arme avec une probabilité de mettre le feu aux ennemis. Se place à l'aide de l'action secondaire. Peut attirer les zombies.,Questa torcia può essere utilizzata come fonte di luce o arma con la possibilità di dar fuoco ai nemici. Si posiziona con l'azione secondaria. Potrebbe attirare gli zombie.,松明は光源として使用でき、武器として使用すると敵に火をつけることがあります。第二アクションで設置します。ゾンビを引き付ける可能性があります。,횃불은 조명이나 무기로 사용할 수 있습니다. 무기로 사용할 경우 적에게 불을 붙일 수 있습니다. 보조 행동으로 불을 붙이세요. 좀비를 끌어들일 수 있습니다.,\"Nie tylko oświetlisz nią mrok, ale i opędzisz się od wrogów. Kto wie, może nawet któregoś podpalisz. Rozmieść, używając akcji pomocniczej. Może przyciągać zombie.\",A tocha pode ser usada como fonte de luz ou como arma e tem chance de incendiar inimigos. Posicione-a com a ação secundária. Pode atrair zumbis.,\"Факел может использоваться и как источник света, и как оружие, которым можно поджечь врагов. Установить с помощью дополнительного действия. Может привлечь внимание зомби.\",Meşaleyi ışık kaynağı ya da düşmanları tutuşturma ihtimaline sahip bir silah olarak kullanabilirsin. İkincil eylemle yerleştir. Zombileri çekebilir.,这个火炬能够作为光源或武器，有几率吸引敌人的火力。使用辅助动作来放置。可能会吸引丧尸。,此火把可用作光源或者有機會火燒敵人的武器。使用輔助動作放置。可能會吸引殭屍。,Esta antorcha se puede usar como fuente de luz o arma con una posibilidad de prender a los enemigos en llamas. Colócala con la acción secundaria. Podría atraer a los zombis.\n 4085  meleeToolWireTool,items,Tool,,,Wire Tool,,Drahtwerkzeug,Herramienta de cableado,Outil de câblage,Tronchese,配線ツール,와이어 도구,Cążki do drutu,Alicate,Стриппер,Kablolama Aleti,电线工具,接綫工具,Herramienta de cableado\n 4086  meleeToolWireToolDesc,items,Tool,,,Use the wire tool to wire electrical components. See Journal Tip for more info.,,Mit dem Drahtwerkzeug kannst du elektrische Bauteile verdrahten. Im Tagebuchtipp findest du mehr Infos.,Utiliza la herramienta de cableado para cablear los componentes eléctricos. Consulta el consejo del diario para más información.,Utilisez cet outil pour connecter des composants électriques. Voir les astuces du journal pour plus d'informations.,Usa la tronchese per cablare i componenti elettrici. Leggi i suggerimenti del manuale per maggiori informazioni.,配線ツールを使って電気コンポーネント同士の配線を行います。詳細はジャーナルヒントをご覧ください。,와이어 도구를 사용해 전기 부품의 전선을 연결할 수 있습니다. 자세한 내용은 수첩의 팁 항목을 참고하세요.,Dzięki cążkom wykonasz oprzewodowanie komponentów elektrycznych. Więcej informacji znajdziesz we wskazówkach w dzienniku.,Use em componentes elétricos. Veja mais informações em Dica do Diário.,\"Используйте стриппер для прокладки электрических коммуникаций. Загляните в журнал с подсказками, чтобы получить больше информации.\",Elektrikli aksamın kablo bağlantılarını yapmak için kablolama aletini kullan. Daha fazla bilgi için Günlük İpucuna bak.,使用电线工具连接电子器件。更多信息请参见日志提示。,使用接綫工具為電氣元件接綫。更多資訊，請查看日誌提醒。,Utiliza la herramienta de cableado para cablear los componentes eléctricos. Consulta el consejo del diario para más información.\n ....\n 4109  chemistryStationTip,Journal,,,,\"The Chemistry Station enables you craft additional chemicals, liquids and compounds.\\nWhile some recipes are also available at a Campfire the Chemistry Station requires fewer resources.\\nTo craft recipes here you must have all ingredients in your inventory.\\nHold E to pick up Workstations within your land claim area.\",,\"Die Chemiestation ermöglicht es dir, zusätzliche Chemikalien, Flüssigkeiten und Zusammensetzungen zu fertigen.\\nEinige der Rezepte sind zwar auch bei Lagerfeuern verfügbar, die Chemiestation benötigt aber weniger Rohstoffe.\\nUm hier Rezepte fertigen zu können, musst du alle benötigten Zutaten in deinem Inventar haben.\\nHalte „E“ gedrückt, um in deinem gesicherten Gebiet Arbeitsstationen aufzuheben.\",\"La estación de química te permite fabricar químicos adicionales, líquidos y compuestos.\\nSi bien algunas recetas también están disponibles en una fogata, con la estación de química necesitarás menos recursos para fabricarla.\\nPara fabricar recetas, debes tener todos los ingredientes en tu inventario.\\nMantén pulsado E para recoger las estaciones de trabajo dentro de tu zona de territorio reclamado.\",\"L'atelier de chimie vous permet de fabriquer des produits chimiques, des liquides et des composés.\\nCertaines compositions sont disponibles au feu de camp, mais l'atelier de chimie demande moins de ressources.\\nPour fabriquer des compositions ici, vous devez avoir tous les composants dans votre inventaire.\\nMaintenez la touche E enfoncée pour ramasser vos postes de travail dans la zone du terrain revendiqué.\",\"Il laboratorio chimico ti consente di creare prodotti chimici, liquidi e composti.\\nMentre alcune ricette sono disponibili anche presso un falò, il laboratorio chimico richiede meno risorse.\\nPer realizzare le ricette devi avere tutti gli ingredienti nel tuo inventario.\\nTieni premuto \"\"E\"\" per scegliere le postazioni di lavoro all'interno del tuo territorio rivendicato.\",化学実験ステーションによって、さらに多くの化学薬品、液体、化合物のクラフトが可能になります。\\n中にはキャンプファイヤーでも利用可能なレシピがありますが、化学実験ステーションを使うと資源が少なくて済みます。\\nここでレシピをクラフトするには、すべての原料を所持品に入れておく必要があります。\\n土地主張権を持つエリア内の作業場はEの長押しで回収します。,\"화학 작업기는 추가적인 화학약품, 액체, 화합물을 제작할 수 있게 해줍니다.\\n일부 레시피는 캠프파이어에서도 제작할 수 있지만 화학 작업기에서 제작하는 경우 자원이 더 적게 소모됩니다.\\n레시피를 제작하려면 인벤토리에 필요한 모든 재료가 있어야 합니다.\\nE를 길게 눌러 소유권 지역 내에서 원하는 작업대를 선택하세요.\",\"W laboratorium chemicznym wytworzysz dodatkowe substancje, ciecze i związki.\\nNiektóre przepisy są dostępne również przy ognisku, ale w laboratorium chemicznym zużyjesz mniej zasobów.\\nAby wytworzyć przedmiot z przepisu, musisz posiadać w ekwipunku wszystkie składniki.\\nAby podnieść stacje robocze na swoim terenie, przytrzymaj przyciśnięty klawisz E.\",\"A estação de química permite que você fabrique líquidos e componentes químicos extras.\\nAlgumas receitas também ficam disponíveis na fogueira, mas na estação de química elas precisam de menos recursos.\\nTenha todos os itens no inventário para fazer receitas.\\nSegure “E” para recolher estações de trabalha em sua área de terra reivindicada.\",\"Химлаборатория позволяет изготавливать дополнительные химикаты, жидкости и составы.\\nНесмотря на то, что некоторые рецепты могут быть изготовлены и на костре, химлаборатория потребует для них меньше ресурсов.\\nДля изготовления предметов по рецептам, убедитесь, что все ингредиенты есть в инвентаре.\\nУдерживайте клавишу «E», чтобы собрать рабочие станции в пределах зоны вашего присвоения земли.\",\"Kimya İstasyonu daha fazla kimyasal, sıvı ve bileşik üretmeni sağlar.\\nBazı tarifler Kamp Ateşinde de kullanılabilse de Kimya İstasyonu daha az kaynak gerektirir.\\nTarifleri burada üretmek için tüm bileşenlerin envanterinde bulunması gerekir.\\nE'ye basılı tutarak kendi arazi el koyma alanın içindeki Çalışma İstasyonlarını alabilirsin.\",化学工作站能够让你制作额外的化学药剂、液体和化合物。\\n虽然有些配方也可以在篝火中用较少的资源来制作。\\n要在这里制作配方，你必须在你的物品栏里有所有的配方材料。\\n按住E在你的土地征用区域拾起工作台。,化學工作站用來製作額外的化學品、液體和化合物。\\n雖然營火也可以製作一些配方，但化學工作站需要更少的資源。\\n你的物品欄中必須備齊所有食材才能在此處製作配方。\\n按住 E 撿起你領地區域內的工作站。,\"La estación de química te permite fabricar químicos adicionales, líquidos y compuestos.\\nSi bien algunas recetas también están disponibles en una fogata, con la estación de química necesitarás menos recursos para fabricarla.\\nPara fabricar recetas, debes tener todos los ingredientes en tu inventario.\\nMantén pulsado E para recoger las estaciones de trabajo dentro de tu zona de territorio reclamado.\"\n 4110  chemistryStationTip_title,Journal,,,,Chemistry Station,,Chemiestation,Estación de química,Atelier de chimie,Laboratorio chimico,化学実験ステーション,화학 작업기,Laboratorium chemiczne,Estação de Química,Химлаборатория,Kimya İstasyonu,化学工作站,化學工作站,Estación de química\n 4111: coldWeatherTip,Journal,,,,\"If you are getting cold you can combat this by wearing clothing, getting indoors, standing near a lit campfire or forge or carrying a torch.\\n\\nItems with a higher cold resist rating are better and offer more protection against cold weather. You can see an item's cold resist rating by inspecting it.\",,\"Wenn dir kalt wird, kannst du Kleidung anziehen, in Gebäude gehen, dich in der Nähe eines entzündeten Lagerfeuers oder einer Schmiede aufhalten oder eine Fackel tragen.\\n\\nGegenstände mit mehr Kältewiderstand bieten dir mehr Schutz vor kaltem Wetter. Den Kältewiderstandswert eines Gegenstandes erfährst du, wenn du ihn dir genauer ansiehst.\",\"Si comienzas a tener frío, ponte ropa, quédate dentro de recintos, cerca de una fogata o fragua, o lleva una antorcha para combatirlo.\\n\\nLos objetos con una tasa de mayor resistencia al frío son mejores y ofrecen una mayor protección contra el clima frío. Inspecciona los objetos para ver la tasa de resistencia al frío de los mismos.\",\"Si vous commencez à avoir froid, vous pouvez vous réchauffer en portant des vêtements, en vous abritant à l'intérieur d'un bâtiment, en vous tenant près d'un feu de camp ou d'une forge ou en portant une torche.\\n\\nLes objets ayant un taux de résistance au froid plus élevé sont meilleurs et vous protégeront mieux du froid. Vous pouvez consulter le taux de résistance au froid d'un objet en l'inspectant.\",\"Per evitare di raffreddarti puoi combattere il freddo con i vestiti, riparandoti in un ambiente chiuso, stando vicino a un falò acceso o una fucina o portando con te una torcia.\\n\\nGli oggetti con una maggiore resistenza al freddo sono migliori e offrono una maggiore protezione dal freddo. Ispeziona un oggetto per visualizzarne il valore di resistenza al freddo.\",体が冷えてきたら、衣服の着用や屋内への移動、あるいは火のついたキャンプファイヤーや炉の側に立ったり、松明を持ったりすることで寒さに対抗することができます。\\n\\nより寒さ耐性レーティングの高いアイテムの方が効果が高く、寒冷な気候に対する保護が優れています。アイテムを調べることで、そのアイテムの寒さ耐性レーティングを見ることができます。,\"추워지면 옷을 더 입거나, 실내로 들어가거나, 불이 켜진 캠프파이어 또는 대장간 가까이 있거나, 횃불을 들어 추위를 막을 수 있습니다.\\n\\n추위 저항 등급이 높을수록 효율이 좋으며 추운 날씨를 더 잘 견딜 수 있게 해줍니다. 아이템을 검사해 추위 저항 등급을 확인할 수 있습니다.\",\"Aby wolniej wytracać ciepło, ubierz się, schowaj w pomieszczeniu, stań w pobliżu rozpalonego ogniska, w kuźni lub noś ze sobą pochodnię.\\n\\nPrzedmioty o większej odporności na zimno mają lepsze właściwości termoizolacyjne i skuteczniej chronią przed niesprzyjającą aurą. Aby sprawdzić odporność na zimno przedmiotu, przeprowadź jego inspekcję.\",\"Combata o frio usando trajes, indo para locais fechados, ficando perto de fogueiras ou forjas acesas ou carregando tochas.\\n\\nItens de maior resistência ao frio são melhores e oferecem mais proteção contra o clima frio. Inspecione um item para ver a classificação de resistência ao frio dele.\",\"Для борьбы с холодом можно использовать одежду, заходить в помещения, стоять рядом с костром, кузницей или взять в руки факел.\\n\\nПредметы с большим показателем сопротивления холоду – лучше и обеспечивают большую защиту от холода. Вы можете увидеть показатель сопротивления холоду предмета, осмотрев его.\",\"Üşüyorsan ısınmak için kıyafet giyebilir, iç mekana gidebilir, yanan bir kamp ateşinin veya demirci ocağının başında durabilir ya da elinde meşale tutabilirsin.\\n\\nDaha yüksek soğuk direnci derecesine sahip öğeler soğuk havaya karşı koruma sağlama konusunda daha iyidir. Bir öğeyi inceleyerek öğenin soğuk direnci derecesini görebilirsin.\",如果你感到寒冷，可以通过穿衣服，进入室内，站在点燃的篝火或锻造炉旁边，以及手持火把来缓解。\\n\\n物品的寒冷抗性等级越高，抗寒效果越好，可以在寒冷天气下更好地保护你。你可以通过检视一项物品来查看其寒冷抗性等级。,如果你感覺寒冷，可以透過穿衣、進入室內、站在點燃的營火旁或者製作或手持一個火把來克服它。\\n\\n物品的禦寒等級越高越好，可以提供抵抗寒冷天氣的更多保護。你可以透過查看瞭解物品的禦寒等級。,\"Si comienzas a tener frío, ponte ropa, quédate dentro de recintos, cerca de una fogata o fragua, o lleva una antorcha para combatirlo.\\n\\nLos objetos con una tasa de mayor resistencia al frío son mejores y ofrecen una mayor protección contra el clima frío. Inspecciona los objetos para ver la tasa de resistencia al frío de los mismos.\"\n 4112  coldWeatherTip_title,Journal,,,,Cold Weather,,Kaltes Wetter,Clima frío,Températures basses,Clima freddo,寒冷な気候,추운 날씨,Zimna pogoda,Clima Frio,Холод,Soğuk Hava,寒冷天气,寒冷天氣,Clima frío\n 4113  encumbranceTip,Journal,,,,\"If you carry too many items in your backpack (inventory) you can become encumbered which lowers your movement speed. Items in your hotbar and worn clothing do not count.\\nYour inventory shows a number of unlocked and locked slots symbolic for how many items you can carry in your inventory without being encumbered. It is not necessary to place items on specific slots. Only the total amount of items in your backpack matters.\\n\\nThe Pack Mule perk as well as certain mods or drugs unlock more inventory slots, allowing you to carry more without being encumbered.\",,\"Wenn du zu viele Gegenstände in deinem Rucksack (Inventar) hast, kannst du dich überbelasten und dich nur mehr langsam fortbewegen. Gegenstände in deiner Leiste und getragene Kleidung werden nicht gezählt.\\nIn deinem Inventar siehst du eine Menge ge- und entsperrter Slots, die dir zeigen, wie viele Gegenstände du bis zur Überbelastung in deinem Inventar haben kannst. Es ist nicht notwendig, Gegenstände in bestimmte Slots zu geben. Es zählt nur die Gesamtmenge an Gegenständen in deinem Rucksack.\\n\\nDie Eigenschaft „Packesel“ und gewisse Mods und Medikamente schalten mehr Inventarslots frei, wodurch du mehr tragen kannst, bevor du überbelastet bist.\",\"Si llevas muchos objetos en la mochila (inventario), puede que vayas sobrecargado, lo que reduce tu velocidad de movimiento. Los objetos en la barra de acceso rápido y la ropa que llevas puesta no cuenta.\\nEl inventario muestra un número simbólico de ranuras desbloqueadas y bloqueadas de los objetos que puedes llevar en el inventario sin estar sobrecargado. No es necesario colocar objetos en ranuras específicas. Solo cuenta el número total de objetos en la mochila.\\n\\nEl beneficio de mula de carga y algunas modificaciones o drogas pueden desbloquear más ranuras del inventario, lo que te permite llevar más cosas sin estar sobrecargado.\",\"Si vous transportez trop d'objets dans votre sac à dos (inventaire), vous pourriez être encombré, ce qui réduit votre vitesse de mouvement. Les objets sur votre barre d'équipement et les vêtements portés ne comptent pas.\\nVotre inventaire indique un nombre d'emplacements verrouillés et déverrouillés qui représentent symboliquement combien d'objets vous pouvez transporter dans votre inventaire sans être encombré. Il n'est pas nécessaire de placer des objets dans des emplacements spécifiques. Seule la quantité totale d'objets dans votre sac à dos importe.\\n\\nL'avantage de la mule, ainsi que certaines modifications ou drogues peuvent déverrouiller davantage d'emplacements d'inventaire, ce qui vous permet de transporter plus d'objets sans être encombré.\",\"Se trasporti troppi oggetti nello zaino (inventario), rischi di sovraccaricarti, riducendo la velocità di movimento. Gli articoli nella barra e i vestiti indossati non contano.\\nIl tuo inventario mostra un numero di slot sbloccati e bloccati che indica quanti oggetti puoi trasportare nel tuo inventario senza sovraccaricarti. Non è necessario mettere gli oggetti negli slot specifici. Ciò che conta è la quantità totale di oggetti nel tuo zaino.\\n\\nLa capacità \"\"Mulo da soma\"\" e alcune modifiche o farmaci sbloccano gli slot nell'inventario, permettendoti di trasportare più oggetti senza sovraccaricarti.\",バックパック（所持品）にあまりにも多くのアイテムを持っていると、動きが阻害され移動速度が低下します。ホットバーにあるアイテムや着用中の衣服はカウントされません。\\n所持品にはアンロックしたスロットとロック中のスロットの数がシンボルと共に表示され、動きを阻害せずにあといくつのアイテムを所持品に入れることができるかがわかるようになっています。特定のスロットにアイテムを配置する必要はありません。バックパックに存在するアイテムの総数のみが重要となります。\\n\\n「ラバ」の特殊技能、または特定の改造パーツやドラックで所持品のスロットをアンロックすることができ、動きを阻害せずにより多くの荷物を持つことができるようになります。,백팩(인벤토리)에 너무 많은 아이템을 소지하고 있는 경우 방해를 받는 상태가 되어 이동 속도가 느려집니다. 단축 바의 아이템과 헤진 옷은 여기에 포함되지 않습니다.\\n인벤토리에는 잠금 해제된 슬롯과 잠긴 슬롯의 수를 표시하여 방해 상태가 되기까지 인벤토리에 얼마나 많은 아이템을 더 소지할 수 있는지 알려줍니다. 특정 슬롯에 아이템을 배치할 필요는 없습니다. 백팩에 있는 총 아이템의 수가 중요하기 때문입니다.\\n\\n짐 나르는 노새 특성이나 특정 개조 또는 약물로 더 많은 인벤토리 슬롯을 잠금 해제하여 방해받지 않고 더 많은 아이템을 소지할 수 있습니다.,\"Jeśli w twoim plecaku (ekwipunku) znajduje się zbyt wiele przedmiotów, twoja szybkość ruchu spadnie z uwagi na przeciążenie. Przedmioty na pasku skrótów i założone ubrania nie liczą się do limitu.\\nW ekwipunku znajdziesz liczbę odblokowanych i zablokowanych miejsc, dzięki czemu dowiesz się, ile przedmiotów możesz nosić bez przeciążenia. Nie musisz umieszczać przedmiotów na konkretnych miejscach. Liczy się wyłącznie łączna liczba przedmiotów w plecaku.\\n\\nProfit Muł pociągowy oraz niektóre modyfikacje lub dobra konsumpcyjne odblokowują dodatkowe miejsca w ekwipunku, dzięki czemu możesz unieść więcej przedmiotów bez przeciążenia.\",\"Ao carregar itens em excesso na sua mochila (inventário), você pode ficar sobrecarregado, diminuindo sua velocidade de movimento. Os itens na barra de acesso rápido e os trajes que você estiver vestindo não contam.\\nSeu inventário mostra um número de espaços bloqueados e desbloqueados que simboliza a quantidade de itens que você pode carregar sem ficar sobrecarregado. Não é preciso colocar os itens em espaços específicos. Só importa a quantidade total de itens na mochila.\\n\\nA vantagem Burro de Carga, assim como algumas modificações e drogas, desbloqueia mais espaços no inventário, permitindo que você carregue mais itens sem ficar sobrecarregado.\",\"Если у вас в рюкзаке (инвентаре) слишком много вещей, вы можете оказаться перегруженным, что снизит скорость передвижения. Предметы, находящиеся на панели быстрого доступа, и одежда на вас не учитываются.\\nВаш инвентарь отображает количество открытых и закрытых слотов, показывая тем самым, сколько вы можете нести вещей без перегрузки. Вещи не обязательно помещать в какой-то определенный слот. Имеет значение только общее количество предметов.\\n\\nУмение «Вьючный мул», некоторые модификации и препараты открывают большее число слотов в инвентаре, позволяя переносить большее количество предметов без перегрузки.\",\"Sırt çantanda (envanterin) çok fazla öğe taşırsan yükün ağır gelebilir ve hareket hızın düşebilir. Çok kullanılanlar çubuğundaki öğeler ve giydiğin kıyafetler sayılmaz.\\nEnvanterin, yükün ağır gelmeden taşıyabileceğin öğe sayısını kilitli ve kilidi açılmış yuva simgeleriyle gösterir. Öğelerin belirli yuvalara yerleştirilmesi gerekmez. Ağırlığı belirleyen sadece sırt çantandaki toplam öğelerin sayısıdır.\\n\\nYük Katırı avantajı ve bazı modlar ya da uyuşturucular daha fazla envanter yuvasının kilidini açabilir ve bu sayede yükün ağır gelmeden daha fazla öğe taşımanı sağlayabilir.\",如果你的背包（物品栏）中携带了太多物品，你可能会变得沉重，从而降低你的移动速度。快捷栏里的物品和穿过的衣服不计算在内。\\n物品栏有一些未解锁和已解锁的格子，代表可在物品栏中携带的物品数量，不影响负重。不必将物品放置在特定的格子上。背包里的物品总量才会影响负重。\\n\\n驮骡技能，以及某些模组或药物可解锁更多的物品栏格子，让你携带更多物品而不影响负重。,如果你的背包（物品欄）中有太多物品，你會承受負重，移動速度會變慢。快捷欄裏的物品和穿著的衣物不計數。\\n你的物品欄顯示未解鎖和解鎖空間，表示你可以在物品欄中攜帶多少物品而不會負重。不需要把物品放在特定空間。只與你背包裏的物品總量有關。\\n\\n馱騾和某些模組或藥品可解鎖更多物品欄空間，你可以攜帶更多物品而不會負重。,\"Si llevas muchos objetos en la mochila (inventario), puede que vayas sobrecargado, lo que reduce tu velocidad de movimiento. Los objetos en la barra de acceso rápido y la ropa que llevas puesta no cuenta.\\nEl inventario muestra un número simbólico de ranuras desbloqueadas y bloqueadas de los objetos que puedes llevar en el inventario sin estar sobrecargado. No es necesario colocar objetos en ranuras específicas. Solo cuenta el número total de objetos en la mochila.\\n\\nEl beneficio de mula de carga y algunas modificaciones o drogas pueden desbloquear más ranuras del inventario, lo que te permite llevar más cosas sin estar sobrecargado.\"\n ....\n 4127  harvestTip,Journal,,,,Use any bladed tool or weapon like a Bone Knife to skin an animal.\\nUse a wrench to break down cars or mechanical items for advanced resources.\\nPerks can increase the harvest yield in several areas.,,\"Häute Tiere mit beliebigen Werkzeugen oder Waffen mit Schneide, zum Beispiel mit einem Knochenmesser.\\nMit einem Schraubenschlüssel kannst du Autos und mechanische Gegenstände auseinandernehmen und fortgeschrittene Rohstoffe sammeln.\\nEigenschaften können deine Ernte in mehreren Gebieten verbessern.\",Usa cualquier herramienta punzante o arma como un cuchillo de hueso para despellejar a un animal.\\nUsa una llave inglesa para despiezar coches u objetos mecánicos para recursos avanzados.\\nLos beneficios pueden aumentar el rendimiento de cosecha en varias zonas.,Utilisez n'importe quel outil doté d'une lame ou une arme comme le couteau en os pour dépecer un animal.\\nUtilisez une clé à molette pour démonter des voitures ou les objets mécaniques pour obtenir des ressources avancées.\\nLes avantages peuvent augmenter les rendements des récoltes dans plusieurs zones.,Usa uno strumento dotato di lama o un'arma come il pugnale d'osso per scuoiare un animale.\\nUsa una chiave inglese per smontare automobili o oggetti meccanici e ottenere risorse avanzate.\\nAcquisendo le capacità necessarie potrai raccogliere di più in diverse aree.,刃物がついたツールや骨ナイフといった武器を使って動物の皮を剥ぎます。\\nレンチを使うと車両や機械製品の分解が可能で、より高度な資源を入手できます。\\n特定のエリアで入手できる資源を増加させる特殊技能があります。,뼈칼 등 날이 있는 도구나 무기를 사용해 동물의 가죽을 벗길 수 있습니다.\\n렌치를 사용하면 자동차나 기계 아이템을 분해하여 고급 자원을 확보할 수 있습니다.\\n다양한 분야의 수집량을 높여주는 특성이 있습니다.,\"Aby oskórować zwierzę, użyj narzędzia lub broni z ostrzem, np. kościanego noża.\\nAby rozkręcić samochód lub mechaniczny przedmiot i uzyskać zaawansowane zasoby, użyj klucza.\\nProfity zwiększają uzysk.\",\"Use uma ferramenta ou arma com lâmina, como a Faca de Osso, para esfolar um animal.\\nUse a chave inglesa para desmontar carros ou itens mecânicos e obter recursos avançados.\\nAs vantagens podem aumentar o rendimento de coleta em diversas áreas.\",\"Используйте любой инструмент или оружие с лезвием, например костяной нож, чтобы снимать шкуру с животных.\\nИспользуйте гаечный ключ, чтобы разбирать машины или механические предметы для получения улучшенных материалов.\\nБонусы могут увеличивать количество добытых материалов в нескольких областях.\",\"Herhangi bir bıçaklı alet ya da Kemik Bıçağı gibi bir silah kullanarak hayvanların derisini yüzebilirsin.\\nİngiliz Anahtarı kullanarak arabaları veya mekanik öğeleri parçalayarak gelişmiş kaynaklar elde edebilirsin.\\nAvantajlar, çeşitli alanlarda toplama verimini artırır.\",使用任何带刃工具或武器，如骨刀，来给动物剥皮。\\n使用扳手来分解汽车或机械类物品来获取高级资源。\\n投入技能点可以增加在一些区域的收集所得。,使用任何有刃的工具或武器，如骨刀，對動物剝皮。\\n使用扳手拆解汽車或機械物品來獲取高級資源。\\n技能可以增加幾個地區的收穫產量。,Usa cualquier herramienta punzante o arma como un cuchillo de hueso para despellejar a un animal.\\nUsa una llave inglesa para despiezar coches u objetos mecánicos para recursos avanzados.\\nLos beneficios pueden aumentar el rendimiento de cosecha en varias zonas.\n 4128  harvestTip_title,Journal,,,,Harvesting Resources,,Rohstoffe abbauen,Recolección de recursos,Récolte des ressources,Raccolta delle risorse,資源の収穫/収集,자원 수집,Zbieranie zasobów,Coleta de Recursos,Добыча материалов,Kaynak Toplama,收集资源,收穫資源,Recolección de recursos\n 4129: heatMapTip,Journal,,,,Many actions and events will cause a local increase on the Activity Map.\\n\\nWhat affects the Activity Map:\\n- Flickering torches and to a lesser degree candles.\\n- Any workstation that burns fuel.\\n- Gunfire and explosions.\\n- Motor tools like chainsaws.\\n- Active traps like blade traps or shotgun turrets.\\n- Hitting or destroying metal or glass blocks or slamming metal doors.\\n\\nIf an area is 'hot' you will eventually have zombie scouts snooping around. If they spot you they will call in reinforcements.\\nLimit or stop these activities and this area will 'cool down' on it's own.\\nLights or sounds are counted regardless of being noticeable to a player standing out in the open.\\nElectric generators or lights do not register.,,\"Viele Aktionen und Ereignisse werden einen lokalen Anstieg auf der Aktivitätskarte verursachen.\\n\\nWas die Aktivitätskarte beeinflusst:\\n– Flackernde Fackeln und in geringerem Maße auch Kerzen.\\n– Alle Arbeitsstationen, die Brennstoff verbrennen.\\n- Schüsse und Explosionen.\\n– Motorbetriebene Werkzeuge wie Kettensägen.\\n- Aktive Fallen wie Klingenfallen oder Schrotflintengeschütztürme.\\n– Das Schlagen oder Zerstören von Metall- oder Glasblöcken oder das Zuschlagen von Metalltüren.\\n\\nWenn ein Gebiet „heiß“ ist, wirst du irgendwann herumschnüffelnden Zombie-Spähern begegnen. Wenn sie dich entdecken, rufen sie Verstärkung.\\nBegrenze oder stoppe diese Aktivitäten und dieser Bereich wird automatisch „abkühlen“.\\nLichter oder Geräusche werden gezählt, unabhängig davon, ob sie für einen Spieler, der im Freien steht, wahrnehmbar sind.\\nElektrische Generatoren oder Lichter werden nicht registriert.\",\"Muchas acciones y eventos van a generar un aumento local de la actividad en el mapa.\\n\\nQué afecta al mapa de actividad:\\n- Los destellos de las antorchas y, en un grado menor, los de las velas.\\n- Cualquier estación de trabajo que queme combustible.\\n- Tiros y explosiones.\\n-Herramientas con motores como las motosierras.\\n- Trampas activas como trampas con cuchillas o con torretas de escopeta.\\n- Golpear o destruir bloques de metal o cristal, o cerrar de un golpe las puertas de metal.\\n\\nSi un área está \"\"caliente\"\", eventualmente tendrás exploradores zombis husmeando. Si te ven, pedirán refuerzos.\\nLimita o detén estas actividades y el área de \"\"enfriará\"\" sola.\\nLas luces y los ruidos se tienen en cuenta, independientemente de si son notables para un jugador que está parado a la intemperie.\\nLas luces y los generadores eléctricos no se registran.\",\"Beaucoup d'actions et d'événements provoqueront une augmentation locale de l'activité sur la carte d'activité.\\n\\nLes éléments affectant la carte d'activité sont les suivants :\\n- Le scintillement des torches, et dans une moindre mesure, les bougies.\\n- Tout poste de travail qui consomme du carburant.\\n- Les coups de feu et les explosions.\\n- Les outils motorisés comme les tronçonneuses.\\n- Les pièges actifs comme les pièges à lame ou les tourelles à fusil à pompe.\\n- Frapper ou détruire des blocs de métal ou de verre, ou claquer des portes en métal.\\n\\nSi une zone est 'active', des éclaireurs zombies finiront par venir voir ce qu'il se passe. S'ils vous repèrent, ils appelleront des renforts.\\nLimitez ou arrêtez ces activités pour que cette zone 'se calme' d'elle-même.\\nLes lumières ou les sons sont comptabilisés, qu'ils puissent ou non être repérés par un joueur en plein air.\\nLes générateurs ou sources de lumière électriques ne comptent pas.\",\"Molti eventi e azioni possono causare un aumento locale sulla Mappa Attività.\\n\\nCosa influenza la Mappa Attività:\\n- Torce tremolanti e, in minor misura, le candele.\\n- Qualsiasi postazione di lavoro che faccia uso di combustibile.\\n- Spari ed esplosioni.\\n- Attrezzi a motore come le motoseghe.\\n- Trappole attive come trappole con lame o torrette per fucile.\\n- Colpire o distruggere blocchi di metallo o vetro, oppure sbattere porte di metallo.\\n\\nSe un’area è \"\"calda\"\", ci saranno dei ricognitori zombie che curioseranno in giro. Se ti individuano, chiameranno i rinforzi.\\nLimitando o fermando tali attività, l’area si \"\"raffredderà\"\" da sola.\\nLe luci o i suoni vengono conteggiati a prescindere che siano percepiti o meno da un giocatore in campo aperto.\\nI generatori elettrici o le luci non vengono registrati.\",多くのアクションやイベントは、行動マップ上でローカル増加を引き起こします。\\n\\n行動マップへの影響:\\n- 点滅松明及び低級キャンドル。\\n- 燃料を燃やすワークステーション。\\n- 発砲と爆発。\\n- チェーンソウのようなモーターツール。\\n- 刃物トラップやショットガン砲台のようなアクティブトラップ。\\n- 金属、ガラスブロックへのヒットや破壊または金属扉への打撃\\n\\nエリアが「熱い 」なら、やがてゾンビの偵察たちがやってきます。彼らがあなたを発見すると彼等は仲間を呼び増援します。\\nこれらの活動を制限し止めることでこのエリアは自動的に「クールダウン」します。\\nライトやサウンドは、外にいるプレーヤーが認識できるかどうかに関係なくカウントされます。\\n発電機や電灯はカウントされません。,다양한 행동과 이벤트로 인해 활동 지도에서 해당 지역에 움직임이 증가했다고 표시될 수 있습니다.\\n\\n활동 지도에 영향을 미치는 요소:\\n- 깜빡이는 횃불 및 그보다 광량이 적은 촛불\\n- 연료를 태우는 모든 작업대\\n- 총성 및 폭발\\n- 전기톱과 같은 모터 도구\\n- 칼날 트랩 또는 샷건 터렛과 같은 활성화된 트랩\\n- 금속 또는 유리 블록을 치거나 파괴하는 행위 또는 금속 문을 때리는 행위\\n\\n해당 구역에 활동이 많아지면 좀비 정찰꾼이 나타날 수 있습니다. 그리고 이들은 뭔가를 발견하면 지원을 부를 수 있습니다.\\n위와 같은 활동을 제한하거나 막으면 해당 지역의 활동 수치도 줄어듭니다.\\n빛 또는 소리가 발생하면 플레이어가 숨어있는지 여부와 관계없이 인식될 수 있습니다.\\n전기 발전기 또는 빛은 여기에 해당하지 않습니다.,\"Spora część akcji i wydarzeń generuje wzrost lokalnej aktywności na mapie aktywności.\\n\\nCzynniki wpływające na mapę aktywności:\\n- Migotanie pochodni i świeczek (w mniejszym stopniu).\\n- Stacje robocze wykorzystujące paliwo.\\n- Wystrzały z broni palnej i wybuchy.\\n- Narzędzia spalinowe, takie jak piły łańcuchowe.\\n- Aktywne pułapki, takie jak pułapki z ostrzami czy wieżyczki ze strzelbami.\\n- Uderzanie lub niszczenie metalowych lub szklanych bloków, a także zatrzaskiwanie metalowych drzwi.\\n\\nJeśli obszar jest „gorący”, prędzej czy później zapuszczą się do niego zombie. Jeśli cię zauważą, wezwą posiłki.\\nPowstrzymuj się przed podejmowaniem powyższych czynności lub wykonuj je rzadziej, aby obszar „uspokoił się” automatycznie.\\nŚwiatła i dźwięki są liczone bez względu na to, czy są zauważalne dla gracza stojącego na otwartej przestrzeni\\nAgregaty prądotwórcze lub światła nie są rejestrowane.\",\"Muitas ações e eventos causarão um aumento local no mapa de atividade.\\n\\nO que afeta o mapa de atividade:\\n- Tochas e velas tremeluzentes.\\n- Qualquer estação que use combustível.\\n- Fogo de tiros e explosões.\\n- Ferramentas com motor, tipo motosserras.\\n- Armadilhas ativas, como armadilhas de lâmina ou torretas de espingarda.\\n- Acerto ou destruição de blocos de metal ou vidro ou o fechamento de portas de metal.\\n\\nSe a área for “relevante”, haverá zumbis batedores rodeando-a. Se eles virem você, chamarão reforços.\\nSe você limitar ou impedir essas atividades, a área perderá sua relevância.\\nLuzes e sons são relevantes independentemente de serem perceptíveis ao jogador parado na entrada.\\nGeradores ou luzes elétricas não registram.\",\"Многие действия и события вызовут локальные повышения активности на карте активности.\\n\\nНиже перечислено всё, что отображается на карте активности.\\n- Мерцающий огонь факелов и, в меньшей степени, свечей.\\n- Любая рабочая станция на топливе.\\n- Оружейный огонь и взрывы.\\n- Бензоинструменты, например бензопилы.\\n- Активные ловушки, например ловушки с клинками или турели-дробовики.\\n- Удар или уничтожение стеклянных или металлических блоков, а также хлопки металлическими дверями.\\n\\nЕсли область стала «горячей», то рано или поздно вы натолкнетесь на блуждающих поблизости зомби-разведчиков. Обнаружив вас, они позовут на помощь сородичей.\\nОграничьте или прекратите действие, и со временем область «остынет».\\nСвет и звук влияют на карту активности вне зависимости от того, заметны ли они игроку на открытом пространстве.\\nЭлектрический свет и генераторы не влияют на карту.\",\"Birçok eylem ve olay, Etkinlik Haritasında bölgesel bir artışı beraberinde getirir.\\n\\nEtkinlik Haritasını Etkileyen Unsurlar:\\n- Titreyen meşaleler ve daha düşük bir etkiye sahip olan mumlar.\\n- Yakıtla çalışan tüm çalışma istasyonları.\\n- Silah ve patlama sesleri.\\n- Testere gibi motorlu aletler.\\n- Bıçak tuzakları veya pompalı taretler gibi etkin tuzaklar.\\n- Metal veya cam bloklara vurmak ya da bunları yok etmek, metal kapıları kapatınca çıkan sesler.\\n\\nBir bölge \"\"sıcak\"\" olduğunda zombiler er ya da geç burada gezinmeye başlar. Seni görürlerse yardım çağırırlar.\\nBu etkinlikleri azalttığında veya durdurduğunda bölge kendi kendine \"\"soğur\"\".\\nIşık veya ses sayımında, açıkta duran bir oyuncunun fark edip edemeyeceği dikkate alınmaz.\\nElektrik jeneratörleri veya ışıklar hesaba katılmaz.\",许多动作和事件将导致活动地图的局部增加。\\n\\n活动地图的影响因素：\\n- 闪烁的火把以及较小程度的蜡烛。\\n- 燃烧燃料的任何工作站。\\n- 枪声和爆炸声。\\n- 电锯之类的电动工具。\\n- 刀剑陷阱或霰弹枪炮塔等主动陷阱。\\n- 撞击或破坏金属或玻璃物块，或用力关上金属门。\\n\\n如果某个区域“很热”，就会有丧尸在四周窥探侦查。\\n限制或停止这些活动，该区域会自动“降温”。\\n电灯和声音将被计数，而站在户外的玩家不会注意到。\\n发电机和电灯不会计入。,在活動地圖上，許多行動與事件會造成局部的增加。\\n\\n對活動地圖造成影響的要素：\\n- 閃爍火把和較低程度的蠟燭。\\n- 燃燒燃料的任意工作站。\\n- 開槍火光與爆炸。\\n- 鏈鋸等電機工具。\\n- 刀片陷阱或散彈獵槍炮臺等活動陷阱。\\n- 擊中或破壞金屬或玻璃塊，或大力關上金屬門\\n\\n若某地區為“熱門”，則您終會遇上遊蕩的殭屍哨兵。如果它們看到你，就會立即呼叫增援。\\n限制或停止上述的活動，這個區域會自動“冷卻”。\\n對於露天站立的玩家，無論是否被注意，聲光均會被計算。\\n發電機或燈光不會被計算。,\"Muchas acciones y eventos van a generar un aumento local de la actividad en el mapa.\\n\\nQué afecta al mapa de actividad:\\n- Los destellos de las antorchas y, en un grado menor, los de las velas.\\n- Cualquier estación de trabajo que queme combustible.\\n- Tiros y explosiones.\\n-Herramientas con motores como las motosierras.\\n- Trampas activas como trampas con cuchillas o con torretas de escopeta.\\n- Golpear o destruir bloques de metal o cristal, o cerrar de un golpe las puertas de metal.\\n\\nSi un área está \"\"caliente\"\", eventualmente tendrás exploradores zombis husmeando. Si te ven, pedirán refuerzos.\\nLimita o detén estas actividades y el área de \"\"enfriará\"\" sola.\\nLas luces y los ruidos se tienen en cuenta, independientemente de si son notables para un jugador que está parado a la intemperie.\\nLas luces y los generadores eléctricos no se registran.\"\n 4130  heatMapTip_title,Journal,,,,Activity Map,,Aktivitätskarte,Mapa de actividad,Carte d'activité,Mappa Attività,行動マップ,활동 지도,Mapa aktywności,Mapa de atividade,Карта активности,Etkinlik Haritası,活动地图,活動地圖,Mapa de actividad\n 4131  hotWeatherTip,Journal,,,,\"If you are overheating you can combat this by wearing clothing, drinking certain beverages, and getting indoors.\\n\\nItems with a higher heat resist rating are better and offer more protection against hot weather. You can see an item's heat resist rating by inspecting it.\",,\"Wenn dir zu heiß wird, kannst du Kleidung anziehen, bestimmte Getränke trinken oder in Gebäude gehen.\\n\\nGegenstände mit mehr Hitzewiderstand bieten dir mehr Schutz vor heißem Wetter. Den Hitzewiderstandswert eines Gegenstandes erfährst du, wenn du ihn dir genauer ansiehst.\",\"Si comienzas a tener demasiado calor, ponte ropa, toma bebidas concretas y quédate dentro de recintos.\\n\\nLos objetos con una tasa de mayor resistencia al calor son mejores y ofrecen una mayor protección contra el clima caluroso. Inspecciona los objetos para ver la tasa de resistencia al calor de los mismos.\",\"En cas d'hyperthermie, vous pouvez porter des vêtements, boire certaines boissons et vous réfugier dans un bâtiment.\\n\\nLes objets ayant un taux de résistance à la chaleur plus élevé vous protégeront mieux quand il fait chaud. Vous pouvez consulter le taux de résistance à la chaleur d'un objet en l'inspectant.\",\"Per evitare di surriscaldarti puoi combattere il caldo con i vestiti, bevendo determinate bevande e stando all'aperto.\\n\\nGli oggetti con una maggiore resistenza al caldo sono migliori e offrono una maggiore protezione dal caldo. Ispeziona un oggetto per visualizzarne il valore di resistenza al caldo.\",体が熱くなってきたら、衣服の着用や特定の飲み物の飲用、あるいは屋内への移動によって暑さに対抗することができます。\\n\\nより暑さ耐性レーティングの高いアイテムの方が効果が高く、暑い気候に対する保護が優れています。アイテムを調べることでそのアイテムの暑さ耐性レーティングを見ることができます。,\"너무 더워지면 옷을 입거나, 특정 음료를 마시거나, 실내로 들어가 더위를 막을 수 있습니다.\\n\\n열 저항 등급이 높을수록 효율이 좋으며 더운 날씨를 더 잘 견딜 수 있게 해줍니다. 아이템을 검사해 열 저항 등급을 확인할 수 있습니다.\",\"Aby ochłodzić organizm, włóż odpowiednie ubrania, wypij coś chłodzącego lub schowaj się w budynku.\\n\\nPrzedmioty o wyższej odporności na ciepło dają lepsze rezultaty i lepiej chronią przed gorącą pogodą. Aby sprawdzić odporność na ciepło przedmiotu, przeprowadź jego inspekcję.\",\"Proteja-se do calor usando trajes, tomando certas bebidas e indo para locais fechados.\\n\\nItens com mais resistência ao calor são melhores e oferecem mais proteção contra o clima quente. Inspecione um item para ver a classe de resistência ao calor dele.\",\"В случае перегрева можно надеть одежду, выпить определенные напитки и спрятаться в помещении.\\n\\nПредметы с высокой жаростойкостью обеспечивают более высокий уровень защиты от жары. Уровень жаростойкости можно узнать, осмотрев предмет.\",\"Aşırı sıcaklığa maruz kaldıysan kıyafet giyme, belirli içecekleri tüketme ve iç mekana girme yöntemleriyle sıcakla baş edebilirsin.\\n\\nDaha yüksek sıcak direnci derecesine sahip öğeler sıcak havaya karşı koruma konusunda daha iyidir. Bir öğeyi inceleyerek öğenin sıcak direnci derecesini görebilirsin.\",如果你身体过热，可以通过穿衣服，喝下特定饮料或进入室内来缓解。\\n\\n物品的耐热等级越高，耐热效果越好，可以在炎热天气下更好地保护你。你可以通过检视一项物品来查看其耐热等级。,如果身體過熱，你可以透過穿衣服、喝特定的飲料和進入室內來解決。\\n\\n物品耐熱性越高越好，可以更好地對抗炎熱天氣。你可以透過查看瞭解物品的耐熱等級。,\"Si comienzas a tener demasiado calor, ponte ropa, toma bebidas concretas y quédate dentro de recintos.\\n\\nLos objetos con una tasa de mayor resistencia al calor son mejores y ofrecen una mayor protección contra el clima caluroso. Inspecciona los objetos para ver la tasa de resistencia al calor de los mismos.\"\n ....\n 5271  perkFiremansAlmanacHeatLongDesc,progression,perk book,,,All the conditioning in extreme temperatures has given you 10% greater hyperthermal resistance.,,Du hast dich an extreme Temperaturen gewöhnt und bist um 10 % widerstandsfähiger gegen Überhitzung geworden.,Todo el acondicionamiento en temperaturas extremas te ha dado un 10 % más de resistencia hipertermal.,Tout ce temps passé dans des températures extrêmes vous a octroyé 10 % de résistance supplémentaire à ces dernières.,Tutto il condizionamento a temperature estreme ti ha fornito una resistenza ipertermica del 10%.,外部温度に対するさまざまな訓練により、高温に対する抵抗力が+10%上がります。,모든 혹독한 기후 조건에서 10% 더 큰 이상고온 저항을 받습니다.,Wielokrotne akcje w wysokiej temperaturze przyzwyczaiły cię do ciepła. Twoja odporność przed hipertermią jest większa o 10%.,Todo o condicionamento em temperaturas extremas lhe deu uma resistência hipertérmica 10% maior.,Закаливание при экстремальных температурах повысило устойчивость к высоким температурам на 10%.,Aşırı sıcaklarda çok zaman geçirdiğin için %10 daha fazla hipotermi direncine sahip oldun.,在极端温度中的训练让你额外获得了10%的高温防护。,在極端高溫條件下所有設置已經給你增加 10% 的過高熱防護。,Todo el acondicionamiento en temperaturas extremas te ha dado un 10 % más de resistencia hipertermal.\n 5272  perkFiremansAlmanacMolotovDesc,progression,perk book,,,Fire based weapons burn 10% longer.,,Brandwaffen brennen 10 % länger.,Las armas de fuego arden un 10 % más.,Les armes incendiaires brûlent 10 % plus longtemps.,Le armi con fuoco bruciano il 10% più a lungo.,火力関係の武器は10%長く燃え盛る。,화기 무기가 10% 더 오래 불탑니다.,Broń ogniowa płonie 10% dłużej.,Armas incendiárias queimam por 10% mais tempo.,Эффект зажигательного оружия действует на 10% дольше.,Ateş tabanlı silahlar %10 daha uzun süre yakar.,火攻武器燃烧时长增加10%。,火系武器燃燒時間延長 10%。,Las armas de fuego arden un 10 % más.\n 5273: perkFiremansAlmanacMolotovLongDesc,progression,perk book,,,Fight fire with fire: Fire based weapon effects like on torches or molotovs burn 10% longer.,,Bekämpfe Feuer mit Feuer: Die Feuereffekte von Brandwaffen wie Fackeln und Molotowcocktails brennen 10 % länger.,Combatir el fuego con fuego: Los efectos de las armas de fuego como las antorchas o los molotovs queman un 10 % más.,\"Combattre le mal par le mal : Les effets des armes incendiaires, comme les torches et les cocktails Molotov, brûlent 10 % plus longtemps.\",\"Combattere il fuoco con il fuoco: Gli effetti delle armi con fuoco, come quelli su torce o molotov, bruciano il 10% più a lungo.\",火には火を：たいまつや火炎瓶といった火力関係の武器は10%長く燃え盛ります。,이열치열: 토치나 화염병같은 화기 무기가 10% 더 오래 불탑니다.,\"Ogień zwalczaj ogniem: Broń ogniowa, taka jak pochodnie i koktajle Mołotowa pali się 10% dłużej.\",\"Combater Fogo com Fogo: Efeitos de armas incendiárias, como tochas ou molotovs, queimam por 10% mais tempo.\",\"Огонь против огня. Действие зажигательного оружия, такого как факелы или коктейли Молотова, длится на 10% дольше.\",Ateşe ateşle karşılık ver: Meşale veya molotof gibi ateş tabanlı silahların etkisi %10 daha uzun sürer.,以火攻火：火炬或燃烧瓶这类的火攻武器时长增加10%。,以火救火:火炬或燃燒彈等火系武器燃燒時間延長 10%。,Combatir el fuego con fuego: Los efectos de las armas de fuego como las antorchas o los molotovs queman un 10 % más.\n 5274  perkFiremansAlmanacPreventionDesc,progression,perk book,,,Reduced chance to be lit on fire by 25%.,,\"Verringert die Chance, in Brand gesetzt zu werden, um 25 %.\",Reducción de un 25 % de la probabilidad de incendio.,Réduisez vos chances de prendre de feu de 25 %.,Possibilità di prendere fuoco ridotta del 25%.,自らに火がつく危険性が25%下がる。,불이 붙을 확률이 25% 감소합니다.,Ryzyko zajęcia się ogniem niższe o 25%.,Reduz em 25% a chance de você pegar fogo.,Вероятность загореться снижена на 25%.,Alev alma olasılığını %25 düşürür.,被火引燃的几率降低25%。,減少 25% 被點燃的機率。,Reducción de un 25 % de la probabilidad de incendio.\n 5275  perkFiremansAlmanacPreventionLongDesc,progression,perk book,,,\"Fire Prevention: Stop, drop and Roll like a pro. Reduced chance to be lit on fire by 25%.\",,\"Brandschutz: Der Brandschutzbeauftragte deiner Arbeit wäre stolz auf dich. Verringert die Chance, in Brand gesetzt zu werden, um 25 %.\",\"Prevención de incendios: Para, cae y rueda como un profesional. Reducción de un 25 % de la probabilidad de incendio.\",\"Prévention contre le feu : Arrêtez-vous, jetez-vous au sol et roulez comme un pro. Vous réduisez vos chances de prendre de feu de 25 %.\",\"Prevenzione del fuoco: Fermo, a terra, e rotola come un professionista. Possibilità di prendere fuoco ridotta del 25%.\",防火：プロに倣って停まれ、倒れろ、転がれ。自らに火がつく危険性が25%下がります。,\"화재예방: 프로처럼 멈추고, 누워서 구르세요. 불이 붙을 확률이 25% 감소합니다.\",Ochrona przeciwpożarowa: Tarzaj się po glebie i rób fikołki. Ryzyko zajęcia się ogniem niższe o 25%.,\"Prevenção de Fogo: pare, caia e role como um profissional. Reduz em 25% a chance de você pegar fogo.\",\"Предупреждение возгорания. Замри, падай на пол и перекатывайся, как профессионал. Вероятность загореться снижена на 25%.\",\"Yangın Önleme: Usta gibi dur, yat ve yuvarlan. Alev alma olasılığını %25 düşürür.\",火灾防护：身上着火时，你的应对措施很专业。被火引燃的几率降低25%。,防火:像專業人員那樣停止、墜落和滾動。減少 25% 被點燃的機率。,\"Prevención de incendios: Para, cae y rueda como un profesional. Reducción de un 25 % de la probabilidad de incendio.\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\misc.xml:\n   16  \t\t\t<hold_type id=\"10\" newmodel=\"false\" ray_cast=\"0\" holster=\"0\" unholster=\"0.2\" two_handed=\"true\" />         <!-- 10 rocket launcher -->\n   17  \t\t\t<hold_type id=\"11\" newmodel=\"false\" ray_cast=\"0\" holster=\"0\" unholster=\"0.2\" two_handed=\"true\" />         <!-- 11 sniper rifle -->\n   18: \t\t\t<hold_type id=\"12\" newmodel=\"false\" ray_cast=\"0.46\" holster=\"0\" unholster=\"0.2\" two_handed=\"true\" />      <!-- 12  torch  -->\n   19  \t\t\t<hold_type id=\"13\" newmodel=\"false\" ray_cast=\"0.5\" holster=\"0\" unholster=\"0.2\" />                         <!-- 13 flashlight  -->\n   20  \t\t\t<hold_type id=\"14\" newmodel=\"false\" ray_cast=\"2.0\" holster=\"0\" unholster=\"0.2\" />                         <!-- 14 canned food and yucca fruit-->\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\recipes.xml:\n 1937  </recipe>\n 1938  \n 1939: <recipe name=\"meleeToolTorch\" count=\"1\">\n 1940  \t<ingredient name=\"resourceAnimalFat\" count=\"1\"/>\n 1941  \t<ingredient name=\"resourceCloth\" count=\"1\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\sounds.xml:\n  636  \t<LocalCrouchVolumeScale value=\"0.3\"/> <CrouchNoiseScale value=\"0.5\"/> <NoiseScale value=\"1\"/> <MaxVoices value=\"5\"/> <MaxRepeatRate value=\"0.01\"/> </SoundDataNode>\n  637  \n  638: <SoundDataNode name=\"torch_holster\"> <AudioSource name=\"Sounds/AudioSource_Interact\"/>\n  639: \t<AudioClip ClipName=\"Sounds/Weapons/Melee/Torch/torch_holster\"/>\n  640  \t<LocalCrouchVolumeScale value=\"0.5\"/> <CrouchNoiseScale value=\"1\"/> <NoiseScale value=\"1\"/> <MaxVoices value=\"10\"/> <MaxRepeatRate value=\"0.01\"/> </SoundDataNode>\n  641  \n  642: <SoundDataNode name=\"torch_lp\"> <AudioSource name=\"Sounds/AudioSource_Amb_XSmall\"/>\n  643: \t<AudioClip ClipName=\"Sounds/Weapons/Melee/Torch/torch_lp\" Loop=\"true\"/>\n  644  \t<LocalCrouchVolumeScale value=\"0.5\"/> <CrouchNoiseScale value=\".25\"/> <NoiseScale value=\".25\"/> <MaxVoices value=\"10\"/> <MaxRepeatRate value=\"0.01\"/> </SoundDataNode>\n  645  \n  646: <SoundDataNode name=\"torch_swoosh\"> <AudioSource name=\"Sounds/AudioSource_Interact\"/>\n  647  \t<Noise ID=\"2\" noise=\"11\" time=\"2\" muffled_when_crouched=\"0.5\"/>\n  648: \t<AudioClip ClipName=\"Sounds/Weapons/Melee/Torch/torch_swoosh1\"/>\n  649: \t<AudioClip ClipName=\"Sounds/Weapons/Melee/Torch/torch_swoosh2\"/>\n  650: \t<AudioClip ClipName=\"Sounds/Weapons/Melee/Torch/torch_swoosh3\"/>\n  651    <LowestPitch name=\"0.9\"/>\n  652    <HighestPitch name=\"1.0\"/>\n  653  \t<LocalCrouchVolumeScale value=\"0.5\"/> <CrouchNoiseScale value=\"1\"/> <NoiseScale value=\"1\"/> <MaxVoices value=\"3\"/> <MaxRepeatRate value=\"0.01\"/> </SoundDataNode>\n  654  \n  655: <SoundDataNode name=\"torch_unholster\"> <AudioSource name=\"Sounds/AudioSource_Interact\"/>\n  656: \t<AudioClip ClipName=\"Sounds/Weapons/Melee/Torch/torch_unholster\"/>\n  657  \t<LocalCrouchVolumeScale value=\"0.5\"/> <CrouchNoiseScale value=\"1\"/> <NoiseScale value=\"1\"/> <MaxVoices value=\"10\"/> <MaxRepeatRate value=\"0.01\"/> </SoundDataNode>\n  658  \n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\Stealth.txt:\n   36  Item Light Properties (items.xml)\n   37  \n   38: What if you are holding a torch?  \n   39  \n   40  Items have a <property name=\"LightValue\" value=\"0.98\" />\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\ui_display.xml:\n   95  \t\t</item_display_info>\n   96  \n   97: \t\t<item_display_info display_type=\"meleeTorch\" display_group=\"groupMelee\">\n   98  \t\t\t<display_entry name=\"EntityDamage\" title_key=\"statEntityDamageMelee\"/>\n   99  \t\t\t<display_entry name=\"EntityDamage\" title_key=\"statPowerAttack\" tags=\"secondary\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\XML.txt:\n  171  fnt - furniture. Desks, chairs, potted plants\n  172  elt - electrical things like control panels that we don't have a clear purpose for, yet\n  173: lgt - all lights, including wall torches and candles\n  174  tree - trees, grass, shrubbery, cactus\n  175  plt - all other plants, shrubberiers, farming crops, or blocks that fulfil the purpose of a plant even if its just a pickup.\n  ...\n 1409   <!-- STK repairKit -->\n 1410   <!-- STK resource -->\n 1411:  <!-- STK torch -->\n 1412  \n 1413  \tReplace (using regex)\n ....\n 2724  \t\tp_supply_crate_impact.prefab\n 2725  \t\tp_tiresmoke.prefab\n 2726: \t\tp_torch_wall.prefab\n 2727  \t\tp_treefall.prefab\n 2728  \t\tp_treeGib_birch.prefab\n\n159 matches across 13 files\n\n\nSearching 1449 files for \"TorchHeatMap\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\blocks.xml:\n 22790  \t<property name=\"CustomIcon\" value=\"wallTorchLight\"/>\n 22791  \t<property name=\"Stacknumber\" value=\"50\"/>\n 22792: \t<property name=\"Class\" value=\"TorchHeatMap\"/> <!-- HeatMapFrequency is not used. 1 min realtime updates that scale to match world time rate -->\n 22793  \t<property name=\"HeatMapStrength\" value=\"1\"/>\n 22794  \t<property name=\"HeatMapTime\" value=\"4000\"/> <!-- 1000 per world hour. str1, t6000, f5 = 2.5; str1, t9000, f5 = 4; str4.05, t12000, f15 = 4.05-8.1; -->\n .....\n 22803  \t<property name=\"CustomIcon\" value=\"candleWallLight\"/>\n 22804  \t<property name=\"Stacknumber\" value=\"50\"/>\n 22805: \t<property name=\"Class\" value=\"TorchHeatMap\"/>\n 22806  \t<property name=\"HeatMapStrength\" value=\".5\"/>\n 22807  \t<property name=\"HeatMapTime\" value=\"4000\"/>\n .....\n 22829  \t<property name=\"ImposterDontBlock\" value=\"true\"/>\n 22830  \t<property name=\"Stacknumber\" value=\"50\"/>\n 22831: \t<property name=\"Class\" value=\"TorchHeatMap\"/>\n 22832  \t<property name=\"HeatMapStrength\" value=\"1\"/>\n 22833  \t<property name=\"HeatMapTime\" value=\"4000\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\blocksA16PrefabConversion.xml:\n 10277  \t<property name=\"Extends\" value=\"wallTorchLight\"/>\n 10278  \t<property name=\"Stacknumber\" value=\"50\"/>\n 10279: \t<property name=\"Class\" value=\"TorchHeatMap\"/>\n 10280  \t<property name=\"HeatMapStrength\" value=\"4.05\"/>\n 10281  \t<property name=\"HeatMapTime\" value=\"1200\"/> <!-- str1, t600, f5 = 2.5; str1, t900, f5 = 4; str4.05, t1200, f15 = 4.05-8.1; -->\n .....\n 10295  \t<property name=\"Extends\" value=\"candleWallLight\"/>\n 10296  \t<property name=\"Stacknumber\" value=\"50\"/>\n 10297: \t<property name=\"Class\" value=\"TorchHeatMap\"/>\n 10298  \t<property name=\"HeatMapStrength\" value=\"1\"/>\n 10299  \t<property name=\"HeatMapTime\" value=\"1200\"/>\n .....\n 12441  \t<property name=\"IsTerrainDecoration\" value=\"true\"/>\n 12442  \t<property name=\"Stacknumber\" value=\"50\"/>\n 12443: \t<property name=\"Class\" value=\"TorchHeatMap\"/>\n 12444  \t<property name=\"HeatMapStrength\" value=\"4.05\"/>\n 12445  \t<property name=\"HeatMapTime\" value=\"1200\"/>\n\n6 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 85058,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocksA16PrefabConversion.xml",
+			"settings":
+			{
+				"buffer_size": 588485,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/X/Unity/@Ressources/FunPimps/blocktestureatlases/MonoBehaviour/MeshDescriptionCollection.txt",
+			"settings":
+			{
+				"buffer_size": 19693,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
 			"settings":
 			{
 				"buffer_size": 1310328,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Release Notes.md",
+			"settings":
+			{
+				"buffer_size": 341,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config/blocks.xml",
+			"settings":
+			{
+				"buffer_size": 127,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config/traders.xml",
+			"settings":
+			{
+				"buffer_size": 1923,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config/items.xml",
+			"settings":
+			{
+				"buffer_size": 1826,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config/loot.xml",
+			"settings":
+			{
+				"buffer_size": 1961,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config/recipes.xml",
+			"settings":
+			{
+				"buffer_size": 1015,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -369,13 +217,77 @@
 		"/C/Steam/steamapps/common/7 Days To Die/Data",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config"
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/EricsGoods",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/EricsGoods/Config",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreBlocks",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreBlocks/Config",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Resources",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/UIAtlases",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/UIAtlases/ItemIconAtlas",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/TopMinderPrefabs",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/TopMinderPrefabs/Config"
 	],
 	"file_history":
 	[
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/ModInfo.xml",
+		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa20284.14097/ModInfo.xml",
+		"/X/Unity/@Ressources/FunPimps/Alpha 16.4/TextAsset/ta_opaquexml.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config/blocks.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/Localization.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config/items.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config/recipes.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config/Localization.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Bundles/blocktextureatlases.manifest",
+		"/X/Unity/@Ressources/FunPims/blocktestureatlases/TextAsset/ta_opaquexml.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/materials.xml",
+		"/X/Unity/@Ressources/FunPims/blocktestureatlases/TextAsset/ta_transparentxml.txt",
+		"/X/Unity/@Ressources/FunPims/blocktestureatlases/TextAsset/ta_opaque2xml.txt",
+		"/X/Unity/@Ressources/FunPims/blocktestureatlases/TextAsset/ta_grassxml.txt",
+		"/X/Unity/@Ressources/FunPims/blocktestureatlases/TextAsset/ta_decalsxml.txt",
+		"/X/Unity/@Ressources/FunPims/blocktestureatlases/TextAsset/ta_cutoutxml.txt",
+		"/X/Unity/@Ressources/FunPims/blocktestureatlases/TextAsset/ta_cutoutmoveablexml.txt",
+		"/X/Unity/@Ressources/FunPims/blocktestureatlases/TextAsset/models.txt",
+		"/X/Unity/@Ressources/FunPims/blocktestureatlases/MonoBehaviour/MeshDescriptionCollection.txt",
+		"/X/Unity/Test Import/Assets/blocktestureatlases/MonoScript/MeshDescriptionCollection.dat",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Release Notes.md",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/blocks.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/entityclasses.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/Localization.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/items.xml",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/North Jaxuhe Mountains/La gang est de retour/serverconfig.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/vehicles.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/recipes.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
+		"/D/7dtd/7dtdMods/Modlet Installation",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/EricsGoods/Config/rwgmixer.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/CastleSpartan/Config/rwgmixer.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/LogansBar/Config/rwgmixer.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/TopMinderPrefabs/Config/rwgmixer.xml",
+		"/C/7d2d/Saves/Darkness Falls/Darkness Falls/DFalls-Medium/Eric Test DF/ConfigsDump/npc.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
+		"/D/7dtd/7dtdMods/MoreContainers/ModInfo.xml",
+		"/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/Data/Worlds/DFalls-Medium/prefabs.xml",
+		"/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/7DaysToDie_Data/output_log.txt",
+		"/C/7d2d/Saves/Darkness Falls/Darkness Falls/DFalls-Medium/Eric Test DF/ConfigsDump/sounds.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/vehicles.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/items.xml",
+		"/C/Steam/steamapps/common/7 Days To Die - A17.4 + My mods/Mods/manux_CustomVehicles_A17_modlet/Config/vehicles.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/entityclasses.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/archetypes.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/items.xml",
+		"/D/7dtd/7dtdMods/PG13/ModInfo.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/Config/blocks.xml",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/North Jiyasu Mountains/prefabs.xml",
+		"/X/7 days mods/War3zuk-Alpha-18-Stable-AIO-master/Config/entityclasses.xml",
+		"/C/Program Files/Git/mingw64/etc/gitconfig",
+		"/C/ProgramData/Git/config",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/North Jiyasu Mountains/GenerationInfo.txt",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/North Jiyasu Mountains/map_info.xml",
 		"/D/7dtd/7dtdMods/.github/workflows/PaintJob.yml",
 		"/D/7dtd/7dtdMods/.git/config",
 		"/F/setup.xml",
@@ -413,12 +325,7 @@
 		"/X/Unity/SpartanCube/ProjectSettings/ProjectVersion.txt",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/XML.txt",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/recipes.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/items.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/Localization.txt",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/recipes.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/items.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/blocks.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
 		"/X/SF/_Admin/SFFVersion.txt",
 		"/D/@sffebooks/@SFF Collection/_Admin/SFFVersion.txt",
 		"/X/Unity Editors/NitroGen_WorldGenerator/Readme.txt",
@@ -449,65 +356,15 @@
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Bundles/Entities/Entities.manifest",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Bundles/Entities/lootcontainers.manifest",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Bundles/Bundles.manifest",
-		"/C/Steam/steamapps/common/7 Days To Die/Data/Bundles/blocktextureatlases.manifest",
 		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/LootContainer-globalgamemanagers.assets-988-MonoScript.txt",
 		"/C/Steam/steamapps/common/7 Days To Die/MonoBleedingEdge/etc/mono/mconfig/config.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/unnamed asset-globalgamemanagers.assets-988.dat",
 		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/unnamed asset-globalgamemanagers.assets-288.dat",
-		"/X/Unity/SpartanCube/FunwithFlags.sln",
-		"/X/Unity/SpartanCube/Assembly-CSharp.csproj",
-		"/X/Unity/SpartanCube/Assets/SpartanCubePrefab.prefab",
-		"/X/Unity/SpartanCube/Assets/MultiPlatformExportAssetBundles.cs",
-		"/X/Unity/SpartanCube/Assets/Materials.meta",
-		"/X/Unity/SpartanCube/Assets/Materials/GrandSpartanSpare.mat.meta",
-		"/X/Unity/SpartanCube/Assets/Materials/GrandSpartanSpare.mat",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/UABE/GrandSpartanSpare-CAB-7595cecdc55f3294cb425f67d9b51586-3-Texture2D.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/UABE/GrandSpartanSpare-CAB-7595cecdc55f3294cb425f67d9b51586-2-Material.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/TextureAtlas-globalgamemanagers.assets-288-MonoScript.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/painting.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/brick-resources.assets-1373-Texture2D.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/cube_frame-resources.assets-12856-GameObject.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/paint_splat-resources.assets-1436-Texture2D.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/01 _ Default-resources.assets-182-Material.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/p_paint_block-resources.assets-24367-GameObject.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/UABE Dump/p_paint_block-resources.assets-723-Material.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/app.info",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-04-15__23-16-46.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-04-15__22-53-13.txt",
-		"/D/7dtd/7dtdMods/SpartanBlocks/ModInfo.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreBlocks/Release Notes.md",
-		"/D/7dtd/7dtdMods/SpartanBlocks/Config/blocks.xml",
-		"/D/7dtd/7dtdMods/SpartanBlocks/Release Notes.md",
-		"/X/Git Repo/XythQ/A18Mods/FunwithFlags/Config/items.xml",
-		"/X/Git Repo/XythQ/A18Mods/FunwithFlags/Config/blocks.xml",
-		"/D/7dtd/7dtdMods/.github/workflows/SpartanBlocks_release.yml",
-		"/C/Steam/userdata/115230102/760/remote/251570/screenshots/20200413223749_1.jpg",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/Telrics Health Bars 2.0/Config/buffs.xml",
-		"/X/Git Repo/gniht/7d2dMods/gnihtsMoreWoodFrameShapes/Config/blocks.xml",
-		"/X/Git Repo/XythQ/A18Mods/BillBoards/ModInfo.xml",
-		"/D/7dtd/test.md",
-		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/XUi/xui.xml",
-		"/C/bin/MountNasDrive.CMD",
-		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/XUi/windows.xml",
-		"/D/7dtd/7dtdMods/README.md",
-		"/D/SDXModding/README.md",
-		"/X/Git Repo/DerPopo/64bit/Usage.txt",
-		"/D/7dtd Saves/Random Gen/163b7/players.xml",
-		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/Xihutu Territory/map_info.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/EricsGoods/Release Notes.md",
-		"/D/7dtd/Castle Spartan/castle-spartan/README.md",
-		"/D/7dtd/Castle Spartan/castle-spartan/Mods/CastleSpartan/ModInfo.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/StorageSize/ModInfo.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/EricsGoods/ModInfo.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreBlocks/ModInfo.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/LogansBar/ModInfo.xml",
-		"/D/7dtd/7dtdMods/StorageSize/ModInfo.xml",
-		"/D/7dtd/7dtdMods/StorageSize/Release Notes.md",
-		"/D/7dtd/7dtdMods/MoreBlocks/Release Notes.md"
+		"/X/Unity/SpartanCube/FunwithFlags.sln"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -530,6 +387,27 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"candle",
+			"HeatMapTime",
+			"TorchHeatMap",
+			"shader",
+			"TorchHeatMap",
+			"Torch",
+			"candleWallLight",
+			"candle",
+			"stor",
+			"crate",
+			"recipe",
+			"turret",
+			"Pistols",
+			"gunPistolParts",
+			"fdoor",
+			"door",
+			"downgrade",
+			"Storage Box",
+			"variant",
+			"storage",
+			"../../Mods/TopMinderPrefabs/",
 			"PG13",
 			"alc",
 			"pjVehicle4x4TruckRedPlaceable",
@@ -636,28 +514,7 @@
 			" ",
 			"woodwedge\"",
 			",",
-			"irondoor",
-			"commercialdoor",
-			"commerdoor",
-			"commer",
-			"CraftingIngredientCount",
-			"glue",
-			"door",
-			"woodWindowTrimSide",
-			"gable",
-			"moreb",
-			"glassBusinessBlock",
-			"Mglass",
-			"\"window",
-			"PlaceAltBlockValue",
-			"windowStoreOneSided",
-			"window store",
-			"store window",
-			"store windows",
-			"store ",
-			"store window",
-			"windows",
-			"doorFrameWhite1"
+			"irondoor"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -665,6 +522,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"#@modfolder:",
 			"Courtesy",
 			"",
 			",\\n",
@@ -685,938 +543,11 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/blocks.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6619,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1134.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/entityclasses.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4136,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3412,
-								3412
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1041.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/Localization.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 297,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								295,
-								295
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/items.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3087,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2313,
-								2346
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 573.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/North Jaxuhe Mountains/La gang est de retour/serverconfig.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12553,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1242.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/vehicles.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 25080,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								18894,
-								18894
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9895,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										168,
-										189
-									],
-									[
-										503,
-										524
-									],
-									[
-										642,
-										663
-									],
-									[
-										1069,
-										1090
-									],
-									[
-										1380,
-										1401
-									],
-									[
-										1508,
-										1529
-									],
-									[
-										1770,
-										1791
-									],
-									[
-										2241,
-										2250
-									],
-									[
-										2648,
-										2657
-									],
-									[
-										2974,
-										2994
-									],
-									[
-										3221,
-										3241
-									],
-									[
-										3554,
-										3574
-									],
-									[
-										3692,
-										3712
-									],
-									[
-										4143,
-										4163
-									],
-									[
-										4396,
-										4416
-									],
-									[
-										4522,
-										4542
-									],
-									[
-										4782,
-										4802
-									],
-									[
-										5118,
-										5139
-									],
-									[
-										5453,
-										5474
-									],
-									[
-										5592,
-										5613
-									],
-									[
-										6019,
-										6040
-									],
-									[
-										6330,
-										6351
-									],
-									[
-										6458,
-										6479
-									],
-									[
-										6720,
-										6741
-									],
-									[
-										7066,
-										7096
-									],
-									[
-										7384,
-										7414
-									],
-									[
-										7811,
-										7841
-									],
-									[
-										8122,
-										8152
-									],
-									[
-										8250,
-										8280
-									],
-									[
-										8589,
-										8618
-									],
-									[
-										8905,
-										8934
-									],
-									[
-										9356,
-										9385
-									],
-									[
-										9609,
-										9638
-									],
-									[
-										9735,
-										9764
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								8413,
-								8413
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 6,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3024.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/recipes.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1761,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1590,
-								1590
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 324.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 469,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								394,
-								394
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/D/7dtd/7dtdMods/Modlet Installation",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2693,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								606,
-								606
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Modlet Installation",
-							"parser": "github",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"target": "browser",
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8927,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 544,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								304,
-								273
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/blocks.xml",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 62,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/Data/Worlds/DFalls-Medium/prefabs.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 435917,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								243555,
-								243561
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 45062.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 22,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/7DaysToDie_Data/output_log.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 33628,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								32708,
-								32761
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 10330.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 21,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "/C/7d2d/Saves/Darkness Falls/Darkness Falls/DFalls-Medium/Eric Test DF/ConfigsDump/npc.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7784,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								146,
-								152
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 20,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "/C/7d2d/Saves/Darkness Falls/Darkness Falls/DFalls-Medium/Eric Test DF/ConfigsDump/sounds.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 520508,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								449586,
-								449586
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 122416.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 19,
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/items.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1048860,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								412253,
-								412277
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 131013.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/vehicles.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 29697,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								742,
-								750
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 418.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 19,
-					"file": "/C/Steam/steamapps/common/7 Days To Die - A17.4 + My mods/Mods/manux_CustomVehicles_A17_modlet/Config/vehicles.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 59883,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1944.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 20,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/entityclasses.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 207967,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								181578,
-								181596
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 58578.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 23,
-					"type": "text"
-				},
-				{
-					"buffer": 21,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/archetypes.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 146577,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2196.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 27,
-					"type": "text"
-				},
-				{
-					"buffer": 22,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/items.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1333,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 23,
-					"file": "/D/7dtd/7dtdMods/PG13/ModInfo.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 412,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								359,
-								359
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 28,
-					"type": "text"
-				},
-				{
-					"buffer": 24,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/Config/blocks.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 288,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								288,
-								288
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 24,
-					"type": "text"
-				},
-				{
-					"buffer": 25,
-					"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/North Jiyasu Mountains/prefabs.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 127171,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								103655,
-								103661
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 512.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 18,
-					"type": "text"
-				},
-				{
-					"buffer": 26,
-					"file": "/X/7 days mods/War3zuk-Alpha-18-Stable-AIO-master/Config/entityclasses.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 309748,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8044,
-								8044
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1952.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
-					"type": "text"
-				},
-				{
-					"buffer": 27,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1640,11 +571,827 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 85058,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										155,
+										170
+									],
+									[
+										371,
+										386
+									],
+									[
+										576,
+										591
+									],
+									[
+										641,
+										656
+									],
+									[
+										904,
+										919
+									],
+									[
+										1132,
+										1147
+									],
+									[
+										1410,
+										1425
+									],
+									[
+										1641,
+										1656
+									],
+									[
+										1868,
+										1883
+									],
+									[
+										1933,
+										1948
+									],
+									[
+										2171,
+										2186
+									],
+									[
+										2550,
+										2565
+									],
+									[
+										3282,
+										3297
+									],
+									[
+										3611,
+										3626
+									],
+									[
+										4791,
+										4796
+									],
+									[
+										5071,
+										5076
+									],
+									[
+										5140,
+										5145
+									],
+									[
+										5195,
+										5200
+									],
+									[
+										5410,
+										5415
+									],
+									[
+										5559,
+										5564
+									],
+									[
+										5689,
+										5694
+									],
+									[
+										5872,
+										5877
+									],
+									[
+										6192,
+										6197
+									],
+									[
+										6440,
+										6445
+									],
+									[
+										6508,
+										6513
+									],
+									[
+										6690,
+										6695
+									],
+									[
+										7007,
+										7012
+									],
+									[
+										7201,
+										7206
+									],
+									[
+										7265,
+										7270
+									],
+									[
+										7336,
+										7341
+									],
+									[
+										7526,
+										7531
+									],
+									[
+										7630,
+										7635
+									],
+									[
+										8006,
+										8011
+									],
+									[
+										8216,
+										8221
+									],
+									[
+										8388,
+										8393
+									],
+									[
+										8594,
+										8599
+									],
+									[
+										8828,
+										8833
+									],
+									[
+										9111,
+										9116
+									],
+									[
+										9162,
+										9167
+									],
+									[
+										9495,
+										9500
+									],
+									[
+										9617,
+										9622
+									],
+									[
+										9750,
+										9755
+									],
+									[
+										9892,
+										9897
+									],
+									[
+										10231,
+										10236
+									],
+									[
+										10470,
+										10475
+									],
+									[
+										10528,
+										10533
+									],
+									[
+										10739,
+										10744
+									],
+									[
+										10926,
+										10931
+									],
+									[
+										10990,
+										10995
+									],
+									[
+										11094,
+										11099
+									],
+									[
+										11460,
+										11465
+									],
+									[
+										11741,
+										11746
+									],
+									[
+										12024,
+										12029
+									],
+									[
+										12391,
+										12396
+									],
+									[
+										12723,
+										12728
+									],
+									[
+										13016,
+										13021
+									],
+									[
+										13436,
+										13441
+									],
+									[
+										13557,
+										13562
+									],
+									[
+										13672,
+										13677
+									],
+									[
+										14105,
+										14110
+									],
+									[
+										14272,
+										14277
+									],
+									[
+										14428,
+										14433
+									],
+									[
+										14917,
+										14922
+									],
+									[
+										15055,
+										15060
+									],
+									[
+										15319,
+										15324
+									],
+									[
+										15696,
+										15701
+									],
+									[
+										15781,
+										15786
+									],
+									[
+										15839,
+										15844
+									],
+									[
+										15895,
+										15900
+									],
+									[
+										16011,
+										16016
+									],
+									[
+										16099,
+										16104
+									],
+									[
+										16298,
+										16303
+									],
+									[
+										16450,
+										16455
+									],
+									[
+										16835,
+										16840
+									],
+									[
+										17125,
+										17130
+									],
+									[
+										17338,
+										17343
+									],
+									[
+										17608,
+										17613
+									],
+									[
+										17861,
+										17866
+									],
+									[
+										18019,
+										18024
+									],
+									[
+										18155,
+										18160
+									],
+									[
+										18328,
+										18333
+									],
+									[
+										18475,
+										18480
+									],
+									[
+										18617,
+										18622
+									],
+									[
+										18725,
+										18730
+									],
+									[
+										18941,
+										18946
+									],
+									[
+										19118,
+										19123
+									],
+									[
+										19285,
+										19290
+									],
+									[
+										19477,
+										19482
+									],
+									[
+										19778,
+										19783
+									],
+									[
+										20028,
+										20033
+									],
+									[
+										20612,
+										20617
+									],
+									[
+										21519,
+										21524
+									],
+									[
+										22065,
+										22070
+									],
+									[
+										22145,
+										22150
+									],
+									[
+										22346,
+										22351
+									],
+									[
+										22466,
+										22471
+									],
+									[
+										23223,
+										23228
+									],
+									[
+										23292,
+										23297
+									],
+									[
+										23323,
+										23328
+									],
+									[
+										23371,
+										23376
+									],
+									[
+										23399,
+										23404
+									],
+									[
+										23572,
+										23577
+									],
+									[
+										24376,
+										24381
+									],
+									[
+										24407,
+										24412
+									],
+									[
+										24452,
+										24457
+									],
+									[
+										24474,
+										24479
+									],
+									[
+										24677,
+										24682
+									],
+									[
+										24710,
+										24715
+									],
+									[
+										24747,
+										24752
+									],
+									[
+										24767,
+										24772
+									],
+									[
+										24783,
+										24788
+									],
+									[
+										24900,
+										24905
+									],
+									[
+										27656,
+										27661
+									],
+									[
+										27949,
+										27954
+									],
+									[
+										28094,
+										28099
+									],
+									[
+										29131,
+										29136
+									],
+									[
+										29406,
+										29411
+									],
+									[
+										29604,
+										29609
+									],
+									[
+										29709,
+										29714
+									],
+									[
+										30403,
+										30408
+									],
+									[
+										30534,
+										30539
+									],
+									[
+										30834,
+										30839
+									],
+									[
+										30982,
+										30987
+									],
+									[
+										32053,
+										32058
+									],
+									[
+										32397,
+										32402
+									],
+									[
+										32601,
+										32606
+									],
+									[
+										32701,
+										32706
+									],
+									[
+										33412,
+										33417
+									],
+									[
+										37144,
+										37149
+									],
+									[
+										37163,
+										37168
+									],
+									[
+										37179,
+										37184
+									],
+									[
+										37186,
+										37191
+									],
+									[
+										37243,
+										37248
+									],
+									[
+										37266,
+										37271
+									],
+									[
+										37294,
+										37299
+									],
+									[
+										37600,
+										37605
+									],
+									[
+										37773,
+										37778
+									],
+									[
+										39009,
+										39014
+									],
+									[
+										45497,
+										45502
+									],
+									[
+										46122,
+										46127
+									],
+									[
+										46552,
+										46557
+									],
+									[
+										49052,
+										49057
+									],
+									[
+										60273,
+										60278
+									],
+									[
+										61940,
+										61945
+									],
+									[
+										62858,
+										62863
+									],
+									[
+										69175,
+										69180
+									],
+									[
+										75381,
+										75386
+									],
+									[
+										75606,
+										75611
+									],
+									[
+										75725,
+										75730
+									],
+									[
+										76555,
+										76560
+									],
+									[
+										79033,
+										79038
+									],
+									[
+										79460,
+										79465
+									],
+									[
+										79861,
+										79866
+									],
+									[
+										79977,
+										79982
+									],
+									[
+										79983,
+										79988
+									],
+									[
+										80207,
+										80212
+									],
+									[
+										80320,
+										80325
+									],
+									[
+										80326,
+										80331
+									],
+									[
+										80561,
+										80566
+									],
+									[
+										80748,
+										80753
+									],
+									[
+										80754,
+										80759
+									],
+									[
+										80821,
+										80826
+									],
+									[
+										80827,
+										80832
+									],
+									[
+										80894,
+										80899
+									],
+									[
+										80900,
+										80905
+									],
+									[
+										81194,
+										81199
+									],
+									[
+										81312,
+										81317
+									],
+									[
+										81318,
+										81323
+									],
+									[
+										81664,
+										81669
+									],
+									[
+										81899,
+										81904
+									],
+									[
+										82357,
+										82362
+									],
+									[
+										82639,
+										82644
+									],
+									[
+										82770,
+										82775
+									],
+									[
+										83135,
+										83147
+									],
+									[
+										83623,
+										83635
+									],
+									[
+										83903,
+										83915
+									],
+									[
+										84259,
+										84271
+									],
+									[
+										84625,
+										84637
+									],
+									[
+										84906,
+										84918
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								84269,
+								84269
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 3,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 13122.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocksA16PrefabConversion.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 588485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								447620,
+								447635
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 184542.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/X/Unity/@Ressources/FunPimps/blocktestureatlases/MonoBehaviour/MeshDescriptionCollection.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19693,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2396,
+								2402
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1124.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
 					"semi_transient": false,
 					"settings":
@@ -1656,8 +1403,8 @@
 						"selection":
 						[
 							[
-								898884,
-								898899
+								1065140,
+								1065146
 							]
 						],
 						"settings":
@@ -1666,10 +1413,178 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8437.0,
+						"translation.y": 409400.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Release Notes.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144,
+								144
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config/blocks.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13,
+								62
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config/traders.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1923,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								103
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config/items.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1826,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								578,
+								591
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config/loot.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1961,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1941,
+								1941
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config/recipes.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								359,
+								359
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -1734,7 +1649,7 @@
 		[
 			[
 				"",
-				"D:\\7dtd\\7dtdMods\\Unity\\DarknessFall.sublime-project"
+				"D:\\7dtd\\7dtdMods\\@project\\SublimeText\\GameDirectory.sublime-project"
 			]
 		],
 		"width": 380.0

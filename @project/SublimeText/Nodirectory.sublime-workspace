@@ -464,7 +464,7 @@
 	"project": "Nodirectory.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 70.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -484,7 +484,7 @@
 		[
 			[
 				"",
-				"D:\\7dtd\\7dtdMods\\Unity\\GameDirectory.sublime-project"
+				"D:\\7dtd\\7dtdMods\\@project\\SublimeText\\GameDirectory.sublime-project"
 			]
 		],
 		"width": 380.0

@@ -1,0 +1,39 @@
+<NoMoreGuns>
+	<remove xpath="//item[@name='autoTurret']" />
+	<remove xpath="//item[@name='shotgunTurret']" />
+	<remove xpath="//item[@name='gunPistol']" />
+	<remove xpath="//item[@name='gun44Magnum']" />
+	<remove xpath="//item[@name='gunSMG5']" />
+	<remove xpath="//item[@name='gunDoubleBarrelShotgun']" />
+	<remove xpath="//item[@name='gunPumpShotgun']" />
+	<remove xpath="//item[@name='gunHuntingRifle']" />
+	<remove xpath="//item[@name='gunMR10']" />
+	<remove xpath="//item[@name='gunAK47']" />
+	<!-- <remove xpath="//item[@name='gunTacticalAR']" /> -->
+	<remove xpath="//item[@name='gunM60']" />
+	<remove xpath="//item[@name='gunRocketLauncher']" />
+	<remove xpath="//item[@name='gunJunkTurret']" />
+	<!-- <remove xpath="//item[@name='thrownAmmoPipeBomb']" /> -->
+	<!-- <remove xpath="//item[@name='thrownGrenadeContact']" /> -->
+	<!-- <remove xpath="//item[@name='thrownTimedCharge']" /> -->
+	<!-- <remove xpath="//item[@name='thrownDynamite']" /> -->
+	<!-- <remove xpath="//item[@name='thrownGrenade']" /> -->
+
+	<remove xpath="//item[@name='gunPistolSchematic']" />
+	<remove xpath="//item[@name='gun44MagnumSchematic']" />
+	<remove xpath="//item[@name='gunDoubleBarrelShotgunSchematic']" />
+	<remove xpath="//item[@name='gunPumpShotgunSchematic']" />
+	<remove xpath="//item[@name='gunSMG5Schematic']" />
+	<remove xpath="//item[@name='gunAK47Schematic']" />
+	<remove xpath="//item[@name='gunHuntingRifleSchematic']" />
+	<remove xpath="//item[@name='gunMR10Schematic']" />
+	<remove xpath="//item[@name='gunRocketLauncherSchematic']" />
+	<remove xpath="//item[@name='gunJunkTurretSchematic']" />
+	<remove xpath="//item[@name='thrownAmmoPipeBombSchematic']" />
+	<remove xpath="//item[@name='thrownGrenadeContactSchematic']" />
+	<remove xpath="//item[@name='thrownGrenadeSchematic']" />
+	<remove xpath="//item[@name='thrownDynamiteSchematic']" />
+	<remove xpath="//item[@name='shotgunTurretSchematic']" />
+	<remove xpath="//item[@name='autoTurretSchematic']" />
+
+</NoMoreGuns>
