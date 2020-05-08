@@ -1,0 +1,45 @@
+on:
+  push:
+    # Sequence of patterns matched against refs/tags
+    tags:
+    - 'NoMoreGuns_v*' # Push events to matching NoMoreGuns_v*, i.e. NoMoreGuns_v1.0, NoMoreGuns_v20.15.10
+
+  watch:
+    types: [started]
+
+name: Prepare NoMoreGuns draft release
+
+jobs:
+  build:
+    name: Upload Release Asset
+    runs-on: ubuntu-latest
+    if: github.actor == github.event.repository.owner.login
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Build project # This would actually build your project, using zip for an example artifact
+        run: |
+          if [ ${GITHUB_REF##*/} == 'master' ]
+          then
+            ZIPNAME="NoMoreGuns.zip"
+          else
+            ZIPNAME="${GITHUB_REF##*/}.zip"
+          fi
+          echo "Creating ${ZIPNAME}"
+          echo "::set-env name=RELEASE_NAME::${ZIPNAME%\.zip}"
+          mkdir ./Mods
+          mv ./NoMoreGuns/Release\ Notes.md .
+          mv ./NoMoreGuns ./Mods
+          zip -r ${ZIPNAME} Mods Release\ Notes.md
+      - name: Create Release
+        id: create_release
+        uses: ncipollo/release-action@v1.6.1
+        with:
+          name: ${{ env.RELEASE_NAME }}
+          tag: ${{ env.RELEASE_NAME }}
+          bodyFile: Release Notes.md
+          artifacts: "./*.zip"
+          artifactContentType: application/zip
+          draft: true
+          prerelease: false
+          token: ${{ secrets.GITHUB_TOKEN }}
