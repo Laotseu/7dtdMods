@@ -2,13 +2,12 @@
 ========
 Mods for the game 7 Days to Die
 
-StorageSize v1.03 (Alpha 18)
-----------------------------
+Castle Spartan (on GitLab)
+--------------------------
 
-All the storage containers that can be selected with the new crateble **Wooden Storage / Furniture** have the same number of container slots (8 x 9). The containers in questions are: Storage Box, Cabinet, Cupboard, Bookcase, Pillcase, Dresser, and Wooden Desk
+<img align="left" width="150" height="150" hspace="8" src="https://gitlab.com/spartan-designs/castle-spartan/-/raw/master/Mods/CastleSpartan/Prefabs/CastleSpartan_v3.jpg" />Looking for **Castle Spartan**? you can find it in his GitLab repository.
 
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/StorageSize_v1.03/StorageSize_v1.03.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/StorageSize_v1.03)
+[https://gitlab.com/spartan-designs/castle-spartan](https://gitlab.com/spartan-designs/castle-spartan)<br /><br /><br /><br /><br />
 
 Eric's Goods v1.0 (Alpha 18)
 ----------------------------
@@ -24,7 +23,16 @@ MoreBlocks v1.03 (Alpha 18)
 Add recipes to create decorative blocks and make them available to players (as oppose to being only available in Creative Mode).
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreBlocks_v1.03/MoreBlocks_v1.03.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreBlocks_v1.03)
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreBlocks_v1.03)<br /><br /><br /><br />
+
+NoMoreGuns v1.1 (Alpha 18)
+--------------------------
+
+My friend Grand Spartan is crazy, he wants us to play a game where no firearm or explosive are allowed with the exception of the Blunderboss. Sounds like fun :-).
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/NoMoreGuns_v1.1/NoMoreGuns_v1.1.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/NoMoreGuns_v1.1)<br /><br /><br /><br />
+
 
 PG13 (Alpha 18)
 ---------------
@@ -55,12 +63,13 @@ Add custom blocks and items for all the Grand Spartan's fans out there.<br />
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/SpartanBlocks_v1.4/SpartanBlocks_v1.4.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/SpartanBlocks_v1.4)<br /><br /><br /><br />
 
-Castle Spartan (on GitLab)
---------------------------
+StorageSize v1.03 (Alpha 18)
+----------------------------
 
-<img align="left" width="150" height="150" hspace="8" src="https://gitlab.com/spartan-designs/castle-spartan/-/raw/master/Mods/CastleSpartan/Prefabs/CastleSpartan_v3.jpg" />Looking for **Castle Spartan**? you can find it in his GitLab repository.
+All the storage containers that can be selected with the new crateble **Wooden Storage / Furniture** have the same number of container slots (8 x 9). The containers in questions are: Storage Box, Cabinet, Cupboard, Bookcase, Pillcase, Dresser, and Wooden Desk
 
-[https://gitlab.com/spartan-designs/castle-spartan](https://gitlab.com/spartan-designs/castle-spartan)<br /><br /><br /><br /><br />
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/StorageSize_v1.03/StorageSize_v1.03.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/StorageSize_v1.03)
 
 Logan's Bar (Alpha 18)
 ----------------------
