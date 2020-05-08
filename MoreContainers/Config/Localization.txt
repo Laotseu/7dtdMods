@@ -1,0 +1,6 @@
+Key,Source,Context,Changes,English
+mcCubeContainer,blocks,Block,New,"Storage Container, Supply"
+mcCubeContainerForge,blocks,Block,New,"Storage Container, Forge"
+mcCubeContainerForgeInsecure,blocks,Block,New,"Storage Container, Forge"
+mcHalfCubeContainerForge,blocks,Block,New,"Storage Container, Half, Forge"
+mcHalfCubeContainerForgeInsecure,blocks,Block,New,"Halfblock Storage Container, Forge"
