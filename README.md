@@ -34,8 +34,8 @@ My friend Grand Spartan is crazy, he wants us to play a game where no firearm or
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/NoMoreGuns_v1.1)<br /><br /><br /><br />
 
 
-PG13 (Alpha 18)
----------------
+PG13 v1.0 (Alpha 18)
+--------------------
 
 <img align="left" width="150" height="150" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/PG13/PG13.png" />
 
