@@ -8,7 +8,7 @@
 	</insertAfter> -->
 
 	<insertAfter xpath="//prefab[contains(@name,'utility_refinery_01')]">
-		<prefab name="../../Mods/LogansBar/Prefabs/logans_bar" prob="5" max_count="1" min_repeat_distance="500"/>
+		<prefab name="../../Mods/LogansBar/Prefabs/logans_bar" prob="5" max_count="1" min_repeat_distance="1000"/>
 	</insertAfter>
 
 <!--   	<append xpath="/rwgmixer/prefab_rules/prefab_rule[contains(@name,'downtown')]">
