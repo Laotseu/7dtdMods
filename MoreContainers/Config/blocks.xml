@@ -3,221 +3,241 @@
 
 		<block name="mcCubeContainer">
 			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
+			<property name="DowngradeBlock" value="mcCubeContainerInsecure"/>
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeSupply" /> 
 			<property name="Place" value="TowardsPlacerInverted"/>
-			<property name="DowngradeBlock" value="mcCubeContainerInsecure"/>
+			<property name="Shape" value="ModelEntity" />
 		</block>
 		<block name="mcCubeContainerInsecure">
+			<property name="Extends" value="cntStorageGenericInsecure"/>
 			<property name="CustomIcon" value="mcCubeContainer" />
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeSupply" /> 
 			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Shape" value="ModelEntity" />
+			<drop event="Destroy" name="woodFurnitureBlockVariantHelper" count="1"/>
 		</block>
 
 		<block name="mcCubeContainerForge">
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
-			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeForge" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcCubeContainerForgeInsecure"/>
-			<!-- <property name="Mesh-Damage-1" value="#@modfolder:Resources/Containers.unity3d?CubeForge_3"/>
-			<property name="Mesh-Damage-2" value="#@modfolder:Resources/Containers.unity3d?CubeForge_6"/>
-			<property name="Mesh-Damage-3" value="#@modfolder:Resources/Containers.unity3d?CubeForge_9"/> -->
-			<!-- <property name="Mesh-Damage-4" value="Door/Door_DMG3"/>
-			<property name="Mesh-Damage-5" value="Door/Door_DMG4"/> -->
-
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeForge" /> 
 		</block>
 		<block name="mcCubeContainerForgeInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
 			<property name="CustomIcon" value="mcCubeContainerForge" />
-			<property name="Extends" value="cntStorageGenericInsecure"/>
-			<property name="Shape" value="ModelEntity" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeForge" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
-			<!-- <property name="Mesh-Damage-1" value="#@modfolder:Resources/Containers.unity3d?CubeForge_3"/>
-			<property name="Mesh-Damage-2" value="#@modfolder:Resources/Containers.unity3d?CubeForge_6"/>
-			<property name="Mesh-Damage-3" value="#@modfolder:Resources/Containers.unity3d?CubeForge_9"/> -->
 		</block>
 
 		<block name="mcCubeContainerExplosive">
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
-			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeExplosive" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcCubeContainerExplosiveInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeExplosive" /> 
 		</block>
 		<block name="mcCubeContainerExplosiveInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
 			<property name="CustomIcon" value="mcCubeContainerExplosive" />
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeExplosive" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
 		</block>
 
 		<block name="mcCubeContainerAmo">
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
-			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeAmo" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcCubeContainerAmoInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeAmo" /> 
 		</block>
 		<block name="mcCubeContainerAmoInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
 			<property name="CustomIcon" value="mcCubeContainerAmo" />
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeAmo" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
+		</block>
+
+		<block name="mcCubeContainerArmors">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcCubeContainerArmorsInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeArmors" /> 
+		</block>
+		<block name="mcCubeContainerArmorsInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcCubeContainerArmors" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeArmors" /> 
+		</block>
+
+		<block name="mcCubeContainerBarter">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcCubeContainerBarterInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeBarter" /> 
+		</block>
+		<block name="mcCubeContainerBarterInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcCubeContainerBarter" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeBarter" /> 
 		</block>
 
 		<block name="mcCubeContainerBuilding">
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
-			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeBuilding" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcCubeContainerBuildingInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeBuilding" /> 
 		</block>
 		<block name="mcCubeContainerBuildingInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
 			<property name="CustomIcon" value="mcCubeContainerBuilding" />
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeBuilding" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
 		</block>
 
 		<block name="mcCubeContainerFood">
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcCubeContainerFoodInsecure"/>
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeFood" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
-			<property name="DowngradeBlock" value="mcCubeContainerInsecure"/>
 		</block>
 		<block name="mcCubeContainerFoodInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
 			<property name="CustomIcon" value="mcCubeContainerFood" />
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeFood" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
 		</block>
 
 		<block name="mcCubeContainerHealth">
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
-			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeHealth" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcCubeContainerHealthInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeHealth" /> 
 		</block>
 		<block name="mcCubeContainerHealthInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
 			<property name="CustomIcon" value="mcCubeContainerHealth" />
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeHealth" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
 		</block>
 
+		<block name="mcCubeContainerRecycle">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcCubeContainerRecycleInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeRecycle" /> 
+		</block>
+		<block name="mcCubeContainerRecycleInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcCubeContainerRecycle" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeRecycle" /> 
+		</block>
+
+		<block name="mcCubeContainerWeapons">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcCubeContainerWeaponsInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeWeapons" /> 
+		</block>
+		<block name="mcCubeContainerWeaponsInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcCubeContainerWeapons" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeWeapons" /> 
+		</block>
+
+		
+
+		<!-- Halfblock storages -->
 		<block name="mcHalfCubeContainer">
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcHalfCubeContainerInsecure"/>
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfSupply" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
-			<property name="DowngradeBlock" value="mcHalfCubeContainerForgeInsecure"/>
 		</block>
 		<block name="mcHalfCubeContainerInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
 			<property name="CustomIcon" value="mcHalfCubeContainer" />
-			<property name="Extends" value="cntStorageGenericInsecure"/>
-			<property name="Shape" value="ModelEntity" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfSupply" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
 		</block>
 
 		<block name="mcHalfCubeContainerForge">
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
-			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfForge" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcHalfCubeContainerForgeInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfForge" /> 
 		</block>
 		<block name="mcHalfCubeContainerForgeInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
 			<property name="CustomIcon" value="mcHalfCubeContainerForge" />
-			<property name="Extends" value="cntStorageGenericInsecure"/>
-			<property name="Shape" value="ModelEntity" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfForge" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
 		</block>
 
 		<block name="mcHalfCubeContainerAmo">
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
-			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfAmo" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcHalfCubeContainerAmoInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfAmo" /> 
 		</block>
 		<block name="mcHalfCubeContainerAmoInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
 			<property name="CustomIcon" value="mcHalfCubeContainerAmo" />
-			<property name="Extends" value="cntStorageGenericInsecure"/>
-			<property name="Shape" value="ModelEntity" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfAmo" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
+		</block>
+
+		<block name="mcHalfCubeContainerArmors">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcHalfCubeContainerArmorsInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfArmors" /> 
+		</block>
+		<block name="mcHalfCubeContainerArmorsInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcHalfCubeContainerArmors" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfArmors" /> 
+		</block>
+
+		<block name="mcHalfCubeContainerBarter">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcHalfCubeContainerBarterInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfBarter" /> 
+		</block>
+		<block name="mcHalfCubeContainerBarterInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcHalfCubeContainerBarter" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfBarter" /> 
 		</block>
 
 		<block name="mcHalfCubeContainerBuilding">
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
-			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfBuilding" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcHalfCubeContainerBuildingInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfBuilding" /> 
 		</block>
 		<block name="mcHalfCubeContainerBuildingInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
 			<property name="CustomIcon" value="mcHalfCubeContainerBuilding" />
-			<property name="Extends" value="cntStorageGenericInsecure"/>
-			<property name="Shape" value="ModelEntity" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfBuilding" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
 		</block>
 
 		<block name="mcHalfCubeContainerExplosive">
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
-			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfExplosive" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcHalfCubeContainerExplosiveInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfExplosive" /> 
 		</block>
 		<block name="mcHalfCubeContainerExplosiveInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
 			<property name="CustomIcon" value="mcHalfCubeContainerExplosive" />
-			<property name="Extends" value="cntStorageGenericInsecure"/>
-			<property name="Shape" value="ModelEntity" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfExplosive" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
 		</block>
 
 		<block name="mcHalfCubeContainerFood">
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
-			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfFood" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcHalfCubeContainerFoodInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfFood" /> 
 		</block>
 		<block name="mcHalfCubeContainerFoodInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
 			<property name="CustomIcon" value="mcHalfCubeContainerFood" />
-			<property name="Extends" value="cntStorageGenericInsecure"/>
-			<property name="Shape" value="ModelEntity" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfFood" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
 		</block>
 
 		<block name="mcHalfCubeContainerHealth">
-			<property name="Extends" value="cntStorageGeneric"/>
-			<property name="Shape" value="ModelEntity" />
-			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfHealth" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcHalfCubeContainerHealthInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfHealth" /> 
 		</block>
 		<block name="mcHalfCubeContainerHealthInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
 			<property name="CustomIcon" value="mcHalfCubeContainerHealth" />
-			<property name="Extends" value="cntStorageGenericInsecure"/>
-			<property name="Shape" value="ModelEntity" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfHealth" /> 
-			<property name="Place" value="TowardsPlacerInverted"/>
+		</block>
+
+		<block name="mcHalfCubeContainerRecycle">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcHalfCubeContainerRecycleInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfRecycle" /> 
+		</block>
+		<block name="mcHalfCubeContainerRecycleInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcHalfCubeContainerRecycle" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfRecycle" /> 
 		</block>
 
 		<!-- <block name="cntStorageGeneric">
@@ -243,6 +263,9 @@
 	</append>
 
 	<!-- Add the new contairs to the helper block -->
-	<append xpath="//block[@name='woodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,mcCubeContainer,mcHalfCubeContainer,mcCubeContainerAmo,mcHalfCubeContainerAmo,mcCubeContainerBuilding,mcHalfCubeContainerBuilding,mcCubeContainerExplosive,mcHalfCubeContainerExplosive,mcCubeContainerFood,mcHalfCubeContainerFood,mcCubeContainerForge,mcHalfCubeContainerForge,mcCubeContainerHealth,mcHalfCubeContainerHealth</append>
+	<append xpath="//block[@name='woodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,mcCubeContainer,mcHalfCubeContainer,mcCubeContainerAmo,mcHalfCubeContainerAmo,mcCubeContainerArmors,mcHalfCubeContainerArmorsInsecure,mcCubeContainerBarter,mcHalfCubeContainerBarter,mcCubeContainerBuilding,mcHalfCubeContainerBuilding,mcCubeContainerExplosive,mcHalfCubeContainerExplosive,mcCubeContainerFood,mcHalfCubeContainerFood,mcCubeContainerForge,mcHalfCubeContainerForge,mcCubeContainerHealth,mcHalfCubeContainerHealth,mcCubeContainerRecycle,mcHalfCubeContainerRecycle,mcCubeContainerWeapons,mcHalfCubeContainerWeapons</append>
+	<append xpath="//block[@name='woodFurnitureBlockVariantHelper']">
+		<property name="Place" value="TowardsPlacerInverted"/>
+	</append>
 
 </configs>
