@@ -1,0 +1,50 @@
+on:
+  push:
+    # Sequence of patterns matched against refs/tags
+    tags:
+     - 'MoreContainers_v*' # Push events to matching MoreContainers_v*, i.e. MoreContainers_v1.0, MoreContainers_v20.15.10
+
+  # watch:
+    # types: [started]
+
+name: Prepare MoreContainers draft release
+
+jobs:
+  build:
+    name: Upload Release Asset
+    runs-on: ubuntu-latest
+    if: github.actor == github.event.repository.owner.login
+    # if: github.actor == github.event.repository.owner.login && contains( github.ref, 'MoreContainers_v')
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Build project # This would actually build your project, using zip for an example artifact
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+        run: |
+          echo "$GITHUB_CONTEXT"
+          if [ ${GITHUB_REF##*/} == 'master' ]
+          then
+            ZIPNAME="MoreContainers.zip"
+          else
+            ZIPNAME="${GITHUB_REF##*/}.zip"
+          fi
+          echo "Creating ${ZIPNAME}"
+          echo "::set-env name=RELEASE_NAME::${ZIPNAME%\.zip}"
+          mkdir ./Mods
+          mv ./MoreContainers/Release\ Notes.md .
+          mv ./MoreContainers ./Mods
+          zip -r ${ZIPNAME} Mods Release\ Notes.md
+      - name: Create Release
+        id: create_release
+        uses: ncipollo/release-action@v1.6.1
+        with:
+          name: ${{ env.RELEASE_NAME }}
+          # tag: ${{ github.ref }}
+          tag: ${{ env.RELEASE_NAME }}
+          bodyFile: Release Notes.md
+          artifacts: "./*.zip"
+          artifactContentType: application/zip
+          draft: true
+          prerelease: false
+          token: ${{ secrets.GITHUB_TOKEN }}

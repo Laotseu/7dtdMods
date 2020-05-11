@@ -105,6 +105,17 @@
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeHealth" /> 
 		</block>
 
+		<block name="mcCubeContainerMining">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcCubeContainerMiningInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeMining" /> 
+		</block>
+		<block name="mcCubeContainerMiningInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcCubeContainerMining" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeMining" /> 
+		</block>
+
 		<block name="mcCubeContainerRecycle">
 			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcCubeContainerRecycleInsecure"/>
@@ -229,6 +240,17 @@
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfHealth" /> 
 		</block>
 
+		<block name="mcHalfCubeContainerMining">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcHalfCubeContainerMiningInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfMining" /> 
+		</block>
+		<block name="mcHalfCubeContainerMiningInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcHalfCubeContainerMining" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfMining" /> 
+		</block>
+
 		<block name="mcHalfCubeContainerRecycle">
 			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcHalfCubeContainerRecycleInsecure"/>
@@ -240,30 +262,22 @@
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfRecycle" /> 
 		</block>
 
-		<!-- <block name="cntStorageGeneric">
-			<property name="CreativeMode" value="Player"/>
-			<property name="Shape" value="New"/>
-			<property name="Model" value="cube"/>
-			<property name="DescriptionKey" value="cntStorageGenericDesc"/>
-			<property name="Tags" value="door"/>
-			<property name="Class" value="SecureLoot"/>
-			<property name="LootList" value="1"/>
-			<property name="Material" value="MwoodReinforced"/>
-			<property name="Texture" value="572"/>
-			<property name="UseGlobalUV" value="L,L,L,L,L,L"/>
-			<property name="FuelValue" value="300"/>
-			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
-			<property name="DowngradeBlock" value="cntStorageGenericInsecure"/>
-			<drop event="Destroy" count="0"/>
-			<property name="Group" value="Building,advBuilding"/>
-			<property name="EconomicValue" value="6"/>
-			<property name="FilterTags" value="floot"/>
-		</block> -->
-		
+		<block name="mcHalfCubeContainerWeapons">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcHalfCubeContainerWeaponsInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfWeapons" /> 
+		</block>
+		<block name="mcHalfCubeContainerWeaponsInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcHalfCubeContainerWeapons" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfWeapons" /> 
+		</block>
+
+	
 	</append>
 
 	<!-- Add the new contairs to the helper block -->
-	<append xpath="//block[@name='woodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,mcCubeContainer,mcHalfCubeContainer,mcCubeContainerAmo,mcHalfCubeContainerAmo,mcCubeContainerArmors,mcHalfCubeContainerArmorsInsecure,mcCubeContainerBarter,mcHalfCubeContainerBarter,mcCubeContainerBuilding,mcHalfCubeContainerBuilding,mcCubeContainerExplosive,mcHalfCubeContainerExplosive,mcCubeContainerFood,mcHalfCubeContainerFood,mcCubeContainerForge,mcHalfCubeContainerForge,mcCubeContainerHealth,mcHalfCubeContainerHealth,mcCubeContainerRecycle,mcHalfCubeContainerRecycle,mcCubeContainerWeapons,mcHalfCubeContainerWeapons</append>
+	<append xpath="//block[@name='woodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,mcCubeContainer,mcHalfCubeContainer,mcCubeContainerAmo,mcHalfCubeContainerAmo,mcCubeContainerArmors,mcHalfCubeContainerArmorsInsecure,mcCubeContainerBarter,mcHalfCubeContainerBarter,mcCubeContainerBuilding,mcHalfCubeContainerBuilding,mcCubeContainerExplosive,mcHalfCubeContainerExplosive,mcCubeContainerFood,mcHalfCubeContainerFood,mcCubeContainerForge,mcHalfCubeContainerForge,mcCubeContainerHealth,mcHalfCubeContainerHealth,mcCubeContainerMining,mcHalfCubeContainerMining,mcCubeContainerRecycle,mcHalfCubeContainerRecycle,mcCubeContainerWeapons,mcHalfCubeContainerWeapons</append>
 	<append xpath="//block[@name='woodFurnitureBlockVariantHelper']">
 		<property name="Place" value="TowardsPlacerInverted"/>
 	</append>
