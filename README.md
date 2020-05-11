@@ -25,6 +25,14 @@ Add recipes to create decorative blocks and make them available to players (as o
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreBlocks_v1.03/MoreBlocks_v1.03.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreBlocks_v1.03)<br /><br /><br /><br />
 
+MoreContainers v1.0 (Alpha 18)
+------------------------------
+
+<img align="left" width="150" height="150" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/MoreContainers/MoreContainers.jpg" />Do you have friends that can't help themselves and store everything in a specific box for each type of items? I do. This mods add new graphic designs for the storage boxes and also add half-block versions of the storage boxes (for more headspace).
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreContainers_v1.0/MoreContainers_v1.0.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreContainers_v1.0)<br /><br /><br /><br />
+
 NoMoreGuns v1.1 (Alpha 18)
 --------------------------
 
