@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="MorePaintTextures" />
+		<Description value="Add more textures to the paint tool." />
+		<Author value="Eric Beaudoin" />
+		<Version value="1.0" />
+		<!-- 1.0:  There are 10 textures that are present in the game but are not available wwhen painting. This mod make
+		           them available.
+		-->
+
+		<!-- Tested with 7 Days to Die Alpha 18.4 -->
+		
+	</ModInfo>
+</xml>

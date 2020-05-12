@@ -1,0 +1,161 @@
+<morepainttextures>
+<append xpath="/paints">
+
+<paint id="255" name="new_metal_rivet">
+	<property name="TextureId"  value="47"/>
+	<property name="Group" value="atxGroupDecoration"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="254" name="new_concrete_reinforced_wet">
+	<property name="TextureId"  value="176"/>
+	<property name="Group" value="atxGroupDecoration"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="253" name="new_keystone">
+	<property name="TextureId"  value="189"/>
+	<property name="Group" value="atxGroupDecoration"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="252" name="new_glass_opaque_bulletproof">
+	<property name="TextureId"  value="334"/>
+	<property name="Group" value="atxGroupDecoration"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="251" name="new_heat_vent">
+	<property name="TextureId"  value="340"/>
+	<property name="Group" value="atxGroupDecoration"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="250" name="new_road_railing">
+	<property name="TextureId"  value="442"/>
+	<property name="Group" value="atxGroupDecoration"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="249" name="new_washing_machine">
+	<property name="TextureId"  value="554"/>
+	<property name="Group" value="atxGroupDecoration"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="248" name="new_stained_glass">
+	<property name="TextureId"  value="596"/>
+	<property name="Group" value="atxGroupDecoration"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="247" name="new_pipe_metal">
+	<property name="TextureId"  value="597"/>
+	<property name="Group" value="atxGroupDecoration"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="246" name="new_pipe_metal_cap">
+	<property name="TextureId"  value="598"/>
+	<property name="Group" value="atxGroupDecoration"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<!-- <paint id="255" name="cntWasherClosed">
+	<property name="TextureId"  value="554"/>
+	<property name="Group" value="atxGroupDecoration"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="254" name="txName_Bookcase">
+	<property name="TextureId"  value="67"/>
+	<property name="Group" value="atxGroupDecoration"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="200" name="Land Claim Block">
+	<property name="TextureId"  value="189"/>
+	<property name="Group" value="atxGroupDecoration"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="253" name="txName_Test1">
+	<property name="TextureId" value="351"/>
+	<property name="Group" value="aatxGroupEricTest"/>
+	<property name="PaintCost" value="31" />
+</paint>
+
+<paint id="252" name="txName_Test1">
+	<property name="TextureId" value="352"/>
+	<property name="Group" value="aatxGroupEricTest"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="251" name="txName_Test1">
+	<property name="TextureId" value="353"/>
+	<property name="Group" value="aatxGroupEricTest"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="250" name="txName_Test1">
+	<property name="TextureId" value="354"/>
+	<property name="Group" value="aatxGroupEricTest"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="249" name="txName_Test1">
+	<property name="TextureId" value="355"/>
+	<property name="Group" value="aatxGroupEricTest"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="248" name="txName_Test1">
+	<property name="TextureId" value="356"/>
+	<property name="Group" value="aatxGroupEricTest"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="247" name="txName_Test1">
+	<property name="TextureId" value="357"/>
+	<property name="Group" value="aatxGroupEricTest"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="246" name="txName_Test1">
+	<property name="TextureId" value="358"/>
+	<property name="Group" value="aatxGroupEricTest"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="245" name="txName_Test1">
+	<property name="TextureId" value="359"/>
+	<property name="Group" value="aatxGroupEricTest"/>
+	<property name="PaintCost" value="1" />
+</paint>
+
+<paint id="244" name="txName_Test1">
+	<property name="TextureId" value="350"/>
+	<property name="Group" value="aatxGroupEricTest"/>
+	<property name="PaintCost" value="1" />
+</paint>
+ -->
+</append>
+<!-- 
+<paint id="13" name="txName_Gravestone1">    Do we want this paintable?
+	<property name="TextureId" value="354"/>
+
+<paint id="14" name="txName_Pillcase">     makes no sense without BEING this block
+	<property name="TextureId" value="355"/>
+
+*<paint id="75" name="txName_Fridge_stainless"> makes no sense without BEING this block
+	<property name="TextureId" value="3565"/>
+
+*<paint id="76" name="txName_Fridge_stainless_bottom"> makes no sense without BEING this block
+	<property name="TextureId" value="3566"/>
+
+<paint id="105" name="txName_Wall_oven">  makes no sense without BEING this block
+	<property name="TextureId" value="3541"/>
+
+ --> 
+
+</morepainttextures>
