@@ -3,7 +3,7 @@
 <xml>
 	<ModInfo>
 		<Name value="MoreContainers" />
-		<Description value="More option for storage box and similar items." />
+		<Description value="More option for storage boxes and similar items." />
 		<Author value="Éric Beaudon" />
 		<Version value="1.0" />
 	</ModInfo>
@@ -16,7 +16,9 @@
 		For this model to work properly, it needs to be installed on the server and every player's computer.
 	-->
 
-	<!-- v1.0:	
+	<!-- v1.0:	New design for generic, armors, barter (trader), forge, mining, and recycle storage boxes
+				Everything is also available in half-cube format
+				All new storage boxes are added to the wood storage and furniture helper
 
 	Thanks to Xyth for the code in FunWithFlags and the video tutorials
 	https://forums.7daystodie.com/forum/-7-days-to-die-pc/game-modification/tutorials-guides/99698-unity-tutorials-for-7d2d-modders
