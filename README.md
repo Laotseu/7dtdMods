@@ -36,7 +36,7 @@ MoreContainers v1.0 (Alpha 18)
 MorePaintTextures v1.0 (Alpha 18)
 ---------------------------------
 
-There are 10 textures that are present in the game but are not available wwhen painting. This mod make them available
+There are 10 textures that are present in the game but are not available when painting. This mod makes them available
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/MorePaintTextures_v1.0/MorePaintTextures_v1.0.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MorePaintTextures_v1.0)<br /><br /><br /><br />
