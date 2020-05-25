@@ -41,13 +41,13 @@ There are 10 textures that are present in the game but are not available when pa
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/MorePaintTextures_v1.0/MorePaintTextures_v1.0.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MorePaintTextures_v1.0)<br /><br /><br /><br />
 
-NoMoreGuns v1.1 (Alpha 18)
+NoMoreGuns v1.2 (Alpha 18)
 --------------------------
 
 My friend Grand Spartan is crazy, he wants us to play a game where no firearm or explosive are allowed with the exception of the Blunderboss. Sounds like fun :-).
 
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/NoMoreGuns_v1.1/NoMoreGuns_v1.1.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/NoMoreGuns_v1.1)<br /><br /><br /><br />
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/NoMoreGuns_v1.2/NoMoreGuns_v1.2.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/NoMoreGuns_v1.2)<br /><br /><br /><br />
 
 
 PG13 v1.0 (Alpha 18)
