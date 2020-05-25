@@ -16,6 +16,8 @@
 	<remove xpath="//item[@name='thrownTimedCharge']" />
 	<remove xpath="//item[@name='thrownDynamite']" />
 	<remove xpath="//item[@name='thrownGrenade']" />
+	<remove xpath="//item[@name='ammoArrowExploding']" />
+	<remove xpath="//item[@name='ammoCrossbowBoltExploding']" />
 
 	<remove xpath="//item[@name='gunPistolSchematic']" />
 	<remove xpath="//item[@name='gun44MagnumSchematic']" />

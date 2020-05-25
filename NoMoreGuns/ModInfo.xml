@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="NoMoreGuns" />
+		<Description value="Remove most firearms from the game." />
+		<Author value="Eric Beaudoin" />
+		<Version value="1.2" />
+		<Website value="https://github.com/Laotseu/7dtdMods/blob/master/README.md" />
+		<!-- 1.0: 	Remove all firearms and explosives from the game with the exception of the Blunderbuss -->
+		<!-- 1.1:	Improve the number of feathers found in loot -->
+		<!-- 1.2:	Remove explosive arrows and bolts -->
+		
+	</ModInfo>
+</xml>

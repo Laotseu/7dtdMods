@@ -16,6 +16,16 @@
 	<remove xpath="//item[@name='thrownTimedCharge']" />
 	<remove xpath="//item[@name='thrownDynamite']" />
 	<remove xpath="//item[@name='thrownGrenade']" />
+	<remove xpath="//item[@name='ammoArrowExploding']" />
+	<remove xpath="//item[@name='ammoCrossbowBoltExploding']" />
+	<remove xpath="//item[@name='ammoBundleArrowExploding']" />
+	<remove xpath="//item[@name='ammoBundleCrossbowBoltExploding']" />
+	
+	
+	
+	
+		<!-- <property name="Magazine_items" value="ammoArrowStone,ammoArrowIron,ammoArrowSteelAP,ammoArrowFlaming,ammoArrowExploding"/> -->
+		<!-- <property name="Magazine_items" value="ammoCrossbowBoltStone,ammoCrossbowBoltIron,ammoCrossbowBoltSteelAP,ammoCrossbowBoltFlaming,ammoCrossbowBoltExploding"/> -->
 
 	<remove xpath="//item[@name='gunPistolSchematic']" />
 	<remove xpath="//item[@name='gun44MagnumSchematic']" />

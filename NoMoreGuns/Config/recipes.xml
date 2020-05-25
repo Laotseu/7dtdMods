@@ -18,5 +18,9 @@
 	<remove xpath="//recipe[@name='thrownTimedCharge']" />
 	<remove xpath="//recipe[@name='thrownDynamite']" />
 	<remove xpath="//recipe[@name='thrownGrenade']" />
+	<remove xpath="//recipe[@name='ammoArrowExploding']" />
+	<remove xpath="//recipe[@name='ammoCrossbowBoltExploding']" />
+	<remove xpath="//recipe[@name='ammoBundleArrowExploding']" />
+	<remove xpath="//recipe[@name='ammoBundleCrossbowBoltExploding']" />
 
 </NoMoreGuns>
