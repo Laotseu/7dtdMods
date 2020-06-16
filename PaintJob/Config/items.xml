@@ -3,7 +3,7 @@
 
 		<item name="pjVehicle4x4TruckWhitePlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="Meshfile" value="#@modfolder:Resources/Vehicles.unity3d?jeep_white"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Jeeps.unity3d?jeep_base"/>
 			<property name="EconomicValue" value="30000"/>
 			<property class="Action1">
 				<property name="Vehicle" value="pjVehicle4x4TruckWhite"/>
@@ -61,10 +61,40 @@
 			</effect_group>
 		</item>
 
+		<item name="pjVehicle4x4TruckTestPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Vehicles.unity3d?jeep_test_pattern"/>
+			<property name="EconomicValue" value="30000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjVehicle4x4TruckTest"/>
+				<property name="VehicleSize" value="2.5, 2.1, 5"/>
+			</property>
+			<effect_group name="pjVehicle4x4TruckTestPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+			</effect_group>
+		</item>
+
+		<!-- <item name="pjVehicle4x4TruckPatrolPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Jeeps.unity3d?jeep_UK"/>
+			<property name="EconomicValue" value="30000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjVehicle4x4TruckPatrol"/>
+				<property name="VehicleSize" value="2.5, 2.1, 5"/>
+			</property>
+			<effect_group name="pjVehicle4x4TruckPatrolPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+			</effect_group>
+		</item> -->
+
 		<!-- Motorcycle -->
 		<item name="pjVehicleMotorcycleTestPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="Meshfile" value="#@modfolder:Resources/Motorcycle.unity3d?motorcycle_test"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Motorcycles.unity3d?Motorcycle_test"/>
 			<property name="EconomicValue" value="10000"/>
 			<property class="Action1">
 				<property name="Vehicle" value="pjVehicleMotorcycleTest"/>

@@ -62,45 +62,93 @@
 			}
 		},
 		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MorePaintTextures/ModInfo.xml",
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/items.xml",
 			"settings":
 			{
-				"buffer_size": 436,
+				"buffer_size": 1048860,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config/items.xml",
+			"settings":
+			{
+				"buffer_size": 2385,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/entityclasses.xml",
+			"contents": "Searching 1530 files for \"ammoArrowExploding\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-05-25__13-09-41.txt:\n  397  2020-05-25T13:10:49 45.368 INF ItemIDs from Mapping\n  398  2020-05-25T13:10:51 46.888 ERR XML loader: Loading and parsing 'recipes.xml' failed\n  399: 2020-05-25T13:10:51 46.888 EXC No item/block with name 'ammoArrowExploding' existing\n  400: Exception: No item/block with name 'ammoArrowExploding' existing\n  401    at RecipesFromXml+<LoadRecipies>d__1.MoveNext () [0x00108] in <3ca2702590144b2c95bd610195728952>:0 \n  402    at ThreadManager+<CoroutineWrapperWithExceptionCallback>d__40.MoveNext () [0x00044] in <3ca2702590144b2c95bd610195728952>:0 \n  ...\n  415  \n  416  2020-05-25T13:10:51 47.391 ERR XML loader: Loading and parsing 'loot.xml' failed\n  417: 2020-05-25T13:10:51 47.391 EXC Item with name 'ammoArrowExploding' not found!\n  418: Exception: Item with name 'ammoArrowExploding' not found!\n  419    at LootFromXml.parseItemList (System.String _containerId, System.Xml.XmlNodeList _childNodes, System.Collections.Generic.List`1[T] _itemList, System.Int32 minQualityBase, System.Int32 maxQualityBase) [0x0015b] in <3ca2702590144b2c95bd610195728952>:0 \n  420    at LootFromXml+<LoadLootContainers>d__1.MoveNext () [0x0052d] in <3ca2702590144b2c95bd610195728952>:0 \n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\items.xml:\n 3928  \t\t<property name=\"Hitmask_override\" value=\"Arrow\"/>\n 3929  \t\t<property name=\"Delay\" value=\"1\"/> <!-- obsolete if rounds per minute exists -->\n 3930: \t\t<property name=\"Magazine_items\" value=\"ammoArrowStone,ammoArrowIron,ammoArrowSteelAP,ammoArrowFlaming,ammoArrowExploding\"/>\n 3931  \t\t<!-- <property name=\"Reload_time\" value=\".9\"/> -->\n 3932  \t\t<property name=\"Sound_start\" value=\"bow_fire\"/>\n ....\n 4021  \t\t<property name=\"Hitmask_override\" value=\"Arrow\"/>\n 4022  \t\t<property name=\"Delay\" value=\"1\"/> <!-- obsolete if rounds per minute exists -->\n 4023: \t\t<property name=\"Magazine_items\" value=\"ammoArrowStone,ammoArrowIron,ammoArrowSteelAP,ammoArrowFlaming,ammoArrowExploding\"/>\n 4024  \t\t<!-- <property name=\"Reload_time\" value=\".9\"/> -->\n 4025  \t\t<property name=\"Sound_start\" value=\"bow2_fire\"/>\n ....\n 4119  \t\t<property name=\"Hitmask_override\" value=\"Arrow\"/>\n 4120  \t\t<property name=\"Delay\" value=\"1\"/> <!-- obsolete if rounds per minute exists -->\n 4121: \t\t<property name=\"Magazine_items\" value=\"ammoArrowStone,ammoArrowIron,ammoArrowSteelAP,ammoArrowFlaming,ammoArrowExploding\"/>\n 4122  \t\t<!-- <property name=\"Reload_time\" value=\".9\"/> -->\n 4123  \t\t<property name=\"Sound_start\" value=\"bow3_fire\"/>\n ....\n 5857  </item>\n 5858  \n 5859: <item name=\"ammoArrowExploding\">\n 5860  \t<property name=\"Extends\" value=\"ammoArrowIron\"/>\n 5861: \t<property name=\"DisplayType\" value=\"ammoArrowExploding\"/>\n 5862  \t<property name=\"Meshfile\" value=\"#Other/Items?Weapons/Ranged/Bows/WoodenBow/explodingArrowPrefab.prefab\"/>\n 5863  \t<property name=\"IsSticky\" value=\"false\"/>\n ....\n 5879  \t\t<property name=\"Explosion.DamageBonus.water\" value=\"0\"/>\n 5880  \t</property>\n 5881: \t<effect_group name=\"ammoArrowExploding\" tiered=\"false\"> <!-- ammoArrowExploding -->\n 5882  \t\t<passive_effect name=\"BlockDamage\" operation=\"base_set\" value=\"2\"/><display_value name=\"dExDamageBlock\" value=\"2\"/>\n 5883  \t\t<passive_effect name=\"EntityDamage\" operation=\"base_set\" value=\"90\"/><display_value name=\"dExDamageEntity\" value=\"180\"/>\n ....\n 6129  <item name=\"ammoCrossbowBoltExploding\">\n 6130  \t<property name=\"Extends\" value=\"ammoCrossbowBoltIron\"/>\n 6131: \t<property name=\"DescriptionKey\" value=\"ammoArrowExplodingDesc\"/>\n 6132  \t<property name=\"Tags\" value=\"ammo,ranged,attAgility,perkArchery\"/>\n 6133: \t<property name=\"DisplayType\" value=\"ammoArrowExploding\"/>\n 6134  \t<property name=\"Meshfile\" value=\"#Other/Items?Weapons/Ranged/Bows/Crossbow/crossbowBoltExplosivePrefab.prefab\"/>\n 6135  \t<property name=\"HoldType\" value=\"45\"/>\n ....\n 6372  <item name=\"ammoBundleArrowExploding\">\n 6373  \t<property name=\"Extends\" value=\"ammoBundleArrowStone\"/>\n 6374: \t<property name=\"CustomIcon\" value=\"ammoArrowExploding\"/>\n 6375  \t<property name=\"EconomicValue\" value=\"4125\"/>\n 6376  \t<property class=\"Action0\">\n 6377: \t\t<property name=\"Create_item\" value=\"ammoArrowExploding\"/>\n 6378  \t\t<property name=\"Create_item_count\" value=\"75\"/>\n 6379  \t</property>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\Localization.txt:\n 3158  ammo9mmBulletHP,items,Ammo,,,HP 9mm Ammo,,9-mm-Hohlspitzgeschosse,Munición expansiva de 9 mm,Munition HP cal. 9 mm,Munizioni a punta cava per 9 mm,HP 9mm弾,HP 9mm 탄약,Grzybkująca amunicja 9 mm,Munição 9 mm PO,Экспансивные патроны 9 мм,HP 9 mm Mühimmat,9毫米空心弹,HP 9 毫米彈藥,Munición expansiva de 9 mm\n 3159  ammoAPGroupDesc,items,Ammo,,,Armor piercing ammunition works especially well against armored targets but puts a bit more stress on the gun. It can penetrate one enemy or one block of up to 250 hit points to also damage the enemy standing behind it.,,\"Panzerbrechende Munition wirkt besonders gut gegen gepanzerte Ziele, belastet aber die Waffe ein wenig mehr. Sie kann einen Feind oder einen Block mit bis zu 250 Gesundheitspunkten durchschlagen und auch den dahinter stehenden Feind schädigen.\",\"La munición con perforación de armadura funciona particularmente bien contra objetivos con armadura, pero somete el arma a una mayor presión. Puede perforar un enemigo o un bloque de hasta 250 puntos de impacto para también infligir daño al enemigo que hay detrás.\",\"Les munitions perforantes (AP) sont particulièrement efficaces contre les cibles blindées, mais elles abîment un peu plus l'arme. Elles peuvent percer un ennemi ou un bloc jusqu'à 250 points de dégâts pour aussi en infliger à l'ennemi derrière lui.\",Munizioni che perforano le armature: funzionano molto bene soprattutto contro i nemici corazzati ma induce un po' più di pressione sulla pistola. Può trapassare un nemico o un blocco con un massimo di 250 punti ferita per infliggere danni anche al nemico alle sue spalle.,貫通弾はアーマーを装備したターゲットに対して特に有効ですが、銃に若干の負担がかかります。体力ポイント250までの敵一体あるいはブロック一個を貫通し、その背後に立っている敵にもダメージを与えます。,갑옷을 착용한 적에게 특히 효과가 좋은 갑옷 관통 탄약이지만 총에 전달되는 충격이 약간 더 증가합니다. 최대 250 히트 포인트의 적 하나 또는 방어 블록을 관통하며 그 뒤에 있는 적에게까지 대미지를 줍니다.,\"Amunicja przeciwpancerna doskonale sprawdzi się do ostrzału opancerzonych celów, ale mocniej obciąża broń. Z łatwością przebije cel, jednego wroga lub jeden blok o 250 punktach zdrowia, a następnie zada obrażenia wrogowi stojącemu za głównym celem.\",A munição perfurante funciona bem contra alvos blindados mas põe um pouco mais de pressão na arma. Ela penetra um inimigo ou um bloco de até 250 pontos de saúde e também causa dano ao inimigo atrás dele.,\"Бронебойные патроны лучше всего работают по бронированным целям, но сильнее изнашивают оружие. Пробивают одного противника или блок, прочностью до 250 ОЖ, и наносят урон врагу за ним.\",\"Zırh delici mühimmat, özellikle zırhlı hedeflerde etkiliyken silaha biraz baskı uygular. 250 sağlık puanına sahip bir düşmanı veya bloku delip geçebilir ve arkasındaki düşmana da hasar verebilir.\",穿甲弹药能有效克制带护甲的目标，不过对枪支压力较大。可穿透一个敌人或一个物块，最高达250点生命值，同时可对目标后方的敌人造成伤害。,穿甲彈藥對裝甲目標效果特別好，但對槍支造成的壓力更大。它可以穿透一個敵人或對某一模塊造成最多 250 的暴擊，也可對站在它後面的敵人造成傷害。,\"La munición con perforación de armadura funciona particularmente bien contra objetivos con armadura, pero somete el arma a una mayor presión. Puede perforar un enemigo o un bloque de hasta 250 puntos de impacto para también infligir daño al enemigo que hay detrás.\"\n 3160: ammoArrowExploding,items,Ammo,,,Exploding Arrow (Ammo),,Sprengpfeil (Munition),Flecha explosiva (munición),Flèche explosive (munition),Freccia esplosiva (Munizioni),爆発矢（弾薬）,폭발 화살 (탄약),Wybuchowa strzała (amunicja),Flecha Explosiva (Munição),Взрывная стрела (боеприпасы),Patlayan Ok (Mühimmat),爆炸箭（弹药）,爆炸箭（彈藥）,Flecha explosiva (munición)\n 3161: ammoArrowExplodingDesc,items,Ammo,,,Rifle grenades gone medieval. Ages 6 and up.,,Mittelalterliche Gewehrgranaten. Geeignet für ein Alter von 6 oder höher.,Granadas en rifle al estilo medieval. Para mayores de 6 años.,Version médiévale des grenades. 6 ans et plus.,Granate da fucile come ai vecchi tempi. Dai 6 anni in su.,中世版小銃擲弾です。対象年齢6才以上。,중세 방식의 수류탄이라고 볼 수 있겠죠. 6년 이상 되었습니다.,Granaty nasadkowe rodem ze średniowiecza. Od 6. roku życia.,As granadas de rifle ficaram medievais. Século VI e acima.,Ружейный гранатомет из прошлого. Для детей старше 6 лет.,Orta Çağ'ın tüfek bombaları. 6 yaş ve üzeri.,中世纪的枪榴弹。六岁以上使用。,步槍手榴彈的中世紀版本。6 歲以上人士使用。,Granadas en rifle al estilo medieval. Para mayores de 6 años.\n 3162  ammoArrowFlaming,items,Ammo,,,Flaming Arrow (Ammo),,Feuerpfeil (Munition),Flecha en llamas (munición),Flèche enflammée (munition),Freccia di fuoco (Munizioni),燃焼矢（弾薬）,불화살 (탄약),Płonąca strzała (amunicja),Flecha Flamejante (Munição),Зажигательная стрела (боеприпасы),Alevli Ok (Mühimmat),燃烧箭（弹药）,燃燒箭（彈藥）,Flecha en llamas (munición)\n 3163  ammoArrowFlamingDesc,items,Ammo,,,A flaming arrow does the most damage by setting its victims on fire. Hold reload to use alternate ammo.,,\"Ein Feuerpfeil richtet den meisten Schaden an, wenn er seine Opfer in Brand setzt. Nachladen gedrückt halten, um zwischen Munitionstypen zu wechseln.\",Una flecha incendiaria inflige el máximo daño a sus víctimas cuando les prende fuego. Mantén presionado recargar para usar munición alternativa.,\"Une flèche enflammée fait le plus de dégâts, puisqu'elle embrase sa victime. Maintenez le bouton de rechargement enfoncé pour utiliser un autre type de munition.\",\"Una freccia infiammata che infligge grandi danni dando fuoco alle sue vittime. Tieni premuto \"\"Ricarica\"\" per equipaggiare altre munizioni.\",対象者に火を放つことで最高クラスのダメージを与える燃え盛る矢です。リロード長押しで別の弾薬を使用できます。,불화살은 적에게 불을 붙여 최대 대미지를 가합니다. 다른 탄약을 사용하려면 재장전을 길게 누르세요.,\"Płonąca strzała podpala wrogów i tym sposobem zadaje im najwięcej obrażeń. Przytrzymaj klawisz przeładowania, aby zmienić typ amunicji.\",Uma flecha flamejante que causa dano ao incendiar as vítimas. Segure “recarregar” para alternar a munição.,\"Основную часть урона наносит, поджигая жертву. Удерживайте клавишу перезарядки, чтобы сменить тип боеприпаса.\",\"Alevli ok, kurbanlarını yakarak en çok hasarı verir. Alternatif mühimmat kullanmak için doldurma tuşuna basılı tut.\",燃烧箭可使敌人燃烧，造成大量伤害。长按重新装填以使用备用弹药。,燃燒箭可通過使受害者燃燒造成最大傷害。按住重新載入以使用備用彈藥。,Una flecha incendiaria inflige el máximo daño a sus víctimas cuando les prende fuego. Mantén presionado recargar para usar munición alternativa.\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\loot.xml:\n 1181  \n 1182  \t<item name=\"ammoCrossbowBoltSteelAP\" prob=\".15\" count=\"3,14\"/>\t<!-- 45 -->\n 1183: \t<item name=\"ammoArrowExploding\" count=\"4\"/>\t\t\t\t\t<!-- 180 -->\n 1184  \t<item name=\"ammoCrossbowBoltExploding\" count=\"3\"/>\t\t\t<!-- 250 -->\n 1185  \n ....\n 3042  \t<item name=\"ammoArrowFlaming\" count=\"50\" loot_prob_template=\"GradeBLoot\"/>\n 3043  \t<item name=\"ammoCrossbowBoltFlaming\" count=\"50\" loot_prob_template=\"GradeBLoot\"/>\n 3044: \t<item name=\"ammoArrowExploding\" count=\"30\" loot_prob_template=\"GradeCLoot\"/>\n 3045  \t<item name=\"ammoCrossbowBoltExploding\" count=\"30\" loot_prob_template=\"GradeCLoot\"/>\n 3046  \n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\progression.xml:\n 2262  \t<perk name=\"perkRangersExplodingBolts\" parent=\"skillArchery\" max_level=\"1\" base_skill_point_cost=\"0\" name_key=\"bookRangersExplodingBolts\" desc_key=\"perkRangersExplodingBoltsDesc\" long_desc_key=\"perkRangersExplodingBoltsLongDesc\">\n 2263  \t\t<effect_group>\n 2264: \t\t\t<passive_effect name=\"RecipeTagUnlocked\" operation=\"base_set\" level=\"1\" value=\"1\" tags=\"ammoCrossbowBoltExploding,ammoArrowExploding\"/>\n 2265  \t\t</effect_group>\n 2266  \t</perk>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\recipes.xml:\n  275  </recipe>\n  276  \n  277: <recipe name=\"ammoArrowExploding\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  278  \t<ingredient name=\"resourceArrowHeadSteelAP\" count=\"1\"/>\n  279  \t<ingredient name=\"resourceScrapPolymers\" count=\"2\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\ui_display.xml:\n  173  \t\t\t<display_entry name=\"ProjectileVelocity\" title_key=\"statProjectileVelocity\"/>\n  174  \t\t</item_display_info>\n  175: \t\t<item_display_info display_type=\"ammoArrowExploding\" display_group=\"groupAmmo\">\n  176  \t\t\t<display_entry name=\"dExDamageEntity\" title_key=\"statEntityDamageExplosion\"/>\n  177  \t\t\t<display_entry name=\"dExDamageBlock\" title_key=\"statBlockDamage\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\NoMoreGuns\\Config\\items.xml:\n   17  \t<remove xpath=\"//item[@name='thrownDynamite']\" />\n   18  \t<remove xpath=\"//item[@name='thrownGrenade']\" />\n   19: \t<remove xpath=\"//item[@name='ammoArrowExploding']\" />\n   20  \t<remove xpath=\"//item[@name='ammoCrossbowBoltExploding']\" />\n   21  \t<remove xpath=\"//item[@name='ammoBundleArrowExploding']\" />\n   ..\n   25  \t\n   26  \t\n   27: \t\t<!-- <property name=\"Magazine_items\" value=\"ammoArrowStone,ammoArrowIron,ammoArrowSteelAP,ammoArrowFlaming,ammoArrowExploding\"/> -->\n   28  \t\t<!-- <property name=\"Magazine_items\" value=\"ammoCrossbowBoltStone,ammoCrossbowBoltIron,ammoCrossbowBoltSteelAP,ammoCrossbowBoltFlaming,ammoCrossbowBoltExploding\"/> -->\n   29  \n\n24 matches across 8 files\n\n\nSearching 1530 files for \"ammoCrossbowBoltExploding\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\items.xml:\n 4206  \t\t<property name=\"Hitmask_override\" value=\"Arrow\"/>\n 4207  \t\t<property name=\"Delay\" value=\".8\"/> <!-- obsolete if rounds per minute exists -->\n 4208: \t\t<property name=\"Magazine_items\" value=\"ammoCrossbowBoltStone,ammoCrossbowBoltIron,ammoCrossbowBoltSteelAP,ammoCrossbowBoltFlaming,ammoCrossbowBoltExploding\"/>\n 4209  \t\t<!-- <property name=\"Reload_time\" value=\"4\"/> -->\n 4210  \t\t<property name=\"Sound_start\" value=\"crossbow_fire\"/>\n ....\n 4291  \t\t<property name=\"Hitmask_override\" value=\"Arrow\"/>\n 4292  \t\t<property name=\"Delay\" value=\".8\"/> <!-- obsolete if rounds per minute exists -->\n 4293: \t\t<property name=\"Magazine_items\" value=\"ammoCrossbowBoltStone,ammoCrossbowBoltIron,ammoCrossbowBoltSteelAP,ammoCrossbowBoltFlaming,ammoCrossbowBoltExploding\"/>\n 4294  \t\t<!-- <property name=\"Reload_time\" value=\"4\"/> -->\n 4295  \t\t<property name=\"Sound_start\" value=\"crossbow2_fire\"/>\n ....\n 6127  </item>\n 6128  \n 6129: <item name=\"ammoCrossbowBoltExploding\">\n 6130  \t<property name=\"Extends\" value=\"ammoCrossbowBoltIron\"/>\n 6131  \t<property name=\"DescriptionKey\" value=\"ammoArrowExplodingDesc\"/>\n ....\n 6154  \t\t<property name=\"Explosion.DamageBonus.water\" value=\"0\"/>\n 6155  \t</property>\n 6156: \t<effect_group name=\"ammoCrossbowBoltExploding\" tiered=\"false\"> <!-- ammoCrossbowBoltExploding -->\n 6157  \t\t<passive_effect name=\"BlockDamage\" operation=\"base_set\" value=\"2\"/><display_value name=\"dExDamageBlock\" value=\"2\"/>\n 6158  \t\t<passive_effect name=\"EntityDamage\" operation=\"base_set\" value=\"125\"/><display_value name=\"dExDamageEntity\" value=\"250\"/>\n ....\n 6420  <item name=\"ammoBundleCrossbowBoltExploding\">\n 6421  \t<property name=\"Extends\" value=\"ammoBundleCrossbowBoltStone\"/>\n 6422: \t<property name=\"CustomIcon\" value=\"ammoCrossbowBoltExploding\"/>\n 6423  \t<property name=\"EconomicValue\" value=\"6000\"/>\n 6424  \t<property class=\"Action0\">\n 6425: \t\t<property name=\"Create_item\" value=\"ammoCrossbowBoltExploding\"/>\n 6426  \t\t<property name=\"Create_item_count\" value=\"75\"/>\n 6427  \t</property>\n ....\n 13063  <!-- <item name=\"thrownTimedChargeSchematic\"> = bookGreatHeistTimedCharge -->\n 13064  <!-- <item name=\"ammoArrowFlamingSchematic\"> = book -->\n 13065: <!-- <item name=\"ammoCrossbowBoltExplodingSchematic\"> = book -->\n 13066  \n 13067  <item name=\"gunToolNailgunSchematic\">\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\Localization.txt:\n 3197  ammoBundleShotgunShell,items,Ammo,,,Box of Shotgun Shells (100),,Kiste mit Schrotflinten-Patronen (100),Caja de cartuchos de escopeta (100),Boîte de cartouches de fusil à pompe (100),Scatola di bossoli per fucile (100),ショットガン用シェル（100）個入りの箱,샷건 탄약 상자 (100),Pudełko nabojów do strzelby (100),Caixa de Cartuchos de Espingarda (100),Коробка патронов для дробовика (100),Pompalı Tüfek Fişeği Kutusu (100),一盒霰弹（100）,散彈獵槍子彈盒（100）,Caja de cartuchos de escopeta (100)\n 3198  ammoBundleShotgunSlug,items,Ammo,,,Box of Shotgun AP Slugs (100),,Kiste mit panzerbrechenden Schrotflintengeschossen (100),Caja de balas con perforación de armadura de escopeta (100),Boîte de balles AP pour fusil à pompe (100),Scatola di cartucce perforanti per fucile (100),ショットガン用AP弾（100）個入りの箱,샷건 AP 슬러그 상자 (100),Pudełko przeciwpancernych naboi kulowych do strzelby (100),Caixa de Projéteis Pesados AP de Espingarda (100),Коробка бронебойных патронов для дробовика (100),Pompalı Tüfek AP Mühimmatı Kutusu (100),一盒霰弹枪穿甲弹（100）,散彈獵槍穿甲彈盒（100）,Caja de balas con perforación de armadura de escopeta (100)\n 3199: ammoCrossbowBoltExploding,items,Ammo,,,Exploding Crossbow Bolts,,Sprengbolzen für Armbrüste,Saetas explosiva para ballesta,Carreaux d'arbalète explosifs,Dardi per balestra esplosivi,クロスボウ用爆発ボルト,폭발 석궁 볼트,Wybuchowe bełty,Virotes de Besta Explosivos,Взрывные болты для арбалета,Patlayan Arbalet Oku,爆炸弩箭,爆炸十字弓箭,Saetas explosiva para ballesta\n 3200  ammoCrossbowBoltFlaming,items,Ammo,,,Flaming Crossbow Bolt (Ammo),,Feuerbolzen für Armbrüste (Munition),Saeta en llamas para ballesta (munición),Carreau d'arbalète enflammé (munition),Dardo per balestra infuocato (Munizioni),クロスボウ用燃焼ボルト（弾薬）,불 석궁 볼트 (탄약),Płonący bełt (amunicja),Virotes de Besta Flamejantes (Munição),Зажигательный болт для арбалета (боеприпасы),Alevli Arbalet Oku (Mühimmat),燃烧弩箭（弹药）,燃燒十字弓箭（彈藥）,Saeta en llamas para ballesta (munición)\n 3201  ammoCrossbowBoltFlamingDesc,items,Ammo,,,A flaming bolt does the most damage by setting its victims on fire. Hold reload to use alternate ammo.,,\"Ein Feuerbolzen richtet den meisten Schaden an, wenn er seine Opfer in Brand setzt. Nachladen gedrückt halten, um zwischen Munitionstypen zu wechseln.\",Una saeta incendiaria inflige el máximo daño a sus víctimas cuando les prende fuego. Mantén presionado recargar para usar munición alternativa.,\"Un carreau enflammé fait le plus de dégâts, puisqu'il embrase sa victime. Maintenez le bouton de rechargement enfoncé pour utiliser un autre type de munition.\",\"Un dardo infiammato che infligge grandi danni dando fuoco alle sue vittime. Tieni premuto \"\"Ricarica\"\" per equipaggiare altre munizioni.\",対象者に火を放つことで最高クラスのダメージを与える燃え盛るボルトです。リロード長押しで別の弾薬を使用できます。,불 볼드는 적에게 불을 붙여 최대 대미지를 가합니다. 다른 탄약을 사용하려면 재장전을 길게 누르세요.,\"Płonący bełt podpala wrogów i tym sposobem zadaje im najwięcej obrażeń. Przytrzymaj klawisz przeładowania, aby zmienić typ amunicji.\",Um virote flamejante causa dano ao incendiar as vítimas. Segure “recarregar” para alternar a munição.,\"Зажигательный болт наносит большую часть урона, поджигая жертву. Удерживайте клавишу перезарядки, чтобы сменить тип боеприпаса.\",\"Alevli kısa ok, kurbanlarını yakarak en çok hasarı verir. Alternatif mühimmat kullanmak için doldurma tuşuna basılı tut.\",燃烧弩箭可使敌人燃烧，造成大量伤害。长按重新装填以使用备用弹药。,燃燒十字弓箭可通過使受害者燃燒造成最大傷害。按住重新載入以使用備用彈藥。,Una saeta incendiaria inflige el máximo daño a sus víctimas cuando les prende fuego. Mantén presionado recargar para usar munición alternativa.\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\loot.xml:\n 1182  \t<item name=\"ammoCrossbowBoltSteelAP\" prob=\".15\" count=\"3,14\"/>\t<!-- 45 -->\n 1183  \t<item name=\"ammoArrowExploding\" count=\"4\"/>\t\t\t\t\t<!-- 180 -->\n 1184: \t<item name=\"ammoCrossbowBoltExploding\" count=\"3\"/>\t\t\t<!-- 250 -->\n 1185  \n 1186  \t<item name=\"ammoRocketHE\" count=\"1\"/>\t\t\t\t\t\t<!-- 420 -->\n ....\n 3043  \t<item name=\"ammoCrossbowBoltFlaming\" count=\"50\" loot_prob_template=\"GradeBLoot\"/>\n 3044  \t<item name=\"ammoArrowExploding\" count=\"30\" loot_prob_template=\"GradeCLoot\"/>\n 3045: \t<item name=\"ammoCrossbowBoltExploding\" count=\"30\" loot_prob_template=\"GradeCLoot\"/>\n 3046  \n 3047  \t<item name=\"ammoRocketFrag\" count=\"7\" loot_prob_template=\"GradeCLoot\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\progression.xml:\n 2262  \t<perk name=\"perkRangersExplodingBolts\" parent=\"skillArchery\" max_level=\"1\" base_skill_point_cost=\"0\" name_key=\"bookRangersExplodingBolts\" desc_key=\"perkRangersExplodingBoltsDesc\" long_desc_key=\"perkRangersExplodingBoltsLongDesc\">\n 2263  \t\t<effect_group>\n 2264: \t\t\t<passive_effect name=\"RecipeTagUnlocked\" operation=\"base_set\" level=\"1\" value=\"1\" tags=\"ammoCrossbowBoltExploding,ammoArrowExploding\"/>\n 2265  \t\t</effect_group>\n 2266  \t</perk>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\recipes.xml:\n  339  </recipe>\n  340  \n  341: <recipe name=\"ammoCrossbowBoltExploding\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  342  \t<ingredient name=\"resourceArrowHeadSteelAP\" count=\"1\"/>\n  343  \t<ingredient name=\"resourceScrapPolymers\" count=\"2\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\NoMoreGuns\\Config\\items.xml:\n   18  \t<remove xpath=\"//item[@name='thrownGrenade']\" />\n   19  \t<remove xpath=\"//item[@name='ammoArrowExploding']\" />\n   20: \t<remove xpath=\"//item[@name='ammoCrossbowBoltExploding']\" />\n   21  \t<remove xpath=\"//item[@name='ammoBundleArrowExploding']\" />\n   22  \t<remove xpath=\"//item[@name='ammoBundleCrossbowBoltExploding']\" />\n   ..\n   26  \t\n   27  \t\t<!-- <property name=\"Magazine_items\" value=\"ammoArrowStone,ammoArrowIron,ammoArrowSteelAP,ammoArrowFlaming,ammoArrowExploding\"/> -->\n   28: \t\t<!-- <property name=\"Magazine_items\" value=\"ammoCrossbowBoltStone,ammoCrossbowBoltIron,ammoCrossbowBoltSteelAP,ammoCrossbowBoltFlaming,ammoCrossbowBoltExploding\"/> -->\n   29  \n   30  \t<remove xpath=\"//item[@name='gunPistolSchematic']\" />\n\n15 matches across 6 files\n\n\nSearching 1530 files for \"ammoBundleArrowExploding\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\items.xml:\n 6370  \t</property>\n 6371  </item>\n 6372: <item name=\"ammoBundleArrowExploding\">\n 6373  \t<property name=\"Extends\" value=\"ammoBundleArrowStone\"/>\n 6374  \t<property name=\"CustomIcon\" value=\"ammoArrowExploding\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\Localization.txt:\n 3179  ammoBundle9mmBulletBall,items,Ammo,,,Box of 9mm Ammo (100),,Kiste mit 9-mm-Munition (100),Caja de munición de 9 mm (100),Boîte de munitions cal. 9 mm (100),Scatola di munizioni per 9 mm Magnum (100),9mm弾（100）個入りの箱,9mm 탄약 상자 (100),Pudełko amunicji 9 mm (100),Caixa de Munição 9 mm (100),Коробка патронов 9 мм (100),9 mm Mühimmat Kutusu (100),一盒9毫米弹药（100）,9 毫米彈藥盒（100),Caja de munición de 9 mm (100)\n 3180  ammoBundle9mmBulletHP,items,Ammo,,,Box of HP 9mm Ammo (100),,Kiste mit 9-mm-Hohlspitzgeschossen (100),Caja de munición expansiva de 9 mm (100),Boîte de munitions HP cal. 9 mm (100),Scatola di munizioni a punta cava per 9 mm Magnum (100),HP 9mm弾（100）個入りの箱,HP 9mm 탄약 상자 (100),Pudełko grzybkującej amunicji 9 mm (100),Caixa de Munição 9 mm PO (100),Коробка экспансивных патронов 9 мм (100),HP 9 mm Mühimmatı Kutusu (100),一盒9毫米空心弹（100）,HP 9 毫米彈藥盒（100),Caja de munición expansiva de 9 mm (100)\n 3181: ammoBundleArrowExploding,items,Ammo,,,Box of Exploding Arrows (75),,Kiste mit Sprengpfeilen (75),Caja de flechas explosivas (75),Boîte de flèches explosives (75),Scatola di frecce esplosive (75),爆発矢（75）本入りの箱,폭발 화살 상자 (75),Pudełko wybuchowych strzał (75),Caixa de Flechas Explosivas (75),Коробка взрывных стрел (75),Patlayan Ok Kutusu (75),一盒爆炸箭（75）,爆炸箭筒（75）,Caja de flechas explosivas (75)\n 3182  ammoBundleArrowFlaming,items,Ammo,,,Box of Flaming Arrows (100),,Kiste mit Feuerpfeilen (100),Caja de flechas incendiarias (100),Boîte de flèches enflammées (100),Scatola di frecce di fuoco (100),燃焼矢（100）本入りの箱,불화살 상자 (100),Pudełko płonących strzał (100),Caixa de Flechas Flamejantes (100),Коробка зажигательных стрел (100),Alevli Ok Kutusu (100),一盒燃烧箭（100）,燃燒箭筒（100）,Caja de flechas incendiarias (100)\n 3183  ammoBundleArrowIron,items,Ammo,,,Box of Iron Arrows (100),,Kiste mit Eisenpfeilen (100),Caja de flechas de hierro (100),Boîte de flèches en fer (100),Scatola di frecce di ferro (100),鉄矢（100）本入りの箱,철제 화살 상자 (100),Pudełko żelaznych strzał (100),Caixa de Flechas de Ferro (100),Коробка железных стрел (100),Demir Ok Kutusu (100),一盒铁箭（100）,鐵箭筒（100）,Caja de flechas de hierro (100)\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\progression.xml:\n 2292  \t<perk name=\"perkRangersComplete\" parent=\"skillArchery\" max_level=\"1\" base_skill_point_cost=\"0\" name_key=\"perkRangersCompleteName\" desc_key=\"perkRangersCompleteDesc\" long_desc_key=\"perkRangersCompleteLongDesc\">\n 2293  \t\t<effect_group>\n 2294: \t\t\t<passive_effect name=\"RecipeTagUnlocked\" operation=\"base_set\" level=\"1\" value=\"1\" tags=\"ammoBundleArrowStone,ammoBundleArrowIron,ammoBundleArrowFlaming,ammoBundleCrossbowBoltFlaming,ammoBundleArrowSteelAP,ammoBundleCrossbowBoltExploding,ammoBundleArrowExploding,ammoBundleCrossbowBoltIron,ammoBundleCrossbowBoltSteelAP,ammoBundleCrossbowBoltStone\"/>\n 2295  \t\t</effect_group>\n 2296  \t</perk>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\recipes.xml:\n  282  </recipe>\n  283  \n  284: <recipe name=\"ammoBundleArrowExploding\" count=\"1\" craft_time=\"360\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  285  \t<ingredient name=\"resourceArrowHeadSteelAP\" count=\"60\"/>\n  286  \t<ingredient name=\"resourceScrapPolymers\" count=\"120\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\NoMoreGuns\\Config\\items.xml:\n   19  \t<remove xpath=\"//item[@name='ammoArrowExploding']\" />\n   20  \t<remove xpath=\"//item[@name='ammoCrossbowBoltExploding']\" />\n   21: \t<remove xpath=\"//item[@name='ammoBundleArrowExploding']\" />\n   22  \t<remove xpath=\"//item[@name='ammoBundleCrossbowBoltExploding']\" />\n   23  \t\n\n5 matches across 5 files\n",
 			"settings":
 			{
-				"buffer_size": 7079,
+				"buffer_size": 25348,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/ModInfo.xml",
+			"settings":
+			{
+				"buffer_size": 528,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/items.xml",
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Release Notes.md",
 			"settings":
 			{
-				"buffer_size": 5399,
+				"buffer_size": 382,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-05-18__09-04-24.txt",
+			"contents": "Dicktator4Life",
 			"settings":
 			{
-				"buffer_size": 562406,
+				"buffer_size": 14,
+				"line_ending": "Windows",
+				"name": "Dicktator4Life"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/recipes.xml",
+			"settings":
+			{
+				"buffer_size": 166424,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/recipes.xml",
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config/recipes.xml",
 			"settings":
 			{
-				"buffer_size": 1761,
+				"buffer_size": 1278,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config/loot.xml",
+			"settings":
+			{
+				"buffer_size": 2041,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Key,Source,Context,Changes,English\npjVehicle4x4TruckWhitePlaceable,blocks,Block,New,\"Scrubed 4x4\"\npjVehicle4x4TruckBluePlaceable,blocks,Block,New,\"4x4, Blue\"\npjVehicle4x4TruckRedPlaceable,blocks,Block,New,\"4x4, Red\"\npjVehicle4x4TruckSpartanPlaceable,blocks,Block,New,\"4x4, Spartan Black and Gold\"\npjVehicle4x4TruckPatrolPlaceable,blocks,Block,New,\"4x4, Patrol Blue\"\npjVehicle4x4TruckTestPlaceable,blocks,Block,New,\"4x4, UV Map Test Pattern\"\npjVehicleMotorcycleTestPlaceable,blocks,Block,New,\"Motorcyle, UV Map Test Pattern\"\n",
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/Localization.txt",
+			"file_size": 532,
+			"file_write_time": 132342130327589543,
+			"settings":
+			{
+				"buffer_size": 524,
 				"line_ending": "Windows"
 			}
 		},
@@ -218,14 +266,23 @@
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MorePaintTextures",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/PG13",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/TopMinderPrefabs",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/TopMinderPrefabs/Config"
 	],
 	"file_history":
 	[
+		"/X/Unity/7dtd Template/ProjectSettings/TagManager.asset",
+		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa18944.48595/items.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/entityclasses.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MorePaintTextures/ModInfo.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-05-18__10-49-43.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/items.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-05-18__10-36-11.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-05-18__09-04-24.txt",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/Localization.txt",
 		"/X/Media/Anime/GHOST in the SHELL (1995-2015) - 4 Movies, 2 COMPLETE Series, 4 OVAs - 720p DUAL Audio x264/Torrent Description (READ Me).txt",
 		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/serverconfig.xml",
@@ -249,9 +306,7 @@
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/South Mifave County/GenerationInfo.txt",
 		"/D/7dtd/Castle Spartan/castle-spartan/Mods/CastleSpartan/Config/rwgmixer.xml",
 		"/C/Users/Eric/Desktop/rwgmixer.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/items.xml",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/8A425AA286971A4AA7383E854C6901F6/World/prefabs.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/entityclasses.xml",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/Pedero County/prefabs.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/TopMinderPrefabs/Config/rwgmixer.xml",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/South Mifave County/prefabs.xml",
@@ -347,13 +402,7 @@
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/Release Notes.md",
 		"/C/7d2d/Alpha18/Darkness_Falls/Darkness_Falls/7DaysToDie_Data/output_log__2020-04-25__08-44-44.txt",
 		"/X/7 days mods/darknessfallsa18client-master/darknessfallsa18client-master/README.md",
-		"/X/Unity/@Ressources/Vehicles_mods/manux_4x4TruckReplica.unity3d/Assets/AssetBundles/prefabs/vehicles/a17/4x4_test_prefab.prefab.meta",
-		"/C/Steam/steamapps/common/7 Days To Die - A17.4 + My mods/Mods/manux_CustomVehicles_A17_modlet/Config/entityclasses.xml",
-		"/X/7 days mods/darknessfallsa18client-master/darknessfallsa18client-master/Mods/StaminaFloattoInt/ModInfo.xml",
-		"/D/7dtd/7dtdMods/.github/workflows/PG13.yml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/Config/entityclasses.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/PG13/Config/recipes.xml",
-		"/C/Steam/steamapps/common/7 Days To Die - A17.4 + My mods/Mods/manux_CustomVehicles_A17_modlet/Config/items.xml"
+		"/X/Unity/@Ressources/Vehicles_mods/manux_4x4TruckReplica.unity3d/Assets/AssetBundles/prefabs/vehicles/a17/4x4_test_prefab.prefab.meta"
 	],
 	"find":
 	{
@@ -380,6 +429,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ammoBundleArrowExploding",
+			"ammoCrossbowBoltExploding",
+			"ammoArrowExploding",
+			"ammoBundleCrossbowBoltExploding",
+			"ammoBundleArrowExploding",
+			"ammoCrossbowBoltExploding",
+			"ammoArrowExploding",
+			"arrow",
+			"explosives",
+			"car_mesh",
+			"object",
 			"Jeeps.unity3d",
 			"pjVehicle4x4TruckTest",
 			"pjVehicle4x4Truck",
@@ -496,18 +556,7 @@
 			"4x4",
 			"jeep",
 			"vehicle4x4TruckPlaceable",
-			"zombieStandardStripperRagdoll",
-			"zombieStripper",
-			"StorageSize",
-			"trader",
-			"stripper",
-			"zombieStripper",
-			"zombieStandardStripperRagdoll",
-			"trader",
-			"Entities/Traders",
-			"JoelRagdoll",
-			"npcTraderJoel",
-			"trader"
+			"zombieStandardStripperRagdoll"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -542,7 +591,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -570,7 +619,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
@@ -603,133 +652,304 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MorePaintTextures/ModInfo.xml",
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/items.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 436,
+						"buffer_size": 1048860,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								376853,
+								376884
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 21112.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config/items.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2385,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								342,
-								342
+								1073,
+								1104
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/XML/XML.sublime-syntax"
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 108.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/entityclasses.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7079,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5346,
-								5346
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 209.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
 					"buffer": 4,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/items.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5399,
+						"buffer_size": 25348,
 						"regions":
 						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										354,
+										372
+									],
+									[
+										426,
+										444
+									],
+									[
+										854,
+										872
+									],
+									[
+										919,
+										937
+									],
+									[
+										1646,
+										1664
+									],
+									[
+										2051,
+										2069
+									],
+									[
+										2457,
+										2475
+									],
+									[
+										2645,
+										2663
+									],
+									[
+										2767,
+										2785
+									],
+									[
+										3074,
+										3092
+									],
+									[
+										3115,
+										3133
+									],
+									[
+										3557,
+										3575
+									],
+									[
+										3702,
+										3720
+									],
+									[
+										4051,
+										4069
+									],
+									[
+										4207,
+										4225
+									],
+									[
+										7438,
+										7456
+									],
+									[
+										7781,
+										7799
+									],
+									[
+										10538,
+										10556
+									],
+									[
+										10868,
+										10886
+									],
+									[
+										11489,
+										11507
+									],
+									[
+										11664,
+										11682
+									],
+									[
+										12107,
+										12125
+									],
+									[
+										12546,
+										12564
+									],
+									[
+										12848,
+										12866
+									],
+									[
+										13494,
+										13519
+									],
+									[
+										13939,
+										13964
+									],
+									[
+										14138,
+										14163
+									],
+									[
+										14423,
+										14448
+									],
+									[
+										14471,
+										14496
+									],
+									[
+										14930,
+										14955
+									],
+									[
+										15093,
+										15118
+									],
+									[
+										15380,
+										15405
+									],
+									[
+										16634,
+										16659
+									],
+									[
+										19234,
+										19259
+									],
+									[
+										19561,
+										19586
+									],
+									[
+										20151,
+										20176
+									],
+									[
+										20352,
+										20377
+									],
+									[
+										20804,
+										20829
+									],
+									[
+										21280,
+										21305
+									],
+									[
+										21582,
+										21606
+									],
+									[
+										22717,
+										22741
+									],
+									[
+										24458,
+										24482
+									],
+									[
+										24724,
+										24748
+									],
+									[
+										25207,
+										25231
+									]
+								],
+								"scope": ""
+							}
 						},
 						"selection":
 						[
 							[
-								3997,
-								4010
+								21412,
+								21412
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 3,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1310.0,
+						"translation.y": 5814.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-05-18__09-04-24.txt",
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/ModInfo.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 562406,
+						"buffer_size": 528,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								578,
-								578
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 9342.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/recipes.xml",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1761,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								468,
+								501
 							]
 						],
 						"settings":
@@ -741,24 +961,111 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/vehicles.xml",
+					"buffer": 6,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Release Notes.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 42968,
+						"buffer_size": 382,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								31349,
-								31349
+								133,
+								133
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14,
+								14
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Dicktator4Life",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/recipes.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 166424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16812,
+								16812
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5432.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config/recipes.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1256,
+								1256
 							]
 						],
 						"settings":
@@ -774,7 +1081,93 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config/loot.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								992,
+								992
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/Localization.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 524,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								329,
+								329
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/vehicles.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 42968,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25056,
+								25056
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 214.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MorePaintTextures/Release Notes.md",
 					"semi_transient": false,
 					"settings":
@@ -800,11 +1193,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 14,
 					"file": "/D/7dtd/7dtdMods/README.md",
 					"semi_transient": false,
 					"settings":
@@ -828,7 +1221,7 @@
 						"translation.y": 371.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 13,
 					"type": "text"
 				}
 			]
