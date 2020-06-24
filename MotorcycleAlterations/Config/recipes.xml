@@ -1,0 +1,45 @@
+<configs>
+	<append xpath="/recipes" >
+
+		<recipe name="vehicleMotorcyclePlaceable" count="1" >
+			<ingredient name="maVehicleMotorcycleNoSpikePlaceable" count="1"/>
+		</recipe>
+		<recipe name="vehicleMotorcyclePlaceable" count="1" >
+			<ingredient name="maVehicleMotorcycleNoShieldPlaceable" count="1"/>
+		</recipe>
+		<recipe name="vehicleMotorcyclePlaceable" count="1" >
+			<ingredient name="maVehicleMotorcycleNoHoodPlaceable" count="1"/>
+		</recipe>
+
+		<recipe name="maVehicleMotorcycleNoSpikePlaceable" count="1" >
+			<ingredient name="vehicleMotorcyclePlaceable" count="1"/>
+		</recipe>
+		<recipe name="maVehicleMotorcycleNoSpikePlaceable" count="1" >
+			<ingredient name="maVehicleMotorcycleNoShieldPlaceable" count="1"/>
+		</recipe>
+		<recipe name="maVehicleMotorcycleNoSpikePlaceable" count="1" >
+			<ingredient name="maVehicleMotorcycleNoHoodPlaceable" count="1"/>
+		</recipe>
+
+		<recipe name="maVehicleMotorcycleNoShieldPlaceable" count="1" >
+			<ingredient name="maVehicleMotorcycleNoSpikePlaceable" count="1"/>
+		</recipe>
+		<recipe name="maVehicleMotorcycleNoShieldPlaceable" count="1" >
+			<ingredient name="vehicleMotorcyclePlaceable" count="1"/>
+		</recipe>
+		<recipe name="maVehicleMotorcycleNoShieldPlaceable" count="1" >
+			<ingredient name="maVehicleMotorcycleNoHoodPlaceable" count="1"/>
+		</recipe>
+
+		<recipe name="maVehicleMotorcycleNoHoodPlaceable" count="1" >
+			<ingredient name="maVehicleMotorcycleNoSpikePlaceable" count="1"/>
+		</recipe>
+		<recipe name="maVehicleMotorcycleNoHoodPlaceable" count="1" >
+			<ingredient name="maVehicleMotorcycleNoShieldPlaceable" count="1"/>
+		</recipe>
+		<recipe name="maVehicleMotorcycleNoHoodPlaceable" count="1" >
+			<ingredient name="vehicleMotorcyclePlaceable" count="1"/>
+		</recipe>
+
+	</append>
+</configs>

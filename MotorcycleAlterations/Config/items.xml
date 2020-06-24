@@ -1,0 +1,58 @@
+<configs>
+	<append xpath="/items">	
+
+		<!-- Motorcycle -->
+		<item name="maVehicleMotorcycleNoHoodPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_nohood_prefab.prefab"/>
+			<property name="EconomicValue" value="10000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="maVehicleMotorcycleNoHood"/>
+				<property name="VehicleSize" value="1.3, 1.9, 3"/>
+			</property>
+			<effect_group name="maVehicleMotorcycleNoHoodPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="6000"/>
+			</effect_group>
+		</item>
+
+		<item name="maVehicleMotorcycleNoShieldPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_noshield_prefab.prefab"/>
+			<property name="EconomicValue" value="10000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="maVehicleMotorcycleNoShield"/>
+				<property name="VehicleSize" value="1.3, 1.9, 3"/>
+			</property>
+			<effect_group name="maVehicleMotorcycleNoShieldPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="6000"/>
+			</effect_group>
+		</item>
+
+		<item name="maVehicleMotorcycleNoSpikePlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_nospike_prefab.prefab"/>
+			<property name="EconomicValue" value="10000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="maVehicleMotorcycleNoSpike"/>
+				<property name="VehicleSize" value="1.3, 1.9, 3"/>
+			</property>
+			<effect_group name="maVehicleMotorcycleNoSpikePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="6000"/>
+			</effect_group>
+		</item>
+
+	</append>
+
+	<!-- Change the model for the standard Motorcycle (now with headlight and taillight) -->
+	<insertAfter xpath="//property[@name='Meshfile'][@value='#Entities/Vehicles?motorcycle_Prefab.prefab']">
+		<property name="Meshfile" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_prefab.prefab"/>
+	</insertAfter>
+	<remove xpath="//property[@name='Meshfile'][@value='#Entities/Vehicles?motorcycle_Prefab.prefab']" />
+
+</configs>
