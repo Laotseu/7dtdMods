@@ -41,6 +41,14 @@ There are 10 textures that are present in the game but are not available when pa
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/MorePaintTextures_v1.0/MorePaintTextures_v1.0.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MorePaintTextures_v1.0)<br /><br /><br /><br />
 
+MotorcycleAlterations v1.0 (Alpha 18)
+-------------------------------------
+
+<img align="left" width="282" height="150" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/MotorcycleAlterations/MotorcycleAlterations.png" />
+During one of the FunPims stream for Alpha 19, the motorcycle model was shown without the shield and spikes. I thought it looked cool. This mod allows you to select alterations to the base model. I've also added a taillight just because.
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/MotorcycleAlterations_v1.0/MotorcycleAlterations_v1.0.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MotorcycleAlterations_v1.0)<br /><br /><br /><br />
 NoMoreGuns v1.2 (Alpha 18)
 --------------------------
 
