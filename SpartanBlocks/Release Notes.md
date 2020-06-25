@@ -2,6 +2,8 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 1.5: Miss Spartan flags
+    - New Miss Spartan flags (regular, black, half-mast)
 * 1.4: Black flags
     - New Spartan black flag
     - New Patrol black flag
