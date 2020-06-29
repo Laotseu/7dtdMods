@@ -77,14 +77,6 @@
 			}
 		},
 		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config/recipes.xml",
-			"settings":
-			{
-				"buffer_size": 922,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Config/recipes.xml",
 			"settings":
 			{
@@ -139,10 +131,18 @@
 			}
 		},
 		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-06-24__21-05-54.txt",
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/items.xml",
 			"settings":
 			{
-				"buffer_size": 31265,
+				"buffer_size": 1333,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-06-28__00-02-53.txt",
+			"settings":
+			{
+				"buffer_size": 11355,
 				"line_ending": "Windows"
 			}
 		},
@@ -283,7 +283,12 @@
 	[
 		"/C/Steam/steamapps/common/7 Days To Die",
 		"/C/Steam/steamapps/common/7 Days To Die/Data",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Config",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/UIAtlases",
@@ -291,6 +296,8 @@
 	],
 	"file_history":
 	[
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-06-24__21-05-54.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config/recipes.xml",
 		"/D/7dtd/7dtdMods/.github/workflows/MotorcycleAlterations.yml",
 		"/D/7dtd/7dtdMods/.github/workflows/MotorcycleAlternatives.yml",
 		"/C/7d2d/Alpha18/war3zuk/war3zuk_alpha_18_aio_overhaul/Mods/Bdubs Vehicles/Config/items.xml",
@@ -399,7 +406,6 @@
 		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa20284.14097/ModInfo.xml",
 		"/X/Unity/@Ressources/FunPimps/Alpha 16.4/TextAsset/ta_opaquexml.txt",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config/items.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config/recipes.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Bundles/blocktextureatlases.manifest",
 		"/X/Unity/@Ressources/FunPims/blocktestureatlases/TextAsset/ta_opaquexml.txt",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/materials.xml",
@@ -417,12 +423,11 @@
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/recipes.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/CastleSpartan/Config/rwgmixer.xml",
-		"/C/7d2d/Saves/Darkness Falls/Darkness Falls/DFalls-Medium/Eric Test DF/ConfigsDump/npc.xml",
-		"/D/7dtd/7dtdMods/MoreContainers/ModInfo.xml"
+		"/C/7d2d/Saves/Darkness Falls/Darkness Falls/DFalls-Medium/Eric Test DF/ConfigsDump/npc.xml"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -445,6 +450,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"value=\"Chest\"",
+			"Clothing",
 			"Grand Spartan",
 			"SpartanFlag",
 			"Spartan",
@@ -570,9 +577,7 @@
 			"castl",
 			"TorchHeatMap",
 			"lantern",
-			"candle",
-			"HeatMapTime",
-			"TorchHeatMap"
+			"candle"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -611,7 +616,7 @@
 	"groups":
 	[
 		{
-			"selected": 10,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -732,35 +737,6 @@
 				},
 				{
 					"buffer": 4,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config/recipes.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 922,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								45,
-								214
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Config/recipes.xml",
 					"semi_transient": false,
 					"settings":
@@ -784,11 +760,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Config/vehicles.xml",
 					"semi_transient": false,
 					"settings":
@@ -813,11 +789,11 @@
 						"translation.y": 2376.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Config/entityclasses.xml",
 					"semi_transient": false,
 					"settings":
@@ -842,11 +818,11 @@
 						"translation.y": 972.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Config/items.xml",
 					"semi_transient": false,
 					"settings":
@@ -868,14 +844,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 540.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 8,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Config/Localization.txt",
 					"semi_transient": false,
 					"settings":
@@ -899,11 +875,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 9,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/blocks.xml",
 					"semi_transient": false,
 					"settings":
@@ -925,27 +901,56 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 806.0,
+						"translation.y": 2138.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-06-24__21-05-54.txt",
-					"semi_transient": false,
+					"buffer": 10,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/items.xml",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 31265,
+						"buffer_size": 1333,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								20061,
-								20061
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-06-28__00-02-53.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1363,
+								1363
 							]
 						],
 						"settings":
@@ -953,10 +958,10 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 10422.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -985,7 +990,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -1015,7 +1020,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -1043,7 +1048,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -1210,7 +1215,7 @@
 	"project": "GameDirectory.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
