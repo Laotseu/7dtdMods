@@ -2,6 +2,9 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 1.6: Alpha 19
+    - Rebuild assets for the new linear lighting (Alpha 19) 
+    - Try to fix issues with flags introduced with Unity 2019.2 Engine
 * 1.5: Miss Spartan flags
     - New Miss Spartan flags (regular, black, half-mast)
 * 1.4: Black flags

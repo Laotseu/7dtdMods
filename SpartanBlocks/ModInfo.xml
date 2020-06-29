@@ -5,7 +5,7 @@
 		<Name value="SpartanBlocks" />
 		<Description value="Grand Spartan branded and other related blocks" />
 		<Author value="Éric Beaudon" />
-		<Version value="1.5" />
+		<Version value="1.6" />
 	</ModInfo>
 
 	<!--
@@ -16,6 +16,8 @@
 		For this model to work properly, it needs to be installed on the server and every player's computer.
 	-->
 
+	<!-- v1.6:  Rebuild assets for the new linear lighting (Alpha 19) 
+				Try to fix issues with flags introduced with Unity 2019.2 Engine -->
 	<!-- v1.5:	Miss Spartan flags
 				New Miss Spartan flags (regular, black, half-mast) -->
 	<!-- v1.4:	Black flags
