@@ -2,6 +2,41 @@
 ========
 Mods for the game 7 Days to Die
 
+MoreContainers v1.1 (Alpha 19)
+------------------------------
+
+<img align="left" width="150" height="150" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/MoreContainers/MoreContainers.png" />Do you have friends that can't help themselves and store everything in a specific box for each type of items? I do. This mods add new graphic designs for the storage boxes and also add half-block versions of the storage boxes (for more headspace).
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreContainers_v1.1/MoreContainers_v1.1.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreContainers_v1.1)<br /><br /><br /><br />
+
+MotorcycleAlterations v1.1 (Alpha 19)
+-------------------------------------
+
+<img align="left" width="320" height="170" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/MotorcycleAlterations/MotorcycleAlterations.png" />
+During one of the FunPimps stream for Alpha 19, the motorcycle model was shown without the shield and spikes. I thought it looked cool. This mod allows you to select alterations to the base model. I've also added a taillight just because.<br /><br />
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/MotorcycleAlterations_v1.1/MotorcycleAlterations_v1.1.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MotorcycleAlterations_v1.1)<br /><br /><br /><br />
+
+PaintJob v1.3 (Alpha 19)
+------------------------
+
+<img align="left" width="150" height="150" hspace="8" src="https://github.com/Laotseu/7dtdMods/blob/master/PaintJob/PaintJob.png" />
+Are you tired of driving the exact same Jeep as you friend? Do you want to pimp your ride? PaintJob is for you! This mod add recipies that allow you to change the colour of your ride.<br />
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v1.3/PaintJob_v1.3.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PaintJob_v1.3)<br /><br /><br /><br />
+
+SpartanBlocks v1.6 (Alpha 19)
+-----------------------------
+
+<img align="left" width="150" height="150" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/SpartanBlocks/SpartanBlocks.jpg" />
+Add custom blocks and items for all the Grand Spartan's fans out there.<br />
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/SpartanBlocks_v1.6/SpartanBlocks_v1.6.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/SpartanBlocks_v1.6)<br /><br /><br /><br />
+
 Castle Spartan (on GitLab)
 --------------------------
 
@@ -25,14 +60,6 @@ Add recipes to create decorative blocks and make them available to players (as o
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreBlocks_v1.03/MoreBlocks_v1.03.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreBlocks_v1.03)<br /><br /><br /><br />
 
-MoreContainers v1.0 (Alpha 18)
-------------------------------
-
-<img align="left" width="150" height="150" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/MoreContainers/MoreContainers.png" />Do you have friends that can't help themselves and store everything in a specific box for each type of items? I do. This mods add new graphic designs for the storage boxes and also add half-block versions of the storage boxes (for more headspace).
-
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreContainers_v1.0/MoreContainers_v1.0.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreContainers_v1.0)<br /><br /><br /><br />
-
 MorePaintTextures v1.0 (Alpha 18)
 ---------------------------------
 
@@ -40,15 +67,6 @@ There are 10 textures that are present in the game but are not available when pa
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/MorePaintTextures_v1.0/MorePaintTextures_v1.0.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MorePaintTextures_v1.0)<br /><br /><br /><br />
-
-MotorcycleAlterations v1.0 (Alpha 18)
--------------------------------------
-
-<img align="left" width="320" height="170" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/MotorcycleAlterations/MotorcycleAlterations.png" />
-During one of the FunPimps stream for Alpha 19, the motorcycle model was shown without the shield and spikes. I thought it looked cool. This mod allows you to select alterations to the base model. I've also added a taillight just because.<br /><br />
-
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/MotorcycleAlterations_v1.0/MotorcycleAlterations_v1.0.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MotorcycleAlterations_v1.0)<br /><br /><br /><br />
 
 NoMoreGuns v1.2 (Alpha 18)
 --------------------------
@@ -69,24 +87,6 @@ modlet that remove said profanity and nudity from the game.
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/PG13_v1.0/PG13_v1.0.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PG13_v1.0)<br /><br /><br /><br />
-
-PaintJob v1.0 (Alpha 18)
-------------------------
-
-<img align="left" width="150" height="150" hspace="8" src="https://github.com/Laotseu/7dtdMods/blob/master/PaintJob/PaintJob.png" />
-Are you tired of driving the exact same Jeep as you friend? Do you want to pimp your ride? PaintJob is for you! This mod add recipies that allow you to change the colour of your ride.<br />
-
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v1.0/PaintJob_v1.0.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PaintJob_v1.0)<br /><br /><br /><br />
-
-SpartanBlocks v1.5 (Alpha 18)
------------------------------
-
-<img align="left" width="150" height="150" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/SpartanBlocks/SpartanBlocks.jpg" />
-Add custom blocks and items for all the Grand Spartan's fans out there.<br />
-
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/SpartanBlocks_v1.5/SpartanBlocks_v1.5.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/SpartanBlocks_v1.5)<br /><br /><br /><br />
 
 StorageSize v1.03 (Alpha 18)
 ----------------------------
