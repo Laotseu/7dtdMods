@@ -1,8 +1,10 @@
 **MoreContainers** is a 7 Days to Die modlet that adds new crate containers design to help you better sort your stuff in game.
 
+![MoreContainers](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/MoreContainers/MoreContainers.png)
+
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
-* 1.1: Rebuilt assets for the new linear lighting (Alpha 19)
+* 1.1: Rebuild assets for the new linear lighting (Alpha 19)
 * 1.0: Fist official version which includes
     - New design for generic, armors, barter (trader), forge, mining, and recycle storage boxes
 	- Everything is also available in half-cube format

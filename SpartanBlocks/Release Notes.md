@@ -1,5 +1,7 @@
 **SpartanBlocks** is a 7 Days to Die modlet that adds Grand Spartan branded blocks and other related items.
 
+![SpartanBlocks](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/SpartanBlocks/SpartanBlocks.jpg)
+
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
 * 1.6: Alpha 19

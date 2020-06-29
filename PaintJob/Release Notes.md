@@ -1,5 +1,7 @@
 **PaintJob** Change the colour of FinPims vehicles.
 
+![PaintJob](https://github.com/Laotseu/7dtdMods/blob/master/PaintJob/PaintJob.png)
+
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
 * 1.3: Rebuild assets for the new linear lighting (Alpha 19)
