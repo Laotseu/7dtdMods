@@ -94,7 +94,7 @@
 		<!-- Motorcycle -->
 		<item name="pjVehicleMotorcycleTestPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="Meshfile" value="#@modfolder:Resources/Motorcycles.unity3d?Motorcycle_test"/>
+			<property name="Meshfile" value="#@modfolder:Resources/NewByke.unity3d?Motorcycle_test"/>
 			<property name="EconomicValue" value="10000"/>
 			<property class="Action1">
 				<property name="Vehicle" value="pjVehicleMotorcycleTest"/>

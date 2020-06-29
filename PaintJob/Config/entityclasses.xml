@@ -132,7 +132,7 @@
 			<property name="Tags" value="vehicle"/>
 			<property name="Class" value="EntityMotorcycle"/>
 			<property name="Parent" value="Cars"/>
-			<property name="Prefab" value="#@modfolder:Resources/Motorcycles.unity3d?Motorcycle_test"/>
+			<property name="Prefab" value="#@modfolder:Resources/NewByke.unity3d?Motorcycle_test"/>
 			<property name="ModelType" value="Standard"/>
 			<property name="SurfaceCategory" value="metal"/>
 			<property name="IgnoreTrigger" value="true"/>
