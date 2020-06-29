@@ -5,7 +5,7 @@
 		<Name value="MotorcycleAlterations" />
 		<Description value="Allow players to alter the modocycle model" />
 		<Author value="Éric Beaudon" />
-		<Version value="1.0" />
+		<Version value="1.1" />
 	</ModInfo>
 
 	<!--
@@ -16,6 +16,7 @@
 		For this model to work properly, it needs to be installed on the server and every player's computer.
 	-->
 
+	<!-- v1.1:  Rebuilt assets for the new linear lighting (Alpha 19) -->
 	<!-- v1.0:	First version that allow four differents configurations for the motorcyle
 				+ working headlight and taillight -->
 </xml>
