@@ -4,6 +4,7 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 1.2: Fix: The wood container variant block changed name with Alpha 19
 * 1.1: Rebuild assets for the new linear lighting (Alpha 19)
 * 1.0: Fist official version which includes
     - New design for generic, armors, barter (trader), forge, mining, and recycle storage boxes
