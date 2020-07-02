@@ -47,7 +47,7 @@
 			"file": "/D/7dtd/7dtdMods/MotorcycleAlterations/Release Notes.md",
 			"settings":
 			{
-				"buffer_size": 413,
+				"buffer_size": 607,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -113,10 +113,48 @@
 			}
 		},
 		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Config/Localization.txt",
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
 			"settings":
 			{
-				"buffer_size": 276,
+				"buffer_size": 615,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Release Notes.md",
+			"settings":
+			{
+				"buffer_size": 607,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n\n<xml>\n\t<ModInfo>\n\t\t<Name value=\"MotorcycleAlterations\" />\n\t\t<Description value=\"Allow players to alter the modocycle model\" />\n\t\t<Author value=\"Éric Beaudon\" />\n\t\t<Version value=\"1.1\" />\n\t</ModInfo>\n\n\t<!--\n\t\t*************** \n\t\t** Important **\n\t\t***************\n\n\t\tFor this model to work properly, it needs to be installed on the server and every player's computer.\n\t-->\n\n\t<!-- v1.1:  Rebuild assets for the new linear lighting (Alpha 19) -->\n\t<!-- v1.0:\tFirst version that allow four differents configurations for the motorcyle\n\t\t\t\t+ working headlight and taillight -->\n</xml>",
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/ModInfo.xml",
+			"file_size": 639,
+			"file_write_time": 132378668724856501,
+			"settings":
+			{
+				"buffer_size": 617,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
+			"settings":
+			{
+				"buffer_size": 913,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/ModInfo.xml",
+			"settings":
+			{
+				"buffer_size": 1006,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -125,16 +163,8 @@
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/blocks.xml",
 			"settings":
 			{
-				"buffer_size": 7892,
+				"buffer_size": 7967,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/items.xml",
-			"settings":
-			{
-				"buffer_size": 1333,
 				"line_ending": "Windows"
 			}
 		},
@@ -150,7 +180,7 @@
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/ModInfo.xml",
 			"settings":
 			{
-				"buffer_size": 1371,
+				"buffer_size": 1512,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -159,8 +189,70 @@
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Release Notes.md",
 			"settings":
 			{
-				"buffer_size": 1661,
+				"buffer_size": 1918,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config/blocks.xml",
+			"settings":
+			{
+				"buffer_size": 14485,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config/Localization.txt",
+			"settings":
+			{
+				"buffer_size": 3439,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/Terraria/serverconfig.txt",
+			"settings":
+			{
+				"buffer_size": 4277,
+				"encoding": "Western (Windows 1252)",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/7dtd/7dtdMods/MoreContainers/Release Notes.md",
+			"settings":
+			{
+				"buffer_size": 1197,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/7dtd/7dtdMods/MoreContainers/ModInfo.xml",
+			"settings":
+			{
+				"buffer_size": 1006,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 775 files for \"woodFurnitureBlockVariantHelper\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-06-28__21-22-27.txt:\n  378  2020-06-28T21:25:10 120.589 INF Set Microsplat normals: MicroSplatConfig_normal_tarray (UnityEngine.Texture2DArray)\n  379  2020-06-28T21:25:10 120.589 INF Set Microsplat smooth:  MicroSplatConfig_smoothAO_tarray (UnityEngine.Texture2DArray)\n  380: 2020-06-28T21:25:10 120.941 WRN XML patch for \"blocks.xml\" from mod \"MoreContainers\" did not apply: <append xpath=\"//block[@name='woodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value\" \n  381: 2020-06-28T21:25:10 120.960 WRN XML patch for \"blocks.xml\" from mod \"MoreContainers\" did not apply: <append xpath=\"//block[@name='woodFurnitureBlockVariantHelper']\" \n  382  WARNING: Shader Unsupported: 'DoubleSided/Standard/Autodesk Interactive DS' - Pass 'FORWARD' has no vertex shader\n  383  WARNING: Shader Unsupported: 'DoubleSided/Standard/Autodesk Interactive DS' - Pass 'FORWARD_DELTA' has no vertex shader\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-06-30__18-57-06.txt:\n  626  2020-06-30T19:36:23 2307.124 INF Set Microsplat normals: MicroSplatConfig_normal_tarray (UnityEngine.Texture2DArray)\n  627  2020-06-30T19:36:23 2307.124 INF Set Microsplat smooth:  MicroSplatConfig_smoothAO_tarray (UnityEngine.Texture2DArray)\n  628: 2020-06-30T19:36:23 2307.647 WRN XML patch for \"blocks.xml\" from mod \"MoreContainers\" did not apply: <append xpath=\"//block[@name='woodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value\" \n  629: 2020-06-30T19:36:23 2307.660 WRN XML patch for \"blocks.xml\" from mod \"MoreContainers\" did not apply: <append xpath=\"//block[@name='woodFurnitureBlockVariantHelper']\" \n  630  WARNING: Shader Unsupported: 'DoubleSided/Standard/Autodesk Interactive DS' - Pass 'FORWARD' has no vertex shader\n  631  WARNING: Shader Unsupported: 'DoubleSided/Standard/Autodesk Interactive DS' - Pass 'FORWARD_DELTA' has no vertex shader\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\blocks.xml:\n 31341  </block>\n 31342  \n 31343: <block name=\"cntWoodFurnitureBlockVariantHelper\">\n 31344  \t<property name=\"Extends\" value=\"parkBenchA\" param1=\"EconomicBundleSize\"/>\n 31345  \t<property name=\"CustomIcon\" value=\"cntStorageGeneric\"/>\n 31346  \t<property name=\"CreativeMode\" value=\"Player\"/>\n 31347: \t<property name=\"DescriptionKey\" value=\"cntWoodFurnitureBlockVariantHelperDesc\"/>\n 31348  \t<property name=\"ItemTypeIcon\" value=\"all_blocks\"/>\n 31349  \t<property name=\"SelectAlternates\" value=\"true\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\Localization.txt:\n 3140  blockVariantHelperGroupDesc,blocks,Variant,,,\"Put the crafted block on your hotbar, hold the Reload action and select the Shape entry from the radial menu. Click or Shift-Click to select a variant to build with.\",,\"Füge den gefertigten Block deiner Leiste hinzu, halte die Nachladen-Taste gedrückt und wähle den Formeintrag im Kreismenü. Klicke oder Shift-klicke, um eine Variante auszuwählen und damit zu bauen.\",\"Coloca el bloque fabricado en la barra de acceso rápido, mantén apretada la acción Recargar y selecciona la Entrada de forma desde el menú radial. Haz clic o pulsa la tecla Mayúsculas+clic para seleccionar una variante con la que construir.\",\"Placez le bloc fabriqué dans votre barre d'accès rapide, maintenez l'action de rechargement enfoncée et sélectionnez Formes dans le menu radial. Effectuez un clic droit ou maj + clic droit pour choisir une variante et construire avec.\",\"Metti il blocco creato nella tua barra, tieni premuto \"\"Ricarica\"\" e seleziona la forma dal menu radiale. Fai clic o premi shift+clic per selezionare una variante con cui costruire.\",クラフトしたブロックをホットバーに移動させ、リロードアクションを長押ししラジアルメニューから形状エントリーを選択します。クリックか、Shiftキーを押しながらクリックして、構築に使用する他の材料を選択します。,제작한 블록을 단축 바에 넣고 재장전을 길게 눌러 선택한 형태를 방사형 메뉴에서 선택하세요. 제작할 물품을 클릭 또는 Shift-클릭하세요.,\"Umieść wytworzony blok na pasku skrótów, przytrzymaj akcję przeładowania i wybierz z kołowego menu kształt. Kliknij normalnie lub kliknij, przytrzymując klawisz Shift, aby wybrać wariant do budowy.\",Coloque o bloco fabricado na barra de acesso rápido e use a ação Recarregar e selecione Formato no menu radial. Clique com ou sem Shift para selecionar uma variante para construção.,\"Разместите созданный блок на панели быстрого доступа, удерживайте «Перезарядку» и выберите пункт «Форма» в круговом меню. Щелкните мышью или щелкните, удерживая нажатой клавишу Shift, чтобы выбрать вариант, который будете использовать для строительства.\",Üretilmiş bloku çok kullanılanlar çubuğuna yerleştirip seçim penceresini açmak için Doldur eylemini kullan. İnşa edeceğin malzemeyi seçmek için Tıkla veya Shift'e basarak Tıkla.,将制作好的物块放在快捷栏上，按住“重新装填”，在轮盘菜单中选择“形状”条目。单击或者按住 Shift 键单击，选择你要用来建造的变体。,將製作好的模塊放在您的快捷列上，按＂重新載入＂操作然後從圓形選單中選取＂形狀＂。點擊或按住Shift鍵選擇要建造的變體。,\"Coloca el bloque fabricado en la barra de acceso rápido, mantén apretada la acción Recargar y selecciona la Entrada de forma desde el menú radial. Haz clic o pulsa la tecla Mayúsculas+clic para seleccionar una variante con la que construir.\"\n 3141  brickBlockVariantHelper,blocks,Variant,,,Brick Block,,Ziegelblock,Bloque de ladrillo,Bloc de brique,Blocco di mattoni,レンガブロック,벽돌 블록,Cegła — blok,Bloco de Tijolo,Кирпичный блок,Tuğla Blok,砖块,磚砌塊,Bloque de ladrillo\n 3142: cntWoodFurnitureBlockVariantHelper,blocks,Variant,,,Wooden Storage / Furniture,,Hölzerne Ablagen / Möbel,Almacenamiento/muebles de madera,Stockage / meubles en bois,Casse/Mobili di legno,木造保管庫/家具,목재 보관함/가구,Drewniany pojemnik / mebel,Armazenamento / Móveis de Madeira,Деревянные хранилища / мебель,Tahta Depo / Mobilya,木储物箱 / 家具,木製儲物櫃/傢俱,Almacenamiento/muebles de madera\n 3143: cntWoodFurnitureBlockVariantHelperDesc,blocks,Variant,,,\"Craft various wooden cabinets, furniture, storage and decor with this helper block.\\nPut the crafted block on your hotbar, hold the Reload action and select the Shape entry from the radial menu. Click or Shift-Click to select a variant to build with.\",,\"Stelle mit diesem Helferblock verschiedene hölzerne Unterschränke, Möbel, Ablagen und Dekorationen her.\\nFüge den gefertigten Block deiner Leiste zu und benutze die Nachlade-Aktion, um das Auswahlfenster zu öffnen.\\nKlicke oder Shift-klicke, um eine Variante auszuwählen und damit zu bauen.\\nHalte die Nachladen-Taste gedrückt, um Optionen wie fortgeschrittene Stellungen zu erhalten.\",\"Fabrica diferentes armarios, mobiliario y almacenamientos de madera y decora con este bloque asistente.\\nColoca el bloque fabricado en la barra de acceso rápido y usa la acción de recargar para abrir la ventana de selección.\\nHaz clic o pulsa la tecla Mayúsculas + clic para seleccionar una variante con la que construir.\\nMantén presionado el botón de recargar para acceder a opciones como las de rotaciones avanzadas.\",\"Fabriquez des armoires, meubles, éléments de stockage et de décoration en bois divers et variés avec ce bloc d'aide.\\nPlacez le bloc fabriqué dans votre barre d'accès rapide et utilisez la touche d'action de rechargement pour ouvrir la fenêtre de sélection.\\nEffectuez un clic droit ou maj + clic droit pour choisir une variante et construire avec.\\nMaintenez le bouton de rechargement enfoncé pour obtenir plus d'options, comme des rotations avancées.\",\"Crea vari mobiletti, mobili, depositi e casse di legno con questo blocco di aiuto.\\nMetti il blocco creato nella tua barra e usa \"\"Ricarica\"\" per aprire la finestra selezionata.\\nFai clic o shift+clic per selezionare una variante con cui costruire.\\nTieni premuto il pulsante “Ricarica” per vedere opzioni come “Rotazione avanzata”.\",この補助ブロックを使って、さまざまな木製のキャビネット、家具、収納、装飾をクラフトします。\\n作成したブロックをホットバーに配置し、 [リロード] アクションを使用して選択ウィンドウを開きます。\\nクリックか、Shiftキーを押しながらクリックして、構築に使用する他の材料を選択します。\\n高度な回転などのオプションを設定するには、 [リロード] ボタンを押したままにします。,\"이 도우미 블록을 사용해 다양한 목재 캐비닛이나 가구, 창고 및 장식을 만들 수 있습니다.\\n제작한 블록을 단축 바에 넣고 재장전 행동을 사용해 선택 창을 여세요.\\n제작할 물품을 클릭 또는 Shift-클릭하세요.\\n재장전 버튼을 길게 누르면 고급 회전 등의 옵션을 확인할 수 있습니다.\",\"Przy użyciu tego bloku pomocnika wytworzysz różnego rodzaju drewniane szafy, meble, pojemniki i elementy ozdobne.\\nUmieść wykonany blok na pasku skrótów i użyj akcji przeładowania, aby otworzyć okno wyboru.\\nKliknij lub kliknij, przytrzymując klawisz Shift, aby wybrać wariant budowy.\\nPrzytrzymaj przycisk przeładowania, aby uzyskać opcje, takie jak obracanie zaawansowane.\",\"Fabrique vários armários, móveis, armazenamentos e decorações de metal com este bloco ajudante.\\nColoque o bloco fabricado na barra de acesso rápido e use a ação “Recarregar” para abrir a janela de seleção.\\nClique com ou sem Shift para selecionar uma variante para construção.\\nSegure o botão “Recarregar” para ver opções como rotação avançada.\",\"Создавайте различные деревянные шкафчики, мебель, хранилища и украшения с помощью этого блока-помощника.\\nРазместите созданный блок на панели быстрого доступа и используйте действие «Перезарядка», чтобы открыть окно выбора.\\nЩелкните мышью или щелкните, удерживая нажатой клавишу Shift, чтобы выбрать вариант, который будете использовать для строительства.\\nУдерживайте клавишу перезарядки, чтобы открыть настройки, например более широкий выбор вариантов вращения.\",\"Bu yardımcı blokla çeşitli tahta dolaplar, mobilyalar, depo ve dekorlar üretebilirsin.\\nÜretilmiş bloku çok kullanılanlar çubuğuna yerleştirip seçim penceresini açmak için Doldur eylemini kullan.\\nİnşa edeceğin malzemeyi seçmek için Tıkla veya Shift'e basarak Tıkla.\\nDöndürme gibi gelişmiş seçenekleri görmek için Doldur düğmesine basılı tut.\",使用此助手方块，建造不同的木制橱柜、家具、储物箱和装饰物。\\n将制作好的方块放在快捷栏上，然后使用“重新装填”打开选择窗口。\\n单击或者按住 Shift 键单击，选择你要用来建造的物体。\\n按住“重新装填”按钮，选择“高级旋转”等选项。,使用此輔助模塊可製作各種木製的櫃子、傢俱、儲物櫃和裝修物件。\\n將製作好的模塊放在您的快捷欄上，然後使用“重新載入”操作打開選擇視窗。\\n單擊或按住 Shift 鍵單擊以選擇要建造的變體。\\n按住“重新載入”按鈕可使用進階旋轉等選項。,\"Fabrica diferentes armarios, mobiliario y almacenamientos de madera y decora con este bloque asistente.\\nColoca el bloque fabricado en la barra de acceso rápido y usa la acción de recargar para abrir la ventana de selección.\\nHaz clic o pulsa la tecla Mayúsculas + clic para seleccionar una variante con la que construir.\\nMantén presionado el botón de recargar para acceder a opciones como las de rotaciones avanzadas.\"\n 3144  flagstoneBlockVariantHelper,blocks,Variant,,,Flagstone Block,,Steinplattenblock,Bloque de baldosas,Bloc de dalle,Blocco di lastricato,敷石ブロック,판석 블록,Kamienna płyta — blok,Bloco de laje,Блок из плитняка,Yassı Taş Bloku,石板块,扁石砌塊,Bloque de baldosas\n 3145  glassBlockVariantHelper,blocks,Variant,,,Glass Block,,Glasblock,Bloque de cristal,Bloc de verre,Blocco di vetro,ガラスブロック,유리 블록,Szkło — blok,Bloco de Vidro,Стеклянный блок,Cam Blok,玻璃块,玻璃砌塊,Bloque de cristal\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\loot.xml:\n 2792  \t<item group=\"decorativeBlinds\"/>\n 2793  \t<item name=\"airConditioner\"/>\n 2794: \t<item name=\"cntWoodFurnitureBlockVariantHelper\"/>\n 2795  \t<item name=\"cntCabinetOldSink\"/>\n 2796  \t<item name=\"cntCashRegister\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\recipes.xml:\n  928  </recipe>\n  929  \n  930: <recipe name=\"cntWoodFurnitureBlockVariantHelper\" count=\"1\">\n  931  \t<ingredient name=\"resourceNail\" count=\"10\"/>\n  932  \t<ingredient name=\"resourceWood\" count=\"12\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\MoreContainers\\Config\\blocks.xml:\n   15  \t\t\t<property name=\"Place\" value=\"TowardsPlacerInverted\"/>\n   16  \t\t\t<property name=\"Shape\" value=\"ModelEntity\" />\n   17: \t\t\t<drop event=\"Destroy\" name=\"woodFurnitureBlockVariantHelper\" count=\"1\"/>\n   18  \t\t</block>\n   19  \n   ..\n  278  \n  279  \t<!-- Add the new contairs to the helper block -->\n  280: \t<append xpath=\"//block[@name='woodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value\">,mcCubeContainer,mcHalfCubeContainer,mcCubeContainerAmo,mcHalfCubeContainerAmo,mcCubeContainerArmors,mcHalfCubeContainerArmorsInsecure,mcCubeContainerBarter,mcHalfCubeContainerBarter,mcCubeContainerBuilding,mcHalfCubeContainerBuilding,mcCubeContainerExplosive,mcHalfCubeContainerExplosive,mcCubeContainerFood,mcHalfCubeContainerFood,mcCubeContainerForge,mcHalfCubeContainerForge,mcCubeContainerHealth,mcHalfCubeContainerHealth,mcCubeContainerMining,mcHalfCubeContainerMining,mcCubeContainerRecycle,mcHalfCubeContainerRecycle,mcCubeContainerWeapons,mcHalfCubeContainerWeapons</append>\n  281: \t<append xpath=\"//block[@name='woodFurnitureBlockVariantHelper']\">\n  282  \t\t<property name=\"Place\" value=\"TowardsPlacerInverted\"/>\n  283  \t</append>\n\n13 matches across 7 files\n\n\nSearching 775 files for \"woodFurnitureBlockVariantHelper\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-06-28__21-22-27.txt:\n  378  2020-06-28T21:25:10 120.589 INF Set Microsplat normals: MicroSplatConfig_normal_tarray (UnityEngine.Texture2DArray)\n  379  2020-06-28T21:25:10 120.589 INF Set Microsplat smooth:  MicroSplatConfig_smoothAO_tarray (UnityEngine.Texture2DArray)\n  380: 2020-06-28T21:25:10 120.941 WRN XML patch for \"blocks.xml\" from mod \"MoreContainers\" did not apply: <append xpath=\"//block[@name='woodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value\" \n  381: 2020-06-28T21:25:10 120.960 WRN XML patch for \"blocks.xml\" from mod \"MoreContainers\" did not apply: <append xpath=\"//block[@name='woodFurnitureBlockVariantHelper']\" \n  382  WARNING: Shader Unsupported: 'DoubleSided/Standard/Autodesk Interactive DS' - Pass 'FORWARD' has no vertex shader\n  383  WARNING: Shader Unsupported: 'DoubleSided/Standard/Autodesk Interactive DS' - Pass 'FORWARD_DELTA' has no vertex shader\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-06-30__18-57-06.txt:\n  626  2020-06-30T19:36:23 2307.124 INF Set Microsplat normals: MicroSplatConfig_normal_tarray (UnityEngine.Texture2DArray)\n  627  2020-06-30T19:36:23 2307.124 INF Set Microsplat smooth:  MicroSplatConfig_smoothAO_tarray (UnityEngine.Texture2DArray)\n  628: 2020-06-30T19:36:23 2307.647 WRN XML patch for \"blocks.xml\" from mod \"MoreContainers\" did not apply: <append xpath=\"//block[@name='woodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value\" \n  629: 2020-06-30T19:36:23 2307.660 WRN XML patch for \"blocks.xml\" from mod \"MoreContainers\" did not apply: <append xpath=\"//block[@name='woodFurnitureBlockVariantHelper']\" \n  630  WARNING: Shader Unsupported: 'DoubleSided/Standard/Autodesk Interactive DS' - Pass 'FORWARD' has no vertex shader\n  631  WARNING: Shader Unsupported: 'DoubleSided/Standard/Autodesk Interactive DS' - Pass 'FORWARD_DELTA' has no vertex shader\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\blocks.xml:\n 31341  </block>\n 31342  \n 31343: <block name=\"cntWoodFurnitureBlockVariantHelper\">\n 31344  \t<property name=\"Extends\" value=\"parkBenchA\" param1=\"EconomicBundleSize\"/>\n 31345  \t<property name=\"CustomIcon\" value=\"cntStorageGeneric\"/>\n 31346  \t<property name=\"CreativeMode\" value=\"Player\"/>\n 31347: \t<property name=\"DescriptionKey\" value=\"cntWoodFurnitureBlockVariantHelperDesc\"/>\n 31348  \t<property name=\"ItemTypeIcon\" value=\"all_blocks\"/>\n 31349  \t<property name=\"SelectAlternates\" value=\"true\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\Localization.txt:\n 3140  blockVariantHelperGroupDesc,blocks,Variant,,,\"Put the crafted block on your hotbar, hold the Reload action and select the Shape entry from the radial menu. Click or Shift-Click to select a variant to build with.\",,\"Füge den gefertigten Block deiner Leiste hinzu, halte die Nachladen-Taste gedrückt und wähle den Formeintrag im Kreismenü. Klicke oder Shift-klicke, um eine Variante auszuwählen und damit zu bauen.\",\"Coloca el bloque fabricado en la barra de acceso rápido, mantén apretada la acción Recargar y selecciona la Entrada de forma desde el menú radial. Haz clic o pulsa la tecla Mayúsculas+clic para seleccionar una variante con la que construir.\",\"Placez le bloc fabriqué dans votre barre d'accès rapide, maintenez l'action de rechargement enfoncée et sélectionnez Formes dans le menu radial. Effectuez un clic droit ou maj + clic droit pour choisir une variante et construire avec.\",\"Metti il blocco creato nella tua barra, tieni premuto \"\"Ricarica\"\" e seleziona la forma dal menu radiale. Fai clic o premi shift+clic per selezionare una variante con cui costruire.\",クラフトしたブロックをホットバーに移動させ、リロードアクションを長押ししラジアルメニューから形状エントリーを選択します。クリックか、Shiftキーを押しながらクリックして、構築に使用する他の材料を選択します。,제작한 블록을 단축 바에 넣고 재장전을 길게 눌러 선택한 형태를 방사형 메뉴에서 선택하세요. 제작할 물품을 클릭 또는 Shift-클릭하세요.,\"Umieść wytworzony blok na pasku skrótów, przytrzymaj akcję przeładowania i wybierz z kołowego menu kształt. Kliknij normalnie lub kliknij, przytrzymując klawisz Shift, aby wybrać wariant do budowy.\",Coloque o bloco fabricado na barra de acesso rápido e use a ação Recarregar e selecione Formato no menu radial. Clique com ou sem Shift para selecionar uma variante para construção.,\"Разместите созданный блок на панели быстрого доступа, удерживайте «Перезарядку» и выберите пункт «Форма» в круговом меню. Щелкните мышью или щелкните, удерживая нажатой клавишу Shift, чтобы выбрать вариант, который будете использовать для строительства.\",Üretilmiş bloku çok kullanılanlar çubuğuna yerleştirip seçim penceresini açmak için Doldur eylemini kullan. İnşa edeceğin malzemeyi seçmek için Tıkla veya Shift'e basarak Tıkla.,将制作好的物块放在快捷栏上，按住“重新装填”，在轮盘菜单中选择“形状”条目。单击或者按住 Shift 键单击，选择你要用来建造的变体。,將製作好的模塊放在您的快捷列上，按＂重新載入＂操作然後從圓形選單中選取＂形狀＂。點擊或按住Shift鍵選擇要建造的變體。,\"Coloca el bloque fabricado en la barra de acceso rápido, mantén apretada la acción Recargar y selecciona la Entrada de forma desde el menú radial. Haz clic o pulsa la tecla Mayúsculas+clic para seleccionar una variante con la que construir.\"\n 3141  brickBlockVariantHelper,blocks,Variant,,,Brick Block,,Ziegelblock,Bloque de ladrillo,Bloc de brique,Blocco di mattoni,レンガブロック,벽돌 블록,Cegła — blok,Bloco de Tijolo,Кирпичный блок,Tuğla Blok,砖块,磚砌塊,Bloque de ladrillo\n 3142: cntWoodFurnitureBlockVariantHelper,blocks,Variant,,,Wooden Storage / Furniture,,Hölzerne Ablagen / Möbel,Almacenamiento/muebles de madera,Stockage / meubles en bois,Casse/Mobili di legno,木造保管庫/家具,목재 보관함/가구,Drewniany pojemnik / mebel,Armazenamento / Móveis de Madeira,Деревянные хранилища / мебель,Tahta Depo / Mobilya,木储物箱 / 家具,木製儲物櫃/傢俱,Almacenamiento/muebles de madera\n 3143: cntWoodFurnitureBlockVariantHelperDesc,blocks,Variant,,,\"Craft various wooden cabinets, furniture, storage and decor with this helper block.\\nPut the crafted block on your hotbar, hold the Reload action and select the Shape entry from the radial menu. Click or Shift-Click to select a variant to build with.\",,\"Stelle mit diesem Helferblock verschiedene hölzerne Unterschränke, Möbel, Ablagen und Dekorationen her.\\nFüge den gefertigten Block deiner Leiste zu und benutze die Nachlade-Aktion, um das Auswahlfenster zu öffnen.\\nKlicke oder Shift-klicke, um eine Variante auszuwählen und damit zu bauen.\\nHalte die Nachladen-Taste gedrückt, um Optionen wie fortgeschrittene Stellungen zu erhalten.\",\"Fabrica diferentes armarios, mobiliario y almacenamientos de madera y decora con este bloque asistente.\\nColoca el bloque fabricado en la barra de acceso rápido y usa la acción de recargar para abrir la ventana de selección.\\nHaz clic o pulsa la tecla Mayúsculas + clic para seleccionar una variante con la que construir.\\nMantén presionado el botón de recargar para acceder a opciones como las de rotaciones avanzadas.\",\"Fabriquez des armoires, meubles, éléments de stockage et de décoration en bois divers et variés avec ce bloc d'aide.\\nPlacez le bloc fabriqué dans votre barre d'accès rapide et utilisez la touche d'action de rechargement pour ouvrir la fenêtre de sélection.\\nEffectuez un clic droit ou maj + clic droit pour choisir une variante et construire avec.\\nMaintenez le bouton de rechargement enfoncé pour obtenir plus d'options, comme des rotations avancées.\",\"Crea vari mobiletti, mobili, depositi e casse di legno con questo blocco di aiuto.\\nMetti il blocco creato nella tua barra e usa \"\"Ricarica\"\" per aprire la finestra selezionata.\\nFai clic o shift+clic per selezionare una variante con cui costruire.\\nTieni premuto il pulsante “Ricarica” per vedere opzioni come “Rotazione avanzata”.\",この補助ブロックを使って、さまざまな木製のキャビネット、家具、収納、装飾をクラフトします。\\n作成したブロックをホットバーに配置し、 [リロード] アクションを使用して選択ウィンドウを開きます。\\nクリックか、Shiftキーを押しながらクリックして、構築に使用する他の材料を選択します。\\n高度な回転などのオプションを設定するには、 [リロード] ボタンを押したままにします。,\"이 도우미 블록을 사용해 다양한 목재 캐비닛이나 가구, 창고 및 장식을 만들 수 있습니다.\\n제작한 블록을 단축 바에 넣고 재장전 행동을 사용해 선택 창을 여세요.\\n제작할 물품을 클릭 또는 Shift-클릭하세요.\\n재장전 버튼을 길게 누르면 고급 회전 등의 옵션을 확인할 수 있습니다.\",\"Przy użyciu tego bloku pomocnika wytworzysz różnego rodzaju drewniane szafy, meble, pojemniki i elementy ozdobne.\\nUmieść wykonany blok na pasku skrótów i użyj akcji przeładowania, aby otworzyć okno wyboru.\\nKliknij lub kliknij, przytrzymując klawisz Shift, aby wybrać wariant budowy.\\nPrzytrzymaj przycisk przeładowania, aby uzyskać opcje, takie jak obracanie zaawansowane.\",\"Fabrique vários armários, móveis, armazenamentos e decorações de metal com este bloco ajudante.\\nColoque o bloco fabricado na barra de acesso rápido e use a ação “Recarregar” para abrir a janela de seleção.\\nClique com ou sem Shift para selecionar uma variante para construção.\\nSegure o botão “Recarregar” para ver opções como rotação avançada.\",\"Создавайте различные деревянные шкафчики, мебель, хранилища и украшения с помощью этого блока-помощника.\\nРазместите созданный блок на панели быстрого доступа и используйте действие «Перезарядка», чтобы открыть окно выбора.\\nЩелкните мышью или щелкните, удерживая нажатой клавишу Shift, чтобы выбрать вариант, который будете использовать для строительства.\\nУдерживайте клавишу перезарядки, чтобы открыть настройки, например более широкий выбор вариантов вращения.\",\"Bu yardımcı blokla çeşitli tahta dolaplar, mobilyalar, depo ve dekorlar üretebilirsin.\\nÜretilmiş bloku çok kullanılanlar çubuğuna yerleştirip seçim penceresini açmak için Doldur eylemini kullan.\\nİnşa edeceğin malzemeyi seçmek için Tıkla veya Shift'e basarak Tıkla.\\nDöndürme gibi gelişmiş seçenekleri görmek için Doldur düğmesine basılı tut.\",使用此助手方块，建造不同的木制橱柜、家具、储物箱和装饰物。\\n将制作好的方块放在快捷栏上，然后使用“重新装填”打开选择窗口。\\n单击或者按住 Shift 键单击，选择你要用来建造的物体。\\n按住“重新装填”按钮，选择“高级旋转”等选项。,使用此輔助模塊可製作各種木製的櫃子、傢俱、儲物櫃和裝修物件。\\n將製作好的模塊放在您的快捷欄上，然後使用“重新載入”操作打開選擇視窗。\\n單擊或按住 Shift 鍵單擊以選擇要建造的變體。\\n按住“重新載入”按鈕可使用進階旋轉等選項。,\"Fabrica diferentes armarios, mobiliario y almacenamientos de madera y decora con este bloque asistente.\\nColoca el bloque fabricado en la barra de acceso rápido y usa la acción de recargar para abrir la ventana de selección.\\nHaz clic o pulsa la tecla Mayúsculas + clic para seleccionar una variante con la que construir.\\nMantén presionado el botón de recargar para acceder a opciones como las de rotaciones avanzadas.\"\n 3144  flagstoneBlockVariantHelper,blocks,Variant,,,Flagstone Block,,Steinplattenblock,Bloque de baldosas,Bloc de dalle,Blocco di lastricato,敷石ブロック,판석 블록,Kamienna płyta — blok,Bloco de laje,Блок из плитняка,Yassı Taş Bloku,石板块,扁石砌塊,Bloque de baldosas\n 3145  glassBlockVariantHelper,blocks,Variant,,,Glass Block,,Glasblock,Bloque de cristal,Bloc de verre,Blocco di vetro,ガラスブロック,유리 블록,Szkło — blok,Bloco de Vidro,Стеклянный блок,Cam Blok,玻璃块,玻璃砌塊,Bloque de cristal\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\loot.xml:\n 2792  \t<item group=\"decorativeBlinds\"/>\n 2793  \t<item name=\"airConditioner\"/>\n 2794: \t<item name=\"cntWoodFurnitureBlockVariantHelper\"/>\n 2795  \t<item name=\"cntCabinetOldSink\"/>\n 2796  \t<item name=\"cntCashRegister\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\recipes.xml:\n  928  </recipe>\n  929  \n  930: <recipe name=\"cntWoodFurnitureBlockVariantHelper\" count=\"1\">\n  931  \t<ingredient name=\"resourceNail\" count=\"10\"/>\n  932  \t<ingredient name=\"resourceWood\" count=\"12\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\MoreContainers\\Config\\blocks.xml:\n   15  \t\t\t<property name=\"Place\" value=\"TowardsPlacerInverted\"/>\n   16  \t\t\t<property name=\"Shape\" value=\"ModelEntity\" />\n   17: \t\t\t<drop event=\"Destroy\" name=\"woodFurnitureBlockVariantHelper\" count=\"1\"/>\n   18  \t\t</block>\n   19  \n   ..\n  278  \n  279  \t<!-- Add the new contairs to the helper block -->\n  280: \t<append xpath=\"//block[@name='woodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value\">,mcCubeContainer,mcHalfCubeContainer,mcCubeContainerAmo,mcHalfCubeContainerAmo,mcCubeContainerArmors,mcHalfCubeContainerArmorsInsecure,mcCubeContainerBarter,mcHalfCubeContainerBarter,mcCubeContainerBuilding,mcHalfCubeContainerBuilding,mcCubeContainerExplosive,mcHalfCubeContainerExplosive,mcCubeContainerFood,mcHalfCubeContainerFood,mcCubeContainerForge,mcHalfCubeContainerForge,mcCubeContainerHealth,mcHalfCubeContainerHealth,mcCubeContainerMining,mcHalfCubeContainerMining,mcCubeContainerRecycle,mcHalfCubeContainerRecycle,mcCubeContainerWeapons,mcHalfCubeContainerWeapons</append>\n  281: \t<append xpath=\"//block[@name='woodFurnitureBlockVariantHelper']\">\n  282  \t\t<property name=\"Place\" value=\"TowardsPlacerInverted\"/>\n  283  \t</append>\n\n13 matches across 7 files\n",
+			"settings":
+			{
+				"buffer_size": 24902,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
+			"settings":
+			{
+				"buffer_size": 1507247,
 				"line_ending": "Windows"
 			}
 		},
@@ -185,7 +277,7 @@
 			"file": "/D/7dtd/7dtdMods/MotorcycleAlterations/ModInfo.xml",
 			"settings":
 			{
-				"buffer_size": 546,
+				"buffer_size": 617,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -285,17 +377,28 @@
 		"/C/Steam/steamapps/common/7 Days To Die/Data",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/UIAtlases",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Config",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/UIAtlases",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/UIAtlases/ItemIconAtlas"
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config"
 	],
 	"file_history":
 	[
+		"/X/Unity/Getting-Started-With-Unity/Assets/Tutorials/ScriptableObjects/DamageTypes/DamageType_Air.asset",
+		"/X/Git Repo/DapperDino/Getting-Started-With-Unity/README.md",
+		"/C/Steam/steamapps/common/7 Days To Die - A16/7DaysToDie_Data/output_log__2019-07-07__11-21-06.txt",
+		"/X/Unity/@Ressources/FunPimps/blocktestureatlases/AssetBundle/blocktextureatlases.dat",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Release Notes.md",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Config/Localization.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/blocks.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/ModInfo.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/ModInfo.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Release Notes.md",
 		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-06-24__21-05-54.txt",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config/recipes.xml",
 		"/D/7dtd/7dtdMods/.github/workflows/MotorcycleAlterations.yml",
@@ -354,12 +457,10 @@
 		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-05-10__07-40-30.txt",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/Saves/North Jiyasu Mountains/Eric Test 2/ConfigsDump/blocks.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config/Localization.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/ModInfo.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreBlocks/Release Notes.md",
 		"/D/7dtd/7dtdMods/.github/workflows/MoreContainers_release.yml",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/Localization.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Release Notes.md",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/Saves/Pedero County/Eric Test 2/ConfigsDump/blocks.xml",
 		"/X/Unity/@Ressources/FunPimps/blocktestureatlases/Texture2DArray/ta_opaque_1-CAB-32e6ca09e22988cb945e2e122249bb3c-12227126643808119564-Texture2DArray.txt",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/West Xujabe Territory/prefabs.xml",
@@ -415,15 +516,7 @@
 		"/X/Unity/@Ressources/FunPims/blocktestureatlases/TextAsset/ta_decalsxml.txt",
 		"/X/Unity/@Ressources/FunPims/blocktestureatlases/TextAsset/ta_cutoutxml.txt",
 		"/X/Unity/@Ressources/FunPims/blocktestureatlases/TextAsset/ta_cutoutmoveablexml.txt",
-		"/X/Unity/@Ressources/FunPims/blocktestureatlases/TextAsset/models.txt",
-		"/X/Unity/@Ressources/FunPims/blocktestureatlases/MonoBehaviour/MeshDescriptionCollection.txt",
-		"/X/Unity/Test Import/Assets/blocktestureatlases/MonoScript/MeshDescriptionCollection.dat",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/blocks.xml",
-		"/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/North Jaxuhe Mountains/La gang est de retour/serverconfig.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/recipes.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/CastleSpartan/Config/rwgmixer.xml",
-		"/C/7d2d/Saves/Darkness Falls/Darkness Falls/DFalls-Medium/Eric Test DF/ConfigsDump/npc.xml"
+		"/X/Unity/@Ressources/FunPims/blocktestureatlases/TextAsset/models.txt"
 	],
 	"find":
 	{
@@ -450,6 +543,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"woodFurnitureBlockVariantHelper",
+			"woodFrameBlockVariantHelper",
 			"value=\"Chest\"",
 			"Clothing",
 			"Grand Spartan",
@@ -575,9 +670,7 @@
 			"oldwest_business_0",
 			"oldwest_business_07",
 			"castl",
-			"TorchHeatMap",
-			"lantern",
-			"candle"
+			"TorchHeatMap"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -616,7 +709,7 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 19,
 			"sheets":
 			[
 				{
@@ -625,7 +718,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 413,
+						"buffer_size": 607,
 						"regions":
 						{
 						},
@@ -646,7 +739,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
@@ -675,7 +768,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
@@ -704,7 +797,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
@@ -732,7 +825,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
@@ -760,7 +853,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
@@ -789,7 +882,7 @@
 						"translation.y": 2376.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
@@ -818,7 +911,7 @@
 						"translation.y": 972.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
@@ -844,84 +937,86 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 396.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Config/Localization.txt",
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 276,
+						"buffer_size": 615,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								35,
-								35
+								207,
+								207
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
 					"buffer": 9,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/blocks.xml",
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Release Notes.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7892,
+						"buffer_size": 607,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5961,
-								5961
+								203,
+								203
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"parser": null,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"target": "disk"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2138.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
 					"buffer": 10,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/items.xml",
-					"semi_transient": true,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/ModInfo.xml",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1333,
+						"buffer_size": 617,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								432,
+								432
 							]
 						],
 						"settings":
@@ -933,11 +1028,97 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
 					"buffer": 11,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/ModInfo.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1006,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								488,
+								488
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/blocks.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3963,
+								3963
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1188.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-06-28__00-02-53.txt",
 					"semi_transient": false,
 					"settings":
@@ -961,24 +1142,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 15,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/ModInfo.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1371,
+						"buffer_size": 1512,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								443,
-								493
+								414,
+								544
 							]
 						],
 						"settings":
@@ -990,24 +1171,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 16,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Release Notes.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1661,
+						"buffer_size": 1918,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								386,
-								386
+								871,
+								871
 							]
 						],
 						"settings":
@@ -1020,11 +1201,328 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config/blocks.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13707,
+								13707
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4734.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config/Localization.txt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3439,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/C/Steam/steamapps/common/Terraria/serverconfig.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/D/7dtd/7dtdMods/MoreContainers/Release Notes.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								437,
+								437
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "/D/7dtd/7dtdMods/MoreContainers/ModInfo.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1006,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								423,
+								423
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 22,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24902,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										538,
+										569
+									],
+									[
+										755,
+										786
+									],
+									[
+										1522,
+										1553
+									],
+									[
+										1740,
+										1771
+									],
+									[
+										2139,
+										2170
+									],
+									[
+										2428,
+										2459
+									],
+									[
+										5343,
+										5374
+									],
+									[
+										5720,
+										5751
+									],
+									[
+										10804,
+										10835
+									],
+									[
+										11034,
+										11065
+									],
+									[
+										11423,
+										11454
+									],
+									[
+										11604,
+										11635
+									],
+									[
+										12305,
+										12336
+									],
+									[
+										12990,
+										13021
+									],
+									[
+										13207,
+										13238
+									],
+									[
+										13974,
+										14005
+									],
+									[
+										14192,
+										14223
+									],
+									[
+										14591,
+										14622
+									],
+									[
+										14880,
+										14911
+									],
+									[
+										17795,
+										17826
+									],
+									[
+										18172,
+										18203
+									],
+									[
+										23256,
+										23287
+									],
+									[
+										23486,
+										23517
+									],
+									[
+										23875,
+										23906
+									],
+									[
+										24056,
+										24087
+									],
+									[
+										24757,
+										24788
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								14602,
+								14602
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2646.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1507247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1476595,
+								1476629
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 566150.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/Localization.txt",
 					"semi_transient": false,
 					"settings":
@@ -1048,11 +1546,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 25,
 					"file": "/D/7dtd/7dtdMods/MotorcycleAlterations/Config/entityclasses.xml",
 					"semi_transient": false,
 					"settings":
@@ -1085,16 +1583,16 @@
 						"translation.y": 432.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 26,
 					"file": "/D/7dtd/7dtdMods/MotorcycleAlterations/ModInfo.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 546,
+						"buffer_size": 617,
 						"regions":
 						{
 						},
@@ -1114,11 +1612,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 27,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1142,11 +1640,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 28,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1170,7 +1668,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 27,
 					"type": "text"
 				}
 			]

@@ -16,7 +16,8 @@
 		For this model to work properly, it needs to be installed on the server and every player's computer.
 	-->
 
-	<!-- v1.2:  Fix: The wood container variant block changed name with Alpha 19 -->
+	<!-- v1.2:  Fix: The wood container variant block changed name with Alpha 19
+				Work on the texture to make them look better with new lighting system -->
 	<!-- v1.1:  Rebuild assets for the new linear lighting (Alpha 19) -->
 	<!-- v1.0:	New design for generic, armors, barter (trader), forge, mining, and recycle storage boxes
 				Everything is also available in half-cube format
