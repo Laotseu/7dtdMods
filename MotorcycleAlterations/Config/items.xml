@@ -4,7 +4,7 @@
 		<!-- Motorcycle -->
 		<item name="maVehicleMotorcycleNoHoodPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="Meshfile" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_nohood_prefab.prefab"/>
+			<property name="Meshfile" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_nohood"/>
 			<property name="EconomicValue" value="10000"/>
 			<property class="Action1">
 				<property name="Vehicle" value="maVehicleMotorcycleNoHood"/>
@@ -19,7 +19,7 @@
 
 		<item name="maVehicleMotorcycleNoShieldPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="Meshfile" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_noshield_prefab.prefab"/>
+			<property name="Meshfile" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_noshield"/>
 			<property name="EconomicValue" value="10000"/>
 			<property class="Action1">
 				<property name="Vehicle" value="maVehicleMotorcycleNoShield"/>
@@ -34,7 +34,7 @@
 
 		<item name="maVehicleMotorcycleNoSpikePlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="Meshfile" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_nospike_prefab.prefab"/>
+			<property name="Meshfile" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_nospike"/>
 			<property name="EconomicValue" value="10000"/>
 			<property class="Action1">
 				<property name="Vehicle" value="maVehicleMotorcycleNoSpike"/>
@@ -50,9 +50,9 @@
 	</append>
 
 	<!-- Change the model for the standard Motorcycle (now with headlight and taillight) -->
-	<insertAfter xpath="//property[@name='Meshfile'][@value='#Entities/Vehicles?motorcycle_Prefab.prefab']">
-		<property name="Meshfile" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_prefab.prefab"/>
+	<!-- <insertAfter xpath="//property[@name='Meshfile'][@value='#Entities/Vehicles?motorcycle_Prefab.prefab']">
+		<property name="Meshfile" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom"/>
 	</insertAfter>
-	<remove xpath="//property[@name='Meshfile'][@value='#Entities/Vehicles?motorcycle_Prefab.prefab']" />
+	<remove xpath="//property[@name='Meshfile'][@value='#Entities/Vehicles?motorcycle_Prefab.prefab']" /> -->
 
 </configs>

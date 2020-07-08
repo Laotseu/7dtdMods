@@ -6,7 +6,7 @@
 			<property name="Tags" value="vehicle"/>
 			<property name="Class" value="EntityMotorcycle"/>
 			<property name="Parent" value="Cars"/>
-			<property name="Prefab" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_nospike_prefab.prefab"/>
+			<property name="Prefab" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_nospike"/>
 			<property name="ModelType" value="Standard"/>
 			<property name="SurfaceCategory" value="metal"/>
 			<property name="IgnoreTrigger" value="true"/>
@@ -20,13 +20,14 @@
 			<property name="RotateToGround" value="true"/>
 			<property name="Faction" value="none"/>
 			<property name="MapIcon" value="ui_game_symbol_motorcycle"/>
+			<property name="NavObject" value="motorcycle" />
 		</entity_class>
 
 		<entity_class name="maVehicleMotorcycleNoShield">
 			<property name="Tags" value="vehicle"/>
 			<property name="Class" value="EntityMotorcycle"/>
 			<property name="Parent" value="Cars"/>
-			<property name="Prefab" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_noshield_prefab.prefab"/>
+			<property name="Prefab" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_noshield"/>
 			<property name="ModelType" value="Standard"/>
 			<property name="SurfaceCategory" value="metal"/>
 			<property name="IgnoreTrigger" value="true"/>
@@ -40,13 +41,14 @@
 			<property name="RotateToGround" value="true"/>
 			<property name="Faction" value="none"/>
 			<property name="MapIcon" value="ui_game_symbol_motorcycle"/>
+			<property name="NavObject" value="motorcycle" />
 		</entity_class>
 
 		<entity_class name="maVehicleMotorcycleNoHood">
 			<property name="Tags" value="vehicle"/>
 			<property name="Class" value="EntityMotorcycle"/>
 			<property name="Parent" value="Cars"/>
-			<property name="Prefab" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_nohood_prefab.prefab"/>
+			<property name="Prefab" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_nohood"/>
 			<property name="ModelType" value="Standard"/>
 			<property name="SurfaceCategory" value="metal"/>
 			<property name="IgnoreTrigger" value="true"/>
@@ -60,14 +62,15 @@
 			<property name="RotateToGround" value="true"/>
 			<property name="Faction" value="none"/>
 			<property name="MapIcon" value="ui_game_symbol_motorcycle"/>
+			<property name="NavObject" value="motorcycle" />
 		</entity_class>
 
 	</append>
 
 	<!-- Change the model for the standard Motorcycle (now with headlight and taillight) -->
-	<insertAfter xpath="//property[@name='Prefab'][@value='#Entities/Vehicles?motorcycle_Prefab.prefab']">
-		<property name="Prefab" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_prefab.prefab"/>
+	<!-- <insertAfter xpath="//property[@name='Prefab'][@value='#Entities/Vehicles?motorcycle_Prefab.prefab']">
+		<property name="Prefab" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom"/>
 	</insertAfter>
-	<remove xpath="//property[@name='Prefab'][@value='#Entities/Vehicles?motorcycle_Prefab.prefab']" />
+	<remove xpath="//property[@name='Prefab'][@value='#Entities/Vehicles?motorcycle_Prefab.prefab']" /> -->
 
 </configs>

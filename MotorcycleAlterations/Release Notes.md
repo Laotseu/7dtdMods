@@ -4,6 +4,9 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 1.2: A19 bug fixes
+  * Add missing motocycle sprite (thanks Ti2xGr)
+  * Fix the motorcycle model so player avatars sit properly on them (missing the base model replacement for now)
 * 1.1: Rebuild assets for the new linear lighting (Alpha 19)
 * 1.0: First version 
   * Allow four different configurations for the motorcyle 
