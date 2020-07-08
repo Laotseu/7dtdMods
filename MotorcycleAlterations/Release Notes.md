@@ -4,6 +4,8 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 1.3: A19 Base model
+  * Headlight and taillight are back on the base model (must remember to have unique file and prefabs names...)
 * 1.2: A19 bug fixes
   * Add missing motocycle sprite (thanks Ti2xGr)
   * Fix the motorcycle model so player avatars sit properly on them (missing the base model replacement for now)

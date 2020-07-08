@@ -5,7 +5,7 @@
 		<Name value="MotorcycleAlterations" />
 		<Description value="Allow players to alter the modocycle model" />
 		<Author value="Éric Beaudon" />
-		<Version value="1.2" />
+		<Version value="1.3" />
 	</ModInfo>
 
 	<!--
@@ -16,6 +16,8 @@
 		For this model to work properly, it needs to be installed on the server and every player's computer.
 	-->
 
+	<!-- v1.3: A19 Base model
+  				* Headlight and taillight are back on the base model (must remember to have unique file and prefabs names...) -->
 	<!-- v1.2: A19 bug fixes
   				* Add missing motocycle sprite (thanks Ti2xGr)
   				* Fix the motorcycle model so player avatars sit properly on them (missing the base model replacement for now) -->

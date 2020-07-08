@@ -50,9 +50,9 @@
 	</append>
 
 	<!-- Change the model for the standard Motorcycle (now with headlight and taillight) -->
-	<!-- <insertAfter xpath="//property[@name='Meshfile'][@value='#Entities/Vehicles?motorcycle_Prefab.prefab']">
-		<property name="Meshfile" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom"/>
+	<insertAfter xpath="//property[@name='Meshfile'][@value='#Entities/Vehicles?motorcycle_Prefab.prefab']">
+		<property name="Meshfile" value="#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_with_lights"/>
 	</insertAfter>
-	<remove xpath="//property[@name='Meshfile'][@value='#Entities/Vehicles?motorcycle_Prefab.prefab']" /> -->
+	<remove xpath="//property[@name='Meshfile'][@value='#Entities/Vehicles?motorcycle_Prefab.prefab']" />
 
 </configs>
