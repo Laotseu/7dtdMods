@@ -4,6 +4,7 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 1.4: Add missing hud sprite for the Jeeps
 * 1.3: Rebuild assets for the new linear lighting (Alpha 19)
 * 1.2: The blender release 
 	- 4x4 top lights can now be turned on
