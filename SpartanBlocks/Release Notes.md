@@ -4,6 +4,8 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 1.7:  Fix flags 
+    - Make them looks good with A19 / Unity3d 2019-02 cloth simulator
 * 1.6: Alpha 19
     - Rebuild assets for the new linear lighting (Alpha 19) 
     - Try to fix issues with flags introduced with Unity 2019.2 Engine
