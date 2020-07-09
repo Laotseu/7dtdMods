@@ -28,14 +28,14 @@ Are you tired of driving the exact same Jeep as you friend? Do you want to pimp 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v1.3/PaintJob_v1.3.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PaintJob_v1.3)<br /><br /><br /><br />
 
-SpartanBlocks v1.6 (Alpha 19)
+SpartanBlocks v1.7 (Alpha 19)
 -----------------------------
 
 <img align="left" width="150" height="150" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/SpartanBlocks/SpartanBlocks.jpg" />
 Add custom blocks and items for all the Grand Spartan's fans out there.<br />
 
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/SpartanBlocks_v1.6/SpartanBlocks_v1.6.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/SpartanBlocks_v1.6)<br /><br /><br /><br />
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/SpartanBlocks_v1.7/SpartanBlocks_v1.7.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/SpartanBlocks_v1.7)<br /><br /><br /><br />
 
 Castle Spartan (on GitLab)
 --------------------------
