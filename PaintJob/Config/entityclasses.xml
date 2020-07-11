@@ -6,154 +6,76 @@
 			<property name="Extends" value="vehicle4x4Truck"/>
 			<property name="Prefab" value="#@modfolder:Resources/Vehicles.unity3d?jeep_Prefab"/>
 		</entity_class> -->
-
-		<entity_class name="pjVehicle4x4TruckWhite">
+		<entity_class name="pjVehicle4x4TruckWhite" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
-			<property name="Class" value="EntityVJeep"/>
-			<property name="Parent" value="Cars"/>
-			<property name="Prefab" value="#@modfolder:Resources/Jeeps.unity3d?Jeep_white"/>
-			<property name="ModelType" value="Standard"/>
-			<property name="SurfaceCategory" value="metal"/>
-			<property name="IgnoreTrigger" value="true"/>
-			<property name="LootListAlive" value="79"/>
-			<property name="IsEnemyEntity" value="false"/>
-			<property name="Explosion.ParticleIndex" value="6"/>
-			<property name="Explosion.RadiusBlocks" value="5"/>
-			<property name="Explosion.RadiusEntities" value="5"/>
-			<property name="Explosion.BlockDamage" value="100"/>
-			<property name="Explosion.EntityDamage" value="100"/>
-			<property name="RotateToGround" value="true"/>
-			<property name="Faction" value="none"/>
-			<property name="MapIcon" value="ui_game_symbol_4x4"/>
-			<property name="NavObject" value="4x4" />
+			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_white"/>
 		</entity_class>
 
-		<entity_class name="pjVehicle4x4TruckBlue">
+		<entity_class name="pjVehicle4x4TruckBlue" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
-			<property name="Class" value="EntityVJeep"/>
-			<property name="Parent" value="Cars"/>
-			<property name="Prefab" value="#@modfolder:Resources/Jeeps.unity3d?Jeep_blue"/>
-			<property name="ModelType" value="Standard"/>
-			<property name="SurfaceCategory" value="metal"/>
-			<property name="IgnoreTrigger" value="true"/>
-			<property name="LootListAlive" value="79"/>
-			<property name="IsEnemyEntity" value="false"/>
-			<property name="Explosion.ParticleIndex" value="6"/>
-			<property name="Explosion.RadiusBlocks" value="5"/>
-			<property name="Explosion.RadiusEntities" value="5"/>
-			<property name="Explosion.BlockDamage" value="100"/>
-			<property name="Explosion.EntityDamage" value="100"/>
-			<property name="RotateToGround" value="true"/>
-			<property name="Faction" value="none"/>
-			<property name="MapIcon" value="ui_game_symbol_4x4"/>
-			<property name="NavObject" value="4x4" />
+			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_blue"/>
 		</entity_class>
 
-		<entity_class name="pjVehicle4x4TruckRed">
+		<entity_class name="pjVehicle4x4TruckRed" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
-			<property name="Class" value="EntityVJeep"/>
-			<property name="Parent" value="Cars"/>
-			<property name="Prefab" value="#@modfolder:Resources/Jeeps.unity3d?Jeep_red"/>
-			<property name="ModelType" value="Standard"/>
-			<property name="SurfaceCategory" value="metal"/>
-			<property name="IgnoreTrigger" value="true"/>
-			<property name="LootListAlive" value="79"/>
-			<property name="IsEnemyEntity" value="false"/>
-			<property name="Explosion.ParticleIndex" value="6"/>
-			<property name="Explosion.RadiusBlocks" value="5"/>
-			<property name="Explosion.RadiusEntities" value="5"/>
-			<property name="Explosion.BlockDamage" value="100"/>
-			<property name="Explosion.EntityDamage" value="100"/>
-			<property name="RotateToGround" value="true"/>
-			<property name="Faction" value="none"/>
-			<property name="MapIcon" value="ui_game_symbol_4x4"/>
-			<property name="NavObject" value="4x4" />
+			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_red"/>
 		</entity_class>
 
-		<entity_class name="pjVehicle4x4TruckSpartan">
+		<entity_class name="pjVehicle4x4TruckSpartan" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
-			<property name="Class" value="EntityVJeep"/>
-			<property name="Parent" value="Cars"/>
-			<property name="Prefab" value="#@modfolder:Resources/Jeeps.unity3d?Jeep_spartan"/>
-			<property name="ModelType" value="Standard"/>
-			<property name="SurfaceCategory" value="metal"/>
-			<property name="IgnoreTrigger" value="true"/>
-			<property name="LootListAlive" value="79"/>
-			<property name="IsEnemyEntity" value="false"/>
-			<property name="Explosion.ParticleIndex" value="6"/>
-			<property name="Explosion.RadiusBlocks" value="5"/>
-			<property name="Explosion.RadiusEntities" value="5"/>
-			<property name="Explosion.BlockDamage" value="100"/>
-			<property name="Explosion.EntityDamage" value="100"/>
-			<property name="RotateToGround" value="true"/>
-			<property name="Faction" value="none"/>
-			<property name="MapIcon" value="ui_game_symbol_4x4"/>
-			<property name="NavObject" value="4x4" />
+			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_spartan"/>
 		</entity_class>
 
-		<entity_class name="pjVehicle4x4TruckTest">
+		<entity_class name="pjVehicle4x4TruckMissSpartan" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
-			<property name="Class" value="EntityVJeep"/>
-			<property name="Parent" value="Cars"/>
-			<property name="Prefab" value="#@modfolder:Resources/Jeeps.unity3d?Jeep_test_pattern"/>
-			<property name="ModelType" value="Standard"/>
-			<property name="SurfaceCategory" value="metal"/>
-			<property name="IgnoreTrigger" value="true"/>
-			<property name="LootListAlive" value="79"/>
-			<property name="IsEnemyEntity" value="false"/>
-			<property name="Explosion.ParticleIndex" value="6"/>
-			<property name="Explosion.RadiusBlocks" value="5"/>
-			<property name="Explosion.RadiusEntities" value="5"/>
-			<property name="Explosion.BlockDamage" value="100"/>
-			<property name="Explosion.EntityDamage" value="100"/>
-			<property name="RotateToGround" value="true"/>
-			<property name="Faction" value="none"/>
-			<property name="MapIcon" value="ui_game_symbol_4x4"/>
-			<property name="NavObject" value="4x4" />
+			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_miss_spartan"/>
 		</entity_class>
 
-		<!-- <entity_class name="pjVehicle4x4TruckPatrol">
+		<entity_class name="pjVehicle4x4TruckTest" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
-			<property name="Class" value="EntityVJeep"/>
-			<property name="Parent" value="Cars"/>
-			<property name="Prefab" value="#@modfolder:Resources/Jeeps.unity3d?jeep_UK"/>
-			<property name="ModelType" value="Standard"/>
-			<property name="SurfaceCategory" value="metal"/>
-			<property name="IgnoreTrigger" value="true"/>
-			<property name="LootListAlive" value="79"/>
-			<property name="IsEnemyEntity" value="false"/>
-			<property name="Explosion.ParticleIndex" value="6"/>
-			<property name="Explosion.RadiusBlocks" value="5"/>
-			<property name="Explosion.RadiusEntities" value="5"/>
-			<property name="Explosion.BlockDamage" value="100"/>
-			<property name="Explosion.EntityDamage" value="100"/>
-			<property name="RotateToGround" value="true"/>
-			<property name="Faction" value="none"/>
-			<property name="MapIcon" value="ui_game_symbol_4x4"/>
-		</entity_class> -->
+			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_test_pattern"/>
+		</entity_class>
+
+
 
 		<!-- Maping guide on! -->
-		<entity_class name="pjVehicleMotorcycleTest">
+		<entity_class name="pjVehicleMotorcycleTest" extends="vehicleMotorcycle">
 			<property name="Tags" value="vehicle"/>
-			<property name="Class" value="EntityMotorcycle"/>
-			<property name="Parent" value="Cars"/>
 			<property name="Prefab" value="#@modfolder:Resources/NewByke.unity3d?Motorcycle_test"/>
-			<property name="ModelType" value="Standard"/>
-			<property name="SurfaceCategory" value="metal"/>
-			<property name="IgnoreTrigger" value="true"/>
-			<property name="LootListAlive" value="78"/>
-			<property name="IsEnemyEntity" value="false"/>
-			<property name="Explosion.ParticleIndex" value="6"/>
-			<property name="Explosion.RadiusBlocks" value="4"/>
-			<property name="Explosion.RadiusEntities" value="4"/>
-			<property name="Explosion.BlockDamage" value="50"/>
-			<property name="Explosion.EntityDamage" value="50"/>
-			<property name="RotateToGround" value="true"/>
-			<property name="Faction" value="none"/>
-			<property name="MapIcon" value="ui_game_symbol_motorcycle"/>
-			<property name="NavObject" value="motorcycle" />
 		</entity_class>
 
 	</append>
 
+	<!-- Change the model for the standard 4X4 (now with headlights, top lights and taillights) -->
+	<setattribute xpath="//entity_class[@name='vehicle4x4Truck']/property[@name='Prefab']" name="value">#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_base</setattribute>
+<!-- 	<insertAfter xpath="//entity_class[@name='vehicle4x4Truck']/property[@name='Prefab']">
+		<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_base"/>
+	</insertAfter>
+	<remove xpath="//entity_class[@name='vehicle4x4Truck']/property[@name='Prefab'][@value='#Entities/Vehicles?jeep_Prefab.prefab' or contains(value,'jaJeeps.unity3d?var_Jeep')]" /> -->
+
+<!-- <entity_class name="vehicle4x4Truck">
+	<property name="Tags" value="vehicle"/>
+	<property name="Class" value="EntityVJeep"/>
+	<property name="Parent" value="Cars"/>
+	<property name="Prefab" value="#Entities/Vehicles?jeep_Prefab.prefab"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="SurfaceCategory" value="metal"/>
+	<property name="IgnoreTrigger" value="true"/>
+	<property name="LootListAlive" value="79"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="Explosion.ParticleIndex" value="6"/>
+	<property name="Explosion.RadiusBlocks" value="5"/>
+	<property name="Explosion.RadiusEntities" value="5"/>
+	<property name="Explosion.BlockDamage" value="100"/>
+	<property name="Explosion.EntityDamage" value="100"/>
+	<property name="RotateToGround" value="true"/>
+	<property name="Faction" value="none"/>
+	<property name="MapIcon" value="ui_game_symbol_4x4"/>
+	<property name="NavObject" value="4x4" />
+</entity_class> -->
+<!-- 	<insertAfter xpath="//property[@name='Prefab'][@value='#Entities/Vehicles?jeep_Prefab.prefab' or contains(value,'jaJeeps.unity3d?var_Jeep')]">
+		<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_base"/>
+	</insertAfter>
+	<remove xpath="//property[@name='Prefab'][@value='#Entities/Vehicles?jeep_Prefab.prefab' or contains(value,'jaJeeps.unity3d?var_Jeep')]" />
+ -->
 </configs>

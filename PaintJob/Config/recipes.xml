@@ -45,5 +45,10 @@
 			<ingredient name="resourcePaint" count="30"/>
 		</recipe>
 
+		<recipe name="pjVehicle4x4TruckMissSpartanPlaceable" count="1">
+			<ingredient name="pjVehicle4x4TruckWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="30"/>
+		</recipe>
+
 	</append>
 </configs>

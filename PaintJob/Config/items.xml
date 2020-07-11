@@ -3,7 +3,7 @@
 
 		<item name="pjVehicle4x4TruckWhitePlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="Meshfile" value="#@modfolder:Resources/Jeeps.unity3d?jeep_base"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_white"/>
 			<property name="EconomicValue" value="30000"/>
 			<property class="Action1">
 				<property name="Vehicle" value="pjVehicle4x4TruckWhite"/>
@@ -18,7 +18,7 @@
 
 		<item name="pjVehicle4x4TruckBluePlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="Meshfile" value="#@modfolder:Resources/Vehicles.unity3d?jeep_blue"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_blue"/>
 			<property name="EconomicValue" value="30000"/>
 			<property class="Action1">
 				<property name="Vehicle" value="pjVehicle4x4TruckBlue"/>
@@ -33,7 +33,7 @@
 
 		<item name="pjVehicle4x4TruckRedPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="Meshfile" value="#@modfolder:Resources/Vehicles.unity3d?jeep_red"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_red"/>
 			<property name="EconomicValue" value="30000"/>
 			<property class="Action1">
 				<property name="Vehicle" value="pjVehicle4x4TruckRed"/>
@@ -48,7 +48,7 @@
 
 		<item name="pjVehicle4x4TruckSpartanPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="Meshfile" value="#@modfolder:Resources/Vehicles.unity3d?jeep_spartan"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_spartan"/>
 			<property name="EconomicValue" value="30000"/>
 			<property class="Action1">
 				<property name="Vehicle" value="pjVehicle4x4TruckSpartan"/>
@@ -61,9 +61,24 @@
 			</effect_group>
 		</item>
 
+		<item name="pjVehicle4x4TruckMissSpartanPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_miss_spartan"/>
+			<property name="EconomicValue" value="30000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjVehicle4x4TruckMissSpartan"/>
+				<property name="VehicleSize" value="2.5, 2.1, 5"/>
+			</property>
+			<effect_group name="pjVehicle4x4TruckMissSpartanPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+			</effect_group>
+		</item>
+
 		<item name="pjVehicle4x4TruckTestPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="Meshfile" value="#@modfolder:Resources/Vehicles.unity3d?jeep_test_pattern"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_test_pattern"/>
 			<property name="EconomicValue" value="30000"/>
 			<property class="Action1">
 				<property name="Vehicle" value="pjVehicle4x4TruckTest"/>
@@ -76,20 +91,7 @@
 			</effect_group>
 		</item>
 
-		<!-- <item name="pjVehicle4x4TruckPatrolPlaceable">
-			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="Meshfile" value="#@modfolder:Resources/Jeeps.unity3d?jeep_UK"/>
-			<property name="EconomicValue" value="30000"/>
-			<property class="Action1">
-				<property name="Vehicle" value="pjVehicle4x4TruckPatrol"/>
-				<property name="VehicleSize" value="2.5, 2.1, 5"/>
-			</property>
-			<effect_group name="pjVehicle4x4TruckPatrolPlaceable" tiered="false">
-				<passive_effect name="ModSlots" operation="base_set" value="4"/>
-				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
-			</effect_group>
-		</item> -->
+
 
 		<!-- Motorcycle -->
 		<item name="pjVehicleMotorcycleTestPlaceable">
@@ -109,4 +111,8 @@
 
 
 	</append>
+
+	<!-- Change the model for the standard Motorcycle (now with headlight and taillight) -->
+	<setattribute xpath="//item[@name='vehicle4x4TruckPlaceable']/property[@name='Meshfile']" name="value">#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_base</setattribute>
+
 </configs>

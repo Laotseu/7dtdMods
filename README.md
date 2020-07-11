@@ -19,14 +19,15 @@ During one of the FunPimps stream for Alpha 19, the motorcycle model was shown w
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/MotorcycleAlterations_v1.3/MotorcycleAlterations_v1.3.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MotorcycleAlterations_v1.3)<br /><br /><br /><br />
 
-PaintJob v1.4 (Alpha 19)
+PaintJob v1.5 (Alpha 19)
 ------------------------
 
-<img align="left" width="150" height="150" hspace="8" src="https://github.com/Laotseu/7dtdMods/blob/master/PaintJob/PaintJob.png" />
+![PaintJob](https://github.com/Laotseu/7dtdMods/blob/master/PaintJob/PaintJob.png)
+
 Are you tired of driving the exact same Jeep as you friend? Do you want to pimp your ride? PaintJob is for you! This mod add recipes that allow you to change the colour of your ride.<br />
 
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v1.4/PaintJob_v1.4.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PaintJob_v1.4)<br /><br /><br /><br />
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v1.5/PaintJob_v1.5.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PaintJob_v1.5)<br /><br /><br /><br />
 
 SpartanBlocks v1.7 (Alpha 19)
 -----------------------------
