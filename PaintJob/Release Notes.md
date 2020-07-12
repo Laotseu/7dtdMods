@@ -4,6 +4,8 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 1.6: Plug a hole on the left side of the front bumper
+	   Move the steering wheel forward to leave more space for driver's avatar
 * 1.5: Add Pink Rider 4x4 truck
 * 1.4: Add missing hud sprite for the Jeeps
 * 1.3: Rebuild assets for the new linear lighting (Alpha 19)
