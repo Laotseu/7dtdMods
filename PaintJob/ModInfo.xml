@@ -22,5 +22,6 @@
 	<!-- v1.3:  Rebuild assets for the new linear lighting (Alpha 19) -->
 	<!-- v1.4:  Add missing A19 Hud Sprite for the Jeep -->
 	<!-- v1.5:  Add Pink Rider -->
-	<!-- v1.6:  Plug a hole on the left side of the front bumper -->
+	<!-- v1.6:  Plug a hole on the left side of the front bumper
+	            Move the steering wheel forward to leave more space for driver's avatar -->
 </xml>
