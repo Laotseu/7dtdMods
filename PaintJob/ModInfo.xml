@@ -5,7 +5,7 @@
 		<Name value="PaintJob" />
 		<Description value="New colour schemes for FunPims vehicles" />
 		<Author value="Éric Beaudon" />
-		<Version value="1.6" />
+		<Version value="1.7" />
 	</ModInfo>
 
 	<!--
@@ -24,4 +24,6 @@
 	<!-- v1.5:  Add Pink Rider -->
 	<!-- v1.6:  Plug a hole on the left side of the front bumper
 	            Move the steering wheel forward to leave more space for driver's avatar -->
+	<!-- V1.7:  The A19 max speed is 14m/s. Vroom, vroom 
+				Try to make the Jeeps more bridge friendly -->
 </xml>

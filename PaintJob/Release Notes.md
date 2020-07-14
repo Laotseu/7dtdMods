@@ -4,6 +4,9 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 1.7: Fix bugs reported by MrGrim (thanks)
+	- The A19 max speed is 14m/s. Vroom, vroom 
+	- Try to make the Jeeps more bridge friendly
 * 1.6: Mesh file fixes
 	- Plug a hole on the left side of the front bumper
 	- Move the steering wheel forward to leave more space for driver's avatar* 1.5: Add Pink Rider 4x4 truck
