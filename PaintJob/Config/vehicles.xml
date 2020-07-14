@@ -3,6 +3,7 @@
 	<append xpath="/vehicles" >
 
 	<vehicle name="pjVehicle4x4TruckWhite">
+
 		<property name="cameraDistance" value="5.5, 7"/>
 		<property name="cameraTurnRate" value=".2, .35"/>
 		<property name="motorTorqueMinQ" value="5000"/>
@@ -18,7 +19,7 @@
 		<property name="tiltDampenThreshold" value="8"/>
 		<property name="tiltUpForce" value="0"/>
 		<property name="unstickForce" value="1"/>
-		<property name="velocityMax" value="9, 13"/>
+		<property name="velocityMax" value="9, 14"/>
 		<property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
 		<property name="wheelPtlScale" value="1"/>
 
@@ -29,7 +30,6 @@
 			<property name="slot_type" value="battery"/>
 			<property name="mesh" value="battery"/>
 			<property name="transform" value="battery"/>
-			<property name="parent_part" value="chassis"/>
 		</property>
 
 		<property class="chassis">
@@ -38,6 +38,7 @@
 			<property name="slot_type" value="chassis"/>
 			<property name="mesh" value="chassis"/>
 			<property name="transform" value="Origin"/>
+			<property name="paint" value="car_mesh"/>
 		</property>
 
 		<property class="engine">
@@ -47,6 +48,7 @@
 			<property name="transform" value="engine_small"/>
 			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
 			<property name="fuelKmPerL" value=".1"/>
+			<property name="foodDrain" value=".002,.00811"/><!-- driving/turbo, truck -->
 			<property name="gear1" value="
 								500,2500, -1400,800,0, 700,2200,900,
 								Vehicles/Suv/suv_accel1,
@@ -75,17 +77,14 @@
 			<property name="sound_start" value="Vehicles/Suv/suv_startup"/>
 			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
 			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
-			<property name="parent_part" value="chassis"/>
 		</property>
 
 		<property class="fuelTank">
 			<property name="class" value="FuelTank"/>
-			<property name="parent_part" value="engine"/>
 			<property name="capacity" value="400"/>
 		</property>
 
 		<property class="handlebars">
-			<property name="parent_part" value="chassis"/>
 			<property name="class" value="Steering"/>
 			<property name="slot_type" value="handlebars"/>
 			<property name="transform" value="Origin/steering_joint"/>
@@ -109,7 +108,6 @@
 		</property>
 
 		<property class="wheel0">
-			<property name="parent_part" value="chassis"/>
 			<property name="steerTransform" value="Origin/frontLeftWheelStear_joint"/>
 			<property name="tireTransform" value="Origin/frontLeftWheelStear_joint/frontLeftWheel_joint"/>
 			<property name="tireSuspensionPercent" value="1"/>
@@ -117,7 +115,6 @@
 		</property>
 
 		<property class="wheel1">
-			<property name="parent_part" value="chassis"/>
 			<property name="steerTransform" value="Origin/frontRightWheelStear_joint"/>
 			<property name="tireTransform" value="Origin/frontRightWheelStear_joint/frontRightWheel_joint"/>
 			<property name="tireSuspensionPercent" value="1"/>
@@ -125,14 +122,12 @@
 		</property>
 
 		<property class="wheel2">
-			<property name="parent_part" value="chassis"/>
 			<property name="tireTransform" value="Origin/backLeftWheelJoint"/>
 			<property name="tireSuspensionPercent" value="1"/>
 			<property name="torqueScale_motor_brake" value="1, 1"/>
 		</property>
 
 		<property class="wheel3">
-			<property name="parent_part" value="chassis"/>
 			<property name="tireTransform" value="Origin/backRightWheelJoint"/>
 			<property name="tireSuspensionPercent" value="1"/>
 			<property name="torqueScale_motor_brake" value="1, 1"/>
@@ -140,7 +135,6 @@
 
 		<property class="headlight">
 			<property name="class" value="Headlight"/>
-			<property name="parent_part" value="chassis"/>
 			<property name="transform" value="Origin/headlight"/>
 			<property name="bright" value=".75"/>
 		</property>
@@ -151,12 +145,12 @@
 			<property name="slot_type" value="basket"/>
 			<property name="mesh" value="basket"/>
 			<property name="transform" value="basket"/>
-			<property name="parent_part" value="chassis"/>
 		</property>
 
 	</vehicle>
 	
 	<vehicle name="pjVehicle4x4TruckBlue">
+
 		<property name="cameraDistance" value="5.5, 7"/>
 		<property name="cameraTurnRate" value=".2, .35"/>
 		<property name="motorTorqueMinQ" value="5000"/>
@@ -172,7 +166,7 @@
 		<property name="tiltDampenThreshold" value="8"/>
 		<property name="tiltUpForce" value="0"/>
 		<property name="unstickForce" value="1"/>
-		<property name="velocityMax" value="9, 13"/>
+		<property name="velocityMax" value="9, 14"/>
 		<property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
 		<property name="wheelPtlScale" value="1"/>
 
@@ -183,7 +177,6 @@
 			<property name="slot_type" value="battery"/>
 			<property name="mesh" value="battery"/>
 			<property name="transform" value="battery"/>
-			<property name="parent_part" value="chassis"/>
 		</property>
 
 		<property class="chassis">
@@ -192,6 +185,7 @@
 			<property name="slot_type" value="chassis"/>
 			<property name="mesh" value="chassis"/>
 			<property name="transform" value="Origin"/>
+			<property name="paint" value="car_mesh"/>
 		</property>
 
 		<property class="engine">
@@ -201,6 +195,7 @@
 			<property name="transform" value="engine_small"/>
 			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
 			<property name="fuelKmPerL" value=".1"/>
+			<property name="foodDrain" value=".002,.00811"/><!-- driving/turbo, truck -->
 			<property name="gear1" value="
 								500,2500, -1400,800,0, 700,2200,900,
 								Vehicles/Suv/suv_accel1,
@@ -229,17 +224,14 @@
 			<property name="sound_start" value="Vehicles/Suv/suv_startup"/>
 			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
 			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
-			<property name="parent_part" value="chassis"/>
 		</property>
 
 		<property class="fuelTank">
 			<property name="class" value="FuelTank"/>
-			<property name="parent_part" value="engine"/>
 			<property name="capacity" value="400"/>
 		</property>
 
 		<property class="handlebars">
-			<property name="parent_part" value="chassis"/>
 			<property name="class" value="Steering"/>
 			<property name="slot_type" value="handlebars"/>
 			<property name="transform" value="Origin/steering_joint"/>
@@ -263,7 +255,6 @@
 		</property>
 
 		<property class="wheel0">
-			<property name="parent_part" value="chassis"/>
 			<property name="steerTransform" value="Origin/frontLeftWheelStear_joint"/>
 			<property name="tireTransform" value="Origin/frontLeftWheelStear_joint/frontLeftWheel_joint"/>
 			<property name="tireSuspensionPercent" value="1"/>
@@ -271,7 +262,6 @@
 		</property>
 
 		<property class="wheel1">
-			<property name="parent_part" value="chassis"/>
 			<property name="steerTransform" value="Origin/frontRightWheelStear_joint"/>
 			<property name="tireTransform" value="Origin/frontRightWheelStear_joint/frontRightWheel_joint"/>
 			<property name="tireSuspensionPercent" value="1"/>
@@ -279,14 +269,12 @@
 		</property>
 
 		<property class="wheel2">
-			<property name="parent_part" value="chassis"/>
 			<property name="tireTransform" value="Origin/backLeftWheelJoint"/>
 			<property name="tireSuspensionPercent" value="1"/>
 			<property name="torqueScale_motor_brake" value="1, 1"/>
 		</property>
 
 		<property class="wheel3">
-			<property name="parent_part" value="chassis"/>
 			<property name="tireTransform" value="Origin/backRightWheelJoint"/>
 			<property name="tireSuspensionPercent" value="1"/>
 			<property name="torqueScale_motor_brake" value="1, 1"/>
@@ -294,7 +282,6 @@
 
 		<property class="headlight">
 			<property name="class" value="Headlight"/>
-			<property name="parent_part" value="chassis"/>
 			<property name="transform" value="Origin/headlight"/>
 			<property name="bright" value=".75"/>
 		</property>
@@ -305,12 +292,12 @@
 			<property name="slot_type" value="basket"/>
 			<property name="mesh" value="basket"/>
 			<property name="transform" value="basket"/>
-			<property name="parent_part" value="chassis"/>
 		</property>
 
 	</vehicle>
 
 	<vehicle name="pjVehicle4x4TruckRed">
+
 		<property name="cameraDistance" value="5.5, 7"/>
 		<property name="cameraTurnRate" value=".2, .35"/>
 		<property name="motorTorqueMinQ" value="5000"/>
@@ -326,7 +313,7 @@
 		<property name="tiltDampenThreshold" value="8"/>
 		<property name="tiltUpForce" value="0"/>
 		<property name="unstickForce" value="1"/>
-		<property name="velocityMax" value="9, 13"/>
+		<property name="velocityMax" value="9, 14"/>
 		<property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
 		<property name="wheelPtlScale" value="1"/>
 
@@ -337,7 +324,6 @@
 			<property name="slot_type" value="battery"/>
 			<property name="mesh" value="battery"/>
 			<property name="transform" value="battery"/>
-			<property name="parent_part" value="chassis"/>
 		</property>
 
 		<property class="chassis">
@@ -346,6 +332,7 @@
 			<property name="slot_type" value="chassis"/>
 			<property name="mesh" value="chassis"/>
 			<property name="transform" value="Origin"/>
+			<property name="paint" value="car_mesh"/>
 		</property>
 
 		<property class="engine">
@@ -355,6 +342,7 @@
 			<property name="transform" value="engine_small"/>
 			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
 			<property name="fuelKmPerL" value=".1"/>
+			<property name="foodDrain" value=".002,.00811"/><!-- driving/turbo, truck -->
 			<property name="gear1" value="
 								500,2500, -1400,800,0, 700,2200,900,
 								Vehicles/Suv/suv_accel1,
@@ -383,17 +371,14 @@
 			<property name="sound_start" value="Vehicles/Suv/suv_startup"/>
 			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
 			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
-			<property name="parent_part" value="chassis"/>
 		</property>
 
 		<property class="fuelTank">
 			<property name="class" value="FuelTank"/>
-			<property name="parent_part" value="engine"/>
 			<property name="capacity" value="400"/>
 		</property>
 
 		<property class="handlebars">
-			<property name="parent_part" value="chassis"/>
 			<property name="class" value="Steering"/>
 			<property name="slot_type" value="handlebars"/>
 			<property name="transform" value="Origin/steering_joint"/>
@@ -417,7 +402,6 @@
 		</property>
 
 		<property class="wheel0">
-			<property name="parent_part" value="chassis"/>
 			<property name="steerTransform" value="Origin/frontLeftWheelStear_joint"/>
 			<property name="tireTransform" value="Origin/frontLeftWheelStear_joint/frontLeftWheel_joint"/>
 			<property name="tireSuspensionPercent" value="1"/>
@@ -425,7 +409,6 @@
 		</property>
 
 		<property class="wheel1">
-			<property name="parent_part" value="chassis"/>
 			<property name="steerTransform" value="Origin/frontRightWheelStear_joint"/>
 			<property name="tireTransform" value="Origin/frontRightWheelStear_joint/frontRightWheel_joint"/>
 			<property name="tireSuspensionPercent" value="1"/>
@@ -433,14 +416,12 @@
 		</property>
 
 		<property class="wheel2">
-			<property name="parent_part" value="chassis"/>
 			<property name="tireTransform" value="Origin/backLeftWheelJoint"/>
 			<property name="tireSuspensionPercent" value="1"/>
 			<property name="torqueScale_motor_brake" value="1, 1"/>
 		</property>
 
 		<property class="wheel3">
-			<property name="parent_part" value="chassis"/>
 			<property name="tireTransform" value="Origin/backRightWheelJoint"/>
 			<property name="tireSuspensionPercent" value="1"/>
 			<property name="torqueScale_motor_brake" value="1, 1"/>
@@ -448,7 +429,6 @@
 
 		<property class="headlight">
 			<property name="class" value="Headlight"/>
-			<property name="parent_part" value="chassis"/>
 			<property name="transform" value="Origin/headlight"/>
 			<property name="bright" value=".75"/>
 		</property>
@@ -459,12 +439,12 @@
 			<property name="slot_type" value="basket"/>
 			<property name="mesh" value="basket"/>
 			<property name="transform" value="basket"/>
-			<property name="parent_part" value="chassis"/>
 		</property>
 
 	</vehicle>
-
+	
 	<vehicle name="pjVehicle4x4TruckSpartan">
+
 		<property name="cameraDistance" value="5.5, 7"/>
 		<property name="cameraTurnRate" value=".2, .35"/>
 		<property name="motorTorqueMinQ" value="5000"/>
@@ -480,7 +460,7 @@
 		<property name="tiltDampenThreshold" value="8"/>
 		<property name="tiltUpForce" value="0"/>
 		<property name="unstickForce" value="1"/>
-		<property name="velocityMax" value="9, 13"/>
+		<property name="velocityMax" value="9, 14"/>
 		<property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
 		<property name="wheelPtlScale" value="1"/>
 
@@ -491,7 +471,6 @@
 			<property name="slot_type" value="battery"/>
 			<property name="mesh" value="battery"/>
 			<property name="transform" value="battery"/>
-			<property name="parent_part" value="chassis"/>
 		</property>
 
 		<property class="chassis">
@@ -500,6 +479,7 @@
 			<property name="slot_type" value="chassis"/>
 			<property name="mesh" value="chassis"/>
 			<property name="transform" value="Origin"/>
+			<property name="paint" value="car_mesh"/>
 		</property>
 
 		<property class="engine">
@@ -509,6 +489,7 @@
 			<property name="transform" value="engine_small"/>
 			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
 			<property name="fuelKmPerL" value=".1"/>
+			<property name="foodDrain" value=".002,.00811"/><!-- driving/turbo, truck -->
 			<property name="gear1" value="
 								500,2500, -1400,800,0, 700,2200,900,
 								Vehicles/Suv/suv_accel1,
@@ -537,17 +518,14 @@
 			<property name="sound_start" value="Vehicles/Suv/suv_startup"/>
 			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
 			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
-			<property name="parent_part" value="chassis"/>
 		</property>
 
 		<property class="fuelTank">
 			<property name="class" value="FuelTank"/>
-			<property name="parent_part" value="engine"/>
 			<property name="capacity" value="400"/>
 		</property>
 
 		<property class="handlebars">
-			<property name="parent_part" value="chassis"/>
 			<property name="class" value="Steering"/>
 			<property name="slot_type" value="handlebars"/>
 			<property name="transform" value="Origin/steering_joint"/>
@@ -571,7 +549,6 @@
 		</property>
 
 		<property class="wheel0">
-			<property name="parent_part" value="chassis"/>
 			<property name="steerTransform" value="Origin/frontLeftWheelStear_joint"/>
 			<property name="tireTransform" value="Origin/frontLeftWheelStear_joint/frontLeftWheel_joint"/>
 			<property name="tireSuspensionPercent" value="1"/>
@@ -579,7 +556,6 @@
 		</property>
 
 		<property class="wheel1">
-			<property name="parent_part" value="chassis"/>
 			<property name="steerTransform" value="Origin/frontRightWheelStear_joint"/>
 			<property name="tireTransform" value="Origin/frontRightWheelStear_joint/frontRightWheel_joint"/>
 			<property name="tireSuspensionPercent" value="1"/>
@@ -587,14 +563,12 @@
 		</property>
 
 		<property class="wheel2">
-			<property name="parent_part" value="chassis"/>
 			<property name="tireTransform" value="Origin/backLeftWheelJoint"/>
 			<property name="tireSuspensionPercent" value="1"/>
 			<property name="torqueScale_motor_brake" value="1, 1"/>
 		</property>
 
 		<property class="wheel3">
-			<property name="parent_part" value="chassis"/>
 			<property name="tireTransform" value="Origin/backRightWheelJoint"/>
 			<property name="tireSuspensionPercent" value="1"/>
 			<property name="torqueScale_motor_brake" value="1, 1"/>
@@ -602,7 +576,6 @@
 
 		<property class="headlight">
 			<property name="class" value="Headlight"/>
-			<property name="parent_part" value="chassis"/>
 			<property name="transform" value="Origin/headlight"/>
 			<property name="bright" value=".75"/>
 		</property>
@@ -613,12 +586,12 @@
 			<property name="slot_type" value="basket"/>
 			<property name="mesh" value="basket"/>
 			<property name="transform" value="basket"/>
-			<property name="parent_part" value="chassis"/>
 		</property>
 
 	</vehicle>
 
 	<vehicle name="pjVehicle4x4TruckMissSpartan">
+
 		<property name="cameraDistance" value="5.5, 7"/>
 		<property name="cameraTurnRate" value=".2, .35"/>
 		<property name="motorTorqueMinQ" value="5000"/>
@@ -634,7 +607,7 @@
 		<property name="tiltDampenThreshold" value="8"/>
 		<property name="tiltUpForce" value="0"/>
 		<property name="unstickForce" value="1"/>
-		<property name="velocityMax" value="9, 13"/>
+		<property name="velocityMax" value="9, 14"/>
 		<property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
 		<property name="wheelPtlScale" value="1"/>
 
@@ -645,7 +618,6 @@
 			<property name="slot_type" value="battery"/>
 			<property name="mesh" value="battery"/>
 			<property name="transform" value="battery"/>
-			<property name="parent_part" value="chassis"/>
 		</property>
 
 		<property class="chassis">
@@ -654,6 +626,7 @@
 			<property name="slot_type" value="chassis"/>
 			<property name="mesh" value="chassis"/>
 			<property name="transform" value="Origin"/>
+			<property name="paint" value="car_mesh"/>
 		</property>
 
 		<property class="engine">
@@ -663,6 +636,7 @@
 			<property name="transform" value="engine_small"/>
 			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
 			<property name="fuelKmPerL" value=".1"/>
+			<property name="foodDrain" value=".002,.00811"/><!-- driving/turbo, truck -->
 			<property name="gear1" value="
 								500,2500, -1400,800,0, 700,2200,900,
 								Vehicles/Suv/suv_accel1,
@@ -691,17 +665,14 @@
 			<property name="sound_start" value="Vehicles/Suv/suv_startup"/>
 			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
 			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
-			<property name="parent_part" value="chassis"/>
 		</property>
 
 		<property class="fuelTank">
 			<property name="class" value="FuelTank"/>
-			<property name="parent_part" value="engine"/>
 			<property name="capacity" value="400"/>
 		</property>
 
 		<property class="handlebars">
-			<property name="parent_part" value="chassis"/>
 			<property name="class" value="Steering"/>
 			<property name="slot_type" value="handlebars"/>
 			<property name="transform" value="Origin/steering_joint"/>
@@ -725,7 +696,6 @@
 		</property>
 
 		<property class="wheel0">
-			<property name="parent_part" value="chassis"/>
 			<property name="steerTransform" value="Origin/frontLeftWheelStear_joint"/>
 			<property name="tireTransform" value="Origin/frontLeftWheelStear_joint/frontLeftWheel_joint"/>
 			<property name="tireSuspensionPercent" value="1"/>
@@ -733,7 +703,6 @@
 		</property>
 
 		<property class="wheel1">
-			<property name="parent_part" value="chassis"/>
 			<property name="steerTransform" value="Origin/frontRightWheelStear_joint"/>
 			<property name="tireTransform" value="Origin/frontRightWheelStear_joint/frontRightWheel_joint"/>
 			<property name="tireSuspensionPercent" value="1"/>
@@ -741,14 +710,12 @@
 		</property>
 
 		<property class="wheel2">
-			<property name="parent_part" value="chassis"/>
 			<property name="tireTransform" value="Origin/backLeftWheelJoint"/>
 			<property name="tireSuspensionPercent" value="1"/>
 			<property name="torqueScale_motor_brake" value="1, 1"/>
 		</property>
 
 		<property class="wheel3">
-			<property name="parent_part" value="chassis"/>
 			<property name="tireTransform" value="Origin/backRightWheelJoint"/>
 			<property name="tireSuspensionPercent" value="1"/>
 			<property name="torqueScale_motor_brake" value="1, 1"/>
@@ -756,7 +723,6 @@
 
 		<property class="headlight">
 			<property name="class" value="Headlight"/>
-			<property name="parent_part" value="chassis"/>
 			<property name="transform" value="Origin/headlight"/>
 			<property name="bright" value=".75"/>
 		</property>
@@ -767,12 +733,12 @@
 			<property name="slot_type" value="basket"/>
 			<property name="mesh" value="basket"/>
 			<property name="transform" value="basket"/>
-			<property name="parent_part" value="chassis"/>
 		</property>
 
 	</vehicle>
 
 	<vehicle name="pjVehicle4x4TruckTest">
+
 		<property name="cameraDistance" value="5.5, 7"/>
 		<property name="cameraTurnRate" value=".2, .35"/>
 		<property name="motorTorqueMinQ" value="5000"/>
@@ -788,7 +754,7 @@
 		<property name="tiltDampenThreshold" value="8"/>
 		<property name="tiltUpForce" value="0"/>
 		<property name="unstickForce" value="1"/>
-		<property name="velocityMax" value="9, 13"/>
+		<property name="velocityMax" value="9, 14"/>
 		<property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
 		<property name="wheelPtlScale" value="1"/>
 
@@ -799,7 +765,6 @@
 			<property name="slot_type" value="battery"/>
 			<property name="mesh" value="battery"/>
 			<property name="transform" value="battery"/>
-			<property name="parent_part" value="chassis"/>
 		</property>
 
 		<property class="chassis">
@@ -808,6 +773,7 @@
 			<property name="slot_type" value="chassis"/>
 			<property name="mesh" value="chassis"/>
 			<property name="transform" value="Origin"/>
+			<property name="paint" value="car_mesh"/>
 		</property>
 
 		<property class="engine">
@@ -817,6 +783,7 @@
 			<property name="transform" value="engine_small"/>
 			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
 			<property name="fuelKmPerL" value=".1"/>
+			<property name="foodDrain" value=".002,.00811"/><!-- driving/turbo, truck -->
 			<property name="gear1" value="
 								500,2500, -1400,800,0, 700,2200,900,
 								Vehicles/Suv/suv_accel1,
@@ -845,17 +812,14 @@
 			<property name="sound_start" value="Vehicles/Suv/suv_startup"/>
 			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
 			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
-			<property name="parent_part" value="chassis"/>
 		</property>
 
 		<property class="fuelTank">
 			<property name="class" value="FuelTank"/>
-			<property name="parent_part" value="engine"/>
 			<property name="capacity" value="400"/>
 		</property>
 
 		<property class="handlebars">
-			<property name="parent_part" value="chassis"/>
 			<property name="class" value="Steering"/>
 			<property name="slot_type" value="handlebars"/>
 			<property name="transform" value="Origin/steering_joint"/>
@@ -879,7 +843,6 @@
 		</property>
 
 		<property class="wheel0">
-			<property name="parent_part" value="chassis"/>
 			<property name="steerTransform" value="Origin/frontLeftWheelStear_joint"/>
 			<property name="tireTransform" value="Origin/frontLeftWheelStear_joint/frontLeftWheel_joint"/>
 			<property name="tireSuspensionPercent" value="1"/>
@@ -887,7 +850,6 @@
 		</property>
 
 		<property class="wheel1">
-			<property name="parent_part" value="chassis"/>
 			<property name="steerTransform" value="Origin/frontRightWheelStear_joint"/>
 			<property name="tireTransform" value="Origin/frontRightWheelStear_joint/frontRightWheel_joint"/>
 			<property name="tireSuspensionPercent" value="1"/>
@@ -895,14 +857,12 @@
 		</property>
 
 		<property class="wheel2">
-			<property name="parent_part" value="chassis"/>
 			<property name="tireTransform" value="Origin/backLeftWheelJoint"/>
 			<property name="tireSuspensionPercent" value="1"/>
 			<property name="torqueScale_motor_brake" value="1, 1"/>
 		</property>
 
 		<property class="wheel3">
-			<property name="parent_part" value="chassis"/>
 			<property name="tireTransform" value="Origin/backRightWheelJoint"/>
 			<property name="tireSuspensionPercent" value="1"/>
 			<property name="torqueScale_motor_brake" value="1, 1"/>
@@ -910,7 +870,6 @@
 
 		<property class="headlight">
 			<property name="class" value="Headlight"/>
-			<property name="parent_part" value="chassis"/>
 			<property name="transform" value="Origin/headlight"/>
 			<property name="bright" value=".75"/>
 		</property>
@@ -921,7 +880,6 @@
 			<property name="slot_type" value="basket"/>
 			<property name="mesh" value="basket"/>
 			<property name="transform" value="basket"/>
-			<property name="parent_part" value="chassis"/>
 		</property>
 
 	</vehicle>
