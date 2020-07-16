@@ -26,3 +26,13 @@ spFlagCanvas,blocks,Variant,New,Flag Canvas
 spPatrolFlagDesc,blocks,Block,New,Flag for all the Patrol Gaming fans out there.\n(Courtesy of the SpartanBlocks mod)
 sbFlagsVariantHelper,blocks,Variant,New,Branded Flags
 sbFlagsVariantHelperDesc,blocks,Variant,New,"Proof through the night that our flag was still there... or not, we'll see.\n(Courtesy of the SpartanBlocks mod)"
+spEhFlag,blocks,Block,New,"Eh Team Flag"
+spEhFlagHalf,blocks,Block,New,"Eh Team Flag, Half-Mast"
+sp330Flag,blocks,Block,New,"330 Flag"
+sp330FlagHalf,blocks,Block,New,"330 Flag, Half-Mast"
+spBeersplosionFlag,blocks,Block,New,"Beersplosion Flag"
+spBeersplosionFlagHalf,blocks,Block,New,"Beersplosion Flag, Half-Mast"
+spLHunterFlag,blocks,Block,New,"Logan Hunter Flag"
+spLHunterFlaggHalf,blocks,Block,New,"Logan Hunter Flag, Half-Mast"
+spIMLostFlag,blocks,Block,New,"I'm lost Flag"
+spIMLostFlagHalf,blocks,Block,New,"I'm lost Flag, Half-Mast"
