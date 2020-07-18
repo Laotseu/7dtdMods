@@ -4,6 +4,9 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 1.8: There is now a jeep for people that drive on the wrong side of the road
+	- Fix a problem with the windshields textures
+	- New Patrol Silver and Blue, Autrilian style
 * 1.7: Fix bugs reported by MrGrim and GunMuse (thanks)
 	- The A19 max speed is 14m/s. Vroom, vroom 
 	- Try to make the Jeeps more bridge friendly

@@ -91,6 +91,35 @@
 			</effect_group>
 		</item>
 
+		<item name="pjVehicle4x4TruckUKPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK"/>
+			<property name="EconomicValue" value="30000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjVehicle4x4TruckUK"/>
+				<property name="VehicleSize" value="2.5, 2.1, 5"/>
+			</property>
+			<effect_group name="pjVehicle4x4TruckUKPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+			</effect_group>
+		</item>
+
+		<item name="pjVehicle4x4PatrolPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK-patrol"/>
+			<property name="EconomicValue" value="30000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjVehicle4x4Patrol"/>
+				<property name="VehicleSize" value="2.5, 2.1, 5"/>
+			</property>
+			<effect_group name="pjVehicle4x4PatrolPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+			</effect_group>
+		</item>
 
 
 		<!-- Motorcycle -->

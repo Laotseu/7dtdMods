@@ -36,6 +36,16 @@
 			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_test_pattern"/>
 		</entity_class>
 
+		<entity_class name="pjVehicle4x4TruckUK" extends="vehicle4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK"/>
+		</entity_class>
+
+		<entity_class name="pjVehicle4x4Patrol" extends="vehicle4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK-patrol"/>
+		</entity_class>
+
 
 
 		<!-- Maping guide on! -->
