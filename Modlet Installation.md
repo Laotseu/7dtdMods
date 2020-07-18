@@ -41,11 +41,15 @@ The installation is pretty much the same as the stand-alone PC installation, you
 
 After the mod is uploaded to the server, restart the server and it's done.
 
-For most of my mods, the players do not need to install the mod on their PC, the server installation is the only thing required. For some of them, however, a PC installation is required. In those cases, each player must download the mod and follow the Stand-alone PC instruction. **Pro Tip:** always install the Stand-alone PC first. The Modlet release notes will explicitly tell you if it needs to be installed the payers PC.
+For most of my mods, the players do not need to install the mod on their PC, the server installation is the only thing required. For some of them, however, a PC installation is required. In those cases, each player must download the mod and follow the Stand-alone PC instruction. 
+
+**Pro Tip:** always install the Stand-alone PC first. 
+
+The Modlet release notes will explicitly tell you if it needs to be installed the payers PC.
 
 ### Verifying that the mod is installed properly
 
-The procedure to verify if the mod is installed properly on your server is similar then one for the Stand-alone PC, but the version command need to execute on the game server console that you access either through a web application of a Telnet connection.
+The procedure to verify if the mod is installed properly on your server is similar then one for the Stand-alone PC, but the version command need to execute on the game server console that you access either through a web application or a Telnet connection.
 
-Alternatively, you can start 7 Days to Die, join a game on the server, and then use `F1` + `version` from the client.
+Alternatively, you can start 7 Days to Die, join a game on the server using an account with admin rights, and then use `F1` + `version` from the client.
 

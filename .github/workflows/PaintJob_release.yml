@@ -30,7 +30,7 @@ jobs:
           mkdir ./Mods
           mv ./PaintJob/Release\ Notes.md .
           mv ./PaintJob ./Mods
-          zip -r ${ZIPNAME} Mods Release\ Notes.md
+          zip -r ${ZIPNAME} Mods Release\ Notes.md Modlet\ Installation.md
       - name: Create Release
         id: create_release
         uses: ncipollo/release-action@v1.6.1
