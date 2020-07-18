@@ -4,7 +4,10 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
-* 1.7:  Fix flags 
+* 1.8: A whole bunch of new flags
+    - One per Spartan moderators: 330 Shark, Beersplosion, Cult of Fast Food, Eh-Team, 
+    - I'm Lost flag for when you need to mark where your are lost...
+* 1.7: Fix flags 
     - Make them looks good with A19 / Unity3d 2019-02 cloth simulator
 * 1.6: Alpha 19
     - Rebuild assets for the new linear lighting (Alpha 19) 

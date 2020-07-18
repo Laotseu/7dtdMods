@@ -225,6 +225,20 @@
 			<property name="CustomIcon" value="spIMLostFlagHalf" />
 		</block>
 
+		<block name="spPawnAndSnacksFlag">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagPawnAndSnacks" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="spPawnAndSnacksFlag" />
+		</block>
+
+		<block name="spPawnAndSnacksFlagHalf">
+			<property name="Extends" value="spSpartanFlag"/>
+			<property name="Model" value="#@modfolder:Resources/sbFlags.unity3d?FlagPawnAndSnacks-half" />
+			<property name="DescriptionKey" value="spSpartanFlagDesc"/> 
+			<property name="CustomIcon" value="spPawnAndSnacksFlagHalf" />
+		</block>
+
 		<!-- Create a flag helper block -->
 		<block name="sbFlagsVariantHelper">
 			<property name="Extends" value="spSpartanFlag"/>
@@ -233,7 +247,7 @@
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true" />
 			<property name="DescriptionKey" value="sbFlagsVariantHelperDesc"/>
-			<property name="PlaceAltBlockValue" value="spSpartanFlag,spSpartanFlagBlack,spMissSpartanFlag,spMissSpartanFlagBlack,spPatrolFlag,spPatrolFlagBlack,spEhFlag,sp330Flag,spBeersplosionFlag,spLHunterFlag,spIMLostFlag,spSpartanFlagHalf,spSpartanFlagBlackHalf,spMissSpartanFlagHalf,spMissSpartanFlagBlackHalf,spPatrolFlagHalf,spPatrolFlagBlackHalf,spEhFlagHalf,sp330FlagHalf,spBeersplosionFlagHalf,spLHunterFlagHalf,spIMLostFlagHalf"/>
+			<property name="PlaceAltBlockValue" value="spSpartanFlag,spSpartanFlagBlack,spMissSpartanFlag,spMissSpartanFlagBlack,spPatrolFlag,spPatrolFlagBlack,spEhFlag,sp330Flag,spBeersplosionFlag,spLHunterFlag,spPawnAndSnacksFlag,spIMLostFlag,spSpartanFlagHalf,spSpartanFlagBlackHalf,spMissSpartanFlagHalf,spMissSpartanFlagBlackHalf,spPatrolFlagHalf,spPatrolFlagBlackHalf,spEhFlagHalf,sp330FlagHalf,spBeersplosionFlagHalf,spLHunterFlagHalf,spPawnAndSnacksFlagHalf,spIMLostFlagHalf"/>
 		</block>
 
 	</append>
