@@ -6,7 +6,7 @@
 
 * 1.8: There is now a jeep for people that drive on the wrong side of the road
 	- Fix a problem with the windshields textures
-	- New Patrol Silver and Blue, Autrilian style
+	- New Patrol Silver and Blue, Autralian style
 * 1.7: Fix bugs reported by MrGrim and GunMuse (thanks)
 	- The A19 max speed is 14m/s. Vroom, vroom 
 	- Try to make the Jeeps more bridge friendly
@@ -29,4 +29,5 @@
 
 * Thanks to Manux for headlight that actually light up.
 
+[click here for Modlet Instalation instruction](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)
 [Click here for a list of all my mods](https://github.com/Laotseu/7dtdMods/blob/master/README.md)
