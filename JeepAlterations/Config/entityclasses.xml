@@ -1,0 +1,29 @@
+<configs>
+	
+	<append xpath="/entity_classes">
+
+		<entity_class name="jaVehicle4x4TruckNoChainNoSpike" extends="vehicle4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/jaJeeps.unity3d?var_Jeep_nochain_nospike"/>
+		</entity_class>
+
+		<entity_class name="jaVehicle4x4TruckShieldDown" extends="vehicle4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/jaJeeps.unity3d?var_Jeep_shield_down"/>
+		</entity_class>		
+
+		<entity_class name="jaVehicle4x4TruckNoShield" extends="vehicle4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/jaJeeps.unity3d?var_Jeep_noshield"/>
+		</entity_class>		
+
+		<entity_class name="jaVehicleDuneBuggey" extends="vehicle4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/buggey.unity3d?buggey"/>
+		</entity_class>		
+	</append>
+
+	<!-- Change the model for the standard 4X4 (now with headlights, top lights and taillights) -->
+	<setattribute xpath="//entity_class[@name='vehicle4x4Truck']/property[@name='Prefab']" name="value">#@modfolder:Resources/jaJeeps.unity3d?var_Jeep</setattribute>
+
+</configs>

@@ -1,0 +1,5 @@
+Key,Source,Context,Changes,English
+jaVehicle4x4TruckNoChainNoSpikePlaceble,blocks,Block,New,"4x4 Truck, spikes and chain removed"
+jaVehicle4x4TruckShieldDownPlaceble,blocks,Block,New,"4x4 Truck, windshield in the down position"
+jaVehicle4x4TruckNoShieldPlaceble,blocks,Block,New,"4x4 Truck, windshield removed"
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="JeepAlterations" />
+		<!-- <Description value="Allow players to alter the 4x4 model" /> -->
+		<Description value="*** NOT READY FOR PRIME TIME. USE AT YOUR OWN RISK. ***" />
+		<Author value="Éric Beaudon" />
+		<Version value="0.1-Experimental" />
+	</ModInfo>
+
+	<!--
+		*************** 
+		** Important **
+		***************
+
+		For this model to work properly, it needs to be installed on the server and every player's computer.
+	-->
+
+	
+	<!-- v1.0:	First version that allow xxx differents configurations for the motorcyle
+				+ working headlights, top lights and taillights -->
+</xml>

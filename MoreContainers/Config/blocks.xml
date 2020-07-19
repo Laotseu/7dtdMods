@@ -14,7 +14,7 @@
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeSupply" /> 
 			<property name="Place" value="TowardsPlacerInverted"/>
 			<property name="Shape" value="ModelEntity" />
-			<drop event="Destroy" name="woodFurnitureBlockVariantHelper" count="1"/>
+			<drop event="Destroy" name="cntWoodFurnitureBlockVariantHelper" count="1"/>
 		</block>
 
 		<block name="mcCubeContainerForge">
@@ -278,7 +278,7 @@
 
 	<!-- Add the new contairs to the helper block -->
 	<append xpath="//block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,mcCubeContainer,mcHalfCubeContainer,mcCubeContainerAmo,mcHalfCubeContainerAmo,mcCubeContainerArmors,mcHalfCubeContainerArmorsInsecure,mcCubeContainerBarter,mcHalfCubeContainerBarter,mcCubeContainerBuilding,mcHalfCubeContainerBuilding,mcCubeContainerExplosive,mcHalfCubeContainerExplosive,mcCubeContainerFood,mcHalfCubeContainerFood,mcCubeContainerForge,mcHalfCubeContainerForge,mcCubeContainerHealth,mcHalfCubeContainerHealth,mcCubeContainerMining,mcHalfCubeContainerMining,mcCubeContainerRecycle,mcHalfCubeContainerRecycle,mcCubeContainerWeapons,mcHalfCubeContainerWeapons</append>
-	<append xpath="//block[@name='woodFurnitureBlockVariantHelper']">
+	<append xpath="//block[@name='cntWoodFurnitureBlockVariantHelper']">
 		<property name="Place" value="TowardsPlacerInverted"/>
 	</append>
 
