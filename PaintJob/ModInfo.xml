@@ -5,7 +5,7 @@
 		<Name value="PaintJob" />
 		<Description value="New colour schemes for FunPims vehicles" />
 		<Author value="Éric Beaudon" />
-		<Version value="1.8" />
+		<Version value="1.9" />
 	</ModInfo>
 
 	<!--
@@ -29,4 +29,5 @@
 				Add missing Pink Rider icon -->
 	<!-- v1.8:  Fix problem with the wind-sheild texture
 				Add Patrol Silver and Blue for people that drive on the wrong side of the road -->
+	<!-- v1.9:	Add the missing unity3D package for the Australian jeep -->
 </xml>

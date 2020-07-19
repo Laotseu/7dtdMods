@@ -4,6 +4,7 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 1.9: Add the missing unity3D package for the Australian jeep
 * 1.8: There is now a jeep for people that drive on the wrong side of the road
 	- Fix a problem with the windshields textures
 	- New Patrol Silver and Blue, Autralian style
