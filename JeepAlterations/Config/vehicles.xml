@@ -533,13 +533,17 @@
 			<property name="slot_type" value="handlebars"/>
 			<property name="transform" value="Origin/steering_joint"/>
 			<property name="steerMaxAngle" value="75"/>
-			<property name="IKHandLPosition" value="-.154, .1256, .0265"/>
-			<property name="IKHandLRotation" value="37.55, -13.433, 49.88"/>
-			<property name="IKHandRPosition" value=".154, .1256, .0265"/>
-			<property name="IKHandRRotation" value="37.55, 13.433, -49.88"/>
+			<!-- <property name="IKHandLPosition" value="-.154, .1256, .0265"/> -->
+			<!-- <property name="IKHandLRotation" value="37.55, -13.433, 49.88"/> -->
+			<!-- <property name="IKHandRPosition" value=".154, .1256, .0265"/> -->
+			<!-- <property name="IKHandRRotation" value="37.55, 13.433, -49.88"/> -->
+			<property name="IKHandLPosition" value="-.2, .1256, 0"/>
+			<property name="IKHandLRotation" value="75, -13, 55"/>
+			<property name="IKHandRPosition" value=".2, .1256, 0"/>
+			<property name="IKHandRRotation" value="75, 13, -55"/>
 		</property>
 
-		<property class="seat2">
+		<property class="seat0">
 			<property name="position" value="-.3, .10, .05"/>
 			<property name="rotation" value="-25, 0, 0"/>
 			<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/>
@@ -551,8 +555,8 @@
 			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/>
 		</property>
 
-		<property class="seat0">
-			<property name="position" value="0, .65, -1.4"/>
+		<property class="seat2">
+			<property name="position" value="0, .65, -1.3"/>
 			<property name="rotation" value="-30, 0, 0"/>
 			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/>
 		</property>
