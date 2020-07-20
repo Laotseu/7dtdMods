@@ -47,21 +47,6 @@
 			</effect_group>
 		</item>
 		
-		<item name="jaVehicleDuneBuggeyPlaceble">
-			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="Meshfile" value="#@modfolder:Resources/buggey.unity3d?buggey"/>
-			<property name="EconomicValue" value="30000"/>
-			<property class="Action1">
-				<property name="Vehicle" value="jaVehicleDuneBuggey"/>
-				<property name="VehicleSize" value="2.5, 2.1, 5"/>
-			</property>
-			<effect_group name="jaVehicleDuneBuggeyPlaceble" tiered="false">
-				<passive_effect name="ModSlots" operation="base_set" value="4"/>
-				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
-			</effect_group>
-		</item>
-		
 	</append>
 
 	<!-- Change the model for the standard 4X4 (now with headlights, top lights and taillights) -->

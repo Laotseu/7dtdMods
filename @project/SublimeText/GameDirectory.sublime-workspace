@@ -56,7 +56,7 @@
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
 			"settings":
 			{
-				"buffer_size": 1514237,
+				"buffer_size": 1514880,
 				"line_ending": "Windows"
 			}
 		},
@@ -70,21 +70,82 @@
 			}
 		},
 		{
-			"contents": "<?xml version=\"1.0\"?>\n<ServerSettings>\n\t<!-- GENERAL SERVER SETTINGS -->\n\n\t<!-- Server representation -->\n\t<property name=\"ServerName\"\t\t\t\t\t\tvalue=\"Eric's 7 Days to Die server\"/>\t\t<!-- Whatever you want the name of the server to be. -->\n\t<property name=\"ServerDescription\"\t\t\t\tvalue=\"--------------------\\nEric Solo Game\\n--------------------\\n\\nAlpha 19\"/>\t<!-- Whatever you want the server description to be, will be shown in the server browser. -->\n\t<property name=\"ServerWebsiteURL\"\t\t\t\tvalue=\"7dtderic.ddns.net:25004\"/>\t\t\t\t\t<!-- Website URL for the server, will be shown in the serverbrowser as a clickable link -->\n\t<property name=\"ServerPassword\"\t\t\t\t\tvalue=\"7dtderic2\"/>\t\t\t\t\t<!-- Password to gain entry to the server -->\n\t<property name=\"ServerLoginConfirmationText\"\tvalue=\"\" />\t\t\t\t\t<!-- If set the user will see the message during joining the server and has to confirm it before continuing. For more complex changes to this window you can change the \"serverjoinrulesdialog\" window in XUi -->\n\n\t<!-- Networking -->\n\t<property name=\"ServerPort\"\t\t\t\t\t\tvalue=\"25000\"/>\t\t\t\t<!-- Port you want the server to listen on. -->\n\t<property name=\"ServerVisibility\"\t\t\t\tvalue=\"2\"/>\t\t\t\t\t<!-- Visibility of this server: 2 = public, 1 = only shown to friends, 0 = not listed. As you are never friend of a dedicated server setting this to \"1\" will only work when the first player connects manually by IP. -->\n\t<property name=\"ServerDisabledNetworkProtocols\"\tvalue=\"\"/>\t<!-- Networking protocols that should not be used. Separated by comma. Possible values: LiteNetLib, SteamNetworking. Dedicated servers should disable SteamNetworking if there is no NAT router in between your users and the server or when port-forwarding is set up correctly -->\n\t<property name=\"ServerMaxWorldTransferSpeedKiBs\" value=\"2048\"/>\t\t\t\t<!-- Maximum (!) speed in kiB/s the world is transferred at to a client on first connect if it does not have the world yet. Maximum is about 1300 kiB/s, even if you set a higher value. -->\n\n\n\t<!-- Slots -->\n\t<property name=\"ServerMaxPlayerCount\"\t\t\tvalue=\"16\"/>\t\t\t\t\t<!-- Maximum Concurrent Players -->\n\t<property name=\"ServerReservedSlots\"\t\t\tvalue=\"0\"/>\t\t\t\t\t<!-- Out of the MaxPlayerCount this many slots can only be used by players with a specific permission level -->\n\t<property name=\"ServerReservedSlotsPermission\"\tvalue=\"100\"/>\t\t\t\t<!-- Required permission level to use reserved slots above -->\n\t<property name=\"ServerAdminSlots\"\t\t\t\tvalue=\"0\"/>\t\t\t\t\t<!-- This many admins can still join even if the server has reached MaxPlayerCount -->\n\t<property name=\"ServerAdminSlotsPermission\"\t\tvalue=\"0\"/>\t\t\t\t\t<!-- Required permission level to use the admin slots above -->\n\n\t<!-- Admin interfaces -->\n\t<property name=\"ControlPanelEnabled\"\t\t\tvalue=\"true\"/>\t\t\t\t<!-- Enable/Disable the web control panel -->\n\t<property name=\"ControlPanelPort\"\t\t\t\tvalue=\"25002\"/>\t\t\t\t<!-- Port of the control panel webpage -->\n\t<property name=\"ControlPanelPassword\"\t\t\tvalue=\"7dtdadmin\"/>\t\t\t<!-- Password to gain entry to the control panel -->\n\n\t<property name=\"TelnetEnabled\"\t\t\t\t\tvalue=\"true\"/>\t\t\t\t<!-- Enable/Disable the telnet -->\n\t<property name=\"TelnetPort\"\t\t\t\t\t\tvalue=\"25003\"/>\t\t\t\t<!-- Port of the telnet server -->\n\t<property name=\"TelnetPassword\"\t\t\t\t\tvalue=\"7dtdtelnet\"/>\t\t\t\t\t<!-- Password to gain entry to telnet interface. If no password is set the server will only listen on the local loopback interface -->\n\t<property name=\"TelnetFailedLoginLimit\"\t\t\tvalue=\"10\"/>\t\t\t\t<!-- After this many wrong passwords from a single remote client the client will be blocked from connecting to the Telnet interface -->\n\t<property name=\"TelnetFailedLoginsBlocktime\"\tvalue=\"10\"/>\t\t\t\t<!-- How long will the block persist (in seconds) -->\n\n\t<property name=\"TerminalWindowEnabled\"\t\t\tvalue=\"true\"/>\t\t\t\t<!-- Show a terminal window for log output / command input (Windows only) -->\n\n\t<!-- Folder and file locations -->\n\t<property name=\"AdminFileName\"\t\t\t\t\tvalue=\"serveradmin.xml\"/>\t<!-- Server admin file name. Path relative to the SaveGameFolder -->\n\t<property name=\"UserDataFolder\"\t\t\t\tvalue=\"c:/games/108_61_118_187_25000/1370797/7daystodie/Worlds\" />\t<!-- Use this to override where the server stores all generated data, including RWG generated worlds. Do not forget to uncomment the entry! -->\n\t<property name=\"SaveGameFolder\"\t\t\t\tvalue=\"c:/games/108_61_118_187_25000/1370797/7daystodie/Saves\" />\t<!-- Use this to only override the save game path. Do not forget to uncomment the entry! -->\n\n\t<!-- Other technical settings -->\n\t<property name=\"EACEnabled\"\t\t\t\t\t\tvalue=\"false\"/>\t\t\t\t<!-- Enables/Disables EasyAntiCheat -->\n\t<property name=\"HideCommandExecutionLog\"\t\tvalue=\"0\"/>\t\t\t\t\t<!-- Hide logging of command execution. 0 = show everything, 1 = hide only from Telnet/ControlPanel, 2 = also hide from remote game clients, 3 = hide everything -->\n\t<property name=\"MaxUncoveredMapChunksPerPlayer\"\tvalue=\"131072\"/>\t\t\t<!-- Override how many chunks can be uncovered on the ingame map by each player. Resulting max map file size limit per player is (x * 512 Bytes), uncovered area is (x * 256 m²). Default 131072 means max 32 km² can be uncovered at any time -->\n\t<property name=\"PersistentPlayerProfiles\"\t\tvalue=\"false\" />\t\t\t<!-- If disabled a player can join with any selected profile. If true they will join with the last profile they joined with -->\n\n\n\n\t<!-- GAMEPLAY -->\n\t\n\t<!-- World -->\n\t<property name=\"GameWorld\"\t\t\t\t\t\tvalue=\"Old Copaze Valley\"/>\t\t\t<!-- RWG (see WorldGenSeed and WorldGenSize options below) or any already existing world name in the Worlds folder (currently shipping with Navezgane) -->\n\t<property name=\"WorldGenSeed\"\t\t\t\t\tvalue=\"Eric Alpha 19 b163\"/>\t\t\t\t<!-- If RWG this is the seed for the generation of the new world. If a world with the resulting name already exists it will simply load it -->\n\t<property name=\"WorldGenSize\"\t\t\t\t\tvalue=\"8192\"/>\t\t\t\t<!-- If RWG this controls the width and height of the created world. It is also used in combination with WorldGenSeed to create the internal RWG seed thus also creating a unique map name even if using the same WorldGenSeed. Has to be between 2048 and 16384, though large map sizes will take long to generate / download / load -->\n\t<!-- <property name=\"GameName\"\t\t\t\t\t\tvalue=\"Eric and Simon A18\"/>\t\t\t -->\n\t<property name=\"GameName\"\t\t\t\t\t\tvalue=\"Eric Alpha 19 b163\"/>\t\t\t\n\t<!-- Whatever you want the game name to be. This affects the save game name as well as the seed used when placing decoration (trees etc) in the world. It does not control the generic layout of the world if creating an RWG world -->\n\t<property name=\"GameMode\"\t\t\t\t\t\tvalue=\"GameModeSurvival\"/>\t<!-- GameModeSurvival -->\n\n\t<!-- Difficulty -->\n\t<property name=\"GameDifficulty\"\t\t\t\t\tvalue=\"3\"/>\t\t\t\t\t<!-- 0 - 5, 0=easiest, 5=hardest -->\n\t<property name=\"BlockDamagePlayer\"\t\t\t\tvalue=\"100\" />\t\t\t\t<!-- How much damage do players to blocks (percentage in whole numbers) -->\n\t<property name=\"BlockDamageAI\"\t\t\t\t\tvalue=\"100\" />\t\t\t\t<!-- How much damage do AIs to blocks (percentage in whole numbers) -->\n\t<property name=\"BlockDamageAIBM\"\t\t\t\tvalue=\"100\" />\t\t\t\t<!-- How much damage do AIs during blood moons to blocks (percentage in whole numbers) -->\n\t<property name=\"XPMultiplier\"\t\t\t\t\tvalue=\"100\" />\t\t\t\t<!-- XP gain multiplier (percentage in whole numbers) -->\n\t<property name=\"PlayerSafeZoneLevel\"\t\t\tvalue=\"5\" />\t\t\t\t<!-- If a player is less or equal this level he will create a safe zone (no enemies) when spawned -->\n\t<property name=\"PlayerSafeZoneHours\"\t\t\tvalue=\"5\" />\t\t\t\t<!-- Hours in world time this safe zone exists -->\n\n\t<!--  -->\n\t<property name=\"BuildCreate\"\t\t\t\t\tvalue=\"false\" />\t\t\t<!-- cheat mode on/off -->\n\t<property name=\"DayNightLength\"\t\t\t\t\tvalue=\"60\" />\t\t\t\t<!-- real time minutes per in game day: 60 minutes -->\n\t<property name=\"DayLightLength\"\t\t\t\t\tvalue=\"18\" />\t\t\t\t<!-- in game hours the sun shines per day: 18 hours day light per in game day -->\n\t<property name=\"DropOnDeath\"\t\t\t\t\tvalue=\"0\" />\t\t\t\t<!-- 0 = nothing, 1 = everything, 2 = toolbelt only, 3 = backpack only -->\n\t<property name=\"DropOnQuit\"\t\t\t\t\t\tvalue=\"0\" />\t\t\t\t<!-- 0 = nothing, 1 = everything, 2 = toolbelt only, 3 = backpack only -->\n\t<property name=\"BedrollDeadZoneSize\"\t\t\tvalue=\"15\"/>\t\t\t\t<!-- Size of bedroll deadzone, no zombies will spawn inside this area, and any cleared sleeper volumes that touch a bedroll deadzone will not spawn after they've been cleared. -->\n\n\t<!-- Performance related -->\n\t<property name=\"MaxSpawnedZombies\"\t\t\t\tvalue=\"60\"/>\t\t\t\t<!-- Making this number too large (more than about 80) may cause servers to run at poor framerates which will effect lag and play quality for clients. -->\n\t<property name=\"MaxSpawnedAnimals\"\t\t\t\tvalue=\"50\"/>\t\t\t\t<!-- If your server has a large number of players you can increase this limit to add more wildlife. Animals don't consume as much CPU as zombies. NOTE: That this doesn't cause more animals to spawn arbitrarily: The biome spawning system only spawns a certain number of animals in a given area, but if you have lots of players that are all spread out then you may be hitting the limit and can increase it. -->\n\n\t<!-- Zombie settings -->\n\t<property name=\"EnemySpawnMode\"\t\t\t\t\tvalue=\"true\" />\t\t\t\t<!-- Enable/Disable enemy spawning -->\n\t<property name=\"EnemyDifficulty\"\t\t\t\tvalue=\"0\" />\t\t\t\t<!-- 0 = Normal, 1 = Feral -->\n\t<property name=\"ZombieMove\"\t\t\t\t\t\tvalue=\"0\" />\t\t\t\t<!-- 0-4 (walk, jog, run, sprint, nightmare) -->\n\t<property name=\"ZombieMoveNight\"\t\t\t\tvalue=\"1\" />\t\t\t\t<!-- 0-4 (walk, jog, run, sprint, nightmare) -->\n\t<property name=\"ZombieFeralMove\"\t\t\t\tvalue=\"3\" />\t\t\t\t<!-- 0-4 (walk, jog, run, sprint, nightmare) -->\n\t<property name=\"ZombieBMMove\"\t\t\t\t\tvalue=\"3\" />\t\t\t\t<!-- 0-4 (walk, jog, run, sprint, nightmare) -->\n\t<property name=\"BloodMoonFrequency\"\t\t\t\tvalue=\"7\" />\t\t\t\t<!-- What frequency (in days) should a blood moon take place -->\n\t<property name=\"BloodMoonRange\"\t\t\t\t\tvalue=\"0\" />\t\t\t\t<!-- How many days can the actual blood moon day randomly deviate from the above setting. Setting this to 0 makes blood moons happen exactly each Nth day as specified in BloodMoonFrequency -->\n\t<property name=\"BloodMoonWarning\"\t\t\t\tvalue=\"8\" />\t\t\t\t<!-- The Hour number that the red day number begins on a blood moon day. Setting this to -1 makes the red never show.  -->\n\t<property name=\"BloodMoonEnemyCount\"\t\t\tvalue=\"32\" />\t\t\t\t<!-- The number of zombies spawned during blood moons per player. -->\n\n\t<!-- Loot -->\n\t<property name=\"LootAbundance\"\t\t\t\t\tvalue=\"100\" />\t\t\t\t<!-- percentage in whole numbers -->\n\t<property name=\"LootRespawnDays\"\t\t\t\tvalue=\"5\" />\t\t\t\t<!-- days in whole numbers -->\n\t<property name=\"AirDropFrequency\"\t\t\t\tvalue=\"72\"/>\t\t\t\t<!-- How often airdrop occur in game-hours, 0 == never -->\n\t<property name=\"AirDropMarker\"\t\t\t\t\tvalue=\"true\"/>\t\t\t\t<!-- Sets if a marker is added to map/compass for air drops. -->\n\n\t<!-- Multiplayer -->\n\t<property name=\"PartySharedKillRange\"\t\t\tvalue=\"10000\"/>\t\t\t\t<!-- The distance you must be within to receive party shared kill xp and quest party kill objective credit. -->\n\t<property name=\"PlayerKillingMode\"\t\t\t\tvalue=\"0\" />\t\t\t\t<!-- Player Killing Settings (0 = No Killing, 1 = Kill Allies Only, 2 = Kill Strangers Only, 3 = Kill Everyone) -->\n\n\t<!-- Land claim options -->\n\t<property name=\"LandClaimCount\"\t\t\t\t\tvalue=\"6\"/>\t\t\t\t\t<!-- Maximum allowed land claims per player. -->\n\t<property name=\"LandClaimSize\"\t\t\t\t\tvalue=\"101\"/>\t\t\t\t<!-- Size in blocks that is protected by a keystone -->\n\t<property name=\"LandClaimDeadZone\"\t\t\t\tvalue=\"30\"/>\t\t\t\t<!-- Keystones must be this many blocks apart (unless you are friends with the other player) -->\n\t<property name=\"LandClaimExpiryTime\"\t\t\tvalue=\"3\"/>\t\t\t\t\t<!-- The number of days a player can be offline before their claims expire and are no longer protected -->\n\t<property name=\"LandClaimDecayMode\"\t\t\t\tvalue=\"0\"/>\t\t\t\t\t<!-- Controls how offline players land claims decay. All claims have full protection for the first 24hrs. 0=Linear, 1=Exponential, 2=Full protection until claim is expired. -->\n\t<property name=\"LandClaimOnlineDurabilityModifier\"\tvalue=\"4\"/>\t\t\t\t<!-- How much protected claim area block hardness is increased when a player is online. 0 means infinite (no damage will ever be taken). Default is 4x -->\n\t<property name=\"LandClaimOfflineDurabilityModifier\"\tvalue=\"4\"/>\t\t\t\t<!-- How much protected claim area block hardness is increased when a player is offline. 0 means infinite (no damage will ever be taken). Default is 4x -->\n\n\n\t<!-- There are several game settings that you cannot change when starting a new game.\n\tYou can use console commands to change at least some of them ingame.\n\tsetgamepref BedrollDeadZoneSize 30 -->\n</ServerSettings>\n",
-			"file": "/C/Users/Eric/AppData/Local/Temp/fz3temp-2/serverconfig.xml",
-			"file_size": 12669,
-			"file_write_time": 132389888060000000,
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/Config/vehicles.xml",
 			"settings":
 			{
-				"buffer_size": 12548,
+				"buffer_size": 24136,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/Config/vehicles.xml",
+			"file": "/D/7dtd/7dtdMods/Buggies/ModInfo.xml",
 			"settings":
 			{
-				"buffer_size": 23865,
+				"buffer_size": 573,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/Buggies/Release Notes.md",
+			"settings":
+			{
+				"buffer_size": 909,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/Buggies/Config/entityclasses.xml",
+			"settings":
+			{
+				"buffer_size": 281,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/Buggies/Config/items.xml",
+			"settings":
+			{
+				"buffer_size": 798,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/7dtd/7dtdMods/.gitignore",
+			"settings":
+			{
+				"buffer_size": 242,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/Buggies/Config/Localization.txt",
+			"settings":
+			{
+				"buffer_size": 107,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/Buggies/Config/recipes.xml",
+			"settings":
+			{
+				"buffer_size": 64,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/Buggies/Config/vehicles.xml",
+			"settings":
+			{
+				"buffer_size": 6463,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -99,13 +160,20 @@
 			}
 		},
 		{
-			"contents": "<configs>\n\t<append xpath=\"/blocks\">\n\t\t\n\n\t\t<!-- Special flagstone blocks with Grand Spartan pattern -->\n\t\t<block name=\"sbSpartanCubeOriginal\">\n\t\t\t<property name=\"Extends\" value=\"flagstoneNoUpgradeMaster\"/>\n\t\t\t<property name=\"Shape\" value=\"ModelEntity\" />\n\t\t\t<property name=\"Model\" value=\"#@modfolder:Resources/SpartanCube.unity3d?SpartanCubeV1\" /> \n\t\t\t<property name=\"CustomIcon\" value=\"GrandSpartanIcon\" />\n\t\t\t<property name=\"SortOrder2\" value=\"9990\" />\n\t\t\t<property name=\"Place\" value=\"TowardsPlacerInverted\"/>\n\t\t\t<property name=\"DescriptionKey\" value=\"sbSpartanCubeDesc\"/>\n\t\t</block>\n\n\t\t<block name=\"spSpartanCubeRocks\">\n\t\t\t<property name=\"Extends\" value=\"sbSpartanCubeOriginal\"/>\n\t\t\t<property name=\"Model\" value=\"#@modfolder:Resources/SpartanCube.unity3d?SpartanCubeRocks\" /> \n\t\t\t<property name=\"CustomIcon\" value=\"RocksCubeIcon\" />\n\t\t\t<property name=\"SortOrder2\" value=\"9991\" />\n\t\t</block>\n\n\t\t<block name=\"spPatrolCubeRocks\">\n\t\t\t<property name=\"Extends\" value=\"sbSpartanCubeOriginal\"/>\n\t\t\t<property name=\"Model\" value=\"#@modfolder:Resources/SpartanCube.unity3d?PatrolCubeRocks\" /> \n\t\t\t<property name=\"CustomIcon\" value=\"PatrolCubeRocksIcon\" />\n\t\t\t<property name=\"SortOrder2\" value=\"9992\" />\n\t\t\t<property name=\"DescriptionKey\" value=\"sbPatrolCubeDesc\"/>\n\t\t</block>\n\n\t\t<block name=\"spSpartanCubeMarble\">\n\t\t\t<property name=\"Extends\" value=\"sbSpartanCubeOriginal\"/>\n\t\t\t<property name=\"Model\" value=\"#@modfolder:Resources/SpartanCube.unity3d?SpartanCubeMarble\" /> \n\t\t\t<property name=\"CustomIcon\" value=\"SpartanCubeMarbleIcon\" />\n\t\t\t<property name=\"SortOrder2\" value=\"9993\" />\n\t\t</block>\n\n\t\t<block name=\"spPatrolCubeMarble\">\n\t\t\t<property name=\"Extends\" value=\"spPatrolCubeRocks\"/>\n\t\t\t<property name=\"Model\" value=\"#@modfolder:Resources/SpartanCube.unity3d?PatrolCubeMarble\" /> \n\t\t\t<property name=\"CustomIcon\" value=\"PatrolCubeMarbleIcon\" />\n\t\t\t<property name=\"SortOrder2\" value=\"9994\" />\n\t\t</block>\n\n\t\t<!-- Create a Spartan Cube helper block -->\n\t\t<block name=\"sbSpartanCubesVariantHelper\">\n\t\t\t<property name=\"Extends\" value=\"sbSpartanCubeOriginal\"/>\n\t\t\t<property name=\"CustomIcon\" value=\"GrandSpartanIcon\"/>\n\t\t\t<property name=\"CreativeMode\" value=\"Player\"/>\n\t\t\t<property name=\"ItemTypeIcon\" value=\"all_blocks\"/>\n\t\t\t<property name=\"SelectAlternates\" value=\"true\" />\n\t\t\t<property name=\"DescriptionKey\" value=\"sbSpartanCubesVariantHelperDesc\"/>\n\t\t\t<property name=\"PlaceAltBlockValue\" value=\"sbSpartanCubeOriginal,spSpartanCubeRocks,spPatrolCubeRocks,spSpartanCubeMarble,spPatrolCubeMarble\"/>\n\t\t</block>\n\n\t</append>\n\n\t<!-- Flag pole and flag with Grand Spartan pattern -->\n\t<append xpath=\"/blocks\">\t\n\t\t<block name=\"spSpartanFlag\">\n\t\t\t<property name=\"Material\" value=\"Mmetal\"/>\n\t\t\t<property name=\"DisplayType\" value=\"blockMulti\" />\n\t\t\t<property name=\"MultiBlockDim\" value=\"1,5,1\"/>\n\t\t\t<property name=\"IsTerrainDecoration\" value=\"true\"/>\n\t\t\t<property name=\"Path\" value=\"solid\"/>\n\t\t\t<property name=\"StabilitySupport\" value=\"false\"/>\n\t\t\t<property name=\"OnlySimpleRotations\" value=\"true\"/> \n\t\t\t<property name=\"CanPickup\" value=\"true\" /> \n\t\t\t<property name=\"Collide\" value=\"movement,melee,bullet,arrow,rocket\"/>\n\t\t\t<drop event=\"Harvest\" name=\"terrStone\" count=\"0\" tool_category=\"Disassemble\"/>\n\t\t\t<drop event=\"Harvest\" name=\"resourceMetalPipe\" count=\"4,8\" tag=\"salvageHarvest\"/>\n\t\t\t<drop event=\"Harvest\" name=\"resourceScrapIron\" count=\"2,5\" tag=\"allHarvest\"/>\n\t\t\t<drop event=\"Destroy\" name=\"resourceScrapIron\" count=\"2,5\"/>\n\t\t\t<drop event=\"Fall\" name=\"scrapMetalPile\" count=\"1\" prob=\"0.75\" stick_chance=\"1\"/>\n\t\t\t<property name=\"DescriptionKey\" value=\"spSpartanFlagDesc\"/> \n\t\t\t<property name=\"Shape\" value=\"ModelEntity\" />\n\t\t\t<property name=\"Model\" value=\"#@modfolder:Resources/sbFlags.unity3d?FlagSpartan\" />\n\t\t\t<property name=\"CustomIcon\" value=\"GrandSpartanFlagIcon\" />\n\t\t\t<property name=\"EconomicValue\" value=\"5\"/>\n\t\t\t<property name=\"Stacknumber\" value=\"25\"/>\n\t\t\t<property name=\"TakeDelay\" value=\"5\"/>\n\t\t\t<property name=\"CanPickup\" value=\"true\" param1=\"sbFlagsVariantHelper\"/>\n\t\t</block>\n\n\t\t<block name=\"spSpartanFlagBlack\">\n\t\t\t<property name=\"Extends\" value=\"spSpartanFlag\"/>\n\t\t\t<property name=\"Model\" value=\"#@modfolder:Resources/sbFlags.unity3d?FlagSpartanBlack\" />\n\t\t\t<property name=\"DescriptionKey\" value=\"spSpartanFlagDesc\"/> \n\t\t\t<property name=\"CustomIcon\" value=\"SpartanFlagBlackIcon\" />\n\t\t</block>\n\n\t\t<block name=\"spSpartanFlagHalf\">\n\t\t\t<property name=\"Extends\" value=\"spSpartanFlag\"/>\n\t\t\t<property name=\"Model\" value=\"#@modfolder:Resources/sbFlags.unity3d?FlagSpartan-half\" />\n\t\t\t<property name=\"DescriptionKey\" value=\"spSpartanFlagDesc\"/> \n\t\t\t<property name=\"CustomIcon\" value=\"SpartanFlagHalfIcon\" />\n\t\t</block>\n\n\t\t<block name=\"spSpartanFlagBlackHalf\">\n\t\t\t<property name=\"Extends\" value=\"spSpartanFlag\"/>\n\t\t\t<property name=\"Model\" value=\"#@modfolder:Resources/sbFlags.unity3d?FlagSpartanBlack-half\" />\n\t\t\t<property name=\"DescriptionKey\" value=\"spSpartanFlagDesc\"/> \n\t\t\t<property name=\"CustomIcon\" value=\"SpartanFlagBlackHalfIcon\" />\n\t\t</block>\n\n\t\t<block name=\"spPatrolFlag\">\n\t\t\t<property name=\"Extends\" value=\"spSpartanFlag\"/>\n\t\t\t<property name=\"Model\" value=\"#@modfolder:Resources/sbFlags.unity3d?FlagPatrol\" />\n\t\t\t<property name=\"DescriptionKey\" value=\"spPatrolFlagDesc\"/> \n\t\t\t<property name=\"CustomIcon\" value=\"PatrolFlagIcon\" />\n\t\t</block>\n\n\t\t<block name=\"spPatrolFlagBlack\">\n\t\t\t<property name=\"Extends\" value=\"spPatrolFlag\"/>\n\t\t\t<property name=\"Model\" value=\"#@modfolder:Resources/sbFlags.unity3d?FlagPatrolBlack\" />\n\t\t\t<property name=\"CustomIcon\" value=\"PatrolFlagBlackIcon\" />\n\t\t</block>\n\n\t\t<block name=\"spPatrolFlagHalf\">\n\t\t\t<property name=\"Extends\" value=\"spSpartanFlag\"/>\n\t\t\t<property name=\"Model\" value=\"#@modfolder:Resources/sbFlags.unity3d?FlagPatrol-half\" />\n\t\t\t<property name=\"DescriptionKey\" value=\"spPatrolFlagDesc\"/> \n\t\t\t<property name=\"CustomIcon\" value=\"PatrolFlagHalfIcon\" />\n\t\t</block>\n\n\t\t<block name=\"spPatrolFlagBlackHalf\">\n\t\t\t<property name=\"Extends\" value=\"spPatrolFlag\"/>\n\t\t\t<property name=\"Model\" value=\"#@modfolder:Resources/sbFlags.unity3d?FlagPatrolBlack-half\" />\n\t\t\t<property name=\"CustomIcon\" value=\"PatrolFlagBlackHalfIcon\" />\n\t\t</block>\n\n\t\t<block name=\"spMissSpartanFlag\">\n\t\t\t<property name=\"Extends\" value=\"spSpartanFlag\"/>\n\t\t\t<property name=\"Model\" value=\"#@modfolder:Resources/sbFlags.unity3d?FlagMissSpartan\" />\n\t\t\t<property name=\"DescriptionKey\" value=\"spSpartanFlagDesc\"/> \n\t\t\t<property name=\"CustomIcon\" value=\"MissSpartanFlagIcon\" />\n\t\t</block>\n\n\t\t<block name=\"spMissSpartanFlagBlack\">\n\t\t\t<property name=\"Extends\" value=\"spPatrolFlag\"/>\n\t\t\t<property name=\"Model\" value=\"#@modfolder:Resources/sbFlags.unity3d?FlagMissSpartanBlack\" />\n\t\t\t<property name=\"CustomIcon\" value=\"MissSpartanFlagBlackIcon\" />\n\t\t</block>\n\n\t\t<block name=\"spMissSpartanFlagHalf\">\n\t\t\t<property name=\"Extends\" value=\"spSpartanFlag\"/>\n\t\t\t<property name=\"Model\" value=\"#@modfolder:Resources/sbFlags.unity3d?FlagMissSpartan-half\" />\n\t\t\t<property name=\"DescriptionKey\" value=\"spSpartanFlagDesc\"/> \n\t\t\t<property name=\"CustomIcon\" value=\"MissSpartanFlagHalfIcon\" />\n\t\t</block>\n\n\t\t<block name=\"spMissSpartanFlagBlackHalf\">\n\t\t\t<property name=\"Extends\" value=\"spSpartanFlag\"/>\n\t\t\t<property name=\"Model\" value=\"#@modfolder:Resources/sbFlags.unity3d?FlagMissSpartanBlack-half\" />\n\t\t\t<property name=\"CustomIcon\" value=\"MissSpartanFlagBlackHalfIcon\" />\n\t\t</block>\n\n\t\t<block name=\"spEhFlag\">\n\t\t\t<property name=\"Extends\" value=\"spSpartanFlag\"/>\n\t\t\t<property name=\"Model\" value=\"#@modfolder:Resources/sbFlags.unity3d?FlagMissSpartan\" />\n\t\t\t<property name=\"DescriptionKey\" value=\"spSpartanFlagDesc\"/> \n\t\t\t<property name=\"CustomIcon\" value=\"MissSpartanFlagIcon\" />\n\t\t</block>\n\n\t\t<block name=\"spEhFlagHalf\">\n\t\t\t<property name=\"Extends\" value=\"spSpartanFlag\"/>\n\t\t\t<property name=\"Model\" value=\"#@modfolder:Resources/sbFlags.unity3d?FlagMissSpartan-half\" />\n\t\t\t<property name=\"DescriptionKey\" value=\"spSpartanFlagDesc\"/> \n\t\t\t<property name=\"CustomIcon\" value=\"MissSpartanFlagHalfIcon\" />\n\t\t</block>\n\n\t\t<!-- Create a flag helper block -->\n\t\t<block name=\"sbFlagsVariantHelper\">\n\t\t\t<property name=\"Extends\" value=\"spSpartanFlag\"/>\n\t\t\t<property name=\"CustomIcon\" value=\"FlagsIcon\"/>\n\t\t\t<property name=\"CreativeMode\" value=\"Player\"/>\n\t\t\t<property name=\"ItemTypeIcon\" value=\"all_blocks\"/>\n\t\t\t<property name=\"SelectAlternates\" value=\"true\" />\n\t\t\t<property name=\"DescriptionKey\" value=\"sbFlagsVariantHelperDesc\"/>\n\t\t\t<property name=\"PlaceAltBlockValue\" value=\"spSpartanFlag,spSpartanFlagBlack,spMissSpartanFlag,spMissSpartanFlagBlack,spPatrolFlag,spPatrolFlagBlack,spSpartanFlagHalf,spSpartanFlagBlackHalf,spMissSpartanFlagHalf,spMissSpartanFlagBlackHalf,spPatrolFlagHalf,spPatrolFlagBlackHalf\"/>\n\t\t</block>\n\n\t</append>\n\n</configs>",
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/blocks.xml",
-			"file_size": 8161,
-			"file_write_time": 132387318881813028,
 			"settings":
 			{
-				"buffer_size": 8618,
+				"buffer_size": 11901,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/Localization.txt",
+			"settings":
+			{
+				"buffer_size": 2793,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -121,7 +189,16 @@
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
 			"settings":
 			{
-				"buffer_size": 994,
+				"buffer_size": 1207,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
+			"settings":
+			{
+				"buffer_size": 1696,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -130,26 +207,17 @@
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/vehicles.xml",
 			"settings":
 			{
-				"buffer_size": 47006,
+				"buffer_size": 58763,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Searching 792 files for \"pj2Jeeps\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-07-11__10-01-29.txt:\n  417  \n  418  2020-07-11T10:04:01 106.886 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  419: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/pj2Jeeps.unity3d\n  420   \n  421  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  422  \n  423: 2020-07-11T10:04:01 106.888 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/pj2Jeeps.unity3d\" failed!\n  424  Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  425   \n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\items.xml:\n   64  \t\t<item name=\"pjVehicle4x4TruckMissSpartanPlaceable\">\n   65  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n   66: \t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/pj2Jeeps.unity3d?var_Jeep_miss_spartan\"/>\n   67  \t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n   68  \t\t\t<property class=\"Action1\">\n\n3 matches across 2 files\n\n\nSearching 795 files for \"paJeeps2.unity3d\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-07-11__10-01-29.txt:\n  397  \n  398  2020-07-11T10:04:01 106.458 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/jaJeeps.unity3d\" failed!\n  399: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  400   \n  401  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  402  \n  403: 2020-07-11T10:04:01 106.881 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  404: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  405   \n  406  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  407  \n  408: 2020-07-11T10:04:01 106.884 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  409: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  410   \n  411  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  412  \n  413: 2020-07-11T10:04:01 106.885 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  414: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  415   \n  416  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  417  \n  418: 2020-07-11T10:04:01 106.886 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  419  Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/pj2Jeeps.unity3d\n  420   \n  ...\n  422  \n  423  2020-07-11T10:04:01 106.888 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/pj2Jeeps.unity3d\" failed!\n  424: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  425   \n  426  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  427  \n  428: 2020-07-11T10:04:01 106.889 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  429  2020-07-11T10:04:03 108.420 INF Item IDs with mapping\n  430  2020-07-11T10:04:03 108.421 INF ItemIDs from Mapping\n  ...\n  442  2020-07-11T10:04:05 110.131 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/jaJeeps.unity3d\" failed!\n  443  2020-07-11T10:04:05 110.131 ERR Could not load file '#@modfolder(PaintJob):Resources/jaJeeps.unity3d?var_Jeep_base' for entity_class 'vehicle4x4Truck'\n  444: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  445   \n  446  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  447  \n  448: 2020-07-11T10:04:05 110.627 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  449: 2020-07-11T10:04:05 110.627 ERR Could not load file '#@modfolder(PaintJob):Resources/paJeeps2.unity3d?var_Jeep_white' for entity_class 'pjVehicle4x4TruckWhite'\n  450: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  451   \n  452  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  453  \n  454: 2020-07-11T10:04:05 110.628 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  455: 2020-07-11T10:04:05 110.628 ERR Could not load file '#@modfolder(PaintJob):Resources/paJeeps2.unity3d?var_Jeep_blue' for entity_class 'pjVehicle4x4TruckBlue'\n  456: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  457   \n  458  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  459  \n  460: 2020-07-11T10:04:05 110.629 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  461: 2020-07-11T10:04:05 110.629 ERR Could not load file '#@modfolder(PaintJob):Resources/paJeeps2.unity3d?var_Jeep_red' for entity_class 'pjVehicle4x4TruckRed'\n  462: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  463   \n  464  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  465  \n  466: 2020-07-11T10:04:05 110.630 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  467: 2020-07-11T10:04:05 110.630 ERR Could not load file '#@modfolder(PaintJob):Resources/paJeeps2.unity3d?var_Jeep_spartan' for entity_class 'pjVehicle4x4TruckSpartan'\n  468: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  469   \n  470  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  471  \n  472: 2020-07-11T10:04:05 110.631 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  473: 2020-07-11T10:04:05 110.631 ERR Could not load file '#@modfolder(PaintJob):Resources/paJeeps2.unity3d?var_Jeep_miss_spartan' for entity_class 'pjVehicle4x4TruckMissSpartan'\n  474: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  475   \n  476  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  477  \n  478: 2020-07-11T10:04:05 110.632 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  479: 2020-07-11T10:04:05 110.632 ERR Could not load file '#@modfolder(PaintJob):Resources/paJeeps2.unity3d?var_Jeep_test_pattern' for entity_class 'pjVehicle4x4TruckTest'\n  480  2020-07-11T10:04:05 110.632 ERR XML loader: Loading and parsing 'entityclasses.xml' failed\n  481  2020-07-11T10:04:05 110.633 EXC Did not find 'extends' entity 'vehicleMotorcyclePlaceable'\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-07-11__10-16-50.txt:\n  392  2020-07-11T10:18:24 55.356 INF Block IDs with mapping\n  393  2020-07-11T10:18:24 55.356 INF BlockIDs from Mapping\n  394: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  395   \n  396  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  397  \n  398: 2020-07-11T10:18:27 58.508 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  399: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  400   \n  401  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  402  \n  403: 2020-07-11T10:18:28 58.733 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  404: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  405   \n  406  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  407  \n  408: 2020-07-11T10:18:28 58.735 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  409: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  410   \n  411  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  412  \n  413: 2020-07-11T10:18:28 58.736 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  414: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  415   \n  416  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  417  \n  418: 2020-07-11T10:18:28 58.738 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  419: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  420   \n  421  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  422  \n  423: 2020-07-11T10:18:30 60.536 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  424  2020-07-11T10:18:31 61.956 INF Item IDs with mapping\n  425  2020-07-11T10:18:31 61.956 INF ItemIDs from Mapping\n  ...\n  434  WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader\n  435  WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader\n  436: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  437   \n  438  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  439  \n  440: 2020-07-11T10:18:33 63.644 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  441: 2020-07-11T10:18:33 63.644 ERR Could not load file '#@modfolder(PaintJob):Resources/paJeeps2.unity3d?var_Jeep_white' for entity_class 'pjVehicle4x4TruckWhite'\n  442: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  443   \n  444  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  445  \n  446: 2020-07-11T10:18:33 63.645 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  447: 2020-07-11T10:18:33 63.645 ERR Could not load file '#@modfolder(PaintJob):Resources/paJeeps2.unity3d?var_Jeep_blue' for entity_class 'pjVehicle4x4TruckBlue'\n  448: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  449   \n  450  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  451  \n  452: 2020-07-11T10:18:33 63.646 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  453: 2020-07-11T10:18:33 63.646 ERR Could not load file '#@modfolder(PaintJob):Resources/paJeeps2.unity3d?var_Jeep_red' for entity_class 'pjVehicle4x4TruckRed'\n  454: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  455   \n  456  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  457  \n  458: 2020-07-11T10:18:33 63.647 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  459: 2020-07-11T10:18:33 63.647 ERR Could not load file '#@modfolder(PaintJob):Resources/paJeeps2.unity3d?var_Jeep_spartan' for entity_class 'pjVehicle4x4TruckSpartan'\n  460: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  461   \n  462  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  463  \n  464: 2020-07-11T10:18:33 63.648 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  465: 2020-07-11T10:18:33 63.648 ERR Could not load file '#@modfolder(PaintJob):Resources/paJeeps2.unity3d?var_Jeep_miss_spartan' for entity_class 'pjVehicle4x4TruckMissSpartan'\n  466: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  467   \n  468  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  469  \n  470: 2020-07-11T10:18:33 63.649 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  471: 2020-07-11T10:18:33 63.649 ERR Could not load file '#@modfolder(PaintJob):Resources/paJeeps2.unity3d?var_Jeep_test_pattern' for entity_class 'pjVehicle4x4TruckTest'\n  472  2020-07-11T10:18:33 63.649 ERR XML loader: Loading and parsing 'entityclasses.xml' failed\n  473  2020-07-11T10:18:33 63.649 EXC Did not find 'extends' entity 'vehicleMotorcyclePlaceable'\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-07-11__10-49-45.txt:\n  395  2020-07-11T10:51:30 54.978 WRN XML patch for \"items.xml\" from mod \"PaintJob\" did not apply: <insertAfter xpath=\"//property[@name='Meshfile'][@value='#Entities/Vehicles?jeep_Prefab.prefab']\" \n  396  2020-07-11T10:51:30 55.013 WRN XML patch for \"items.xml\" from mod \"PaintJob\" did not apply: <remove xpath=\"//property[@name='Meshfile'][@value='#Entities/Vehicles?jeep_Prefab.prefab']\" \n  397: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  398   \n  399  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  400  \n  401: 2020-07-11T10:51:33 58.213 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  402: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  403   \n  404  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  405  \n  406: 2020-07-11T10:51:33 58.214 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  407: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  408   \n  409  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  410  \n  411: 2020-07-11T10:51:33 58.215 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  412: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  413   \n  414  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  415  \n  416: 2020-07-11T10:51:33 58.216 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  417: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  418   \n  419  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  420  \n  421: 2020-07-11T10:51:35 59.679 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  422  2020-07-11T10:51:36 61.220 INF Item IDs with mapping\n  423  2020-07-11T10:51:36 61.221 INF ItemIDs from Mapping\n  ...\n  434  WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader\n  435  WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader\n  436: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  437   \n  438  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  439  \n  440: 2020-07-11T10:51:38 62.963 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  441: 2020-07-11T10:51:38 62.963 ERR Could not load file '#@modfolder(PaintJob):Resources/paJeeps2.unity3d?var_Jeep_white' for entity_class 'pjVehicle4x4TruckWhite'\n  442: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  443   \n  444  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  445  \n  446: 2020-07-11T10:51:38 62.964 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  447: 2020-07-11T10:51:38 62.964 ERR Could not load file '#@modfolder(PaintJob):Resources/paJeeps2.unity3d?var_Jeep_blue' for entity_class 'pjVehicle4x4TruckBlue'\n  448: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  449   \n  450  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  451  \n  452: 2020-07-11T10:51:38 62.965 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  453: 2020-07-11T10:51:38 62.965 ERR Could not load file '#@modfolder(PaintJob):Resources/paJeeps2.unity3d?var_Jeep_red' for entity_class 'pjVehicle4x4TruckRed'\n  454: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  455   \n  456  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  457  \n  458: 2020-07-11T10:51:38 62.966 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  459: 2020-07-11T10:51:38 62.966 ERR Could not load file '#@modfolder(PaintJob):Resources/paJeeps2.unity3d?var_Jeep_spartan' for entity_class 'pjVehicle4x4TruckSpartan'\n  460: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  461   \n  462  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  463  \n  464: 2020-07-11T10:51:38 62.967 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  465: 2020-07-11T10:51:38 62.967 ERR Could not load file '#@modfolder(PaintJob):Resources/paJeeps2.unity3d?var_Jeep_miss_spartan' for entity_class 'pjVehicle4x4TruckMissSpartan'\n  466: Unable to open archive file: C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods/PaintJob/Resources/paJeeps2.unity3d\n  467   \n  468  (Filename: C:\\buildslave\\unity\\build\\Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveStorageReader.cpp Line: 587)\n  469  \n  470: 2020-07-11T10:51:38 62.968 ERR Loading AssetBundle \"C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/../Mods\\PaintJob/Resources/paJeeps2.unity3d\" failed!\n  471: 2020-07-11T10:51:38 62.968 ERR Could not load file '#@modfolder(PaintJob):Resources/paJeeps2.unity3d?var_Jeep_test_pattern' for entity_class 'pjVehicle4x4TruckTest'\n  472  2020-07-11T10:51:38 62.968 ERR XML loader: Loading and parsing 'entityclasses.xml' failed\n  473  2020-07-11T10:51:38 62.969 EXC Did not find 'extends' entity 'vehicleMotorcyclePlaceable'\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\entityclasses.xml:\n    9  \t\t<entity_class name=\"pjVehicle4x4TruckWhite\" extends=\"vehicle4x4Truck\">\n   10  \t\t\t<property name=\"Tags\" value=\"vehicle\"/>\n   11: \t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/paJeeps2.unity3d?var_Jeep_white\"/>\n   12  \t\t</entity_class>\n   13  \n   14  \t\t<entity_class name=\"pjVehicle4x4TruckBlue\" extends=\"vehicle4x4Truck\">\n   15  \t\t\t<property name=\"Tags\" value=\"vehicle\"/>\n   16: \t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/paJeeps2.unity3d?var_Jeep_blue\"/>\n   17  \t\t</entity_class>\n   18  \n   19  \t\t<entity_class name=\"pjVehicle4x4TruckRed\" extends=\"vehicle4x4Truck\">\n   20  \t\t\t<property name=\"Tags\" value=\"vehicle\"/>\n   21: \t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/paJeeps2.unity3d?var_Jeep_red\"/>\n   22  \t\t</entity_class>\n   23  \n   24  \t\t<entity_class name=\"pjVehicle4x4TruckSpartan\" extends=\"vehicle4x4Truck\">\n   25  \t\t\t<property name=\"Tags\" value=\"vehicle\"/>\n   26: \t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/paJeeps2.unity3d?var_Jeep_spartan\"/>\n   27  \t\t</entity_class>\n   28  \n   29  \t\t<entity_class name=\"pjVehicle4x4TruckMissSpartan\" extends=\"vehicle4x4Truck\">\n   30  \t\t\t<property name=\"Tags\" value=\"vehicle\"/>\n   31: \t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/paJeeps2.unity3d?var_Jeep_miss_spartan\"/>\n   32  \t\t</entity_class>\n   33  \n   34  \t\t<entity_class name=\"pjVehicle4x4TruckTest\" extends=\"vehicle4x4Truck\">\n   35  \t\t\t<property name=\"Tags\" value=\"vehicle\"/>\n   36: \t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/paJeeps2.unity3d?var_Jeep_test_pattern\"/>\n   37  \t\t</entity_class>\n   38  \n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\items.xml:\n    4  \t\t<item name=\"pjVehicle4x4TruckWhitePlaceable\">\n    5  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n    6: \t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/paJeeps2.unity3d?var_Jeep_white\"/>\n    7  \t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n    8  \t\t\t<property class=\"Action1\">\n    .\n   19  \t\t<item name=\"pjVehicle4x4TruckBluePlaceable\">\n   20  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n   21: \t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/paJeeps2.unity3d?var_Jeep_blue\"/>\n   22  \t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n   23  \t\t\t<property class=\"Action1\">\n   ..\n   34  \t\t<item name=\"pjVehicle4x4TruckRedPlaceable\">\n   35  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n   36: \t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/paJeeps2.unity3d?var_Jeep_red\"/>\n   37  \t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n   38  \t\t\t<property class=\"Action1\">\n   ..\n   49  \t\t<item name=\"pjVehicle4x4TruckSpartanPlaceable\">\n   50  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n   51: \t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/paJeeps2.unity3d?var_Jeep_spartan\"/>\n   52  \t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n   53  \t\t\t<property class=\"Action1\">\n   ..\n   79  \t\t<item name=\"pjVehicle4x4TruckTestPlaceable\">\n   80  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n   81: \t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/paJeeps2.unity3d?var_Jeep_test_pattern\"/>\n   82  \t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n   83  \t\t\t<property class=\"Action1\">\n   ..\n  115  \t<!-- Change the model for the standard Motorcycle (now with headlight and taillight) -->\n  116  \t<insertAfter xpath=\"//property[@name='Meshfile'][@value='#Entities/Vehicles?jeep_Prefab.prefab']\">\n  117: \t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/paJeeps2.unity3d?var_Jeep_base\"/>\n  118  \t</insertAfter>\n  119  \t<remove xpath=\"//property[@name='Meshfile'][@value='#Entities/Vehicles?jeep_Prefab.prefab']\" />\n\n98 matches across 5 files\n\n\nSearching 795 files for \"vehicle4x4TruckPlaceble\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-07-11__11-59-39.txt:\n  393  2020-07-11T12:01:15 45.607 INF Block IDs with mapping\n  394  2020-07-11T12:01:15 45.608 INF BlockIDs from Mapping\n  395: 2020-07-11T12:01:16 47.137 WRN XML patch for \"items.xml\" from mod \"PaintJob\" did not apply: <setattribute xpath=\"//item[@name='vehicle4x4TruckPlaceble']/property[@name='Meshfile']\" name=\"value\" \n  396  2020-07-11T12:01:24 54.615 INF Item IDs with mapping\n  397  2020-07-11T12:01:24 54.616 INF ItemIDs from Mapping\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\items.xml:\n  114  \n  115  \t<!-- Change the model for the standard Motorcycle (now with headlight and taillight) -->\n  116: \t<setattribute xpath=\"//item[@name='vehicle4x4TruckPlaceble']/property[@name='Meshfile']\" name=\"value\">#@modfolder:Resources/pjJeeps2.unity3d?var_Jeep_base</setattribute>\n  117  \n  118  \n\n2 matches across 2 files\n\n\nSearching 786 files for \"SecureLootSigned\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\blocks.xml:\n 18183  \t<property name=\"DescriptionKey\" value=\"cntStorageGenericSignedDesc\"/>\n 18184  \t<property name=\"Tags\" value=\"door\"/>\n 18185: \t<property name=\"Class\" value=\"SecureLootSigned\"/>\n 18186  \t<property name=\"LootList\" value=\"5\"/>\n 18187  \t<property name=\"Material\" value=\"MwoodReinforced\"/> <property name=\"MaxDamage\" value=\"400\"/>\n\n1 match in 1 file\n\n\nSearching 786 files for \"cntStorageGenericSigned\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\blocks.xml:\n 18176  </block>\n 18177  \n 18178: <block name=\"cntStorageGenericSigned\">\n 18179  \t<property name=\"CreativeMode\" value=\"Player\"/>\n 18180  \t<property name=\"CustomIcon\" value=\"cntStorageGeneric\" />\n 18181  \t<property name=\"Shape\" value=\"ModelEntity\"/>\n 18182  \t<property name=\"Model\" value=\"#Entities/LootContainers?crate_storeSignablePrefab.prefab\"/>\n 18183: \t<property name=\"DescriptionKey\" value=\"cntStorageGenericSignedDesc\"/>\n 18184  \t<property name=\"Tags\" value=\"door\"/>\n 18185  \t<property name=\"Class\" value=\"SecureLootSigned\"/>\n .....\n 31512  \t<property name=\"ItemTypeIcon\" value=\"all_blocks\"/>\n 31513  \t<property name=\"SelectAlternates\" value=\"true\"/>\n 31514: \t<property name=\"PlaceAltBlockValue\" value=\"cntStorageGeneric,cntStorageGenericSigned,cntCabinetBottomFiller,cntCabinetBottom,cntCabinetBottomOpen,cntCupboardCabinetRedTopOpen,cntCupboardCabinetRedTopClosed,cntCupboardCornerCNRRed,cntCupboardCabinetFullRedTopClosed,cntCabinetBottomBrokenDoor,cntCabinetOldBottomOpen,cntCabinetOldBottom,cntCabinetOldCNRRoundFiller,cntCupboardCabinetOldTopOpen,cntCupboardCabinetOldTopClosed,cntCupboardCornerCNROld,cntCupboardCabinetFullOldTopClosed,cntBookcaseEmpty,cntBookcaseFull,cntPillCase,cntNightstandOpen,cntNightstandClosed,cntWoodDesk01Open,cntWoodDesk01Closed,woodChair1,oldChair1,decoPicnicTable,coffeeTable,endTable,tableDynamic,woodTable,heatVent,woodSawhorse,decoWildWestWagonWheelBack,decoWildWestWagonWheelFront,decoClassicDogHouse,wineBarrel,wineBarrelSet,wineBarrelPlain,parkBenchA,parkBenchB,pew_segment01,pew_segment02,pew_segment03\"/>\n 31515  \t<property name=\"EconomicValue\" value=\"8\"/>\n 31516  \t<property name=\"Group\" value=\"Building,advBuilding\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\Localization.txt:\n 2429  cntStorageGenericInsecure,blocks,Container,,,Storage Box,,Aufbewahrungskiste,Caja de almacenamiento,Caisse de rangement,Scatola portaoggetti,保管ボックス,보관함,Pudło na rzeczy,Caixa de Armazenamento,Коробка для хранения,Saklama Kutusu,储物盒,儲物盒,Caja de almacenamiento\n 2430  cntStorageGenericPOI,blocks,Container,,,Storage Box,,Aufbewahrungskiste,Caja de almacenamiento,Caisse de rangement,Scatola portaoggetti,保管ボックス,보관함,Pudło na rzeczy,Caixa de Armazenamento,Коробка для хранения,Saklama Kutusu,储物盒,儲物盒,Caja de almacenamiento\n 2431: cntStorageGenericSigned,blocks,Container,,,Writable Storage Box,,,,,,,,,,,,,,\n 2432: cntStorageGenericSignedDesc,blocks,Container,,,\"A very large lockable crate that can be written on. Press & hold [action:local:Activate][action:permanent:Activate] to lock it, set a combination or change the writing on the box.\",,,,,,,,,,,,,,\n 2433  cntStoreCratesRandomLootHelper,blocks,Container,,,= Store Crate = Random Helper,,= Ladenkiste = Zufälliger Helfer,= Embalaje de almacenamiento = Asistente aleatorio,= Caisse de rangement = Aide aléatoire,= Cassa portaoggetti = Aiutante casuale,= 保管クレート = ランダムヘルパー,= 보관용 상자 = 무작위 도우미,= Skrzynka na rzeczy = losowy pomocnik,= Caixote de Loja = Ajudante aleatório,= Ящик из магазина = Случайный помощник,= Saklama Sandığı = Rastgele Yardımcı,= 商店板条箱 = 随机助手,= 存儲箱 = 隨機助手,= Embalaje de almacenamiento = Asistente aleatorio\n 2434  cntStoreCratesRandomLootHelperDesc,blocks,Container,,,\"Can spawn a:  Shamway, Shotgun Messiah, Working Stiff Crate\",,\"Kann:  Shamway-, Shotgun Messiah-, Arbeiterkiste erscheinen lassen\",\"Puede aparecer:  Un embalaje de Shamway, Mesías Escopetero o Working Stiff\",\"Peut faire apparaître :  Une caisse \"\"Shamway\"\", \"\"Shotgun Messiah\"\", \"\"Working Stiffs\"\"\",\"Può generare:  Cassa di Shamway, Shotgun Messiah o Working Stiff\",出現可能:シャムウェイ製品、ショットガン・メシア、低賃金クレート,\"생성 가능:  샴웨이, 샷건 메시아, 워킹 스니프 상자\",\"Może wygenerować:  skrzynkę Shamway, skrzynkę Shotgun Messiah lub skrzynkę Working Stiff.\",\"Pode fazer surgir um Caixote de Shamway, do Shotgun Messiah ou do Working Stiff\",\"Может вызвать появление перечисленных ниже предметов.  Ящик «Срамвэй», ящик «Shotgun Messiah», ящик «Пролетарий»\",\"Bunları çıkarabilir:  Shamway, Shotgun Messiah, Working Stiff Sandığı\",可生成一个：山威、霰弹枪救星、劳动度日板箱,會出現一個：順威，散彈獵槍彌爾塞，勞動者箱子,\"Puede aparecer:  Un embalaje de Shamway, Mesías Escopetero o Working Stiff\"\n\n5 matches across 2 files\n\n\nSearching 783 files for \"javehicle4x4dunebuggey\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-07-13__21-47-56.txt:\n  478  2020-07-13T21:51:38 173.405 INF Executing command 'cm'\n  479  2020-07-13T21:51:53 187.665 INF Time: 2.38m FPS: 40.01 Heap: 2694.8MB Max: 2694.8MB Chunks: 240 CGO: 162 Ply: 1 Zom: 0 Ent: 12 (12) Items: 0 CO: 1 RSS: 5846.7MB\n  480: 2020-07-13T21:51:57 191.510 ERR Vehicle properties for 'javehicle4x4dunebuggey' not found!\n  481  NullReferenceException: Object reference not set to an instance of an object\n  482    at Vehicle.GetHornSoundName () [0x00000] in <d06792d09075474fb8267d67cd791cb9>:0 \n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-07-13__21-59-15.txt:\n  468  2020-07-13T22:03:46 223.217 INF OpenSpawnWindow\n  469  2020-07-13T22:03:48 224.807 INF StartGame done\n  470: 2020-07-13T22:03:48 224.892 ERR Vehicle properties for 'javehicle4x4dunebuggey' not found!\n  471  2020-07-13T22:03:48 225.073 INF [Steamworks.NET] GameServer.Init successful\n  472  2020-07-13T22:03:48 225.685 INF [Steamworks.NET] GameServer.LogOn successful, SteamID=90137075424457735, public IP=9*.2*.12*.14*\n\n2 matches across 2 files\n\n\nSearching 784 files for \"javehicle4x4dunebuggey\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-07-13__21-47-56.txt:\n  478  2020-07-13T21:51:38 173.405 INF Executing command 'cm'\n  479  2020-07-13T21:51:53 187.665 INF Time: 2.38m FPS: 40.01 Heap: 2694.8MB Max: 2694.8MB Chunks: 240 CGO: 162 Ply: 1 Zom: 0 Ent: 12 (12) Items: 0 CO: 1 RSS: 5846.7MB\n  480: 2020-07-13T21:51:57 191.510 ERR Vehicle properties for 'javehicle4x4dunebuggey' not found!\n  481  NullReferenceException: Object reference not set to an instance of an object\n  482    at Vehicle.GetHornSoundName () [0x00000] in <d06792d09075474fb8267d67cd791cb9>:0 \n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-07-13__21-59-15.txt:\n  468  2020-07-13T22:03:46 223.217 INF OpenSpawnWindow\n  469  2020-07-13T22:03:48 224.807 INF StartGame done\n  470: 2020-07-13T22:03:48 224.892 ERR Vehicle properties for 'javehicle4x4dunebuggey' not found!\n  471  2020-07-13T22:03:48 225.073 INF [Steamworks.NET] GameServer.Init successful\n  472  2020-07-13T22:03:48 225.685 INF [Steamworks.NET] GameServer.LogOn successful, SteamID=90137075424457735, public IP=9*.2*.12*.14*\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-07-13__22-12-58.txt:\n  468  2020-07-13T22:15:38 116.277 INF OpenSpawnWindow\n  469  2020-07-13T22:15:39 117.753 INF StartGame done\n  470: 2020-07-13T22:15:40 117.788 ERR Vehicle properties for 'javehicle4x4dunebuggey' not found!\n  471  2020-07-13T22:15:40 118.007 INF [Steamworks.NET] GameServer.Init successful\n  472  2020-07-13T22:15:40 118.609 INF [Steamworks.NET] GameServer.LogOn successful, SteamID=90137075580141571, public IP=9*.2*.12*.14*\n  ...\n  480  2020-07-13T22:16:29 167.343 INF Executing command 'cm'\n  481  2020-07-13T22:16:39 177.518 INF Time: 2.30m FPS: 46.64 Heap: 2831.6MB Max: 2831.6MB Chunks: 225 CGO: 151 Ply: 1 Zom: 0 Ent: 13 (13) Items: 0 CO: 1 RSS: 5754.9MB\n  482: 2020-07-13T22:16:50 188.577 ERR Vehicle properties for 'javehicle4x4dunebuggey' not found!\n  483  NullReferenceException: Object reference not set to an instance of an object\n  484    at Vehicle.GetHornSoundName () [0x00000] in <d06792d09075474fb8267d67cd791cb9>:0 \n\n4 matches across 3 files\n\n\nSearching 784 files for \"jaVehicleDuneBuggey\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\JeepAlterations\\Config\\entityclasses.xml:\n   18  \t\t</entity_class>\t\t\n   19  \n   20: \t\t<entity_class name=\"jaVehicleDuneBuggey\" extends=\"vehicle4x4Truck\">\n   21  \t\t\t<property name=\"Tags\" value=\"vehicle\"/>\n   22  \t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/buggey.unity3d?buggey\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\JeepAlterations\\Config\\items.xml:\n   48  \t\t</item>\n   49  \t\t\n   50: \t\t<item name=\"jaVehicleDuneBuggeyPlaceble\">\n   51  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n   52  \t\t\t<property name=\"Meshfile\" value=\"#@modfolder:Resources/buggey.unity3d?buggey\"/>\n   53  \t\t\t<property name=\"EconomicValue\" value=\"30000\"/>\n   54  \t\t\t<property class=\"Action1\">\n   55: \t\t\t\t<property name=\"Vehicle\" value=\"jaVehicleDuneBuggey\"/>\n   56  \t\t\t\t<property name=\"VehicleSize\" value=\"2.5, 2.1, 5\"/>\n   57  \t\t\t</property>\n   58: \t\t\t<effect_group name=\"jaVehicleDuneBuggeyPlaceble\" tiered=\"false\">\n   59  \t\t\t\t<passive_effect name=\"ModSlots\" operation=\"base_set\" value=\"4\"/>\n   60  \t\t\t\t<passive_effect name=\"ModPowerBonus\" operation=\"base_add\" value=\"300\" tags=\"EconomicValue\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\JeepAlterations\\Config\\vehicles.xml:\n  447  \t</vehicle>\n  448  \n  449: \t<vehicle name=\"jaVehicleDuneBuggey\">\n  450  \n  451  \t\t<property name=\"cameraDistance\" value=\"5.5, 7\"/>\n\n5 matches across 3 files\n\n\nSearching 791 files for \"id='6'\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\StorageSize\\Config\\loot.xml:\n    2  \n    3  \t<!-- Nightstands, dressers, and wooden desks -->\n    4:     <setattribute xpath=\"/lootcontainers/lootcontainer[@id='6']\" name=\"size\">8,9</setattribute>\n    5      <!-- Cabinets and cupboards -->\n    6      <setattribute xpath=\"/lootcontainers/lootcontainer[@id='17']\" name=\"size\">8,9</setattribute>\n\n1 match in 1 file\n\n\nSearching 791 files for \"id='6'\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\StorageSize\\Config\\loot.xml:\n    2  \n    3  \t<!-- Nightstands, dressers, and wooden desks -->\n    4:     <setattribute xpath=\"/lootcontainers/lootcontainer[@id='6']\" name=\"size\">8,9</setattribute>\n    5      <!-- Cabinets and cupboards -->\n    6      <setattribute xpath=\"/lootcontainers/lootcontainer[@id='17']\" name=\"size\">8,9</setattribute>\n\n1 match in 1 file\n\n\nSearching 791 files for \"id='17'\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\StorageSize\\Config\\loot.xml:\n    4      <setattribute xpath=\"/lootcontainers/lootcontainer[@id='6']\" name=\"size\">8,9</setattribute>\n    5      <!-- Cabinets and cupboards -->\n    6:     <setattribute xpath=\"/lootcontainers/lootcontainer[@id='17']\" name=\"size\">8,9</setattribute>\n    7      <!-- military munitions ammo box -->\n    8      <setattribute xpath=\"/lootcontainers/lootcontainer[@id='40']\" name=\"size\">8,9</setattribute>\n\n1 match in 1 file\n",
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/Localization.txt",
 			"settings":
 			{
-				"buffer_size": 38369,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-07-13__22-12-58.txt",
-			"settings":
-			{
-				"buffer_size": 29385,
+				"buffer_size": 728,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -157,7 +225,16 @@
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/entityclasses.xml",
 			"settings":
 			{
-				"buffer_size": 2172,
+				"buffer_size": 2618,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/recipes.xml",
+			"settings":
+			{
+				"buffer_size": 2625,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -166,19 +243,26 @@
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/Config/items.xml",
 			"settings":
 			{
-				"buffer_size": 3440,
+				"buffer_size": 2697,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Mono path[0] = 'C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Managed'\nMono config path = 'C:/Steam/steamapps/common/7 Days To Die/MonoBleedingEdge/etc'\nInitialize engine version: 2019.2.17f1 (8e603399ca02)\n[XR] Discovering subsystems at path C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/UnitySubsystems\nForcing GfxDevice: Direct3D 11\nGfxDevice: creating device client; threaded=1\nDirect3D:\n    Version:  Direct3D 11.0 [level 11.0]\n    Renderer: NVIDIA GeForce GTX 780 (ID=0x1004)\n    Vendor:   \n    VRAM:     3029 MB\n    Driver:   27.21.14.5148\nBegin MonoManager ReloadAssembly\n- Completed reload, in  1.402 seconds\n<RI> Initializing input.\n\n<RI> Input initialized.\n\n<RI> Initialized touch support.\n\nUnloadTime: 0.691700 ms\n2020-07-13T22:00:03 0.088 INF [Steamworks.NET] SteamAPI_Init() ok\n2020-07-13T22:00:03 0.323 INF Localization language: english\n2020-07-13T22:00:03 0.370 INF Texture quality is set to 1\n2020-07-13T22:00:03 0.372 INF Precaching...\n2020-07-13T22:00:03 0.382 INF Precaching file: 7DaysToDie_Data/resources.assets\n2020-07-13T22:00:03 0.507 INF [EAC] Initializing ...\n2020-07-13T22:00:03 0.518 INF [EAC] Initialized :: Easy Anti-Cheat successfully initialized\n2020-07-13T22:00:05 2.621 INF Precaching file: 7DaysToDie_Data/sharedassets1.assets\n2020-07-13T22:00:05 2.630 INF Precaching file: Data/Bundles/blocktextureatlases\n2020-07-13T22:00:07 4.412 INF Precaching file: Data/Bundles/terraintextures\n2020-07-13T22:00:09 6.542 INF Precaching done\n2020-07-13T22:00:10 7.472 INF Loading main scene\nUnloading 6 Unused Serialized files (Serialized files now loaded: 0)\nUnloadTime: 7.002100 ms\n2020-07-13T22:00:10 7.585 INF [GSM] Singleton Initialized...\n2020-07-13T22:00:10 7.609 INF Awake IsFocused: True\n2020-07-13T22:00:10 7.609 INF Awake\n2020-07-13T22:00:10 7.645 INF Version: Alpha 19 (b163) Compatibility Version: Alpha 19, Build: Windows 64 Bit\n2020-07-13T22:00:10 7.646 INF System information:\n2020-07-13T22:00:10 7.647 INF    OS: Windows 10  (10.0.0) 64bit\n2020-07-13T22:00:10 7.647 INF    CPU: Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz (cores: 8)\n2020-07-13T22:00:10 7.647 INF    RAM: 24523 MB\n2020-07-13T22:00:10 7.648 INF    GPU: NVIDIA GeForce GTX 780 (3029 MB)\n2020-07-13T22:00:10 7.648 INF    Graphics API: Direct3D 11.0 [level 11.0] (shader level 5.0)\n2020-07-13T22:00:10 7.648 INF Last played version: Alpha 19\n2020-07-13T22:00:10 7.649 INF Local UTC offset: -4 hours\n2020-07-13T22:00:10 7.660 INF Command line arguments: C:\\Steam\\steamapps\\common\\7 Days To Die\\7daystodie.exe -popupwindow -force-d3d11 -logfile C:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-07-13__21-59-15.txt -eac_executablename 7daystodie.exe\n2020-07-13T22:00:10 7.665 INF Not running in Big Picture Mode, no on-screen keyboard available\n2020-07-13T22:00:10 7.667 INF Starting PlayerInputManager...\nFallback handler could not load library C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Mono/XInputInterface32\nFallback handler could not load library C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Mono/XInputInterface32.dll\nFallback handler could not load library C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Mono/XInputInterface32\nFallback handler could not load library C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Mono/libXInputInterface32\nFallback handler could not load library C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Mono/libXInputInterface32.dll\nFallback handler could not load library C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Mono/libXInputInterface32\n2020-07-13T22:00:11 8.369 INF InControl (version 1.8.2 build 9357, native module = False, XInput = True)\n2020-07-13T22:00:11 8.419 INF Starting UserProfileManager...\n2020-07-13T22:00:11 8.671 INF Occlusion: Awake\n2020-07-13T22:00:11 8.687 INF ApplyAllOptions streaming True, budget 2726.1 MB\n2020-07-13T22:00:11 8.689 INF ApplyAllOptions current screen 2560 x 1080, 60hz, window 2560 x 1080, fullscreen True FullScreenWindow\n2020-07-13T22:00:11 8.690 INF Texture quality is set to 1\n2020-07-13T22:00:11 8.691 INF ApplyTextureFilter 0, AF Disable\n2020-07-13T22:00:11 8.695 INF ApplyTerrainOptions 2\n2020-07-13T22:00:12 8.945 INF [MODS] Start loading\n2020-07-13T22:00:12 8.958 INF [MODS] Trying to load from folder: FunwithFlags\n2020-07-13T22:00:12 9.052 INF [MODS] Loaded Mod: Fun with Flags (2.0)\n2020-07-13T22:00:12 9.052 INF [MODS] Trying to load from folder: JeepAlterations\n2020-07-13T22:00:12 9.062 INF [MODS] Loaded Mod: JeepAlterations (1.0)\n2020-07-13T22:00:12 9.062 INF [MODS] Trying to load from folder: KHA18-BackpackButtons\n2020-07-13T22:00:12 9.068 INF [MODS] Loaded Mod: Custom Backpack Buttons (1.0)\n2020-07-13T22:00:12 9.068 INF [MODS] Trying to load from folder: MoreContainers\n2020-07-13T22:00:12 9.077 INF [MODS] Loaded Mod: MoreContainers (1.2)\n2020-07-13T22:00:12 9.077 INF [MODS] Trying to load from folder: MotorcycleAlterations\n2020-07-13T22:00:12 9.086 INF [MODS] Loaded Mod: MotorcycleAlterations (1.3)\n2020-07-13T22:00:12 9.087 INF [MODS] Trying to load from folder: PaintJob\n2020-07-13T22:00:12 9.096 INF [MODS] Loaded Mod: PaintJob (1.6)\n2020-07-13T22:00:12 9.096 INF [MODS] Trying to load from folder: SpartanBlocks\n2020-07-13T22:00:12 9.105 INF [MODS] Loaded Mod: SpartanBlocks (1.7)\n2020-07-13T22:00:12 9.105 INF [MODS] Initializing mod code\n2020-07-13T22:00:12 9.105 INF [MODS] Loading done\n2020-07-13T22:00:12 9.177 INF Pack 9852 us\n2020-07-13T22:00:12 9.224 INF Pack 6995 us\n2020-07-13T22:00:12 9.246 INF Pack 2367 us\n2020-07-13T22:00:12 9.482 INF Pack 51422 us\n2020-07-13T22:00:12 9.526 INF Pack 7192 us\n2020-07-13T22:00:12 9.628 INF Pack 18724 us\n2020-07-13T22:00:13 9.835 INF Pack 42055 us\n2020-07-13T22:00:13 9.843 INF [MODS] Loading localization from mod: JeepAlterations\n2020-07-13T22:00:13 9.852 INF [MODS] Loading localization from mod: MoreContainers\n2020-07-13T22:00:13 9.858 INF [MODS] Loading localization from mod: MotorcycleAlterations\n2020-07-13T22:00:13 9.867 INF [MODS] Loading localization from mod: PaintJob\n2020-07-13T22:00:13 9.872 INF [MODS] Loading localization from mod: SpartanBlocks\n2020-07-13T22:00:13 9.909 INF Loading permissions file at 'C:\\Users\\Eric\\AppData\\Roaming/7DaysToDie/Saves/serveradmin.xml'\n2020-07-13T22:00:13 9.950 INF Loading permissions file done.\n2020-07-13T22:00:13 10.158 INF Awake done in 2549 ms\nFallback handler could not load library C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Mono/libc\nFallback handler could not load library C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Mono/libc.dll\nFallback handler could not load library C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Mono/libc\n\nUnloading 92 unused Assets to reduce memory usage. Loaded Objects now: 4237.\nTotal: 74.650700 ms (FindLiveObjects: 0.764600 ms CreateObjectMapping: 0.403900 ms MarkObjects: 73.304700 ms  DeleteObjects: 0.176900 ms)\n\n2020-07-13T22:00:14 10.802 INF Reloading serveradmin.xml\n2020-07-13T22:00:14 10.803 INF Loading permissions file at 'C:\\Users\\Eric\\AppData\\Roaming/7DaysToDie/Saves/serveradmin.xml'\n2020-07-13T22:00:14 10.806 INF Loading permissions file done.\n2020-07-13T22:00:14 10.867 INF User joined: eric.beaudoin\n2020-07-13T22:00:14 11.370 INF Updated culture for display texts\n2020-07-13T22:00:16 13.416 INF UMA Overlay loading took 1657 ms\n2020-07-13T22:00:16 13.419 INF UMA Slot loading took 2 ms\n2020-07-13T22:00:16 13.562 INF [GSM] GameSparks Connected\n2020-07-13T22:00:19 16.280 INF LoadTextureArraysForQuality quality -1 to 1, reload False\n2020-07-13T22:00:19 16.281 INF Unload MicroSplatConfig_diff_tarray (UnityEngine.Texture2DArray)\n2020-07-13T22:00:19 16.281 INF Unload MicroSplatConfig_normal_tarray (UnityEngine.Texture2DArray)\n2020-07-13T22:00:19 16.281 INF Unload MicroSplatConfig_smoothAO_tarray (UnityEngine.Texture2DArray)\n2020-07-13T22:00:20 16.826 INF [GSM] Skipping me\n2020-07-13T22:00:22 18.832 INF WorldStaticData.Init() needed 5.161s\n2020-07-13T22:00:24 21.304 INF [Steamworks.NET] Login ok.\n2020-07-13T22:00:24 21.570 INF AchievementManager: Received stats and achievements from Steam\n2020-07-13T22:02:24 141.274 INF NET: Starting server protocols\n2020-07-13T22:02:24 141.316 INF NET: LiteNetLib server started\n2020-07-13T22:02:24 141.324 INF [Steamworks.NET] NET: Server started\n2020-07-13T22:02:24 141.325 INF Started thread SteamNetworkingServer\n2020-07-13T22:02:24 141.326 INF StartGame\n2020-07-13T22:02:24 141.582 INF Persistent GamePrefs saved\nGamePref.AdminFileName = serveradmin.xml\nGamePref.AirDropFrequency = 72\nGamePref.AirDropMarker = True\nGamePref.AutopilotMode = 0\nGamePref.BedrollDeadZoneSize = 15\nGamePref.BedrollExpiryTime = 45\nGamePref.BlockDamageAI = 100\nGamePref.BlockDamageAIBM = 100\nGamePref.BlockDamagePlayer = 100\nGamePref.BloodMoonEnemyCount = 8\nGamePref.BloodMoonFrequency = 7\nGamePref.BloodMoonRange = 0\nGamePref.BloodMoonWarning = 8\nGamePref.BuildCreate = True\nGamePref.ConnectToServerIP = 172.96.164.114\nGamePref.ConnectToServerPort = 17410\nGamePref.ControlPanelEnabled = False\nGamePref.ControlPanelPort = 8080\nGamePref.CraftTimer = \nGamePref.CreateLevelDim = 8\nGamePref.CreateLevelName = Granite\nGamePref.CreativeMenuEnabled = False\nGamePref.DayCount = 3\nGamePref.DayLightLength = 18\nGamePref.DayNightLength = 60\nGamePref.DebugMenuEnabled = False\nGamePref.DebugMenuShowTasks = False\nGamePref.DebugStopEnemiesMoving = False\nGamePref.DropOnDeath = 0\nGamePref.DropOnQuit = 0\nGamePref.DynamicSpawner = \nGamePref.EACEnabled = False\nGamePref.EnemyDifficulty = 0\nGamePref.EnemySpawnMode = False\nGamePref.FavoriteServersList = \nGamePref.FragLimit = 20\nGamePref.GameDifficulty = 1\nGamePref.GameGuidClient = \nGamePref.GameMode = GameModeSurvival\nGamePref.GameName = Alpha 19 b157\nGamePref.GameNameClient = My Game\nGamePref.GameVersion = Alpha 19\nGamePref.GameWorld = West Wejuso Territory\nGamePref.HideCommandExecutionLog = 0\nGamePref.JoiningOptions = True\nGamePref.LandClaimCount = 1\nGamePref.LandClaimDeadZone = 30\nGamePref.LandClaimDecayMode = 0\nGamePref.LandClaimExpiryTime = 3\nGamePref.LandClaimOfflineDelay = 0\nGamePref.LandClaimOfflineDurabilityModifier = 4\nGamePref.LandClaimOnlineDurabilityModifier = 4\nGamePref.LandClaimSize = 71\nGamePref.LastGameResetRevision = 13\nGamePref.LastLoadedPrefab = AAA_Vents_Test\nGamePref.LastLoadedPrefabSize = 31,6,30\nGamePref.LastLoadingTipRead = 17\nGamePref.LootAbundance = 100\nGamePref.LootRespawnDays = 5\nGamePref.LootTimer = \nGamePref.MatchLength = 10\nGamePref.MaxSpawnedAnimals = 50\nGamePref.MaxSpawnedZombies = 60\nGamePref.MaxUncoveredMapChunksPerPlayer = 524288\nGamePref.NoGraphicsMode = False\nGamePref.OptionsAllowController = True\nGamePref.OptionsAmbientVolumeLevel = 1\nGamePref.OptionsAudioOcclusion = False\nGamePref.OptionsBackgroundGlobalOpacity = 0.75\nGamePref.OptionsControllerVibration = True\nGamePref.OptionsDisableChunkLODs = False\nGamePref.OptionsDynamicMusicDailyTime = 0.3\nGamePref.OptionsDynamicMusicEnabled = False\nGamePref.OptionsForegroundGlobalOpacity = 1\nGamePref.OptionsGfxAA = 1\nGamePref.OptionsGfxBloom = True\nGamePref.OptionsGfxBrightness = 0.5\nGamePref.OptionsGfxDOF = False\nGamePref.OptionsGfxDynamicMinFPS = 30\nGamePref.OptionsGfxDynamicMode = 0\nGamePref.OptionsGfxDynamicScale = 1\nGamePref.OptionsGfxFOV = 65\nGamePref.OptionsGfxGrassDistance = 2\nGamePref.OptionsGfxLODDistance = 0.5\nGamePref.OptionsGfxMotionBlur = 1\nGamePref.OptionsGfxObjQuality = 2\nGamePref.OptionsGfxOcclusion = True\nGamePref.OptionsGfxQualityPreset = 2\nGamePref.OptionsGfxReflectQuality = 1\nGamePref.OptionsGfxReflectShadows = False\nGamePref.OptionsGfxResetRevision = 1\nGamePref.OptionsGfxResolution = 0\nGamePref.OptionsGfxShadowDistance = 1\nGamePref.OptionsGfxSSAO = True\nGamePref.OptionsGfxSSReflections = 1\nGamePref.OptionsGfxStreamMipmaps = True\nGamePref.OptionsGfxSunShafts = True\nGamePref.OptionsGfxTerrainQuality = 2\nGamePref.OptionsGfxTexFilter = 1\nGamePref.OptionsGfxTexQuality = 1\nGamePref.OptionsGfxTreeDistance = 4\nGamePref.OptionsGfxUMATexQuality = 1\nGamePref.OptionsGfxViewDistance = 6\nGamePref.OptionsGfxVsync = 1\nGamePref.OptionsGfxWaterPtlLimiter = 0.5\nGamePref.OptionsGfxWaterQuality = 1\nGamePref.OptionsHudOpacity = 1\nGamePref.OptionsHudSize = 1\nGamePref.OptionsInterfaceSensitivity = 0.75\nGamePref.OptionsInvertMouse = False\nGamePref.OptionsJournalPopup = False\nGamePref.OptionsMenuMusicVolumeLevel = 0\nGamePref.OptionsMicVolumeLevel = 0.75\nGamePref.OptionsMouseSensitivity = 0.5\nGamePref.OptionsMusicVolumeLevel = 0\nGamePref.OptionsOverallAudioVolumeLevel = 0.2586207\nGamePref.OptionsPlayChanceFrequency = 3\nGamePref.OptionsPlayChanceProbability = 0.983\nGamePref.OptionsPlayerModel = playerMale\nGamePref.OptionsPlayerModelTexture = Player/Male/Player_male\nGamePref.OptionsPOICulling = 1\nGamePref.OptionsScreenBoundsValue = 1\nGamePref.OptionsShowCompass = True\nGamePref.OptionsShowCrosshair = True\nGamePref.OptionsStabSpawnBlocksOnGround = True\nGamePref.OptionsTempCelsius = True\nGamePref.OptionsVoiceChatEnabled = False\nGamePref.OptionsVoiceVolumeLevel = 0.25\nGamePref.OptionsZoomMouseSensitivity = 0.5\nGamePref.PartySharedKillRange = 10000\nGamePref.PersistentPlayerProfiles = False\nGamePref.PlayerAutologin = False\nGamePref.PlayerId = 76561198075495830\nGamePref.PlayerKillingMode = 0\nGamePref.PlayerName = eric.beaudoin\nGamePref.PlayerSafeZoneHours = 7\nGamePref.PlayerSafeZoneLevel = 5\nGamePref.PlayerToken = \nGamePref.RebuildMap = False\nGamePref.SaveGameFolder = C:\\Users\\Eric\\AppData\\Roaming/7DaysToDie/Saves\nGamePref.SelectionContextMode = 0\nGamePref.SelectionOperationMode = 0\nGamePref.ServerAdminSlots = 0\nGamePref.ServerAdminSlotsPermission = 0\nGamePref.ServerDescription = \nGamePref.ServerDisabledNetworkProtocols = \nGamePref.ServerIP = \nGamePref.ServerIsPublic = True\nGamePref.ServerLoginConfirmationText = \nGamePref.ServerMaxAllowedViewDistance = 12\nGamePref.ServerMaxPlayerCount = 8\nGamePref.ServerMaxWorldTransferSpeedKiBs = 512\nGamePref.ServerName = Default Server\nGamePref.ServerPort = 26900\nGamePref.ServerReservedSlots = 0\nGamePref.ServerReservedSlotsPermission = 100\nGamePref.ServerVisibility = 1\nGamePref.ServerWebsiteURL = \nGamePref.ShowFriendPlayerOnMap = True\nGamePref.TelnetEnabled = False\nGamePref.TelnetFailedLoginLimit = 10\nGamePref.TelnetFailedLoginsBlocktime = 10\nGamePref.TelnetPort = 25003\nGamePref.TerminalWindowEnabled = True\nGamePref.UNUSED_OptionsBloom = \nGamePref.UNUSED_OptionsDeferredLighting = \nGamePref.UNUSED_OptionsDOF = \nGamePref.UNUSED_OptionsFieldOfViewNew = \nGamePref.UNUSED_OptionsGamma = \nGamePref.UNUSED_OptionsImageEffects = \nGamePref.UNUSED_OptionsMotionBlur = \nGamePref.UNUSED_OptionsObjectBlur = \nGamePref.UNUSED_OptionsReflectionBounces = \nGamePref.UNUSED_OptionsReflectionCullList = \nGamePref.UNUSED_OptionsReflectionFarClip = \nGamePref.UNUSED_OptionsReflectionRefreshMode = \nGamePref.UNUSED_OptionsReflectionShadowDistance = \nGamePref.UNUSED_OptionsReflectionTimeSlicingMode = \nGamePref.UNUSED_OptionsSSAO = \nGamePref.UNUSED_OptionsStreamingMipmapsBudget = \nGamePref.UNUSED_OptionsSunShafts = \nGamePref.UserDataFolder = C:\\Users\\Eric\\AppData\\Roaming/7DaysToDie\nGamePref.WorldGenSeed = \nGamePref.WorldGenSize = 8192\nGamePref.XPMultiplier = 100\nGamePref.ZombieBMMove = 3\nGamePref.ZombieFeralMove = 3\nGamePref.ZombieMove = 0\nGamePref.ZombieMoveNight = 1\nGamePref.ZombiePlayers = True\nGameStat.AirDropFrequency = 0\nGameStat.AirDropMarker = False\nGameStat.AllowedViewDistance = 12\nGameStat.AnimalCount = 0\nGameStat.AutoParty = False\nGameStat.BedrollExpiryTime = 45\nGameStat.BlockDamagePlayer = 100\nGameStat.BloodMoonDay = 0\nGameStat.BloodMoonEnemyCount = 8\nGameStat.BloodMoonWarning = 8\nGameStat.ChunkStabilityEnabled = True\nGameStat.CraftTimer = \nGameStat.CurrentRoundIx = 0\nGameStat.DayLightLength = 18\nGameStat.DayLimitActive = False\nGameStat.DayLimitThisRound = 0\nGameStat.DropOnDeath = 1\nGameStat.DropOnQuit = 0\nGameStat.EnemyCount = 0\nGameStat.EnemyDifficulty = Normal\nGameStat.EnemySpawnMode = True\nGameStat.FragLimitActive = False\nGameStat.FragLimitThisRound = 0\nGameStat.GameDifficulty = 2\nGameStat.GameDifficultyBonus = 1\nGameStat.GameModeId = 0\nGameStat.GameState = 0\nGameStat.GlobalMessageToShow = \nGameStat.IsCreativeMenuEnabled = False\nGameStat.IsFlyingEnabled = False\nGameStat.IsPlayerCollisionEnabled = True\nGameStat.IsPlayerDamageEnabled = True\nGameStat.IsResetMapOnRestart = False\nGameStat.IsSaveSupplyCrates = True\nGameStat.IsSpawnEnemies = True\nGameStat.IsSpawnNearOtherPlayer = False\nGameStat.IsTeleportEnabled = False\nGameStat.IsVersionCheckDone = True\nGameStat.LandClaimCount = 1\nGameStat.LandClaimDeadZone = 30\nGameStat.LandClaimDecayMode = 0\nGameStat.LandClaimExpiryTime = 3\nGameStat.LandClaimOfflineDelay = 0\nGameStat.LandClaimOfflineDurabilityModifier = 32\nGameStat.LandClaimOnlineDurabilityModifier = 32\nGameStat.LandClaimSize = 41\nGameStat.LoadScene = \nGameStat.LootTimer = \nGameStat.OptionsPOICulling = 0\nGameStat.PartySharedKillRange = 100\nGameStat.PlayerKillingMode = KillStrangersOnly\nGameStat.ScoreDiedMultiplier = -5\nGameStat.ScorePlayerKillMultiplier = 1\nGameStat.ScoreZombieKillMultiplier = 1\nGameStat.ShowAllPlayersOnMap = False\nGameStat.ShowFriendPlayerOnMap = True\nGameStat.ShowSpawnWindow = False\nGameStat.ShowWindow = \nGameStat.ShowZombieCounter = False\nGameStat.TimeLimitActive = False\nGameStat.TimeLimitThisRound = 0\nGameStat.TimeOfDayIncPerSec = 20\nGameStat.XPMultiplier = 100\nGameStat.ZombieHordeMeter = False\n2020-07-13T22:02:24 141.642 INF StartAsServer\nWARNING: Shader Unsupported: 'Hidden/Nature/Terrain/Utilities' - All passes removed\nWARNING: Shader Did you use #pragma only_renderers and omit this platform?\nERROR: Shader Shader is not supported on this GPU (none of subshaders/fallbacks are suitable)WARNING: Shader Unsupported: 'Hidden/Nature/Terrain/Utilities' - Setting to default shader.\n2020-07-13T22:02:25 142.231 INF Set Microsplat diffuse: MicroSplatConfig_diff_tarray_1 (UnityEngine.Texture2DArray)\n2020-07-13T22:02:25 142.232 INF Set Microsplat normals: MicroSplatConfig_normal_tarray_1 (UnityEngine.Texture2DArray)\n2020-07-13T22:02:25 142.232 INF Set Microsplat smooth:  MicroSplatConfig_smoothAO_tarray_1 (UnityEngine.Texture2DArray)\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader\nWARNING: Shader Unsupported: 'DoubleSided/Standard/Autodesk Interactive DS' - Pass 'FORWARD' has no vertex shader\nWARNING: Shader Unsupported: 'DoubleSided/Standard/Autodesk Interactive DS' - Pass 'FORWARD_DELTA' has no vertex shader\nWARNING: Shader Unsupported: 'DoubleSided/Standard/Autodesk Interactive DS' - Pass 'ShadowCaster' has no vertex shader\n2020-07-13T22:02:32 149.297 INF Block IDs with mapping\n2020-07-13T22:02:32 149.298 INF BlockIDs from Mapping\n2020-07-13T22:02:33 150.261 WRN XML patch for \"items.xml\" from mod \"JeepAlterations\" did not apply: <setattribute xpath=\"//entity_class[@name='vehicle4x4Truck']/property[@name='Prefab']\" name=\"value\" \n2020-07-13T22:02:40 156.876 INF Item IDs with mapping\n2020-07-13T22:02:40 156.876 INF ItemIDs from Mapping\nWARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader\nWARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader\nWARNING: Shader Unsupported: 'Hidden/PostProcessing/FinalPass' - Pass '' has no vertex shader\nWARNING: Shader Unsupported: 'Hidden/PostProcessing/FinalPass' - Pass '' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader\n2020-07-13T22:02:52 169.591 INF createWorld: West Wejuso Territory, Alpha 19 b157, GameModeSurvival\n2020-07-13T22:02:52 169.593 INF Occlusion: Enabled\n2020-07-13T22:02:52 169.775 INF Started thread ChunkRegeneration\n2020-07-13T22:02:52 169.775 INF Started thread ChunkCalc\n2020-07-13T22:02:53 169.908 INF World.Load: West Wejuso Territory\n2020-07-13T22:02:53 169.931 INF BloodMoon SetDay: day 7, last day 0, freq 7, range 0\n2020-07-13T22:02:54 171.762 INF ShapeControllers: 64\n2020-07-13T22:03:09 186.607 INF Started thread GenerateChunks\n2020-07-13T22:03:11 188.629 INF Calculating world hashes took 1997 ms (world size 801 MiB)\n2020-07-13T22:03:12 189.330 INF Loading dtm raw file took 2710ms\n2020-07-13T22:03:13 190.227 INF Biomes image size w= 8192, h = 8192\n2020-07-13T22:03:15 191.837 INF Loading and creating biomes took 2506ms\n2020-07-13T22:03:20 197.602 INF Loading and creating shader control textures took 5764ms\n2020-07-13T22:03:29 205.926 INF Loading and parsing of generator took 8324ms\n2020-07-13T22:03:29 206.015 INF Started thread SaveChunks C:\\Users\\Eric\\AppData\\Roaming/7DaysToDie/Saves/West Wejuso Territory/Alpha 19 b157\\Region\n2020-07-13T22:03:31 208.517 INF [DECO] read 130559/\n2020-07-13T22:03:31 208.623 INF Loading asset at #Sounds/Music?HomeDay.wav...\n2020-07-13T22:03:31 208.624 INF Loading asset at #Sounds/Music?HomeNight.wav...\n2020-07-13T22:03:31 208.624 INF Loading asset at #Sounds/Music?TraderBob.wav...\n2020-07-13T22:03:31 208.625 INF Loading asset at #Sounds/Music?TraderHugh.wav...\n2020-07-13T22:03:31 208.625 INF Loading asset at #Sounds/Music?TraderJen.wav...\n2020-07-13T22:03:31 208.625 INF Loading asset at #Sounds/Music?TraderJoel.wav...\n2020-07-13T22:03:31 208.625 INF Loading asset at #Sounds/Music?TraderRekt.wav...\n2020-07-13T22:03:33 210.330 INF AstarManager Init\n2020-07-13T22:03:43 219.821 INF Finished loading HomeDay.\n2020-07-13T22:03:43 219.821 INF Casted asset HomeDay as AudioClip.\n2020-07-13T22:03:43 219.822 INF Finished loading HomeNight.\n2020-07-13T22:03:43 219.822 INF Casted asset HomeNight as AudioClip.\n2020-07-13T22:03:43 219.822 INF Finished loading TraderBob.\n2020-07-13T22:03:43 219.822 INF Casted asset TraderBob as AudioClip.\n2020-07-13T22:03:43 219.823 INF Finished loading TraderHugh.\n2020-07-13T22:03:43 219.823 INF Casted asset TraderHugh as AudioClip.\n2020-07-13T22:03:43 219.823 INF Finished loading TraderJen.\n2020-07-13T22:03:43 219.823 INF Casted asset TraderJen as AudioClip.\n2020-07-13T22:03:43 219.823 INF Finished loading TraderJoel.\n2020-07-13T22:03:43 219.823 INF Casted asset TraderJoel as AudioClip.\n2020-07-13T22:03:43 219.823 INF Finished loading TraderRekt.\n2020-07-13T22:03:43 219.823 INF Casted asset TraderRekt as AudioClip.\n2020-07-13T22:03:43 220.075 INF Weather Packages Created FROM BIOMES\n2020-07-13T22:03:43 220.076 INF createWorld() done\n2020-07-13T22:03:43 220.079 INF Loading players.xml\n2020-07-13T22:03:43 220.515 INF Created player with id=75104256\n2020-07-13T22:03:43 220.653 INF Loaded player\n2020-07-13T22:03:44 221.060 INF VehicleManager C:\\Users\\Eric\\AppData\\Roaming/7DaysToDie/Saves/West Wejuso Territory/Alpha 19 b157/vehicles.dat, loaded 9\n2020-07-13T22:03:44 221.237 INF Setting for 'DropOnDeath' does not match the default (server will go to the modded category): current = 0, default = 1\n2020-07-13T22:03:44 221.237 INF Setting for 'EnemySpawnMode' does not match the default (server will go to the modded category): current = False, default = True\n2020-07-13T22:03:44 221.237 INF Setting for 'LootRespawnDays' does not match the default (server will go to the modded category): current = 5, default = 30\n2020-07-13T22:03:44 221.237 INF Setting for 'BuildCreate' does not match the default (server will go to the modded category): current = True, default = False\nCalling Animator.GotoState on Synchronize layer\n \n(Filename: C:\\buildslave\\unity\\build\\Modules/Animation/Director/AnimatorControllerPlayable.cpp Line: 1370)\n\n2020-07-13T22:03:45 222.202 INF Origin Reposition (0.0, 0.0, 0.0) to (1696.0, 48.0, 400.0)\n2020-07-13T22:03:45 222.460 INF [DECO] written 0\n2020-07-13T22:03:46 223.217 INF OpenSpawnWindow\n2020-07-13T22:03:48 224.807 INF StartGame done\n2020-07-13T22:03:48 224.892 ERR Vehicle properties for 'javehicle4x4dunebuggey' not found!\n2020-07-13T22:03:48 225.073 INF [Steamworks.NET] GameServer.Init successful\n2020-07-13T22:03:48 225.685 INF [Steamworks.NET] GameServer.LogOn successful, SteamID=90137075424457735, public IP=9*.2*.12*.14*\n2020-07-13T22:03:48 225.709 INF [Steamworks.NET] Trying to create Lobby (visibility: k_ELobbyTypeFriendsOnly)\n2020-07-13T22:03:49 225.920 INF [Steamworks.NET] Lobby creation succeeded, LobbyID=109775240995250220, server SteamID=90137075424457735, server public IP=9*.2*.12*.14*, server port=26900\n2020-07-13T22:03:49 225.930 INF [Steamworks.NET] Lobby entered: 109775240995250220\n2020-07-13T22:03:50 226.945 INF Respawn almost done\n2020-07-13T22:03:50 226.956 INF PlayerSpawnedInWorld (reason: LoadedGame, position: 1711, 52, 414): localplayer\nNullReferenceException: Object reference not set to an instance of an object\n  at Vehicle.GetHornSoundName () [0x00000] in <d06792d09075474fb8267d67cd791cb9>:0 \n  at Vehicle.HasHorn () [0x00000] in <d06792d09075474fb8267d67cd791cb9>:0 \n  at EntityVehicle.GetActivationCommands (Vector3i _tePos, EntityAlive _entityFocusing) [0x001ce] in <d06792d09075474fb8267d67cd791cb9>:0 \n  at PlayerMoveController.Update () [0x01d95] in <d06792d09075474fb8267d67cd791cb9>:0 \n \n(Filename: <d06792d09075474fb8267d67cd791cb9> Line: 0)\n\n2020-07-13T22:04:17 254.430 INF Time: 3.62m FPS: 38.44 Heap: 2450.8MB Max: 2450.8MB Chunks: 225 CGO: 151 Ply: 1 Zom: 0 Ent: 13 (13) Items: 0 CO: 1 RSS: 5552.8MB\n2020-07-13T22:04:47 284.419 INF Time: 4.12m FPS: 39.28 Heap: 2596.7MB Max: 2596.7MB Chunks: 225 CGO: 151 Ply: 1 Zom: 0 Ent: 13 (13) Items: 0 CO: 1 RSS: 5631.4MB\n2020-07-13T22:05:17 314.434 INF Time: 4.62m FPS: 39.16 Heap: 2544.7MB Max: 2596.7MB Chunks: 225 CGO: 151 Ply: 1 Zom: 0 Ent: 13 (13) Items: 0 CO: 1 RSS: 5639.0MB\n2020-07-13T22:05:47 344.412 INF VehicleManager saving 9 (8 / 1)\n2020-07-13T22:05:47 344.442 INF Time: 5.13m FPS: 38.23 Heap: 2527.1MB Max: 2596.7MB Chunks: 225 CGO: 151 Ply: 1 Zom: 0 Ent: 13 (15) Items: 0 CO: 1 RSS: 5638.7MB\n2020-07-13T22:05:49 345.898 INF Preparing quit\n2020-07-13T22:05:49 345.899 INF Disconnect\n2020-07-13T22:05:49 345.906 INF [NET] ServerShutdown\n2020-07-13T22:05:49 345.907 INF NET: Stopping server protocols\n2020-07-13T22:05:49 345.924 INF NET: LiteNetLib server stopped\n2020-07-13T22:05:49 345.926 INF Exited thread SteamNetworkingServer\n2020-07-13T22:05:49 345.927 INF [Steamworks.NET] NET: Server stopped\n2020-07-13T22:05:49 345.929 INF SaveAndCleanupWorld\n2020-07-13T22:05:49 346.150 INF Saving 100 of chunks took 124ms\n2020-07-13T22:05:49 346.168 INF [Steamworks.NET] Stopping server\n2020-07-13T22:05:49 346.207 INF [Steamworks.NET] Exiting Lobby\n2020-07-13T22:05:49 346.475 INF [MODS] Loading localization from mod: JeepAlterations\n2020-07-13T22:05:50 346.910 INF [MODS] Loading localization from mod: MoreContainers\n2020-07-13T22:05:50 346.930 INF [MODS] Loading localization from mod: MotorcycleAlterations\n2020-07-13T22:05:50 346.943 INF [MODS] Loading localization from mod: PaintJob\n2020-07-13T22:05:50 346.978 INF [MODS] Loading localization from mod: SpartanBlocks\n2020-07-13T22:05:50 347.003 INF AstarManager Cleanup\n2020-07-13T22:05:50 347.008 INF World.Unload\n2020-07-13T22:05:50 347.064 INF Exited thread GenerateChunks\n2020-07-13T22:05:50 347.150 INF Exited thread SaveChunks C:\\Users\\Eric\\AppData\\Roaming/7DaysToDie/Saves/West Wejuso Territory/Alpha 19 b157\\Region\n2020-07-13T22:05:50 347.358 INF World.Cleanup\n2020-07-13T22:05:50 347.363 INF Exited thread ChunkRegeneration\n2020-07-13T22:05:50 347.368 INF Exited thread ChunkCalc\n2020-07-13T22:05:50 347.373 INF VehicleManager saving 9 (0 / 9)\n2020-07-13T22:05:50 347.715 INF Persistent GamePrefs saved\n2020-07-13T22:05:51 348.156 INF Persistent GamePrefs saved\n2020-07-13T22:05:51 348.163 INF Cleanup\n2020-07-13T22:05:51 348.193 INF AchievementManager.Cleanup\n2020-07-13T22:05:51 348.327 INF [GSM] GameSparks Disconnected\n2020-07-13T22:05:51 348.334 INF Terminating threads\n2020-07-13T22:05:51 348.335 INF OnApplicationQuit\n2020-07-13T22:05:51 348.337 INF Terminating threads\n2020-07-13T22:05:51 348.337 INF OnApplicationQuit\n2020-07-13T22:05:51 348.689 INF Terminating threads\n2020-07-13T22:05:51 348.689 INF OnApplicationQuit\n2020-07-13T22:05:51 348.690 INF Terminating threads\n2020-07-13T22:05:51 348.690 INF OnApplicationQuit\nSetting up 4 worker threads for Enlighten.\n  Thread -> id: 4ac8 -> priority: 1 \n  Thread -> id: 65b0 -> priority: 1 \n  Thread -> id: 4cb8 -> priority: 1 \n  Thread -> id: cfc -> priority: 1 \n",
-			"file": "/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-07-13__21-59-15.txt",
-			"file_size": 29846,
-			"file_write_time": 132391659525204837,
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/Release Notes.md",
 			"settings":
 			{
-				"buffer_size": 29317,
+				"buffer_size": 553,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/ModInfo.xml",
+			"settings":
+			{
+				"buffer_size": 653,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -186,17 +270,34 @@
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/Config/entityclasses.xml",
 			"settings":
 			{
-				"buffer_size": 1259,
+				"buffer_size": 1045,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/D/7dtd/7dtdMods/README.md",
+			"file": "/D/7dtd/7dtdMods/.github/workflows/PaintJob_release.yml",
 			"settings":
 			{
-				"buffer_size": 6422,
+				"buffer_size": 1414,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/7dtd/7dtdMods/JeepAlterations/ModInfo.xml",
+			"settings":
+			{
+				"buffer_size": 653,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/serveradmin.xml",
+			"settings":
+			{
+				"buffer_size": 3622,
 				"line_ending": "Windows"
 			}
 		},
@@ -204,7 +305,25 @@
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/items.xml",
 			"settings":
 			{
-				"buffer_size": 5702,
+				"buffer_size": 7205,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/7dtd/7dtdMods/SpartanBlocks/ModInfo.xml",
+			"settings":
+			{
+				"buffer_size": 1791,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Release Notes.md",
+			"settings":
+			{
+				"buffer_size": 2197,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -286,10 +405,21 @@
 		"/C/Steam/steamapps/common/7 Days To Die/Data",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/Buggies",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/Buggies/Config",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/Buggies/Resources",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/Config",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/Resources",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Config",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Resources",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/UIAtlases",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/UIAtlases/ItemIconAtlas",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/UIAtlases",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/UIAtlases/ItemIconAtlas",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/StorageSize",
@@ -297,8 +427,29 @@
 	],
 	"file_history":
 	[
-		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/loot.xml",
+		"/D/7dtd/7dtdMods/.git/info/exclude",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/Buggies/Resources/buggey.unity3d",
+		"/X/Site Web Yvon/index.html",
+		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/index.html",
+		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/indexTemp.html",
+		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa22464.25909/entityclasses.xml",
+		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa22464.24988/ModInfo.xml",
+		"/D/7dtd/7dtdMods/README.md",
+		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/serveradmin.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-07-18__18-25-29.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/app.info",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/boot.config",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/West Yijota Territory/prefabs.xml",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/West Yijota Territory/GenerationInfo.txt",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie.bak/GeneratedWorlds/West Xujabe Territory/GenerationInfo.txt",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie.bak/GeneratedWorlds/Kaweje Mountains/GenerationInfo.txt",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
+		"/D/7dtd/7dtdMods/Modlet Installation.md",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-07-13__21-59-15.txt",
+		"/D/7dtd/7dtdMods/SpartanBlocks/Config/blocks.xml",
+		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/serverconfig.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-07-13__22-12-58.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/loot.xml",
 		"/D/7dtd/7dtdMods/PaintJob/ModInfo.xml",
 		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa28444.21268/vehicles.xml",
 		"/C/Steam/steamapps/common/7 Days To Die - 18.4 (last version)/Data/Config/vehicles.xml",
@@ -314,7 +465,6 @@
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
 		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa11596.47497/ModInfo.xml",
 		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa11596.46487/entityclasses.xml",
-		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/serverconfig.xml",
 		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/configstore_log.txt",
 		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-07-11__18-14-04.txt",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/Localization.txt",
@@ -398,33 +548,13 @@
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/recipes.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config/recipes.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config/loot.xml",
-		"/D/7dtd/7dtdMods/README.md",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/Saves/North Jaxuhe Mountains/Eric Test 2/ConfigsDump/entityclasses.xml",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/Saves/North Jaxuhe Mountains/Eric Test 2/ConfigsDump/items.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-06-24__00-00-26.txt",
 		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-06-23__23-42-19.txt",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleSkins/Config/vehicles.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleSkins/Config/recipes.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleSkins/Config/Localization.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleSkins/Config/items.xml",
-		"/D/7dtd/7dtdMods/MotorcycleSkins/Release Notes.md",
-		"/D/7dtd/7dtdMods/MotorcycleSkins/ModInfo.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleSkins/Config/entityclasses.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-06-23__19-37-10.txt",
-		"/C/7d2d/Alpha18/war3zuk/war3zuk_alpha_18_aio_overhaul/Mods/Bdubs Vehicles/Config/entityclasses.xml",
-		"/C/7d2d/Alpha18/war3zuk/war3zuk_alpha_18_aio_overhaul/Mods/Bdubs Vehicles/Config/vehicles.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/NoMoreGuns/Config/items.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/MorePaintTextures/Release Notes.md",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-06-22__15-52-22.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Disabled-ModInfo.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-06-23__16-53-03.txt",
-		"/C/Users/Eric/AppData/Roaming/7DaysToDie/UserOptions.ini",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-06-21__10-02-29.txt",
-		"/C/Users/Eric/AppData/Roaming/7DaysToDie/launchersettings.json",
-		"/C/Users/Eric/AppData/Roaming/7DaysToDie/Saves/profiles.sdf",
-		"/X/Unity/Test Blender Import/ProjectSettings/TagManager.asset",
-		"/X/Unity/@Ressources/A17_vehiclesDetails_print.txt",
-		"/X/Unity/@Ressources/Buzzer.txt"
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleSkins/Config/Localization.txt"
 	],
 	"find":
 	{
@@ -451,6 +581,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"permission_level_mod",
+			"sto",
+			"prefabList",
 			"id='17'",
 			"id='6'",
 			"velocityMax",
@@ -575,10 +708,7 @@
 			"mcHalfCubeContainerRecycle",
 			"mcCubeContainerHealth",
 			"Health",
-			"Armors",
-			"mcHalfCubeContainerArmors",
-			"mcCubeContainerArmors",
-			"mcHalfCubeContainerWeapons"
+			"Armors"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -617,7 +747,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -646,7 +776,7 @@
 						"translation.y": 540.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 31,
 					"type": "text"
 				},
 				{
@@ -655,7 +785,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1514237,
+						"buffer_size": 1514880,
 						"regions":
 						{
 						},
@@ -675,7 +805,7 @@
 						"translation.y": 372842.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 30,
 					"type": "text"
 				},
 				{
@@ -701,27 +831,56 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 378.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/C/Users/Eric/AppData/Local/Temp/fz3temp-2/serverconfig.xml",
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/Config/vehicles.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12548,
+						"buffer_size": 24136,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								662,
-								671
+								21719,
+								21719
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1782.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/7dtd/7dtdMods/Buggies/ModInfo.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 573,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								562,
+								562
 							]
 						],
 						"settings":
@@ -733,24 +892,52 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/Config/vehicles.xml",
+					"buffer": 5,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/Buggies/Release Notes.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 23865,
+						"buffer_size": 909,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22177,
-								22177
+								772,
+								772
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/Buggies/Config/entityclasses.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								281,
+								281
 							]
 						],
 						"settings":
@@ -759,14 +946,157 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 9157.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/Buggies/Config/items.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 798,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/D/7dtd/7dtdMods/.gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/Buggies/Config/Localization.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								105,
+								105
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 10,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/Buggies/Config/recipes.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 64,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								39
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/Buggies/Config/vehicles.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								85,
+								85
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Config/recipes.xml",
 					"semi_transient": false,
 					"settings":
@@ -791,24 +1121,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 13,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/blocks.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8618,
+						"buffer_size": 11901,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7594,
-								7594
+								10837,
+								10837
 							]
 						],
 						"settings":
@@ -817,14 +1147,42 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2322.0,
+						"translation.y": 3901.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 14,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Config/Localization.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2611,
+								2634
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/StorageSize/Config/loot.xml",
 					"semi_transient": false,
 					"settings":
@@ -850,30 +1208,231 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 16,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 994,
+						"buffer_size": 1207,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								855,
-								950
+								1141,
+								1196
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/XML/XML.sublime-syntax",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								325,
+								325
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/vehicles.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 58763,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41252,
+								41252
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 186.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/Localization.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 728,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								544,
+								544
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/entityclasses.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2618,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2031,
+								2048
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/recipes.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2625,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2463,
+								2463
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/Config/items.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2414,
+								2414
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 432.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/Release Notes.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 553,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -883,640 +1442,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/vehicles.xml",
+					"buffer": 24,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/ModInfo.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 47006,
+						"buffer_size": 653,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								42430,
-								42441
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 18620.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 38369,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										426,
-										434
-									],
-									[
-										727,
-										735
-									],
-									[
-										1167,
-										1175
-									],
-									[
-										1764,
-										1780
-									],
-									[
-										2065,
-										2081
-									],
-									[
-										2210,
-										2226
-									],
-									[
-										2511,
-										2527
-									],
-									[
-										2656,
-										2672
-									],
-									[
-										2957,
-										2973
-									],
-									[
-										3102,
-										3118
-									],
-									[
-										3403,
-										3419
-									],
-									[
-										3876,
-										3892
-									],
-									[
-										4177,
-										4193
-									],
-									[
-										4775,
-										4791
-									],
-									[
-										5076,
-										5092
-									],
-									[
-										5194,
-										5210
-									],
-									[
-										5388,
-										5404
-									],
-									[
-										5689,
-										5705
-									],
-									[
-										5807,
-										5823
-									],
-									[
-										5999,
-										6015
-									],
-									[
-										6300,
-										6316
-									],
-									[
-										6418,
-										6434
-									],
-									[
-										6608,
-										6624
-									],
-									[
-										6909,
-										6925
-									],
-									[
-										7027,
-										7043
-									],
-									[
-										7225,
-										7241
-									],
-									[
-										7526,
-										7542
-									],
-									[
-										7644,
-										7660
-									],
-									[
-										7851,
-										7867
-									],
-									[
-										8152,
-										8168
-									],
-									[
-										8270,
-										8286
-									],
-									[
-										8882,
-										8898
-									],
-									[
-										9182,
-										9198
-									],
-									[
-										9327,
-										9343
-									],
-									[
-										9627,
-										9643
-									],
-									[
-										9772,
-										9788
-									],
-									[
-										10072,
-										10088
-									],
-									[
-										10217,
-										10233
-									],
-									[
-										10517,
-										10533
-									],
-									[
-										10662,
-										10678
-									],
-									[
-										10962,
-										10978
-									],
-									[
-										11107,
-										11123
-									],
-									[
-										11407,
-										11423
-									],
-									[
-										11882,
-										11898
-									],
-									[
-										12182,
-										12198
-									],
-									[
-										12299,
-										12315
-									],
-									[
-										12493,
-										12509
-									],
-									[
-										12793,
-										12809
-									],
-									[
-										12910,
-										12926
-									],
-									[
-										13102,
-										13118
-									],
-									[
-										13402,
-										13418
-									],
-									[
-										13519,
-										13535
-									],
-									[
-										13709,
-										13725
-									],
-									[
-										14009,
-										14025
-									],
-									[
-										14126,
-										14142
-									],
-									[
-										14324,
-										14340
-									],
-									[
-										14624,
-										14640
-									],
-									[
-										14741,
-										14757
-									],
-									[
-										14948,
-										14964
-									],
-									[
-										15248,
-										15264
-									],
-									[
-										15365,
-										15381
-									],
-									[
-										16245,
-										16261
-									],
-									[
-										16545,
-										16561
-									],
-									[
-										16690,
-										16706
-									],
-									[
-										16990,
-										17006
-									],
-									[
-										17135,
-										17151
-									],
-									[
-										17435,
-										17451
-									],
-									[
-										17580,
-										17596
-									],
-									[
-										17880,
-										17896
-									],
-									[
-										18025,
-										18041
-									],
-									[
-										18325,
-										18341
-									],
-									[
-										18800,
-										18816
-									],
-									[
-										19100,
-										19116
-									],
-									[
-										19217,
-										19233
-									],
-									[
-										19411,
-										19427
-									],
-									[
-										19711,
-										19727
-									],
-									[
-										19828,
-										19844
-									],
-									[
-										20020,
-										20036
-									],
-									[
-										20320,
-										20336
-									],
-									[
-										20437,
-										20453
-									],
-									[
-										20627,
-										20643
-									],
-									[
-										20927,
-										20943
-									],
-									[
-										21044,
-										21060
-									],
-									[
-										21242,
-										21258
-									],
-									[
-										21542,
-										21558
-									],
-									[
-										21659,
-										21675
-									],
-									[
-										21866,
-										21882
-									],
-									[
-										22166,
-										22182
-									],
-									[
-										22283,
-										22299
-									],
-									[
-										22832,
-										22848
-									],
-									[
-										23092,
-										23108
-									],
-									[
-										23350,
-										23366
-									],
-									[
-										23611,
-										23627
-									],
-									[
-										23880,
-										23896
-									],
-									[
-										24147,
-										24163
-									],
-									[
-										24485,
-										24501
-									],
-									[
-										24809,
-										24825
-									],
-									[
-										25131,
-										25147
-									],
-									[
-										25456,
-										25472
-									],
-									[
-										25782,
-										25798
-									],
-									[
-										26192,
-										26208
-									],
-									[
-										26782,
-										26805
-									],
-									[
-										27190,
-										27213
-									],
-									[
-										27641,
-										27657
-									],
-									[
-										27993,
-										28016
-									],
-									[
-										28343,
-										28366
-									],
-									[
-										28674,
-										28697
-									],
-									[
-										30221,
-										30244
-									],
-									[
-										30306,
-										30329
-									],
-									[
-										32516,
-										32538
-									],
-									[
-										32993,
-										33015
-									],
-									[
-										33712,
-										33734
-									],
-									[
-										34189,
-										34211
-									],
-									[
-										34710,
-										34732
-									],
-									[
-										35263,
-										35285
-									],
-									[
-										35699,
-										35718
-									],
-									[
-										36013,
-										36032
-									],
-									[
-										36340,
-										36359
-									],
-									[
-										36477,
-										36496
-									],
-									[
-										36835,
-										36854
-									],
-									[
-										37187,
-										37193
-									],
-									[
-										37631,
-										37637
-									],
-									[
-										38157,
-										38164
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								37839,
-								37839
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 11,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 9002.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-07-13__22-12-58.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 29385,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								24840,
-								24862
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 8018.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/entityclasses.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2172,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1125,
-								1125
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 162.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/Config/items.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3440,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2428,
-								2455
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1528,44 +1467,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-07-13__21-59-15.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 29317,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								24816,
-								24838
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 8239.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
+					"buffer": 25,
 					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/Config/entityclasses.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1259,
+						"buffer_size": 1045,
 						"regions":
 						{
 						},
@@ -1585,52 +1496,54 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
-					"file": "/D/7dtd/7dtdMods/README.md",
+					"buffer": 26,
+					"file": "/D/7dtd/7dtdMods/.github/workflows/PaintJob_release.yml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6422,
+						"buffer_size": 1414,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1997,
-								1997
+								935,
+								935
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/items.xml",
+					"buffer": 27,
+					"file": "/D/7dtd/7dtdMods/JeepAlterations/ModInfo.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5702,
+						"buffer_size": 653,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2564,
-								2564
+								315,
+								315
 							]
 						],
 						"settings":
@@ -1639,10 +1552,128 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 438.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/serveradmin.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1604,
+								2097
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 432.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/items.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6120,
+								6120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1836.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "/D/7dtd/7dtdMods/SpartanBlocks/ModInfo.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								409,
+								604
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/Release Notes.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								534,
+								534
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
 					"type": "text"
 				}
 			]
@@ -1729,7 +1760,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 349.0,
+	"side_bar_width": 404.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

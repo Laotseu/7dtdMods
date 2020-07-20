@@ -1,0 +1,17 @@
+<configs>
+	
+	<append xpath="/entity_classes">
+
+		<entity_class name="bVehicleDuneBuggey" extends="vehicle4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/bBuggy.unity3d?buggy"/>
+		</entity_class>		
+	
+		<entity_class name="bVehicleDuneHupperLogo3" extends="vehicle4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/bDuneHopper.unity3d?dune_hopper_logo3"/>
+		</entity_class>		
+	
+	</append>
+
+</configs>
