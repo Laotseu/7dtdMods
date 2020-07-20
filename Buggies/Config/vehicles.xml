@@ -3,7 +3,7 @@
 	<append xpath="/vehicles" >
 
 	
-	<vehicle name="bVehicleDuneBuggeyPlaceble">
+	<vehicle name="bVehicleDuneBuggey">
 
 		<property name="cameraDistance" value="5.5, 7"/>
 		<property name="cameraTurnRate" value=".2, .35"/>
@@ -247,14 +247,14 @@
 			<property name="slot_type" value="handlebars"/>
 			<property name="transform" value="Origin/steering_joint"/>
 			<property name="steerMaxAngle" value="75"/>
-			<!-- <property name="IKHandLPosition" value="-.154, .1256, .0265"/> -->
-			<!-- <property name="IKHandLRotation" value="37.55, -13.433, 49.88"/> -->
-			<!-- <property name="IKHandRPosition" value=".154, .1256, .0265"/> -->
-			<!-- <property name="IKHandRRotation" value="37.55, 13.433, -49.88"/> -->
-			<property name="IKHandLPosition" value="-.2, .1256, 0"/>
-			<property name="IKHandLRotation" value="75, -13, 55"/>
-			<property name="IKHandRPosition" value=".2, .1256, 0"/>
-			<property name="IKHandRRotation" value="75, 13, -55"/>
+			<property name="IKHandLPosition" value="-.154, .1256, .0265"/>
+			<property name="IKHandLRotation" value="37.55, -13.433, 49.88"/>
+			<property name="IKHandRPosition" value=".154, .1256, .0265"/>
+			<property name="IKHandRRotation" value="37.55, 13.433, -49.88"/>
+			<!-- <property name="IKHandLPosition" value="-.2, .1256, 0"/> -->
+			<!-- <property name="IKHandLRotation" value="75, -13, 55"/> -->
+			<!-- <property name="IKHandRPosition" value=".2, .1256, 0"/> -->
+			<!-- <property name="IKHandRRotation" value="75, 13, -55"/> -->
 		</property>
 
 		<property class="seat0">
