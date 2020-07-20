@@ -18,7 +18,7 @@
 		
 		<item name="bVehicleDuneHupperLogo3Placeble">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="Meshfile" value="#@modfolder:Resources/bDuneHopper.unity3d?dune_hopper_logo3"/>
+			<property name="Meshfile" value="#@modfolder:Resources/bDuneHopper90.unity3d?dune_hopper_90_logo"/>
 			<property name="EconomicValue" value="30000"/>
 			<property class="Action1">
 				<property name="Vehicle" value="bVehicleDuneHupperLogo3"/>

@@ -9,7 +9,7 @@
 	
 		<entity_class name="bVehicleDuneHupperLogo3" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
-			<property name="Prefab" value="#@modfolder:Resources/bDuneHopper.unity3d?dune_hopper_logo3"/>
+			<property name="Prefab" value="#@modfolder:Resources/bDuneHopper90.unity3d?dune_hopper_90_logo"/>
 		</entity_class>		
 	
 	</append>
