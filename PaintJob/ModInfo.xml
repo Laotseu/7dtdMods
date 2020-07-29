@@ -5,7 +5,7 @@
 		<Name value="PaintJob" />
 		<Description value="New colour schemes for FunPims vehicles" />
 		<Author value="Éric Beaudon" />
-		<Version value="1.10" />
+		<Version value="1.11" />
 	</ModInfo>
 
 	<!--
@@ -31,4 +31,6 @@
 				Add Patrol Silver and Blue for people that drive on the wrong side of the road -->
 	<!-- v1.9:	Add the missing unity3D package for the Australian jeep -->
 	<!-- v1.10: Add War3zUK Black -->
+	<!-- v1.11: Fix UK models wobble wheels
+				More prep work for the motorcycles -->
 </xml>

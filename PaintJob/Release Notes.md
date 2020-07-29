@@ -4,6 +4,9 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 1.11: To much bumps on the road...
+	- Fix UK models wobble wheels
+	- More prep work for the motorcycles
 * 1.10: War3zUK skin
 	- It came to my attention that UK also have crazy driving habits. They might actually be the originators of 
 	  the whole darn thing.
