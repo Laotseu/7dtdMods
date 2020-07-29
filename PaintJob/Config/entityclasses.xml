@@ -59,6 +59,11 @@
 			<property name="Prefab" value="#@modfolder:Resources/NewByke.unity3d?Motorcycle_test"/>
 		</entity_class>
 
+		<entity_class name="pjVehicleMotorcycleWhite" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/NewByke.unity3d?Motorcycle_base_white"/>
+		</entity_class>
+
 	</append>
 
 	<!-- Change the model for the standard 4X4 (now with headlights, top lights and taillights) -->
