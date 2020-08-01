@@ -80,5 +80,68 @@
 			<ingredient name="resourcePaint" count="30"/>
 		</recipe>
 
+
+		<!-- Bicycles -->
+		<recipe name="pjVehicleBicycleWhitePlaceable" count="1">
+			<ingredient name="vehicleBicyclePlaceable" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="2"/>
+		</recipe>
+
+		<recipe name="pjVehicleBicycleWhitePlaceable" count="1">
+			<ingredient name="pjVehicleBicycleBluePlaceable" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="2"/>
+		</recipe>
+
+		<recipe name="pjVehicleBicycleWhitePlaceable" count="1">
+			<ingredient name="pjVehicleBicycleCyanPlaceable" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="2"/>
+		</recipe>
+
+		<recipe name="pjVehicleBicycleWhitePlaceable" count="1">
+			<ingredient name="pjVehicleBicycleGreenPlaceable" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="2"/>
+		</recipe>
+
+		<recipe name="pjVehicleBicycleWhitePlaceable" count="1">
+			<ingredient name="pjVehicleBicyclePinkPlaceable" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="2"/>
+		</recipe>
+
+		<recipe name="pjVehicleBicycleWhitePlaceable" count="1">
+			<ingredient name="pjVehicleBicycleRedPlaceable" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="2"/>
+		</recipe>
+
+
+		<recipe name="vehicleBicyclePlaceable" count="1">
+			<ingredient name="pjVehicleBicycleWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+
+		<recipe name="pjVehicleBicycleBluePlaceable" count="1">
+			<ingredient name="pjVehicleBicycleWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+
+		<recipe name="pjVehicleBicycleCyanPlaceable" count="1">
+			<ingredient name="pjVehicleBicycleWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+
+		<recipe name="pjVehicleBicycleGreenPlaceable" count="1">
+			<ingredient name="pjVehicleBicycleWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+
+		<recipe name="pjVehicleBicyclePinkPlaceable" count="1">
+			<ingredient name="pjVehicleBicycleWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+
+		<recipe name="pjVehicleBicycleRedPlaceable" count="1">
+			<ingredient name="pjVehicleBicycleWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+
 	</append>
 </configs>
