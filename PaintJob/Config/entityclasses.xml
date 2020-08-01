@@ -53,7 +53,7 @@
 
 
 
-		<!-- Maping guide on! -->
+		<!-- Motorcycles -->
 		<entity_class name="pjVehicleMotorcycleTest" extends="vehicleMotorcycle">
 			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/NewByke.unity3d?Motorcycle_test"/>
@@ -62,6 +62,37 @@
 		<entity_class name="pjVehicleMotorcycleWhite" extends="vehicleMotorcycle">
 			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/NewByke.unity3d?Motorcycle_base_white"/>
+		</entity_class>
+
+		<!-- Bicycles -->
+		<entity_class name="pjVehicleBicycleBlue" extends="vehicleBicycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_blue"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleBicycleCyan" extends="vehicleBicycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_cyan"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleBicycleGreen" extends="vehicleBicycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_green"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleBicyclePink" extends="vehicleBicycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_pink"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleBicycleRed" extends="vehicleBicycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_red"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleBicycleWhite" extends="vehicleBicycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_white"/>
 		</entity_class>
 
 	</append>
