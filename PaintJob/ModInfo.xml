@@ -5,7 +5,7 @@
 		<Name value="PaintJob" />
 		<Description value="New colour schemes for FunPims vehicles" />
 		<Author value="Éric Beaudon" />
-		<Version value="1.11" />
+		<Version value="1.12" />
 	</ModInfo>
 
 	<!--
@@ -33,4 +33,6 @@
 	<!-- v1.10: Add War3zUK Black -->
 	<!-- v1.11: Fix UK models wobble wheels
 				More prep work for the motorcycles -->
+	<!-- v1.12: Bicycles: white, blue, green, cyan, pink red, and the original yellow
+				Motorcycles: red, white, and original -->
 </xml>

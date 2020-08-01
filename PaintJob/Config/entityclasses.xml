@@ -54,15 +54,47 @@
 
 
 		<!-- Motorcycles -->
-		<entity_class name="pjVehicleMotorcycleTest" extends="vehicleMotorcycle">
-			<property name="Tags" value="vehicle"/>
-			<property name="Prefab" value="#@modfolder:Resources/NewByke.unity3d?Motorcycle_test"/>
-		</entity_class>
-
 		<entity_class name="pjVehicleMotorcycleWhite" extends="vehicleMotorcycle">
 			<property name="Tags" value="vehicle"/>
-			<property name="Prefab" value="#@modfolder:Resources/NewByke.unity3d?Motorcycle_base_white"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_white"/>
 		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleWhiteNoSpike" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_white_nospike"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleWhiteNoShield" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_white_noshield"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleWhiteNoHood" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_white_nohood"/>
+		</entity_class>
+
+
+		<entity_class name="pjVehicleMotorcycleRed" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_red"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleRedNoSpike" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_red_nospike"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleRedNoShield" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_red_noshield"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleRedNoHood" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_red_nohood"/>
+		</entity_class>
+		
 
 		<!-- Bicycles -->
 		<entity_class name="pjVehicleBicycleBlue" extends="vehicleBicycle">
