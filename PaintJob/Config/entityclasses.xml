@@ -96,6 +96,27 @@
 		</entity_class>
 		
 
+		<entity_class name="pjVehicleMotorcycleGreenAndGold" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_green_and_gold"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleGreenAndGoldNoSpike" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_green_and_gold_nospike"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleGreenAndGoldNoShield" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_green_and_gold_noshield"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleGreenAndGoldNoHood" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_green_and_gold_nohood"/>
+		</entity_class>
+		
+
 		<!-- Bicycles -->
 		<entity_class name="pjVehicleBicycleBlue" extends="vehicleBicycle">
 			<property name="Tags" value="vehicle"/>

@@ -4,7 +4,7 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
-* 1.12: Bicycle and motorcycles
+* 1.12: Bicycle and motorcycle
 	- Bicycles: white, blue, green, cyan, pink red, and the original yellow
 	- Motorcycles: red, white, and original
 * 1.11: To much bumps on the road...
