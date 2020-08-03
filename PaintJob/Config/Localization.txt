@@ -21,6 +21,10 @@ pjVehicleMotorcycleGreenAndGoldPlaceable,blocks,Block,New,"Aussie Green and Gold
 pjVehicleMotorcycleGreenAndGoldNoSpikePlaceable,blocks,Block,New,"Aussie Green and Gold Motorcycle, spikes removed"
 pjVehicleMotorcycleGreenAndGoldNoShieldPlaceable,blocks,Block,New,"Aussie Green and Gold Motorcycle, shield removed"
 pjVehicleMotorcycleGreenAndGoldNoHoodPlaceable,blocks,Block,New,"Aussie Green and Gold Motorcycle, hood removed"
+pjVehicleMotorcycleBluePlaceable,blocks,Block,New,"Blue Motorcycle"
+pjVehicleMotorcycleBlueNoSpikePlaceable,blocks,Block,New,"Blue Motorcycle, spikes removed"
+pjVehicleMotorcycleBlueNoShieldPlaceable,blocks,Block,New,"Blue Motorcycle, shield removed"
+pjVehicleMotorcycleBlueNoHoodPlaceable,blocks,Block,New,"Blue Motorcycle, hood removed"
 
 pjVehicleBicycleBluePlaceable,blocks,Block,New,"Bicycle, Blue"
 pjVehicleBicycleCyanPlaceable,blocks,Block,New,"Bicycle, Cyan"
