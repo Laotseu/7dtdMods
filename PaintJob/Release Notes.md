@@ -1,13 +1,13 @@
 **PaintJob** Change the colour of FinPims vehicles.
 
-![PaintJob](https://github.com/Laotseu/7dtdMods/blob/master/PaintJob/PaintJob.png)
+![PaintJob](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v1.12/PaintJob/PaintJob.png)
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
 * 1.12: Bicycle and motorcycle
 	- Bicycles: white, blue, green, cyan, pink red, and the original yellow
 	- Motorcycles: red, white, green and gold, blue and original
-	- Integrated MotorcycleAltarations models with colours.
+	- Integrated MotorcycleAltarations models with colours
 * 1.11: To much bumps on the road...
 	- Fix UK models wobble wheels
 	- More prep work for the motorcycles
