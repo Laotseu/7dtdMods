@@ -24,7 +24,7 @@ During one of the FunPimps stream for Alpha 19, the motorcycle model was shown w
 PaintJob v1.11 (Alpha 19)
 ------------------------
 
-![PaintJob](https://github.com/Laotseu/7dtdMods/blob/master/PaintJob/PaintJob.png)
+![PaintJob](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v1.11/PaintJob/PaintJob.png)
 
 Are you tired of driving the exact same Jeep as you friend? Do you want to pimp your ride? PaintJob is for you! This mod add recipes that allow you to change the colour of your ride.<br />
 
