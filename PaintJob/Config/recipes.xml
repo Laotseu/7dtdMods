@@ -101,6 +101,12 @@
 			<ingredient name="drinkJarGrainAlcohol" count="5"/>
 		</recipe>
 
+		<recipe name="pjVehicleMotorcycleWhitePlaceable" count="1">
+			<ingredient name="pjVehicleMotorcycleBluePlaceable" count="1"/>
+			<ingredient name="resourceAcid" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="5"/>
+		</recipe>
+
 
 		<recipe name="vehicleMotorcyclePlaceable" count="1">
 			<ingredient name="pjVehicleMotorcycleWhitePlaceable" count="1"/>
@@ -113,6 +119,11 @@
 		</recipe>
 
 		<recipe name="pjVehicleMotorcycleGreenAndGoldPlaceable" count="1">
+			<ingredient name="pjVehicleMotorcycleWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="15"/>
+		</recipe>
+
+		<recipe name="pjVehicleMotorcycleBluePlaceable" count="1">
 			<ingredient name="pjVehicleMotorcycleWhitePlaceable" count="1"/>
 			<ingredient name="resourcePaint" count="15"/>
 		</recipe>
