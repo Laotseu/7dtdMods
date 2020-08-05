@@ -7,5 +7,5 @@
     provided us with stashing buttons before b177. b177 introduced the stashing buttons for everyone, but I was missing the Locked Slots control and was not patient enough to wait for Khaine to update
     his modlet.
 
-[Click here for Modlet Installation instruction](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)<br />
+[Click here for Modlet Installation instruction](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)
 [Click here for a list of all my mods](https://github.com/Laotseu/7dtdMods/blob/master/README.md)

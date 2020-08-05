@@ -40,5 +40,5 @@
 
 * Thanks to Manux for headlight that actually light up.
 
-[click here for Modlet Installation instruction](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)<br />
+[click here for Modlet Installation instruction](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)
 [Click here for a list of all my mods](https://github.com/Laotseu/7dtdMods/blob/master/README.md)
