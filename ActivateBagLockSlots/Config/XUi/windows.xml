@@ -1,0 +1,5 @@
+<configs>
+	<append xpath="//window[@name='windowBackpack']/panel/rect[@controller= 'ContainerStandardControls']">
+		<combobox depth="3" name="cbxLockedSlots" pos="-140,-7" width="100" height="30" tooltip_key="xuiStashLockedSlots" type="ComboBoxInt" value_min="0" value_max="45" value_wrap="true" value_increment="1" />
+	</append>
+</configs>

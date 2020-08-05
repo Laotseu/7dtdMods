@@ -4,6 +4,16 @@ Mods for the game 7 Days to Die
 
 [Installation instructions](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)
 
+ActivateBagLockSlots v1.0 (Alpha 19 b177+)
+------------------------------------
+
+![ActivateBagLockSlots](https://raw.githubusercontent.com/Laotseu/7dtdMods/ActivateBagLockSlots_v1.0/ActivateBagLockSlots/ActivateBagLockSlots.png)
+
+This is a very simple mod for Alpha 19 b177 and up that activate the **Locked Slots** control for the player's inventory.
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/ActivateBagLockSlots_v1.0/ActivateBagLockSlots_v1.0.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/ActivateBagLockSlots_v1.0)<br /><br /><br /><br />
+
 MoreContainers v1.2 (Alpha 19)
 ------------------------------
 

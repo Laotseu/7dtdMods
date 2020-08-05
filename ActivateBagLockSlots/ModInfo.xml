@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="ActivateBagLockSlots" />
+		<Description value="Activate the lock slots counter next to the statch buttons in the player inventory window" />
+		<Author value="Éric Beaudon" />
+		<Version value="1.0" />
+	</ModInfo>
+
+	<!-- v1.0:	Initial version -->
+</xml>
