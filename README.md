@@ -12,7 +12,7 @@ ActivateBagLockSlots v1.0 (Alpha 19 b177+)
 This is a very simple mod for Alpha 19 b177 and up that activate the **Locked Slots** control for the player's inventory.
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/ActivateBagLockSlots_v1.0/ActivateBagLockSlots_v1.0.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/ActivateBagLockSlots_v1.0)<br /><br /><br /><br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/ActivateBagLockSlots_v1.0)<br /><br /><br /><br /><br /><br /><br />
 
 MoreContainers v1.2 (Alpha 19)
 ------------------------------
