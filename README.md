@@ -48,7 +48,7 @@ SpartanBlocks v1.8 (Alpha 19)
 Add custom blocks and items for all the Grand Spartan's fans out there.<br />
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/SpartanBlocks_v1.8/SpartanBlocks_v1.8.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/SpartanBlocks_v1.8)<br /><br /><br /><br /><br /><br /><br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/SpartanBlocks_v1.8)<br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 Castle Spartan (on GitLab)
 --------------------------
