@@ -17,7 +17,7 @@ This is a very simple mod for Alpha 19 b177 and up that activate the **Locked Sl
 MoreContainers v1.2 (Alpha 19)
 ------------------------------
 
-<img align="left" width="30%" height="30%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/MoreContainers/MoreContainers.png" />Do you have friends that can't help themselves and store everything in a specific box for each type of items? I do. This mods add new graphic designs for the storage boxes and also add half-block versions of the storage boxes (for more headspace).
+<img align="left" width="30%" height="30%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/MoreContainers_v1.2/MoreContainers/MoreContainers.png" />Do you have friends that can't help themselves and store everything in a specific box for each type of items? I do. This mods add new graphic designs for the storage boxes and also add half-block versions of the storage boxes (for more headspace).
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreContainers_v1.2/MoreContainers_v1.2.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreContainers_v1.2)<br /><br /><br /><br /><br />
@@ -25,7 +25,7 @@ MoreContainers v1.2 (Alpha 19)
 MotorcycleAlterations v1.3 (Alpha 19)
 -------------------------------------
 
-<img align="left" width="50%" height="50%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/MotorcycleAlterations/MotorcycleAlterations.png" />
+<img align="left" width="50%" height="50%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/MotorcycleAlterations_v1.3/MotorcycleAlterations/MotorcycleAlterations.png" />
 During one of the FunPimps stream for Alpha 19, the motorcycle model was shown without the shield and spikes. I thought it looked cool. This mod allows you to select alterations to the base model. I've also added a taillight just because.<br /><br />
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/MotorcycleAlterations_v1.3/MotorcycleAlterations_v1.3.zip)<br />
@@ -44,7 +44,7 @@ Are you tired of driving the exact same Jeep as you friend? Do you want to pimp 
 SpartanBlocks v1.8 (Alpha 19)
 -----------------------------
 
-<img align="left" width="25%" height="25%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/SpartanBlocks/SpartanBlocks.jpg" />
+<img align="left" width="25%" height="25%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/SpartanBlocks_v1.8/SpartanBlocks/SpartanBlocks.jpg" />
 Add custom blocks and items for all the Grand Spartan's fans out there.<br />
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/SpartanBlocks_v1.8/SpartanBlocks_v1.8.zip)<br />
