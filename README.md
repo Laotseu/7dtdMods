@@ -7,7 +7,7 @@ Mods for the game 7 Days to Die
 ActivateBagLockSlots v1.0 (Alpha 19 b177+)
 ------------------------------------
 
-<img width="50%" height="50%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/ActivateBagLockSlots_v1.0/ActivateBagLockSlots/ActivateBagLockSlots.png" />
+<img align="left" width="40%" height="40%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/ActivateBagLockSlots_v1.0/ActivateBagLockSlots/ActivateBagLockSlots.png" />
 
 This is a very simple mod for Alpha 19 b177 and up that activate the **Locked Slots** control for the player's inventory.
 
