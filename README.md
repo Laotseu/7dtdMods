@@ -28,7 +28,7 @@ PaintJob v1.12 (Alpha 19)
 
 Are you tired of driving the exact same Jeep as you friend? Do you want to pimp your ride? PaintJob is for you! This mod add recipes that allow you to change the colour of your ride.<br />
 
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v1.12/PaintJob_v1.11.zip)<br />
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v1.12/PaintJob_v1.12.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PaintJob_v1.12)<br /><br /><br /><br /><br />
 
 SpartanBlocks v1.8 (Alpha 19)
