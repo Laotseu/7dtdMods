@@ -4,16 +4,6 @@ Mods for the game 7 Days to Die
 
 [Installation instructions](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)
 
-ActivateBagLockSlots v1.0 (Alpha 19 b177+)
-------------------------------------
-
-<img align="left" width="40%" height="40%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/ActivateBagLockSlots_v1.0/ActivateBagLockSlots/ActivateBagLockSlots.png" />
-
-This is a very simple mod for Alpha 19 b177 and up that activate the **Locked Slots** control for the player's inventory.
-
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/ActivateBagLockSlots_v1.0/ActivateBagLockSlots_v1.0.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/ActivateBagLockSlots_v1.0)<br /><br /><br /><br /><br /><br /><br />
-
 MoreContainers v1.2 (Alpha 19)
 ------------------------------
 
@@ -38,7 +28,7 @@ PaintJob v1.12 (Alpha 19)
 
 Are you tired of driving the exact same Jeep as you friend? Do you want to pimp your ride? PaintJob is for you! This mod add recipes that allow you to change the colour of your ride.<br />
 
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v1.12/PaintJob_v1.10.zip)<br />
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v1.12/PaintJob_v1.12.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PaintJob_v1.12)<br /><br /><br /><br /><br />
 
 SpartanBlocks v1.8 (Alpha 19)
@@ -49,6 +39,16 @@ Add custom blocks and items for all the Grand Spartan's fans out there.<br />
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/SpartanBlocks_v1.8/SpartanBlocks_v1.8.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/SpartanBlocks_v1.8)<br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+ActivateBagLockSlots v1.0 (Alpha 19 b177+)
+------------------------------------
+
+<img align="left" width="40%" height="40%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/ActivateBagLockSlots_v1.0/ActivateBagLockSlots/ActivateBagLockSlots.png" />
+
+This is a very simple mod for Alpha 19 b177 and up that activate the **Locked Slots** control for the player's inventory.
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/ActivateBagLockSlots_v1.0/ActivateBagLockSlots_v1.0.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/ActivateBagLockSlots_v1.0)<br /><br /><br /><br /><br /><br /><br />
 
 Castle Spartan (on GitLab)
 --------------------------
