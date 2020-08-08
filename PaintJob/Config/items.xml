@@ -461,6 +461,22 @@
 			</effect_group>
 		</item>
 
+		<item name="pjVehicleBicycleBlackPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="DescriptionKey" value="vehiclePlaceableBicycleDesc"/>
+
+			<property name="Meshfile" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_black"/>
+			<property name="EconomicValue" value="2500"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjVehicleBicycleBlack"/>
+			</property>
+			<effect_group name="pjVehicleBicycleBlackPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="1500"/>
+			</effect_group>
+		</item>
+
 		<item name="pjVehicleBicycleCyanPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
 			<property name="DescriptionKey" value="vehiclePlaceableBicycleDesc"/>

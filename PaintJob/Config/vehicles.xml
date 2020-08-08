@@ -3968,6 +3968,92 @@
 	</vehicle>
 	
 	<!-- Bicycles -->
+	<vehicle name="pjVehicleBicycleBlack">
+
+		<property name="cameraDistance" value="3, 4.5"/>
+		<property name="cameraTurnRate" value=".2, .35"/>
+		<property name="motorTorqueMinQ" value="1000"/>
+		<property name="motorTorqueMaxQ" value="1000"/>
+		<property name="brakeTorque" value="4000"/>
+		<property name="upAngleMax" value="70"/>
+		<property name="upForce" value="1"/>
+		<property name="steerAngleMax" value="28"/>
+		<property name="steerRate" value="130"/>
+		<property name="steerCenteringRate" value="90"/>
+		<property name="tiltAngleMax" value="20"/>
+		<property name="tiltThreshold" value="3"/>
+		<property name="tiltDampening" value=".22"/>
+		<property name="tiltDampenThreshold" value="8"/>
+		<property name="tiltUpForce" value="5"/>
+		<property name="hopForce" value="4, .05"/>
+		<property name="unstickForce" value=".2"/>
+		<property name="velocityMax" value="5, 10"/>
+		<property name="waterDrag_y_velScale_velMaxScale" value="1.7, .9, .2"/>
+		<property name="wheelPtlScale" value=".6"/>
+
+		<property name="hornSound" value="vehicle/minibike/minibike_horn"/>
+
+		<property class="chassis">
+			<property name="class" value="Chassis"/>
+			<property name="slot_type" value="chassis"/>
+			<property name="mesh" value="chassis"/>
+			<property name="transform" value="Origin"/>
+			<property name="paint" value="chassis"/>
+		</property>
+
+		<property class="handlebars">
+			<property name="class" value="Steering"/>
+			<property name="slot_type" value="handlebars"/>
+			<property name="mesh" value="handlebar"/>
+			<property name="transform" value="Origin/handlebar_joint"/>
+			<property name="IKHandLPosition" value="-.24, .284, -.129"/>
+			<property name="IKHandLRotation" value="-.8781128, -25.45557, -10.52621"/>
+			<property name="IKHandRPosition" value=".24, .284, -.129"/>
+			<property name="IKHandRRotation" value=".8781128, 25.45557, 10.52621"/>
+			<property name="paint" value="handlebar"/>
+		</property>
+
+		<property class="pedals">
+			<property name="class" value="Pedals"/>
+			<property name="slot_type" value="pedals"/>
+			<property name="transform" value="Origin/pedalJoint"/>
+			<property name="pedalLPosition" value="-.182, 0, -.217"/>
+			<property name="pedalRPosition" value=".182, 0, .217"/>
+			<property name="IKFootLPosition" value="0, .1, -.05"/>
+			<property name="IKFootLRotation" value="0, 0, 0"/>
+			<property name="IKFootRPosition" value="0, .1, -.05"/>
+			<property name="IKFootRRotation" value="0, 0, 0"/>
+			<property name="pedalSound" value="bicycle_pedal"/>
+			<property name="staminaDrain" value="0,0"/><!-- stamina drain walking/running. It now uses movement tags so regular passives apply -->
+		</property>
+
+		<property class="seat0">
+			<property name="position" value="0, .292, -.13"/>
+			<property name="rotation" value="0, 0, 0"/>
+			<property name="exit" value="-.8,0,0 ~ .8,0,0 ~ 0,0,-1.4 ~ 0,0,1.4 ~ 0,1.5,0"/>
+		</property>
+
+		<property class="wheel0">
+			<property name="steerTransform" value="Origin/handlebar_joint"/>
+			<property name="tireTransform" value="Origin/handlebar_joint/frontWheel_joint"/>
+			<property name="torqueScale_motor_brake" value=".15, .5"/>
+		</property>
+
+		<property class="wheel1">
+			<property name="tireTransform" value="Origin/backWheelJoint"/>
+			<property name="torqueScale_motor_brake" value="1, 1"/>
+		</property>
+
+		<property class="storage">
+			<property name="class" value="Storage"/>
+			<property name="display_name" value="basket"/>
+			<property name="slot_type" value="basket"/>
+			<property name="mesh" value="basket"/>
+			<property name="transform" value="basket"/>
+		</property>
+
+	</vehicle>
+
 	<vehicle name="pjVehicleBicycleBlue">
 
 		<property name="cameraDistance" value="3, 4.5"/>

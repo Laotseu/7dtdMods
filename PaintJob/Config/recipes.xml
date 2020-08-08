@@ -353,6 +353,11 @@
 		</recipe>
 
 		<recipe name="pjVehicleBicycleWhitePlaceable" count="1">
+			<ingredient name="pjVehicleBicycleBlackPlaceable" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="2"/>
+		</recipe>
+
+		<recipe name="pjVehicleBicycleWhitePlaceable" count="1">
 			<ingredient name="pjVehicleBicycleBluePlaceable" count="1"/>
 			<ingredient name="drinkJarGrainAlcohol" count="2"/>
 		</recipe>
@@ -379,6 +384,11 @@
 
 
 		<recipe name="vehicleBicyclePlaceable" count="1">
+			<ingredient name="pjVehicleBicycleWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+
+		<recipe name="pjVehicleBicycleBlackPlaceable" count="1">
 			<ingredient name="pjVehicleBicycleWhitePlaceable" count="1"/>
 			<ingredient name="resourcePaint" count="5"/>
 		</recipe>

@@ -30,6 +30,7 @@ pjVehicleMotorcycleBlackAndRedNoSpikePlaceable,blocks,Block,New,"Black and Red M
 pjVehicleMotorcycleBlackAndRedNoShieldPlaceable,blocks,Block,New,"Black and Red Motorcycle, shield removed"
 pjVehicleMotorcycleBlackAndRedNoHoodPlaceable,blocks,Block,New,"Black and Red Motorcycle, hood removed"
 
+pjVehicleBicycleBlackPlaceable,blocks,Block,New,"Bicycle, Black"
 pjVehicleBicycleBluePlaceable,blocks,Block,New,"Bicycle, Blue"
 pjVehicleBicycleCyanPlaceable,blocks,Block,New,"Bicycle, Cyan"
 pjVehicleBicycleGreenPlaceable,blocks,Block,New,"Bicycle, Green"

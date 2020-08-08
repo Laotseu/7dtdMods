@@ -160,6 +160,11 @@
 		
 
 		<!-- Bicycles -->
+		<entity_class name="pjVehicleBicycleBlack" extends="vehicleBicycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_black"/>
+		</entity_class>
+
 		<entity_class name="pjVehicleBicycleBlue" extends="vehicleBicycle">
 			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_blue"/>
