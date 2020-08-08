@@ -382,6 +382,67 @@
 		</item>
 
 
+		<item name="pjVehicleMotorcycleBlackAndRedPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_black_and_red"/>
+			<property name="EconomicValue" value="10000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjVehicleMotorcycleBlackAndRed"/>
+				<property name="VehicleSize" value="1.3, 1.9, 3"/>
+			</property>
+			<effect_group name="pjVehicleMotorcycleBlackAndRedPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="6000"/>
+			</effect_group>
+		</item>
+
+		<item name="pjVehicleMotorcycleBlackAndRedNoSpikePlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_black_and_red_nospike"/>
+			<property name="EconomicValue" value="10000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjVehicleMotorcycleBlackAndRedNoSpike"/>
+				<property name="VehicleSize" value="1.3, 1.9, 3"/>
+			</property>
+			<effect_group name="pjVehicleMotorcycleBlackAndRedNoSpikePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="6000"/>
+			</effect_group>
+		</item>
+
+		<item name="pjVehicleMotorcycleBlackAndRedNoShieldPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_black_and_red_noshield"/>
+			<property name="EconomicValue" value="10000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjVehicleMotorcycleBlackAndRedNoShield"/>
+				<property name="VehicleSize" value="1.3, 1.9, 3"/>
+			</property>
+			<effect_group name="pjVehicleMotorcycleBlackAndRedNoShieldPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="6000"/>
+			</effect_group>
+		</item>
+
+		<item name="pjVehicleMotorcycleBlackAndRedNoHoodPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_black_and_red_nohood"/>
+			<property name="EconomicValue" value="10000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjVehicleMotorcycleBlackAndRedNoHood"/>
+				<property name="VehicleSize" value="1.3, 1.9, 3"/>
+			</property>
+			<effect_group name="pjVehicleMotorcycleBlackAndRedNoHoodPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="6000"/>
+			</effect_group>
+		</item>
+
+
 
 		<!-- Bicycles -->
 		<item name="pjVehicleBicycleBluePlaceable">
@@ -483,7 +544,7 @@
 
 	</append>
 
-	<!-- Change the model for the standard Motorcycle (now with headlight and taillight) -->
+	<!-- Change the model for the standard Jeep (now with headlights, top lights and taillights) -->
 	<setattribute xpath="//item[@name='vehicle4x4TruckPlaceable']/property[@name='Meshfile']" name="value">#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_base</setattribute>
 
 </configs>
