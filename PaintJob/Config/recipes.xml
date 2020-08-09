@@ -346,6 +346,47 @@
 		</recipe>
 
 
+		<!-- Motorcycle variations (copied from MotorcycleVariations) -->
+		<recipe name="vehicleMotorcyclePlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleNoSpikePlaceable" count="1"/>
+		</recipe>
+		<recipe name="vehicleMotorcyclePlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleNoShieldPlaceable" count="1"/>
+		</recipe>
+		<recipe name="vehicleMotorcyclePlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleNoHoodPlaceable" count="1"/>
+		</recipe>
+
+		<recipe name="pjVehicleMotorcycleNoSpikePlaceable" count="1" >
+			<ingredient name="vehicleMotorcyclePlaceable" count="1"/>
+		</recipe>
+		<recipe name="pjVehicleMotorcycleNoSpikePlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleNoShieldPlaceable" count="1"/>
+		</recipe>
+		<recipe name="pjVehicleMotorcycleNoSpikePlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleNoHoodPlaceable" count="1"/>
+		</recipe>
+
+		<recipe name="pjVehicleMotorcycleNoShieldPlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleNoSpikePlaceable" count="1"/>
+		</recipe>
+		<recipe name="pjVehicleMotorcycleNoShieldPlaceable" count="1" >
+			<ingredient name="vehicleMotorcyclePlaceable" count="1"/>
+		</recipe>
+		<recipe name="pjVehicleMotorcycleNoShieldPlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleNoHoodPlaceable" count="1"/>
+		</recipe>
+
+		<recipe name="pjVehicleMotorcycleNoHoodPlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleNoSpikePlaceable" count="1"/>
+		</recipe>
+		<recipe name="pjVehicleMotorcycleNoHoodPlaceable" count="1" >
+			<ingredient name="pjVehicleMotorcycleNoShieldPlaceable" count="1"/>
+		</recipe>
+		<recipe name="pjVehicleMotorcycleNoHoodPlaceable" count="1" >
+			<ingredient name="vehicleMotorcyclePlaceable" count="1"/>
+		</recipe>
+
 		<!-- Bicycles -->
 		<recipe name="pjVehicleBicycleWhitePlaceable" count="1">
 			<ingredient name="vehicleBicyclePlaceable" count="1"/>
