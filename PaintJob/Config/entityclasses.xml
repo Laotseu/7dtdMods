@@ -217,6 +217,7 @@
 	<setattribute xpath="//entity_class[@name='vehicle4x4Truck']/property[@name='Prefab']" name="value">#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_base</setattribute>
 
 	<!-- Change the model for the standard Motorcycle (now with headlight and taillight) -->
-	<setattribute xpath="//entity_class[@name='vehicleMotorcycle']/property[@name='Prefab']" name="value">#@modfolder:Resources/pjJeeps.unity3d?Motorcycle_base</setattribute>
+	<setattribute xpath="//entity_class[@name='vehicleMotorcycle']/property[@name='Prefab']" name="value">#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base</setattribute>
+
 
 </configs>
