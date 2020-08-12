@@ -604,6 +604,24 @@
 		</item>
 
 
+
+		<!-- Minibikes -->
+<!-- 		<item name="pjVehicleMinibikeWhitePlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="DescriptionKey" value="vehiclePlaceableMinibikeDesc"/>
+
+			<property name="Meshfile" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_white"/>
+			<property name="EconomicValue" value="2500"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjVehicleMinibikeWhite"/>
+			</property>
+			<effect_group name="pjVehicleMinibikeWhitePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="1500"/>
+			</effect_group>
+		</item>
+ -->
 	</append>
 
 	<!-- Change the model for the standard Jeep (now with headlights, top lights and taillights) -->

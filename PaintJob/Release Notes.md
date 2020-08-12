@@ -7,6 +7,7 @@
 * 1.13: Back in Black
 	- Black and Red motorcycle
 	- Black bycicle	
+	- Integrated MotorcycleAlterations
 * 1.12: Bicycle and motorcycle
 	- Bicycles: white, blue, green, cyan, pink red, and the original yellow
 	- Motorcycles: red, white, green and gold, blue and original

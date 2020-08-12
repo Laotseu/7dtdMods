@@ -211,6 +211,12 @@
 			<property name="Prefab" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_white"/>
 		</entity_class>
 
+		<!-- Minibikes -->
+<!-- 		<entity_class name="pjVehicleMinibikeWhite" extends="vehicleMinibike">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?minibike_base_white"/>
+		</entity_class>
+ -->
 	</append>
 
 	<!-- Change the model for the standard 4X4 (now with headlights, top lights and taillights) -->

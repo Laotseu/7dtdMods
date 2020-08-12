@@ -42,6 +42,7 @@ pjVehicleBicyclePinkPlaceable,blocks,Block,New,"Bicycle, Pink"
 pjVehicleBicycleRedPlaceable,blocks,Block,New,"Bicycle, Red"
 pjVehicleBicycleWhitePlaceable,blocks,Block,New,"Scrubed Bicycle"
 
+pjVehicleMinibikeWhitePlaceable,blocks,Block,New,"Scrubed Minibike"
 
 
 pjVehicle4x4Patrol,blocks,Block,New,"4x4, Patrol Blue and Silver"
@@ -86,3 +87,5 @@ pjVehicleBicycleGreen,blocks,Block,New,"Bicycle, Green"
 pjVehicleBicyclePink,blocks,Block,New,"Bicycle, Pink"
 pjVehicleBicycleRed,blocks,Block,New,"Bicycle, Red"
 pjVehicleBicycleWhite,blocks,Block,New,"Scrubed Bicycle"
+
+pjVehicleMinibikeWhite,blocks,Block,New,"Scrubed Minibike"
