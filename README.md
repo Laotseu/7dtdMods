@@ -28,7 +28,7 @@ PaintJob v1.13 (Alpha 19)
 
 Are you tired of driving the exact same Jeep as you friend? Do you want to pimp your ride? PaintJob is for you! This mod add recipes that allow you to change the colour of your ride.<br />
 
-**Note: As of version 1.13, MotorcycleAlterations in integrated in PaintJob. I advise to uninstall MotorcycleAlterations if you use PaintJob.**
+**Note: As of version 1.13, MotorcycleAlterations is integrated into PaintJob. I advise to uninstall MotorcycleAlterations if you use PaintJob.**
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v1.13/PaintJob_v1.13.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PaintJob_v1.13)<br /><br /><br /><br /><br />
