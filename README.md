@@ -42,6 +42,14 @@ Add custom blocks and items for all the Grand Spartan's fans out there.<br />
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/SpartanBlocks_v1.8/SpartanBlocks_v1.8.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/SpartanBlocks_v1.8)<br /><br /><br /><br /><br /><br /><br /><br /><br />
 
+StorageSize v1.03 (Alpha 19)
+----------------------------
+
+All the storage containers that can be selected with the new crateble **Wooden Storage / Furniture** have the same number of container slots (8 x 9). The containers in questions are: Storage Box, Cabinet, Cupboard, Bookcase, Pillcase, Dresser, and Wooden Desk
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/StorageSize_v1.03/StorageSize_v1.03.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/StorageSize_v1.03)
+
 ActivateBagLockSlots v1.0 (Alpha 19 b177+)
 ------------------------------------
 
@@ -102,14 +110,6 @@ modlet that remove said profanity and nudity from the game.
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/PG13_v1.0/PG13_v1.0.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PG13_v1.0)<br /><br /><br /><br />
-
-StorageSize v1.03 (Alpha 18)
-----------------------------
-
-All the storage containers that can be selected with the new crateble **Wooden Storage / Furniture** have the same number of container slots (8 x 9). The containers in questions are: Storage Box, Cabinet, Cupboard, Bookcase, Pillcase, Dresser, and Wooden Desk
-
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/StorageSize_v1.03/StorageSize_v1.03.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/StorageSize_v1.03)
 
 Logan's Bar (Alpha 18)
 ----------------------
