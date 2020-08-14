@@ -1,5 +1,5 @@
-7dtdMods
-========
+Éric's 7 Days to Die Mods
+=========================
 Mods for the game 7 Days to Die
 
 [Installation instructions](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)
