@@ -15,7 +15,7 @@ MoreContainers v1.2 (Alpha 19)
 MotorcycleAlterations v1.3 (Alpha 19)
 -------------------------------------
 
-<img align="left" width="50%" height="50%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/MotorcycleAlterations_v1.3/MotorcycleAlterations/MotorcycleAlterations.png" />
+<img align="left" width="55%" height="55%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/MotorcycleAlterations_v1.3/MotorcycleAlterations/MotorcycleAlterations.png" />
 During one of the FunPimps stream for Alpha 19, the motorcycle model was shown without the shield and spikes. I thought it looked cool. This mod allows you to select alterations to the base model. I've also added a taillight just because.<br /><br />
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/MotorcycleAlterations_v1.3/MotorcycleAlterations_v1.3.zip)<br />
