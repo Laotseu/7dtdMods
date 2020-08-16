@@ -8,43 +8,36 @@
 		<!-- 4x4 -->
 		<recipe name="pjVehicle4x4TruckWhitePlaceable" count="1">
 			<ingredient name="vehicle4x4TruckPlaceable" count="1"/>
-			<ingredient name="resourceAcid" count="1"/>
 			<ingredient name="drinkJarGrainAlcohol" count="5"/>
 		</recipe>
 
 		<recipe name="pjVehicle4x4TruckWhitePlaceable" count="1">
 			<ingredient name="pjVehicle4x4TruckBluePlaceable" count="1"/>
-			<ingredient name="resourceAcid" count="1"/>
 			<ingredient name="drinkJarGrainAlcohol" count="5"/>
 		</recipe>
 	
 		<recipe name="pjVehicle4x4TruckWhitePlaceable" count="1">
 			<ingredient name="pjVehicle4x4TruckRedPlaceable" count="1"/>
-			<ingredient name="resourceAcid" count="1"/>
 			<ingredient name="drinkJarGrainAlcohol" count="5"/>
 		</recipe>
 
 		<recipe name="pjVehicle4x4TruckWhitePlaceable" count="1">
 			<ingredient name="pjVehicle4x4TruckSpartanPlaceable" count="1"/>
-			<ingredient name="resourceAcid" count="1"/>
 			<ingredient name="drinkJarGrainAlcohol" count="5"/>
 		</recipe>
 
 		<recipe name="pjVehicle4x4TruckWhitePlaceable" count="1">
 			<ingredient name="pjVehicle4x4TruckMissSpartanPlaceable" count="1"/>
-			<ingredient name="resourceAcid" count="1"/>
 			<ingredient name="drinkJarGrainAlcohol" count="5"/>
 		</recipe>
 
 		<recipe name="pjVehicle4x4TruckWhitePlaceable" count="1">
 			<ingredient name="pjVehicle4x4PatrolPlaceable" count="1"/>
-			<ingredient name="resourceAcid" count="1"/>
 			<ingredient name="drinkJarGrainAlcohol" count="5"/>
 		</recipe>
 
 		<recipe name="pjVehicle4x4TruckWhitePlaceable" count="1">
 			<ingredient name="pjVehicle4x4War3zUKPlaceable" count="1"/>
-			<ingredient name="resourceAcid" count="1"/>
 			<ingredient name="drinkJarGrainAlcohol" count="5"/>
 		</recipe>
 
@@ -89,31 +82,26 @@
 		<!-- Motorcycles, switching colours -->
 		<recipe name="pjVehicleMotorcycleWhitePlaceable" count="1">
 			<ingredient name="vehicleMotorcyclePlaceable" count="1"/>
-			<ingredient name="resourceAcid" count="1"/>
 			<ingredient name="drinkJarGrainAlcohol" count="5"/>
 		</recipe>
 
 		<recipe name="pjVehicleMotorcycleWhitePlaceable" count="1">
 			<ingredient name="pjVehicleMotorcycleRedPlaceable" count="1"/>
-			<ingredient name="resourceAcid" count="1"/>
 			<ingredient name="drinkJarGrainAlcohol" count="5"/>
 		</recipe>
 
 		<recipe name="pjVehicleMotorcycleWhitePlaceable" count="1">
 			<ingredient name="pjVehicleMotorcycleGreenAndGoldPlaceable" count="1"/>
-			<ingredient name="resourceAcid" count="1"/>
 			<ingredient name="drinkJarGrainAlcohol" count="5"/>
 		</recipe>
 
 		<recipe name="pjVehicleMotorcycleWhitePlaceable" count="1">
 			<ingredient name="pjVehicleMotorcycleBluePlaceable" count="1"/>
-			<ingredient name="resourceAcid" count="1"/>
 			<ingredient name="drinkJarGrainAlcohol" count="5"/>
 		</recipe>
 
 		<recipe name="pjVehicleMotorcycleWhitePlaceable" count="1">
 			<ingredient name="pjVehicleMotorcycleBlackAndRedPlaceable" count="1"/>
-			<ingredient name="resourceAcid" count="1"/>
 			<ingredient name="drinkJarGrainAlcohol" count="5"/>
 		</recipe>
 
