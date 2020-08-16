@@ -9,7 +9,7 @@
 * 1.14: Minibikes
 	- Minibikes available in orange (original colour), white, ..., and ...
 	- Remove acid from the recipes
-	- Cut down textures size from 4K and 2K down to 1K
+	- Cut down textures size from 2K down to 1K for everything but the Jeeps
 * 1.13: Back in Black
 	- Black and Red motorcycle
 	- Black bycicle	
