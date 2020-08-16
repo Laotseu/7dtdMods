@@ -1,9 +1,15 @@
 **PaintJob** Change the colour of FinPims vehicles.
 
-![PaintJob](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v1.13/PaintJob/PaintJob.png)
+![PaintJob](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v1.14/PaintJob/PaintJob.png)
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+**Note: As of version 1.13+, MotorcycleAlterations is integrated into PaintJob. I advise to uninstall MotorcycleAlterations if you use PaintJob.**
+
+* 1.14: Minibikes
+	- Minibikes available in orange (original colour), white, ..., and ...
+	- Remove acid from the recipes
+	- Cut down textures size from 4K and 2K down to 1K
 * 1.13: Back in Black
 	- Black and Red motorcycle
 	- Black bycicle	

@@ -212,11 +212,11 @@
 		</entity_class>
 
 		<!-- Minibikes -->
-<!-- 		<entity_class name="pjVehicleMinibikeWhite" extends="vehicleMinibike">
+		<entity_class name="pjVehicleMinibikeWhite" extends="vehicleMinibike">
 			<property name="Tags" value="vehicle"/>
-			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?minibike_base_white"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_white"/>
 		</entity_class>
- -->
+
 	</append>
 
 	<!-- Change the model for the standard 4X4 (now with headlights, top lights and taillights) -->
@@ -224,6 +224,9 @@
 
 	<!-- Change the model for the standard Motorcycle (now with headlight and taillight) -->
 	<setattribute xpath="//entity_class[@name='vehicleMotorcycle']/property[@name='Prefab']" name="value">#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base</setattribute>
+
+	<!-- Change the model for the standard Minibike -->
+	<setattribute xpath="//entity_class[@name='vehicleMinibike']/property[@name='Prefab']" name="value">#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base</setattribute>
 
 
 </configs>

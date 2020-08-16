@@ -606,28 +606,28 @@
 
 
 		<!-- Minibikes -->
-<!-- 		<item name="pjVehicleMinibikeWhitePlaceable">
+		<item name="pjVehicleMinibikeWhitePlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="DescriptionKey" value="vehiclePlaceableMinibikeDesc"/>
-
-			<property name="Meshfile" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_white"/>
-			<property name="EconomicValue" value="2500"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_white"/>
 			<property class="Action1">
 				<property name="Vehicle" value="pjVehicleMinibikeWhite"/>
 			</property>
 			<effect_group name="pjVehicleMinibikeWhitePlaceable" tiered="false">
 				<passive_effect name="ModSlots" operation="base_set" value="4"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="1500"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
 			</effect_group>
 		</item>
- -->
+
 	</append>
 
 	<!-- Change the model for the standard Jeep (now with headlights, top lights and taillights) -->
 	<setattribute xpath="//item[@name='vehicle4x4TruckPlaceable']/property[@name='Meshfile']" name="value">#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_base</setattribute>
 
-	<!-- Change the model for the standard Jeep (now with headlights, top lights and taillights) -->
+	<!-- Change the model for the standard Motorcycle (now with headlights and taillights) -->
 	<setattribute xpath="//item[@name='vehicleMotorcyclePlaceable']/property[@name='Meshfile']" name="value">#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base</setattribute>
+
+	<!-- Change the model for the standard Minibike  -->
+	<setattribute xpath="//item[@name='vehicleMinibikePlaceable']/property[@name='Meshfile']" name="value">#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base</setattribute>
 
 </configs>
