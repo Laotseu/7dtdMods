@@ -217,6 +217,41 @@
 			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_white"/>
 		</entity_class>
 
+		<entity_class name="pjVehicleMinibikeBlack" extends="vehicleMinibike">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_black"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMinibikeBlue" extends="vehicleMinibike">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_blue"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMinibikeGreen" extends="vehicleMinibike">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_green"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMinibikePink" extends="vehicleMinibike">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_pink"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMinibikeRed" extends="vehicleMinibike">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_red"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMinibikeTeal" extends="vehicleMinibike">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_teal"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMinibikeYellow" extends="vehicleMinibike">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_yellow"/>
+		</entity_class>
+
 	</append>
 
 	<!-- Change the model for the standard 4X4 (now with headlights, top lights and taillights) -->

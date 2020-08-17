@@ -619,6 +619,97 @@
 			</effect_group>
 		</item>
 
+		<item name="pjVehicleMinibikeBlackPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_black"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjVehicleMinibikeBlack"/>
+			</property>
+			<effect_group name="pjVehicleMinibikeBlackPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+			</effect_group>
+		</item>
+
+		<item name="pjVehicleMinibikeBluePlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_blue"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjVehicleMinibikeBlue"/>
+			</property>
+			<effect_group name="pjVehicleMinibikeBluePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+			</effect_group>
+		</item>
+
+		<item name="pjVehicleMinibikeGreenPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_green"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjVehicleMinibikeGreen"/>
+			</property>
+			<effect_group name="pjVehicleMinibikeGreenPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+			</effect_group>
+		</item>
+
+		<item name="pjVehicleMinibikePinkPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_pink"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjVehicleMinibikePink"/>
+			</property>
+			<effect_group name="pjVehicleMinibikePinkPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+			</effect_group>
+		</item>
+
+		<item name="pjVehicleMinibikeRedPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_red"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjVehicleMinibikeRed"/>
+			</property>
+			<effect_group name="pjVehicleMinibikeRedPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+			</effect_group>
+		</item>
+
+		<item name="pjVehicleMinibikeTealPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_teal"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjVehicleMinibikeTeal"/>
+			</property>
+			<effect_group name="pjVehicleMinibikeTealPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+			</effect_group>
+		</item>
+
+		<item name="pjVehicleMinibikeYellowPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_yellow"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjVehicleMinibikeYellow"/>
+			</property>
+			<effect_group name="pjVehicleMinibikeYellowPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+			</effect_group>
+		</item>
+
 	</append>
 
 	<!-- Change the model for the standard Jeep (now with headlights, top lights and taillights) -->
