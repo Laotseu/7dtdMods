@@ -452,5 +452,89 @@
 		</recipe>
 
 
+		<!-- Minibikes -->
+		<recipe name="pjVehicleMinibikeWhitePlaceable" count="1">
+			<ingredient name="vehicleMinibikePlaceable" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="2"/>
+		</recipe>
+
+		<recipe name="pjVehicleMinibikeWhitePlaceable" count="1">
+			<ingredient name="pjVehicleMinibikeBlackPlaceable" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="2"/>
+		</recipe>
+
+		<recipe name="pjVehicleMinibikeWhitePlaceable" count="1">
+			<ingredient name="pjVehicleMinibikeBluePlaceable" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="2"/>
+		</recipe>
+
+		<recipe name="pjVehicleMinibikeWhitePlaceable" count="1">
+			<ingredient name="pjVehicleMinibikeGreenPlaceable" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="2"/>
+		</recipe>
+
+		<recipe name="pjVehicleMinibikeWhitePlaceable" count="1">
+			<ingredient name="pjVehicleMinibikePinkPlaceable" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="2"/>
+		</recipe>
+
+		<recipe name="pjVehicleMinibikeWhitePlaceable" count="1">
+			<ingredient name="pjVehicleMinibikeRedPlaceable" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="2"/>
+		</recipe>
+
+		<recipe name="pjVehicleMinibikeWhitePlaceable" count="1">
+			<ingredient name="pjVehicleMinibikeTealPlaceable" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="2"/>
+		</recipe>
+
+		<recipe name="pjVehicleMinibikeWhitePlaceable" count="1">
+			<ingredient name="pjVehicleMinibikeYellowPlaceable" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="2"/>
+		</recipe>
+
+
+		<recipe name="vehicleMinibikePlaceable" count="1">
+			<ingredient name="pjVehicleMinibikeWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+
+		<recipe name="pjVehicleMinibikeBlackPlaceable" count="1">
+			<ingredient name="pjVehicleMinibikeWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+
+		<recipe name="pjVehicleMinibikeBluePlaceable" count="1">
+			<ingredient name="pjVehicleMinibikeWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+
+		<recipe name="pjVehicleMinibikeGreenPlaceable" count="1">
+			<ingredient name="pjVehicleMinibikeWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+
+		<recipe name="pjVehicleMinibikePinkPlaceable" count="1">
+			<ingredient name="pjVehicleMinibikeWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+
+		<recipe name="pjVehicleMinibikeRedPlaceable" count="1">
+			<ingredient name="pjVehicleMinibikeWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+
+		<recipe name="pjVehicleMinibikeTealPlaceable" count="1">
+			<ingredient name="pjVehicleMinibikeWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+
+		<recipe name="pjVehicleMinibikeYellowPlaceable" count="1">
+			<ingredient name="pjVehicleMinibikeWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe>
+
+
+
 	</append>
 </configs>

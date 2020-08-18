@@ -39,5 +39,7 @@
 	<!-- v1.13: Black motorcycle
 				Black bicycle
 				Integrated MotorcycleAlterations -->
-	<!-- v1.14: Minibikes -->
+	<!-- v1.14: Minibikes
+				Remove acid from recipes
+				Cut down textures size from 2K down to 1K for everything but the Jeeps -->
 </xml>
