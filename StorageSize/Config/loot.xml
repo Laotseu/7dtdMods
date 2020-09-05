@@ -1,11 +1,13 @@
 <storagesize>
 
-	<!-- Nightstands, dressers, and wooden desks -->
+    <!-- wallSafe / deskSafe -->
     <setattribute xpath="/lootcontainers/lootcontainer[@id='6']" name="size">8,9</setattribute>
     <!-- Cabinets and cupboards -->
     <setattribute xpath="/lootcontainers/lootcontainer[@id='17']" name="size">8,9</setattribute>
     <!-- military munitions ammo box -->
     <setattribute xpath="/lootcontainers/lootcontainer[@id='40']" name="size">8,9</setattribute>
+	<!-- Nightstands, dressers, and wooden desks -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='42']" name="size">8,9</setattribute>
     <!-- lockers -->
     <setattribute xpath="/lootcontainers/lootcontainer[@id='43']" name="size">8,9</setattribute>
     <!-- File Cabinets -->
@@ -14,7 +16,7 @@
     <setattribute xpath="/lootcontainers/lootcontainer[@id='49']" name="size">8,9</setattribute>
     <!-- Pillcases -->
     <setattribute xpath="/lootcontainers/lootcontainer[@id='51']" name="size">8,9</setattribute>
-    <!-- Desk and wall safes -->
+    <!-- stove/oven, cooking pots and pans rotten food -->
     <setattribute xpath="/lootcontainers/lootcontainer[@id='11']" name="size">8,9</setattribute>
 
  </storagesize>
