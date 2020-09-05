@@ -52,121 +52,28 @@
 			}
 		},
 		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/entityclasses.xml",
+			"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/Hizuti Mountains/serverconfig.xml",
 			"settings":
 			{
-				"buffer_size": 10709,
+				"buffer_size": 12526,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/items.xml",
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/vehicles.xml",
 			"settings":
 			{
-				"buffer_size": 32394,
+				"buffer_size": 28655,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/Ceruho Valley/serverconfig.xml",
+			"settings":
+			{
+				"buffer_size": 12501,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/Localization.txt",
-			"settings":
-			{
-				"buffer_size": 6283,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
-			"settings":
-			{
-				"buffer_size": 1637,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
-			"settings":
-			{
-				"buffer_size": 2450,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/X/Git Repo/Sycnex/Windows10Debloater/README.md",
-			"settings":
-			{
-				"buffer_size": 6350,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/X/Git Repo/7dtd-spantan-multiplayer-bundle/Release Notes-PaintJob.md",
-			"settings":
-			{
-				"buffer_size": 2450,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/X/Git Repo/7dtd-spantan-multiplayer-bundle/Mods/PaintJob/Config/entityclasses.xml",
-			"settings":
-			{
-				"buffer_size": 10709,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/recipes.xml",
-			"settings":
-			{
-				"buffer_size": 19448,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/vehicles.xml",
-			"settings":
-			{
-				"buffer_size": 201596,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Mono path[0] = 'C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Managed'\nMono config path = 'C:/Steam/steamapps/common/7 Days To Die/MonoBleedingEdge/etc'\nInitialize engine version: 2019.2.17f1 (8e603399ca02)\n[XR] Discovering subsystems at path C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/UnitySubsystems\nForcing GfxDevice: Direct3D 11\nGfxDevice: creating device client; threaded=1\nDirect3D:\n    Version:  Direct3D 11.0 [level 11.0]\n    Renderer: NVIDIA GeForce GTX 780 (ID=0x1004)\n    Vendor:   \n    VRAM:     3029 MB\n    Driver:   27.21.14.5148\nBegin MonoManager ReloadAssembly\n- Completed reload, in  1.286 seconds\n<RI> Initializing input.\n\n<RI> Input initialized.\n\n<RI> Initialized touch support.\n\nUnloadTime: 0.712300 ms\n2020-08-09T15:27:07 0.086 INF [Steamworks.NET] SteamAPI_Init() ok\n2020-08-09T15:27:07 0.278 INF Localization language: english\n2020-08-09T15:27:07 0.316 INF Texture quality is set to 0\n2020-08-09T15:27:07 0.316 INF Precaching...\n2020-08-09T15:27:07 0.322 INF Precaching file: 7DaysToDie_Data/resources.assets\n2020-08-09T15:27:07 0.436 INF [EAC] Initializing ...\n2020-08-09T15:27:07 0.445 INF [EAC] Initialized :: Easy Anti-Cheat successfully initialized\n2020-08-09T15:27:10 2.664 INF Precaching file: 7DaysToDie_Data/sharedassets1.assets\n2020-08-09T15:27:10 2.671 INF Precaching file: Data/Bundles/blocktextureatlases\n2020-08-09T15:27:12 4.818 INF Precaching file: Data/Bundles/terraintextures\n2020-08-09T15:27:14 6.489 INF Precaching done\n2020-08-09T15:27:15 7.658 INF Loading main scene\nUnloading 6 Unused Serialized files (Serialized files now loaded: 0)\nUnloadTime: 4.286800 ms\n2020-08-09T15:27:15 7.787 INF [GSM] Singleton Initialized...\n2020-08-09T15:27:15 7.805 INF Awake IsFocused: True\n2020-08-09T15:27:15 7.805 INF Awake\n2020-08-09T15:27:15 7.828 INF Version: Alpha 19 (b178) Compatibility Version: Alpha 19, Build: Windows 64 Bit\n2020-08-09T15:27:15 7.828 INF System information:\n2020-08-09T15:27:15 7.828 INF    OS: Windows 10  (10.0.0) 64bit\n2020-08-09T15:27:15 7.829 INF    CPU: Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz (cores: 8)\n2020-08-09T15:27:15 7.829 INF    RAM: 24523 MB\n2020-08-09T15:27:15 7.829 INF    GPU: NVIDIA GeForce GTX 780 (3029 MB)\n2020-08-09T15:27:15 7.829 INF    Graphics API: Direct3D 11.0 [level 11.0] (shader level 5.0)\n2020-08-09T15:27:15 7.830 INF Last played version: Alpha 19\n2020-08-09T15:27:15 7.831 INF Local UTC offset: -4 hours\n2020-08-09T15:27:15 7.850 INF Command line arguments: C:\\Steam\\steamapps\\common\\7 Days To Die\\7daystodie.exe -popupwindow -force-d3d11 -logfile C:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-08-09__15-26-23.txt -eac_executablename 7daystodie.exe\n2020-08-09T15:27:15 7.853 INF Not running in Big Picture Mode, no on-screen keyboard available\n2020-08-09T15:27:15 7.855 INF Starting PlayerInputManager...\nFallback handler could not load library C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Mono/XInputInterface32\nFallback handler could not load library C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Mono/XInputInterface32.dll\nFallback handler could not load library C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Mono/XInputInterface32\nFallback handler could not load library C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Mono/libXInputInterface32\nFallback handler could not load library C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Mono/libXInputInterface32.dll\nFallback handler could not load library C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Mono/libXInputInterface32\n2020-08-09T15:27:15 8.367 INF InControl (version 1.8.2 build 9357, native module = False, XInput = True)\n2020-08-09T15:27:15 8.390 INF Starting UserProfileManager...\n2020-08-09T15:27:16 8.556 INF Occlusion: Awake\n2020-08-09T15:27:16 8.571 INF ApplyAllOptions streaming budget 2726.1 MB\n2020-08-09T15:27:16 8.572 INF ApplyAllOptions current screen 2560 x 1080, 60hz, window 2560 x 1080, fullscreen True FullScreenWindow\n2020-08-09T15:27:16 8.572 INF Texture quality is set to 0\n2020-08-09T15:27:16 8.573 INF ApplyTextureFilter 0, AF Disable\n2020-08-09T15:27:16 8.580 INF ApplyTerrainOptions 2\n2020-08-09T15:27:16 8.917 INF [MODS] Start loading\n2020-08-09T15:27:16 8.924 INF [MODS] Trying to load from folder: ActivateBagLockSlots\n2020-08-09T15:27:16 8.974 INF [MODS] Loaded Mod: ActivateBagLockSlots (1.0)\n2020-08-09T15:27:16 8.975 INF [MODS] Trying to load from folder: Buggies\n2020-08-09T15:27:16 8.982 INF [MODS] Loaded Mod: Buggies (0.1-Experimental)\n2020-08-09T15:27:16 8.982 INF [MODS] Trying to load from folder: FunwithFlags\n2020-08-09T15:27:16 8.983 WRN [MODS] Folder FunwithFlags does not contain a ModInfo.xml, ignoring\n2020-08-09T15:27:16 8.983 WRN [MODS] Failed loading mod from folder: FunwithFlags\n2020-08-09T15:27:16 8.983 INF [MODS] Trying to load from folder: JeepAlterations\n2020-08-09T15:27:16 9.371 INF [MODS] Loaded Mod: JeepAlterations (0.1-Experimental)\n2020-08-09T15:27:16 9.371 INF [MODS] Trying to load from folder: KHA18-BackpackButtons\n2020-08-09T15:27:16 9.372 WRN [MODS] Folder KHA18-BackpackButtons does not contain a ModInfo.xml, ignoring\n2020-08-09T15:27:16 9.372 WRN [MODS] Failed loading mod from folder: KHA18-BackpackButtons\n2020-08-09T15:27:16 9.372 INF [MODS] Trying to load from folder: MoreContainers\n2020-08-09T15:27:16 9.393 INF [MODS] Loaded Mod: MoreContainers (1.2)\n2020-08-09T15:27:16 9.393 INF [MODS] Trying to load from folder: MotorcycleAlterations\n2020-08-09T15:27:16 9.414 INF [MODS] Loaded Mod: MotorcycleAlterations (1.3)\n2020-08-09T15:27:16 9.414 INF [MODS] Trying to load from folder: PaintJob\n2020-08-09T15:27:16 9.439 INF [MODS] Loaded Mod: PaintJob (1.12)\n2020-08-09T15:27:16 9.440 INF [MODS] Trying to load from folder: Riles-HUDPlus1.04\n2020-08-09T15:27:16 9.445 INF [MODS] Loaded Mod: Riles-HUDPlus (1.04)\n2020-08-09T15:27:16 9.445 INF [MODS] Trying to load from folder: SpartanBlocks\n2020-08-09T15:27:16 9.462 INF [MODS] Loaded Mod: SpartanBlocks (1.8)\n2020-08-09T15:27:16 9.462 INF [MODS] Trying to load from folder: StorageSize\n2020-08-09T15:27:17 9.469 INF [MODS] Loaded Mod: StorageSize (1.03)\n2020-08-09T15:27:17 9.469 INF [MODS] Initializing mod code\n2020-08-09T15:27:17 9.469 INF [MODS] Loading done\n2020-08-09T15:27:17 9.522 INF Pack 6712 us\n2020-08-09T15:27:17 9.599 INF Pack 5410 us\n2020-08-09T15:27:17 9.911 INF Pack 32270 us\n2020-08-09T15:27:17 9.980 INF Pack 7804 us\n2020-08-09T15:27:18 10.697 INF Pack 50195 us\n2020-08-09T15:27:18 11.264 INF Pack 35419 us\n2020-08-09T15:27:18 11.274 INF [MODS] Loading localization from mod: Buggies\n2020-08-09T15:27:18 11.281 INF [MODS] Loading localization from mod: JeepAlterations\n2020-08-09T15:27:18 11.286 INF [MODS] Loading localization from mod: MoreContainers\n2020-08-09T15:27:18 11.293 INF [MODS] Loading localization from mod: MotorcycleAlterations\n2020-08-09T15:27:18 11.298 INF [MODS] Loading localization from mod: PaintJob\n2020-08-09T15:27:18 11.305 INF [MODS] Loading localization from mod: SpartanBlocks\n2020-08-09T15:27:18 11.330 INF Loading permissions file at 'C:\\Users\\Eric\\AppData\\Roaming/7DaysToDie/Saves/serveradmin.xml'\n2020-08-09T15:27:18 11.352 INF Loading permissions file done.\n2020-08-09T15:27:19 11.468 INF Awake done in 3663 ms\nFallback handler could not load library C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Mono/libc\nFallback handler could not load library C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Mono/libc.dll\nFallback handler could not load library C:/Steam/steamapps/common/7 Days To Die/7daystodie_Data/Mono/libc\n\nUnloading 129 unused Assets to reduce memory usage. Loaded Objects now: 4236.\nTotal: 34.246200 ms (FindLiveObjects: 0.509800 ms CreateObjectMapping: 0.118700 ms MarkObjects: 33.376100 ms  DeleteObjects: 0.240900 ms)\n\n2020-08-09T15:27:19 11.952 INF User joined: eric.beaudoin\n2020-08-09T15:27:19 12.080 INF Reloading serveradmin.xml\n2020-08-09T15:27:19 12.081 INF Loading permissions file at 'C:\\Users\\Eric\\AppData\\Roaming/7DaysToDie/Saves/serveradmin.xml'\n2020-08-09T15:27:19 12.084 INF Loading permissions file done.\n2020-08-09T15:27:19 12.328 INF Updated culture for display texts\n2020-08-09T15:27:20 13.341 INF UMA Overlay loading took 737 ms\n2020-08-09T15:27:20 13.345 INF UMA Slot loading took 3 ms\n2020-08-09T15:27:21 14.074 INF [GSM] GameSparks Connected\n2020-08-09T15:27:23 15.495 INF LoadTextureArraysForQuality quality -1 to 0, reload False\n2020-08-09T15:27:25 17.655 INF [GSM] Skipping me\n2020-08-09T15:27:25 17.740 INF WorldStaticData.Init() needed 4.168s\n2020-08-09T15:27:28 20.739 INF [Steamworks.NET] Login ok.\n2020-08-09T15:27:28 20.978 INF AchievementManager: Received stats and achievements from Steam\n2020-08-09T15:27:51 44.103 INF NET: Starting server protocols\n2020-08-09T15:27:51 44.128 INF NET: LiteNetLib server started\n2020-08-09T15:27:51 44.132 INF [Steamworks.NET] NET: Server started\n2020-08-09T15:27:51 44.133 INF Started thread SteamNetworkingServer\n2020-08-09T15:27:51 44.135 INF StartGame\n2020-08-09T15:27:51 44.396 INF Persistent GamePrefs saved\nGamePref.AdminFileName = serveradmin.xml\nGamePref.AirDropFrequency = 72\nGamePref.AirDropMarker = True\nGamePref.AutopilotMode = 0\nGamePref.BedrollDeadZoneSize = 15\nGamePref.BedrollExpiryTime = 45\nGamePref.BlockDamageAI = 100\nGamePref.BlockDamageAIBM = 100\nGamePref.BlockDamagePlayer = 100\nGamePref.BloodMoonEnemyCount = 8\nGamePref.BloodMoonFrequency = 7\nGamePref.BloodMoonRange = 0\nGamePref.BloodMoonWarning = 8\nGamePref.BuildCreate = True\nGamePref.ConnectToServerIP = 172.96.164.114\nGamePref.ConnectToServerPort = 17410\nGamePref.ControlPanelEnabled = False\nGamePref.ControlPanelPort = 8080\nGamePref.CraftTimer = \nGamePref.CreateLevelDim = 8\nGamePref.CreateLevelName = Granite\nGamePref.CreativeMenuEnabled = False\nGamePref.DayCount = 3\nGamePref.DayLightLength = 18\nGamePref.DayNightLength = 60\nGamePref.DebugMenuEnabled = False\nGamePref.DebugMenuShowTasks = False\nGamePref.DebugStopEnemiesMoving = False\nGamePref.DropOnDeath = 0\nGamePref.DropOnQuit = 0\nGamePref.DynamicSpawner = \nGamePref.EACEnabled = False\nGamePref.EnemyDifficulty = 0\nGamePref.EnemySpawnMode = False\nGamePref.FavoriteServersList = \nGamePref.FragLimit = 20\nGamePref.GameDifficulty = 1\nGamePref.GameGuidClient = \nGamePref.GameMode = GameModeSurvival\nGamePref.GameName = Alpha 19 b173\nGamePref.GameNameClient = My Game\nGamePref.GameVersion = Alpha 19\nGamePref.GameWorld = Ceruho Valley\nGamePref.HideCommandExecutionLog = 0\nGamePref.JoiningOptions = True\nGamePref.LandClaimCount = 1\nGamePref.LandClaimDeadZone = 30\nGamePref.LandClaimDecayMode = 0\nGamePref.LandClaimExpiryTime = 3\nGamePref.LandClaimOfflineDelay = 0\nGamePref.LandClaimOfflineDurabilityModifier = 4\nGamePref.LandClaimOnlineDurabilityModifier = 4\nGamePref.LandClaimSize = 71\nGamePref.LastGameResetRevision = 13\nGamePref.LastLoadedPrefab = A002_carlot_01\nGamePref.LastLoadedPrefabSize = 42,18,57\nGamePref.LastLoadingTipRead = 18\nGamePref.LootAbundance = 100\nGamePref.LootRespawnDays = 5\nGamePref.LootTimer = \nGamePref.MatchLength = 10\nGamePref.MaxSpawnedAnimals = 50\nGamePref.MaxSpawnedZombies = 60\nGamePref.MaxUncoveredMapChunksPerPlayer = 524288\nGamePref.NoGraphicsMode = False\nGamePref.OptionsAllowController = True\nGamePref.OptionsAmbientVolumeLevel = 1\nGamePref.OptionsAudioOcclusion = False\nGamePref.OptionsBackgroundGlobalOpacity = 0.75\nGamePref.OptionsControllerVibration = True\nGamePref.OptionsDisableChunkLODs = False\nGamePref.OptionsDynamicMusicDailyTime = 0.3\nGamePref.OptionsDynamicMusicEnabled = True\nGamePref.OptionsForegroundGlobalOpacity = 1\nGamePref.OptionsGfxAA = 1\nGamePref.OptionsGfxBloom = True\nGamePref.OptionsGfxBrightness = 0.5\nGamePref.OptionsGfxDOF = False\nGamePref.OptionsGfxDynamicMinFPS = 30\nGamePref.OptionsGfxDynamicMode = 0\nGamePref.OptionsGfxDynamicScale = 1\nGamePref.OptionsGfxFOV = 65\nGamePref.OptionsGfxGrassDistance = 2\nGamePref.OptionsGfxLODDistance = 0.5\nGamePref.OptionsGfxMotionBlur = 1\nGamePref.OptionsGfxObjQuality = 2\nGamePref.OptionsGfxOcclusion = True\nGamePref.OptionsGfxQualityPreset = 5\nGamePref.OptionsGfxReflectQuality = 1\nGamePref.OptionsGfxReflectShadows = False\nGamePref.OptionsGfxResetRevision = 1\nGamePref.OptionsGfxResolution = 0\nGamePref.OptionsGfxShadowDistance = 1\nGamePref.OptionsGfxSSAO = True\nGamePref.OptionsGfxSSReflections = 1\nGamePref.OptionsGfxStreamMipmaps = True\nGamePref.OptionsGfxSunShafts = True\nGamePref.OptionsGfxTerrainQuality = 2\nGamePref.OptionsGfxTexFilter = 1\nGamePref.OptionsGfxTexQuality = 0\nGamePref.OptionsGfxTreeDistance = 4\nGamePref.OptionsGfxUMATexQuality = 1\nGamePref.OptionsGfxViewDistance = 6\nGamePref.OptionsGfxVsync = 1\nGamePref.OptionsGfxWaterPtlLimiter = 0.5\nGamePref.OptionsGfxWaterQuality = 1\nGamePref.OptionsHudOpacity = 1\nGamePref.OptionsHudSize = 1\nGamePref.OptionsInterfaceSensitivity = 0.75\nGamePref.OptionsInvertMouse = False\nGamePref.OptionsJournalPopup = False\nGamePref.OptionsMenuMusicVolumeLevel = 0\nGamePref.OptionsMicVolumeLevel = 0.75\nGamePref.OptionsMouseSensitivity = 0.5\nGamePref.OptionsMusicVolumeLevel = 0.8034483\nGamePref.OptionsOverallAudioVolumeLevel = 0.5732759\nGamePref.OptionsPlayChanceFrequency = 3\nGamePref.OptionsPlayChanceProbability = 0.983\nGamePref.OptionsPlayerModel = playerMale\nGamePref.OptionsPlayerModelTexture = Player/Male/Player_male\nGamePref.OptionsPOICulling = 1\nGamePref.OptionsScreenBoundsValue = 1\nGamePref.OptionsShowCompass = True\nGamePref.OptionsShowCrosshair = True\nGamePref.OptionsStabSpawnBlocksOnGround = True\nGamePref.OptionsTempCelsius = True\nGamePref.OptionsUiFpsScaling = 1\nGamePref.OptionsVoiceChatEnabled = False\nGamePref.OptionsVoiceVolumeLevel = 0.25\nGamePref.OptionsZoomMouseSensitivity = 0.5\nGamePref.PartySharedKillRange = 10000\nGamePref.PersistentPlayerProfiles = False\nGamePref.PlayerAutologin = False\nGamePref.PlayerId = 76561198075495830\nGamePref.PlayerKillingMode = 0\nGamePref.PlayerName = eric.beaudoin\nGamePref.PlayerSafeZoneHours = 7\nGamePref.PlayerSafeZoneLevel = 5\nGamePref.PlayerToken = \nGamePref.RebuildMap = False\nGamePref.SaveGameFolder = C:\\Users\\Eric\\AppData\\Roaming/7DaysToDie/Saves\nGamePref.SelectionContextMode = 0\nGamePref.SelectionOperationMode = 0\nGamePref.ServerAdminSlots = 0\nGamePref.ServerAdminSlotsPermission = 0\nGamePref.ServerDescription = \nGamePref.ServerDisabledNetworkProtocols = \nGamePref.ServerIP = \nGamePref.ServerIsPublic = True\nGamePref.ServerLoginConfirmationText = \nGamePref.ServerMaxAllowedViewDistance = 12\nGamePref.ServerMaxPlayerCount = 8\nGamePref.ServerMaxWorldTransferSpeedKiBs = 512\nGamePref.ServerName = Default Server\nGamePref.ServerPort = 26900\nGamePref.ServerReservedSlots = 0\nGamePref.ServerReservedSlotsPermission = 100\nGamePref.ServerVisibility = 1\nGamePref.ServerWebsiteURL = \nGamePref.ShowFriendPlayerOnMap = True\nGamePref.TelnetEnabled = False\nGamePref.TelnetFailedLoginLimit = 10\nGamePref.TelnetFailedLoginsBlocktime = 10\nGamePref.TelnetPort = 25003\nGamePref.TerminalWindowEnabled = True\nGamePref.UNUSED_OptionsBloom = \nGamePref.UNUSED_OptionsDeferredLighting = \nGamePref.UNUSED_OptionsDOF = \nGamePref.UNUSED_OptionsFieldOfViewNew = \nGamePref.UNUSED_OptionsGamma = \nGamePref.UNUSED_OptionsImageEffects = \nGamePref.UNUSED_OptionsMotionBlur = \nGamePref.UNUSED_OptionsObjectBlur = \nGamePref.UNUSED_OptionsReflectionBounces = \nGamePref.UNUSED_OptionsReflectionCullList = \nGamePref.UNUSED_OptionsReflectionFarClip = \nGamePref.UNUSED_OptionsReflectionRefreshMode = \nGamePref.UNUSED_OptionsReflectionShadowDistance = \nGamePref.UNUSED_OptionsReflectionTimeSlicingMode = \nGamePref.UNUSED_OptionsSSAO = \nGamePref.UNUSED_OptionsStreamingMipmapsBudget = \nGamePref.UNUSED_OptionsSunShafts = \nGamePref.UserDataFolder = C:\\Users\\Eric\\AppData\\Roaming/7DaysToDie\nGamePref.WorldGenSeed = \nGamePref.WorldGenSize = 8192\nGamePref.XPMultiplier = 100\nGamePref.ZombieBMMove = 3\nGamePref.ZombieFeralMove = 3\nGamePref.ZombieMove = 0\nGamePref.ZombieMoveNight = 1\nGamePref.ZombiePlayers = True\nGameStat.AirDropFrequency = 0\nGameStat.AirDropMarker = False\nGameStat.AllowedViewDistance = 12\nGameStat.AnimalCount = 0\nGameStat.AutoParty = False\nGameStat.BedrollExpiryTime = 45\nGameStat.BlockDamagePlayer = 100\nGameStat.BloodMoonDay = 0\nGameStat.BloodMoonEnemyCount = 8\nGameStat.BloodMoonWarning = 8\nGameStat.ChunkStabilityEnabled = True\nGameStat.CraftTimer = \nGameStat.CurrentRoundIx = 0\nGameStat.DayLightLength = 18\nGameStat.DayLimitActive = False\nGameStat.DayLimitThisRound = 0\nGameStat.DropOnDeath = 1\nGameStat.DropOnQuit = 0\nGameStat.EnemyCount = 0\nGameStat.EnemyDifficulty = Normal\nGameStat.EnemySpawnMode = True\nGameStat.FragLimitActive = False\nGameStat.FragLimitThisRound = 0\nGameStat.GameDifficulty = 2\nGameStat.GameDifficultyBonus = 1\nGameStat.GameModeId = 0\nGameStat.GameState = 0\nGameStat.GlobalMessageToShow = \nGameStat.IsCreativeMenuEnabled = False\nGameStat.IsFlyingEnabled = False\nGameStat.IsPlayerCollisionEnabled = True\nGameStat.IsPlayerDamageEnabled = True\nGameStat.IsResetMapOnRestart = False\nGameStat.IsSaveSupplyCrates = True\nGameStat.IsSpawnEnemies = True\nGameStat.IsSpawnNearOtherPlayer = False\nGameStat.IsTeleportEnabled = False\nGameStat.IsVersionCheckDone = True\nGameStat.LandClaimCount = 1\nGameStat.LandClaimDeadZone = 30\nGameStat.LandClaimDecayMode = 0\nGameStat.LandClaimExpiryTime = 3\nGameStat.LandClaimOfflineDelay = 0\nGameStat.LandClaimOfflineDurabilityModifier = 32\nGameStat.LandClaimOnlineDurabilityModifier = 32\nGameStat.LandClaimSize = 41\nGameStat.LoadScene = \nGameStat.LootTimer = \nGameStat.OptionsPOICulling = 0\nGameStat.PartySharedKillRange = 100\nGameStat.PlayerKillingMode = KillStrangersOnly\nGameStat.ScoreDiedMultiplier = -5\nGameStat.ScorePlayerKillMultiplier = 1\nGameStat.ScoreZombieKillMultiplier = 1\nGameStat.ShowAllPlayersOnMap = False\nGameStat.ShowFriendPlayerOnMap = True\nGameStat.ShowSpawnWindow = False\nGameStat.ShowWindow = \nGameStat.ShowZombieCounter = False\nGameStat.TimeLimitActive = False\nGameStat.TimeLimitThisRound = 0\nGameStat.TimeOfDayIncPerSec = 20\nGameStat.XPMultiplier = 100\nGameStat.ZombieHordeMeter = False\n2020-08-09T15:27:52 44.506 INF StartAsServer\nWARNING: Shader Unsupported: 'Hidden/Nature/Terrain/Utilities' - All passes removed\nWARNING: Shader Did you use #pragma only_renderers and omit this platform?\nERROR: Shader Shader is not supported on this GPU (none of subshaders/fallbacks are suitable)WARNING: Shader Unsupported: 'Hidden/Nature/Terrain/Utilities' - Setting to default shader.\n2020-08-09T15:27:52 45.256 INF Set Microsplat diffuse: MicroSplatConfig_diff_tarray (UnityEngine.Texture2DArray)\n2020-08-09T15:27:52 45.256 INF Set Microsplat normals: MicroSplatConfig_normal_tarray (UnityEngine.Texture2DArray)\n2020-08-09T15:27:52 45.256 INF Set Microsplat smooth:  MicroSplatConfig_smoothAO_tarray (UnityEngine.Texture2DArray)\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader\nWARNING: Shader Unsupported: 'DoubleSided/Standard/Autodesk Interactive DS' - Pass 'FORWARD' has no vertex shader\nWARNING: Shader Unsupported: 'DoubleSided/Standard/Autodesk Interactive DS' - Pass 'FORWARD_DELTA' has no vertex shader\nWARNING: Shader Unsupported: 'DoubleSided/Standard/Autodesk Interactive DS' - Pass 'ShadowCaster' has no vertex shader\n2020-08-09T15:28:00 53.123 INF Block IDs with mapping\n2020-08-09T15:28:00 53.124 INF BlockIDs from Mapping\n2020-08-09T15:28:10 63.170 INF Item IDs with mapping\n2020-08-09T15:28:10 63.171 INF ItemIDs from Mapping\nWARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader\nWARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader\nWARNING: Shader Unsupported: 'Hidden/PostProcessing/FinalPass' - Pass '' has no vertex shader\nWARNING: Shader Unsupported: 'Hidden/PostProcessing/FinalPass' - Pass '' has no vertex shader\n2020-08-09T15:28:12 65.406 ERR XML loader: Loading and parsing 'vehicles.xml' failed\n2020-08-09T15:28:12 65.407 EXC An item with the same key has already been added. Key: mavehiclemotorcyclenospike\nArgumentException: An item with the same key has already been added. Key: mavehiclemotorcyclenospike\n  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x000c1] in <567df3e0919241ba98db88bec4c6696f>:0 \n  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <567df3e0919241ba98db88bec4c6696f>:0 \n  at VehiclesFromXml+<Load>d__0.MoveNext () [0x00121] in <6c00870cd0b54988b32262174c97f3cf>:0 \n  at ThreadManager+<CoroutineWrapperWithExceptionCallback>d__40.MoveNext () [0x00044] in <6c00870cd0b54988b32262174c97f3cf>:0 \nUnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)\nUnityEngine.DebugLogHandler:LogException(Exception, Object)\nUnityEngine.Logger:LogException(Exception, Object)\nUnityEngine.Debug:LogException(Exception)\nLogger:masterLogException(Exception)\nLogger:Exception(Exception)\nLog:Exception(Exception)\n<>c__DisplayClass50_0:<loadSingleXml>b__2(Exception)\n<CoroutineWrapperWithExceptionCallback>d__40:MoveNext()\nUnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)\n \n(Filename: <567df3e0919241ba98db88bec4c6696f> Line: 0)\n\n2020-08-09T15:28:21 74.401 INF createWorld: Ceruho Valley, Alpha 19 b173, GameModeSurvival\n2020-08-09T15:28:21 74.403 INF Occlusion: Enabled\n2020-08-09T15:28:21 74.451 INF Started thread ChunkRegeneration\n2020-08-09T15:28:21 74.451 INF Started thread ChunkCalc\n2020-08-09T15:28:22 74.690 INF World.Load: Ceruho Valley\n2020-08-09T15:28:22 74.712 INF BloodMoon SetDay: day 7, last day 0, freq 7, range 0\n2020-08-09T15:28:22 75.270 INF ShapeControllers: 64\n2020-08-09T15:28:35 88.144 INF Started thread GenerateChunks\n2020-08-09T15:28:38 90.504 INF Calculating world hashes took 2318 ms (world size 800 MiB)\n2020-08-09T15:28:38 91.247 INF Loading dtm raw file took 3077ms\n2020-08-09T15:28:39 92.107 INF Biomes image size w= 8192, h = 8192\n2020-08-09T15:28:40 93.249 INF Loading and creating biomes took 2001ms\n2020-08-09T15:28:46 98.950 INF Loading and creating shader control textures took 5700ms\n2020-08-09T15:28:54 107.019 INF Loading and parsing of generator took 8068ms\n2020-08-09T15:28:54 107.205 INF Started thread SaveChunks C:\\Users\\Eric\\AppData\\Roaming/7DaysToDie/Saves/Ceruho Valley/Alpha 19 b173\\Region\n2020-08-09T15:28:57 109.845 INF [DECO] read 133042/\n2020-08-09T15:28:57 109.927 INF Loading asset at #Sounds/Music?HomeDay.wav...\n2020-08-09T15:28:57 109.928 INF Loading asset at #Sounds/Music?HomeNight.wav...\n2020-08-09T15:28:57 109.928 INF Loading asset at #Sounds/Music?TraderBob.wav...\n2020-08-09T15:28:57 109.928 INF Loading asset at #Sounds/Music?TraderHugh.wav...\n2020-08-09T15:28:57 109.928 INF Loading asset at #Sounds/Music?TraderJen.wav...\n2020-08-09T15:28:57 109.928 INF Loading asset at #Sounds/Music?TraderJoel.wav...\n2020-08-09T15:28:57 109.929 INF Loading asset at #Sounds/Music?TraderRekt.wav...\n2020-08-09T15:28:59 111.489 INF AstarManager Init\n2020-08-09T15:29:08 120.538 INF Finished loading HomeDay.\n2020-08-09T15:29:08 120.538 INF Casted asset HomeDay as AudioClip.\n2020-08-09T15:29:08 120.538 INF Finished loading HomeNight.\n2020-08-09T15:29:08 120.538 INF Casted asset HomeNight as AudioClip.\n2020-08-09T15:29:08 120.538 INF Finished loading TraderBob.\n2020-08-09T15:29:08 120.538 INF Casted asset TraderBob as AudioClip.\n2020-08-09T15:29:08 120.539 INF Finished loading TraderHugh.\n2020-08-09T15:29:08 120.539 INF Casted asset TraderHugh as AudioClip.\n2020-08-09T15:29:08 120.539 INF Finished loading TraderJen.\n2020-08-09T15:29:08 120.539 INF Casted asset TraderJen as AudioClip.\n2020-08-09T15:29:08 120.539 INF Finished loading TraderJoel.\n2020-08-09T15:29:08 120.539 INF Casted asset TraderJoel as AudioClip.\n2020-08-09T15:29:08 120.539 INF Finished loading TraderRekt.\n2020-08-09T15:29:08 120.539 INF Casted asset TraderRekt as AudioClip.\n2020-08-09T15:29:08 120.838 INF Weather Packages Created FROM BIOMES\n2020-08-09T15:29:08 120.839 INF createWorld() done\n2020-08-09T15:29:08 120.842 INF Loading players.xml\n2020-08-09T15:29:08 121.171 INF Created player with id=171\n2020-08-09T15:29:08 121.264 INF Loaded player\n2020-08-09T15:29:09 121.631 INF VehicleManager C:\\Users\\Eric\\AppData\\Roaming/7DaysToDie/Saves/Ceruho Valley/Alpha 19 b173/vehicles.dat, loaded 19\n2020-08-09T15:29:09 121.812 INF Setting for 'DropOnDeath' does not match the default (server will go to the modded category): current = 0, default = 1\n2020-08-09T15:29:09 121.812 INF Setting for 'EnemySpawnMode' does not match the default (server will go to the modded category): current = False, default = True\n2020-08-09T15:29:09 121.812 INF Setting for 'LootRespawnDays' does not match the default (server will go to the modded category): current = 5, default = 30\n2020-08-09T15:29:09 121.812 INF Setting for 'BuildCreate' does not match the default (server will go to the modded category): current = True, default = False\nCalling Animator.GotoState on Synchronize layer\n \n(Filename: C:\\buildslave\\unity\\build\\Modules/Animation/Director/AnimatorControllerPlayable.cpp Line: 1370)\n\n2020-08-09T15:29:09 122.433 INF Origin Reposition (0.0, 0.0, 0.0) to (528.0, 64.0, 1328.0)\n2020-08-09T15:29:10 122.613 INF [DECO] written 0\n2020-08-09T15:29:12 124.703 INF OpenSpawnWindow\n2020-08-09T15:29:13 126.096 INF StartGame done\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader\n2020-08-09T15:29:13 126.245 ERR Vehicle properties for 'pjvehiclebicyclewhite' not found!\n2020-08-09T15:29:13 126.251 ERR Vehicle properties for 'pjvehiclebicycleblack' not found!\n2020-08-09T15:29:13 126.281 ERR Vehicle properties for 'pjvehiclebicyclered' not found!\n2020-08-09T15:29:13 126.307 ERR Vehicle properties for 'pjvehiclebicyclecyan' not found!\n2020-08-09T15:29:13 126.312 ERR Vehicle properties for 'pjvehiclebicycleblue' not found!\n2020-08-09T15:29:13 126.316 ERR Vehicle properties for 'pjvehiclebicyclepink' not found!\n2020-08-09T15:29:13 126.320 ERR Vehicle properties for 'pjvehiclebicyclegreen' not found!\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader\nWARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader\n2020-08-09T15:29:14 126.496 INF [Steamworks.NET] GameServer.Init successful\n2020-08-09T15:29:14 127.105 INF [Steamworks.NET] GameServer.LogOn successful, SteamID=90137793908056071, public IP=9*.2*.12*.14*\n2020-08-09T15:29:14 127.125 INF [Steamworks.NET] Trying to create Lobby (visibility: k_ELobbyTypeFriendsOnly)\n2020-08-09T15:29:14 127.378 INF [Steamworks.NET] Lobby creation succeeded, LobbyID=109775240999128001, server SteamID=90137793908056071, server public IP=9*.2*.12*.14*, server port=26900\n2020-08-09T15:29:14 127.387 INF [Steamworks.NET] Lobby entered: 109775240999128001\n2020-08-09T15:29:16 128.468 INF Respawn almost done\n2020-08-09T15:29:16 128.480 INF PlayerSpawnedInWorld (reason: LoadedGame, position: 541, 75, 1337): localplayer\nCalling Animator.GotoState on Synchronize layer\n \n(Filename: C:\\buildslave\\unity\\build\\Modules/Animation/Director/AnimatorControllerPlayable.cpp Line: 1370)\n\n2020-08-09T15:29:43 155.901 INF Time: 1.96m FPS: 37.23 Heap: 1880.4MB Max: 1880.4MB Chunks: 225 CGO: 160 Ply: 1 Zom: 0 Ent: 20 (20) Items: 0 CO: 1 RSS: 8351.9MB\n2020-08-09T15:30:13 185.896 INF Time: 2.46m FPS: 37.79 Heap: 1917.2MB Max: 1917.2MB Chunks: 225 CGO: 160 Ply: 1 Zom: 0 Ent: 20 (20) Items: 0 CO: 1 RSS: 8237.8MB\n2020-08-09T15:30:16 189.015 INF Preparing quit\n2020-08-09T15:30:16 189.015 INF Disconnect\n2020-08-09T15:30:16 189.024 INF [NET] ServerShutdown\n2020-08-09T15:30:16 189.024 INF NET: Stopping server protocols\n2020-08-09T15:30:16 189.049 INF NET: LiteNetLib server stopped\n2020-08-09T15:30:16 189.051 INF Exited thread SteamNetworkingServer\n2020-08-09T15:30:16 189.052 INF [Steamworks.NET] NET: Server stopped\n2020-08-09T15:30:16 189.055 INF SaveAndCleanupWorld\n2020-08-09T15:30:16 189.252 INF Saving 89 of chunks took 104ms\n2020-08-09T15:30:16 189.269 INF [Steamworks.NET] Stopping server\n2020-08-09T15:30:16 189.304 INF [Steamworks.NET] Exiting Lobby\n2020-08-09T15:30:17 189.567 INF [MODS] Loading localization from mod: Buggies\n2020-08-09T15:30:17 189.579 INF [MODS] Loading localization from mod: JeepAlterations\n2020-08-09T15:30:17 189.593 INF [MODS] Loading localization from mod: MoreContainers\n2020-08-09T15:30:17 189.620 INF [MODS] Loading localization from mod: MotorcycleAlterations\n2020-08-09T15:30:17 189.633 INF [MODS] Loading localization from mod: PaintJob\n2020-08-09T15:30:17 189.671 INF [MODS] Loading localization from mod: SpartanBlocks\n2020-08-09T15:30:17 189.704 INF AstarManager Cleanup\n2020-08-09T15:30:17 189.709 INF World.Unload\n2020-08-09T15:30:17 189.748 INF Exited thread GenerateChunks\n2020-08-09T15:30:17 189.829 INF Exited thread SaveChunks C:\\Users\\Eric\\AppData\\Roaming/7DaysToDie/Saves/Ceruho Valley/Alpha 19 b173\\Region\n2020-08-09T15:30:17 190.243 INF World.Cleanup\n2020-08-09T15:30:17 190.248 INF Exited thread ChunkRegeneration\n2020-08-09T15:30:17 190.254 INF Exited thread ChunkCalc\n2020-08-09T15:30:17 190.259 INF VehicleManager saving 19 (0 / 19)\n2020-08-09T15:30:18 190.571 INF Persistent GamePrefs saved\n2020-08-09T15:30:18 190.945 INF Persistent GamePrefs saved\n2020-08-09T15:30:18 190.952 INF Cleanup\n2020-08-09T15:30:18 190.996 INF AchievementManager.Cleanup\n2020-08-09T15:30:18 191.150 INF [GSM] GameSparks Disconnected\n2020-08-09T15:30:18 191.157 INF Terminating threads\n2020-08-09T15:30:18 191.157 INF OnApplicationQuit\n2020-08-09T15:30:18 191.159 INF Terminating threads\n2020-08-09T15:30:18 191.159 INF OnApplicationQuit\n2020-08-09T15:30:19 191.498 INF Terminating threads\n2020-08-09T15:30:19 191.498 INF OnApplicationQuit\n2020-08-09T15:30:19 191.500 INF Terminating threads\n2020-08-09T15:30:19 191.500 INF OnApplicationQuit\nSetting up 4 worker threads for Enlighten.\n  Thread -> id: 8bc -> priority: 1 \n  Thread -> id: 5bb0 -> priority: 1 \n  Thread -> id: 5ac0 -> priority: 1 \n  Thread -> id: 46d8 -> priority: 1 \n",
-			"file": "/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-08-09__15-26-23.txt",
-			"file_size": 31204,
-			"file_write_time": 132414750195484038,
-			"settings":
-			{
-				"buffer_size": 30651,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Searching 808 files for \"pjvehiclebicyclewhite\" (case sensitive)\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-08-09__15-08-54.txt:\n  496  2020-08-09T15:12:20 158.026 ERR Vehicle properties for 'pjvehiclebicyclered' not found!\n  497  2020-08-09T15:12:20 158.067 ERR Vehicle properties for 'pjvehiclebicycleblack' not found!\n  498: 2020-08-09T15:12:20 158.071 ERR Vehicle properties for 'pjvehiclebicyclewhite' not found!\n  499  WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD' has no vertex shader\n  500  WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-08-09__15-26-23.txt:\n  489  WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader\n  490  WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader\n  491: 2020-08-09T15:29:13 126.245 ERR Vehicle properties for 'pjvehiclebicyclewhite' not found!\n  492  2020-08-09T15:29:13 126.251 ERR Vehicle properties for 'pjvehiclebicycleblack' not found!\n  493  2020-08-09T15:29:13 126.281 ERR Vehicle properties for 'pjvehiclebicyclered' not found!\n\n2 matches across 2 files\n\n\nSearching 808 files for \"pjvehiclebicyclewhite\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-08-08__18-12-07.txt:\n  818  2020-08-08T18:17:03 252.608 INF 7633 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.8, -11.8) out of world\n  819  2020-08-08T18:17:03 252.608 INF 7633 Vehicle vehicleBicycle_227 (5.3, 7.8, -21.0) out of world\n  820: 2020-08-08T18:17:03 252.608 INF 7633 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.8, -21.9) out of world\n  821  2020-08-08T18:17:03 252.608 INF 7633 Vehicle pjVehicleBicycleRed_225 (5.3, 7.8, -23.0) out of world\n  822  2020-08-08T18:17:03 252.608 INF 7633 Vehicle pjVehicleBicyclePink_224 (5.1, 7.8, -24.0) out of world\n  ...\n  838  2020-08-08T18:17:03 252.612 INF 7633 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.8, -11.8) out of world\n  839  2020-08-08T18:17:03 252.612 INF 7633 Vehicle vehicleBicycle_227 (5.3, 7.8, -21.0) out of world\n  840: 2020-08-08T18:17:03 252.612 INF 7633 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.8, -21.9) out of world\n  841  2020-08-08T18:17:03 252.612 INF 7633 Vehicle pjVehicleBicycleRed_225 (5.3, 7.8, -23.0) out of world\n  842  2020-08-08T18:17:03 252.612 INF 7633 Vehicle pjVehicleBicyclePink_224 (5.1, 7.8, -24.0) out of world\n  ...\n  858  2020-08-08T18:17:03 252.615 INF 7633 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.8, -11.8) out of world\n  859  2020-08-08T18:17:03 252.615 INF 7633 Vehicle vehicleBicycle_227 (5.3, 7.8, -21.0) out of world\n  860: 2020-08-08T18:17:03 252.615 INF 7633 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.8, -21.9) out of world\n  861  2020-08-08T18:17:03 252.615 INF 7633 Vehicle pjVehicleBicycleRed_225 (5.3, 7.8, -23.0) out of world\n  862  2020-08-08T18:17:03 252.615 INF 7633 Vehicle pjVehicleBicyclePink_224 (5.1, 7.8, -24.0) out of world\n  ...\n  878  2020-08-08T18:17:03 252.618 INF 7633 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.8, -11.8) out of world\n  879  2020-08-08T18:17:03 252.618 INF 7633 Vehicle vehicleBicycle_227 (5.3, 7.8, -21.0) out of world\n  880: 2020-08-08T18:17:03 252.618 INF 7633 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.8, -21.9) out of world\n  881  2020-08-08T18:17:03 252.618 INF 7633 Vehicle pjVehicleBicycleRed_225 (5.3, 7.8, -23.0) out of world\n  882  2020-08-08T18:17:03 252.619 INF 7633 Vehicle pjVehicleBicyclePink_224 (5.1, 7.8, -24.0) out of world\n  ...\n  898  2020-08-08T18:17:03 252.621 INF 7633 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.8, -11.8) out of world\n  899  2020-08-08T18:17:03 252.621 INF 7633 Vehicle vehicleBicycle_227 (5.3, 7.8, -21.0) out of world\n  900: 2020-08-08T18:17:03 252.621 INF 7633 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.8, -21.9) out of world\n  901  2020-08-08T18:17:03 252.622 INF 7633 Vehicle pjVehicleBicycleRed_225 (5.3, 7.8, -23.0) out of world\n  902  2020-08-08T18:17:03 252.622 INF 7633 Vehicle pjVehicleBicyclePink_224 (5.1, 7.8, -24.0) out of world\n  ...\n  918  2020-08-08T18:17:03 252.624 INF 7633 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.8, -11.8) out of world\n  919  2020-08-08T18:17:03 252.624 INF 7633 Vehicle vehicleBicycle_227 (5.3, 7.7, -21.0) out of world\n  920: 2020-08-08T18:17:03 252.624 INF 7633 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.7, -21.9) out of world\n  921  2020-08-08T18:17:03 252.625 INF 7633 Vehicle pjVehicleBicycleRed_225 (5.3, 7.7, -23.0) out of world\n  922  2020-08-08T18:17:03 252.625 INF 7633 Vehicle pjVehicleBicyclePink_224 (5.1, 7.7, -24.0) out of world\n  ...\n  938  2020-08-08T18:17:03 252.627 INF 7633 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.7, -11.8) out of world\n  939  2020-08-08T18:17:03 252.627 INF 7633 Vehicle vehicleBicycle_227 (5.3, 7.7, -21.0) out of world\n  940: 2020-08-08T18:17:03 252.627 INF 7633 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.7, -21.9) out of world\n  941  2020-08-08T18:17:03 252.628 INF 7633 Vehicle pjVehicleBicycleRed_225 (5.3, 7.7, -23.0) out of world\n  942  2020-08-08T18:17:03 252.628 INF 7633 Vehicle pjVehicleBicyclePink_224 (5.1, 7.7, -24.0) out of world\n  ...\n  958  2020-08-08T18:17:03 252.630 INF 7633 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.7, -11.8) out of world\n  959  2020-08-08T18:17:03 252.630 INF 7633 Vehicle vehicleBicycle_227 (5.3, 7.7, -21.0) out of world\n  960: 2020-08-08T18:17:03 252.630 INF 7633 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.7, -21.9) out of world\n  961  2020-08-08T18:17:03 252.631 INF 7633 Vehicle pjVehicleBicycleRed_225 (5.3, 7.7, -23.0) out of world\n  962  2020-08-08T18:17:03 252.631 INF 7633 Vehicle pjVehicleBicyclePink_224 (5.1, 7.7, -24.0) out of world\n  ...\n  978  2020-08-08T18:17:03 252.633 INF 7633 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.7, -11.8) out of world\n  979  2020-08-08T18:17:03 252.633 INF 7633 Vehicle vehicleBicycle_227 (5.3, 7.7, -21.0) out of world\n  980: 2020-08-08T18:17:03 252.633 INF 7633 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.7, -21.9) out of world\n  981  2020-08-08T18:17:03 252.634 INF 7633 Vehicle pjVehicleBicycleRed_225 (5.3, 7.7, -23.0) out of world\n  982  2020-08-08T18:17:03 252.634 INF 7633 Vehicle pjVehicleBicyclePink_224 (5.1, 7.7, -24.0) out of world\n  ...\n  998  2020-08-08T18:17:03 252.636 INF 7633 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.6, -11.8) out of world\n  999  2020-08-08T18:17:03 252.636 INF 7633 Vehicle vehicleBicycle_227 (5.3, 7.6, -21.0) out of world\n 1000: 2020-08-08T18:17:03 252.637 INF 7633 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.6, -21.9) out of world\n 1001  2020-08-08T18:17:03 252.637 INF 7633 Vehicle pjVehicleBicycleRed_225 (5.3, 7.6, -23.0) out of world\n 1002  2020-08-08T18:17:03 252.637 INF 7633 Vehicle pjVehicleBicyclePink_224 (5.1, 7.6, -24.0) out of world\n ....\n 1018  2020-08-08T18:17:03 252.640 INF 7633 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.6, -11.8) out of world\n 1019  2020-08-08T18:17:03 252.640 INF 7633 Vehicle vehicleBicycle_227 (5.3, 7.6, -21.0) out of world\n 1020: 2020-08-08T18:17:03 252.640 INF 7633 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.6, -21.9) out of world\n 1021  2020-08-08T18:17:03 252.640 INF 7633 Vehicle pjVehicleBicycleRed_225 (5.3, 7.6, -23.0) out of world\n 1022  2020-08-08T18:17:03 252.640 INF 7633 Vehicle pjVehicleBicyclePink_224 (5.1, 7.6, -24.0) out of world\n ....\n 1038  2020-08-08T18:17:03 252.643 INF 7633 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.6, -11.8) out of world\n 1039  2020-08-08T18:17:03 252.643 INF 7633 Vehicle vehicleBicycle_227 (5.3, 7.6, -21.0) out of world\n 1040: 2020-08-08T18:17:03 252.643 INF 7633 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.6, -21.9) out of world\n 1041  2020-08-08T18:17:03 252.643 INF 7633 Vehicle pjVehicleBicycleRed_225 (5.3, 7.6, -23.0) out of world\n 1042  2020-08-08T18:17:03 252.643 INF 7633 Vehicle pjVehicleBicyclePink_224 (5.1, 7.6, -24.0) out of world\n ....\n 1058  2020-08-08T18:17:03 252.646 INF 7633 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.5, -11.8) out of world\n 1059  2020-08-08T18:17:03 252.646 INF 7633 Vehicle vehicleBicycle_227 (5.3, 7.5, -21.0) out of world\n 1060: 2020-08-08T18:17:03 252.646 INF 7633 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.5, -21.9) out of world\n 1061  2020-08-08T18:17:03 252.646 INF 7633 Vehicle pjVehicleBicycleRed_225 (5.3, 7.5, -23.0) out of world\n 1062  2020-08-08T18:17:03 252.646 INF 7633 Vehicle pjVehicleBicyclePink_224 (5.1, 7.5, -24.0) out of world\n ....\n 1078  2020-08-08T18:17:03 252.650 INF 7633 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.5, -11.8) out of world\n 1079  2020-08-08T18:17:03 252.650 INF 7633 Vehicle vehicleBicycle_227 (5.3, 7.5, -21.0) out of world\n 1080: 2020-08-08T18:17:03 252.650 INF 7633 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.5, -21.9) out of world\n 1081  2020-08-08T18:17:03 252.650 INF 7633 Vehicle pjVehicleBicycleRed_225 (5.3, 7.5, -23.0) out of world\n 1082  2020-08-08T18:17:03 252.650 INF 7633 Vehicle pjVehicleBicyclePink_224 (5.1, 7.5, -24.0) out of world\n ....\n 1098  2020-08-08T18:17:03 252.654 INF 7633 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.4, -11.8) out of world\n 1099  2020-08-08T18:17:03 252.654 INF 7633 Vehicle vehicleBicycle_227 (5.3, 7.4, -21.0) out of world\n 1100: 2020-08-08T18:17:03 252.654 INF 7633 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.4, -21.9) out of world\n 1101  2020-08-08T18:17:03 252.654 INF 7633 Vehicle pjVehicleBicycleRed_225 (5.3, 7.4, -23.0) out of world\n 1102  2020-08-08T18:17:03 252.654 INF 7633 Vehicle pjVehicleBicyclePink_224 (5.1, 7.4, -24.0) out of world\n ....\n 1118  2020-08-08T18:17:03 252.657 INF 7633 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.4, -11.8) out of world\n 1119  2020-08-08T18:17:03 252.657 INF 7633 Vehicle vehicleBicycle_227 (5.3, 7.4, -21.0) out of world\n 1120: 2020-08-08T18:17:03 252.657 INF 7633 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.4, -21.9) out of world\n 1121  2020-08-08T18:17:03 252.657 INF 7633 Vehicle pjVehicleBicycleRed_225 (5.3, 7.4, -23.0) out of world\n 1122  2020-08-08T18:17:03 252.658 INF 7633 Vehicle pjVehicleBicyclePink_224 (5.1, 7.4, -24.0) out of world\n ....\n 1139  2020-08-08T18:17:03 252.687 INF 7634 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.3, -11.8) out of world\n 1140  2020-08-08T18:17:03 252.687 INF 7634 Vehicle vehicleBicycle_227 (5.3, 7.3, -21.0) out of world\n 1141: 2020-08-08T18:17:03 252.687 INF 7634 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.3, -21.9) out of world\n 1142  2020-08-08T18:17:03 252.687 INF 7634 Vehicle pjVehicleBicycleRed_225 (5.3, 7.3, -23.0) out of world\n 1143  2020-08-08T18:17:03 252.687 INF 7634 Vehicle pjVehicleBicyclePink_224 (5.1, 7.3, -24.0) out of world\n ....\n 1159  2020-08-08T18:17:03 252.690 INF 7634 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.3, -11.8) out of world\n 1160  2020-08-08T18:17:03 252.690 INF 7634 Vehicle vehicleBicycle_227 (5.3, 7.3, -21.0) out of world\n 1161: 2020-08-08T18:17:03 252.690 INF 7634 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.3, -21.9) out of world\n 1162  2020-08-08T18:17:03 252.690 INF 7634 Vehicle pjVehicleBicycleRed_225 (5.3, 7.3, -23.0) out of world\n 1163  2020-08-08T18:17:03 252.690 INF 7634 Vehicle pjVehicleBicyclePink_224 (5.1, 7.3, -24.0) out of world\n ....\n 1179  2020-08-08T18:17:03 252.693 INF 7634 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.2, -11.8) out of world\n 1180  2020-08-08T18:17:03 252.693 INF 7634 Vehicle vehicleBicycle_227 (5.3, 7.2, -21.0) out of world\n 1181: 2020-08-08T18:17:03 252.693 INF 7634 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.2, -21.9) out of world\n 1182  2020-08-08T18:17:03 252.693 INF 7634 Vehicle pjVehicleBicycleRed_225 (5.3, 7.2, -23.0) out of world\n 1183  2020-08-08T18:17:03 252.693 INF 7634 Vehicle pjVehicleBicyclePink_224 (5.1, 7.2, -24.0) out of world\n ....\n 1199  2020-08-08T18:17:03 252.696 INF 7634 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.1, -11.8) out of world\n 1200  2020-08-08T18:17:03 252.696 INF 7634 Vehicle vehicleBicycle_227 (5.3, 7.1, -21.0) out of world\n 1201: 2020-08-08T18:17:03 252.696 INF 7634 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.1, -21.9) out of world\n 1202  2020-08-08T18:17:03 252.697 INF 7634 Vehicle pjVehicleBicycleRed_225 (5.3, 7.1, -23.0) out of world\n 1203  2020-08-08T18:17:03 252.697 INF 7634 Vehicle pjVehicleBicyclePink_224 (5.1, 7.1, -24.0) out of world\n ....\n 1219  2020-08-08T18:17:03 252.715 INF 7635 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.1, -11.8) out of world\n 1220  2020-08-08T18:17:03 252.715 INF 7635 Vehicle vehicleBicycle_227 (5.3, 7.1, -21.0) out of world\n 1221: 2020-08-08T18:17:03 252.715 INF 7635 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.1, -21.9) out of world\n 1222  2020-08-08T18:17:03 252.715 INF 7635 Vehicle pjVehicleBicycleRed_225 (5.3, 7.1, -23.0) out of world\n 1223  2020-08-08T18:17:03 252.715 INF 7635 Vehicle pjVehicleBicyclePink_224 (5.1, 7.1, -24.0) out of world\n ....\n 1239  2020-08-08T18:17:03 252.719 INF 7635 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 8.0, -11.8) out of world\n 1240  2020-08-08T18:17:03 252.719 INF 7635 Vehicle vehicleBicycle_227 (5.3, 7.0, -21.0) out of world\n 1241: 2020-08-08T18:17:03 252.719 INF 7635 Vehicle pjVehicleBicycleWhite_226 (5.3, 7.0, -21.9) out of world\n 1242  2020-08-08T18:17:03 252.719 INF 7635 Vehicle pjVehicleBicycleRed_225 (5.3, 7.0, -23.0) out of world\n 1243  2020-08-08T18:17:03 252.719 INF 7635 Vehicle pjVehicleBicyclePink_224 (5.1, 7.0, -24.0) out of world\n ....\n 1259  2020-08-08T18:17:03 252.737 INF 7636 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 7.9, -11.8) out of world\n 1260  2020-08-08T18:17:03 252.737 INF 7636 Vehicle vehicleBicycle_227 (5.3, 6.9, -21.0) out of world\n 1261: 2020-08-08T18:17:03 252.737 INF 7636 Vehicle pjVehicleBicycleWhite_226 (5.3, 6.9, -21.9) out of world\n 1262  2020-08-08T18:17:03 252.737 INF 7636 Vehicle pjVehicleBicycleRed_225 (5.3, 6.9, -23.0) out of world\n 1263  2020-08-08T18:17:03 252.738 INF 7636 Vehicle pjVehicleBicyclePink_224 (5.1, 6.9, -24.0) out of world\n ....\n 1279  2020-08-08T18:17:03 252.756 INF 7637 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 7.8, -11.8) out of world\n 1280  2020-08-08T18:17:03 252.756 INF 7637 Vehicle vehicleBicycle_227 (5.3, 6.8, -21.0) out of world\n 1281: 2020-08-08T18:17:03 252.756 INF 7637 Vehicle pjVehicleBicycleWhite_226 (5.3, 6.8, -21.9) out of world\n 1282  2020-08-08T18:17:03 252.757 INF 7637 Vehicle pjVehicleBicycleRed_225 (5.3, 6.8, -23.0) out of world\n 1283  2020-08-08T18:17:03 252.757 INF 7637 Vehicle pjVehicleBicyclePink_224 (5.1, 6.8, -24.0) out of world\n ....\n 1299  2020-08-08T18:17:03 252.778 INF 7638 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 7.7, -11.8) out of world\n 1300  2020-08-08T18:17:03 252.778 INF 7638 Vehicle vehicleBicycle_227 (5.3, 6.7, -21.0) out of world\n 1301: 2020-08-08T18:17:03 252.778 INF 7638 Vehicle pjVehicleBicycleWhite_226 (5.3, 6.7, -21.9) out of world\n 1302  2020-08-08T18:17:03 252.778 INF 7638 Vehicle pjVehicleBicycleRed_225 (5.3, 6.7, -23.0) out of world\n 1303  2020-08-08T18:17:03 252.778 INF 7638 Vehicle pjVehicleBicyclePink_224 (5.1, 6.7, -24.0) out of world\n ....\n 1319  2020-08-08T18:17:04 252.798 INF 7639 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 7.7, -11.8) out of world\n 1320  2020-08-08T18:17:04 252.798 INF 7639 Vehicle vehicleBicycle_227 (5.3, 6.6, -21.0) out of world\n 1321: 2020-08-08T18:17:04 252.798 INF 7639 Vehicle pjVehicleBicycleWhite_226 (5.3, 6.6, -21.9) out of world\n 1322  2020-08-08T18:17:04 252.799 INF 7639 Vehicle pjVehicleBicycleRed_225 (5.3, 6.6, -23.0) out of world\n 1323  2020-08-08T18:17:04 252.799 INF 7639 Vehicle pjVehicleBicyclePink_224 (5.1, 6.6, -24.0) out of world\n ....\n 1339  2020-08-08T18:17:04 252.818 INF 7640 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 7.6, -11.8) out of world\n 1340  2020-08-08T18:17:04 252.818 INF 7640 Vehicle vehicleBicycle_227 (5.3, 6.6, -21.0) out of world\n 1341: 2020-08-08T18:17:04 252.818 INF 7640 Vehicle pjVehicleBicycleWhite_226 (5.3, 6.6, -21.9) out of world\n 1342  2020-08-08T18:17:04 252.818 INF 7640 Vehicle pjVehicleBicycleRed_225 (5.3, 6.6, -23.0) out of world\n 1343  2020-08-08T18:17:04 252.818 INF 7640 Vehicle pjVehicleBicyclePink_224 (5.1, 6.6, -24.0) out of world\n ....\n 1359  2020-08-08T18:17:04 252.838 INF 7641 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 7.5, -11.8) out of world\n 1360  2020-08-08T18:17:04 252.838 INF 7641 Vehicle vehicleBicycle_227 (5.3, 6.5, -21.0) out of world\n 1361: 2020-08-08T18:17:04 252.838 INF 7641 Vehicle pjVehicleBicycleWhite_226 (5.3, 6.5, -21.9) out of world\n 1362  2020-08-08T18:17:04 252.838 INF 7641 Vehicle pjVehicleBicycleRed_225 (5.3, 6.5, -23.0) out of world\n 1363  2020-08-08T18:17:04 252.838 INF 7641 Vehicle pjVehicleBicyclePink_224 (5.1, 6.5, -24.0) out of world\n ....\n 1379  2020-08-08T18:17:04 252.854 INF 7642 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 7.4, -11.8) out of world\n 1380  2020-08-08T18:17:04 252.854 INF 7642 Vehicle vehicleBicycle_227 (5.3, 6.4, -21.0) out of world\n 1381: 2020-08-08T18:17:04 252.854 INF 7642 Vehicle pjVehicleBicycleWhite_226 (5.3, 6.4, -21.9) out of world\n 1382  2020-08-08T18:17:04 252.855 INF 7642 Vehicle pjVehicleBicycleRed_225 (5.3, 6.4, -23.0) out of world\n 1383  2020-08-08T18:17:04 252.855 INF 7642 Vehicle pjVehicleBicyclePink_224 (5.1, 6.4, -24.0) out of world\n ....\n 1399  2020-08-08T18:17:04 252.881 INF 7644 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 7.3, -11.8) out of world\n 1400  2020-08-08T18:17:04 252.881 INF 7644 Vehicle vehicleBicycle_227 (5.3, 6.3, -21.0) out of world\n 1401: 2020-08-08T18:17:04 252.881 INF 7644 Vehicle pjVehicleBicycleWhite_226 (5.3, 6.3, -21.9) out of world\n 1402  2020-08-08T18:17:04 252.881 INF 7644 Vehicle pjVehicleBicycleRed_225 (5.3, 6.3, -23.0) out of world\n 1403  2020-08-08T18:17:04 252.881 INF 7644 Vehicle pjVehicleBicyclePink_224 (5.1, 6.3, -24.0) out of world\n ....\n 1419  2020-08-08T18:17:04 252.898 INF 7645 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 7.2, -11.8) out of world\n 1420  2020-08-08T18:17:04 252.898 INF 7645 Vehicle vehicleBicycle_227 (5.3, 6.2, -21.0) out of world\n 1421: 2020-08-08T18:17:04 252.898 INF 7645 Vehicle pjVehicleBicycleWhite_226 (5.3, 6.2, -21.9) out of world\n 1422  2020-08-08T18:17:04 252.898 INF 7645 Vehicle pjVehicleBicycleRed_225 (5.3, 6.2, -23.0) out of world\n 1423  2020-08-08T18:17:04 252.898 INF 7645 Vehicle pjVehicleBicyclePink_224 (5.1, 6.2, -24.0) out of world\n ....\n 1439  2020-08-08T18:17:04 252.913 INF 7646 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 7.1, -11.8) out of world\n 1440  2020-08-08T18:17:04 252.913 INF 7646 Vehicle vehicleBicycle_227 (5.3, 6.1, -21.0) out of world\n 1441: 2020-08-08T18:17:04 252.913 INF 7646 Vehicle pjVehicleBicycleWhite_226 (5.3, 6.1, -21.9) out of world\n 1442  2020-08-08T18:17:04 252.913 INF 7646 Vehicle pjVehicleBicycleRed_225 (5.3, 6.1, -23.0) out of world\n 1443  2020-08-08T18:17:04 252.913 INF 7646 Vehicle pjVehicleBicyclePink_224 (5.1, 6.1, -24.0) out of world\n ....\n 1459  2020-08-08T18:17:04 252.941 INF 7648 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 7.0, -11.8) out of world\n 1460  2020-08-08T18:17:04 252.942 INF 7648 Vehicle vehicleBicycle_227 (5.3, 6.0, -21.0) out of world\n 1461: 2020-08-08T18:17:04 252.942 INF 7648 Vehicle pjVehicleBicycleWhite_226 (5.3, 6.0, -21.9) out of world\n 1462  2020-08-08T18:17:04 252.942 INF 7648 Vehicle pjVehicleBicycleRed_225 (5.3, 6.0, -23.0) out of world\n 1463  2020-08-08T18:17:04 252.942 INF 7648 Vehicle pjVehicleBicyclePink_224 (5.1, 6.0, -24.0) out of world\n ....\n 1479  2020-08-08T18:17:04 252.956 INF 7649 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 6.9, -11.8) out of world\n 1480  2020-08-08T18:17:04 252.956 INF 7649 Vehicle vehicleBicycle_227 (5.3, 5.8, -21.0) out of world\n 1481: 2020-08-08T18:17:04 252.956 INF 7649 Vehicle pjVehicleBicycleWhite_226 (5.3, 5.8, -21.9) out of world\n 1482  2020-08-08T18:17:04 252.957 INF 7649 Vehicle pjVehicleBicycleRed_225 (5.3, 5.8, -23.0) out of world\n 1483  2020-08-08T18:17:04 252.957 INF 7649 Vehicle pjVehicleBicyclePink_224 (5.1, 5.8, -24.0) out of world\n ....\n 1499  2020-08-08T18:17:04 252.974 INF 7650 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 6.7, -11.8) out of world\n 1500  2020-08-08T18:17:04 252.974 INF 7650 Vehicle vehicleBicycle_227 (5.3, 5.7, -21.0) out of world\n 1501: 2020-08-08T18:17:04 252.974 INF 7650 Vehicle pjVehicleBicycleWhite_226 (5.3, 5.7, -21.9) out of world\n 1502  2020-08-08T18:17:04 252.974 INF 7650 Vehicle pjVehicleBicycleRed_225 (5.3, 5.7, -23.0) out of world\n 1503  2020-08-08T18:17:04 252.974 INF 7650 Vehicle pjVehicleBicyclePink_224 (5.1, 5.7, -24.0) out of world\n ....\n 1519  2020-08-08T18:17:04 253.001 INF 7652 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 6.6, -11.8) out of world\n 1520  2020-08-08T18:17:04 253.001 INF 7652 Vehicle vehicleBicycle_227 (5.3, 5.6, -21.0) out of world\n 1521: 2020-08-08T18:17:04 253.001 INF 7652 Vehicle pjVehicleBicycleWhite_226 (5.3, 5.6, -21.9) out of world\n 1522  2020-08-08T18:17:04 253.001 INF 7652 Vehicle pjVehicleBicycleRed_225 (5.3, 5.6, -23.0) out of world\n 1523  2020-08-08T18:17:04 253.001 INF 7652 Vehicle pjVehicleBicyclePink_224 (5.1, 5.6, -24.0) out of world\n ....\n 1539  2020-08-08T18:17:04 253.016 INF 7653 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 6.5, -11.8) out of world\n 1540  2020-08-08T18:17:04 253.017 INF 7653 Vehicle vehicleBicycle_227 (5.3, 5.5, -21.0) out of world\n 1541: 2020-08-08T18:17:04 253.017 INF 7653 Vehicle pjVehicleBicycleWhite_226 (5.3, 5.5, -21.9) out of world\n 1542  2020-08-08T18:17:04 253.017 INF 7653 Vehicle pjVehicleBicycleRed_225 (5.3, 5.5, -23.0) out of world\n 1543  2020-08-08T18:17:04 253.017 INF 7653 Vehicle pjVehicleBicyclePink_224 (5.1, 5.5, -24.0) out of world\n ....\n 1559  2020-08-08T18:17:04 253.032 INF 7654 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 6.4, -11.8) out of world\n 1560  2020-08-08T18:17:04 253.032 INF 7654 Vehicle vehicleBicycle_227 (5.3, 5.4, -21.0) out of world\n 1561: 2020-08-08T18:17:04 253.032 INF 7654 Vehicle pjVehicleBicycleWhite_226 (5.3, 5.4, -21.9) out of world\n 1562  2020-08-08T18:17:04 253.032 INF 7654 Vehicle pjVehicleBicycleRed_225 (5.3, 5.4, -23.0) out of world\n 1563  2020-08-08T18:17:04 253.032 INF 7654 Vehicle pjVehicleBicyclePink_224 (5.1, 5.4, -24.0) out of world\n ....\n 1579  2020-08-08T18:17:04 253.061 INF 7656 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 6.3, -11.8) out of world\n 1580  2020-08-08T18:17:04 253.062 INF 7656 Vehicle vehicleBicycle_227 (5.3, 5.3, -21.0) out of world\n 1581: 2020-08-08T18:17:04 253.062 INF 7656 Vehicle pjVehicleBicycleWhite_226 (5.3, 5.3, -21.9) out of world\n 1582  2020-08-08T18:17:04 253.062 INF 7656 Vehicle pjVehicleBicycleRed_225 (5.3, 5.3, -23.0) out of world\n 1583  2020-08-08T18:17:04 253.062 INF 7656 Vehicle pjVehicleBicyclePink_224 (5.1, 5.3, -24.0) out of world\n ....\n 1599  2020-08-08T18:17:04 253.079 INF 7657 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 6.1, -11.8) out of world\n 1600  2020-08-08T18:17:04 253.079 INF 7657 Vehicle vehicleBicycle_227 (5.3, 5.1, -21.0) out of world\n 1601: 2020-08-08T18:17:04 253.079 INF 7657 Vehicle pjVehicleBicycleWhite_226 (5.3, 5.1, -21.9) out of world\n 1602  2020-08-08T18:17:04 253.079 INF 7657 Vehicle pjVehicleBicycleRed_225 (5.3, 5.1, -23.0) out of world\n 1603  2020-08-08T18:17:04 253.079 INF 7657 Vehicle pjVehicleBicyclePink_224 (5.1, 5.1, -24.0) out of world\n ....\n 1619  2020-08-08T18:17:04 253.097 INF 7658 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 6.0, -11.8) out of world\n 1620  2020-08-08T18:17:04 253.097 INF 7658 Vehicle vehicleBicycle_227 (5.3, 5.0, -21.0) out of world\n 1621: 2020-08-08T18:17:04 253.097 INF 7658 Vehicle pjVehicleBicycleWhite_226 (5.3, 5.0, -21.9) out of world\n 1622  2020-08-08T18:17:04 253.098 INF 7658 Vehicle pjVehicleBicycleRed_225 (5.3, 5.0, -23.0) out of world\n 1623  2020-08-08T18:17:04 253.098 INF 7658 Vehicle pjVehicleBicyclePink_224 (5.1, 5.0, -24.0) out of world\n ....\n 1639  2020-08-08T18:17:04 253.114 INF 7659 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 5.9, -11.8) out of world\n 1640  2020-08-08T18:17:04 253.114 INF 7659 Vehicle vehicleBicycle_227 (5.3, 4.9, -21.0) out of world\n 1641: 2020-08-08T18:17:04 253.115 INF 7659 Vehicle pjVehicleBicycleWhite_226 (5.3, 4.9, -21.9) out of world\n 1642  2020-08-08T18:17:04 253.115 INF 7659 Vehicle pjVehicleBicycleRed_225 (5.3, 4.9, -23.0) out of world\n 1643  2020-08-08T18:17:04 253.115 INF 7659 Vehicle pjVehicleBicyclePink_224 (5.1, 4.9, -24.0) out of world\n ....\n 1659  2020-08-08T18:17:04 253.146 INF 7661 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 5.7, -11.8) out of world\n 1660  2020-08-08T18:17:04 253.146 INF 7661 Vehicle vehicleBicycle_227 (5.3, 4.7, -21.0) out of world\n 1661: 2020-08-08T18:17:04 253.146 INF 7661 Vehicle pjVehicleBicycleWhite_226 (5.3, 4.7, -21.9) out of world\n 1662  2020-08-08T18:17:04 253.146 INF 7661 Vehicle pjVehicleBicycleRed_225 (5.3, 4.7, -23.0) out of world\n 1663  2020-08-08T18:17:04 253.146 INF 7661 Vehicle pjVehicleBicyclePink_224 (5.1, 4.7, -24.0) out of world\n ....\n 1679  2020-08-08T18:17:04 253.163 INF 7662 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 5.6, -11.8) out of world\n 1680  2020-08-08T18:17:04 253.163 INF 7662 Vehicle vehicleBicycle_227 (5.3, 4.6, -21.0) out of world\n 1681: 2020-08-08T18:17:04 253.163 INF 7662 Vehicle pjVehicleBicycleWhite_226 (5.3, 4.6, -21.9) out of world\n 1682  2020-08-08T18:17:04 253.163 INF 7662 Vehicle pjVehicleBicycleRed_225 (5.3, 4.6, -23.0) out of world\n 1683  2020-08-08T18:17:04 253.164 INF 7662 Vehicle pjVehicleBicyclePink_224 (5.1, 4.6, -24.0) out of world\n ....\n 1699  2020-08-08T18:17:04 253.182 INF 7663 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 5.5, -11.8) out of world\n 1700  2020-08-08T18:17:04 253.182 INF 7663 Vehicle vehicleBicycle_227 (5.3, 4.4, -21.0) out of world\n 1701: 2020-08-08T18:17:04 253.182 INF 7663 Vehicle pjVehicleBicycleWhite_226 (5.3, 4.4, -21.9) out of world\n 1702  2020-08-08T18:17:04 253.182 INF 7663 Vehicle pjVehicleBicycleRed_225 (5.3, 4.4, -23.0) out of world\n 1703  2020-08-08T18:17:04 253.182 INF 7663 Vehicle pjVehicleBicyclePink_224 (5.1, 4.4, -24.0) out of world\n ....\n 1719  2020-08-08T18:17:04 253.198 INF 7664 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 5.3, -11.8) out of world\n 1720  2020-08-08T18:17:04 253.198 INF 7664 Vehicle vehicleBicycle_227 (5.3, 4.3, -21.0) out of world\n 1721: 2020-08-08T18:17:04 253.198 INF 7664 Vehicle pjVehicleBicycleWhite_226 (5.3, 4.3, -21.9) out of world\n 1722  2020-08-08T18:17:04 253.198 INF 7664 Vehicle pjVehicleBicycleRed_225 (5.3, 4.3, -23.0) out of world\n 1723  2020-08-08T18:17:04 253.198 INF 7664 Vehicle pjVehicleBicyclePink_224 (5.1, 4.3, -24.0) out of world\n ....\n 1739  2020-08-08T18:17:04 253.213 INF 7665 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 5.2, -11.8) out of world\n 1740  2020-08-08T18:17:04 253.213 INF 7665 Vehicle vehicleBicycle_227 (5.3, 4.2, -21.0) out of world\n 1741: 2020-08-08T18:17:04 253.213 INF 7665 Vehicle pjVehicleBicycleWhite_226 (5.3, 4.2, -21.9) out of world\n 1742  2020-08-08T18:17:04 253.213 INF 7665 Vehicle pjVehicleBicycleRed_225 (5.3, 4.2, -23.0) out of world\n 1743  2020-08-08T18:17:04 253.213 INF 7665 Vehicle pjVehicleBicyclePink_224 (5.1, 4.2, -24.0) out of world\n ....\n 1759  2020-08-08T18:17:04 253.240 INF 7667 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 5.0, -11.8) out of world\n 1760  2020-08-08T18:17:04 253.240 INF 7667 Vehicle vehicleBicycle_227 (5.3, 4.0, -21.0) out of world\n 1761: 2020-08-08T18:17:04 253.240 INF 7667 Vehicle pjVehicleBicycleWhite_226 (5.3, 4.0, -21.9) out of world\n 1762  2020-08-08T18:17:04 253.241 INF 7667 Vehicle pjVehicleBicycleRed_225 (5.3, 4.0, -23.0) out of world\n 1763  2020-08-08T18:17:04 253.241 INF 7667 Vehicle pjVehicleBicyclePink_224 (5.1, 4.0, -24.0) out of world\n ....\n 1779  2020-08-08T18:17:04 253.255 INF 7668 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 4.9, -11.8) out of world\n 1780  2020-08-08T18:17:04 253.256 INF 7668 Vehicle vehicleBicycle_227 (5.3, 3.9, -21.0) out of world\n 1781: 2020-08-08T18:17:04 253.256 INF 7668 Vehicle pjVehicleBicycleWhite_226 (5.3, 3.9, -21.9) out of world\n 1782  2020-08-08T18:17:04 253.256 INF 7668 Vehicle pjVehicleBicycleRed_225 (5.3, 3.9, -23.0) out of world\n 1783  2020-08-08T18:17:04 253.256 INF 7668 Vehicle pjVehicleBicyclePink_224 (5.1, 3.9, -24.0) out of world\n ....\n 1799  2020-08-08T18:17:04 253.283 INF 7670 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 4.7, -11.8) out of world\n 1800  2020-08-08T18:17:04 253.283 INF 7670 Vehicle vehicleBicycle_227 (5.3, 3.7, -21.0) out of world\n 1801: 2020-08-08T18:17:04 253.283 INF 7670 Vehicle pjVehicleBicycleWhite_226 (5.3, 3.7, -21.9) out of world\n 1802  2020-08-08T18:17:04 253.283 INF 7670 Vehicle pjVehicleBicycleRed_225 (5.3, 3.7, -23.0) out of world\n 1803  2020-08-08T18:17:04 253.283 INF 7670 Vehicle pjVehicleBicyclePink_224 (5.1, 3.7, -24.0) out of world\n ....\n 1819  2020-08-08T18:17:04 253.299 INF 7671 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 4.6, -11.8) out of world\n 1820  2020-08-08T18:17:04 253.299 INF 7671 Vehicle vehicleBicycle_227 (5.3, 3.5, -21.0) out of world\n 1821: 2020-08-08T18:17:04 253.299 INF 7671 Vehicle pjVehicleBicycleWhite_226 (5.3, 3.5, -21.9) out of world\n 1822  2020-08-08T18:17:04 253.299 INF 7671 Vehicle pjVehicleBicycleRed_225 (5.3, 3.5, -23.0) out of world\n 1823  2020-08-08T18:17:04 253.299 INF 7671 Vehicle pjVehicleBicyclePink_224 (5.1, 3.5, -24.0) out of world\n ....\n 1839  2020-08-08T18:17:04 253.315 INF 7672 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 4.4, -11.8) out of world\n 1840  2020-08-08T18:17:04 253.315 INF 7672 Vehicle vehicleBicycle_227 (5.3, 3.4, -21.0) out of world\n 1841: 2020-08-08T18:17:04 253.315 INF 7672 Vehicle pjVehicleBicycleWhite_226 (5.3, 3.4, -21.9) out of world\n 1842  2020-08-08T18:17:04 253.315 INF 7672 Vehicle pjVehicleBicycleRed_225 (5.3, 3.4, -23.0) out of world\n 1843  2020-08-08T18:17:04 253.316 INF 7672 Vehicle pjVehicleBicyclePink_224 (5.1, 3.4, -24.0) out of world\n ....\n 1861  2020-08-08T18:17:04 253.394 INF 7673 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 4.2, -11.8) out of world\n 1862  2020-08-08T18:17:04 253.394 INF 7673 Vehicle vehicleBicycle_227 (5.3, 3.2, -21.0) out of world\n 1863: 2020-08-08T18:17:04 253.394 INF 7673 Vehicle pjVehicleBicycleWhite_226 (5.3, 3.2, -21.9) out of world\n 1864  2020-08-08T18:17:04 253.394 INF 7673 Vehicle pjVehicleBicycleRed_225 (5.3, 3.2, -23.0) out of world\n 1865  2020-08-08T18:17:04 253.395 INF 7673 Vehicle pjVehicleBicyclePink_224 (5.1, 3.2, -24.0) out of world\n ....\n 1881  2020-08-08T18:17:04 253.397 INF 7673 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 4.1, -11.8) out of world\n 1882  2020-08-08T18:17:04 253.397 INF 7673 Vehicle vehicleBicycle_227 (5.3, 3.1, -21.0) out of world\n 1883: 2020-08-08T18:17:04 253.398 INF 7673 Vehicle pjVehicleBicycleWhite_226 (5.3, 3.1, -21.9) out of world\n 1884  2020-08-08T18:17:04 253.398 INF 7673 Vehicle pjVehicleBicycleRed_225 (5.3, 3.1, -23.0) out of world\n 1885  2020-08-08T18:17:04 253.398 INF 7673 Vehicle pjVehicleBicyclePink_224 (5.1, 3.1, -24.0) out of world\n ....\n 1901  2020-08-08T18:17:04 253.401 INF 7673 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 3.9, -11.8) out of world\n 1902  2020-08-08T18:17:04 253.401 INF 7673 Vehicle vehicleBicycle_227 (5.3, 2.9, -21.0) out of world\n 1903: 2020-08-08T18:17:04 253.401 INF 7673 Vehicle pjVehicleBicycleWhite_226 (5.3, 2.9, -21.9) out of world\n 1904  2020-08-08T18:17:04 253.401 INF 7673 Vehicle pjVehicleBicycleRed_225 (5.3, 2.9, -23.0) out of world\n 1905  2020-08-08T18:17:04 253.401 INF 7673 Vehicle pjVehicleBicyclePink_224 (5.1, 2.9, -24.0) out of world\n ....\n 1921  2020-08-08T18:17:04 253.456 INF 7674 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 3.7, -11.8) out of world\n 1922  2020-08-08T18:17:04 253.456 INF 7674 Vehicle vehicleBicycle_227 (5.3, 2.7, -21.0) out of world\n 1923: 2020-08-08T18:17:04 253.456 INF 7674 Vehicle pjVehicleBicycleWhite_226 (5.3, 2.7, -21.9) out of world\n 1924  2020-08-08T18:17:04 253.456 INF 7674 Vehicle pjVehicleBicycleRed_225 (5.3, 2.7, -23.0) out of world\n 1925  2020-08-08T18:17:04 253.456 INF 7674 Vehicle pjVehicleBicyclePink_224 (5.1, 2.7, -24.0) out of world\n ....\n 1941  2020-08-08T18:17:04 253.460 INF 7674 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 3.6, -11.8) out of world\n 1942  2020-08-08T18:17:04 253.460 INF 7674 Vehicle vehicleBicycle_227 (5.3, 2.5, -21.0) out of world\n 1943: 2020-08-08T18:17:04 253.460 INF 7674 Vehicle pjVehicleBicycleWhite_226 (5.3, 2.5, -21.9) out of world\n 1944  2020-08-08T18:17:04 253.460 INF 7674 Vehicle pjVehicleBicycleRed_225 (5.3, 2.5, -23.0) out of world\n 1945  2020-08-08T18:17:04 253.460 INF 7674 Vehicle pjVehicleBicyclePink_224 (5.1, 2.5, -24.0) out of world\n ....\n 1961  2020-08-08T18:17:04 253.463 INF 7674 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 3.4, -11.8) out of world\n 1962  2020-08-08T18:17:04 253.464 INF 7674 Vehicle vehicleBicycle_227 (5.3, 2.4, -21.0) out of world\n 1963: 2020-08-08T18:17:04 253.464 INF 7674 Vehicle pjVehicleBicycleWhite_226 (5.3, 2.4, -21.9) out of world\n 1964  2020-08-08T18:17:04 253.464 INF 7674 Vehicle pjVehicleBicycleRed_225 (5.3, 2.4, -23.0) out of world\n 1965  2020-08-08T18:17:04 253.464 INF 7674 Vehicle pjVehicleBicyclePink_224 (5.1, 2.4, -24.0) out of world\n ....\n 1981  2020-08-08T18:17:04 253.467 INF 7674 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 3.2, -11.8) out of world\n 1982  2020-08-08T18:17:04 253.467 INF 7674 Vehicle vehicleBicycle_227 (5.3, 2.2, -21.0) out of world\n 1983: 2020-08-08T18:17:04 253.467 INF 7674 Vehicle pjVehicleBicycleWhite_226 (5.3, 2.2, -21.9) out of world\n 1984  2020-08-08T18:17:04 253.467 INF 7674 Vehicle pjVehicleBicycleRed_225 (5.3, 2.2, -23.0) out of world\n 1985  2020-08-08T18:17:04 253.467 INF 7674 Vehicle pjVehicleBicyclePink_224 (5.1, 2.2, -24.0) out of world\n ....\n 2005  2020-08-08T18:17:04 253.523 INF 7675 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 3.0, -11.8) out of world\n 2006  2020-08-08T18:17:04 253.523 INF 7675 Vehicle vehicleBicycle_227 (5.3, 2.0, -21.0) out of world\n 2007: 2020-08-08T18:17:04 253.523 INF 7675 Vehicle pjVehicleBicycleWhite_226 (5.3, 2.0, -21.9) out of world\n 2008  2020-08-08T18:17:04 253.523 INF 7675 Vehicle pjVehicleBicycleRed_225 (5.3, 2.0, -23.0) out of world\n 2009  2020-08-08T18:17:04 253.523 INF 7675 Vehicle pjVehicleBicyclePink_224 (5.1, 2.0, -24.0) out of world\n ....\n 2025  2020-08-08T18:17:04 253.527 INF 7675 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 2.8, -11.8) out of world\n 2026  2020-08-08T18:17:04 253.527 INF 7675 Vehicle vehicleBicycle_227 (5.3, 1.8, -21.0) out of world\n 2027: 2020-08-08T18:17:04 253.527 INF 7675 Vehicle pjVehicleBicycleWhite_226 (5.3, 1.8, -21.9) out of world\n 2028  2020-08-08T18:17:04 253.527 INF 7675 Vehicle pjVehicleBicycleRed_225 (5.3, 1.8, -23.0) out of world\n 2029  2020-08-08T18:17:04 253.527 INF 7675 Vehicle pjVehicleBicyclePink_224 (5.1, 1.8, -24.0) out of world\n ....\n 2045  2020-08-08T18:17:04 253.529 INF 7675 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 2.7, -11.8) out of world\n 2046  2020-08-08T18:17:04 253.529 INF 7675 Vehicle vehicleBicycle_227 (5.3, 1.7, -21.0) out of world\n 2047: 2020-08-08T18:17:04 253.530 INF 7675 Vehicle pjVehicleBicycleWhite_226 (5.3, 1.7, -21.9) out of world\n 2048  2020-08-08T18:17:04 253.530 INF 7675 Vehicle pjVehicleBicycleRed_225 (5.3, 1.7, -23.0) out of world\n 2049  2020-08-08T18:17:04 253.530 INF 7675 Vehicle pjVehicleBicyclePink_224 (5.1, 1.7, -24.0) out of world\n ....\n 2065  2020-08-08T18:17:04 253.567 INF 7676 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 2.5, -11.8) out of world\n 2066  2020-08-08T18:17:04 253.567 INF 7676 Vehicle vehicleBicycle_227 (5.3, 1.5, -21.0) out of world\n 2067: 2020-08-08T18:17:04 253.567 INF 7676 Vehicle pjVehicleBicycleWhite_226 (5.3, 1.5, -21.9) out of world\n 2068  2020-08-08T18:17:04 253.567 INF 7676 Vehicle pjVehicleBicycleRed_225 (5.3, 1.5, -23.0) out of world\n 2069  2020-08-08T18:17:04 253.567 INF 7676 Vehicle pjVehicleBicyclePink_224 (5.1, 1.5, -24.0) out of world\n ....\n 2085  2020-08-08T18:17:04 253.570 INF 7676 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 2.3, -11.8) out of world\n 2086  2020-08-08T18:17:04 253.570 INF 7676 Vehicle vehicleBicycle_227 (5.3, 1.3, -21.0) out of world\n 2087: 2020-08-08T18:17:04 253.570 INF 7676 Vehicle pjVehicleBicycleWhite_226 (5.3, 1.3, -21.9) out of world\n 2088  2020-08-08T18:17:04 253.571 INF 7676 Vehicle pjVehicleBicycleRed_225 (5.3, 1.3, -23.0) out of world\n 2089  2020-08-08T18:17:04 253.571 INF 7676 Vehicle pjVehicleBicyclePink_224 (5.1, 1.3, -24.0) out of world\n ....\n 2107  2020-08-08T18:17:05 254.184 INF 7677 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 2.1, -11.8) out of world\n 2108  2020-08-08T18:17:05 254.184 INF 7677 Vehicle vehicleBicycle_227 (5.3, 1.1, -21.0) out of world\n 2109: 2020-08-08T18:17:05 254.184 INF 7677 Vehicle pjVehicleBicycleWhite_226 (5.3, 1.1, -21.9) out of world\n 2110  2020-08-08T18:17:05 254.184 INF 7677 Vehicle pjVehicleBicycleRed_225 (5.3, 1.1, -23.0) out of world\n 2111  2020-08-08T18:17:05 254.184 INF 7677 Vehicle pjVehicleBicyclePink_224 (5.1, 1.1, -24.0) out of world\n ....\n 2127  2020-08-08T18:17:05 254.187 INF 7677 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 1.9, -11.8) out of world\n 2128  2020-08-08T18:17:05 254.187 INF 7677 Vehicle vehicleBicycle_227 (5.3, 0.9, -21.0) out of world\n 2129: 2020-08-08T18:17:05 254.187 INF 7677 Vehicle pjVehicleBicycleWhite_226 (5.3, 0.9, -21.9) out of world\n 2130  2020-08-08T18:17:05 254.187 INF 7677 Vehicle pjVehicleBicycleRed_225 (5.3, 0.9, -23.0) out of world\n 2131  2020-08-08T18:17:05 254.187 INF 7677 Vehicle pjVehicleBicyclePink_224 (5.1, 0.9, -24.0) out of world\n ....\n 2147  2020-08-08T18:17:05 254.190 INF 7677 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 1.7, -11.8) out of world\n 2148  2020-08-08T18:17:05 254.190 INF 7677 Vehicle vehicleBicycle_227 (5.3, 0.7, -21.0) out of world\n 2149: 2020-08-08T18:17:05 254.190 INF 7677 Vehicle pjVehicleBicycleWhite_226 (5.3, 0.7, -21.9) out of world\n 2150  2020-08-08T18:17:05 254.190 INF 7677 Vehicle pjVehicleBicycleRed_225 (5.3, 0.7, -23.0) out of world\n 2151  2020-08-08T18:17:05 254.190 INF 7677 Vehicle pjVehicleBicyclePink_224 (5.1, 0.7, -24.0) out of world\n ....\n 2167  2020-08-08T18:17:05 254.193 INF 7677 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 1.5, -11.8) out of world\n 2168  2020-08-08T18:17:05 254.193 INF 7677 Vehicle vehicleBicycle_227 (5.3, 0.5, -21.0) out of world\n 2169: 2020-08-08T18:17:05 254.193 INF 7677 Vehicle pjVehicleBicycleWhite_226 (5.3, 0.5, -21.9) out of world\n 2170  2020-08-08T18:17:05 254.193 INF 7677 Vehicle pjVehicleBicycleRed_225 (5.3, 0.5, -23.0) out of world\n 2171  2020-08-08T18:17:05 254.193 INF 7677 Vehicle pjVehicleBicyclePink_224 (5.1, 0.5, -24.0) out of world\n ....\n 2187  2020-08-08T18:17:05 254.196 INF 7677 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 1.3, -11.8) out of world\n 2188  2020-08-08T18:17:05 254.196 INF 7677 Vehicle vehicleBicycle_227 (5.3, 0.3, -21.0) out of world\n 2189: 2020-08-08T18:17:05 254.196 INF 7677 Vehicle pjVehicleBicycleWhite_226 (5.3, 0.3, -21.9) out of world\n 2190  2020-08-08T18:17:05 254.196 INF 7677 Vehicle pjVehicleBicycleRed_225 (5.3, 0.3, -23.0) out of world\n 2191  2020-08-08T18:17:05 254.196 INF 7677 Vehicle pjVehicleBicyclePink_224 (5.1, 0.3, -24.0) out of world\n ....\n 2207  2020-08-08T18:17:05 254.198 INF 7677 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 1.1, -11.8) out of world\n 2208  2020-08-08T18:17:05 254.198 INF 7677 Vehicle vehicleBicycle_227 (5.3, 0.1, -21.0) out of world\n 2209: 2020-08-08T18:17:05 254.199 INF 7677 Vehicle pjVehicleBicycleWhite_226 (5.3, 0.1, -21.9) out of world\n 2210  2020-08-08T18:17:05 254.199 INF 7677 Vehicle pjVehicleBicycleRed_225 (5.3, 0.1, -23.0) out of world\n 2211  2020-08-08T18:17:05 254.199 INF 7677 Vehicle pjVehicleBicyclePink_224 (5.1, 0.1, -24.0) out of world\n ....\n 2227  2020-08-08T18:17:05 254.201 INF 7677 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 0.9, -11.8) out of world\n 2228  2020-08-08T18:17:05 254.201 INF 7677 Vehicle vehicleBicycle_227 (5.3, -0.1, -21.0) out of world\n 2229: 2020-08-08T18:17:05 254.201 INF 7677 Vehicle pjVehicleBicycleWhite_226 (5.3, -0.1, -21.9) out of world\n 2230  2020-08-08T18:17:05 254.201 INF 7677 Vehicle pjVehicleBicycleRed_225 (5.3, -0.1, -23.0) out of world\n 2231  2020-08-08T18:17:05 254.201 INF 7677 Vehicle pjVehicleBicyclePink_224 (5.1, -0.1, -24.0) out of world\n ....\n 2247  2020-08-08T18:17:05 254.204 INF 7677 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 0.7, -11.8) out of world\n 2248  2020-08-08T18:17:05 254.204 INF 7677 Vehicle vehicleBicycle_227 (5.3, -0.3, -21.0) out of world\n 2249: 2020-08-08T18:17:05 254.204 INF 7677 Vehicle pjVehicleBicycleWhite_226 (5.3, -0.3, -21.9) out of world\n 2250  2020-08-08T18:17:05 254.204 INF 7677 Vehicle pjVehicleBicycleRed_225 (5.3, -0.3, -23.0) out of world\n 2251  2020-08-08T18:17:05 254.204 INF 7677 Vehicle pjVehicleBicyclePink_224 (5.1, -0.3, -24.0) out of world\n ....\n 2267  2020-08-08T18:17:05 254.207 INF 7677 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 0.5, -11.8) out of world\n 2268  2020-08-08T18:17:05 254.207 INF 7677 Vehicle vehicleBicycle_227 (5.3, -0.5, -21.0) out of world\n 2269: 2020-08-08T18:17:05 254.207 INF 7677 Vehicle pjVehicleBicycleWhite_226 (5.3, -0.5, -21.9) out of world\n 2270  2020-08-08T18:17:05 254.207 INF 7677 Vehicle pjVehicleBicycleRed_225 (5.3, -0.5, -23.0) out of world\n 2271  2020-08-08T18:17:05 254.207 INF 7677 Vehicle pjVehicleBicyclePink_224 (5.1, -0.5, -24.0) out of world\n ....\n 2287  2020-08-08T18:17:05 254.209 INF 7677 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 0.3, -11.8) out of world\n 2288  2020-08-08T18:17:05 254.210 INF 7677 Vehicle vehicleBicycle_227 (5.3, -0.7, -21.0) out of world\n 2289: 2020-08-08T18:17:05 254.210 INF 7677 Vehicle pjVehicleBicycleWhite_226 (5.3, -0.7, -21.9) out of world\n 2290  2020-08-08T18:17:05 254.210 INF 7677 Vehicle pjVehicleBicycleRed_225 (5.3, -0.7, -23.0) out of world\n 2291  2020-08-08T18:17:05 254.210 INF 7677 Vehicle pjVehicleBicyclePink_224 (5.1, -0.7, -24.0) out of world\n ....\n 2307  2020-08-08T18:17:05 254.212 INF 7677 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 0.1, -11.8) out of world\n 2308  2020-08-08T18:17:05 254.212 INF 7677 Vehicle vehicleBicycle_227 (5.3, -0.9, -21.0) out of world\n 2309: 2020-08-08T18:17:05 254.213 INF 7677 Vehicle pjVehicleBicycleWhite_226 (5.3, -0.9, -21.9) out of world\n 2310  2020-08-08T18:17:05 254.213 INF 7677 Vehicle pjVehicleBicycleRed_225 (5.3, -0.9, -23.0) out of world\n 2311  2020-08-08T18:17:05 254.213 INF 7677 Vehicle pjVehicleBicyclePink_224 (5.1, -0.9, -24.0) out of world\n ....\n 2327  2020-08-08T18:17:05 254.215 INF 7677 Vehicle pjVehicle4x4TruckRed_196 (-1.5, -0.1, -11.8) out of world\n 2328  2020-08-08T18:17:05 254.215 INF 7677 Vehicle vehicleBicycle_227 (5.3, -1.1, -21.0) out of world\n 2329: 2020-08-08T18:17:05 254.215 INF 7677 Vehicle pjVehicleBicycleWhite_226 (5.3, -1.1, -21.9) out of world\n 2330  2020-08-08T18:17:05 254.215 INF 7677 Vehicle pjVehicleBicycleRed_225 (5.3, -1.1, -23.0) out of world\n 2331  2020-08-08T18:17:05 254.215 INF 7677 Vehicle pjVehicleBicyclePink_224 (5.1, -1.1, -24.0) out of world\n ....\n 2347  2020-08-08T18:17:05 254.218 INF 7677 Vehicle pjVehicle4x4TruckRed_196 (-1.5, -0.3, -11.8) out of world\n 2348  2020-08-08T18:17:05 254.218 INF 7677 Vehicle vehicleBicycle_227 (5.3, -1.4, -21.0) out of world\n 2349: 2020-08-08T18:17:05 254.218 INF 7677 Vehicle pjVehicleBicycleWhite_226 (5.3, -1.4, -21.9) out of world\n 2350  2020-08-08T18:17:05 254.218 INF 7677 Vehicle pjVehicleBicycleRed_225 (5.3, -1.4, -23.0) out of world\n 2351  2020-08-08T18:17:05 254.218 INF 7677 Vehicle pjVehicleBicyclePink_224 (5.1, -1.4, -24.0) out of world\n ....\n 2367  2020-08-08T18:17:05 254.220 INF 7677 Vehicle pjVehicle4x4TruckRed_196 (-1.5, -0.6, -11.8) out of world\n 2368  2020-08-08T18:17:05 254.220 INF 7677 Vehicle vehicleBicycle_227 (5.3, -1.6, -21.0) out of world\n 2369: 2020-08-08T18:17:05 254.220 INF 7677 Vehicle pjVehicleBicycleWhite_226 (5.3, -1.6, -21.9) out of world\n 2370  2020-08-08T18:17:05 254.221 INF 7677 Vehicle pjVehicleBicycleRed_225 (5.3, -1.6, -23.0) out of world\n 2371  2020-08-08T18:17:05 254.221 INF 7677 Vehicle pjVehicleBicyclePink_224 (5.1, -1.6, -24.0) out of world\n ....\n 2387  2020-08-08T18:17:05 254.223 INF 7677 Vehicle pjVehicle4x4TruckRed_196 (-1.5, -0.8, -11.8) out of world\n 2388  2020-08-08T18:17:05 254.223 INF 7677 Vehicle vehicleBicycle_227 (5.3, -1.8, -21.0) out of world\n 2389: 2020-08-08T18:17:05 254.224 INF 7677 Vehicle pjVehicleBicycleWhite_226 (5.3, -1.8, -21.9) out of world\n 2390  2020-08-08T18:17:05 254.224 INF 7677 Vehicle pjVehicleBicycleRed_225 (5.3, -1.8, -23.0) out of world\n 2391  2020-08-08T18:17:05 254.224 INF 7677 Vehicle pjVehicleBicyclePink_224 (5.1, -1.8, -24.0) out of world\n ....\n 2407  2020-08-08T18:17:05 254.226 INF 7677 Vehicle pjVehicle4x4TruckRed_196 (-1.5, -1.0, -11.8) out of world\n 2408  2020-08-08T18:17:05 254.226 INF 7677 Vehicle vehicleBicycle_227 (5.3, -2.0, -21.0) out of world\n 2409: 2020-08-08T18:17:05 254.226 INF 7677 Vehicle pjVehicleBicycleWhite_226 (5.3, -2.0, -21.9) out of world\n 2410  2020-08-08T18:17:05 254.227 INF 7677 Vehicle pjVehicleBicycleRed_225 (5.3, -2.0, -23.0) out of world\n 2411  2020-08-08T18:17:05 254.227 INF 7677 Vehicle pjVehicleBicyclePink_224 (5.1, -2.0, -24.0) out of world\n ....\n 2427  2020-08-08T18:17:05 254.229 INF 7677 Vehicle pjVehicle4x4TruckRed_196 (-1.5, -1.2, -11.8) out of world\n 2428  2020-08-08T18:17:05 254.229 INF 7677 Vehicle vehicleBicycle_227 (5.3, -2.2, -21.0) out of world\n 2429: 2020-08-08T18:17:05 254.229 INF 7677 Vehicle pjVehicleBicycleWhite_226 (5.3, -2.2, -21.9) out of world\n 2430  2020-08-08T18:17:05 254.230 INF 7677 Vehicle pjVehicleBicycleRed_225 (5.3, -2.2, -23.0) out of world\n 2431  2020-08-08T18:17:05 254.230 INF 7677 Vehicle pjVehicleBicyclePink_224 (5.1, -2.2, -24.0) out of world\n ....\n 2447  2020-08-08T18:17:05 254.264 INF 7678 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 1.3, -11.8) out of world\n 2448  2020-08-08T18:17:05 254.265 INF 7678 Vehicle vehicleBicycle_227 (5.3, -0.7, -21.0) out of world\n 2449: 2020-08-08T18:17:05 254.265 INF 7678 Vehicle pjVehicleBicycleWhite_226 (5.3, -0.7, -21.9) out of world\n 2450  2020-08-08T18:17:05 254.265 INF 7678 Vehicle pjVehicleBicycleRed_225 (5.3, -0.7, -23.0) out of world\n 2451  2020-08-08T18:17:05 254.265 INF 7678 Vehicle pjVehicleBicyclePink_224 (5.1, -0.7, -24.0) out of world\n ....\n 2467  2020-08-08T18:17:05 254.268 INF 7678 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 1.3, -11.8) out of world\n 2468  2020-08-08T18:17:05 254.268 INF 7678 Vehicle vehicleBicycle_227 (5.3, -0.7, -21.0) out of world\n 2469: 2020-08-08T18:17:05 254.268 INF 7678 Vehicle pjVehicleBicycleWhite_226 (5.3, -0.7, -21.9) out of world\n 2470  2020-08-08T18:17:05 254.268 INF 7678 Vehicle pjVehicleBicycleRed_225 (5.3, -0.7, -23.0) out of world\n 2471  2020-08-08T18:17:05 254.268 INF 7678 Vehicle pjVehicleBicyclePink_224 (5.1, -0.7, -24.0) out of world\n ....\n 2487  2020-08-08T18:17:05 254.271 INF 7678 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 1.1, -11.8) out of world\n 2488  2020-08-08T18:17:05 254.271 INF 7678 Vehicle vehicleBicycle_227 (5.3, -0.9, -21.0) out of world\n 2489: 2020-08-08T18:17:05 254.271 INF 7678 Vehicle pjVehicleBicycleWhite_226 (5.3, -0.9, -21.9) out of world\n 2490  2020-08-08T18:17:05 254.271 INF 7678 Vehicle pjVehicleBicycleRed_225 (5.3, -0.9, -23.0) out of world\n 2491  2020-08-08T18:17:05 254.271 INF 7678 Vehicle pjVehicleBicyclePink_224 (5.1, -0.9, -24.0) out of world\n ....\n 2507  2020-08-08T18:17:05 254.274 INF 7678 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 0.8, -11.8) out of world\n 2508  2020-08-08T18:17:05 254.274 INF 7678 Vehicle vehicleBicycle_227 (5.3, -1.1, -21.0) out of world\n 2509: 2020-08-08T18:17:05 254.274 INF 7678 Vehicle pjVehicleBicycleWhite_226 (5.3, -1.1, -21.9) out of world\n 2510  2020-08-08T18:17:05 254.274 INF 7678 Vehicle pjVehicleBicycleRed_225 (5.3, -1.1, -23.0) out of world\n 2511  2020-08-08T18:17:05 254.274 INF 7678 Vehicle pjVehicleBicyclePink_224 (5.1, -1.1, -24.0) out of world\n ....\n 2527  2020-08-08T18:17:05 254.300 INF 7679 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 3.3, -11.8) out of world\n 2528  2020-08-08T18:17:05 254.300 INF 7679 Vehicle vehicleBicycle_227 (5.3, 0.4, -21.0) out of world\n 2529: 2020-08-08T18:17:05 254.300 INF 7679 Vehicle pjVehicleBicycleWhite_226 (5.3, 0.4, -21.9) out of world\n 2530  2020-08-08T18:17:05 254.301 INF 7679 Vehicle pjVehicleBicycleRed_225 (5.3, 0.4, -23.0) out of world\n 2531  2020-08-08T18:17:05 254.301 INF 7679 Vehicle pjVehicleBicyclePink_224 (5.1, 0.4, -24.0) out of world\n ....\n 2547  2020-08-08T18:17:05 254.304 INF 7679 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 3.3, -11.8) out of world\n 2548  2020-08-08T18:17:05 254.304 INF 7679 Vehicle vehicleBicycle_227 (5.3, 0.4, -21.0) out of world\n 2549: 2020-08-08T18:17:05 254.304 INF 7679 Vehicle pjVehicleBicycleWhite_226 (5.3, 0.4, -21.9) out of world\n 2550  2020-08-08T18:17:05 254.304 INF 7679 Vehicle pjVehicleBicycleRed_225 (5.3, 0.4, -23.0) out of world\n 2551  2020-08-08T18:17:05 254.304 INF 7679 Vehicle pjVehicleBicyclePink_224 (5.1, 0.4, -24.0) out of world\n ....\n 2567  2020-08-08T18:17:05 254.331 INF 7680 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 3.1, -11.8) out of world\n 2568  2020-08-08T18:17:05 254.331 INF 7680 Vehicle vehicleBicycle_227 (5.3, 0.2, -21.0) out of world\n 2569: 2020-08-08T18:17:05 254.331 INF 7680 Vehicle pjVehicleBicycleWhite_226 (5.3, 0.2, -21.9) out of world\n 2570  2020-08-08T18:17:05 254.331 INF 7680 Vehicle pjVehicleBicycleRed_225 (5.3, 0.2, -23.0) out of world\n 2571  2020-08-08T18:17:05 254.331 INF 7680 Vehicle pjVehicleBicyclePink_224 (5.1, 0.2, -24.0) out of world\n ....\n 2587  2020-08-08T18:17:05 254.358 INF 7681 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 2.9, -11.8) out of world\n 2588  2020-08-08T18:17:05 254.358 INF 7681 Vehicle vehicleBicycle_227 (5.3, 1.8, -21.0) out of world\n 2589: 2020-08-08T18:17:05 254.358 INF 7681 Vehicle pjVehicleBicycleWhite_226 (5.3, 1.8, -21.9) out of world\n 2590  2020-08-08T18:17:05 254.358 INF 7681 Vehicle pjVehicleBicycleRed_225 (5.3, 1.8, -23.0) out of world\n 2591  2020-08-08T18:17:05 254.359 INF 7681 Vehicle pjVehicleBicyclePink_224 (5.1, 1.8, -24.0) out of world\n ....\n 2607  2020-08-08T18:17:05 254.361 INF 7681 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 2.6, -11.8) out of world\n 2608  2020-08-08T18:17:05 254.361 INF 7681 Vehicle vehicleBicycle_227 (5.3, 1.8, -21.0) out of world\n 2609: 2020-08-08T18:17:05 254.361 INF 7681 Vehicle pjVehicleBicycleWhite_226 (5.3, 1.8, -21.9) out of world\n 2610  2020-08-08T18:17:05 254.361 INF 7681 Vehicle pjVehicleBicycleRed_225 (5.3, 1.8, -23.0) out of world\n 2611  2020-08-08T18:17:05 254.362 INF 7681 Vehicle pjVehicleBicyclePink_224 (5.1, 1.8, -24.0) out of world\n ....\n 2629  2020-08-08T18:17:05 254.400 INF 7682 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 2.4, -11.8) out of world\n 2630  2020-08-08T18:17:05 254.400 INF 7682 Vehicle vehicleBicycle_227 (5.3, 1.5, -21.0) out of world\n 2631: 2020-08-08T18:17:05 254.400 INF 7682 Vehicle pjVehicleBicycleWhite_226 (5.3, 1.5, -21.9) out of world\n 2632  2020-08-08T18:17:05 254.400 INF 7682 Vehicle pjVehicleBicycleRed_225 (5.3, 1.5, -23.0) out of world\n 2633  2020-08-08T18:17:05 254.401 INF 7682 Vehicle pjVehicleBicyclePink_224 (5.1, 1.5, -24.0) out of world\n ....\n 2649  2020-08-08T18:17:05 254.404 INF 7682 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 2.1, -11.8) out of world\n 2650  2020-08-08T18:17:05 254.404 INF 7682 Vehicle vehicleBicycle_227 (5.3, 1.3, -21.0) out of world\n 2651: 2020-08-08T18:17:05 254.404 INF 7682 Vehicle pjVehicleBicycleWhite_226 (5.3, 1.3, -21.9) out of world\n 2652  2020-08-08T18:17:05 254.404 INF 7682 Vehicle pjVehicleBicycleRed_225 (5.3, 1.3, -23.0) out of world\n 2653  2020-08-08T18:17:05 254.404 INF 7682 Vehicle pjVehicleBicyclePink_224 (5.1, 1.3, -24.0) out of world\n ....\n 2669  2020-08-08T18:17:05 254.443 INF 7683 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 1.9, -11.8) out of world\n 2670  2020-08-08T18:17:05 254.444 INF 7683 Vehicle vehicleBicycle_227 (5.3, 1.0, -21.0) out of world\n 2671: 2020-08-08T18:17:05 254.444 INF 7683 Vehicle pjVehicleBicycleWhite_226 (5.3, 1.0, -21.9) out of world\n 2672  2020-08-08T18:17:05 254.444 INF 7683 Vehicle pjVehicleBicycleRed_225 (5.3, 1.0, -23.0) out of world\n 2673  2020-08-08T18:17:05 254.444 INF 7683 Vehicle pjVehicleBicyclePink_224 (5.1, 1.0, -24.0) out of world\n ....\n 2689  2020-08-08T18:17:05 254.447 INF 7683 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 1.7, -11.8) out of world\n 2690  2020-08-08T18:17:05 254.447 INF 7683 Vehicle vehicleBicycle_227 (5.3, 0.8, -21.0) out of world\n 2691: 2020-08-08T18:17:05 254.447 INF 7683 Vehicle pjVehicleBicycleWhite_226 (5.3, 0.8, -21.9) out of world\n 2692  2020-08-08T18:17:05 254.448 INF 7683 Vehicle pjVehicleBicycleRed_225 (5.3, 0.8, -23.0) out of world\n 2693  2020-08-08T18:17:05 254.448 INF 7683 Vehicle pjVehicleBicyclePink_224 (5.1, 0.8, -24.0) out of world\n ....\n 2709  2020-08-08T18:17:05 254.474 INF 7684 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 1.4, -11.8) out of world\n 2710  2020-08-08T18:17:05 254.474 INF 7684 Vehicle vehicleBicycle_227 (5.3, 2.3, -21.0) out of world\n 2711: 2020-08-08T18:17:05 254.474 INF 7684 Vehicle pjVehicleBicycleWhite_226 (5.3, 2.3, -21.9) out of world\n 2712  2020-08-08T18:17:05 254.474 INF 7684 Vehicle pjVehicleBicycleRed_225 (5.3, 2.3, -23.0) out of world\n 2713  2020-08-08T18:17:05 254.474 INF 7684 Vehicle pjVehicleBicyclePink_224 (5.1, 2.3, -24.0) out of world\n ....\n 2729  2020-08-08T18:17:05 254.500 INF 7685 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 1.2, -11.8) out of world\n 2730  2020-08-08T18:17:05 254.500 INF 7685 Vehicle vehicleBicycle_227 (5.3, 2.3, -21.0) out of world\n 2731: 2020-08-08T18:17:05 254.500 INF 7685 Vehicle pjVehicleBicycleWhite_226 (5.3, 2.3, -21.9) out of world\n 2732  2020-08-08T18:17:05 254.501 INF 7685 Vehicle pjVehicleBicycleRed_225 (5.3, 2.3, -23.0) out of world\n 2733  2020-08-08T18:17:05 254.501 INF 7685 Vehicle pjVehicleBicyclePink_224 (5.1, 2.3, -24.0) out of world\n ....\n 2749  2020-08-08T18:17:05 254.504 INF 7685 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 0.9, -11.8) out of world\n 2750  2020-08-08T18:17:05 254.504 INF 7685 Vehicle vehicleBicycle_227 (5.3, 2.1, -21.0) out of world\n 2751: 2020-08-08T18:17:05 254.504 INF 7685 Vehicle pjVehicleBicycleWhite_226 (5.3, 2.1, -21.9) out of world\n 2752  2020-08-08T18:17:05 254.504 INF 7685 Vehicle pjVehicleBicycleRed_225 (5.3, 2.1, -23.0) out of world\n 2753  2020-08-08T18:17:05 254.504 INF 7685 Vehicle pjVehicleBicyclePink_224 (5.1, 2.1, -24.0) out of world\n ....\n 2769  2020-08-08T18:17:05 254.528 INF 7686 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 0.7, -11.8) out of world\n 2770  2020-08-08T18:17:05 254.529 INF 7686 Vehicle vehicleBicycle_227 (5.3, 1.8, -21.0) out of world\n 2771: 2020-08-08T18:17:05 254.529 INF 7686 Vehicle pjVehicleBicycleWhite_226 (5.3, 1.8, -21.9) out of world\n 2772  2020-08-08T18:17:05 254.529 INF 7686 Vehicle pjVehicleBicycleRed_225 (5.3, 1.8, -23.0) out of world\n 2773  2020-08-08T18:17:05 254.529 INF 7686 Vehicle pjVehicleBicyclePink_224 (5.1, 1.8, -24.0) out of world\n ....\n 2789  2020-08-08T18:17:05 254.553 INF 7687 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 3.1, -11.8) out of world\n 2790  2020-08-08T18:17:05 254.554 INF 7687 Vehicle vehicleBicycle_227 (5.3, 1.6, -21.0) out of world\n 2791: 2020-08-08T18:17:05 254.554 INF 7687 Vehicle pjVehicleBicycleWhite_226 (5.3, 1.6, -21.9) out of world\n 2792  2020-08-08T18:17:05 254.554 INF 7687 Vehicle pjVehicleBicycleRed_225 (5.3, 1.6, -23.0) out of world\n 2793  2020-08-08T18:17:05 254.554 INF 7687 Vehicle pjVehicleBicyclePink_224 (5.1, 1.6, -24.0) out of world\n ....\n 2809  2020-08-08T18:17:05 254.574 INF 7688 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 3.1, -11.8) out of world\n 2810  2020-08-08T18:17:05 254.574 INF 7688 Vehicle vehicleBicycle_227 (5.3, 1.3, -21.0) out of world\n 2811: 2020-08-08T18:17:05 254.575 INF 7688 Vehicle pjVehicleBicycleWhite_226 (5.3, 1.3, -21.9) out of world\n 2812  2020-08-08T18:17:05 254.575 INF 7688 Vehicle pjVehicleBicycleRed_225 (5.3, 1.3, -23.0) out of world\n 2813  2020-08-08T18:17:05 254.575 INF 7688 Vehicle pjVehicleBicyclePink_224 (5.1, 1.3, -24.0) out of world\n ....\n 2829  2020-08-08T18:17:05 254.596 INF 7689 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 2.9, -11.8) out of world\n 2830  2020-08-08T18:17:05 254.596 INF 7689 Vehicle vehicleBicycle_227 (5.3, 1.1, -21.0) out of world\n 2831: 2020-08-08T18:17:05 254.596 INF 7689 Vehicle pjVehicleBicycleWhite_226 (5.3, 1.1, -21.9) out of world\n 2832  2020-08-08T18:17:05 254.596 INF 7689 Vehicle pjVehicleBicycleRed_225 (5.3, 1.1, -23.0) out of world\n 2833  2020-08-08T18:17:05 254.596 INF 7689 Vehicle pjVehicleBicyclePink_224 (5.1, 1.1, -24.0) out of world\n ....\n 2849  2020-08-08T18:17:05 254.621 INF 7690 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 2.6, -11.8) out of world\n 2850  2020-08-08T18:17:05 254.621 INF 7690 Vehicle vehicleBicycle_227 (5.3, 0.8, -21.0) out of world\n 2851: 2020-08-08T18:17:05 254.621 INF 7690 Vehicle pjVehicleBicycleWhite_226 (5.3, 0.8, -21.9) out of world\n 2852  2020-08-08T18:17:05 254.621 INF 7690 Vehicle pjVehicleBicycleRed_225 (5.3, 0.8, -23.0) out of world\n 2853  2020-08-08T18:17:05 254.621 INF 7690 Vehicle pjVehicleBicyclePink_224 (5.1, 0.8, -24.0) out of world\n ....\n 2869  2020-08-08T18:17:05 254.624 INF 7690 Vehicle pjVehicle4x4TruckRed_196 (-1.5, 2.3, -11.8) out of world\n 2870  2020-08-08T18:17:05 254.624 INF 7690 Vehicle vehicleBicycle_227 (5.3, 0.5, -21.0) out of world\n 2871: 2020-08-08T18:17:05 254.624 INF 7690 Vehicle pjVehicleBicycleWhite_226 (5.3, 0.5, -21.9) out of world\n 2872  2020-08-08T18:17:05 254.624 INF 7690 Vehicle pjVehicleBicycleRed_225 (5.3, 0.5, -23.0) out of world\n 2873  2020-08-08T18:17:05 254.624 INF 7690 Vehicle pjVehicleBicyclePink_224 (5.1, 0.5, -24.0) out of world\n ....\n 2886  2020-08-08T18:17:06 254.798 WRN Spawned entity with wrong pos: [type=EntityBicycle, name=pjVehicleBicyclePink, id=224] id=224 pos=(5.1, -0.5, -24.0)\n 2887  2020-08-08T18:17:06 254.800 WRN Spawned entity with wrong pos: [type=EntityBicycle, name=pjVehicleBicycleRed, id=225] id=225 pos=(5.3, -0.5, -23.0)\n 2888: 2020-08-08T18:17:06 254.803 WRN Spawned entity with wrong pos: [type=EntityBicycle, name=pjVehicleBicycleWhite, id=226] id=226 pos=(5.3, -0.5, -21.9)\n 2889  2020-08-08T18:17:06 254.817 WRN Spawned entity with wrong pos: [type=EntityMotorcycle, name=pjVehicleMotorcycleBlueNoShield, id=207] id=207 pos=(3.1, -0.6, -15.7)\n 2890  2020-08-08T18:17:06 254.854 INF 7692 Vehicle vehicleBicycle_216 (-2.7, 2.3, -21.1) in ground. up\n ....\n 2956  2020-08-08T18:17:06 255.127 INF 7702 Vehicle pjVehicleBicyclePink_224 (5.1, 0.3, -24.0) in ground. up\n 2957  2020-08-08T18:17:06 255.127 INF 7702 Vehicle pjVehicleBicycleRed_225 (5.3, 0.3, -23.0) in ground. up\n 2958: 2020-08-08T18:17:06 255.127 INF 7702 Vehicle pjVehicleBicycleWhite_226 (5.3, 0.3, -21.9) in ground. up\n 2959  2020-08-08T18:17:06 255.128 INF 7702 Vehicle vehicleBicycle_227 (5.3, 2.0, -21.0) in ground. up\n 2960  2020-08-08T18:17:06 255.128 INF 7702 Vehicle pjVehicleMotorcycleBlueNoShield_207 (3.0, 1.6, -15.7) in ground. up\n ....\n 2965  2020-08-08T18:17:06 255.155 INF 7703 Vehicle pjVehicleBicyclePink_224 (5.1, 3.3, -24.0) in ground. up\n 2966  2020-08-08T18:17:06 255.155 INF 7703 Vehicle pjVehicleBicycleRed_225 (5.3, 3.3, -23.0) in ground. up\n 2967: 2020-08-08T18:17:06 255.156 INF 7703 Vehicle pjVehicleBicycleWhite_226 (5.3, 3.3, -21.9) in ground. up\n 2968  2020-08-08T18:17:06 255.156 INF 7703 Vehicle vehicleBicycle_227 (5.3, 5.0, -21.0) in ground. up\n 2969  2020-08-08T18:17:06 255.156 INF 7703 Vehicle pjVehicleMotorcycleBlueNoShield_207 (3.0, 4.6, -15.7) in ground. up\n ....\n 2971  2020-08-08T18:17:06 255.174 INF 7704 Vehicle pjVehicleBicyclePink_224 (5.1, 6.3, -24.0) in ground. up\n 2972  2020-08-08T18:17:06 255.174 INF 7704 Vehicle pjVehicleBicycleRed_225 (5.3, 6.3, -23.0) in ground. up\n 2973: 2020-08-08T18:17:06 255.175 INF 7704 Vehicle pjVehicleBicycleWhite_226 (5.3, 6.3, -21.9) in ground. up\n 2974  2020-08-08T18:17:20 269.244 INF Time: 3.78m FPS: 59.86 Heap: 2123.5MB Max: 2235.7MB Chunks: 522 CGO: 49 Ply: 1 Zom: 0 Ent: 21 (63) Items: 1 CO: 1 RSS: 7745.0MB\n 2975  2020-08-08T18:17:42 290.899 INF VehicleManager saving 18 (18 / 0)\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-08-09__15-08-54.txt:\n  496  2020-08-09T15:12:20 158.026 ERR Vehicle properties for 'pjvehiclebicyclered' not found!\n  497  2020-08-09T15:12:20 158.067 ERR Vehicle properties for 'pjvehiclebicycleblack' not found!\n  498: 2020-08-09T15:12:20 158.071 ERR Vehicle properties for 'pjvehiclebicyclewhite' not found!\n  499  WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD' has no vertex shader\n  500  WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\7DaysToDie_Data\\output_log__2020-08-09__15-26-23.txt:\n  489  WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'FORWARD_DELTA' has no vertex shader\n  490  WARNING: Shader Unsupported: 'Autodesk Interactive' - Pass 'ShadowCaster' has no vertex shader\n  491: 2020-08-09T15:29:13 126.245 ERR Vehicle properties for 'pjvehiclebicyclewhite' not found!\n  492  2020-08-09T15:29:13 126.251 ERR Vehicle properties for 'pjvehiclebicycleblack' not found!\n  493  2020-08-09T15:29:13 126.281 ERR Vehicle properties for 'pjvehiclebicyclered' not found!\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\entityclasses.xml:\n  207  \t\t</entity_class>\n  208  \n  209: \t\t<entity_class name=\"pjVehicleBicycleWhite\" extends=\"vehicleBicycle\">\n  210  \t\t\t<property name=\"Tags\" value=\"vehicle\"/>\n  211  \t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/pjBicycles.unity3d?Bicycle_white\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\items.xml:\n  588  \t\t</item>\n  589  \n  590: \t\t<item name=\"pjVehicleBicycleWhitePlaceable\">\n  591  \t\t\t<property name=\"Extends\" value=\"vehicleMinibikePlaceable\"/>\n  592  \t\t\t<property name=\"DescriptionKey\" value=\"vehiclePlaceableBicycleDesc\"/>\n  ...\n  595  \t\t\t<property name=\"EconomicValue\" value=\"2500\"/>\n  596  \t\t\t<property class=\"Action1\">\n  597: \t\t\t\t<property name=\"Vehicle\" value=\"pjVehicleBicycleWhite\"/>\n  598  \t\t\t</property>\n  599: \t\t\t<effect_group name=\"pjVehicleBicycleWhitePlaceable\" tiered=\"false\">\n  600  \t\t\t\t<passive_effect name=\"ModSlots\" operation=\"base_set\" value=\"4\"/>\n  601  \t\t\t\t<passive_effect name=\"ModPowerBonus\" operation=\"base_add\" value=\"300\" tags=\"EconomicValue\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\Localization.txt:\n   41  pjVehicleBicyclePinkPlaceable,blocks,Block,New,\"Bicycle, Pink\"\n   42  pjVehicleBicycleRedPlaceable,blocks,Block,New,\"Bicycle, Red\"\n   43: pjVehicleBicycleWhitePlaceable,blocks,Block,New,\"Scrubed Bicycle\"\n   44  \n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\recipes.xml:\n  389  \n  390  \t\t<!-- Bicycles -->\n  391: \t\t<recipe name=\"pjVehicleBicycleWhitePlaceable\" count=\"1\">\n  392  \t\t\t<ingredient name=\"vehicleBicyclePlaceable\" count=\"1\"/>\n  393  \t\t\t<ingredient name=\"drinkJarGrainAlcohol\" count=\"2\"/>\n  394  \t\t</recipe>\n  395  \n  396: \t\t<recipe name=\"pjVehicleBicycleWhitePlaceable\" count=\"1\">\n  397  \t\t\t<ingredient name=\"pjVehicleBicycleBlackPlaceable\" count=\"1\"/>\n  398  \t\t\t<ingredient name=\"drinkJarGrainAlcohol\" count=\"2\"/>\n  399  \t\t</recipe>\n  400  \n  401: \t\t<recipe name=\"pjVehicleBicycleWhitePlaceable\" count=\"1\">\n  402  \t\t\t<ingredient name=\"pjVehicleBicycleBluePlaceable\" count=\"1\"/>\n  403  \t\t\t<ingredient name=\"drinkJarGrainAlcohol\" count=\"2\"/>\n  404  \t\t</recipe>\n  405  \n  406: \t\t<recipe name=\"pjVehicleBicycleWhitePlaceable\" count=\"1\">\n  407  \t\t\t<ingredient name=\"pjVehicleBicycleCyanPlaceable\" count=\"1\"/>\n  408  \t\t\t<ingredient name=\"drinkJarGrainAlcohol\" count=\"2\"/>\n  409  \t\t</recipe>\n  410  \n  411: \t\t<recipe name=\"pjVehicleBicycleWhitePlaceable\" count=\"1\">\n  412  \t\t\t<ingredient name=\"pjVehicleBicycleGreenPlaceable\" count=\"1\"/>\n  413  \t\t\t<ingredient name=\"drinkJarGrainAlcohol\" count=\"2\"/>\n  414  \t\t</recipe>\n  415  \n  416: \t\t<recipe name=\"pjVehicleBicycleWhitePlaceable\" count=\"1\">\n  417  \t\t\t<ingredient name=\"pjVehicleBicyclePinkPlaceable\" count=\"1\"/>\n  418  \t\t\t<ingredient name=\"drinkJarGrainAlcohol\" count=\"2\"/>\n  419  \t\t</recipe>\n  420  \n  421: \t\t<recipe name=\"pjVehicleBicycleWhitePlaceable\" count=\"1\">\n  422  \t\t\t<ingredient name=\"pjVehicleBicycleRedPlaceable\" count=\"1\"/>\n  423  \t\t\t<ingredient name=\"drinkJarGrainAlcohol\" count=\"2\"/>\n  ...\n  426  \n  427  \t\t<recipe name=\"vehicleBicyclePlaceable\" count=\"1\">\n  428: \t\t\t<ingredient name=\"pjVehicleBicycleWhitePlaceable\" count=\"1\"/>\n  429  \t\t\t<ingredient name=\"resourcePaint\" count=\"5\"/>\n  430  \t\t</recipe>\n  431  \n  432  \t\t<recipe name=\"pjVehicleBicycleBlackPlaceable\" count=\"1\">\n  433: \t\t\t<ingredient name=\"pjVehicleBicycleWhitePlaceable\" count=\"1\"/>\n  434  \t\t\t<ingredient name=\"resourcePaint\" count=\"5\"/>\n  435  \t\t</recipe>\n  436  \n  437  \t\t<recipe name=\"pjVehicleBicycleBluePlaceable\" count=\"1\">\n  438: \t\t\t<ingredient name=\"pjVehicleBicycleWhitePlaceable\" count=\"1\"/>\n  439  \t\t\t<ingredient name=\"resourcePaint\" count=\"5\"/>\n  440  \t\t</recipe>\n  441  \n  442  \t\t<recipe name=\"pjVehicleBicycleCyanPlaceable\" count=\"1\">\n  443: \t\t\t<ingredient name=\"pjVehicleBicycleWhitePlaceable\" count=\"1\"/>\n  444  \t\t\t<ingredient name=\"resourcePaint\" count=\"5\"/>\n  445  \t\t</recipe>\n  446  \n  447  \t\t<recipe name=\"pjVehicleBicycleGreenPlaceable\" count=\"1\">\n  448: \t\t\t<ingredient name=\"pjVehicleBicycleWhitePlaceable\" count=\"1\"/>\n  449  \t\t\t<ingredient name=\"resourcePaint\" count=\"5\"/>\n  450  \t\t</recipe>\n  451  \n  452  \t\t<recipe name=\"pjVehicleBicyclePinkPlaceable\" count=\"1\">\n  453: \t\t\t<ingredient name=\"pjVehicleBicycleWhitePlaceable\" count=\"1\"/>\n  454  \t\t\t<ingredient name=\"resourcePaint\" count=\"5\"/>\n  455  \t\t</recipe>\n  456  \n  457  \t\t<recipe name=\"pjVehicleBicycleRedPlaceable\" count=\"1\">\n  458: \t\t\t<ingredient name=\"pjVehicleBicycleWhitePlaceable\" count=\"1\"/>\n  459  \t\t\t<ingredient name=\"resourcePaint\" count=\"5\"/>\n  460  \t\t</recipe>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods\\PaintJob\\Config\\vehicles.xml:\n 4885  \t</vehicle>\n 4886  \n 4887: \t<vehicle name=\"pjVehicleBicycleWhite\">\n 4888  \n 4889  \t\t<property name=\"cameraDistance\" value=\"3, 4.5\"/>\n\n129 matches across 8 files\n",
-			"settings":
-			{
-				"buffer_size": 65625,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"contents": "<configs>\n\t\n\t<append xpath=\"/entity_classes\">\n\n\t\t<entity_class name=\"maVehicleMotorcycleNoSpike\">\n\t\t\t<property name=\"Tags\" value=\"vehicle\"/>\n\t\t\t<property name=\"Class\" value=\"EntityMotorcycle\"/>\n\t\t\t<property name=\"Parent\" value=\"Cars\"/>\n\t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_nospike\"/>\n\t\t\t<property name=\"ModelType\" value=\"Standard\"/>\n\t\t\t<property name=\"SurfaceCategory\" value=\"metal\"/>\n\t\t\t<property name=\"IgnoreTrigger\" value=\"true\"/>\n\t\t\t<property name=\"LootListAlive\" value=\"78\"/>\n\t\t\t<property name=\"IsEnemyEntity\" value=\"false\"/>\n\t\t\t<property name=\"Explosion.ParticleIndex\" value=\"6\"/>\n\t\t\t<property name=\"Explosion.RadiusBlocks\" value=\"4\"/>\n\t\t\t<property name=\"Explosion.RadiusEntities\" value=\"4\"/>\n\t\t\t<property name=\"Explosion.BlockDamage\" value=\"50\"/>\n\t\t\t<property name=\"Explosion.EntityDamage\" value=\"50\"/>\n\t\t\t<property name=\"RotateToGround\" value=\"true\"/>\n\t\t\t<property name=\"Faction\" value=\"none\"/>\n\t\t\t<property name=\"MapIcon\" value=\"ui_game_symbol_motorcycle\"/>\n\t\t\t<property name=\"NavObject\" value=\"motorcycle\" />\n\t\t</entity_class>\n\n\t\t<entity_class name=\"maVehicleMotorcycleNoShield\">\n\t\t\t<property name=\"Tags\" value=\"vehicle\"/>\n\t\t\t<property name=\"Class\" value=\"EntityMotorcycle\"/>\n\t\t\t<property name=\"Parent\" value=\"Cars\"/>\n\t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_noshield\"/>\n\t\t\t<property name=\"ModelType\" value=\"Standard\"/>\n\t\t\t<property name=\"SurfaceCategory\" value=\"metal\"/>\n\t\t\t<property name=\"IgnoreTrigger\" value=\"true\"/>\n\t\t\t<property name=\"LootListAlive\" value=\"78\"/>\n\t\t\t<property name=\"IsEnemyEntity\" value=\"false\"/>\n\t\t\t<property name=\"Explosion.ParticleIndex\" value=\"6\"/>\n\t\t\t<property name=\"Explosion.RadiusBlocks\" value=\"4\"/>\n\t\t\t<property name=\"Explosion.RadiusEntities\" value=\"4\"/>\n\t\t\t<property name=\"Explosion.BlockDamage\" value=\"50\"/>\n\t\t\t<property name=\"Explosion.EntityDamage\" value=\"50\"/>\n\t\t\t<property name=\"RotateToGround\" value=\"true\"/>\n\t\t\t<property name=\"Faction\" value=\"none\"/>\n\t\t\t<property name=\"MapIcon\" value=\"ui_game_symbol_motorcycle\"/>\n\t\t\t<property name=\"NavObject\" value=\"motorcycle\" />\n\t\t</entity_class>\n\n\t\t<entity_class name=\"maVehicleMotorcycleNoHood\">\n\t\t\t<property name=\"Tags\" value=\"vehicle\"/>\n\t\t\t<property name=\"Class\" value=\"EntityMotorcycle\"/>\n\t\t\t<property name=\"Parent\" value=\"Cars\"/>\n\t\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_nohood\"/>\n\t\t\t<property name=\"ModelType\" value=\"Standard\"/>\n\t\t\t<property name=\"SurfaceCategory\" value=\"metal\"/>\n\t\t\t<property name=\"IgnoreTrigger\" value=\"true\"/>\n\t\t\t<property name=\"LootListAlive\" value=\"78\"/>\n\t\t\t<property name=\"IsEnemyEntity\" value=\"false\"/>\n\t\t\t<property name=\"Explosion.ParticleIndex\" value=\"6\"/>\n\t\t\t<property name=\"Explosion.RadiusBlocks\" value=\"4\"/>\n\t\t\t<property name=\"Explosion.RadiusEntities\" value=\"4\"/>\n\t\t\t<property name=\"Explosion.BlockDamage\" value=\"50\"/>\n\t\t\t<property name=\"Explosion.EntityDamage\" value=\"50\"/>\n\t\t\t<property name=\"RotateToGround\" value=\"true\"/>\n\t\t\t<property name=\"Faction\" value=\"none\"/>\n\t\t\t<property name=\"MapIcon\" value=\"ui_game_symbol_motorcycle\"/>\n\t\t\t<property name=\"NavObject\" value=\"motorcycle\" />\n\t\t</entity_class>\n\n\t</append>\n\n\t<!-- Change the model for the standard Motorcycle (now with headlight and taillight) -->\n\t<insertAfter xpath=\"//property[@name='Prefab'][@value='#Entities/Vehicles?motorcycle_Prefab.prefab']\">\n\t\t<property name=\"Prefab\" value=\"#@modfolder:Resources/maMoto.unity3d?Motorcycle_custom_with_lights\"/>\n\t</insertAfter>\n\t<remove xpath=\"//property[@name='Prefab'][@value='#Entities/Vehicles?motorcycle_Prefab.prefab']\" />\n\n</configs>",
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Config/entityclasses.xml",
-			"file_size": 3688,
-			"file_write_time": 132387136785680254,
-			"settings":
-			{
-				"buffer_size": 3613,
 				"line_ending": "Windows"
 			}
 		}
@@ -264,21 +171,44 @@
 	],
 	"file_history":
 	[
-		"/X/Git Repo/7dtd-spantan-multiplayer-bundle/Mods/PaintJob/Release Notes.md",
-		"/X/Git Repo/7dtd-spantan-multiplayer-bundle/Release Notes-PaintJob.md",
-		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa25988.34074/items.xml",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/webpermissions.xml",
+		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/webpermissions.xml",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/Hizuti Mountains/serverconfig.xml",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/Ceruho Valley/serverconfig.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/entityclasses.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/items.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/Localization.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Prefabs/house_old_gambrel_03.xml",
+		"/X/Git Repo/7dtd-spantan-multiplayer-bundle/Release Notes-PaintJob.md",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/recipes.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/blockplaceholders.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/biomes.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/vehicles.xml",
+		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/serverconfig.xml",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/Hizuti Mountains/GenerationInfo.txt",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/Hizuti Mountains/map_info.xml",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/Waistland Only Valley/checksums.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-08-17__18-48-06.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-08-17__12-26-35.txt",
+		"/D/@sffebooks/@SFF Collection/_Admin/SFFVersion.txt",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/FileAnalyzer/MapAnalysis_-1.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-08-15__22-33-47.txt",
+		"/X/Unity/New Empty Project/ProjectSettings/TagManager.asset",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-08-15__15-08-13.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Config/entityclasses.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-08-09__15-26-23.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-08-15__12-47-00.txt",
+		"/X/Git Repo/7dtd-spantan-multiplayer-bundle/Mods/PaintJob/Config/entityclasses.xml",
+		"/X/Git Repo/Sycnex/Windows10Debloater/README.md",
+		"/X/Git Repo/7dtd-spantan-multiplayer-bundle/Mods/PaintJob/Release Notes.md",
+		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa25988.34074/items.xml",
 		"/D/7dtd/7dtdMods/README.md",
 		"/D/7dtd/7dtdMods/EricMods/ModInfo.xml",
 		"/D/7dtd/7dtdMods/EricMods/Config/items.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/items.xml",
 		"/X/Git Repo/7dtd-spantan-multiplayer-bundle/README.md",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
 		"/D/7dtd/7dtdMods/EricMods/Config/vehicules.xml",
 		"/D/7dtd/7dtdMods/EricMods/Config/materials.xml",
 		"/D/7dtd/7dtdMods/EricMods/Config/loot.xml",
@@ -298,7 +228,6 @@
 		"/C/Users/Eric/AppData/Roaming/7D2DModLauncher/ModletsRepo/README.md",
 		"/C/Users/Eric/AppData/Roaming/7D2DModLauncher/ModLauncher.txt",
 		"/C/Program Files/SphereII Software/7D2D Mod Launcher Installer/7D2DLauncher.exe.config",
-		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/serverconfig.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/buffs.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
 		"/X/Git Repo/HAL-NINE-THOUSAND/DMT/README.md",
@@ -312,7 +241,6 @@
 		"/C/ProgramData/Git/config",
 		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa27264.25756/ModInfo.xml",
 		"/X/Unity/Vehicles/Editor/FixBlenderImportRotation.cs",
-		"/D/@sffebooks/@SFF Collection/_Admin/SFFVersion.txt",
 		"/D/7dtd/7dtdMods/PaintJob/Release Notes.md",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/3C5EABB95A1EDD41B82F5A0C405D3DAD/hosts.txt",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/0B9E3193DE4700428854C4728B740226/hosts.txt",
@@ -320,7 +248,6 @@
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/ModInfo.xml",
 		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa21556.21027/items.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/vehicles.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Config/entityclasses.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config/blocks.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/Config/vehicles.xml",
 		"/D/7dtd/7dtdMods/Buggies/ModInfo.xml",
@@ -371,27 +298,7 @@
 		"/D/7dtd/7dtdMods/PaintJob/ModInfo.xml",
 		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa28444.21268/vehicles.xml",
 		"/C/Steam/steamapps/common/7 Days To Die - 18.4 (last version)/Data/Config/vehicles.xml",
-		"/X/Git Repo/gitIntruder/7DTD/Config/vehicles.xml",
-		"/X/Git Repo/War3zuk/War3zuk-Alpha-19-Stable-AIO/Config/vehicles.xml",
-		"/X/Git Repo/gitIntruder/7DTD/README.md",
-		"/X/Git Repo/gitIntruder/7DTD/ModInfo.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/sharedassets1.assets.resS",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/sharedassets1.assets",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/sharedassets0.resource",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/resources.resource",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/resources.assets.resS",
-		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa11596.47497/ModInfo.xml",
-		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa11596.46487/entityclasses.xml",
-		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/configstore_log.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-07-11__18-14-04.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/Localization.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-07-11__10-01-29.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-07-11__10-16-50.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-07-11__10-49-45.txt",
-		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa19436.7796/ModInfo.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/UIAtlases/ItemIconAtlas/vehicleMotorcyclePlaceable.png",
-		"/D/7dtd/7dtdMods/JeepAlterations/Release Notes.md",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/Config/Localization.txt"
+		"/X/Git Repo/gitIntruder/7DTD/Config/vehicles.xml"
 	],
 	"find":
 	{
@@ -418,6 +325,40 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"minibike",
+			"perkAdvancedEngineering",
+			"workingStiffsSub",
+			"workstationToolsScaled",
+			"forgeLoot",
+			"workstationToolsScaled",
+			"cruci",
+			"ProbT2",
+			"schematicsToolsT2",
+			"waste",
+			"deco_shale_vein",
+			"oil",
+			"terrOreLead",
+			"oil",
+			"Nitrate",
+			"oil",
+			"pjVehicleMinibikeYellow",
+			"pjVehicleMinibikeTeal",
+			"pjVehicleMinibikeRed",
+			"pjVehicleMinibikePink",
+			"pjVehicleMinibikeGreen",
+			"pjVehicleMinibikeBlue",
+			"pjVehicleMinibikeBlack",
+			"pjVehicleMinibikeWhite",
+			",blocks",
+			"Black",
+			"pjVehicleMinibikeWhite",
+			"resourceAcid",
+			"vehicleMinibike",
+			"vehicleMinibikePlaceable",
+			"Minibike_base",
+			"pjVehicleMinibikeWhitePlaceable",
+			"minibike",
+			"pjVehicleMinibikeWhite",
 			"Bicycle",
 			"minibik",
 			"Placeable",
@@ -511,41 +452,7 @@
 			"SetTransformActive",
 			"silencer",
 			"modGunDrumMagazineExtender",
-			"mod",
-			"permission_level_mod",
-			"sto",
-			"prefabList",
-			"id='17'",
-			"id='6'",
-			"velocityMax",
-			"4x4",
-			"velocityMax",
-			"jaVehicleDuneBuggey",
-			"javehicle4x4dunebuggey",
-			"4x4",
-			"javehicle4x4dunebuggey",
-			"jaVehicle4x4TruckNoShield",
-			"-->\n",
-			"cntStorageGenericSigned",
-			"SecureLootSigned",
-			"write",
-			"pjJeeps2.unity3d",
-			"vehicle4x4TruckPlaceble",
-			"paJeeps2.unity3d",
-			"paJeeps2.unity3d?var_Jeep_white",
-			"paJeeps2.unity3d",
-			"pj2Jeeps",
-			"jaJeeps",
-			"TShirt",
-			"Clothing",
-			"pjVehicle4x4TruckMissSpartan",
-			"vehicleMinibikePlaceable",
-			"ext",
-			"extend",
-			"ItemTypeIcon",
-			"car",
-			"PlaceAltBlockValue",
-			"item"
+			"mod"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -584,7 +491,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -611,110 +518,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/entityclasses.xml",
+					"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/Hizuti Mountains/serverconfig.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10709,
+						"buffer_size": 12526,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9913,
-								10146
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3290.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/items.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 32394,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								31034,
-								31817
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2051.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/Localization.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6283,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5637,
-								5637
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 756.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1637,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1626,
-								1626
+								0,
+								0
 							]
 						],
 						"settings":
@@ -724,81 +545,47 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/PaintJob.png",
-					"semi_transient": true,
-					"stack_index": 8,
-					"type": "image"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2450,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								283,
-								424
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 54.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/X/Git Repo/Sycnex/Windows10Debloater/README.md",
-					"semi_transient": false,
+					"buffer": 2,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/vehicles.xml",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 6350,
+						"buffer_size": 28655,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								15814,
+								15858
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 702.0,
+						"translation.y": 6686.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "/X/Git Repo/7dtd-spantan-multiplayer-bundle/Release Notes-PaintJob.md",
+					"buffer": 3,
+					"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/Ceruho Valley/serverconfig.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2450,
+						"buffer_size": 12501,
 						"regions":
 						{
 						},
@@ -807,35 +594,6 @@
 							[
 								0,
 								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/X/Git Repo/7dtd-spantan-multiplayer-bundle/Mods/PaintJob/Config/entityclasses.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10709,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9898,
-								9901
 							]
 						],
 						"settings":
@@ -843,691 +601,10 @@
 							"syntax": "Packages/XML/XML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3598.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/recipes.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 19448,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								147,
-								147
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/vehicles.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 201596,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								201571,
-								201571
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2636.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-08-09__15-26-23.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 30651,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								26012,
-								26033
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 8396.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 65625,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										415,
-										436
-									],
-									[
-										1012,
-										1033
-									],
-									[
-										1672,
-										1693
-									],
-									[
-										2213,
-										2234
-									],
-									[
-										2754,
-										2775
-									],
-									[
-										3295,
-										3316
-									],
-									[
-										3836,
-										3857
-									],
-									[
-										4377,
-										4398
-									],
-									[
-										4918,
-										4939
-									],
-									[
-										5459,
-										5480
-									],
-									[
-										6000,
-										6021
-									],
-									[
-										6541,
-										6562
-									],
-									[
-										7082,
-										7103
-									],
-									[
-										7623,
-										7644
-									],
-									[
-										8164,
-										8185
-									],
-									[
-										8705,
-										8726
-									],
-									[
-										9246,
-										9267
-									],
-									[
-										9787,
-										9808
-									],
-									[
-										10328,
-										10349
-									],
-									[
-										10869,
-										10890
-									],
-									[
-										11410,
-										11431
-									],
-									[
-										11951,
-										11972
-									],
-									[
-										12492,
-										12513
-									],
-									[
-										13033,
-										13054
-									],
-									[
-										13574,
-										13595
-									],
-									[
-										14115,
-										14136
-									],
-									[
-										14656,
-										14677
-									],
-									[
-										15197,
-										15218
-									],
-									[
-										15738,
-										15759
-									],
-									[
-										16279,
-										16300
-									],
-									[
-										16820,
-										16841
-									],
-									[
-										17361,
-										17382
-									],
-									[
-										17902,
-										17923
-									],
-									[
-										18443,
-										18464
-									],
-									[
-										18984,
-										19005
-									],
-									[
-										19525,
-										19546
-									],
-									[
-										20066,
-										20087
-									],
-									[
-										20607,
-										20628
-									],
-									[
-										21148,
-										21169
-									],
-									[
-										21689,
-										21710
-									],
-									[
-										22230,
-										22251
-									],
-									[
-										22771,
-										22792
-									],
-									[
-										23312,
-										23333
-									],
-									[
-										23853,
-										23874
-									],
-									[
-										24394,
-										24415
-									],
-									[
-										24935,
-										24956
-									],
-									[
-										25476,
-										25497
-									],
-									[
-										26017,
-										26038
-									],
-									[
-										26558,
-										26579
-									],
-									[
-										27099,
-										27120
-									],
-									[
-										27640,
-										27661
-									],
-									[
-										28181,
-										28202
-									],
-									[
-										28722,
-										28743
-									],
-									[
-										29263,
-										29284
-									],
-									[
-										29804,
-										29825
-									],
-									[
-										30345,
-										30366
-									],
-									[
-										30886,
-										30907
-									],
-									[
-										31427,
-										31448
-									],
-									[
-										31968,
-										31989
-									],
-									[
-										32509,
-										32530
-									],
-									[
-										33050,
-										33071
-									],
-									[
-										33591,
-										33612
-									],
-									[
-										34132,
-										34153
-									],
-									[
-										34673,
-										34694
-									],
-									[
-										35214,
-										35235
-									],
-									[
-										35755,
-										35776
-									],
-									[
-										36296,
-										36317
-									],
-									[
-										36837,
-										36858
-									],
-									[
-										37378,
-										37399
-									],
-									[
-										37919,
-										37940
-									],
-									[
-										38460,
-										38481
-									],
-									[
-										39001,
-										39022
-									],
-									[
-										39543,
-										39564
-									],
-									[
-										40088,
-										40109
-									],
-									[
-										40633,
-										40654
-									],
-									[
-										41178,
-										41199
-									],
-									[
-										41723,
-										41744
-									],
-									[
-										42269,
-										42290
-									],
-									[
-										42815,
-										42836
-									],
-									[
-										43361,
-										43382
-									],
-									[
-										43907,
-										43928
-									],
-									[
-										44453,
-										44474
-									],
-									[
-										44999,
-										45020
-									],
-									[
-										45544,
-										45565
-									],
-									[
-										46089,
-										46110
-									],
-									[
-										46634,
-										46655
-									],
-									[
-										47179,
-										47200
-									],
-									[
-										47723,
-										47744
-									],
-									[
-										48264,
-										48285
-									],
-									[
-										48805,
-										48826
-									],
-									[
-										49346,
-										49367
-									],
-									[
-										49887,
-										49908
-									],
-									[
-										50428,
-										50449
-									],
-									[
-										50969,
-										50990
-									],
-									[
-										51510,
-										51531
-									],
-									[
-										52051,
-										52072
-									],
-									[
-										52592,
-										52613
-									],
-									[
-										53133,
-										53154
-									],
-									[
-										53674,
-										53695
-									],
-									[
-										54215,
-										54236
-									],
-									[
-										54756,
-										54777
-									],
-									[
-										55297,
-										55318
-									],
-									[
-										55838,
-										55859
-									],
-									[
-										56379,
-										56400
-									],
-									[
-										56920,
-										56941
-									],
-									[
-										57605,
-										57626
-									],
-									[
-										58215,
-										58236
-									],
-									[
-										58771,
-										58792
-									],
-									[
-										59327,
-										59348
-									],
-									[
-										59975,
-										59996
-									],
-									[
-										60572,
-										60593
-									],
-									[
-										60941,
-										60962
-									],
-									[
-										61258,
-										61279
-									],
-									[
-										61583,
-										61604
-									],
-									[
-										61660,
-										61681
-									],
-									[
-										62113,
-										62134
-									],
-									[
-										62320,
-										62341
-									],
-									[
-										62540,
-										62561
-									],
-									[
-										62767,
-										62788
-									],
-									[
-										62993,
-										63014
-									],
-									[
-										63219,
-										63240
-									],
-									[
-										63446,
-										63467
-									],
-									[
-										63672,
-										63693
-									],
-									[
-										63948,
-										63969
-									],
-									[
-										64168,
-										64189
-									],
-									[
-										64387,
-										64408
-									],
-									[
-										64606,
-										64627
-									],
-									[
-										64826,
-										64847
-									],
-									[
-										65045,
-										65066
-									],
-									[
-										65263,
-										65284
-									],
-									[
-										65507,
-										65528
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								1266,
-								1266
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 2,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 11772.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/MotorcycleAlterations/Config/entityclasses.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3613,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3501,
-								3602
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
 					"type": "text"
 				}
 			]
@@ -1572,7 +649,7 @@
 	"project": "GameDirectory.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 71.0
 	},
 	"save_all_on_build": true,
 	"select_file":
