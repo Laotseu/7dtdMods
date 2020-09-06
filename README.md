@@ -46,7 +46,7 @@ StorageSize v1.04 (Alpha 19)
 ----------------------------
 
 <img align="left" width="25%" height="25%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/StorageSize/StorageSize.png" />
-All the storage containers that can be selected with the new crateble **Wooden Storage / Furniture** have the same number of container slots (8 x 9). The containers in questions are: Storage Box, Cabinet, Cupboard, Bookcase, Pillcase, Dresser, and Wooden Desk.<br />
+All the storage containers that can be selected with the new crateble **Wooden Storage / Furniture** have the same number of container slots (8 x 9). The containers in questions are: Storage Box, Cabinet, Cupboard, Bookcase, Pillcase, Dresser, and Wooden Desk.<br /><br />
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/StorageSize_v1.04/StorageSize_v1.03.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/StorageSize_v1.04)<br /><br /><br /><br /><br /><br /><br /><br />
