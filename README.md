@@ -45,11 +45,11 @@ Add custom blocks and items for all the Grand Spartan's fans out there.<br />
 StorageSize v1.04 (Alpha 19)
 ----------------------------
 
-<img align="left" width="50%" height="50%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/StorageSize/StorageSize.png" />
-All the storage containers that can be selected with the new crateble **Wooden Storage / Furniture** have the same number of container slots (8 x 9). The containers in questions are: Storage Box, Cabinet, Cupboard, Bookcase, Pillcase, Dresser, and Wooden Desk
+<img align="left" width="25%" height="25%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/StorageSize/StorageSize.png" />
+All the storage containers that can be selected with the new crateble **Wooden Storage / Furniture** have the same number of container slots (8 x 9). The containers in questions are: Storage Box, Cabinet, Cupboard, Bookcase, Pillcase, Dresser, and Wooden Desk.<br />
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/StorageSize_v1.04/StorageSize_v1.03.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/StorageSize_v1.04)
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/StorageSize_v1.04)<br /><br /><br /><br /><br /><br /><br /><br />
 
 ActivateBagLockSlots v1.0 (Alpha 19 b177+)
 ------------------------------------------
@@ -59,7 +59,7 @@ ActivateBagLockSlots v1.0 (Alpha 19 b177+)
 This is a very simple mod for Alpha 19 b177 and up that activate the **Locked Slots** control for the player's inventory.
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/ActivateBagLockSlots_v1.0/ActivateBagLockSlots_v1.0.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/ActivateBagLockSlots_v1.0)<br /><br /><br /><br /><br /><br /><br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/ActivateBagLockSlots_v1.0)<br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 Castle Spartan (on GitLab)
 --------------------------
