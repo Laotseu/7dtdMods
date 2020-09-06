@@ -4,7 +4,9 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
-* 1.3:
+* 1.3: Bug fixes
+	- Secure Armors Storage now available to players (only could use Insecure version before)
+	- Writable Storage now get drop in your inventory if you destroy it
 * 1.2: Alpha 19 fixes 
 	- Fix: The wood container variant block changed name with Alpha 19
 	- Work on textures to make them look better with new lighting system
