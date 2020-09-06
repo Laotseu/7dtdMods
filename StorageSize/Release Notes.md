@@ -1,5 +1,7 @@
 **StorageSize** is a 7 Days to Die modlet that makes craftable and buyable storage blocks capacity the same as the Secure Chest.
 
+![StorageSize screen shot](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/StorageSize/StorageSize.png)
+
 * v1.04: Fixed for new Alpha 19 loots.xml file
 * v1.03: Added desk and wall safes
 * v1.02: Added file cabinets
