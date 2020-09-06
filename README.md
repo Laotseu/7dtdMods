@@ -4,13 +4,13 @@ Mods for the game 7 Days to Die
 
 [Installation instructions](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)
 
-MoreContainers v1.2 (Alpha 19)
+MoreContainers v1.3 (Alpha 19)
 ------------------------------
 
 <img align="left" width="30%" height="30%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/MoreContainers_v1.2/MoreContainers/MoreContainers.png" />Do you have friends that can't help themselves and store everything in a specific box for each type of items? I do. This mods add new graphic designs for the storage boxes and also add half-block versions of the storage boxes (for more headspace).
 
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreContainers_v1.2/MoreContainers_v1.2.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreContainers_v1.2)<br /><br /><br /><br /><br />
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreContainers_v1.3/MoreContainers_v1.3.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreContainers_v1.3)<br /><br /><br /><br /><br />
 
 MotorcycleAlterations v1.3 (Alpha 19)
 -------------------------------------
@@ -42,16 +42,17 @@ Add custom blocks and items for all the Grand Spartan's fans out there.<br />
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/SpartanBlocks_v1.8/SpartanBlocks_v1.8.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/SpartanBlocks_v1.8)<br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-StorageSize v1.03 (Alpha 19)
+StorageSize v1.04 (Alpha 19)
 ----------------------------
 
+<img align="left" width="50%" height="50%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/StorageSize/StorageSize.png" />
 All the storage containers that can be selected with the new crateble **Wooden Storage / Furniture** have the same number of container slots (8 x 9). The containers in questions are: Storage Box, Cabinet, Cupboard, Bookcase, Pillcase, Dresser, and Wooden Desk
 
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/StorageSize_v1.03/StorageSize_v1.03.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/StorageSize_v1.03)
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/StorageSize_v1.04/StorageSize_v1.03.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/StorageSize_v1.04)
 
 ActivateBagLockSlots v1.0 (Alpha 19 b177+)
-------------------------------------
+------------------------------------------
 
 <img align="left" width="40%" height="40%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/ActivateBagLockSlots_v1.0/ActivateBagLockSlots/ActivateBagLockSlots.png" />
 
