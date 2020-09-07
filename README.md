@@ -54,7 +54,8 @@ All the storage containers that can be selected with the new crateble **Wooden S
 Wasteland Only Valley (Alpha 19)
 --------------------------------
 
-My friend [Grand Spartan](https://www.youtube.com/channel/UCTZtWpMAkNJGcvNT5lER45g) asked me for a world that only one biome: Wasteland. Some people watching the stream asked if they could have a copy of the world. [Here's the link to download it](https://github.com/Laotseu/7dtd-spantan-multiplayer-bundle/tree/master/Worlds).
+<img align="left" width="25%" height="25%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtd-spantan-multiplayer-bundle/master/Worlds/wasteland_series.png" />My friend [Grand Spartan](https://www.youtube.com/channel/UCTZtWpMAkNJGcvNT5lER45g) asked me for a world that only one biome: Wasteland. Some people watching the stream asked if they could have a copy of the world. [Here's the link to download it](https://github.com/Laotseu/7dtd-spantan-multiplayer-bundle/tree/master/Worlds).
+<br /><br /><br /><br />
 
 ActivateBagLockSlots v1.0 (Alpha 19 b177+)
 ------------------------------------------
