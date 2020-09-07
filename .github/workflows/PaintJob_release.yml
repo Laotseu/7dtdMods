@@ -30,7 +30,7 @@ jobs:
           mkdir ./Mods
           mv ./PaintJob/Release\ Notes.md .
           mv ./PaintJob ./Mods
-          rm -r ./Mods/Resources-War3zUK
+          rm -r ./Mods/PaintJob/Resources-War3zUK
           zip -r ${ZIPNAME} Mods Release\ Notes.md Modlet\ Installation.md
       - name: Create Release
         id: create_release
