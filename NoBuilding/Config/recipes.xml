@@ -1,0 +1,22 @@
+<recipes>
+
+	<!-- Remove the ability for players to get Concrete Mix and Blocks -->
+	<remove xpath="//recipe[@name='pouredConcreteBlockVariantHelper']" />
+	<remove xpath="//recipe[@name='resourceConcreteMix']" />
+
+	<!-- Remove player access structural blocks made of steel -->
+	<remove xpath="//recipe[@name='cntGunSafe']" />
+	<remove xpath="//recipe[@name='cntGreenDrawerSecure']" />
+	<remove xpath="//recipe[@name='garageDoorMetal_v1Powered']" />
+	<remove xpath="//recipe[@name='garageDoorIndustrial_Powered']" />
+	<remove xpath="//recipe[@name='ladderSteel']" />
+	<remove xpath="//recipe[@name='vaultDoor01']" />
+	<remove xpath="//recipe[@name='vaultHatch_v1']" />
+	<remove xpath="//recipe[@name='vaultHatch_v3_Powered']" />
+	<remove xpath="//recipe[@name='vaultHatch_v3_Powered']" />
+	<remove xpath="//recipe[@name='vaultDoor01']" />
+	<remove xpath="//recipe[@name='vaultHatch_v1']" />
+	<remove xpath="//recipe[@name='vaultHatch_v3_Powered']" />
+	<remove xpath="//recipe[@name='vaultDoor03_Powered']" />
+
+</recipes>

@@ -1,0 +1,9 @@
+<blocks>
+
+	<!-- No using steel to upgrade stuff -->
+	<remove xpath="//block[@name='ladderMetal']/property[@class='UpgradeBlock']" />
+	<remove xpath="//block[@name='vaultDoor01']/property[@class='UpgradeBlock']" />
+	<remove xpath="//block[@name='rScrapIronLogSpike5']/property[@class='UpgradeBlock']" />
+	<remove xpath="//block[@name='rConcreteMaster']/property[@class='UpgradeBlock']" />
+
+</blocks>

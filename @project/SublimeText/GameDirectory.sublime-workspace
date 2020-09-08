@@ -56,28 +56,101 @@
 			}
 		},
 		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/StorageSize/Release Notes.md",
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoBuilding/Config/recipes.xml",
 			"settings":
 			{
-				"buffer_size": 744,
+				"buffer_size": 1019,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/D/7dtd/7dtdMods/README.md",
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoBuilding/Config/traders.xml",
 			"settings":
 			{
-				"buffer_size": 7777,
+				"buffer_size": 150,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/Ceruho Valley/serverconfig.xml",
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoBuilding/Disabled-ModInfo.xml",
 			"settings":
 			{
-				"buffer_size": 12501,
+				"buffer_size": 406,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoBuilding/Release Notes.md",
+			"settings":
+			{
+				"buffer_size": 384,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<loot>\t\n\t<!-- Remove the ability for players to get Concrete Mix and Blocks -->\n\t<remove xpath=\"//item[@name='resourceConcreteMix']\" />\n\n\t<!-- More feathers -->\n\t<!-- <set xpath=\"//item[@name='resourceFeather']/@count\">2,10</set> -->\n</loot>",
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoBuilding/Config/loot.xml",
+			"file_size": 174,
+			"file_write_time": 132440492319428142,
+			"settings":
+			{
+				"buffer_size": 241,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/recipes.xml",
+			"settings":
+			{
+				"buffer_size": 173944,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 814 files for \"resourceForgedSteel\"\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\blocks.xml:\n 1133  \t<property class=\"UpgradeBlock\">\n 1134  \t\t<property name=\"ToBlock\" value=\"steelMaster\"/>\n 1135: \t\t<property name=\"Item\" value=\"resourceForgedSteel\"/>\n 1136  \t\t<property name=\"ItemCount\" value=\"10\"/>\n 1137  \t\t<property name=\"UpgradeHitCount\" value=\"4\"/>\n ....\n 1157  \t<!-- <property name=\"ImposterExchange\" value=\"imposterBlock\" param1=\"112\"/> -->\n 1158  \t<property name=\"CreativeMode\" value=\"None\"/>\n 1159: \t<property class=\"RepairItems\"> <property name=\"resourceForgedSteel\" value=\"8\"/> </property>\n 1160  \t<property name=\"CustomUpgradeSound\" value=\"place_block_metal\"/>\n 1161  \t<drop event=\"Harvest\" name=\"resourceScrapIron\" count=\"15\" tag=\"allHarvest\"/>\n ....\n 1178  \t<!-- <property name=\"ImposterExchange\" value=\"imposterBlock\" param1=\"77\"/> -->\n 1179  \t<property name=\"CreativeMode\" value=\"None\"/>\n 1180: \t<property class=\"RepairItems\"> <property name=\"resourceForgedSteel\" value=\"12\"/> </property>\n 1181  \t<drop event=\"Harvest\" name=\"resourceScrapIron\" count=\"15\" tag=\"allHarvest\"/>\n 1182  \t<drop event=\"Destroy\" count=\"0\"/>\n ....\n 13718  \t<property class=\"UpgradeBlock\">\n 13719  \t\t<property name=\"ToBlock\" value=\"ladderSteel\"/>\n 13720: \t\t<property name=\"Item\" value=\"resourceForgedSteel\"/>\n 13721  \t\t<property name=\"ItemCount\" value=\"5\"/>\n 13722  \t\t<property name=\"UpgradeHitCount\" value=\"4\"/>\n .....\n 13742  \t<property name=\"ImposterExclude\" value=\"true\"/>\n 13743  \t<property name=\"Collide\" value=\"movement,melee,rocket\"/>\n 13744: \t<property class=\"RepairItems\"> <property name=\"resourceForgedSteel\" value=\"4\"/> </property>\n 13745  \t<property name=\"CustomUpgradeSound\" value=\"place_block_metal\"/>\n 13746  \t<property name=\"DowngradeBlock\" value=\"ladderMetal\"/>\n .....\n 20133  \t\t<property name=\"LockPickTime\" value=\"20\"/>\n 20134  \t\t<property name=\"LockPickBreakChance\" value=\"0.75\"/>\n 20135: \t<property class=\"RepairItems\"> <property name=\"resourceForgedSteel\" value=\"30\"/> </property>\n 20136  \t<drop event=\"Destroy\" count=\"0\"/>\n 20137  \t<drop event=\"Fall\" name=\"scrapMetalPile\" count=\"1\" prob=\"0.75\" stick_chance=\"1\"/>\n .....\n 20155  \t<property name=\"Class\" value=\"Loot\"/>\n 20156  \t<property name=\"LootList\" value=\"7\"/>\n 20157: \t<property class=\"RepairItems\"> <property name=\"resourceForgedSteel\" value=\"30\"/> </property>\n 20158  \t<drop event=\"Harvest\" name=\"terrStone\" count=\"0\" tool_category=\"Disassemble\"/>\n 20159  \t<drop event=\"Harvest\" name=\"\" count=\"0\" tag=\"salvageHarvest\"/>\n .....\n 20161  \t<drop event=\"Destroy\" count=\"0\"/>\n 20162  \t<drop event=\"Harvest\" name=\"resourceForgedIron\" count=\"8,12\" tag=\"salvageHarvest\"/>\n 20163: \t<drop event=\"Harvest\" name=\"resourceForgedSteel\" count=\"2,4\" tag=\"salvageHarvest\"/>\n 20164  \t<drop event=\"Destroy\" name=\"resourceSpring\" count=\"1,5\" tag=\"salvageHarvest\"/>\n 20165  \t<drop event=\"Destroy\" name=\"resourceMechanicalParts\" count=\"1,5\" tag=\"salvageHarvest\"/>\n .....\n 20215  \t<drop event=\"Destroy\" count=\"0\"/>\n 20216  \t<drop event=\"Harvest\" name=\"resourceForgedIron\" count=\"16,24\" tag=\"salvageHarvest\"/>\n 20217: \t<drop event=\"Harvest\" name=\"resourceForgedSteel\" count=\"1,2\" tag=\"salvageHarvest\"/>\n 20218  \t<drop event=\"Destroy\" name=\"resourceSpring\" count=\"2,8\" tag=\"salvageHarvest\"/>\n 20219  \t<drop event=\"Destroy\" name=\"resourceMechanicalParts\" count=\"2,10\" tag=\"salvageHarvest\"/>\n .....\n 21670  \t<property name=\"Model\" value=\"mortician_drawer\"/> <property name=\"Place\" value=\"TowardsPlacerInverted\"/>\n 21671  \t<property name=\"Texture\" value=\"191,446,446,307,307,307\"/>\n 21672: \t<property class=\"RepairItems\"> <property name=\"resourceForgedSteel\" value=\"10\"/> </property>\n 21673  \t<drop event=\"Harvest\" name=\"resourceScrapIron\" count=\"60\" tag=\"allHarvest\"/>\n 21674  \t<drop event=\"Destroy\" count=\"0\"/>\n .....\n 23652  \t<property name=\"IsTerrainDecoration\" value=\"true\"/>\n 23653  \t<property name=\"Place\" value=\"TowardsPlacerInverted\"/>\n 23654: \t<property class=\"RepairItems\"> <property name=\"resourceForgedSteel\" value=\"5\"/> </property>\n 23655  \t<property name=\"Stacknumber\" value=\"10\"/>\n 23656  \t<property name=\"EconomicValue\" value=\"2000\"/>\n .....\n 23660  \t<drop event=\"Harvest\" name=\"resourceMechanicalParts\" count=\"2,4\" tag=\"salvageHarvest\"/>\n 23661  \t<drop event=\"Harvest\" name=\"resourceForgedIron\" count=\"1,3\" tag=\"salvageHarvest\"/>\n 23662: \t<drop event=\"Harvest\" name=\"resourceForgedSteel\" count=\"2,3\" tag=\"salvageHarvest\"/>\n 23663  \t<drop event=\"Harvest\" name=\"resourceScrapPolymers\" count=\"2,5\" tag=\"allHarvest\"/>\n 23664  \t<drop event=\"Harvest\" name=\"resourceSpring\" count=\"1,3\" tag=\"allHarvest\"/>\n .....\n 24443  \t<property name=\"Collide\" value=\"movement,melee,bullet,arrow,rocket\"/>\n 24444  \t<drop event=\"Harvest\" name=\"resourceForgedIron\" count=\"1,4\" tag=\"allHarvest\"/>\n 24445: \t<drop event=\"Harvest\" name=\"resourceForgedSteel\" count=\"1,3\" tag=\"salvageHarvest\"/>\n 24446  \t<drop event=\"Harvest\" name=\"terrStone\" count=\"0\" tool_category=\"Disassemble\"/>\n 24447  \t<drop event=\"Harvest\" name=\"resourceMechanicalParts\" count=\"2,6\" tag=\"salvageHarvest\"/>\n .....\n 24589  \t<drop event=\"Harvest\" name=\"terrStone\" count=\"0\" tool_category=\"Disassemble\"/>\n 24590  \t<drop event=\"Harvest\" name=\"resourceForgedIron\" count=\"2,4\" tag=\"salvageHarvest\"/>\n 24591: \t<drop event=\"Harvest\" name=\"resourceForgedSteel\" count=\"2,4\" prob=\"0.5\" tag=\"salvageHarvest\"/>\n 24592  \t<drop event=\"Harvest\" name=\"resourceScrapIron\" count=\"30\" tag=\"allHarvest\"/>\n 24593  \t<drop event=\"Destroy\" count=\"0\"/>\n .....\n 26477  \t<drop event=\"Harvest\" name=\"terrStone\" count=\"0\" tool_category=\"Disassemble\"/>\n 26478  \t<drop event=\"Harvest\" name=\"resourceElectricParts\" count=\"4,8\" tag=\"salvageHarvest\"/>\n 26479: \t<drop event=\"Harvest\" name=\"resourceForgedSteel\" count=\"1,2\" tag=\"salvageHarvest\"/>\n 26480  \t<drop event=\"Destroy\" name=\"resourceScrapIron\" count=\"1,15\"/>\n 26481  \t<drop event=\"Fall\" name=\"scrapMetalPile\" count=\"1\" prob=\"0.75\" stick_chance=\"1\"/>\n .....\n 26589  \t<drop event=\"Harvest\" name=\"terrStone\" count=\"0\" tool_category=\"Disassemble\"/>\n 26590  \t<drop event=\"Harvest\" name=\"resourceElectricParts\" count=\"4,8\" tag=\"salvageHarvest\"/>\n 26591: \t<drop event=\"Harvest\" name=\"resourceForgedSteel\" count=\"1,2\" tag=\"salvageHarvest\"/>\n 26592  \t<drop event=\"Destroy\" name=\"resourceScrapIron\" count=\"1,15\"/>\n 26593  \t<drop event=\"Fall\" name=\"scrapMetalPile\" count=\"1\" prob=\"0.75\" stick_chance=\"1\"/>\n .....\n 27595  \t<property name=\"ActivationDistance\" value=\"6\"/>\n 27596  \t<property class=\"RepairItems\">\n 27597: \t\t<property name=\"resourceForgedSteel\" value=\"10\"/>\n 27598  \t</property>\n 27599  \t<drop event=\"Harvest\" name=\"terrStone\" count=\"0\" tool_category=\"Disassemble\"/>\n .....\n 27660  \t<property class=\"UpgradeBlock\">\n 27661  \t\t<property name=\"ToBlock\" value=\"autoTurretSteelCased\"/>\n 27662: \t\t<property name=\"Item\" value=\"resourceForgedSteel\"/>\n 27663  \t\t<property name=\"ItemCount\" value=\"10\"/>\n 27664  \t\t<property name=\"UpgradeHitCount\" value=\"4\"/>\n .....\n 28336  \t<property name=\"OpenSound\" value=\"open_door_vault\"/>\n 28337  \t<property name=\"CloseSound\" value=\"close_door_vault\"/>\n 28338: \t<property class=\"RepairItems\"> <property name=\"resourceForgedSteel\" value=\"12\"/> </property>\n 28339  \t<property class=\"UpgradeBlock\">\n 28340  \t\t<property name=\"ToBlock\" value=\"vaultDoor02\"/>\n 28341: \t\t<property name=\"Item\" value=\"resourceForgedSteel\"/>\n 28342  \t\t<property name=\"ItemCount\" value=\"12\"/>\n 28343  \t\t<property name=\"UpgradeHitCount\" value=\"6\"/>\n .....\n 28387  \t<property name=\"OpenSound\" value=\"open_door_vault\"/>\n 28388  \t<property name=\"CloseSound\" value=\"close_door_vault\"/>\n 28389: \t<property class=\"RepairItems\"> <property name=\"resourceForgedSteel\" value=\"12\"/> </property>\n 28390  \t<property name=\"DowngradeBlock\" value=\"vaultDoor02\"/>\n 28391  \t<drop event=\"Harvest\" name=\"resourceScrapIron\" count=\"96\" tag=\"allHarvest\"/>\n .....\n 28959  \t<property name=\"CloseSound\" value=\"close_garageindustrial_powered\"/>\n 28960  \t<property class=\"RepairItems\">\n 28961: \t\t<property name=\"resourceForgedSteel\" value=\"10\"/>\n 28962  \t</property>\n 28963  \t<drop event=\"Harvest\" name=\"resourceScrapIron\" count=\"100\" tag=\"allHarvest\"/>\n .....\n 30465  \t<property class=\"UpgradeBlock\">\n 30466  \t\t<property name=\"ToBlock\" value=\"steelLogSpike6\"/>\n 30467: \t\t<property name=\"Item\" value=\"resourceForgedSteel\"/>\n 30468  \t\t<property name=\"ItemCount\" value=\"10\"/>\n 30469  \t\t<property name=\"UpgradeHitCount\" value=\"4\"/>\n .....\n 30490  \t<!--property name=\"DontDamageOnTouch\" value=\"true\" /-->\n 30491  \t<!--<property name=\"BuffsWhenWalkedOn\" value=\"trapDamage1Trigger\"/>-->\n 30492: \t<property class=\"RepairItems\"> <property name=\"resourceForgedSteel\" value=\"10\"/> </property>\n 30493  \t<property name=\"CustomUpgradeSound\" value=\"place_block_metal\"/>\n 30494  \t<property name=\"DowngradeBlock\" value=\"rScrapIronLogSpike5\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\items.xml:\n   94  \t\t<property name=\"Upgrade_hit_offset\" value=\"-1\"/>\n   95  \t\t<property name=\"Sound_start\" value=\"repair_block\"/>\n   96: \t\t<property name=\"Allowed_upgrade_items\" value=\"resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers\"/>\n   97  \t\t<property name=\"UsePowerAttackAnimation\" value=\"false\"/>\n   98  \t</property>\n   ..\n  194  \t\t<property name=\"Upgrade_hit_offset\" value=\"-2\"/>\n  195  \t\t<property name=\"Sound_start\" value=\"repair_block\"/>\n  196: \t\t<property name=\"Allowed_upgrade_items\" value=\"resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail\"/>\n  197  \t\t<property name=\"UsePowerAttackAnimation\" value=\"false\"/>\n  198  \t</property>\n  ...\n  262  \t\t<property name=\"Repair_action_sound\" value=\"nailgun_fire\"/>\n  263  \t\t<property name=\"Upgrade_action_sound\" value=\"nailgun_fire\"/>\n  264: \t\t<property name=\"Allowed_upgrade_items\" value=\"resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail\"/>\n  265  \t\t<!--<property name=\"Restricted_upgrade_items\" value=\"concrete\"/>-->\n  266  \t</property>\n  ...\n 16751  </item>\n 16752  \n 16753: <item name=\"resourceForgedSteel\">\n 16754  \t<property name=\"HoldType\" value=\"45\"/>\n 16755  \t<property name=\"Meshfile\" value=\"#Other/Items?Misc/sackPrefab.prefab\"/>\n 16756  \t<property name=\"DropMeshfile\" value=\"#Other/Items?Misc/sack_droppedPrefab.prefab\"/>\n 16757: \t<property name=\"Material\" value=\"MresourceForgedSteel\"/>\n 16758  \t<property name=\"Stacknumber\" value=\"500\"/> <!-- STK resource -->\n 16759  \t<property name=\"EconomicValue\" value=\"50\"/>\n .....\n 17646  \t<property name=\"Meshfile\" value=\"#Other/Items?Misc/sackPrefab.prefab\"/>\n 17647  \t<property name=\"DropMeshfile\" value=\"#Other/Items?Misc/sack_droppedPrefab.prefab\"/>\n 17648: \t<property name=\"Material\" value=\"MresourceForgedSteel\"/>\n 17649  \t<property name=\"Stacknumber\" value=\"50\"/> <!-- STK loot -->\n 17650  \t<property name=\"Weight\" value=\"10\"/>\n .....\n 17731  \t<property name=\"Meshfile\" value=\"#Other/Items?Misc/sackPrefab.prefab\"/>\n 17732  \t<property name=\"DropMeshfile\" value=\"#Other/Items?Misc/sack_droppedPrefab.prefab\"/>\n 17733: \t<property name=\"Material\" value=\"MresourceForgedSteel\"/>\n 17734  \t<property name=\"Stacknumber\" value=\"500\"/> <!-- STK resource -->\n 17735  \t<property name=\"Weight\" value=\"10\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\Localization.txt:\n 4329  resourceForgedIron,items,Item,,,Forged Iron,,Geschmiedetes Eisen,Hierro forjado,Fer forgé,Lingotto di ferro,錬鉄,단조철,Kute żelazo,Ferro fundido,Слиток железа,Dövme Demir,锻铁,鍛鐵,Hierro forjado\n 4330  resourceForgedIronDesc,items,Item,,,\"Can be crafted at the forge and be used to craft, repair and upgrade a variety of things.\",,\"Kann in der Schmiede geschmiedet werden, um eine Reihe von Dingen zu fertigen, zu reparieren und aufzuwerten.\",\"Se puede producir en la fragua y usar para fabricar, reparar y mejorar ciertos objetos.\",\"Peut être fabriqué à la forge et peut servir à fabriquer, réparer et améliorer un tas de choses.\",\"Può essere utilizzato per fabbricare, riparare e migliorare una serie di cose.\",炉でのクラフトが可能で、様々なアイテムのクラフト、修理、アップグレードに使用します。,\"대장간에서 제작할 수 있으며 다양한 아이템을 제작하거나, 수리하거나, 업그레이드하는 데 사용됩니다.\",\"Wytworzysz ją w kuźni, a posłuży do wytwarzania, naprawiania i ulepszania różnego rodzaju zasobów.\",\"Pode ser fabricado na forja e usado para fabricar, consertar e melhorar diversos itens.\",\"Его можно изготовить в кузнице и использовать для дальнейшего создания, ремонта и усовершенствования различных вещей.\",\"Demirci ocağında üretilebilir ve çeşitli şeylerin üretilmesinde, onarılmasında ve yükseltilmesinde kullanılabilir.\",可通过锻造炉制作获得，也可以用于制作、修理和升级很多东西。,可以在鍛造爐中製作，也可以用來製作、維修和升級各種物品。,\"Se puede producir en la fragua y usar para fabricar, reparar y mejorar ciertos objetos.\"\n 4331: resourceForgedSteel,items,Item,,,Forged Steel,,Geschmiedeter Stahl,Acero forjado,Acier forgé,Lingotto d'acciaio,鍛鋼,단조강,Kuta stal,Aço fundido,Слиток стали,Dövme Çelik,锻钢,鍛鋼,Acero forjado\n 4332: resourceForgedSteelDesc,items,Item,,,Can be crafted at the forge after installing a crucible upgrade. Steel is used to make some of the strongest items.,,\"Kann in der Schmiede gefertigt werden, nachdem der Schmelztiegel aufgewertet wurde. Stahl wird für die Herstellung einiger der mächtigsten Gegenstände benötigt.\",Se puede fabricar en la fragua tras mejorar el crisol. El acero se usa para fabricar algunos de los objetos más resistentes.,Peut être fabriqué à la forge après avoir installé un creuset amélioré. L'acier est utilisé pour fabriquer certains des objets les plus solides.,Può essere lavorato nella fucina dopo aver migliorato il crogiolo. L'acciaio serve a realizzare alcuni degli oggetti più forti.,アップグレードで坩堝を設置した後の炉でクラフトが可能です。鉄鋼は最高クラスの強度を持つアイテムなどに使用されています。,도가니 업그레이드 설치 후 대장간에서 제작할 수 있습니다. 강철은 일부 단단한 아이템을 만드는 데 사용됩니다.,Wytworzysz ją w kuźni po zamontowaniu odpowiedniego ulepszenia (tygla). Ze stali wytworzysz jedne z najsilniejszych przedmiotów.,Pode ser forjado após a instalação de um cadinho na forja. O aço é usado para fazer alguns dos itens mais resistentes.,Может быть изготовлен в кузнице после установки улучшенного тигля. Сталь используется для изготовления самых прочных предметов.,\"Pota yükseltmesi yaptıktan sonra demirci ocağında üretilebilir. Çelik, en kuvvetli öğelerin bazılarının yapılmasında kullanılır.\",安装坩埚升级后，可通过锻造炉制作获得。钢可用来制作一些坚固的物品。,安裝加強坩堝後可以在鍛造爐中製作。鋼用於製造一些最堅固的物品。,Se puede fabricar en la fragua tras mejorar el crisol. El acero se usa para fabricar algunos de los objetos más resistentes.\n 4333  resourceGlue,items,Item,,,Glue,,Kleber,Pegamento,Colle,Colla,粘着剤,풀,Klej,Cola,Клей,Yapıştırıcı,胶水,膠水,Pegamento\n 4334  resourceGlueDesc,items,Item,,,Glue is useful for making your own duct tape.,,Mit Kleber kannst du dein eigenes Klebeband fertigen.,El pegamento es útil para hacer tu propia cinta de embalar.,La colle sert à fabriquer votre propre ruban adhésif en toile.,La colla è utile per creare il nastro adesivo.,ダクトテープを自作するなら粘着剤が役に立ちます。,풀은 접착테이프를 만드는 데 유용합니다.,Potrzebujesz kleju do produkcji taśmy hydraulicznej.,A cola é útil para fazer sua própria fita adesiva.,Клей пригодится для изготовления самодельной клейкой ленты.,\"Yapıştırıcı, kendi bandını yaparken işe yarar.\",胶水可让你制作自己的胶带。,膠水有助於製作膠帶。,El pegamento es útil para hacer tu propia cinta de embalar.\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\loot.xml:\n 2587  \t<item name=\"resourceMetalPipe\" count=\"5,10\"/>\n 2588  \t<item name=\"resourceForgedIron\" count=\"5,15\" prob=\"2\"/>\n 2589: \t<item name=\"resourceForgedSteel\" count=\"5,10\"/>\n 2590  \t<item name=\"resourceNail\" count=\"10,20\"/>\n 2591  \t<item name=\"resourceArrowHeadIron\" count=\"5,15\"/>\n ....\n 2626  \t<item name=\"resourceMetalPipe\" count=\"10,20\"/>\n 2627  \t<item name=\"resourceForgedIron\" count=\"10,20\" prob=\"2\"/>\n 2628: \t<item name=\"resourceForgedSteel\" count=\"5,20\"/>\n 2629  \t<item group=\"workstationToolsScaled\" prob=\"2\"/>\n 2630  \t<item name=\"resourceNail\" count=\"20,60\"/>\n ....\n 2830  \t<item group=\"automotive\" prob=\"1\"/>\n 2831  \t<item name=\"resourceForgedIron\" count=\"12,20\" prob=\".5\"/> <!-- together 3% per crate -->\n 2832: \t<item name=\"resourceForgedSteel\" count=\"8,14\" prob=\".5\"/>\n 2833  \t<item name=\"resourceScrapPolymers\" count=\"35,50\" prob=\".4\"/>\n 2834  \t<item group=\"electricalDevices\" prob=\"1\"/>\n ....\n 4112  \t<item group=\"brassResource\" prob=\"6\"/>\n 4113  \t<item name=\"resourceForgedIron\" count=\"2,10\" prob=\"3\"/>\n 4114: \t<item name=\"resourceForgedSteel\" count=\"2,10\" prob=\"3\"/>\n 4115  \t<item group=\"groupToolsTiered\" prob=\"6\"/>\n 4116  \t<item group=\"groupRareToolsTiered\" prob=\"3\"/>\n ....\n 4140  \t<item group=\"brassResource\" prob=\"2.5\"/>\n 4141  \t<item name=\"resourceForgedIron\" count=\"1,8\" prob=\"1.25\"/>\n 4142: \t<item name=\"resourceForgedSteel\" count=\"1,8\" prob=\"1.25\"/>\n 4143  \t<item name=\"resourceMilitaryFiber\" count=\"3,6\" prob=\"0.5\"/>\n 4144  \t<item group=\"groupToolsTiered\" prob=\"2.5\"/>\n ....\n 4172  <lootcontainer id=\"73\" count=\"2,4\" size=\"6,3\" destroy_on_close=\"false\" sound_open=\"UseActions/open_backpack\" sound_close=\"UseActions/close_backpack\" open_time=\"1\" loot_quality_template=\"qualPlus1Template\">\n 4173  \t<item group=\"booksRareOnlyScaled\" prob=\"2.5\"/>\n 4174: \t<item name=\"resourceForgedSteel\" count=\"6,15\" prob=\"1.25\"/>\n 4175  \t<item group=\"groupRareToolsTiered\" prob=\".2\"/>\n 4176  \t<item group=\"groupArmorScaled\" prob=\"3.75\"/>\n ....\n 4272  <lootcontainer id=\"88\" count=\"1,2\" size=\"6,4\" sound_open=\"UseActions/open_cardboard\" sound_close=\"UseActions/close_cardboard\" loot_quality_template=\"qualBaseTemplate\">\n 4273  \t<item name=\"resourceDuctTape\" count=\"3,10\"/>\n 4274: \t<item name=\"resourceForgedSteel\" count=\"3,15\" prob=\"0.8\"/>\n 4275  \t<item name=\"resourceForgedIron\" count=\"5,20\"/>\n 4276  \t<item name=\"resourceScrapIron\" count=\"100,300\"/>\n ....\n 4531  \t<item name=\"resourceRepairKit\" count=\"1,4\"/>\n 4532  \t<item name=\"resourceForgedIron\" count=\"1,4\" prob=\"0.4\"/>\n 4533: \t<item name=\"resourceForgedSteel\" count=\"1,4\" prob=\"0.2\"/>\n 4534  \t<item name=\"meleeToolPaintTool\" prob=\"0.3\"/>\n 4535  \t<item name=\"meleeToolWireTool\"/>\n ....\n 4550  \t<item name=\"resourceRepairKit\" count=\"1,4\"/>\n 4551  \t<item name=\"resourceForgedIron\" count=\"1,4\" prob=\"0.4\"/>\n 4552: \t<item name=\"resourceForgedSteel\" count=\"1,4\" prob=\"0.2\"/>\n 4553  \t<item name=\"meleeToolPaintTool\" prob=\"0.3\"/>\n 4554  \t<item name=\"meleeToolWireTool\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\materials.xml:\n 1432  </material>\n 1433  \n 1434: <material id=\"MresourceForgedSteel\">\n 1435  \t<property name=\"damage_category\" value=\"metal\"/>\n 1436  \t<property name=\"surface_category\" value=\"metal\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\recipes.xml:\n  244  \n  245  <recipe name=\"ammoShotgunBreachingSlug\" count=\"1\" craft_time=\"9\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  246: \t<ingredient name=\"resourceForgedSteel\" count=\"4\"/>\n  247  \t<ingredient name=\"resourceClayLump\" count=\"2\"/>\n  248  \t<ingredient name=\"resourceGunPowder\" count=\"4\"/>\n  ...\n  250  </recipe>\n  251  <recipe name=\"ammoBundleShotgunBreachingSlug\" count=\"1\" craft_time=\"360\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  252: \t<ingredient name=\"resourceForgedSteel\" count=\"320\"/>\n  253  \t<ingredient name=\"resourceClayLump\" count=\"160\"/>\n  254  \t<ingredient name=\"resourceGunPowder\" count=\"320\"/>\n  ...\n  701  <recipe name=\"armorSteelBoots\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkHeavyArmor\">\n  702  \t<ingredient name=\"armorSteelSetParts\" count=\"4\"/>\n  703: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n  704  \t<ingredient name=\"resourceLeather\" count=\"2\"/>\n  705  \t<ingredient name=\"resourceDuctTape\" count=\"2\"/>\n  706  \t<ingredient name=\"resourceSewingKit\" count=\"2\"/>\n  707  \t<effect_group>\n  708: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"armorSteelSetParts,resourceForgedSteel,resourceLeather,resourceDuctTape\"/>\n  709  \t</effect_group>\n  710  </recipe>\n  ...\n  712  <recipe name=\"armorSteelChest\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkHeavyArmor\">\n  713  \t<ingredient name=\"armorSteelSetParts\" count=\"4\"/>\n  714: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n  715  \t<ingredient name=\"resourceLeather\" count=\"2\"/>\n  716  \t<ingredient name=\"resourceDuctTape\" count=\"2\"/>\n  717  \t<ingredient name=\"resourceSewingKit\" count=\"2\"/>\n  718  \t<effect_group>\n  719: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"armorSteelSetParts,resourceForgedSteel,resourceLeather,resourceDuctTape\"/>\n  720  \t</effect_group>\n  721  </recipe>\n  ...\n  723  <recipe name=\"armorSteelGloves\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkHeavyArmor\">\n  724  \t<ingredient name=\"armorSteelSetParts\" count=\"4\"/>\n  725: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n  726  \t<ingredient name=\"resourceLeather\" count=\"2\"/>\n  727  \t<ingredient name=\"resourceDuctTape\" count=\"2\"/>\n  728  \t<ingredient name=\"resourceSewingKit\" count=\"2\"/>\n  729  \t<effect_group>\n  730: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"armorSteelSetParts,resourceForgedSteel,resourceLeather,resourceDuctTape\"/>\n  731  \t</effect_group>\n  732  </recipe>\n  ...\n  734  <recipe name=\"armorSteelHelmet\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkHeavyArmor\">\n  735  \t<ingredient name=\"armorSteelSetParts\" count=\"4\"/>\n  736: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n  737  \t<ingredient name=\"resourceLeather\" count=\"2\"/>\n  738  \t<ingredient name=\"resourceDuctTape\" count=\"2\"/>\n  739  \t<ingredient name=\"resourceSewingKit\" count=\"2\"/>\n  740  \t<effect_group>\n  741: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"armorSteelSetParts,resourceForgedSteel,resourceLeather,resourceDuctTape\"/>\n  742  \t</effect_group>\n  743  </recipe>\n  ...\n  745  <recipe name=\"armorSteelLegs\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkHeavyArmor\">\n  746  \t<ingredient name=\"armorSteelSetParts\" count=\"4\"/>\n  747: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n  748  \t<ingredient name=\"resourceLeather\" count=\"2\"/>\n  749  \t<ingredient name=\"resourceDuctTape\" count=\"2\"/>\n  750  \t<ingredient name=\"resourceSewingKit\" count=\"2\"/>\n  751  \t<effect_group>\n  752: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"armorSteelSetParts,resourceForgedSteel,resourceLeather,resourceDuctTape\"/>\n  753  \t</effect_group>\n  754  </recipe>\n  ...\n  756  <recipe name=\"autoTurret\" count=\"1\" craft_area=\"workbench\" tags=\"perkAdvancedEngineering,learnable\"> <!-- trap -->\n  757  \t<ingredient name=\"motionsensor\" count=\"1\"/>\n  758: \t<ingredient name=\"resourceForgedSteel\" count=\"30\"/>\n  759  \t<ingredient name=\"gunHandgunT1PistolParts\" count=\"3\"/>\n  760  \t<ingredient name=\"resourceOil\" count=\"10\"/>\n  761  \t<ingredient name=\"resourceScrapPolymers\" count=\"5\"/>\n  762  \t<effect_group>\n  763: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"0,1,2,3,4\" operation=\"perc_add\" value=\".5,.5,.5,.3,.15\" tags=\"resourceForgedSteel,gunHandgunT1PistolParts,resourceOil,resourceScrapPolymers\"/>\n  764  \t</effect_group>\n  765  </recipe>\n  ...\n  816  <recipe name=\"bladeTrap\" count=\"1\" craft_area=\"workbench\" tags=\"perkAdvancedEngineering,learnable\"> <!-- trap -->\n  817  \t<ingredient name=\"resourceForgedIron\" count=\"10\"/>\n  818: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n  819  \t<ingredient name=\"resourceMechanicalParts\" count=\"8\"/>\n  820  \t<ingredient name=\"resourceElectricParts\" count=\"6\"/>\n  821  \t<ingredient name=\"resourceOil\" count=\"10\"/>\n  822  \t<effect_group>\n  823: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"0,1,2,3,4\" operation=\"perc_add\" value=\".5,.5,.5,.3,.15\" tags=\"resourceForgedIron,resourceForgedSteel,resourceMechanicalParts,resourceElectricParts,resourceOil\"/>\n  824  \t</effect_group>\n  825  </recipe>\n  ...\n  911  \n  912  <recipe name=\"cntGunSafe\" count=\"1\" craft_area=\"workbench\" tags=\"workbenchCrafting\">\n  913: \t<ingredient name=\"resourceForgedSteel\" count=\"40\"/>\n  914  \t<ingredient name=\"resourceSpring\" count=\"5\"/>\n  915  \t<ingredient name=\"resourceMechanicalParts\" count=\"5\"/>\n  ...\n  917  \n  918  <recipe name=\"cntGreenDrawerSecure\" count=\"1\" craft_area=\"workbench\" tags=\"workbenchCrafting\">\n  919: \t<ingredient name=\"resourceForgedSteel\" count=\"8\"/>\n  920  </recipe>\n  921  \n  ...\n 1406  \n 1407  <recipe name=\"garageDoorMetal_v1Powered\" count=\"1\" craft_area=\"workbench\" tags=\"perkAdvancedEngineering,learnable\">\n 1408: \t<ingredient name=\"resourceForgedSteel\" count=\"40\"/>\n 1409  \t<ingredient name=\"resourceSpring\" count=\"6\"/>\n 1410  \t<ingredient name=\"resourceMechanicalParts\" count=\"12\"/>\n ....\n 1422  \n 1423  <recipe name=\"garageDoorIndustrial_Powered\" count=\"1\" craft_area=\"workbench\" tags=\"perkAdvancedEngineering,learnable\">\n 1424: \t<ingredient name=\"resourceForgedSteel\" count=\"60\"/>\n 1425  \t<ingredient name=\"resourceSpring\" count=\"12\"/>\n 1426  \t<ingredient name=\"resourceMechanicalParts\" count=\"24\"/>\n 1427  \t<ingredient name=\"resourceElectricParts\" count=\"20\"/>\n 1428  \t<effect_group>\n 1429: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"0,1,2,3,4\" operation=\"perc_add\" value=\".5,.5,.5,.3,.15\" tags=\"resourceForgedSteel,resourceSpring,resourceMechanicalParts,resourceElectricParts\"/>\n 1430  \t</effect_group>\n 1431  </recipe>\n ....\n 1491  <recipe name=\"gunHandgunT2Magnum44\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkGunslinger\">\n 1492  \t<ingredient name=\"gunHandgunT1PistolParts\" count=\"5\"/>\n 1493: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 1494  \t<ingredient name=\"resourceDuctTape\" count=\"3\"/>\n 1495  \t<ingredient name=\"resourceScrapPolymers\" count=\"10\"/>\n 1496  \t<ingredient name=\"resourceSpring\" count=\"5\"/>\n 1497  \t<effect_group>\n 1498: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"gunHandgunT1PistolParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring\"/>\n 1499  \t</effect_group>\n 1500  </recipe>\n ....\n 1502  <recipe name=\"gunHandgunT3DesertVulture\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkGunslinger\">\n 1503  \t<ingredient name=\"gunHandgunT1PistolParts\" count=\"6\"/>\n 1504: \t<ingredient name=\"resourceForgedSteel\" count=\"20\"/>\n 1505  \t<ingredient name=\"resourceDuctTape\" count=\"3\"/>\n 1506  \t<ingredient name=\"resourceScrapPolymers\" count=\"20\"/>\n 1507  \t<ingredient name=\"resourceSpring\" count=\"6\"/>\n 1508  \t<effect_group>\n 1509: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"gunHandgunT1PistolParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring\"/>\n 1510  \t</effect_group>\n 1511  </recipe>\n ....\n 1525  <recipe name=\"gunMGT2TacticalAR\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkMachineGunner\">\n 1526  \t<ingredient name=\"gunMGT1AK47Parts\" count=\"5\"/>\n 1527: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 1528  \t<ingredient name=\"resourceDuctTape\" count=\"3\"/>\n 1529  \t<ingredient name=\"resourceScrapPolymers\" count=\"5\"/>\n ....\n 1536  <recipe name=\"gunMGT3M60\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkMachineGunner\">\n 1537  \t<ingredient name=\"gunMGT1AK47Parts\" count=\"6\"/>\n 1538: \t<ingredient name=\"resourceForgedSteel\" count=\"20\"/>\n 1539  \t<ingredient name=\"resourceDuctTape\" count=\"3\"/>\n 1540  \t<ingredient name=\"resourceScrapPolymers\" count=\"10\"/>\n 1541  \t<ingredient name=\"resourceSpring\" count=\"4\"/>\n 1542  \t<effect_group>\n 1543: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"gunMGT1AK47Parts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring\"/>\n 1544  \t</effect_group>\n 1545  </recipe>\n ....\n 1558  <recipe name=\"gunBotT2JunkTurret\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkTurrets\">\n 1559  \t<ingredient name=\"gunBotRoboticsParts\" count=\"4\"/>\n 1560: \t<ingredient name=\"resourceForgedSteel\" count=\"40\"/>\n 1561  \t<ingredient name=\"resourceDuctTape\" count=\"10\"/>\n 1562  \t<ingredient name=\"resourceScrapPolymers\" count=\"10\"/>\n ....\n 1569  <!--<recipe name=\"gunBotT3JunkDrone\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkTurrets\">\n 1570  \t<ingredient name=\"gunBotRoboticsParts\" count=\"5\"/>\n 1571: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 1572  \t<ingredient name=\"resourceDuctTape\" count=\"15\"/>\n 1573  \t<ingredient name=\"resourceScrapPolymers\" count=\"15\"/>\n 1574  \t<ingredient name=\"motionsensor\" count=\"2\"/>\n 1575  \t<effect_group>\n 1576: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"gunBotRoboticsParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,motionsensor\"/>\n 1577  \t</effect_group>\n 1578  </recipe>-->\n ....\n 1618  <recipe name=\"gunBowT3CompoundCrossbow\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkArchery\">\n 1619  \t<ingredient name=\"gunBowT1WoodenBowParts\" count=\"5\"/>\n 1620: \t<ingredient name=\"resourceForgedSteel\" count=\"15\"/>\n 1621  \t<ingredient name=\"resourceDuctTape\" count=\"3\"/>\n 1622  \t<ingredient name=\"resourceLeather\" count=\"3\"/>\n 1623  \t<ingredient name=\"resourceScrapPolymers\" count=\"20\"/>\n 1624  \t<effect_group>\n 1625: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"gunBowT1WoodenBowParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring\"/>\n 1626  \t</effect_group>\n 1627  </recipe>\n ....\n 1640  <recipe name=\"gunRifleT2MarksmanRifle\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkDeadEye\">\n 1641  \t<ingredient name=\"gunRifleT1HuntingRifleParts\" count=\"5\"/>\n 1642: \t<ingredient name=\"resourceForgedSteel\" count=\"15\"/>\n 1643  \t<ingredient name=\"resourceDuctTape\" count=\"10\"/>\n 1644  \t<ingredient name=\"resourceScrapPolymers\" count=\"20\"/>\n 1645  \t<ingredient name=\"resourceSpring\" count=\"10\"/>\n 1646  \t<effect_group>\n 1647: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"gunRifleT1HuntingRifleParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring\"/>\n 1648  \t</effect_group>\n 1649  </recipe>\n ....\n 1651  <recipe name=\"gunRifleT3SniperRifle\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkDeadEye\">\n 1652  \t<ingredient name=\"gunRifleT1HuntingRifleParts\" count=\"6\"/>\n 1653: \t<ingredient name=\"resourceForgedSteel\" count=\"30\"/>\n 1654  \t<ingredient name=\"resourceDuctTape\" count=\"10\"/>\n 1655  \t<ingredient name=\"resourceScrapPolymers\" count=\"40\"/>\n 1656  \t<ingredient name=\"resourceSpring\" count=\"12\"/>\n 1657  \t<effect_group>\n 1658: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"gunRifleT1HuntingRifleParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring\"/>\n 1659  \t</effect_group>\n 1660  </recipe>\n ....\n 1679  <recipe name=\"gunShotgunT2PumpShotgun\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkBoomstick\">\n 1680  \t<ingredient name=\"gunShotgunT1DoubleBarrelParts\" count=\"5\"/>\n 1681: \t<ingredient name=\"resourceForgedSteel\" count=\"15\"/>\n 1682  \t<ingredient name=\"resourceDuctTape\" count=\"3\"/>\n 1683  \t<ingredient name=\"resourceScrapPolymers\" count=\"20\"/>\n 1684  \t<ingredient name=\"resourceSpring\" count=\"3\"/>\n 1685  \t<effect_group>\n 1686: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"gunShotgunT1DoubleBarrelParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring\"/>\n 1687  \t</effect_group>\n 1688  </recipe>\n ....\n 1690  <recipe name=\"gunShotgunT3AutoShotgun\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkBoomstick\">\n 1691  \t<ingredient name=\"gunShotgunT1DoubleBarrelParts\" count=\"6\"/>\n 1692: \t<ingredient name=\"resourceForgedSteel\" count=\"30\"/>\n 1693  \t<ingredient name=\"resourceDuctTape\" count=\"3\"/>\n 1694  \t<ingredient name=\"resourceScrapPolymers\" count=\"40\"/>\n 1695  \t<ingredient name=\"resourceSpring\" count=\"4\"/>\n 1696  \t<effect_group>\n 1697: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"gunShotgunT1DoubleBarrelParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring\"/>\n 1698  \t</effect_group>\n 1699  </recipe>\n ....\n 1701  <recipe name=\"gunExplosivesT3RocketLauncher\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkDemolitionsExpert\">\n 1702  \t<ingredient name=\"gunExplosivesT3RocketLauncherParts\" count=\"4\"/>\n 1703: \t<ingredient name=\"resourceForgedSteel\" count=\"20\"/>\n 1704  \t<ingredient name=\"resourceDuctTape\" count=\"3\"/>\n 1705  \t<ingredient name=\"resourceElectricParts\" count=\"5\"/>\n 1706  \t<ingredient name=\"resourceSpring\" count=\"3\"/>\n 1707  \t<effect_group>\n 1708: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"gunExplosivesT3RocketLauncherParts,resourceForgedSteel,resourceDuctTape,resourceElectricParts,resourceSpring\"/>\n 1709  \t</effect_group>\n 1710  </recipe>\n ....\n 1712  <recipe name=\"gunHandgunT3SMG5\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkGunslinger\">\n 1713  \t<ingredient name=\"gunHandgunT1PistolParts\" count=\"5\"/>\n 1714: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 1715  \t<ingredient name=\"resourceDuctTape\" count=\"3\"/>\n 1716  \t<ingredient name=\"resourceScrapPolymers\" count=\"10\"/>\n 1717  \t<ingredient name=\"resourceSpring\" count=\"3\"/>\n 1718  \t<effect_group>\n 1719: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"gunHandgunT1PistolParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring\"/>\n 1720  \t</effect_group>\n 1721  </recipe>\n 1722  \n 1723  <recipe name=\"meleeToolRepairT3Nailgun\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 1724: \t<ingredient name=\"resourceForgedSteel\" count=\"20\"/>\n 1725  \t<ingredient name=\"resourceMechanicalParts\" count=\"20\"/>\n 1726  \t<ingredient name=\"resourceDuctTape\" count=\"2\"/>\n ....\n 1767  \n 1768  <recipe name=\"ladderSteel\" count=\"1\" craft_area=\"workbench\" tags=\"workbenchCrafting\">\n 1769: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 1770  </recipe>\n 1771  \n ....\n 1856  <recipe name=\"meleeWpnClubT3SteelClub\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkPummelPete\">\n 1857  \t<ingredient name=\"meleeWpnClubT3SteelClubParts\" count=\"5\"/>\n 1858: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 1859  \t<ingredient name=\"resourceWood\" count=\"10\"/>\n 1860  \t<ingredient name=\"resourceLeather\" count=\"3\"/>\n 1861  \t<ingredient name=\"resourceDuctTape\" count=\"3\"/>\n 1862  \t<effect_group>\n 1863: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"meleeWpnClubT3SteelClubParts,resourceForgedSteel,resourceWood,resourceLeather,resourceDuctTape\"/>\n 1864  \t</effect_group>\n 1865  </recipe>\n ....\n 1869  \t<ingredient name=\"vehicleBicycleHandlebars\" count=\"1\"/>\n 1870  \t<ingredient name=\"smallEngine\" count=\"1\"/>\n 1871: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 1872  \t<effect_group>\n 1873: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"meleeToolAxeT3ChainsawParts,resourceForgedSteel\"/>\n 1874  \t</effect_group>\n 1875  </recipe>\n ....\n 1879  \t<ingredient name=\"vehicleBicycleHandlebars\" count=\"1\"/>\n 1880  \t<ingredient name=\"smallEngine\" count=\"1\"/>\n 1881: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 1882  \t<effect_group>\n 1883: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"meleeToolAxeT3ChainsawParts,resourceForgedSteel\"/>\n 1884  \t</effect_group>\n 1885  </recipe>\n ....\n 1907  <recipe name=\"meleeToolAxeT2SteelAxe\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkMiner69r\">\n 1908  \t<ingredient name=\"meleeToolAllSteelParts\" count=\"5\"/>\n 1909: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 1910  \t<ingredient name=\"resourceWood\" count=\"10\"/>\n 1911  \t<ingredient name=\"resourceLeather\" count=\"3\"/>\n 1912  \t<ingredient name=\"resourceDuctTape\" count=\"3\"/>\n 1913  \t<effect_group>\n 1914: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"meleeToolAllSteelParts,resourceForgedSteel,resourceWood,resourceLeather,resourceDuctTape\"/>\n 1915  \t</effect_group>\n 1916  </recipe>\n ....\n 1934  <recipe name=\"meleeWpnSpearT3SteelSpear\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkJavelinMaster\">\n 1935  \t<ingredient name=\"meleeWpnSpearT3SteelSpearParts\" count=\"5\"/>\n 1936: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 1937  \t<ingredient name=\"resourceWood\" count=\"10\"/>\n 1938  \t<ingredient name=\"resourceLeather\" count=\"3\"/>\n 1939  \t<ingredient name=\"resourceDuctTape\" count=\"3\"/>\n 1940  \t<effect_group>\n 1941: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"meleeWpnSpearT3SteelSpearParts,resourceForgedSteel,resourceWood,resourceLeather,resourceDuctTape\"/>\n 1942  \t</effect_group>\n 1943  </recipe>\n ....\n 1969  <recipe name=\"meleeWpnBladeT3Machete\" count=\"1\" craft_area=\"workbench\" craft_time=\"60\" tags=\"learnable,perkDeepCuts\">\n 1970  \t<ingredient name=\"meleeWpnBladeT3MacheteParts\" count=\"5\"/>\n 1971: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 1972  \t<ingredient name=\"resourceWood\" count=\"10\"/>\n 1973  \t<ingredient name=\"resourceLeather\" count=\"3\"/>\n 1974  \t<ingredient name=\"resourceDuctTape\" count=\"3\"/>\n 1975  \t<effect_group>\n 1976: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"meleeWpnBladeT3MacheteParts,resourceForgedSteel,resourceWood,resourceLeather,resourceDuctTape\"/>\n 1977  \t</effect_group>\n 1978  </recipe>\n ....\n 1995  <recipe name=\"meleeToolPickT2SteelPickaxe\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkMiner69r\">\n 1996  \t<ingredient name=\"meleeToolAllSteelParts\" count=\"5\"/>\n 1997: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 1998  \t<ingredient name=\"resourceWood\" count=\"10\"/>\n 1999  \t<ingredient name=\"resourceLeather\" count=\"3\"/>\n 2000  \t<ingredient name=\"resourceDuctTape\" count=\"3\"/>\n 2001  \t<effect_group>\n 2002: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"meleeToolAllSteelParts,resourceForgedSteel,resourceWood,resourceLeather,resourceDuctTape\"/>\n 2003  \t</effect_group>\n 2004  </recipe>\n ....\n 2016  <recipe name=\"meleeToolShovelT2SteelShovel\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkMiner69r\">\n 2017  \t<ingredient name=\"meleeToolAllSteelParts\" count=\"5\"/>\n 2018: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 2019  \t<ingredient name=\"resourceWood\" count=\"10\"/>\n 2020  \t<ingredient name=\"resourceLeather\" count=\"3\"/>\n 2021  \t<ingredient name=\"resourceDuctTape\" count=\"3\"/>\n 2022  \t<effect_group>\n 2023: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"meleeToolAllSteelParts,resourceForgedSteel,resourceWood,resourceLeather,resourceDuctTape\"/>\n 2024  \t</effect_group>\n 2025  </recipe>\n ....\n 2049  <recipe name=\"meleeWpnSledgeT3SteelSledgehammer\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkSkullCrusher\">\n 2050  \t<ingredient name=\"meleeWpnSledgeT3SteelSledgehammerParts\" count=\"5\"/>\n 2051: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 2052  \t<ingredient name=\"resourceWood\" count=\"10\"/>\n 2053  \t<ingredient name=\"resourceLeather\" count=\"3\"/>\n 2054  \t<ingredient name=\"resourceDuctTape\" count=\"3\"/>\n 2055  \t<effect_group>\n 2056: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"meleeWpnSledgeT3SteelSledgehammerParts,resourceForgedSteel,resourceWood,resourceLeather,resourceDuctTape\"/>\n 2057  \t</effect_group>\n 2058  </recipe>\n ....\n 2082  \n 2083  <recipe name=\"meleeToolWireTool\" count=\"1\" craft_area=\"workbench\" tags=\"workbenchCrafting\">\n 2084: \t<ingredient name=\"resourceForgedSteel\" count=\"9\"/>\n 2085  \t<ingredient name=\"resourceMechanicalParts\" count=\"3\"/>\n 2086  </recipe>\n ....\n 2097  <recipe name=\"meleeToolSalvageT2Ratchet\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkSalvageOperations\">\n 2098  \t<ingredient name=\"meleeToolAllSteelParts\" count=\"5\"/>\n 2099: \t<ingredient name=\"resourceForgedSteel\" count=\"8\"/>\n 2100  \t<ingredient name=\"resourceMechanicalParts\" count=\"5\"/>\n 2101  \t<ingredient name=\"resourceSpring\" count=\"2\"/>\n 2102  \t<ingredient name=\"resourceDuctTape\" count=\"2\"/>\n 2103  \t<effect_group>\n 2104: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"meleeToolAllSteelParts,resourceForgedSteel,resourceMechanicalParts,resourceSpring,resourceDuctTape\"/>\n 2105  \t</effect_group>\n 2106  </recipe>\n ....\n 2108  <recipe name=\"meleeToolSalvageT3ImpactDriver\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkSalvageOperations\">\n 2109  \t<ingredient name=\"meleeToolAxeT3ChainsawParts\" count=\"5\"/>\n 2110: \t<ingredient name=\"resourceForgedSteel\" count=\"16\"/>\n 2111  \t<ingredient name=\"resourceMechanicalParts\" count=\"6\"/>\n 2112  \t<ingredient name=\"resourceSpring\" count=\"3\"/>\n 2113  \t<ingredient name=\"resourceDuctTape\" count=\"3\"/>\n 2114  \t<effect_group>\n 2115: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"meleeToolAxeT3ChainsawParts,resourceForgedSteel,resourceMechanicalParts,resourceDuctTape\"/>\n 2116  \t</effect_group>\n 2117  </recipe>\n ....\n 2134  <recipe name=\"meleeWpnKnucklesT3SteelKnuckles\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,perkBrawler\">\n 2135  \t<ingredient name=\"meleeWpnKnucklesT3SteelKnucklesParts\" count=\"5\"/>\n 2136: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 2137  \t<ingredient name=\"resourceLeather\" count=\"3\"/>\n 2138  \t<ingredient name=\"resourceDuctTape\" count=\"3\"/>\n 2139  \t<effect_group>\n 2140: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"2,6\" operation=\"perc_add\" value=\".5,2.5\" tags=\"meleeWpnKnucklesT3SteelKnucklesParts,resourceForgedSteel,resourceWood,resourceLeather,resourceDuctTape\"/>\n 2141  \t</effect_group>\n 2142  </recipe>\n ....\n 2187  \n 2188  <recipe name=\"modArmorAdvancedMuffledConnectors\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2189: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2190  \t<ingredient name=\"resourceScrapPolymers\" count=\"60\"/>\n 2191  \t<ingredient name=\"resourceDuctTape\" count=\"2\"/>\n ....\n 2227  \n 2228  <recipe name=\"modArmorHelmetLight\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2229: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2230  \t<ingredient name=\"resourceScrapPolymers\" count=\"2\"/>\n 2231  \t<ingredient name=\"resourceDuctTape\" count=\"2\"/>\n ....\n 2235  \n 2236  <recipe name=\"modFuelTankSmall\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2237: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2238  \t<ingredient name=\"resourceScrapPolymers\" count=\"2\"/>\n 2239  \t<ingredient name=\"resourceDuctTape\" count=\"2\"/>\n ....\n 2242  \n 2243  <recipe name=\"modFuelTankLarge\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2244: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2245  \t<ingredient name=\"resourceScrapPolymers\" count=\"2\"/>\n 2246  \t<ingredient name=\"resourceDuctTape\" count=\"2\"/>\n ....\n 2249  \n 2250  <recipe name=\"modArmorImpactBracing\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2251: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2252  \t<ingredient name=\"resourceDuctTape\" count=\"2\"/>\n 2253  \t<ingredient name=\"resourceMechanicalParts\" count=\"20\"/>\n ....\n 2272  \n 2273  <recipe name=\"modArmorMuffledConnectors\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2274: \t<ingredient name=\"resourceForgedSteel\" count=\"4\"/>\n 2275  \t<ingredient name=\"resourceScrapPolymers\" count=\"30\"/>\n 2276  \t<ingredient name=\"resourceDuctTape\" count=\"1\"/>\n ....\n 2312  \n 2313  <recipe name=\"modArmorWaterPurifier\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2314: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2315  \t<ingredient name=\"resourceScrapPolymers\" count=\"10\"/>\n 2316  \t<ingredient name=\"resourceDuctTape\" count=\"2\"/>\n ....\n 2320  \n 2321  <!--<recipe name=\"modGunMeleeBlessedMetal\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2322: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2323  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n 2324  \t<ingredient name=\"resourceMechanicalParts\" count=\"5\"/>\n ....\n 2327  \n 2328  <!--<recipe name=\"modGunMeleeFeelTheHeat\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2329: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2330  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n 2331  \t<ingredient name=\"resourceMechanicalParts\" count=\"5\"/>\n ....\n 2334  \n 2335  <recipe name=\"modGunBarrelExtender\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2336: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 2337  \t<ingredient name=\"resourceScrapPolymers\" count=\"5\"/>\n 2338  \t<ingredient name=\"resourceOil\" count=\"2\"/>\n ....\n 2341  \n 2342  <recipe name=\"modGunDrumMagazineExtender\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2343: \t<ingredient name=\"resourceForgedSteel\" count=\"20\"/>\n 2344  \t<ingredient name=\"resourceScrapPolymers\" count=\"10\"/>\n 2345  \t<ingredient name=\"resourceOil\" count=\"4\"/>\n ....\n 2355  \n 2356  <recipe name=\"modGunBowArrowRest\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2357: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2358  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n 2359  \t<ingredient name=\"resourceMechanicalParts\" count=\"5\"/>\n ....\n 2362  \n 2363  <recipe name=\"modGunBowPolymerString\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2364: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2365  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n 2366  \t<ingredient name=\"resourceMechanicalParts\" count=\"5\"/>\n ....\n 2376  \n 2377  <recipe name=\"modGunCrippleEm\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2378: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2379  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n 2380  \t<ingredient name=\"resourceMechanicalParts\" count=\"5\"/>\n ....\n 2404  \n 2405  <recipe name=\"modGunLaserSight\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2406: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 2407  \t<ingredient name=\"resourceGlue\" count=\"2\"/>\n 2408  \t<ingredient name=\"resourceElectricParts\" count=\"10\"/>\n ....\n 2425  \n 2426  <recipe name=\"modGunMeleeRadRemover\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2427: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2428  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n 2429  \t<ingredient name=\"resourceMechanicalParts\" count=\"5\"/>\n ....\n 2446  \n 2447  <recipe name=\"modGunReflexSight\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2448: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 2449  \t<ingredient name=\"resourceScrapPolymers\" count=\"10\"/>\n 2450  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n ....\n 2453  \n 2454  <recipe name=\"modGunRetractingStock\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2455: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2456  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n 2457  \t<ingredient name=\"resourceMechanicalParts\" count=\"5\"/>\n ....\n 2461  <recipe name=\"modGunScopeLarge\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2462  \t<ingredient name=\"resourceBrokenGlass\" count=\"20\"/>\n 2463: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 2464  \t<ingredient name=\"resourceScrapPolymers\" count=\"10\"/>\n 2465  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n ....\n 2468  <recipe name=\"modGunScopeMedium\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2469  \t<ingredient name=\"resourceBrokenGlass\" count=\"15\"/>\n 2470: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 2471  \t<ingredient name=\"resourceScrapPolymers\" count=\"8\"/>\n 2472  \t<ingredient name=\"resourceGlue\" count=\"3\"/>\n ....\n 2481  \n 2482  <recipe name=\"modGunSoundSuppressorSilencer\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2483: \t<ingredient name=\"resourceForgedSteel\" count=\"10\"/>\n 2484  \t<ingredient name=\"resourceScrapPolymers\" count=\"5\"/>\n 2485  \t<ingredient name=\"resourceOil\" count=\"2\"/>\n ....\n 2488  \n 2489  <recipe name=\"modGunTriggerGroupAutomatic\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2490: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2491  \t<ingredient name=\"resourceScrapPolymers\" count=\"5\"/>\n 2492  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n ....\n 2495  \n 2496  <recipe name=\"modGunTriggerGroupBurst3\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2497: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2498  \t<ingredient name=\"resourceScrapPolymers\" count=\"5\"/>\n 2499  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n ....\n 2509  \n 2510  <recipe name=\"modMeleeDiamondTip\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2511: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2512  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n 2513  \t<ingredient name=\"resourceMechanicalParts\" count=\"5\"/>\n ....\n 2516  \n 2517  <recipe name=\"modMeleeStunBatonRepulsor\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2518: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2519  \t<ingredient name=\"resourceDuctTape\" count=\"5\"/>\n 2520  \t<ingredient name=\"resourceElectricParts\" count=\"10\"/>\n ....\n 2523  \n 2524  <recipe name=\"modMeleeBunkerBuster\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2525: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2526  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n 2527  \t<ingredient name=\"resourceMechanicalParts\" count=\"5\"/>\n ....\n 2530  \n 2531  <recipe name=\"modMeleeClubBarbedWire\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2532: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2533  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n 2534  \t<ingredient name=\"resourceMechanicalParts\" count=\"5\"/>\n ....\n 2537  \n 2538  <recipe name=\"modMeleeClubBurningShaft\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2539: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2540  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n 2541  \t<ingredient name=\"resourceOil\" count=\"5\"/>\n ....\n 2544  \n 2545  <recipe name=\"modMeleeClubMetalSpikes\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2546: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2547  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n 2548  \t<ingredient name=\"resourceMechanicalParts\" count=\"5\"/>\n ....\n 2551  \n 2552  <recipe name=\"modMeleeClubMetalChain\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2553: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2554  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n 2555  \t<ingredient name=\"resourceMechanicalParts\" count=\"5\"/>\n ....\n 2558  \n 2559  <recipe name=\"modMeleeErgonomicGrip\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2560: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2561  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n 2562  \t<ingredient name=\"resourceMechanicalParts\" count=\"5\"/>\n ....\n 2565  \n 2566  <recipe name=\"modMeleeFortifyingGrip\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2567: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2568  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n 2569  \t<ingredient name=\"resourceMechanicalParts\" count=\"5\"/>\n ....\n 2586  \n 2587  <recipe name=\"modMeleeIronBreaker\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2588: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2589  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n 2590  \t<ingredient name=\"resourceMechanicalParts\" count=\"5\"/>\n ....\n 2607  \n 2608  <recipe name=\"modMeleeTemperedBlade\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n 2609: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 2610  \t<ingredient name=\"resourceGlue\" count=\"5\"/>\n 2611  \t<ingredient name=\"resourceMechanicalParts\" count=\"5\"/>\n ....\n 2991  </recipe>\n 2992  \n 2993: <recipe name=\"resourceForgedSteel\" count=\"1\" material_based=\"true\" craft_area=\"forge\" tags=\"perkAdvancedEngineering\" craft_tool=\"toolForgeCrucible\">\n 2994  \t<ingredient name=\"unit_iron\" count=\"20\"/>\n 2995  \t<ingredient name=\"unit_clay\" count=\"10\"/>\n ....\n 3204  \n 3205  <recipe name=\"shotgunTurret\" count=\"1\" craft_area=\"workbench\" tags=\"perkAdvancedEngineering,learnable\"> <!-- trap -->\n 3206: \t<ingredient name=\"resourceForgedSteel\" count=\"40\"/>\n 3207  \t<ingredient name=\"resourceScrapPolymers\" count=\"10\"/>\n 3208  \t<ingredient name=\"resourceOil\" count=\"10\"/>\n ....\n 3210  \t<ingredient name=\"gunShotgunT1DoubleBarrelParts\" count=\"3\"/>\n 3211  \t<effect_group>\n 3212: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"0,1,2,3,4\" operation=\"perc_add\" value=\".5,.5,.5,.3,.15\" tags=\"resourceForgedSteel,gunShotgunT1DoubleBarrelParts,resourceOil,resourceScrapPolymers\"/>\n 3213  \t</effect_group>\n 3214  </recipe>\n ....\n 3419  \n 3420  <recipe name=\"vaultDoor01\" count=\"1\" craft_area=\"workbench\" tags=\"workbenchCrafting\">\n 3421: \t<ingredient name=\"resourceForgedSteel\" count=\"12\"/>\n 3422  \t<ingredient name=\"resourceSpring\" count=\"2\"/>\n 3423  \t<ingredient name=\"resourceMechanicalParts\" count=\"4\"/>\n ....\n 3425  \n 3426  <recipe name=\"vaultHatch_v1\" count=\"1\" craft_area=\"workbench\" tags=\"workbenchCrafting\">\n 3427: \t<ingredient name=\"resourceForgedSteel\" count=\"12\"/>\n 3428  \t<ingredient name=\"resourceSpring\" count=\"2\"/>\n 3429  \t<ingredient name=\"resourceMechanicalParts\" count=\"4\"/>\n ....\n 3431  \n 3432  <recipe name=\"vaultHatch_v3_Powered\" count=\"1\" craft_area=\"workbench\" tags=\"perkAdvancedEngineering,learnable\">\n 3433: \t<ingredient name=\"resourceForgedSteel\" count=\"36\"/>\n 3434  \t<ingredient name=\"resourceSpring\" count=\"6\"/>\n 3435  \t<ingredient name=\"resourceMechanicalParts\" count=\"12\"/>\n 3436  \t<ingredient name=\"resourceElectricParts\" count=\"24\"/>\n 3437  \t<effect_group>\n 3438: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"0,1,2,3,4\" operation=\"perc_add\" value=\".5,.5,.5,.3,.15\" tags=\"resourceForgedSteel,resourceSpring,resourceMechanicalParts,resourceElectricParts\"/>\n 3439  \t</effect_group>\n 3440  </recipe>\n 3441  \n 3442  <recipe name=\"vaultDoor03_Powered\" count=\"1\" craft_area=\"workbench\" tags=\"perkAdvancedEngineering,learnable\">\n 3443: \t<ingredient name=\"resourceForgedSteel\" count=\"36\"/>\n 3444  \t<ingredient name=\"resourceSpring\" count=\"6\"/>\n 3445  \t<ingredient name=\"resourceMechanicalParts\" count=\"12\"/>\n 3446  \t<ingredient name=\"resourceElectricParts\" count=\"24\"/>\n 3447  \t<effect_group>\n 3448: \t\t<passive_effect name=\"CraftingIngredientCount\" level=\"0,1,2,3,4\" operation=\"perc_add\" value=\".5,.5,.5,.3,.15\" tags=\"resourceForgedSteel,resourceSpring,resourceMechanicalParts,resourceElectricParts\"/>\n 3449  \t</effect_group>\n 3450  </recipe>\n ....\n 3462  \n 3463  <recipe name=\"vehicle4x4TruckChassis\" count=\"1\" craft_time=\"210\" craft_area=\"workbench\" tags=\"perkGreaseMonkey,learnable,workbenchCrafting\">\n 3464: \t<ingredient name=\"resourceForgedSteel\" count=\"250\"/>\n 3465  \t<ingredient name=\"resourceMechanicalParts\" count=\"40\"/>\n 3466  \t<ingredient name=\"resourceDuctTape\" count=\"20\"/>\n ....\n 3468  \t<ingredient name=\"resourceElectricParts\" count=\"16\"/>\n 3469  \t<effect_group>\n 3470: \t\t<passive_effect name=\"CraftingIngredientCount\" operation=\"perc_add\" level=\"0,3\" value=\".5,.5\" tags=\"resourceForgedSteel,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricParts\"/>\n 3471  \t</effect_group>\n 3472  </recipe>\n ....\n 3521  \n 3522  <recipe name=\"vehicleGyroCopterChassis\" count=\"1\" craft_time=\"270\" craft_area=\"workbench\" tags=\"perkGreaseMonkey,learnable,workbenchCrafting\">\n 3523: \t<ingredient name=\"resourceForgedSteel\" count=\"125\"/>\n 3524  \t<ingredient name=\"resourceMechanicalParts\" count=\"40\"/>\n 3525  \t<ingredient name=\"resourceDuctTape\" count=\"25\"/>\n ....\n 3527  \t<ingredient name=\"resourceElectricParts\" count=\"20\"/>\n 3528  \t<effect_group>\n 3529: \t\t<passive_effect name=\"CraftingIngredientCount\" operation=\"perc_add\" level=\"0,4\" value=\".5,.5\" tags=\"resourceForgedSteel,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricParts\"/>\n 3530  \t</effect_group>\n 3531  </recipe>\n ....\n 3570  \n 3571  <recipe name=\"vehicleMotorcycleChassis\" count=\"1\" craft_time=\"150\" craft_area=\"workbench\" tags=\"perkGreaseMonkey,learnable,workbenchCrafting\">\n 3572: \t<ingredient name=\"resourceForgedSteel\" count=\"25\"/>\n 3573  \t<ingredient name=\"resourceMechanicalParts\" count=\"10\"/>\n 3574  \t<ingredient name=\"resourceDuctTape\" count=\"10\"/>\n ....\n 3576  \t<ingredient name=\"resourceElectricParts\" count=\"3\"/>\n 3577  \t<effect_group>\n 3578: \t\t<passive_effect name=\"CraftingIngredientCount\" operation=\"perc_add\" level=\"0,2\" value=\".5,.5\" tags=\"resourceForgedSteel,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricParts\"/>\n 3579  \t</effect_group>\n 3580  </recipe>\n ....\n 3585  \t<ingredient name=\"resourceHeadlight\" count=\"1\"/>\n 3586  \t<ingredient name=\"resourceElectricParts\" count=\"6\"/>\n 3587: \t<ingredient name=\"resourceForgedSteel\" count=\"5\"/>\n 3588  \t<effect_group>\n 3589: \t\t<passive_effect name=\"CraftingIngredientCount\" operation=\"perc_add\" level=\"0,2\" value=\".5,.5\" tags=\"resourceMechanicalParts,resourceDuctTape,resourceElectricParts,resourceForgedSteel\"/>\n 3590  \t</effect_group>\n 3591  </recipe>\n ....\n 3679  \tresourceScrapIron\n 3680  \tresourceForgedIron\n 3681: \tresourceForgedSteel\n 3682  \tresourceScrapPolymers\n 3683  \tresourceLeather\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Data\\Config\\traders.xml:\n 1035  \t\t\t<item name=\"resourceScrapPolymers\" count=\"30,150\"/>\n 1036  \t\t\t<item name=\"resourceForgedIron\" count=\"5,50\"/>\n 1037: \t\t\t<item name=\"resourceForgedSteel\" count=\"5,50\"/>\n 1038  \t\t\t<item name=\"resourceMetalPipe\" count=\"5,20\"/>\n 1039  \t\t\t<item name=\"resourceOilShale\" count=\"20,60\"/> <!-- 50 -->\n ....\n 1089  \t\t\t<item name=\"toolBellows\" prob=\"0.7\"/>\n 1090  \t\t\t<item name=\"resourceForgedIron\" count=\"5,50\"/>\n 1091: \t\t\t<item name=\"resourceForgedSteel\" count=\"5,50\"/>\n 1092  \t\t\t<item name=\"meleeToolPaintTool\" prob=\"0.5\"/>\n 1093  \t\t\t<item name=\"meleeToolWireTool\"/>\n\nC:\\Steam\\steamapps\\common\\7 Days To Die\\Mods.bak\\Bdubs Vehicles\\Config\\recipes.xml:\n    4  \t\t<recipe name=\"vehicleBRDM2chassis\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n    5  \t\t\t<ingredient name=\"resourceElectricParts\" count=\"20\"/>\n    6: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"400\"/>\n    7  \t        <ingredient name=\"resourceMechanicalParts\" count=\"50\"/>\n    8  \t        <ingredient name=\"resourceDuctTape\" count=\"40\"/>\n    .\n   11  \t\t\n   12  \t\t<recipe name=\"vehicleBRDM2accessories\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n   13: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"50\"/>\n   14  \t        <ingredient name=\"resourceMechanicalParts\" count=\"10\"/>\n   15  \t        <ingredient name=\"resourceLeather\" count=\"50\"/>\n   ..\n   52  \t\t<recipe name=\"vehicleChargerchassis\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n   53  \t\t\t<ingredient name=\"resourceElectricParts\" count=\"20\"/>\n   54: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"300\"/>\n   55  \t        <ingredient name=\"resourceMechanicalParts\" count=\"50\"/>\n   56  \t        <ingredient name=\"resourceDuctTape\" count=\"40\"/>\n   ..\n   59  \t\t\n   60  \t\t<recipe name=\"vehicleChargeraccessories\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n   61: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"50\"/>\n   62  \t        <ingredient name=\"resourceMechanicalParts\" count=\"10\"/>\n   63  \t        <ingredient name=\"resourceLeather\" count=\"50\"/>\n   ..\n  163  \t\t\n  164  \t\t<recipe name=\"vehicleCruiserChassis\" count=\"1\" craft_area=\"workbench\" tags=\"perkGreaseMonkey,learnable,workbenchCrafting\">\n  165: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"55\"/>\n  166  \t\t\t<ingredient name=\"resourceMechanicalParts\" count=\"30\"/>\n  167  \t\t\t<ingredient name=\"resourceDuctTape\" count=\"12\"/>\n  ...\n  171  \t\t\n  172  \t\t<recipe name=\"vehicleCruiserbars\" count=\"1\" craft_area=\"workbench\" tags=\"perkGreaseMonkey,learnable,workbenchCrafting\">\n  173: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"20\"/>\n  174  \t\t\t<ingredient name=\"resourceMechanicalParts\" count=\"12\"/>\n  175  \t\t\t<ingredient name=\"resourceScrapPolymers\" count=\"50\"/>\n  ...\n  195  \t\t\n  196  \t\t<recipe name=\"vehicleDirtBikeChassis\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  197: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"35\"/>\n  198  \t\t\t<ingredient name=\"resourceMechanicalParts\" count=\"30\"/>\n  199  \t\t\t<ingredient name=\"resourceDuctTape\" count=\"12\"/>\n  ...\n  203  \t\t\n  204  \t\t<recipe name=\"vehicleDirtBikeParts\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  205: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"20\"/>\n  206  \t\t\t<ingredient name=\"resourceMechanicalParts\" count=\"12\"/>\n  207  \t\t\t<ingredient name=\"resourceScrapPolymers\" count=\"50\"/>\n  ...\n  220  \t\t<recipe name=\"vehicleDusterchassis\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  221  \t\t\t<ingredient name=\"resourceSpring\" count=\"5\"/>\n  222: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"250\"/>\n  223  \t        <ingredient name=\"resourceMechanicalParts\" count=\"50\"/>\n  224  \t        <ingredient name=\"resourceDuctTape\" count=\"40\"/>\n  ...\n  227  \t\t\n  228  \t\t<recipe name=\"vehicleDusteraccessories\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  229: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"50\"/>\n  230  \t        <ingredient name=\"resourceMechanicalParts\" count=\"10\"/>\n  231  \t        <ingredient name=\"resourceLeather\" count=\"50\"/>\n  ...\n  244  \t\t<recipe name=\"vehicleGNXchassis\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  245  \t\t\t<ingredient name=\"resourceElectricParts\" count=\"20\"/>\n  246: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"300\"/>\n  247  \t        <ingredient name=\"resourceMechanicalParts\" count=\"50\"/>\n  248  \t        <ingredient name=\"resourceDuctTape\" count=\"40\"/>\n  ...\n  251  \t\t\n  252  \t\t<recipe name=\"vehicleGNXaccessories\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  253: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"50\"/>\n  254  \t        <ingredient name=\"resourceMechanicalParts\" count=\"10\"/>\n  255  \t        <ingredient name=\"resourceDuctTape\" count=\"50\"/>\n  ...\n  305  \t\t\n  306  \t\t<recipe name=\"vehicleJunkerChassis\" count=\"1\" craft_area=\"workbench\" tags=\"perkGreaseMonkey,learnable,workbenchCrafting\">\n  307: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"55\"/>\n  308  \t\t\t<ingredient name=\"resourceMechanicalParts\" count=\"30\"/>\n  309  \t\t\t<ingredient name=\"resourceDuctTape\" count=\"12\"/>\n  ...\n  313  \t\t\n  314  \t\t<recipe name=\"vehicleJunkerbars\" count=\"1\" craft_area=\"workbench\" tags=\"perkGreaseMonkey,learnable,workbenchCrafting\">\n  315: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"20\"/>\n  316  \t\t\t<ingredient name=\"resourceMechanicalParts\" count=\"12\"/>\n  317  \t\t\t<ingredient name=\"resourceScrapPolymers\" count=\"50\"/>\n  ...\n  338  \t\t<recipe name=\"vehicleMarauderchassis\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  339  \t\t\t<ingredient name=\"resourceElectricParts\" count=\"20\"/>\n  340: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"300\"/>\n  341  \t        <ingredient name=\"resourceMechanicalParts\" count=\"50\"/>\n  342  \t        <ingredient name=\"resourceDuctTape\" count=\"40\"/>\n  ...\n  345  \t\t\n  346  \t\t<recipe name=\"vehicleMarauderaccessories\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  347: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"50\"/>\n  348  \t        <ingredient name=\"resourceMechanicalParts\" count=\"10\"/>\n  349  \t        <ingredient name=\"resourceDuctTape\" count=\"50\"/>\n  ...\n  362  \t\t<recipe name=\"vehicleMD500chassis\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  363  \t\t\t<ingredient name=\"resourceSpring\" count=\"5\"/>\n  364: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"300\"/>\n  365  \t        <ingredient name=\"resourceMechanicalParts\" count=\"50\"/>\n  366  \t        <ingredient name=\"resourceDuctTape\" count=\"40\"/>\n  ...\n  369  \t\t\n  370  \t\t<recipe name=\"vehicleMD500accessories\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  371: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"50\"/>\n  372  \t        <ingredient name=\"resourceMechanicalParts\" count=\"10\"/>\n  373  \t        <ingredient name=\"resourceLeather\" count=\"50\"/>\n  ...\n  385  \t\t\n  386  \t\t<recipe name=\"vehicleMRAPparts\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  387: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"400\"/>\n  388  \t\t\t<ingredient name=\"resourceMechanicalParts\" count=\"75\"/>\n  389  \t\t\t<ingredient name=\"resourceDuctTape\" count=\"25\"/>\n  ...\n  408  \t\t<recipe name=\"vehicleNovachassis\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  409  \t\t\t<ingredient name=\"resourceElectricParts\" count=\"20\"/>\n  410: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"300\"/>\n  411  \t        <ingredient name=\"resourceMechanicalParts\" count=\"50\"/>\n  412  \t        <ingredient name=\"resourceDuctTape\" count=\"40\"/>\n  ...\n  415  \t\t\n  416  \t\t<recipe name=\"vehicleNovaaccessories\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  417: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"50\"/>\n  418  \t        <ingredient name=\"resourceMechanicalParts\" count=\"10\"/>\n  419  \t        <ingredient name=\"resourceLeather\" count=\"50\"/>\n  ...\n  448  \t\t<recipe name=\"vehiclePickupchassis\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  449  \t\t\t<ingredient name=\"resourceMetalPipe\" count=\"60\"/>\n  450: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"300\"/>\n  451  \t        <ingredient name=\"resourceMechanicalParts\" count=\"50\"/>\n  452  \t        <ingredient name=\"resourceDuctTape\" count=\"40\"/>\n  ...\n  455  \t\t\n  456  \t\t<recipe name=\"vehiclePickupaccessories\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  457: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"50\"/>\n  458  \t        <ingredient name=\"resourceMechanicalParts\" count=\"10\"/>\n  459  \t        <ingredient name=\"resourceDuctTape\" count=\"50\"/>\n  ...\n  471  \t\t\n  472  \t\t<recipe name=\"vehicleRatChassis\" count=\"1\" craft_area=\"workbench\" tags=\"perkGreaseMonkey,learnable,workbenchCrafting\">\n  473: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"55\"/>\n  474  \t\t\t<ingredient name=\"resourceMechanicalParts\" count=\"30\"/>\n  475  \t\t\t<ingredient name=\"resourceDuctTape\" count=\"12\"/>\n  ...\n  479  \t\t\n  480  \t\t<recipe name=\"vehicleRatbars\" count=\"1\" craft_area=\"workbench\" tags=\"perkGreaseMonkey,learnable,workbenchCrafting\">\n  481: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"20\"/>\n  482  \t\t\t<ingredient name=\"resourceMechanicalParts\" count=\"15\"/>\n  483  \t\t\t<ingredient name=\"resourceScrapPolymers\" count=\"50\"/>\n  ...\n  504  \t\t<recipe name=\"vehicleSHERPchassis\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  505  \t\t\t<ingredient name=\"resourceElectricParts\" count=\"20\"/>\n  506: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"350\"/>\n  507  \t        <ingredient name=\"resourceMechanicalParts\" count=\"50\"/>\n  508  \t        <ingredient name=\"resourceDuctTape\" count=\"40\"/>\n  ...\n  511  \t\t\n  512  \t\t<recipe name=\"vehicleSHERPaccessories\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  513: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"50\"/>\n  514  \t        <ingredient name=\"resourceMechanicalParts\" count=\"10\"/>\n  515  \t        <ingredient name=\"resourceLeather\" count=\"50\"/>\n  ...\n  528  \t\t<recipe name=\"vehicleStallionchassis\" count=\"1\" craft_area=\"workbench\" tags=\"perkGreaseMonkey,learnable,workbenchCrafting\">\n  529  \t\t\t<ingredient name=\"resourceElectricParts\" count=\"20\"/>\n  530: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"300\"/>\n  531  \t        <ingredient name=\"resourceMechanicalParts\" count=\"50\"/>\n  532  \t        <ingredient name=\"resourceDuctTape\" count=\"40\"/>\n  ...\n  535  \t\t\n  536  \t\t<recipe name=\"vehicleStallionaccessories\" count=\"1\" craft_area=\"workbench\" tags=\"perkGreaseMonkey,learnable,workbenchCrafting\">\n  537: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"50\"/>\n  538  \t        <ingredient name=\"resourceMechanicalParts\" count=\"10\"/>\n  539  \t        <ingredient name=\"resourceLeather\" count=\"50\"/>\n  ...\n  576  \t\t<recipe name=\"vehicleUAZ452chassis\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  577  \t\t\t<ingredient name=\"resourceElectricParts\" count=\"20\"/>\n  578: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"325\"/>\n  579  \t\t\t<ingredient name=\"resourceMechanicalParts\" count=\"50\"/>\n  580  \t\t\t<ingredient name=\"resourceDuctTape\" count=\"40\"/>\n  ...\n  592  \t\t<recipe name=\"vehicleUH60chassis\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  593  \t\t\t<ingredient name=\"resourceSpring\" count=\"25\"/>\n  594: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"350\"/>\n  595  \t        <ingredient name=\"resourceMechanicalParts\" count=\"50\"/>\n  596  \t        <ingredient name=\"resourceDuctTape\" count=\"40\"/>\n  ...\n  599  \t\t\n  600  \t\t<recipe name=\"vehicleUH60accessories\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  601: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"50\"/>\n  602  \t        <ingredient name=\"resourceMechanicalParts\" count=\"10\"/>\n  603  \t        <ingredient name=\"resourceLeather\" count=\"50\"/>\n  ...\n  632  \t\t<recipe name=\"vehicleWorkTruckchassis\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  633  \t\t\t<ingredient name=\"resourceElectricParts\" count=\"20\"/>\n  634: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"300\"/>\n  635  \t        <ingredient name=\"resourceMechanicalParts\" count=\"50\"/>\n  636  \t        <ingredient name=\"resourceDuctTape\" count=\"40\"/>\n  ...\n  639  \t\t\n  640  \t\t<recipe name=\"vehicleWorkTruckaccessories\" count=\"1\" craft_area=\"workbench\" tags=\"learnable,workbenchCrafting\">\n  641: \t\t\t<ingredient name=\"resourceForgedSteel\" count=\"50\"/>\n  642  \t        <ingredient name=\"resourceMechanicalParts\" count=\"10\"/>\n  643  \t        <ingredient name=\"resourceLeather\" count=\"50\"/>\n\n203 matches across 8 files\n",
+			"settings":
+			{
+				"buffer_size": 70804,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/items.xml",
+			"settings":
+			{
+				"buffer_size": 1185904,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
+			"settings":
+			{
+				"buffer_size": 1515102,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoBuilding/Config/blocks.xml",
+			"settings":
+			{
+				"buffer_size": 398,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoBuilding/Config/items.xml",
+			"settings":
+			{
+				"buffer_size": 72,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -94,6 +167,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
 			[
 				"instal",
 				"Package Control: Install Package"
@@ -167,25 +248,27 @@
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/KHA18-BackpackButtons",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/KHA18-BackpackButtons/Config",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/KHA18-BackpackButtons/Config/XUi",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/StorageSize",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/StorageSize/Config"
 	],
 	"file_history":
 	[
+		"/C/Users/Eric/AppData/Roaming/Sublime Text 3/Packages/tgit-st3/tgit-st3.sublime-settings",
+		"/C/Users/Eric/AppData/Roaming/Sublime Text 3/Packages/User/tgit-st3.sublime-settings",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/StorageSize/Release Notes.md",
+		"/D/7dtd/7dtdMods/README.md",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/Ceruho Valley/serverconfig.xml",
+		"/X/Git Repo/7dtd-spantan-multiplayer-bundle/Worlds/README.md",
+		"/D/7dtd/7dtdMods/NoBuilding/Release Notes.md",
+		"/D/7dtd/7dtdMods/.github/workflows/PaintJob_release.yml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Release Notes.md",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/ModInfo.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config/blocks.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/StorageSize/Config/loot.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/StorageSize/ModInfo.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/StorageSize/Release Notes.md",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/loot.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/Hizuti Mountains/serverconfig.xml",
-		"/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/Ceruho Valley/serverconfig.xml",
 		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/webpermissions.xml",
 		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/serveradmin.xml",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/webpermissions.xml",
@@ -218,7 +301,6 @@
 		"/X/Git Repo/Sycnex/Windows10Debloater/README.md",
 		"/X/Git Repo/7dtd-spantan-multiplayer-bundle/Mods/PaintJob/Release Notes.md",
 		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa25988.34074/items.xml",
-		"/D/7dtd/7dtdMods/README.md",
 		"/D/7dtd/7dtdMods/EricMods/ModInfo.xml",
 		"/D/7dtd/7dtdMods/EricMods/Config/items.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/items.xml",
@@ -278,7 +360,6 @@
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/Release Notes.md",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/ModInfo.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/Config/entityclasses.xml",
-		"/D/7dtd/7dtdMods/.github/workflows/PaintJob_release.yml",
 		"/D/7dtd/7dtdMods/JeepAlterations/ModInfo.xml",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/serveradmin.xml",
 		"/D/7dtd/7dtdMods/SpartanBlocks/ModInfo.xml",
@@ -299,11 +380,7 @@
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/West Yijota Territory/prefabs.xml",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/GeneratedWorlds/West Yijota Territory/GenerationInfo.txt",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie.bak/GeneratedWorlds/West Xujabe Territory/GenerationInfo.txt",
-		"/C/Users/Eric/AppData/Roaming/7DaysToDie.bak/GeneratedWorlds/Kaweje Mountains/GenerationInfo.txt",
-		"/D/7dtd/7dtdMods/Modlet Installation.md",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-07-13__21-59-15.txt",
-		"/D/7dtd/7dtdMods/SpartanBlocks/Config/blocks.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-07-13__22-12-58.txt"
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie.bak/GeneratedWorlds/Kaweje Mountains/GenerationInfo.txt"
 	],
 	"find":
 	{
@@ -330,6 +407,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"resourceForgedSteel",
+			"steel",
+			"resourceConcreteMix",
+			"pouredConcreteBlockVariantHelper",
+			"resourceConcreteMix",
+			"concrete",
 			"schematicsToolsCommon",
 			"schematicsToolsT0",
 			"ammoGasCanSchematic",
@@ -451,13 +534,7 @@
 			"light",
 			"lighting",
 			"felectrical",
-			"pjVehicleMotorcycleWhite",
-			"Patrol",
-			"patrol",
-			"Patrol",
-			"patrol",
-			"Patrol",
-			"triggered_effect trigger=\""
+			"pjVehicleMotorcycleWhite"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -496,7 +573,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 10,
 			"sheets":
 			[
 				{
@@ -523,24 +600,111 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/StorageSize/Release Notes.md",
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoBuilding/Config/recipes.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 744,
+						"buffer_size": 1019,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								242,
-								242
+								1007,
+								1007
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoBuilding/Config/traders.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								140,
+								140
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoBuilding/Disabled-ModInfo.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								331,
+								331
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoBuilding/Release Notes.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 384,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								124,
+								161
 							]
 						],
 						"settings":
@@ -555,48 +719,1019 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/D/7dtd/7dtdMods/README.md",
+					"buffer": 5,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoBuilding/Config/loot.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7777,
+						"buffer_size": 241,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								867,
-								867
+								8,
+								80
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/Ceruho Valley/serverconfig.xml",
+					"buffer": 6,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/recipes.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12501,
+						"buffer_size": 173944,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								15762,
+								15781
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3949.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 70804,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										245,
+										264
+									],
+									[
+										573,
+										592
+									],
+									[
+										976,
+										995
+									],
+									[
+										1292,
+										1311
+									],
+									[
+										1605,
+										1624
+									],
+									[
+										1964,
+										1983
+									],
+									[
+										2301,
+										2320
+									],
+									[
+										2687,
+										2706
+									],
+									[
+										3109,
+										3128
+									],
+									[
+										3596,
+										3615
+									],
+									[
+										3959,
+										3978
+									],
+									[
+										4343,
+										4362
+									],
+									[
+										4785,
+										4804
+									],
+									[
+										5250,
+										5269
+									],
+									[
+										5673,
+										5692
+									],
+									[
+										6118,
+										6137
+									],
+									[
+										6466,
+										6485
+									],
+									[
+										6762,
+										6781
+									],
+									[
+										7079,
+										7098
+									],
+									[
+										7262,
+										7281
+									],
+									[
+										7579,
+										7598
+									],
+									[
+										7925,
+										7944
+									],
+									[
+										8214,
+										8233
+									],
+									[
+										8550,
+										8569
+									],
+									[
+										9062,
+										9081
+									],
+									[
+										9585,
+										9604
+									],
+									[
+										10141,
+										10160
+									],
+									[
+										10475,
+										10494
+									],
+									[
+										10762,
+										10781
+									],
+									[
+										11136,
+										11155
+									],
+									[
+										11498,
+										11517
+									],
+									[
+										13110,
+										13129
+									],
+									[
+										13303,
+										13322
+									],
+									[
+										15810,
+										15829
+									],
+									[
+										16100,
+										16119
+									],
+									[
+										16409,
+										16428
+									],
+									[
+										16712,
+										16731
+									],
+									[
+										17002,
+										17021
+									],
+									[
+										17463,
+										17482
+									],
+									[
+										17873,
+										17892
+									],
+									[
+										18176,
+										18195
+									],
+									[
+										18460,
+										18479
+									],
+									[
+										18717,
+										18736
+									],
+									[
+										19085,
+										19104
+									],
+									[
+										19419,
+										19438
+									],
+									[
+										19765,
+										19784
+									],
+									[
+										20119,
+										20138
+									],
+									[
+										20410,
+										20429
+									],
+									[
+										20764,
+										20783
+									],
+									[
+										21056,
+										21075
+									],
+									[
+										21410,
+										21429
+									],
+									[
+										21702,
+										21721
+									],
+									[
+										22056,
+										22075
+									],
+									[
+										22346,
+										22365
+									],
+									[
+										22700,
+										22719
+									],
+									[
+										23003,
+										23022
+									],
+									[
+										23361,
+										23380
+									],
+									[
+										23695,
+										23714
+									],
+									[
+										24072,
+										24091
+									],
+									[
+										24326,
+										24345
+									],
+									[
+										24619,
+										24638
+									],
+									[
+										24840,
+										24859
+									],
+									[
+										25158,
+										25177
+									],
+									[
+										25521,
+										25540
+									],
+									[
+										25850,
+										25869
+									],
+									[
+										26213,
+										26232
+									],
+									[
+										26540,
+										26559
+									],
+									[
+										26903,
+										26922
+									],
+									[
+										27218,
+										27237
+									],
+									[
+										27559,
+										27578
+									],
+									[
+										27915,
+										27934
+									],
+									[
+										28228,
+										28247
+									],
+									[
+										28579,
+										28598
+									],
+									[
+										28937,
+										28956
+									],
+									[
+										29260,
+										29279
+									],
+									[
+										29623,
+										29642
+									],
+									[
+										29949,
+										29968
+									],
+									[
+										30318,
+										30337
+									],
+									[
+										30642,
+										30661
+									],
+									[
+										31011,
+										31030
+									],
+									[
+										31341,
+										31360
+									],
+									[
+										31710,
+										31729
+									],
+									[
+										32040,
+										32059
+									],
+									[
+										32409,
+										32428
+									],
+									[
+										32758,
+										32777
+									],
+									[
+										33131,
+										33150
+									],
+									[
+										33449,
+										33468
+									],
+									[
+										33812,
+										33831
+									],
+									[
+										34080,
+										34099
+									],
+									[
+										34367,
+										34386
+									],
+									[
+										34637,
+										34656
+									],
+									[
+										34997,
+										35016
+									],
+									[
+										35254,
+										35273
+									],
+									[
+										35449,
+										35468
+									],
+									[
+										35660,
+										35679
+									],
+									[
+										35855,
+										35874
+									],
+									[
+										36122,
+										36141
+									],
+									[
+										36476,
+										36495
+									],
+									[
+										36805,
+										36824
+									],
+									[
+										37167,
+										37186
+									],
+									[
+										37501,
+										37520
+									],
+									[
+										37860,
+										37879
+									],
+									[
+										38178,
+										38197
+									],
+									[
+										38532,
+										38551
+									],
+									[
+										38851,
+										38870
+									],
+									[
+										39205,
+										39224
+									],
+									[
+										39549,
+										39568
+									],
+									[
+										39919,
+										39938
+									],
+									[
+										40168,
+										40187
+									],
+									[
+										40496,
+										40515
+									],
+									[
+										40858,
+										40877
+									],
+									[
+										41203,
+										41222
+									],
+									[
+										41571,
+										41590
+									],
+									[
+										41901,
+										41920
+									],
+									[
+										42216,
+										42235
+									],
+									[
+										42491,
+										42510
+									],
+									[
+										42793,
+										42812
+									],
+									[
+										43091,
+										43110
+									],
+									[
+										43389,
+										43408
+									],
+									[
+										43692,
+										43711
+									],
+									[
+										44002,
+										44021
+									],
+									[
+										44306,
+										44325
+									],
+									[
+										44616,
+										44635
+									],
+									[
+										44922,
+										44941
+									],
+									[
+										45222,
+										45241
+									],
+									[
+										45526,
+										45545
+									],
+									[
+										45823,
+										45842
+									],
+									[
+										46125,
+										46144
+									],
+									[
+										46420,
+										46439
+									],
+									[
+										46716,
+										46735
+									],
+									[
+										47017,
+										47036
+									],
+									[
+										47314,
+										47333
+									],
+									[
+										47615,
+										47634
+									],
+									[
+										47963,
+										47982
+									],
+									[
+										48312,
+										48331
+									],
+									[
+										48620,
+										48639
+									],
+									[
+										48925,
+										48944
+									],
+									[
+										49227,
+										49246
+									],
+									[
+										49523,
+										49542
+									],
+									[
+										49828,
+										49847
+									],
+									[
+										50131,
+										50150
+									],
+									[
+										50433,
+										50452
+									],
+									[
+										50737,
+										50756
+									],
+									[
+										51028,
+										51047
+									],
+									[
+										51330,
+										51349
+									],
+									[
+										51631,
+										51650
+									],
+									[
+										51933,
+										51952
+									],
+									[
+										52232,
+										52251
+									],
+									[
+										52533,
+										52552
+									],
+									[
+										52733,
+										52752
+									],
+									[
+										53133,
+										53152
+									],
+									[
+										53504,
+										53523
+									],
+									[
+										53765,
+										53784
+									],
+									[
+										54051,
+										54070
+									],
+									[
+										54361,
+										54380
+									],
+									[
+										54723,
+										54742
+									],
+									[
+										54999,
+										55018
+									],
+									[
+										55361,
+										55380
+									],
+									[
+										55674,
+										55693
+									],
+									[
+										56030,
+										56049
+									],
+									[
+										56363,
+										56382
+									],
+									[
+										56719,
+										56738
+									],
+									[
+										57052,
+										57071
+									],
+									[
+										57406,
+										57425
+									],
+									[
+										57699,
+										57718
+									],
+									[
+										57927,
+										57946
+									],
+									[
+										58058,
+										58077
+									],
+									[
+										58339,
+										58358
+									],
+									[
+										58632,
+										58651
+									],
+									[
+										59056,
+										59075
+									],
+									[
+										59389,
+										59408
+									],
+									[
+										59772,
+										59791
+									],
+									[
+										60107,
+										60126
+									],
+									[
+										60453,
+										60472
+									],
+									[
+										60785,
+										60804
+									],
+									[
+										61109,
+										61128
+									],
+									[
+										61426,
+										61445
+									],
+									[
+										61794,
+										61813
+									],
+									[
+										62128,
+										62147
+									],
+									[
+										62507,
+										62526
+									],
+									[
+										62838,
+										62857
+									],
+									[
+										63184,
+										63203
+									],
+									[
+										63515,
+										63534
+									],
+									[
+										63893,
+										63912
+									],
+									[
+										64229,
+										64248
+									],
+									[
+										64603,
+										64622
+									],
+									[
+										64936,
+										64955
+									],
+									[
+										65260,
+										65279
+									],
+									[
+										65630,
+										65649
+									],
+									[
+										65962,
+										65981
+									],
+									[
+										66340,
+										66359
+									],
+									[
+										66674,
+										66693
+									],
+									[
+										67017,
+										67036
+									],
+									[
+										67345,
+										67364
+									],
+									[
+										67720,
+										67739
+									],
+									[
+										68053,
+										68072
+									],
+									[
+										68454,
+										68473
+									],
+									[
+										68807,
+										68826
+									],
+									[
+										69189,
+										69208
+									],
+									[
+										69552,
+										69571
+									],
+									[
+										69884,
+										69903
+									],
+									[
+										70269,
+										70288
+									],
+									[
+										70606,
+										70625
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								9066,
+								9066
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6210.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/items.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1185904,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4270,
+								4289
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 871.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1515102,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										52334,
+										52353
+									],
+									[
+										632757,
+										632776
+									],
+									[
+										1293191,
+										1293191
+									],
+									[
+										1326087,
+										1326106
+									],
+									[
+										1426970,
+										1426989
+									]
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								51619,
+								51634
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 19951.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoBuilding/Config/blocks.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 398,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								398,
+								398
 							]
 						],
 						"settings":
@@ -608,6 +1743,35 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoBuilding/Config/items.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 72,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				}
 			]

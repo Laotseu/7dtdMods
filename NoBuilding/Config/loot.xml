@@ -1,0 +1,6 @@
+<loot>	
+	<remove xpath="//item[@name='resourceConcreteMix']" />
+
+	<!-- More feathers -->
+	<!-- <set xpath="//item[@name='resourceFeather']/@count">2,10</set> -->
+</loot>

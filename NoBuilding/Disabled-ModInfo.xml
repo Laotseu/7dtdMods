@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="NoBuilding" />
+		<Description value="Remove player access to concrete and steel for building and upgrading." />
+		<Author value="Eric Beaudoin" />
+		<Version value="1.0" />
+		<Website value="https://github.com/Laotseu/7dtdMods/blob/master/README.md" />
+		
+		<!-- 1.0: 	Initial version for 2020-09-11 stream -->
+		
+	</ModInfo>
+</xml>
