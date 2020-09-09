@@ -13,4 +13,7 @@
 	<remove xpath="//block[@name='rebarFramePillar100']/property[@class='UpgradeBlock']" />
 	<remove xpath="//block[@name='concreteDestroyed01']/property[@class='UpgradeBlock']" />
 
+	<!-- Bar stools -->
+	<append xpath="//block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,barStool</append>
+
 </blocks>

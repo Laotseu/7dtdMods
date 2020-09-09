@@ -15,4 +15,7 @@
 	<remove xpath="//recipe[@name='vaultHatch_v3_Powered']" />
 	<remove xpath="//recipe[@name='vaultDoor03_Powered']" />
 
+	<!-- Remove access to bullet prof glass block -->
+	<remove xpath="//recipe[@name='glassBulletproofBlockVariantHelper']" />
+
 </recipes>
