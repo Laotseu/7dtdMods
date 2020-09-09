@@ -13,10 +13,6 @@
 	<remove xpath="//recipe[@name='vaultDoor01']" />
 	<remove xpath="//recipe[@name='vaultHatch_v1']" />
 	<remove xpath="//recipe[@name='vaultHatch_v3_Powered']" />
-	<remove xpath="//recipe[@name='vaultHatch_v3_Powered']" />
-	<remove xpath="//recipe[@name='vaultDoor01']" />
-	<remove xpath="//recipe[@name='vaultHatch_v1']" />
-	<remove xpath="//recipe[@name='vaultHatch_v3_Powered']" />
 	<remove xpath="//recipe[@name='vaultDoor03_Powered']" />
 
 </recipes>

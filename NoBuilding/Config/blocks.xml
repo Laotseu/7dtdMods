@@ -5,5 +5,12 @@
 	<remove xpath="//block[@name='vaultDoor01']/property[@class='UpgradeBlock']" />
 	<remove xpath="//block[@name='rScrapIronLogSpike5']/property[@class='UpgradeBlock']" />
 	<remove xpath="//block[@name='rConcreteMaster']/property[@class='UpgradeBlock']" />
+	<remove xpath="//block[@name='rScrapIronMaster']/property[@class='UpgradeBlock']" />
+	<remove xpath="//block[@name='rebarFrameMaster']/property[@class='UpgradeBlock']" />
+	<remove xpath="//block[@name='concreteMaster']/property[@class='UpgradeBlock']" />
+	<remove xpath="//block[@name='cobblestoneMaster']/property[@class='UpgradeBlock']" />
+	<remove xpath="//block[@name='brickMaster']/property[@class='UpgradeBlock']" />
+	<remove xpath="//block[@name='rebarFramePillar100']/property[@class='UpgradeBlock']" />
+	<remove xpath="//block[@name='concreteDestroyed01']/property[@class='UpgradeBlock']" />
 
 </blocks>
