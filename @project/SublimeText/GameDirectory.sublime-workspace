@@ -74,7 +74,10 @@
 			}
 		},
 		{
+			"contents": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n\n<xml>\n\t<ModInfo>\n\t\t<Name value=\"NoBuilding\" />\n\t\t<Description value=\"Remove player access to concrete and steel for building and upgrading.\" />\n\t\t<Author value=\"Eric Beaudoin\" />\n\t\t<Version value=\"1.0\" />\n\t\t<Website value=\"https://github.com/Laotseu/7dtdMods/blob/master/README.md\" />\n\t\t\n\t\t<!-- 1.0: \tInitial version for 2020-09-11 stream -->\n\t\t\n\t</ModInfo>\n</xml>\n",
 			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/NoBuilding/Disabled-ModInfo.xml",
+			"file_size": 420,
+			"file_write_time": 132440522530327085,
 			"settings":
 			{
 				"buffer_size": 406,
@@ -99,7 +102,6 @@
 			"settings":
 			{
 				"buffer_size": 241,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -248,6 +250,7 @@
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/KHA18-BackpackButtons",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/KHA18-BackpackButtons/Config",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/KHA18-BackpackButtons/Config/XUi",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/NoBuilding",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/StorageSize",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/StorageSize/Config"
 	],

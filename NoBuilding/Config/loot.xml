@@ -1,4 +1,5 @@
 <loot>	
+	<!-- Remove the ability for players to get Concrete Mix and Blocks -->
 	<remove xpath="//item[@name='resourceConcreteMix']" />
 
 	<!-- More feathers -->
