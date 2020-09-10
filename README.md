@@ -4,13 +4,13 @@ Mods for the game 7 Days to Die
 
 [Installation instructions](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)
 
-MoreContainers v1.3 (Alpha 19)
+MoreContainers v1.4 (Alpha 19)
 ------------------------------
 
-<img align="left" width="30%" height="30%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/MoreContainers_v1.2/MoreContainers/MoreContainers.png" />Do you have friends that can't help themselves and store everything in a specific box for each type of items? I do. This mods add new graphic designs for the storage boxes and also add half-block versions of the storage boxes (for more headspace).
+<img align="left" width="30%" height="30%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/MoreContainers_v1.4/MoreContainers/MoreContainers.png" />Do you have friends that can't help themselves and store everything in a specific box for each type of items? I do. This mods add new graphic designs for the storage boxes and also add half-block versions of the storage boxes (for more headspace).
 
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreContainers_v1.3/MoreContainers_v1.3.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreContainers_v1.3)<br /><br /><br /><br /><br />
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreContainers_v1.4/MoreContainers_v1.4.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreContainers_v1.4)<br /><br /><br /><br /><br />
 
 MotorcycleAlterations v1.3 (Alpha 19)
 -------------------------------------

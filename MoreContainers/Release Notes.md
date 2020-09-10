@@ -1,9 +1,11 @@
 **MoreContainers** is a 7 Days to Die modlet that adds new crate containers design to help you better sort your stuff in game.
 
-![MoreContainers](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/MoreContainers/MoreContainers.png)
+![MoreContainers](https://raw.githubusercontent.com/Laotseu/7dtdMods/MoreContainers_v1.4/MoreContainers/MoreContainers.png)
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 1.4: New crates
+	- New Auto Parts and Workbench designs
 * 1.3: Bug fixes
 	- Secure Armors Storage now available to players (only could use Insecure version before)
 	- Writable Storage now get drop in your inventory if you destroy it

@@ -61,6 +61,17 @@
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeArmors" /> 
 		</block>
 
+		<block name="mcCubeContainerAutoparts">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcCubeContainerAutopartsInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeAutoparts" /> 
+		</block>
+		<block name="mcCubeContainerAutopartsInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcCubeContainerAutoparts" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeAutoparts" /> 
+		</block>
+
 		<block name="mcCubeContainerBarter">
 			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcCubeContainerBarterInsecure"/>
@@ -138,6 +149,17 @@
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeWeapons" /> 
 		</block>
 
+		<block name="mcCubeContainerWorkbench">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcCubeContainerWorkbenchInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeWorkbench" /> 
+		</block>
+		<block name="mcCubeContainerWorkbenchInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcCubeContainerWorkbench" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeWorkbench" /> 
+		</block>
+
 		
 
 		<!-- Halfblock storages -->
@@ -183,6 +205,17 @@
 			<property name="Extends" value="mcCubeContainerInsecure"/>
 			<property name="CustomIcon" value="mcHalfCubeContainerArmors" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfArmors" /> 
+		</block>
+
+		<block name="mcHalfCubeContainerAutoparts">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcHalfCubeContainerAutopartsInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfAutoparts" /> 
+		</block>
+		<block name="mcHalfCubeContainerAutopartsInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcHalfCubeContainerAutoparts" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfAutoparts" /> 
 		</block>
 
 		<block name="mcHalfCubeContainerBarter">
@@ -273,11 +306,22 @@
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfWeapons" /> 
 		</block>
 
+		<block name="mcHalfCubeContainerWorkbench">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcHalfCubeContainerWorkbenchInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfWorkbench" /> 
+		</block>
+		<block name="mcHalfCubeContainerWorkbenchInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcHalfCubeContainerWorkbench" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfWorkbench" /> 
+		</block>
+
 	
 	</append>
 
 	<!-- Add the new contairs to the helper block -->
-	<append xpath="//block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,mcCubeContainer,mcHalfCubeContainer,mcCubeContainerAmo,mcHalfCubeContainerAmo,mcCubeContainerArmors,mcHalfCubeContainerArmors,mcCubeContainerBarter,mcHalfCubeContainerBarter,mcCubeContainerBuilding,mcHalfCubeContainerBuilding,mcCubeContainerExplosive,mcHalfCubeContainerExplosive,mcCubeContainerFood,mcHalfCubeContainerFood,mcCubeContainerForge,mcHalfCubeContainerForge,mcCubeContainerHealth,mcHalfCubeContainerHealth,mcCubeContainerMining,mcHalfCubeContainerMining,mcCubeContainerRecycle,mcHalfCubeContainerRecycle,mcCubeContainerWeapons,mcHalfCubeContainerWeapons</append>
+	<append xpath="//block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,mcCubeContainer,mcHalfCubeContainer,mcCubeContainerAmo,mcHalfCubeContainerAmo,mcCubeContainerArmors,mcHalfCubeContainerArmors,mcCubeContainerAutoparts,mcHalfCubeContainerAutoparts,mcCubeContainerBarter,mcHalfCubeContainerBarter,mcCubeContainerBuilding,mcHalfCubeContainerBuilding,mcCubeContainerExplosive,mcHalfCubeContainerExplosive,mcCubeContainerFood,mcHalfCubeContainerFood,mcCubeContainerForge,mcHalfCubeContainerForge,mcCubeContainerHealth,mcHalfCubeContainerHealth,mcCubeContainerMining,mcHalfCubeContainerMining,mcCubeContainerRecycle,mcHalfCubeContainerRecycle,mcCubeContainerWeapons,mcHalfCubeContainerWeapons,mcCubeContainerWorkbench,mcHalfCubeContainerWorkbench</append>
 	<append xpath="//block[@name='cntWoodFurnitureBlockVariantHelper']">
 		<property name="Place" value="TowardsPlacerInverted"/>
 	</append>
