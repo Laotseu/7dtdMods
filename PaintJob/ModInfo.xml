@@ -5,7 +5,7 @@
 		<Name value="PaintJob" />
 		<Description value="New colour schemes for FunPims vehicles" />
 		<Author value="Éric Beaudon" />
-		<Version value="1.14" />
+		<Version value="1.15" />
 	</ModInfo>
 
 	<!--
@@ -42,4 +42,5 @@
 	<!-- v1.14: Minibikes
 				Remove acid from recipes
 				Cut down textures size from 2K down to 1K for everything but the Jeeps -->
+	<!-- v1.15:	Pink motorcycle (for MaryB) -->
 </xml>

@@ -6,6 +6,7 @@
 
 **Note: As of version 1.13+, MotorcycleAlterations is integrated into PaintJob. I advise to uninstall MotorcycleAlterations if you use PaintJob.**
 
+* 1.15: Pink Motorcycle (for MaryB)
 * 1.14: Minibikes
 	- Minibikes available in orange (original colour), black, blue, green, piink, red, teal, white, and yellow
 	- Remove acid from the recipes
