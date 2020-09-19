@@ -51,6 +51,11 @@
 			<property name="Prefab" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK-war3zuk"/>
 		</entity_class>
 
+		<entity_class name="pjVehicle4x4TruckGreen" extends="vehicle4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_green"/>
+		</entity_class>
+
 
 
 		<!-- Motorcycles -->

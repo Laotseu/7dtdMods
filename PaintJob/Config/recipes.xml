@@ -41,6 +41,11 @@
 			<ingredient name="drinkJarGrainAlcohol" count="5"/>
 		</recipe>
 
+		<recipe name="pjVehicle4x4TruckWhitePlaceable" count="1">
+			<ingredient name="pjVehicle4x4TruckGreenPlaceable" count="1"/>
+			<ingredient name="drinkJarGrainAlcohol" count="5"/>
+		</recipe>
+
 
 
 		<recipe name="vehicle4x4TruckPlaceable" count="1">
@@ -74,6 +79,11 @@
 		</recipe>
 
 		<recipe name="pjVehicle4x4War3zUKPlaceable" count="1">
+			<ingredient name="pjVehicle4x4TruckWhitePlaceable" count="1"/>
+			<ingredient name="resourcePaint" count="30"/>
+		</recipe>
+
+		<recipe name="pjVehicle4x4TruckGreenPlaceable" count="1">
 			<ingredient name="pjVehicle4x4TruckWhitePlaceable" count="1"/>
 			<ingredient name="resourcePaint" count="30"/>
 		</recipe>
