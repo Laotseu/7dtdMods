@@ -6,6 +6,11 @@
 
 **Note: As of version 1.13+, MotorcycleAlterations is integrated into PaintJob. I advise to uninstall MotorcycleAlterations if you use PaintJob.**
 
+* 1.16: 4x4 Texture review
+	- Texture refactoring for the 4x4 (from 5 bitmaps to 2)
+	- Fix Green Camo texture (Be Bear Aware)
+	- Fix War3zUK texture (Scottish flag instead of the inverted Union flag)
+	- Little overhaul of the Spartan texture
 * 1.15: More designs
 	- Pink Motorcycle (for MaryB)
 	- Green Camo Jeep
