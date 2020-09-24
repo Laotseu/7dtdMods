@@ -5,7 +5,7 @@
 		<Name value="PaintJob" />
 		<Description value="New colour schemes for FunPims vehicles" />
 		<Author value="Éric Beaudon" />
-		<Version value="1.15" />
+		<Version value="1.16" />
 	</ModInfo>
 
 	<!--
@@ -44,4 +44,9 @@
 				Cut down textures size from 2K down to 1K for everything but the Jeeps -->
 	<!-- v1.15:	Pink motorcycle (for MaryB)
 				Green Camo Jeep -->
+	<!-- v1.16: 4x4 Texture review
+				Texture refactoring for the 4x4 (from 5 bitmaps to 2)
+				Fix Green Camo texture (Be Bear Aware)
+				Fix War3zUK texture (Scottish flag instead of the inverted Union flag)
+				Little overhaul of the Spartan texture -->
 </xml>
