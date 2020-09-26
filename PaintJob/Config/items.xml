@@ -33,7 +33,7 @@
 
 		<item name="pjVehicle4x4TruckRedPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="Meshfile" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_red"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_red_hotwheels"/>
 			<property name="EconomicValue" value="30000"/>
 			<property class="Action1">
 				<property name="Vehicle" value="pjVehicle4x4TruckRed"/>

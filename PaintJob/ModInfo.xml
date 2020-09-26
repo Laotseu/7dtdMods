@@ -44,9 +44,11 @@
 				Cut down textures size from 2K down to 1K for everything but the Jeeps -->
 	<!-- v1.15:	Pink motorcycle (for MaryB)
 				Green Camo Jeep -->
-	<!-- v1.16: 4x4 Texture review
+	<!-- v1.16:	4x4 Texture overhaul
 				Texture refactoring for the 4x4 (from 5 bitmaps to 2)
 				Fix Green Camo texture (Be Bear Aware)
 				Fix War3zUK texture (Scottish flag instead of the inverted Union flag)
-				Little overhaul of the Spartan texture -->
+				Little overhaul of the Spartan texture
+				Complete overhaul of the red jeep
+				Add a windshield to Miss Spartan's jeep -->
 </xml>
