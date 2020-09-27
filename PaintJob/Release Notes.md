@@ -13,6 +13,7 @@
 	- Little overhaul of the Spartan texture
 	- Complete overhaul of the red jeep
 	- Add a windshield to Miss Spartan's jeep
+	- Fix a cliping issue with the chain
 * 1.15: More designs
 	- Pink Motorcycle (for MaryB)
 	- Green Camo Jeep
