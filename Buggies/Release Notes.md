@@ -8,7 +8,5 @@ The models used in the mod are property of their creators and used with permissi
 
 * [Buggy by wta from Turbosquid](https://www.turbosquid.com/3d-models/3d-model-buggy/604323)
 	- [Licence text](https://blog.turbosquid.com/turbosquid-3d-model-license/#Creations-of-Computer-Games)
-* [Dune Hopper Buggy by TaraGameStudios from Unity Asset Store](https://assetstore.unity.com/packages/3d/vehicles/land/dune-hopper-buggy-vehicle-162337)
-	- [Unity Asset Store ULA](https://unity3d.com/legal/as_terms)
 
 [Click here for a list of all my mods](https://github.com/Laotseu/7dtdMods/blob/master/README.md)
