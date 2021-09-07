@@ -4,6 +4,9 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 1.5: Even more crates<br />
+	![New designs for v1.5](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/MoreContainers/New%20designs%20for%20v1.5.png)
+	- Cement Mixer, Chemistry, Crafting, Electricity, Gas, Gun Craft, Modding, Plants, Resources, Tool Smithing
 * 1.4: New crates
 	- New Auto Parts and Workbench designs
 * 1.3: Bug fixes
