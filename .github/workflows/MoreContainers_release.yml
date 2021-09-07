@@ -30,7 +30,8 @@ jobs:
             ZIPNAME="${GITHUB_REF##*/}.zip"
           fi
           echo "Creating ${ZIPNAME}"
-          echo "::set-env name=RELEASE_NAME::${ZIPNAME%\.zip}"
+          # echo "::set-env name=RELEASE_NAME::${ZIPNAME%\.zip}"
+          echo "RELEASE_NAME=${ZIPNAME}\.zip" >> $GITHUB_ENV
           mkdir ./Mods
           mv ./MoreContainers/Release\ Notes.md .
           mv ./MoreContainers ./Mods
