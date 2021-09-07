@@ -5,7 +5,7 @@
 		<Name value="MoreContainers" />
 		<Description value="More option for storage boxes and similar items." />
 		<Author value="Éric Beaudon" />
-		<Version value="1.4" />
+		<Version value="1.5" />
 	</ModInfo>
 
 	<!--
@@ -16,6 +16,8 @@
 		For this model to work properly, it needs to be installed on the server and every player's computer.
 	-->
 
+	<!-- v1.5:  More crates (full and half cube versions)
+				Cement Mixer, Chemistry, Crafting, Electricity, Gas, Gun Craft, Modding, Plants, Resources, Tool Smithing -->
 	<!-- v1.4:	New crates
 				New Auto Parts and Workbench designs -->
 	<!-- v1.3:	Bug fixes
