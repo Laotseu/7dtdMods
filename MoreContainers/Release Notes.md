@@ -1,6 +1,6 @@
 **MoreContainers** is a 7 Days to Die modlet that adds new crate containers design to help you better sort your stuff in game.
 
-![MoreContainers](https://raw.githubusercontent.com/Laotseu/7dtdMods/MoreContainers_v1.4/MoreContainers/MoreContainers.png)
+![MoreContainers](https://raw.githubusercontent.com/Laotseu/7dtdMods/MoreContainers_v1.5/MoreContainers/MoreContainers.png)
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
