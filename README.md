@@ -34,6 +34,14 @@ Are you tired of driving the exact same Jeep as you friend? Do you want to pimp 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v1.16/PaintJob_v1.16.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PaintJob_v1.16)<br /><br /><br /><br /><br />
 
+Eric's Goods v1.1 (Alpha 19)
+----------------------------
+
+<img align="left" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/EricsGoods_v1.1/EricsGoods/Prefabs/EricsGoods.jpg" />Replaced the in game *Eric's Stuff* (oldwest_business_07 POI) with *Eric's Goods* to add challenge, quest, and loot to the otherwise cute but very boring POI.
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/EricsGoods_v1.1/EricsGoods_v1.1.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/EricsGoods_v1.1)<br /><br /><br /><br /><br /><br />
+
 SpartanBlocks v1.8 (Alpha 19)
 -----------------------------
 
@@ -74,14 +82,6 @@ Castle Spartan (on GitLab)
 <img align="left" width="30%" height="30%" hspace="8" src="https://gitlab.com/spartan-designs/castle-spartan/-/raw/master/Mods/CastleSpartan/Prefabs/CastleSpartan_v3.jpg" />Looking for **Castle Spartan**? you can find it in his GitLab repository.
 
 [https://gitlab.com/spartan-designs/castle-spartan](https://gitlab.com/spartan-designs/castle-spartan)<br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-Eric's Goods v1.0 (Alpha 18)
-----------------------------
-
-<img align="left" width="150" height="150" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/EricsGoods/Prefabs/EricsGoods.jpg" />Replaced the in game Eric's Stuff (oldwest_business_07) with Eric's Goods to add chalenge, quest, and loot to the otherwise cute but very boring POI.
-
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/EricsGoods_v1.0/EricsGoods_v1.0.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/EricsGoods_v1.0)<br /><br />
 
 MoreBlocks v1.03 (Alpha 18)
 ---------------------------

@@ -1,7 +1,8 @@
 <ericsgoods>
 	
 	<insertAfter xpath="//prefab[contains(@name,'oldwest_business_07')]">
-		<prefab name="../../Mods/EricsGoods/Prefabs/EricsGoods" prob="3" min_count="1" max_count="1" min_repeat_distance="500" />
+		<!-- <prefab name="../../Mods/EricsGoods/Prefabs/EricsGoods" prob="3" min_count="1" max_count="1" min_repeat_distance="500" /> -->
+		<prefab name="EricsGoods" prob="3" max_count="1" min_repeat_distance="500"/>
 	</insertAfter>
 
 	<remove xpath="//prefab[contains(@name,'oldwest_business_07')]" />

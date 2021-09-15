@@ -20,7 +20,7 @@ For stand-alone PC installation
 
 Copy the **EricsGoods** folder into your 7 Days do Die `Mods` folder.
 
-Optional: copy the `Mods\EricsGoods\Prefabs` files into your game `Data\Prefabs`. This will allow you to see the castle using the in game POI editor.
+Optional: copy the `Mods\EricsGoods\Prefabs` files into your game `Data\Prefabs`. This will allow you to see the POI using the in game POI editor.
 
 
 For dedicated server installation
@@ -37,7 +37,7 @@ How to use the mod
 
 Once the mod is installed, randomly generated worlds will have a chance to spawn Eric's Goods. In fact, all instance of the vanilla POI Eric's Stuff will instead be spawn as Eric's Goods. You just have to generate a new world and the PIO should be in there somewhere. There should be multiple instances in your new world.
 
-As you may guess, this will only work with newly generated worlds. Any world that was generated before you installed the mod will not spawn the castle. You will also need to start a new game in order to use that new world.
+As you may guess, this will only work with newly generated worlds. Any world that was generated before you installed the mod will not spawn the new POI. You will also need to start a new game in order to use that new world.
 
 How to see if the POI actually spawned in my generated world
 ============================================================
