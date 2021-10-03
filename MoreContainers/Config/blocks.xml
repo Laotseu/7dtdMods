@@ -1,6 +1,13 @@
 <configs>
 	<append xpath="/blocks">
 
+		<block name="mcCubeUV">
+			<property name="Extends" value="cntStorageGeneric"/>
+			<property name="DowngradeBlock" value="mcCubeContainerInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CrateUV" /> 
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Shape" value="ModelEntity" />
+		</block>
 		<block name="mcCubeContainer">
 			<property name="Extends" value="cntStorageGeneric"/>
 			<property name="DowngradeBlock" value="mcCubeContainerInsecure"/>
@@ -8,7 +15,7 @@
 			<property name="Place" value="TowardsPlacerInverted"/>
 			<property name="Shape" value="ModelEntity" />
 		</block>
-		<block name="mcCubeContainerInsecure">
+ 		<block name="mcCubeContainerInsecure">
 			<property name="Extends" value="cntStorageGenericInsecure"/>
 			<property name="CustomIcon" value="mcCubeContainer" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeSupply" /> 
