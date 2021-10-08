@@ -48,60 +48,112 @@
 	"buffers":
 	[
 		{
-			"contents": "#!/usr/bin/env\n\n# Create a 7 Days to Die icon from a PNG image\n\nfrom gimpfu import *\n\ndef Make_Icon(image, drawable):\n\n\nregister(\n\t\"python-fu-\",\n\t\"Create a 7 Days to Die icon from a PNG image\",\n\t\"Longer description\",\n\t\"Éric Beaudoin\", \"Éric Beaudoin\", \"2020\",\n\t\n\t)",
+			"contents": "#!/usr/bin/env\n\n# Create a 7 Days to Die icon from a PNG image\n\nfrom gimpfu import *\n\ndef Make_Icon(image, drawable):\n\n\nregister(\n\t\"python-fu-\",\n\t\"Create a 7 Days to Die icon from a PNG image\",\n\t\"Longer description\",\n\t\"Éric Beaudoin\", \"Éric Beaudoin\", \"2020\",\n\t\n\t)\n\n\n",
 			"settings":
 			{
-				"buffer_size": 264,
+				"buffer_size": 267,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/D/7dtd/7dtdMods/NoMoreGuns/Config/loot.xml",
+			"contents": "not (A or B)\n\nebeaudoin@investpsp.ca\n\n",
 			"settings":
 			{
-				"buffer_size": 2041,
+				"buffer_size": 38,
+				"line_ending": "Windows",
+				"name": "not (A or B)"
+			}
+		},
+		{
+			"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
+			"settings":
+			{
+				"buffer_size": 1517159,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/DFA6AC63F493BE4AA90FDB318D319CA2/hosts.txt",
+			"file": "/D/Steam/steamapps/common/OxygenNotIncluded/OxygenNotIncluded_Data/StreamingAssets/templates/test_suit_checkpoint.yaml",
 			"settings":
 			{
-				"buffer_size": 21,
+				"buffer_size": 10329,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/Eric/My Documents/Klei/OxygenNotIncluded/mods/mods.json",
+			"settings":
+			{
+				"buffer_size": 5870,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/0B9E3193DE4700428854C4728B740226/hosts.txt",
+			"file": "/D/Steam/steamapps/common/OxygenNotIncluded/OxygenNotIncluded_Data/StreamingAssets/templates/eric_paint.yaml",
 			"settings":
 			{
-				"buffer_size": 18,
+				"buffer_size": 58120,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/3C5EABB95A1EDD41B82F5A0C405D3DAD/hosts.txt",
+			"contents": "DRIVER=SQL Server;SERVER=sql.esbservices;UID=ebeaudoin;Trusted_Connection=Yes;APP=Microsoft Office;WSID=SXENMTL31B;DATABASE=SQLGatewayServices\n\nSELECT * FROM Services.ViewAllLatestChartofAccounts_v1",
 			"settings":
 			{
-				"buffer_size": 21,
-				"line_ending": "Windows"
+				"buffer_size": 198,
+				"line_ending": "Windows",
+				"name": "DRIVER=SQL Server;SERVER=sql.esbservices;UID=ebeau"
 			}
 		},
 		{
-			"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/Ceruho Valley/serverconfig.xml",
+			"contents": "Genevieve P.\nDavid R.\nNathalie, Jean-Philippe, Jean-Nicolas\nSébastien\n",
 			"settings":
 			{
-				"buffer_size": 12501,
+				"buffer_size": 70,
+				"line_ending": "Windows",
+				"name": "Genevieve P."
+			}
+		},
+		{
+			"contents": "let\n    tblSourceFiles = Excel.CurrentWorkbook(){[Name=\"tblSourceFiles\"]}[Content],\n    paramRow = Table.SelectRows(tblSourceFiles, each ([File ID]=FileID )),\n    Value = if   Table.IsEmpty(paramRow) = true \n            then error Error.Record( \"###Filename not found###\", \"Could not find any filename for FileID: \"& FileID )\n\t    else Record.Field(paramRow{0}, \"Source File Name\")\n\t\t\t\nin\n    Value\n\n\nlet\n    //ReportID = \"R0026\",  //for test \n    txtFileName = fnGetFilename(fnGetValueFromReportsTab(ReportID,\"File Code\")),\n    txtTabName = fnGetTabName(ReportID),\n    Source = Q008_ValidFiles,\n    #\"Filtered File Name\" = Table.SelectRows(Source, each (Text.Upper([File Name]) = Text.Upper(txtFileName))),\n    #\"try Excel URL\" = try #\"Filtered File Name\"{0}[File Path],\n    ExcelURL= if #\"try Excel URL\"[HasError] then null else #\"try Excel URL\"[Value],\n    #\"try Imported Excel\" = try Excel.Workbook(Web.Contents(ExcelURL)),\n    #\"Imported Excel\" = if #\"try Imported Excel\"[HasError]then #table({\"Name\",\"Data\"},{}) else #\"try Imported Excel\"[Value],\n    #\"Filtered Sheet\" = Table.SelectRows(#\"Imported Excel\", each (Text.Upper([Name]) = Text.Upper(txtTabName))),\n    #\"Removed Other Columns1\" = Table.SelectColumns(#\"Filtered Sheet\",{\"Data\"}),\n    #\"try Expend Sheet\" = try #\"Removed Other Columns1\"{0}[Data],\n    #\"Expend Sheet\" = if #\"try Expend Sheet\"[HasError] then #table({\"***Could not resolve***\"},{{ \"File: \"& txtFileName & \", Tab: \" & txtTabName }}) else #\"try Expend Sheet\"[Value]\nin\n    #\"Expend Sheet\"    \n\n\n\n// fnGetExcelSheet\n// ---------------\n//\n// Load a particular Excel sheet from a particular Excel File\n// This function verify that the file exist before loading in order not to \n// provoque the infamous credential error we get when we try to load a file\n// on SharePoint that doesn't exist\n\n\n(ReportID as text) =>\n\nlet\n    //ReportID = \"R0009\",  //for test \n    txtFileName = fnGetFilename(fnGetValueFromReportsTab(ReportID,\"File Code\")),\n    txtTabName = fnGetTabName(ReportID),\n    Source = Q008_ValidFiles,\n    #\"Filtered File Name\" = Table.SelectRows(Source, each (Text.Upper([File Name]) = Text.Upper(txtFileName))),\n    ExcelURL = if \n        Table.IsEmpty(#\"Filtered File Name\") \n    then \n        error Error.Record(\n            \"###File not found###\",\n            \"File not found in the SharePoint library\",\n            \"ReportID = \"\"\"& ReportID& \"\"\", File Name = \"\"\"& txtFileName& \"\"\"\") \n    else \n        #\"Filtered File Name\"{0}[File Path],\n    //ExcelURL= if #\"try Excel URL\"[HasError] then null else #\"try Excel URL\"[Value],\n    #\"Imported Excel\" = Excel.Workbook(Web.Contents(ExcelURL)),\n    //#\"Imported Excel\" = if #\"try Imported Excel\"[HasError]then #table({\"Name\",\"Data\"},{}) else #\"try Imported Excel\"[Value],\n    #\"Filtered Sheet\" = Table.SelectRows(#\"Imported Excel\", each (Text.Upper([Name]) = Text.Upper(txtTabName))),\n    #\"Removed Other Columns1\" = Table.SelectColumns(#\"Filtered Sheet\",{\"Data\"}),\n    #\"Expend Sheet\" = #\"Removed Other Columns1\"{0}[Data]\n    //#\"Expend Sheet\" = if #\"try Expend Sheet\"[HasError] then #table({\"***Could not resolve***\"},{{ \"File: \"& txtFileName & \", Tab: \" & txtTabName }}) else #\"try Expend Sheet\"[Value]\nin\n    #\"Expend Sheet\"    \n\n",
+			"settings":
+			{
+				"buffer_size": 3217,
+				"line_ending": "Windows",
+				"name": "let"
+			}
+		},
+		{
+			"contents": "euillez effacer la mémoire cache du navigateur, puis rafraîchir cette page.\n\n(Erreur TVAPP-00167)\n\n\n",
+			"settings":
+			{
+				"buffer_size": 100,
+				"line_ending": "Windows",
+				"name": "euillez effacer la mémoire cache du navigateur, pu"
+			}
+		},
+		{
+			"file": "/C/bin/MountNasDrive.CMD",
+			"settings":
+			{
+				"buffer_size": 172,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
+			"file": "/C/bin/MountNasDrive.txt",
 			"settings":
 			{
-				"buffer_size": 2754,
-				"encoding": "UTF-8",
+				"buffer_size": 390,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/X/SF/_Admin/SFFVersion.txt",
+			"settings":
+			{
+				"buffer_size": 6,
 				"line_ending": "Windows"
 			}
 		}
@@ -117,6 +169,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
 			[
 				"Package Control: ins",
 				"Package Control: Install Package"
@@ -144,10 +200,6 @@
 			[
 				"mas",
 				"Markdown Preview: Preview in Browser"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
 			],
 			[
 				"pack",
@@ -190,28 +242,53 @@
 		"/C/Steam/steamapps/common/7 Days To Die/Data",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob"
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config"
 	],
 	"file_history":
 	[
+		"/C/bin/MountNasDrive.txt",
+		"//ds413j/nas/Soft/Futuremark 3DMark 2.16.7117 (x64) Multilingual [FileCR]/keygen/install.txt",
+		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa10824.16386/SFF459Files.txt",
+		"/D/Steam/steamapps/common/OxygenNotIncluded/OxygenNotIncluded_Data/StreamingAssets/templates/eric/eric_poi_home_base.yaml",
+		"/D/Eric/My Documents/Klei/OxygenNotIncluded/save_files/Clean Test Bed/Clean Test Bed.sav",
+		"/C/Program Files/CPUID/HWMonitor/hwm_readme.txt",
+		"/D/@sffebooks/DeDRM_tools_6.8.0/Obok_plugin_ReadMe.txt",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/entityclasses.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
+		"/D/7dtd/7dtdMods/README.md",
+		"/D/7dtd/7dtdMods/Buggies/Release Notes.md",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Eric et Simon/serverconfig.xml",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Nifty/serverconfig.xml",
+		"/C/Users/Eric/Desktop/blocks.xml",
+		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/items.xml",
+		"/D/Eric/My Documents/@PSP/MTL_EFT_RBCCAD_20201029_EFT-0000000371.xml",
+		"/D/Eric/My Documents/@PSP/MTL_EFT_RBCCAD_20201029_EFT-0000000371.txt",
+		"/D/@sffebooks/DeDRM_tools_6.8.0/ReadMe_Overview.txt",
+		"/X/SF/_Admin/SFFVersion.txt",
+		"/C/Steam/logs/cloud_log.txt",
 		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/serverconfig.xml",
+		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/webpermissions.xml",
+		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/serveradmin.xml",
+		"/D/7dtd/7dtdMods/PaintJob/Release Notes.md",
+		"/D/7dtd/7dtdMods/NoMoreGuns/Config/loot.xml",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/3C5EABB95A1EDD41B82F5A0C405D3DAD/hosts.txt",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/Ceruho Valley/serverconfig.xml",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/0B9E3193DE4700428854C4728B740226/hosts.txt",
+		"/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/DFA6AC63F493BE4AA90FDB318D319CA2/hosts.txt",
 		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/serverconfig 2.xml",
 		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa23952.7820/README.md",
 		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-09-19__19-46-15.txt",
 		"/D/Steam/steamapps/common/7 Days to Die Dedicated Server/Mods/Allocs_WebAndMapRendering/webserver/index.html",
 		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/index.html",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/launchersettings.json",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/ModInfo.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/biomes.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/rwgmixer.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-09-15__22-21-54.txt",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/recipes.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/vehicles.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/Localization.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/items.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Config/entityclasses.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/Riles-HUDPlus1.04/Config/XUi/windows.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/Riles HUD Plus-DeepPocket-adjust/Config/XUi/windows.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/XUi/windows.xml",
@@ -226,7 +303,6 @@
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/NoBuilding/Release Notes.md",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/NoBuilding/Config/loot.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config/blocks.xml",
-		"/D/7dtd/7dtdMods/README.md",
 		"/D/7dtd/7dtdMods/MoreContainers/Release Notes.md",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/Config/Localization.txt",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/MoreContainers/ModInfo.xml",
@@ -236,7 +312,6 @@
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/NoBuilding/Config/blocks.xml",
 		"/D/7dtd/7dtdMods/NoBuilding/Release Notes.md",
-		"/X/SF/_Admin/SFFVersion.txt",
 		"/X/SF/_Admin/CSVCheckResult.txt",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/Localization.txt",
 		"/X/SF/_Admin/Update_History.txt",
@@ -252,14 +327,11 @@
 		"/C/Users/Eric/AppData/Roaming/Sublime Text 3/Packages/tgit-st3/tgit-st3.sublime-settings",
 		"/C/Users/Eric/AppData/Roaming/Sublime Text 3/Packages/User/tgit-st3.sublime-settings",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/StorageSize/Release Notes.md",
-		"/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/Ceruho Valley/serverconfig.xml",
 		"/X/Git Repo/7dtd-spantan-multiplayer-bundle/Worlds/README.md",
 		"/D/7dtd/7dtdMods/.github/workflows/PaintJob_release.yml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/StorageSize/Config/loot.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Mods/StorageSize/ModInfo.xml",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/Hizuti Mountains/serverconfig.xml",
-		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/webpermissions.xml",
-		"/C/Users/Eric/AppData/Local/Temp/fz3temp-2/serveradmin.xml",
 		"/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/webpermissions.xml",
 		"/C/Steam/steamapps/common/7 Days To Die/Data/Prefabs/house_old_gambrel_03.xml",
 		"/X/Git Repo/7dtd-spantan-multiplayer-bundle/Release Notes-PaintJob.md",
@@ -302,30 +374,11 @@
 		"/C/Users/Eric/AppData/Roaming/7D2DModLauncher/ModletsRepo/README.md",
 		"/C/Users/Eric/AppData/Roaming/7D2DModLauncher/ModLauncher.txt",
 		"/C/Program Files/SphereII Software/7D2D Mod Launcher Installer/7D2DLauncher.exe.config",
-		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/buffs.xml",
-		"/X/Git Repo/HAL-NINE-THOUSAND/DMT/README.md",
-		"/C/Program Files/Git/mingw64/etc/gitconfig",
-		"/X/Unity/Vehicles/ProjectSettings/TagManager.asset",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-08-01__15-06-54.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-07-31__17-47-07.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-07-31__17-39-28.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/7DaysToDie_Data/output_log__2020-07-31__17-21-48.txt",
-		"/C/Users/Eric/.gitconfig",
-		"/C/ProgramData/Git/config",
-		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa27264.25756/ModInfo.xml",
-		"/X/Unity/Vehicles/Editor/FixBlenderImportRotation.cs",
-		"/D/7dtd/7dtdMods/PaintJob/Release Notes.md",
-		"/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/3C5EABB95A1EDD41B82F5A0C405D3DAD/hosts.txt",
-		"/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/0B9E3193DE4700428854C4728B740226/hosts.txt",
-		"/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/DFA6AC63F493BE4AA90FDB318D319CA2/hosts.txt",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/SpartanBlocks/ModInfo.xml",
-		"/C/Users/Eric/AppData/Local/Temp/Rar$DIa21556.21027/items.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/vehicles.xml",
-		"/C/Steam/steamapps/common/7 Days To Die/Mods/JeepAlterations/Config/vehicles.xml"
+		"/C/Steam/steamapps/common/7 Days To Die/Data/Config/buffs.xml"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
@@ -348,6 +401,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<nb>",
+			"20.0",
+			"20.8",
+			"20.0",
+			"20/(0123456789/)2",
+			"20/(0123)2",
+			"20/(.)2",
+			"20.2",
+			"20.8",
+			"1.15",
+			"var_Jeep_test_pattern",
+			"var_Jeep_shield_down",
+			"var_Jeep_noshield",
+			"var_Jeep_nochain_nospike",
 			"bicy",
 			"TruckRed",
 			"Red",
@@ -461,26 +528,12 @@
 			"_blue",
 			"Blue",
 			"CraftingIngredientTime",
-			"Quicker scrapping",
-			"MoreContainers",
-			"PaintJob",
-			"visible=",
-			"ContainerStandardControls",
-			"backpack",
-			"backpag",
-			"ContainerStandardControls",
-			"btnMoveFillAndSmart",
-			"lblStashFillAndSmart",
-			"lblSortContainer",
-			"cbxLockedSlots",
-			"backpack",
-			"btnMoveFillAndSmart",
-			"btnStashSmart"
+			"Quicker scrapping"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 			"maVehicle",
@@ -514,7 +567,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 11,
 			"sheets":
 			[
 				{
@@ -522,15 +575,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 264,
+						"buffer_size": 267,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								261,
-								261
+								267,
+								267
 							]
 						],
 						"settings":
@@ -541,44 +594,44 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/D/7dtd/7dtdMods/NoMoreGuns/Config/loot.xml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2041,
+						"buffer_size": 38,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2027,
-								2027
+								36,
+								14
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/XML/XML.sublime-syntax"
+							"auto_name": "not (A or B)",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 570.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/DFA6AC63F493BE4AA90FDB318D319CA2/hosts.txt",
-					"semi_transient": false,
+					"file": "/C/Steam/steamapps/common/7 Days To Die/Data/Config/blocks.xml",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 21,
+						"buffer_size": 1517159,
 						"regions":
 						{
 						},
@@ -591,6 +644,149 @@
 						],
 						"settings":
 						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/Steam/steamapps/common/OxygenNotIncluded/OxygenNotIncluded_Data/StreamingAssets/templates/test_suit_checkpoint.yaml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1767.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/Eric/My Documents/Klei/OxygenNotIncluded/mods/mods.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2908.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/D/Steam/steamapps/common/OxygenNotIncluded/OxygenNotIncluded_Data/StreamingAssets/templates/eric_paint.yaml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 58120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3078.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144,
+								198
+							]
+						],
+						"settings":
+						{
+							"auto_name": "DRIVER=SQL Server;SERVER=sql.esbservices;UID=ebeau",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 70,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Genevieve P.",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -601,52 +797,52 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/0B9E3193DE4700428854C4728B740226/hosts.txt",
+					"buffer": 8,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18,
+						"buffer_size": 3217,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1817,
+								3216
 							]
 						],
 						"settings":
 						{
+							"auto_name": "let",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 861.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/SavesLocal/3C5EABB95A1EDD41B82F5A0C405D3DAD/hosts.txt",
+					"buffer": 9,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 21,
+						"buffer_size": 100,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								100,
+								100
 							]
 						],
 						"settings":
 						{
+							"auto_name": "euillez effacer la mémoire cache du navigateur, pu",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -657,12 +853,40 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/C/Users/Eric/AppData/Roaming/7DaysToDie/From FTP/Saves/Ceruho Valley/serverconfig.xml",
+					"buffer": 10,
+					"file": "/C/bin/MountNasDrive.CMD",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12501,
+						"buffer_size": 172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/bin/MountNasDrive.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 390,
 						"regions":
 						{
 						},
@@ -675,42 +899,41 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/XML/XML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/C/Steam/steamapps/common/7 Days To Die/Mods/PaintJob/Release Notes.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2754,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								130,
-								130
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/X/SF/_Admin/SFFVersion.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5,
+								5
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
 					"type": "text"
 				}
 			]
@@ -750,6 +973,10 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 133.0
 	},
 	"pinned_build_system": "",
 	"project": "GameDirectory.sublime-project",

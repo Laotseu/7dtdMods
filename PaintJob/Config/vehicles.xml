@@ -222,7 +222,6 @@
 	<vehicle name="pjVehicleMotorcycleNoSpike" />
 	<vehicle name="pjVehicleMotorcycleNoShield" />
 	<vehicle name="pjVehicleMotorcycleNoHood" />
-
 </append>
 
 <!-- Add the configs for the new vehicles (copy from vanilla)  -->
@@ -347,6 +346,13 @@
 		<property name="bright" value=".9"/>
 	</property>
 
+	<!-- New taillight exclusive to pj models -->
+	<property class="taillight">
+		<property name="class" value="Headlight"/>
+		<property name="transform" value="Origin/taillight"/>
+		<property name="bright" value=".60"/>
+	</property>
+
 	<property class="storage">
 		<property name="class" value="Storage"/>
 		<property name="display_name" value="basket"/>
@@ -358,6 +364,16 @@
 
 </append>
 
+<!-- Add the tail-light to the vanilla vehicle -->
+<append xpath="//vehicle[@name='vehicleMotorcycle']">
+
+	<property class="taillight">
+		<property name="class" value="Headlight"/>
+		<property name="transform" value="Origin/taillight"/>
+		<property name="bright" value=".60"/>
+	</property>
+	
+</append>
 
 
 <!-- ================== -->
@@ -379,7 +395,7 @@
 </append>
 
 <!-- Add the configs for the new vehicles (copy from vanilla)  -->
-<append xpath="//vehicle[starts-with(@name,'pjVehicleMotorcycle')]">
+<append xpath="//vehicle[starts-with(@name,'pjVehicleMinibike')]">
 
 	<property name="cameraDistance" value="3, 4.5"/>
 	<property name="cameraTurnRate" value=".2, .35"/>
