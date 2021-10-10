@@ -219,6 +219,10 @@
 	<vehicle name="pjVehicleMotorcyclePinkNoSpike" />
 	<vehicle name="pjVehicleMotorcyclePinkNoShield" />
 	<vehicle name="pjVehicleMotorcyclePinkNoHood" />
+	<vehicle name="pjVehicleMotorcycleBrown" />
+	<vehicle name="pjVehicleMotorcycleBrownNoSpike" />
+	<vehicle name="pjVehicleMotorcycleBrownNoShield" />
+	<vehicle name="pjVehicleMotorcycleBrownNoHood" />
 	<vehicle name="pjVehicleMotorcycleNoSpike" />
 	<vehicle name="pjVehicleMotorcycleNoShield" />
 	<vehicle name="pjVehicleMotorcycleNoHood" />

@@ -185,6 +185,27 @@
 		</entity_class>
 		
 
+		<entity_class name="pjVehicleMotorcycleBrown" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_brown"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleBrownNoSpike" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_brown_nospike"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleBrownNoShield" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_brown_noshield"/>
+		</entity_class>
+
+		<entity_class name="pjVehicleMotorcycleBrownNoHood" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_brown_nohood"/>
+		</entity_class>
+		
+
 		<!-- For the base model (copied from MotorcycleAlterations) -->
 		<entity_class name="pjVehicleMotorcycleNoSpike" extends="vehicleMotorcycle">
 			<property name="Tags" value="vehicle"/>
