@@ -4,15 +4,14 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
-**Note: As of version 1.13+, MotorcycleAlterations is integrated into PaintJob. I advise to uninstall MotorcycleAlterations if you use PaintJob.**
-
 * 1.17: Blue Thunder + Homage to Noctua
-	- New blue 4x4 design with wolves and lightnings<br />
+	- New blue 4x4 design with wolves and lightning<br />
 	![Blue Thunder](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v1.17/PaintJob/New%20blue%20jeep%20design.png)
 	- New brown and tan motorcycle<br />
 	![Noctua Motorcycle](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v1.17/PaintJob/Homage%20to%20Noctua%20Motorcycle.png)
 	- The jeeps and motorcycles tail-lights new now actually emit light when on
 	- Touch-up all the motorcycles' trunk straps to make them look better
+	- Remove old code used for backward compatibility with *MotorcycleAlterations*
 * 1.16: 4x4 Texture overhaul
 	- Texture refactoring for the 4x4 (from 5 bitmaps to 2)
 	- Fix Green Camo texture (Be Bear Aware)

@@ -1,8 +1,4 @@
 <configs>
-	<!-- Remove recipies from MotorcycleAlterations  -->
-	<remove xpath="//recipe[contains(@name,'maVehicleMotorcycle')]" />
-	<remove xpath="//recipe/ingredient[contains(@name,'maVehicleMotorcycle')]/.." />
-
 	<append xpath="/recipes" >
 
 		<!-- 4x4 -->
