@@ -6,6 +6,11 @@
 
 **Note: As of version 1.13+, MotorcycleAlterations is integrated into PaintJob. I advise to uninstall MotorcycleAlterations if you use PaintJob.**
 
+* 1.17: Blue Thunder Homage to Noctua
+	- New blue 4x4 design with wolves and lightnings
+	- New brown and tan motorcycle
+	- The jeeps and motorcycles tail-lights new now actually emit light when on
+	- Touch-up all the motorcycles' trunk straps to make them look better
 * 1.16: 4x4 Texture overhaul
 	- Texture refactoring for the 4x4 (from 5 bitmaps to 2)
 	- Fix Green Camo texture (Be Bear Aware)

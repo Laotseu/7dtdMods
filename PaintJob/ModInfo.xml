@@ -5,7 +5,7 @@
 		<Name value="PaintJob" />
 		<Description value="New colour schemes for FunPims vehicles" />
 		<Author value="Éric Beaudon" />
-		<Version value="1.16" />
+		<Version value="1.17" />
 	</ModInfo>
 
 	<!--
@@ -52,4 +52,5 @@
 				Complete overhaul of the red jeep
 				Add a windshield to Miss Spartan's jeep
 				Fix a cliping issue with the chain -->
+	<!-- v1.17:  -->
 </xml>
