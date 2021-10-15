@@ -13,26 +13,17 @@ MoreContainers v1.5 (Alpha 19)
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreContainers_v1.5/MoreContainers_v1.5.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreContainers_v1.5)<br /><br /><br />
 
-MotorcycleAlterations v1.3 (Alpha 19)
--------------------------------------
-
-<img align="left" width="55%" height="55%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/MotorcycleAlterations_v1.3/MotorcycleAlterations/MotorcycleAlterations.png" />
-During one of the FunPimps stream for Alpha 19, the motorcycle model was shown without the shield and spikes. I thought it looked cool. This mod allows you to select alterations to the base model. I've also added a taillight just because.<br /><br />
-
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/MotorcycleAlterations_v1.3/MotorcycleAlterations_v1.3.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MotorcycleAlterations_v1.3)<br /><br /><br /><br /><br />
-
-PaintJob v1.16 (Alpha 19)
+PaintJob v1.17 (Alpha 19)
 ------------------------
 
-<img align="left" width="55%" height="55%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v1.16/PaintJob/PaintJob.png" />
+<img align="left" width="55%" height="55%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v1.17/PaintJob/PaintJob.png" />
 
 Are you tired of driving the exact same Jeep as you friend? Do you want to pimp your ride? PaintJob is for you! This mod add recipes that allow you to change the colour of your ride.<br />
 
 **Note: As of version 1.13, MotorcycleAlterations is integrated into PaintJob. I advise to uninstall MotorcycleAlterations if you use PaintJob.**
 
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v1.16/PaintJob_v1.16.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PaintJob_v1.16)<br /><br /><br /><br /><br />
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v1.16/PaintJob_v1.17.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PaintJob_v1.17)<br /><br /><br /><br /><br />
 
 Eric's Goods v1.1 (Alpha 19)
 ----------------------------
@@ -60,12 +51,6 @@ All the storage containers that can be selected with the new crateble **Wooden S
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/StorageSize_v1.04/StorageSize_v1.04.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/StorageSize_v1.04)<br /><br /><br /><br /><br /><br /><br /><br />
 
-Wasteland Only Valley (Alpha 19)
---------------------------------
-
-[<img align="left" width="35%" height="35%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtd-spantan-multiplayer-bundle/master/Worlds/wasteland_series.png" />](https://www.youtube.com/c/GrandSpartanMP/)My friend [Grand Spartan](https://www.youtube.com/c/GrandSpartanMP/) asked me for a world that only one biome: Wasteland. Some people watching the stream asked if they could have a copy of the world. [Here's the link to download it](https://github.com/Laotseu/7dtd-spantan-multiplayer-bundle/tree/master/Worlds).
-<br /><br /><br /><br /><br /><br /><br />
-
 ActivateBagLockSlots v1.0 (Alpha 19 b177+)
 ------------------------------------------
 
@@ -75,6 +60,21 @@ This is a very simple mod for Alpha 19 b177 and up that activate the **Locked Sl
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/ActivateBagLockSlots_v1.0/ActivateBagLockSlots_v1.0.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/ActivateBagLockSlots_v1.0)<br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+MotorcycleAlterations v1.3 (Alpha 19)
+-------------------------------------
+
+<img align="left" width="55%" height="55%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/MotorcycleAlterations_v1.3/MotorcycleAlterations/MotorcycleAlterations.png" />
+During one of the FunPimps stream for Alpha 19, the motorcycle model was shown without the shield and spikes. I thought it looked cool. This mod allows you to select alterations to the base model. I've also added a taillight just because.<br /><br />
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/MotorcycleAlterations_v1.3/MotorcycleAlterations_v1.3.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MotorcycleAlterations_v1.3)<br /><br /><br /><br /><br />
+
+Wasteland Only Valley (Alpha 19)
+--------------------------------
+
+[<img align="left" width="35%" height="35%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtd-spantan-multiplayer-bundle/master/Worlds/wasteland_series.png" />](https://www.youtube.com/c/GrandSpartanMP/)My friend [Grand Spartan](https://www.youtube.com/c/GrandSpartanMP/) asked me for a world that only one biome: Wasteland. Some people watching the stream asked if they could have a copy of the world. [Here's the link to download it](https://github.com/Laotseu/7dtd-spantan-multiplayer-bundle/tree/master/Worlds).
+<br /><br /><br /><br /><br /><br /><br />
 
 Castle Spartan (on GitLab)
 --------------------------
