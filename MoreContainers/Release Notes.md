@@ -1,13 +1,14 @@
 **MoreContainers** is a 7 Days to Die modlet that adds new crate containers design to help you better sort your stuff in game.
 
-![MoreContainers](https://raw.githubusercontent.com/Laotseu/7dtdMods/MoreContainers_v1.5/MoreContainers/MoreContainers.png)
+![MoreContainers](https://raw.githubusercontent.com/Laotseu/7dtdMods/MoreContainers_v1.6/MoreContainers/MoreContainers.png)
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
 * 1.6: Crates for mod parts 
 	- Changed the modding design (its purpose was not clear enough)
-	- Added designs for Armor, Vehicle (in preparation for Alpha 20), and Weapon Mods crates and half-crates
-    - Fix a typo that was there since forever
+	- Added designs for Armor, Vehicle (in preparation for Alpha 20), and Weapon Mods crates and half-crates<br />
+	![New designs for v1.6](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/MoreContainers/New%20designs%20for%20v1.6.png)
+	- Fix a typo that was there since forever, if you used an ammo crate of half-crate, you will probably have to remove it with and place it back
 * 1.5: Even more crates<br />
 	![New designs for v1.5](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/MoreContainers/New%20designs%20for%20v1.5.png)
 	- Cement Mixer, Chemistry, Crafting, Electricity, Gas, Gun Craft, Modding, Plants, Resources, Tool Smithing
