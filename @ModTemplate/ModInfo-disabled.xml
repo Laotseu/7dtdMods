@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="<Insert mod name here>" />
+		<Description value="<Insert mod description here>" />
+		<Author value="Eric Beaudoin" />
+		<Version value="1.0" />
+		<Website value="https://github.com/Laotseu/7dtdMods/blob/master/README.md" />
+
+		<!-- ========= Release Notes ========= -->
+		<!-- 1.0: 	Fist version...  -->
+
+		<!-- Tested with 7 Days to Die Alpha xx.x -->
+		
+	</ModInfo>
+</xml>

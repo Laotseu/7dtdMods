@@ -1,0 +1,24 @@
+<configs>
+	<append xpath="/recipes" >
+		<!-- <recipe name="sbSpartanCubesVariantHelper" count="1" >
+			<ingredient name="resourceCobblestones" count="4"/>
+			<ingredient name="resourcePaint" count="1"/>
+		</recipe>
+		<recipe name="spFlagPole" count="1" craft_area="workbench" >
+			<ingredient name="resourceMetalPipe" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="1"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceGlue" count="1"/>
+		</recipe>
+		<recipe name="spFlagCanvas" count="1" craft_area="workbench" >
+			<ingredient name="resourceGlue" count="1"/>
+			<ingredient name="resourceCloth" count="5"/>
+		</recipe>
+		<recipe name="sbFlagsVariantHelper" count="1" craft_area="workbench" >
+			<ingredient name="spFlagPole" count="1"/>
+			<ingredient name="spFlagCanvas" count="1"/>
+			<ingredient name="resourcePaint" count="5"/>
+		</recipe> -->
+
+	</append>
+</configs>
