@@ -4,14 +4,14 @@ Mods for the game 7 Days to Die
 
 [Installation instructions](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)
 
-MoreContainers v1.5 (Alpha 19)
+MoreContainers v1.6 (Alpha 19)
 ------------------------------
 
 
-<img align="left" width="55%" height="55%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/MoreContainers_v1.5/MoreContainers/MoreContainers.png" />Do you have friends that can't help themselves and store everything in a specific box for each type of items? I do. This mods add new graphic designs for the storage boxes and also add half-block versions of the storage boxes (for more headspace).
+<img align="left" width="55%" height="55%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/MoreContainers_v1.6/MoreContainers/MoreContainers.png" />Do you have friends that can't help themselves and store everything in a specific box for each type of items? I do. This mods add new graphic designs for the storage boxes and also add half-block versions of the storage boxes (for more headspace).
 
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreContainers_v1.5/MoreContainers_v1.5.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreContainers_v1.5)<br /><br /><br />
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreContainers_v1.6/MoreContainers_v1.6.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreContainers_v1.6)<br /><br /><br />
 
 PaintJob v1.17 (Alpha 19)
 ------------------------
