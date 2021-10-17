@@ -4,6 +4,10 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 1.18: Design and tail-light tweaks
+	- Played with the blue 4x4 design<br />
+	![Blue Thunder](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v1.18/PaintJob/New%20blue%20jeep%20design.png)
+	- Fuddled with the tail-lights lighting
 * 1.17: Blue Thunder + Homage to Noctua
 	- New blue 4x4 design with wolves and lightning<br />
 	![Blue Thunder](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v1.17/PaintJob/New%20blue%20jeep%20design.png)

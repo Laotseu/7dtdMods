@@ -162,7 +162,7 @@
 	<property class="taillight">
 		<property name="class" value="Headlight"/>
 		<property name="transform" value="Origin/taillight"/>
-		<property name="bright" value=".60"/>
+		<property name="bright" value=".50"/>
 	</property>
 
 	<property class="storage">
@@ -181,7 +181,7 @@
 	<property class="taillight">
 		<property name="class" value="Headlight"/>
 		<property name="transform" value="Origin/taillight"/>
-		<property name="bright" value=".60"/>
+		<property name="bright" value=".50"/>
 	</property>
 	
 </append>
@@ -192,7 +192,7 @@
 <!-- Motorcycles vehicles -->
 <!-- ==================== -->
 
-<!-- First create empty nodes for new vehicles-->
+<!-- First create empty nodes for new vehicles -->
 <append xpath="/vehicles" >
 
 	<vehicle name="pjVehicleMotorcycleWhite" />
@@ -354,7 +354,7 @@
 	<property class="taillight">
 		<property name="class" value="Headlight"/>
 		<property name="transform" value="Origin/taillight"/>
-		<property name="bright" value=".60"/>
+		<property name="bright" value=".50"/>
 	</property>
 
 	<property class="storage">
@@ -374,7 +374,7 @@
 	<property class="taillight">
 		<property name="class" value="Headlight"/>
 		<property name="transform" value="Origin/taillight"/>
-		<property name="bright" value=".60"/>
+		<property name="bright" value=".50"/>
 	</property>
 	
 </append>

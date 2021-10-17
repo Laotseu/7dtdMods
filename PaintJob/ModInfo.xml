@@ -5,7 +5,7 @@
 		<Name value="PaintJob" />
 		<Description value="New colour schemes for FunPims vehicles" />
 		<Author value="Éric Beaudon" />
-		<Version value="1.17" />
+		<Version value="1.18" />
 	</ModInfo>
 
 	<!--
@@ -16,46 +16,49 @@
 		For this model to work properly, it needs to be installed on the server and every player's computer.
 	-->
 
-	<!-- v1.0:	Ride in style! Change the colour skin of your 4x4 -->
-	<!-- v1.1:	Pimp your motorcyle -->
-	<!-- v1.2:	More lights for the 4x4 -->
-	<!-- v1.3:  Rebuild assets for the new linear lighting (Alpha 19) -->
-	<!-- v1.4:  Add missing A19 Hud Sprite for the Jeep -->
-	<!-- v1.5:  Add Pink Rider -->
-	<!-- v1.6:  Plug a hole on the left side of the front bumper
-	            Move the steering wheel forward to leave more space for driver's avatar -->
-	<!-- V1.7:  The A19 max speed is 14m/s. Vroom, vroom 
-				Try to make the Jeeps more bridge friendly 
-				Add missing Pink Rider icon -->
-	<!-- v1.8:  Fix problem with the wind-sheild texture
-				Add Patrol Silver and Blue for people that drive on the wrong side of the road -->
-	<!-- v1.9:	Add the missing unity3D package for the Australian jeep -->
-	<!-- v1.10: Add War3zUK Black -->
-	<!-- v1.11: Fix UK models wobble wheels
-				More prep work for the motorcycles -->
-	<!-- v1.12: Bicycles: white, blue, green, cyan, pink red, and the original yellow
-				Motorcycles: red, white, green and gold, blue, and original
-				integrated Motorcycle Alterations with colours (lots or recipies) -->
+	<!-- v1.18: Design and tail-light tweaks
+			- Played with the blue 4x4 design<br />
+			- Fuddled with the tail-lights lighting -->
+	<!-- v1.17: Blue Thunder + Homage to Noctua
+			- New blue 4x4 design with wolves and lightning
+			- New brown and tan motorcycle
+			- The jeeps and motorcycles tail-lights new now actually emit light when on
+			- Touch-up all the motorcycles' trunk straps to make them look better
+			- Remove old code used for backward compatibility with MotorcycleAlterations -->
+	<!-- v1.16:	4x4 Texture overhaul
+			- Texture refactoring for the 4x4 (from 5 bitmaps to 2)
+			- Fix Green Camo texture (Be Bear Aware)
+			- Fix War3zUK texture (Scottish flag instead of the inverted Union flag)
+			- Little overhaul of the Spartan texture
+			- Complete overhaul of the red jeep
+			- Add a windshield to Miss Spartan's jeep
+			- Fix a cliping issue with the chain -->
+	<!-- v1.15:	Pink motorcycle (for MaryB)
+				Green Camo Jeep -->
+	<!-- v1.14: Minibikes
+			Remove acid from recipes
+			Cut down textures size from 2K down to 1K for everything but the Jeeps -->
 	<!-- v1.13: Black motorcycle
 				Black bicycle
 				Integrated MotorcycleAlterations -->
-	<!-- v1.14: Minibikes
-				Remove acid from recipes
-				Cut down textures size from 2K down to 1K for everything but the Jeeps -->
-	<!-- v1.15:	Pink motorcycle (for MaryB)
-				Green Camo Jeep -->
-	<!-- v1.16:	4x4 Texture overhaul
-				Texture refactoring for the 4x4 (from 5 bitmaps to 2)
-				Fix Green Camo texture (Be Bear Aware)
-				Fix War3zUK texture (Scottish flag instead of the inverted Union flag)
-				Little overhaul of the Spartan texture
-				Complete overhaul of the red jeep
-				Add a windshield to Miss Spartan's jeep
-				Fix a cliping issue with the chain -->
-	<!-- v1.17: Blue Thunder + Homage to Noctua
-				New blue 4x4 design with wolves and lightning
-				New brown and tan motorcycle
-				The jeeps and motorcycles tail-lights new now actually emit light when on
-				Touch-up all the motorcycles' trunk straps to make them look better
-				Remove old code used for backward compatibility with MotorcycleAlterations -->
+	<!-- v1.12: Bicycles: white, blue, green, cyan, pink red, and the original yellow
+				Motorcycles: red, white, green and gold, blue, and original
+				integrated Motorcycle Alterations with colours (lots or recipies) -->
+	<!-- v1.11: Fix UK models wobble wheels
+				More prep work for the motorcycles -->
+	<!-- v1.10: Add War3zUK Black -->
+	<!-- v1.9:	Add the missing unity3D package for the Australian jeep -->
+	<!-- v1.8:  Fix problem with the wind-sheild texture
+				Add Patrol Silver and Blue for people that drive on the wrong side of the road -->
+	<!-- V1.7:  The A19 max speed is 14m/s. Vroom, vroom 
+				Try to make the Jeeps more bridge friendly 
+				Add missing Pink Rider icon -->
+	<!-- v1.6:  Plug a hole on the left side of the front bumper
+	            Move the steering wheel forward to leave more space for driver's avatar -->
+	<!-- v1.5:  Add Pink Rider -->
+	<!-- v1.4:  Add missing A19 Hud Sprite for the Jeep -->
+	<!-- v1.3:  Rebuild assets for the new linear lighting (Alpha 19) -->
+	<!-- v1.2:	More lights for the 4x4 -->
+	<!-- v1.1:	Pimp your motorcyle -->
+	<!-- v1.0:	Ride in style! Change the colour skin of your 4x4 -->
 </xml>
