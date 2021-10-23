@@ -4,6 +4,8 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 1.7: More ammo crates
+	- Created crates and half-crates for 9mm, arrow, and shell ammo
 * 1.6: Crates for mod parts 
 	- Changed the modding design (its purpose was not clear enough)
 	- Added designs for Armor, Vehicle (in preparation for Alpha 20), and Weapon Mods crates and half-crates<br />

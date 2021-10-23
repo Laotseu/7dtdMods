@@ -276,6 +276,7 @@
 			<property name="CustomIcon" value="mcCubeContainerToolSmithing" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeToolSmithing" /> 
 		</block>
+
 		<block name="mcCubeContainerModArmor">
 			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcCubeContainerModArmorInsecure"/>
@@ -286,6 +287,7 @@
 			<property name="CustomIcon" value="mcCubeContainerModArmor" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeModArmor" /> 
 		</block>
+
 		<block name="mcCubeContainerModVehicle">
 			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcCubeContainerModVehicleInsecure"/>
@@ -296,6 +298,7 @@
 			<property name="CustomIcon" value="mcCubeContainerModVehicle" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeModVehicle" /> 
 		</block>
+		
 		<block name="mcCubeContainerModWeapon">
 			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcCubeContainerModWeaponInsecure"/>
@@ -305,6 +308,39 @@
 			<property name="Extends" value="mcCubeContainerInsecure"/>
 			<property name="CustomIcon" value="mcCubeContainerModWeapon" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeModWeapon" /> 
+		</block>
+
+		<block name="mcCubeContainerAmmo9mm">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcCubeContainerAmmo9mmInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeAmmo9mm" /> 
+		</block>
+		<block name="mcCubeContainerAmmo9mmInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcCubeContainerAmmo9mm" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeAmmo9mm" /> 
+		</block>
+
+		<block name="mcCubeContainerAmmoArrow">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcCubeContainerAmmoArrowInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeAmmoArrow" /> 
+		</block>
+		<block name="mcCubeContainerAmmoArrowInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcCubeContainerAmmoArrow" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeAmmoArrow" /> 
+		</block>
+
+		<block name="mcCubeContainerAmmoShell">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcCubeContainerAmmoShellInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeAmmoShell" /> 
+		</block>
+		<block name="mcCubeContainerAmmoShellInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcCubeContainerAmmoShell" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?CubeAmmoShell" /> 
 		</block>
 
 		
@@ -573,6 +609,7 @@
 			<property name="CustomIcon" value="mcHalfCubeContainerToolSmithing" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfToolSmithing" /> 
 		</block>
+		
 		<block name="mcHalfCubeContainerModArmor">
 			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcHalfCubeContainerModArmorInsecure"/>
@@ -583,6 +620,7 @@
 			<property name="CustomIcon" value="mcHalfCubeContainerModArmor" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfModArmor" /> 
 		</block>
+		
 		<block name="mcHalfCubeContainerModVehicle">
 			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcHalfCubeContainerModVehicleInsecure"/>
@@ -593,6 +631,7 @@
 			<property name="CustomIcon" value="mcHalfCubeContainerModVehicle" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfModVehicle" /> 
 		</block>
+		
 		<block name="mcHalfCubeContainerModWeapon">
 			<property name="Extends" value="mcCubeContainer"/>
 			<property name="DowngradeBlock" value="mcHalfCubeContainerModWeaponInsecure"/>
@@ -603,12 +642,45 @@
 			<property name="CustomIcon" value="mcHalfCubeContainerModWeapon" />
 			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfModWeapon" /> 
 		</block>
+		
+		<block name="mcHalfCubeContainerAmmo9mm">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcHalfCubeContainerAmmo9mmInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfAmmo9mm" /> 
+		</block>
+		<block name="mcHalfCubeContainerAmmo9mmInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcHalfCubeContainerAmmo9mm" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfAmmo9mm" /> 
+		</block>
+		
+		<block name="mcHalfCubeContainerAmmoArrow">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcHalfCubeContainerAmmoArrowInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfAmmoArrow" /> 
+		</block>
+		<block name="mcHalfCubeContainerAmmoArrowInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcHalfCubeContainerAmmoArrow" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfAmmoArrow" /> 
+		</block>
+		
+		<block name="mcHalfCubeContainerAmmoShell">
+			<property name="Extends" value="mcCubeContainer"/>
+			<property name="DowngradeBlock" value="mcHalfCubeContainerAmmoShellInsecure"/>
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfAmmoShell" /> 
+		</block>
+		<block name="mcHalfCubeContainerAmmoShellInsecure">
+			<property name="Extends" value="mcCubeContainerInsecure"/>
+			<property name="CustomIcon" value="mcHalfCubeContainerAmmoShell" />
+			<property name="Model" value="#@modfolder:Resources/Containers.unity3d?HalfAmmoShell" /> 
+		</block>
 
 	
 	</append>
 
 	<!-- Add the new contairs to the helper block -->
-	<append xpath="//block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,mcCubeContainer,mcHalfCubeContainer,mcCubeContainerAmmo,mcHalfCubeContainerAmmo,mcCubeContainerArmors,mcHalfCubeContainerArmors,mcCubeContainerAutoparts,mcHalfCubeContainerAutoparts,mcCubeContainerBarter,mcHalfCubeContainerBarter,mcCubeContainerBuilding,mcHalfCubeContainerBuilding,mcCubeContainerCementMixer,mcHalfCubeContainerCementMixer,mcCubeContainerChemistry,mcHalfCubeContainerChemistry,mcCubeContainerCrafting,mcHalfCubeContainerCrafting,mcCubeContainerElectricity,mcHalfCubeContainerElectricity,mcCubeContainerExplosive,mcHalfCubeContainerExplosive,mcCubeContainerFood,mcHalfCubeContainerFood,mcCubeContainerForge,mcHalfCubeContainerForge,mcCubeContainerGas,mcHalfCubeContainerGas,mcCubeContainerGunCrafting,mcHalfCubeContainerGunCrafting,mcCubeContainerHealth,mcHalfCubeContainerHealth,mcCubeContainerMining,mcHalfCubeContainerMining,mcCubeContainerModding,mcHalfCubeContainerModding,mcCubeContainerModArmor,mcHalfCubeContainerModArmor,mcCubeContainerModVehicle,mcHalfCubeContainerModVehicle,mcCubeContainerModWeapon,mcHalfCubeContainerModWeapon,mcCubeContainerPlants,mcHalfCubeContainerPlants,mcCubeContainerRecycle,mcHalfCubeContainerRecycle,mcCubeContainerResources,mcHalfCubeContainerResources,mcCubeContainerToolSmithing,mcHalfCubeContainerToolSmithing,mcCubeContainerWeapons,mcHalfCubeContainerWeapons,mcCubeContainerWorkbench,mcHalfCubeContainerWorkbench</append>
+	<append xpath="//block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,mcCubeContainer,mcHalfCubeContainer,mcCubeContainerAmmo,mcHalfCubeContainerAmmo,mcCubeContainerAmmo9mm,mcHalfCubeContainerAmmo9mm,mcCubeContainerAmmoArrow,mcHalfCubeContainerAmmoArrow,mcCubeContainerAmmoShell,mcHalfCubeContainerAmmoShell,mcCubeContainerArmors,mcHalfCubeContainerArmors,mcCubeContainerAutoparts,mcHalfCubeContainerAutoparts,mcCubeContainerBarter,mcHalfCubeContainerBarter,mcCubeContainerBuilding,mcHalfCubeContainerBuilding,mcCubeContainerCementMixer,mcHalfCubeContainerCementMixer,mcCubeContainerChemistry,mcHalfCubeContainerChemistry,mcCubeContainerCrafting,mcHalfCubeContainerCrafting,mcCubeContainerElectricity,mcHalfCubeContainerElectricity,mcCubeContainerExplosive,mcHalfCubeContainerExplosive,mcCubeContainerFood,mcHalfCubeContainerFood,mcCubeContainerForge,mcHalfCubeContainerForge,mcCubeContainerGas,mcHalfCubeContainerGas,mcCubeContainerGunCrafting,mcHalfCubeContainerGunCrafting,mcCubeContainerHealth,mcHalfCubeContainerHealth,mcCubeContainerMining,mcHalfCubeContainerMining,mcCubeContainerModding,mcHalfCubeContainerModding,mcCubeContainerModArmor,mcHalfCubeContainerModArmor,mcCubeContainerModVehicle,mcHalfCubeContainerModVehicle,mcCubeContainerModWeapon,mcHalfCubeContainerModWeapon,mcCubeContainerPlants,mcHalfCubeContainerPlants,mcCubeContainerRecycle,mcHalfCubeContainerRecycle,mcCubeContainerResources,mcHalfCubeContainerResources,mcCubeContainerToolSmithing,mcHalfCubeContainerToolSmithing,mcCubeContainerWeapons,mcHalfCubeContainerWeapons,mcCubeContainerWorkbench,mcHalfCubeContainerWorkbench</append>
 	<append xpath="//block[@name='cntWoodFurnitureBlockVariantHelper']">
 		<property name="Place" value="TowardsPlacerInverted"/>
 	</append>
