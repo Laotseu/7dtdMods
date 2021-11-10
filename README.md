@@ -2,7 +2,7 @@
 =========================
 Mods for the game 7 Days to Die
 
-[Installation instructions](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)
+[Installation instructions](https://github.com/Laotseu/7dtdMods/blob/MoreContainers_v1.6/Modlet%20Installation.md)
 
 MoreContainers v1.6 (Alpha 19)
 ------------------------------
