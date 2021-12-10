@@ -2,13 +2,9 @@
 	
 	<append xpath="/entity_classes">
 
-		<!-- <entity_class name="pjVehicle4x4Truck">
-			<property name="Extends" value="vehicle4x4Truck"/>
-			<property name="Prefab" value="#@modfolder:Resources/Vehicles.unity3d?jeep_Prefab"/>
-		</entity_class> -->
-		<entity_class name="pjVehicle4x4TruckWhite" extends="vehicle4x4Truck">
+		<entity_class name="pjVehicle4x4Truck" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
-			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_white"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep"/>
 		</entity_class>
 
 		<entity_class name="pjVehicle4x4TruckBlue" extends="vehicle4x4Truck">
@@ -59,11 +55,11 @@
 
 
 		<!-- Motorcycles -->
-		<entity_class name="pjVehicleMotorcycleWhite" extends="vehicleMotorcycle">
+<!-- 		<entity_class name="pjVehicleMotorcycleWhite" extends="vehicleMotorcycle">
 			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_white"/>
 		</entity_class>
-
+ -->
 		<entity_class name="pjVehicleMotorcycleWhiteNoSpike" extends="vehicleMotorcycle">
 			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_white_nospike"/>
@@ -206,7 +202,11 @@
 		</entity_class>
 		
 
-		<!-- For the base model (copied from MotorcycleAlterations) -->
+		<entity_class name="pjVehicleMotorcycle" extends="vehicleMotorcycle">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base"/>
+		</entity_class>
+
 		<entity_class name="pjVehicleMotorcycleNoSpike" extends="vehicleMotorcycle">
 			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_nospike"/>
@@ -254,15 +254,15 @@
 			<property name="Prefab" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_red"/>
 		</entity_class>
 
-		<entity_class name="pjVehicleBicycleWhite" extends="vehicleBicycle">
+		<entity_class name="pjVehicleBicycleYellow" extends="vehicleBicycle">
 			<property name="Tags" value="vehicle"/>
-			<property name="Prefab" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_white"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjBicycles.unity3d?Bicycle_base"/>
 		</entity_class>
 
 		<!-- Minibikes -->
-		<entity_class name="pjVehicleMinibikeWhite" extends="vehicleMinibike">
+		<entity_class name="pjVehicleMinibike" extends="vehicleMinibike">
 			<property name="Tags" value="vehicle"/>
-			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_white"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base"/>
 		</entity_class>
 
 		<entity_class name="pjVehicleMinibikeBlack" extends="vehicleMinibike">
@@ -303,13 +303,16 @@
 	</append>
 
 	<!-- Change the model for the standard 4X4 (now with headlights, top lights and taillights) -->
-	<setattribute xpath="//entity_class[@name='vehicle4x4Truck']/property[@name='Prefab']" name="value">#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_base</setattribute>
+	<setattribute xpath="//entity_class[@name='vehicle4x4Truck']/property[@name='Prefab']" name="value">#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_white</setattribute>
 
 	<!-- Change the model for the standard Motorcycle (now with headlight and taillight) -->
-	<setattribute xpath="//entity_class[@name='vehicleMotorcycle']/property[@name='Prefab']" name="value">#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base</setattribute>
+	<setattribute xpath="//entity_class[@name='vehicleMotorcycle']/property[@name='Prefab']" name="value">#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_white</setattribute>
 
 	<!-- Change the model for the standard Minibike -->
-	<setattribute xpath="//entity_class[@name='vehicleMinibike']/property[@name='Prefab']" name="value">#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base</setattribute>
+	<setattribute xpath="//entity_class[@name='vehicleMinibike']/property[@name='Prefab']" name="value">#@modfolder:Resources/pjMinibikes.unity3d?Minibike_base_white</setattribute>
+
+	<!-- Change the model for the standard Bicycle -->
+	<setattribute xpath="//entity_class[@name='vehicleBicycle']/property[@name='Prefab']" name="value">#@modfolder:Resources/pjBicycles.unity3d?Bicycle_white</setattribute>
 
 
 </configs>

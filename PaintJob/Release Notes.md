@@ -1,9 +1,12 @@
 **PaintJob** Change the colour of FinPims vehicles.
 
-![PaintJob](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v1.16/PaintJob/PaintJob.png)
+![PaintJob](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v2.0/PaintJob/PaintJob.png)
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+* 2.0: Make it work with Alpha 20
+	- Remove the need for Grain Alcohol (no longer exists in the game) 
+	- Dye cannot be applied to vehicle
 * 1.18: Design and tail-light tweaks
 	- Played with the blue 4x4 design<br />
 	![Blue Thunder](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v1.18/PaintJob/New%20blue%20jeep%20design.png)

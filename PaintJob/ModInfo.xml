@@ -5,7 +5,7 @@
 		<Name value="PaintJob" />
 		<Description value="New colour schemes for FunPims vehicles" />
 		<Author value="Éric Beaudon" />
-		<Version value="1.18" />
+		<Version value="2.0" />
 	</ModInfo>
 
 	<!--
@@ -16,6 +16,9 @@
 		For this model to work properly, it needs to be installed on the server and every player's computer.
 	-->
 
+	<!-- v2.0:  Make it work with Alpha 20
+			- Remove the need for Grain Alcohol (no longer exists in the game) 
+			- Dye cannot be applied to vehicle -->
 	<!-- v1.18: Design and tail-light tweaks
 			- Played with the blue 4x4 design<br />
 			- Fuddled with the tail-lights lighting -->
