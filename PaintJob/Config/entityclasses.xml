@@ -39,12 +39,12 @@
 
 		<entity_class name="pjVehicle4x4Patrol" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
-			<property name="Prefab" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK-patrol"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK_patrol"/>
 		</entity_class>
 
 		<entity_class name="pjVehicle4x4War3zUK" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
-			<property name="Prefab" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK-war3zuk"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK_war3zuk"/>
 		</entity_class>
 
 		<entity_class name="pjVehicle4x4TruckGreen" extends="vehicle4x4Truck">

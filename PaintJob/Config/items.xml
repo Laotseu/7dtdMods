@@ -108,7 +108,7 @@
 
 		<item name="pjVehicle4x4PatrolPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="Meshfile" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK-patrol"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK_patrol"/>
 			<property name="EconomicValue" value="30000"/>
 			<property class="Action1">
 				<property name="Vehicle" value="pjVehicle4x4Patrol"/>
@@ -123,7 +123,7 @@
 
 		<item name="pjVehicle4x4War3zUKPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
-			<property name="Meshfile" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK-war3zuk"/>
+			<property name="Meshfile" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK_war3zuk"/>
 			<property name="EconomicValue" value="30000"/>
 			<property class="Action1">
 				<property name="Vehicle" value="pjVehicle4x4War3zUK"/>
@@ -875,5 +875,9 @@
 
 	<!-- Change the model for the standard Bicycle  -->
 	<setattribute xpath="//item[@name='vehicleBicyclePlaceable']/property[@name='Meshfile']" name="value">#@modfolder:Resources/pjBicycles.unity3d?Bicycle_white</setattribute>
+
+	<!-- Remove the Cosmetic Slot for vehicles (remove the canHaveCosmetic tag) -->
+	<setattribute xpath="//item[@name='vehicleMinibikePlaceable' or @name='vehicleMotorcyclePlaceable' or @name='vehicleMinibikePlaceable']/property[@name='Tags']" name="value">vehicle,vengine,vfuel,vlight,vseat</setattribute>
+	<setattribute xpath="//item[@name='vehicleBicyclePlaceable']/property[@name='Tags']" name="value">vehicle</setattribute>
 
 </configs>
