@@ -1,12 +1,35 @@
-**PaintJob** Change the colour of FinPims vehicles.
+PaintJob: Change the colour of FinPims vehicles
+===============================================
 
 ![PaintJob](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v2.0/PaintJob/PaintJob.png)
 
-**Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
+How does it work?
+-----------------
+PaintJob allows you to change the skins of bicycles, minibikes, motorcycles, and jeeps. You first need to get a vehicle the normal
+way (you build it or buy from the traders). You can then use that vehicle as an ingredient to craft a different looking version.
+The changes are purely cosmetic, all the in game stats and behaviours remain unchanged.
 
+For the motorcycles, you can also change the configuration and remove the spikes, the shield or the hood.
+
+### Important Notes
+* For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
+* When you craft a new vehicle, you will loose the gas in the tank. I didn't find a way to remove the gas before crafting.
+* You most remove all mods before crafting. If you try to craft using a modded vehicle, you'll get an error message about missing resources.
+* You always need to go back to the white vehicle in order change to a new skin. I did this to limit the number of new recipes.
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v2.0/PaintJob_v2.0.zip)<br/>
+[Modlet Installation instruction](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)<br/>
+[List of all my mods](https://github.com/Laotseu/7dtdMods/blob/master/README.md)
+
+### Latest version
 * 2.0: Make it work with Alpha 20
+	- By default, the game will spawn the White version of the vehicles
+	- Added back the Alpha 19 skins
+	- Flat rate of 5 paints to change from a skin to another
 	- Remove the need for Grain Alcohol (no longer exists in the game) 
-	- Dye cannot be applied to vehicle
+	- Prevent dye from being applied to vehicles
+
+### Previous versions
 * 1.18: Design and tail-light tweaks
 	- Played with the blue 4x4 design<br />
 	![Blue Thunder](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v1.18/PaintJob/New%20blue%20jeep%20design.png)

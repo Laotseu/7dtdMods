@@ -159,18 +159,18 @@
 
 
 		<!-- Motorcycles, configuration alterations -->
-		<recipe name="vehicle4x4TruckPlaceable" count="1" craft_time="5">
+		<recipe name="vehicleMotorcyclePlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleMotorcycleWhiteNoSpikePlaceable" count="1"/>
 		</recipe>
-		<recipe name="vehicle4x4TruckPlaceable" count="1" craft_time="5">
+		<recipe name="vehicleMotorcyclePlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleMotorcycleWhiteNoShieldPlaceable" count="1"/>
 		</recipe>
-		<recipe name="vehicle4x4TruckPlaceable" count="1" craft_time="5">
+		<recipe name="vehicleMotorcyclePlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleMotorcycleWhiteNoHoodPlaceable" count="1"/>
 		</recipe>
 
 		<recipe name="pjVehicleMotorcycleWhiteNoSpikePlaceable" count="1" craft_time="5">
-			<ingredient name="vehicle4x4TruckPlaceable" count="1"/>
+			<ingredient name="vehicleMotorcyclePlaceable" count="1"/>
 		</recipe>
 		<recipe name="pjVehicleMotorcycleWhiteNoSpikePlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleMotorcycleWhiteNoShieldPlaceable" count="1"/>
@@ -183,7 +183,7 @@
 			<ingredient name="pjVehicleMotorcycleWhiteNoSpikePlaceable" count="1"/>
 		</recipe>
 		<recipe name="pjVehicleMotorcycleWhiteNoShieldPlaceable" count="1" craft_time="5">
-			<ingredient name="vehicle4x4TruckPlaceable" count="1"/>
+			<ingredient name="vehicleMotorcyclePlaceable" count="1"/>
 		</recipe>
 		<recipe name="pjVehicleMotorcycleWhiteNoShieldPlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleMotorcycleWhiteNoHoodPlaceable" count="1"/>
@@ -196,7 +196,7 @@
 			<ingredient name="pjVehicleMotorcycleWhiteNoShieldPlaceable" count="1"/>
 		</recipe>
 		<recipe name="pjVehicleMotorcycleWhiteNoHoodPlaceable" count="1" craft_time="5">
-			<ingredient name="vehicle4x4TruckPlaceable" count="1"/>
+			<ingredient name="vehicleMotorcyclePlaceable" count="1"/>
 		</recipe>
 
 
@@ -490,37 +490,37 @@
 		<!-- Bicycles -->
 		<recipe name="vehicleBicyclePlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleBicycleBlackPlaceable" count="1"/>
-			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="resourcePaint" count="5"/>
 		</recipe>
 
 		<recipe name="vehicleBicyclePlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleBicycleBluePlaceable" count="1"/>
-			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="resourcePaint" count="5"/>
 		</recipe>
 
 		<recipe name="vehicleBicyclePlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleBicycleCyanPlaceable" count="1"/>
-			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="resourcePaint" count="5"/>
 		</recipe>
 
 		<recipe name="vehicleBicyclePlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleBicycleGreenPlaceable" count="1"/>
-			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="resourcePaint" count="5"/>
 		</recipe>
 
 		<recipe name="vehicleBicyclePlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleBicyclePinkPlaceable" count="1"/>
-			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="resourcePaint" count="5"/>
 		</recipe>
 
 		<recipe name="vehicleBicyclePlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleBicycleYellowPlaceable" count="1"/>
-			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="resourcePaint" count="5"/>
 		</recipe>
 
 		<recipe name="vehicleBicyclePlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleBicycleRedPlaceable" count="1"/>
-			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="resourcePaint" count="5"/>
 		</recipe>
 
 
@@ -563,46 +563,46 @@
 		<!-- Minibikes -->
 		<recipe name="vehicleMinibikePlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleMinibikePlaceable" count="1"/>
-			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="resourcePaint" count="5"/>
 		</recipe>
 
 		<recipe name="vehicleMinibikePlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleMinibikeBlackPlaceable" count="1"/>
-			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="resourcePaint" count="5"/>
 		</recipe>
 
 		<recipe name="vehicleMinibikePlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleMinibikeBluePlaceable" count="1"/>
-			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="resourcePaint" count="5"/>
 		</recipe>
 
 		<recipe name="vehicleMinibikePlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleMinibikeGreenPlaceable" count="1"/>
-			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="resourcePaint" count="5"/>
 		</recipe>
 
 		<recipe name="vehicleMinibikePlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleMinibikePinkPlaceable" count="1"/>
-			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="resourcePaint" count="5"/>
 		</recipe>
 
 		<recipe name="vehicleMinibikePlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleMinibikeRedPlaceable" count="1"/>
-			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="resourcePaint" count="5"/>
 		</recipe>
 
 		<recipe name="vehicleMinibikePlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleMinibikeTealPlaceable" count="1"/>
-			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="resourcePaint" count="5"/>
 		</recipe>
 
 		<recipe name="vehicleMinibikePlaceable" count="1" craft_time="5">
 			<ingredient name="pjVehicleMinibikeYellowPlaceable" count="1"/>
-			<ingredient name="drinkJarBoiledWater" count="2"/>
+			<ingredient name="resourcePaint" count="5"/>
 		</recipe>
 
 
-		<recipe name="pjVehicleMinibikeYellowPlaceable" count="1" craft_time="5">
+		<recipe name="pjVehicleMinibikePlaceable" count="1" craft_time="5">
 			<ingredient name="vehicleMinibikePlaceable" count="1"/>
 			<ingredient name="resourcePaint" count="5"/>
 		</recipe>

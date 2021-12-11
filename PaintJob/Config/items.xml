@@ -865,7 +865,7 @@
 	</append>
 
 	<!-- Change the model for the standard Jeep (now with headlights, top lights and taillights) -->
-	<setattribute xpath="//item[@name='vehicle4x4TruckPlaceable']/property[@name='Meshfile']" name="value">#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_base_white</setattribute>
+	<setattribute xpath="//item[@name='vehicle4x4TruckPlaceable']/property[@name='Meshfile']" name="value">#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_white</setattribute>
 
 	<!-- Change the model for the standard Motorcycle (now with headlights and taillights) -->
 	<setattribute xpath="//item[@name='vehicleMotorcyclePlaceable']/property[@name='Meshfile']" name="value">#@modfolder:Resources/pjMotorcycles.unity3d?Motorcycle_base_white</setattribute>

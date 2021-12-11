@@ -6,6 +6,7 @@
 		<Description value="New colour schemes for FunPims vehicles" />
 		<Author value="Éric Beaudon" />
 		<Version value="2.0" />
+		<Website value="https://github.com/Laotseu/7dtdMods/blob/master/README.md"/>
 	</ModInfo>
 
 	<!--
@@ -17,8 +18,11 @@
 	-->
 
 	<!-- v2.0:  Make it work with Alpha 20
+			- By default, the game will spawn the White version of the vehicles
+			- Added back the Alpha 19 skins
+			- Flat rate of 5 paints to change from a skin to another
 			- Remove the need for Grain Alcohol (no longer exists in the game) 
-			- Dye cannot be applied to vehicle -->
+			- Prevent dye from being applied to vehicles -->
 	<!-- v1.18: Design and tail-light tweaks
 			- Played with the blue 4x4 design<br />
 			- Fuddled with the tail-lights lighting -->

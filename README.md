@@ -4,8 +4,8 @@ Mods for the game 7 Days to Die
 
 [Installation instructions](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)
 
-MoreContainers v1.7 (Alpha 19)
-------------------------------
+MoreContainers v1.7 (Alpha 19 and 20)
+-------------------------------------
 
 
 <img align="left" width="55%" height="55%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/MoreContainers_v1.7/MoreContainers/MoreContainers.png" />Do you have friends that can't help themselves and store everything in a specific box for each type of items? I do. This mods add new graphic designs for the storage boxes and also add half-block versions of the storage boxes (for more headspace).
@@ -13,17 +13,36 @@ MoreContainers v1.7 (Alpha 19)
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreContainers_v1.7/MoreContainers_v1.7.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreContainers_v1.7)<br /><br /><br />
 
-PaintJob v1.18 (Alpha 19)
+PaintJob v2.0 (Alpha 20)
 ------------------------
 
-<img align="left" width="55%" height="55%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v1.18/PaintJob/PaintJob.png" />
+<img align="left" width="55%" height="55%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v2.0/PaintJob/PaintJob.png" />
 
 Are you tired of driving the exact same Jeep as you friend? Do you want to pimp your ride? PaintJob is for you! This mod add recipes that allow you to change the colour of your ride.<br />
 
 **Note: As of version 1.13, MotorcycleAlterations is integrated into PaintJob. I advise to uninstall MotorcycleAlterations if you use PaintJob.**
 
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v1.18/PaintJob_v1.18.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PaintJob_v1.18)<br /><br /><br /><br /><br />
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v2.0/PaintJob_v2.0.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PaintJob_v2.0)<br /><br /><br /><br /><br />
+
+StorageSize v1.04 (Alpha 19 and 20)
+-----------------------------------
+
+<img align="left" width="25%" height="25%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/StorageSize/StorageSize.png" />
+All the storage containers that can be selected with the new crateble **Wooden Storage / Furniture** have the same number of container slots (8 x 9). The containers in questions are: Storage Box, Cabinet, Cupboard, Bookcase, Pillcase, Dresser, and Wooden Desk.<br /><br />
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/StorageSize_v1.04/StorageSize_v1.04.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/StorageSize_v1.04)<br /><br /><br /><br /><br /><br /><br /><br />
+
+ActivateBagLockSlots v1.0 (Alpha 19 and 20)
+-------------------------------------------
+
+<img align="left" width="40%" height="40%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/ActivateBagLockSlots_v1.0/ActivateBagLockSlots/ActivateBagLockSlots.png" />
+
+This is a very simple mod for Alpha 19 b177 and up that activate the **Locked Slots** control for the player's inventory.
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/ActivateBagLockSlots_v1.0/ActivateBagLockSlots_v1.0.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/ActivateBagLockSlots_v1.0)<br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 Eric's Goods v1.1 (Alpha 19)
 ----------------------------
@@ -41,25 +60,6 @@ Add custom blocks and items for all the Grand Spartan's fans out there.<br />
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/SpartanBlocks_v1.8/SpartanBlocks_v1.8.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/SpartanBlocks_v1.8)<br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-StorageSize v1.04 (Alpha 19)
-----------------------------
-
-<img align="left" width="25%" height="25%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/StorageSize/StorageSize.png" />
-All the storage containers that can be selected with the new crateble **Wooden Storage / Furniture** have the same number of container slots (8 x 9). The containers in questions are: Storage Box, Cabinet, Cupboard, Bookcase, Pillcase, Dresser, and Wooden Desk.<br /><br />
-
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/StorageSize_v1.04/StorageSize_v1.04.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/StorageSize_v1.04)<br /><br /><br /><br /><br /><br /><br /><br />
-
-ActivateBagLockSlots v1.0 (Alpha 19 b177+)
-------------------------------------------
-
-<img align="left" width="40%" height="40%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/ActivateBagLockSlots_v1.0/ActivateBagLockSlots/ActivateBagLockSlots.png" />
-
-This is a very simple mod for Alpha 19 b177 and up that activate the **Locked Slots** control for the player's inventory.
-
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/ActivateBagLockSlots_v1.0/ActivateBagLockSlots_v1.0.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/ActivateBagLockSlots_v1.0)<br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 MotorcycleAlterations v1.3 (Alpha 19)
 -------------------------------------
