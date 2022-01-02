@@ -1,0 +1,66 @@
+<configs>
+	<append xpath="/items">	
+		
+		<item name="pjtTestPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/PJTrucks.unity3d?Truck"/>
+			<property name="EconomicValue" value="30000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjtTest"/>
+				<property name="VehicleSize" value="2.5, 2.2, 6.5"/>
+			</property>
+			<effect_group name="pjtTestPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="5"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+			</effect_group>
+		</item>
+
+		<item name="pjtTruckAmbulancePlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/PJTrucks.unity3d?TruckAmbulance"/>
+			<property name="EconomicValue" value="30000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjtTruckAmbulance"/>
+				<property name="VehicleSize" value="2.5, 2.2, 6.5"/>
+			</property>
+			<effect_group name="pjtTruckAmbulancePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="5"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+			</effect_group>
+		</item>
+
+		<item name="pjtTruckMoPowerPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/PJTrucks.unity3d?TruckMoPower"/>
+			<property name="EconomicValue" value="30000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjtTruckMoPower"/>
+				<property name="VehicleSize" value="2.5, 2.2, 6.5"/>
+			</property>
+			<effect_group name="pjtTruckMoPowerPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="5"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+			</effect_group>
+		</item>
+
+		<item name="pjtTruckWorkingStiffPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/PJTrucks.unity3d?TruckWorkingStiff"/>
+			<property name="EconomicValue" value="30000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjtTruckWorkingStiff"/>
+				<property name="VehicleSize" value="2.5, 2.2, 6.5"/>
+			</property>
+			<effect_group name="pjtTruckWorkingStiffPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="5"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+			</effect_group>
+		</item>
+
+
+	</append>
+</configs>
