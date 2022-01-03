@@ -61,6 +61,21 @@
 			</effect_group>
 		</item>
 
+		<item name="pjtTruckPaintJobPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Meshfile" value="#@modfolder:Resources/PJTrucks.unity3d?TruckPaintJob"/>
+			<property name="EconomicValue" value="30000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="pjtTruckPaintJob"/>
+				<property name="VehicleSize" value="2.5, 2.2, 6.5"/>
+			</property>
+			<effect_group name="pjtTruckPaintJobPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="5"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+			</effect_group>
+		</item>
+
 
 	</append>
 </configs>

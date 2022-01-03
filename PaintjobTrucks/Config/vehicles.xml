@@ -7,6 +7,7 @@
 	<vehicle name="pjtTruckAmbulance" />		
 	<vehicle name="pjtTruckMoPower" />		
 	<vehicle name="pjtTruckWorkingStiff" />		
+	<vehicle name="pjtTruckPaintJob" />		
 
 </append>
 

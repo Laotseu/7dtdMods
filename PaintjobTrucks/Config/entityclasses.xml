@@ -7,31 +7,24 @@
 			<property name="Prefab" value="#@modfolder:Resources/PJTrucks.unity3d?Truck"/>
 		</entity_class>
 
-	</append>	
-
-	<append xpath="/entity_classes">
-
 		<entity_class name="pjtTruckAmbulance" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/PJTrucks.unity3d?TruckAmbulance"/>
 		</entity_class>
-
-	</append>	
-
-	<append xpath="/entity_classes">
 
 		<entity_class name="pjtTruckMoPower" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/PJTrucks.unity3d?TruckMoPower"/>
 		</entity_class>
 
-	</append>	
-
-	<append xpath="/entity_classes">
-
 		<entity_class name="pjtTruckWorkingStiff" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/PJTrucks.unity3d?TruckWorkingStiff"/>
+		</entity_class>
+
+		<entity_class name="pjtTruckPaintJob" extends="vehicle4x4Truck">
+			<property name="Tags" value="vehicle"/>
+			<property name="Prefab" value="#@modfolder:Resources/PJTrucks.unity3d?TruckPaintJob"/>
 		</entity_class>
 
 	</append>	
