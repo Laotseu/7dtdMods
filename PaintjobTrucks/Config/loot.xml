@@ -3,7 +3,7 @@
 <append xpath="/lootcontainers">	
 
 	<!-- Creaete container size for ridable trucks -->
-	<lootcontainer id="901" name="pjtVehicleTruck" count="0" size="12,9" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="qualBaseTemplate">
+	<lootcontainer id="901" name="pjtVehicleTruck" count="0" size="12,10" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="qualBaseTemplate">
 	</lootcontainer>
 
 </append>

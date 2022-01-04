@@ -1,0 +1,7 @@
+<config>
+
+	<!-- MAKE VEHICLE STORAGE WINDOW BIGGER -->
+	<set xpath="//window[@name='windowVehicleStorage']/grid[@name='queue']/@rows">12</set>
+	<set xpath="//window[@name='windowVehicleStorage']/grid[@name='queue']/@cols">10</set>
+
+</config>
