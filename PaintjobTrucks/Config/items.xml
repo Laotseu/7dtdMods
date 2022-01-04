@@ -1,6 +1,7 @@
 <configs>
 	<append xpath="/items">	
 		
+		<!-- Vehicles -->
 		<item name="pjtTestPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
 			<property name="Meshfile" value="#@modfolder:Resources/PJTrucks.unity3d?Truck"/>
@@ -77,5 +78,63 @@
 		</item>
 
 
+		<!-- Parts to build the trucks -->
+		<item name="pjtVehicleTruckChassis">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="EconomicValue" value="9000"/>
+			<property name="UnlockedBy" value="perkGreaseMonkey,pjtVehicleTruckChassisSchematic"/>
+		</item>
+
+		<item name="pjtVehicleTruckAccessories">
+			<property name="Extends" value="vehicleBicycleHandlebars"/>
+			<property name="EconomicValue" value="9000"/>
+			<property name="UnlockedBy" value="perkGreaseMonkey,pjtVehicleTruckAccessoriesSchematic"/>
+		</item>
+
+		<item name="pjtResourceTruckParts">
+			<property name="Extends" value="resourceHeadlight"/>
+		</item>
+
+		<!-- Schematics -->
+		<item name="pjtVehicleTruckChassisSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="pjtVehicleTruckChassis"/>
+			<property name="Unlocks" value="pjtVehicleTruckChassis"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pjtVehicleTruckChassis" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+
+		<item name="pjtVehicleTruckAccessoriesSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="pjtVehicleTruckAccessories"/>
+			<property name="Unlocks" value="pjtVehicleTruckAccessories"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="pjtVehicleTruckAccessories" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="vehicleWheels" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+
 	</append>
 </configs>
+
+<!--
+
+	<item name="resourceHeadlight">
+		<property name="HoldType" value="45"/>
+		<property name="Tags" value="junk"/>
+		<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="MresourceForgedSteel"/>
+		<property name="Stacknumber" value="50"/>
+		<property name="Weight" value="10"/>
+		<property name="EconomicValue" value="240"/>
+		<property name="Group" value="Resources"/>
+	</item>
+
+ -->

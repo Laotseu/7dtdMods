@@ -1,6 +1,80 @@
 <configs>
 	<append xpath="/recipes" >
-		
+
+		<recipe name="pjtVehicleTruckAccessories" count="1" craft_time="210" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+			<ingredient name="pjtResourceTruckParts" count="10"/>
+			<ingredient name="resourceElectricParts" count="33"/>
+			<ingredient name="resourceMetalPipe" count="50"/>
+			<ingredient name="resourceSpring" count="4"/>
+			<ingredient name="resourceMechanicalParts" count="16"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,3" value=".5,.5" tags="resourceMechanicalParts,resourceMetalPipe,resourceElectricParts,resourceSpring"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="pjtVehicleTruckChassis" count="1" craft_time="210" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+			<ingredient name="pjtResourceTruckParts" count="10"/>
+			<ingredient name="resourceForgedSteel" count="250"/>
+			<ingredient name="resourceMechanicalParts" count="40"/>
+			<ingredient name="resourceDuctTape" count="20"/>
+			<ingredient name="resourceElectricParts" count="16"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,3" value=".5,.5" tags="resourceForgedSteel,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricParts"/>
+			</effect_group>
+		</recipe>
 
 	</append>
+
+	<!-- Create 4 truck recipes with identical ingredients -->
+	<append  xpath="/recipes">
+
+		<recipe name="pjtTruckAmbulancePlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting"/>
+		<recipe name="pjtTruckMoPowerPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting"/>
+		<recipe name="pjtTruckWorkingStiffPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting"/>
+		<recipe name="pjtTruckPaintJobPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting"/>
+
+	</append>
+
+	<append xpath="//recipe[starts-with(@name,'pjtT')]">
+		<ingredient name="vehicleWheels" count="6"/>
+		<ingredient name="pjtVehicleTruckChassis" count="1"/>
+		<ingredient name="pjtVehicleTruckAccessories" count="1"/>
+		<ingredient name="smallEngine" count="1"/>
+		<ingredient name="carBattery" count="1"/>
+	</append> 
+
+
 </configs>
+
+<!-- 
+
+	<recipe name="vehicle4x4TruckAccessories" count="1" craft_time="210" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+		<ingredient name="resourceElectricParts" count="33"/>
+		<ingredient name="resourceHeadlight" count="8"/>
+		<ingredient name="resourceMetalPipe" count="50"/>
+		<ingredient name="resourceSpring" count="4"/>
+		<ingredient name="resourceMechanicalParts" count="16"/>
+		<effect_group>
+			<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,3" value=".5,.5" tags="resourceMechanicalParts,resourceMetalPipe,resourceElectricParts,resourceSpring"/>
+		</effect_group>
+	</recipe>
+
+	<recipe name="vehicle4x4TruckChassis" count="1" craft_time="210" craft_area="workbench" tags="perkGreaseMonkey,learnable,workbenchCrafting">
+		<ingredient name="resourceForgedSteel" count="250"/>
+		<ingredient name="resourceMechanicalParts" count="40"/>
+		<ingredient name="resourceDuctTape" count="20"/>
+		<ingredient name="resourceLeather" count="40"/>
+		<ingredient name="resourceElectricParts" count="16"/>
+		<effect_group>
+			<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,3" value=".5,.5" tags="resourceForgedSteel,resourceMechanicalParts,resourceDuctTape,resourceLeather,resourceElectricParts"/>
+		</effect_group>
+	</recipe>
+
+	<recipe name="vehicle4x4TruckPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="vehicleWheels" count="4"/>
+		<ingredient name="vehicle4x4TruckChassis" count="1"/>
+		<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+		<ingredient name="smallEngine" count="1"/>
+		<ingredient name="carBattery" count="1"/>
+	</recipe> 
+-->

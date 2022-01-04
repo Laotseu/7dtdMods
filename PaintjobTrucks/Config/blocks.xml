@@ -1,0 +1,9 @@
+<config>
+
+	<!-- Add to possibility to salvage truck parts from trucks -->
+	<append xpath="//block[@name='cntAmbulanceTruck01' or @name='cntServiceTruckMoPower' or @name='cntServiceTruckWorkingStiffTools']">
+		<drop event="Harvest" name="pjtResourceTruckParts" count="2,10" tag="salvageHarvest"/>
+
+	</append>
+
+</config>

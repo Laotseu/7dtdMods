@@ -5,26 +5,31 @@
 		<entity_class name="pjtTest" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/PJTrucks.unity3d?Truck"/>
+			<property name="LootListAlive" value="pjtVehicleTruck"/>
 		</entity_class>
 
 		<entity_class name="pjtTruckAmbulance" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/PJTrucks.unity3d?TruckAmbulance"/>
+			<property name="LootListAlive" value="pjtVehicleTruck"/>
 		</entity_class>
 
 		<entity_class name="pjtTruckMoPower" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/PJTrucks.unity3d?TruckMoPower"/>
+			<property name="LootListAlive" value="pjtVehicleTruck"/>
 		</entity_class>
 
 		<entity_class name="pjtTruckWorkingStiff" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/PJTrucks.unity3d?TruckWorkingStiff"/>
+			<property name="LootListAlive" value="pjtVehicleTruck"/>
 		</entity_class>
 
 		<entity_class name="pjtTruckPaintJob" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/PJTrucks.unity3d?TruckPaintJob"/>
+			<property name="LootListAlive" value="pjtVehicleTruck"/>
 		</entity_class>
 
 	</append>	
