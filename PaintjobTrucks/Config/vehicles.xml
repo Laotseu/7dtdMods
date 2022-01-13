@@ -17,20 +17,24 @@
 
 	<property name="cameraDistance" value="5.5, 7"/>
 	<property name="cameraTurnRate" value=".2, .35"/>
+	<property name="cameraTurnRate" value=".2, .35"/>
 	<property name="motorTorqueMinQ" value="5000"/>
 	<property name="motorTorqueMaxQ" value="5000"/>
-	<property name="brakeTorque" value="5000"/>
+	<!-- <property name="brakeTorque" value="5000"/> -->
+	<property name="brakeTorque" value="4000"/>
 	<property name="upAngleMax" value="70"/>
 	<property name="upForce" value="1"/>
 	<property name="steerRate" value="130"/>
 	<property name="steerCenteringRate" value="90"/>
-	<property name="tiltAngleMax" value="80"/>
+	<!-- <property name="tiltAngleMax" value="80"/> -->
+	<property name="tiltAngleMax" value="85"/>
 	<property name="tiltThreshold" value="3"/>
 	<property name="tiltDampening" value=".22"/>
 	<property name="tiltDampenThreshold" value="8"/>
 	<property name="tiltUpForce" value="0"/>
 	<property name="unstickForce" value="1"/>
-	<property name="velocityMax" value="9, 14"/>
+	<!-- <property name="velocityMax" value="9, 14"/> -->
+	<property name="velocityMax" value="8, 12"/>
 	<property name="waterDrag_y_velScale_velMaxScale" value="1.8, .9, .1"/>
 	<property name="wheelPtlScale" value="1"/>
 
@@ -107,8 +111,8 @@
 	</property>
 
 	<property class="seat0">
-		<property name="position" value="-.50, .4, 1.75"/>
-		<property name="rotation" value="-35, 0, 0"/>
+		<property name="position" value="-.50, .42, 1.1"/>
+		<property name="rotation" value="-40, 0, 0"/>
 		<property name="exit" value="-1.8,0,1.4 ~ 1.8,0,.4 ~ -.5,0,-1.4 ~ -.5,0,1.4 ~ -.5,2.1,0"/>
 	</property>
 
@@ -185,6 +189,12 @@
 		<property name="slot_type" value="basket"/>
 		<property name="mesh" value="basket"/>
 		<property name="transform" value="basket"/>
+	</property>
+
+	<property class="exhaust"> 
+	        <property name="class" value="Exhaust"/>
+	        <property name="parent_part" value="engine"/>
+	        <property name="particle_transform" value="p_engine"/>
 	</property>
 
 </append>

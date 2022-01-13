@@ -9,3 +9,19 @@
 </append>
 
 </config>
+
+<!-- 
+
+<lootgroup name="4x4Parts">
+	<item name="vehicle4x4TruckChassis"/>
+	<item name="vehicle4x4TruckAccessories"/>
+	<item name="vehicleWheels"/>
+	<item name="smallEngine"/>
+	<item name="carBattery"/>
+</lootgroup>
+
+
+<lootgroup name="vehiclePartsTiered">
+	<item group="4x4Parts" loot_prob_template="ProbT3"/>
+</lootgroup>
+ -->

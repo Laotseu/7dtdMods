@@ -1,0 +1,27 @@
+<config>
+
+<append xpath="//trader_item_group[@name='vehiclePartsT1']">
+
+	<item name="pjtVehicleTruckChassis"/>
+	<item name="pjtVehicleTruckAccessories"/>
+	<item name="pjtTruckAmbulancePlaceable"/>
+	<item name="pjtTruckMoPowerPlaceable"/>
+	<item name="pjtTruckWorkingStiffPlaceable"/>
+	<item name="pjtTruckPaintJobPlaceable"/>
+
+</append>	
+
+</config>
+
+<!-- 
+<trader_item_group name="vehiclePartsT1" count="1">
+	<item name="vehicleWheels"/>
+	<item name="smallEngine"/>
+	<item name="vehicle4x4TruckChassis"/>
+	<item name="vehicle4x4TruckAccessories"/>
+	<item name="vehicle4x4TruckPlaceable"/>
+	<item name="vehicleGyroCopterChassis"/>
+	<item name="vehicleGyroCopterAccessories"/>
+	<item name="vehicleGyrocopterPlaceable"/>
+</trader_item_group>
+-->
