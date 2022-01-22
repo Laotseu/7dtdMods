@@ -3,7 +3,7 @@
 
 <append xpath="/vehicles" >
 
-	<vehicle name="pjtTest" />		
+	<!-- <vehicle name="pjtTest" /> -->		
 	<vehicle name="pjtTruckAmbulance" />		
 	<vehicle name="pjtTruckMoPower" />		
 	<vehicle name="pjtTruckWorkingStiff" />		
@@ -61,7 +61,7 @@
 		<property name="slot_type" value="engine"/>
 		<property name="mesh" value="engine_small"/>
 		<property name="transform" value="engine_small"/>
-		<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+		<property name="particle_transform" value="p_engine_fire"/>
 		<property name="fuelKmPerL" value=".1"/>
 		<property name="foodDrain" value=".002,.00811"/><!-- driving/turbo, truck -->
 		<property name="gear1" value="

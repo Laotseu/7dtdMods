@@ -2,7 +2,7 @@
 	<append xpath="/items">	
 		
 		<!-- Vehicles -->
-		<item name="pjtTestPlaceable">
+		<!-- <item name="pjtTestPlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>
 			<property name="Meshfile" value="#@modfolder:Resources/PJTrucks.unity3d?Truck"/>
 			<property name="EconomicValue" value="30000"/>
@@ -15,7 +15,7 @@
 				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
 			</effect_group>
-		</item>
+		</item> -->
 
 		<item name="pjtTruckAmbulancePlaceable">
 			<property name="Extends" value="vehicleMinibikePlaceable"/>

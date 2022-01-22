@@ -5,10 +5,10 @@
 * v1.0:	Fist version
 	- Implemented Ambulance, MoPower, and WorkingStiff models
 	- Added a new PaintJob pristine model
-	- New recipes, parts, and loot tables added (to do)
+	- New recipes, parts, and loot tables added
 	- Truck inventory has 120 storage slots
 	- Truck speed is 90% of the 4x4 speed
-	- Add exhaust particles to truck models (to do)
+	- Add exhaust particles to truck models
 	- Add icons for truck parts and truck accessories (to do)
 	- Add windshield to model (to do)
 

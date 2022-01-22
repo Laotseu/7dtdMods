@@ -8,6 +8,25 @@
 
 </append>
 
+<insertAfter  xpath="//lootgroup[@name='4x4Parts']">
+
+	<lootgroup name="pjtTruckParts">
+		<item name="pjtVehicleTruckChassis"/>
+		<item name="pjtVehicleTruckAccessories"/>
+		<item name="vehicleWheels"/>
+		<item name="smallEngine"/>
+		<item name="carBattery"/>
+	</lootgroup>
+
+</insertAfter>
+
+<append xpath="//lootgroup[@name='vehiclePartsTiered']">
+
+	<item group="pjtTruckParts" loot_prob_template="ProbT3"/>
+
+</append>
+
+
 </config>
 
 <!-- 

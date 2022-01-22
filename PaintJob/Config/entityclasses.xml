@@ -314,5 +314,11 @@
 	<!-- Change the model for the standard Bicycle -->
 	<setattribute xpath="//entity_class[@name='vehicleBicycle']/property[@name='Prefab']" name="value">#@modfolder:Resources/pjBicycles.unity3d?Bicycle_white</setattribute>
 
+	<!-- <setattribute xpath="//entity_class[starts-with(@name,'pjVehicle') or 
+		                                @name='vehicle4x4Truck' or 
+		                                @name='vehicleMotorcycle' or 
+		                                @name='vehicleMinibike' or 
+		                                @name='vehicleBicycle']/property[@name='Tags']" 
+		          name="value">pjVehicle</setattribute> -->
 
 </configs>

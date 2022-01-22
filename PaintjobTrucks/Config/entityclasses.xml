@@ -2,11 +2,11 @@
 
 	<append xpath="/entity_classes">
 
-		<entity_class name="pjtTest" extends="vehicle4x4Truck">
+		<!-- <entity_class name="pjtTest" extends="vehicle4x4Truck"> -->
 			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/PJTrucks.unity3d?Truck"/>
 			<property name="LootListAlive" value="pjtVehicleTruck"/>
-		</entity_class>
+		<!-- </entity_class> -->
 
 		<entity_class name="pjtTruckAmbulance" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>

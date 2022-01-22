@@ -1,5 +1,5 @@
 <configs>
 	<!-- Remove dye from vehicles -->
-    <setattribute xpath="//item_modifier[@modifier_tags='dye']" name="installable_tags">clothing,armor,weapon,tool</setattribute>
+    <!-- <setattribute xpath="//item_modifier[@modifier_tags='dye']" name="installable_tags">clothing,armor,weapon,tool</setattribute> -->
 
 </configs>

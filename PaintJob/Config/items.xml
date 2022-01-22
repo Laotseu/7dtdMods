@@ -877,7 +877,9 @@
 	<setattribute xpath="//item[@name='vehicleBicyclePlaceable']/property[@name='Meshfile']" name="value">#@modfolder:Resources/pjBicycles.unity3d?Bicycle_white</setattribute>
 
 	<!-- Remove the Cosmetic Slot for vehicles (remove the canHaveCosmetic tag) -->
-	<setattribute xpath="//item[@name='vehicleMinibikePlaceable' or @name='vehicleMotorcyclePlaceable' or @name='vehicleMinibikePlaceable']/property[@name='Tags']" name="value">vehicle,vengine,vfuel,vlight,vseat</setattribute>
+	<setattribute xpath="//item[@name='vehicleMinibikePlaceable' or 
+		                        @name='vehicleMotorcyclePlaceable' or @name='vehicle4x4TruckPlaceable']/property[@name='Tags']" 
+		          name="value">vehicle,vengine,vfuel,vlight,vseat</setattribute>
 	<setattribute xpath="//item[@name='vehicleBicyclePlaceable']/property[@name='Tags']" name="value">vehicle</setattribute>
 
 </configs>
