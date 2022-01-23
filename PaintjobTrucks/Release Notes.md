@@ -9,8 +9,9 @@
 	- Truck inventory has 120 storage slots
 	- Truck speed is 90% of the 4x4 speed
 	- Add exhaust particles to truck models
-	- Add icons for truck parts and truck accessories (to do)
+	- Add icons for truck parts and truck accessories
 	- Add windshield to model (to do)
+	- Add entries in the localisation file for new entities (to do)
 
 
 [Click here for Modlet Installation instruction](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)
