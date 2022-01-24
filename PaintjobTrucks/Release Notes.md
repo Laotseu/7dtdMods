@@ -10,7 +10,7 @@
 	- Truck speed is 90% of the 4x4 speed
 	- Add exhaust particles to truck models
 	- Add icons for truck parts and truck accessories
-	- Add windshield to model (to do)
+	- Add windshield to model
 	- Add entries in the localisation file for new entities (to do)
 
 
