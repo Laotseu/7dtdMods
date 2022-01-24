@@ -4,6 +4,18 @@ Mods for the game 7 Days to Die
 
 [Installation instructions](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)
 
+
+PaintJobTrucks v1.0 (Alpha 20)
+------------------------------
+
+<img align="left" width="55%" height="55%" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/master/PaintJobTrucks/PaintJobTrucks_for_readme.png" />You've seen those ambulances and service trucks derelicts around the cities, now you can drive them!
+They are a bit harder to drive and slower than the 4x4, but they have a much more carrying capacity.
+These bad boys are your best choice for your questing or looting expeditions.
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJobTrucks_v1.0/PaintJobTrucks_v1.0.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PaintJobTrucks_v1.0)<br /><br /><br />
+
+
 MoreContainers v1.7 (Alpha 19 and 20)
 -------------------------------------
 
