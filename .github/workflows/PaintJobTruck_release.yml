@@ -1,0 +1,46 @@
+on:
+  push:
+    # Sequence of patterns matched against refs/tags
+    tags:
+    - 'PaintJobTruck_v*' # Push events to matching PaintJobTruck_v*, i.e. PaintJobTruck_v1.0, PaintJobTruck_v20.15.10
+
+  watch:
+    types: [started]
+
+name: Prepare PaintJobTruck draft release
+
+jobs:
+  build:
+    name: Upload Release Asset
+    runs-on: ubuntu-latest
+    if: github.actor == github.event.repository.owner.login
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Build project # This would actually build your project, using zip for an example artifact
+        run: |
+          if [ ${GITHUB_REF##*/} == 'master' ]
+          then
+            ZIPNAME="PaintJobTruck.zip"
+          else
+            ZIPNAME="${GITHUB_REF##*/}.zip"
+          fi
+          echo "Creating ${ZIPNAME}"
+          # echo "::set-env name=RELEASE_NAME::${ZIPNAME%\.zip}"
+          echo "RELEASE_NAME=${ZIPNAME%\.zip}" >> $GITHUB_ENV
+          mkdir ./Mods
+          mv ./PaintJobTruck/Release\ Notes.md .
+          mv ./PaintJobTruck ./Mods
+          zip -r ${ZIPNAME} Mods Release\ Notes.md Modlet\ Installation.md
+      - name: Create Release
+        id: create_release
+        uses: ncipollo/release-action@v1.6.1
+        with:
+          name: ${{ env.RELEASE_NAME }}
+          tag: ${{ env.RELEASE_NAME }}
+          bodyFile: Release Notes.md
+          artifacts: "./*.zip"
+          artifactContentType: application/zip
+          draft: true
+          prerelease: false
+          token: ${{ secrets.GITHUB_TOKEN }}
