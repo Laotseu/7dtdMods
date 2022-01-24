@@ -1,5 +1,5 @@
-**PaintJobTrucks:** Add drivables FunsPims' trucks to the game
-==============================================================
+**PaintJobTrucks:** Add drivable FunsPims' trucks to the game
+=============================================================
 
 ![PaintJobTrucks screen shot](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/PaintjobTrucks/PaintJobTruck.png)
 

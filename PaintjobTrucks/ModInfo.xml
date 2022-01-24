@@ -3,15 +3,28 @@
 <xml>
 	<ModInfo>
 		<Name value="PaintJobTrucks" />
-		<Description value="Add drivables FunsPims trucks to the game." />
+		<Description value="Add drivable FunsPims' trucks to the game." />
 		<Author value="Eric Beaudoin" />
 		<Version value="1.0" />
 		<Website value="https://github.com/Laotseu/7dtdMods/blob/master/README.md" />
 
-		<!-- ========= Release Notes ========= -->
-		<!-- 1.0: 	Fist version...  -->
+		<!-- Tested with 7 Days to Die Alpha 20.1 -->
+		
+		<!-- 
+		========= Release Notes =========
+		
+		* v1.0:	Fist version
+			- Implemented Ambulance, MoPower, and WorkingStiff models
+			- Added a new PaintJob pristine model
+			- New recipes, parts, and loot tables added
+			- Truck inventory has 120 storage slots
+			- Truck speed is 90% of the 4x4 speed
+			- Add exhaust particles to truck models
+			- Add icons for trucks, truck parts and truck accessories
+			- Add windshield to models
+			- Add entries in the localisation file for new entities 
+		-->
 
-		<!-- Tested with 7 Days to Die Alpha 20.0 -->
 		
 	</ModInfo>
 </xml>
