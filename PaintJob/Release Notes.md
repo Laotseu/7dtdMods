@@ -1,7 +1,7 @@
 PaintJob: Change the colour of FinPims vehicles
 ===============================================
 
-![PaintJob](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v2.0/PaintJob/PaintJob.png)
+![PaintJob](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v2.1/PaintJob/PaintJob.png)
 
 How does it work?
 -----------------
@@ -15,19 +15,22 @@ For the motorcycles, you can also change the configuration and remove the spikes
 * You must remove all mods before crafting. If you try to craft using a modded vehicle, you'll get an error message about missing resources.
 * You always need to go back to the white vehicle in order to change to a new skin. I did this to limit the number of new recipes.
 
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v2.0/PaintJob_v2.0.zip)<br/>
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v2.1/PaintJob_v2.1.zip)<br/>
 [Modlet Installation instruction](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)<br/>
 [List of all my mods](https://github.com/Laotseu/7dtdMods/blob/master/README.md)
 
 ### Latest version
+* 2.1: Remove the code that prevent Dye usage on vehicle
+	- I haven't found a way to remove this only for my vehicle but I'm removing it so that PaintJob plays well with other mods
+	- Also change the reworked the label in Localization.txt
+
+### Previous versions
 * 2.0: Make it work with Alpha 20
 	- By default, the game will spawn the White version of the vehicles
 	- Added back the Alpha 19 skins
 	- Flat rate of 5 paints to change from a skin to another
 	- Remove the need for Grain Alcohol (no longer exists in the game) 
 	- Prevent dye from being applied to vehicles
-
-### Previous versions
 * 1.18: Design and tail-light tweaks
 	- Played with the blue 4x4 design<br />
 	![Blue Thunder](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v1.18/PaintJob/New%20blue%20jeep%20design.png)
