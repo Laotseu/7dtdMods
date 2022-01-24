@@ -2,12 +2,12 @@ on:
   push:
     # Sequence of patterns matched against refs/tags
     tags:
-    - 'PaintJobTruck_v*' # Push events to matching PaintJobTruck_v*, i.e. PaintJobTruck_v1.0, PaintJobTruck_v20.15.10
+    - 'PaintJobTrucks_v*' # Push events to matching PaintJobTrucks_v*, i.e. PaintJobTrucks_v1.0, PaintJobTrucks_v20.15.10
 
   watch:
     types: [started]
 
-name: Prepare PaintJobTruck draft release
+name: Prepare PaintJobTrucks draft release
 
 jobs:
   build:
@@ -21,7 +21,7 @@ jobs:
         run: |
           if [ ${GITHUB_REF##*/} == 'master' ]
           then
-            ZIPNAME="PaintJobTruck.zip"
+            ZIPNAME="PaintJobTrucks.zip"
           else
             ZIPNAME="${GITHUB_REF##*/}.zip"
           fi
@@ -29,8 +29,8 @@ jobs:
           # echo "::set-env name=RELEASE_NAME::${ZIPNAME%\.zip}"
           echo "RELEASE_NAME=${ZIPNAME%\.zip}" >> $GITHUB_ENV
           mkdir ./Mods
-          mv ./PaintJobTruck/Release\ Notes.md .
-          mv ./PaintJobTruck ./Mods
+          mv ./PaintJobTrucks/Release\ Notes.md .
+          mv ./PaintJobTrucks ./Mods
           zip -r ${ZIPNAME} Mods Release\ Notes.md Modlet\ Installation.md
       - name: Create Release
         id: create_release
