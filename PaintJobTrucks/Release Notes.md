@@ -1,7 +1,7 @@
 **PaintJobTrucks:** Add drivable FunsPims' trucks to the game
 =============================================================
 
-![PaintJobTrucks screen shot](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/PaintjobTrucks/PaintJobTruck.png)
+![PaintJobTrucks screen shot](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJobTrucks_v1.0/PaintJobTrucks/PaintJobTruck.png)
 
 You've seen those ambulances and service trucks derelicts around the cities, now you can drive them! 
 They are a bit harder to drive and slower than the 4x4, but they have a much more carrying capacity. 
@@ -20,15 +20,23 @@ Important Notes
 ---------------
 * For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJobTruck_v1.0/PaintJobTruck_v1.0.zip)<br/>
-[Modlet Installation instruction](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)<br/>
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJobTrucks_v1.0/PaintJobTrucks_v1.0.zip)
+[Modlet Installation instruction](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)
 [List of all my mods](https://github.com/Laotseu/7dtdMods/blob/master/README.md)
+
+You may also want to try Vehicle Madness
+----------------------------------------
+
+The Ambulance, Mo Power Truck and Working Stiff Truck are also included in [Vehicles Madness](https://community.7daystodie.com/topic/21143-vehicle-madness-continues-a20-version/) 
+along with tons of other vehicles and new in game features like repairing wrecks that you find in the world.
+
+If you never have enough vehicles to ride, [Vehicles Madness](https://community.7daystodie.com/topic/21143-vehicle-madness-continues-a20-version/) is for you.
 
 Version History
 ---------------
 
 * v1.0:	Fist version
-	- Implemented Ambulance, MoPower, and WorkingStiff models
+	- Implemented Ambulance, Mo Power, and Working Stiff models
 	- Added a new PaintJob pristine model
 	- New recipes, parts, and loot tables added
 	- Truck inventory has 120 storage slots
