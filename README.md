@@ -37,6 +37,14 @@ Are you tired of driving the exact same Jeep as you friend? Do you want to pimp 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v2.1/PaintJob_v2.1.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PaintJob_v2.1)<br /><br /><br /><br /><br />
 
+Eric's Goods v1.2 (Alpha 20)
+----------------------------
+
+<img align="left" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/EricsGoods_v1.2/EricsGoods/Prefabs/oldwest_business_07.jpg" />Replaced the in game *Eric's Stuff* (oldwest_business_07 POI) with *Eric's Goods* to add challenge, quest, and loot to the otherwise cute but very boring POI.
+
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/EricsGoods_v1.2/EricsGoods_v1.2.zip)<br />
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/EricsGoods_v1.2)<br /><br /><br /><br /><br /><br />
+
 StorageSize v1.04 (Alpha 19 and 20)
 -----------------------------------
 
@@ -55,14 +63,6 @@ This is a very simple mod for Alpha 19 b177 and up that activate the **Locked Sl
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/ActivateBagLockSlots_v1.0/ActivateBagLockSlots_v1.0.zip)<br />
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/ActivateBagLockSlots_v1.0)<br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-Eric's Goods v1.1 (Alpha 19)
-----------------------------
-
-<img align="left" hspace="8" src="https://raw.githubusercontent.com/Laotseu/7dtdMods/EricsGoods_v1.1/EricsGoods/Prefabs/EricsGoods.jpg" />Replaced the in game *Eric's Stuff* (oldwest_business_07 POI) with *Eric's Goods* to add challenge, quest, and loot to the otherwise cute but very boring POI.
-
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/EricsGoods_v1.1/EricsGoods_v1.1.zip)<br />
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/EricsGoods_v1.1)<br /><br /><br /><br /><br /><br />
 
 SpartanBlocks v1.8 (Alpha 19)
 -----------------------------
