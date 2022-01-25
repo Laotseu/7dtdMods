@@ -5,8 +5,10 @@
 		<Name value="Eric's Goods" />
 		<Description value="Replace Eric's Stuff by Eric's Goods in your randomly generated worlds." />
 		<Author value="Fun Pimps, Eric Beaudoin" />
-		<Version value="1.1" />
+		<Version value="1.2" />
 		<Website value="https://github.com/Laotseu/7dtdMods/blob/master/README.md" />
+		<!-- 1.2:	New version of the POI for Alpha 20
+					Removed the rwmmixer.xml as it is no longer needed -->
 		<!-- 1.1:	New version of rwgmixer.xml for Alpha 19 -->
 		<!-- 1.0: 	First version of the mod. 
 					Replace Fun Pimps Eric's Stuff with a more "fun" Eric's Goods POI. -->

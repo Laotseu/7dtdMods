@@ -3,7 +3,6 @@
 
 <append xpath="/vehicles" >
 
-	<!-- <vehicle name="pjtTest" /> -->		
 	<vehicle name="pjtTruckAmbulance" />		
 	<vehicle name="pjtTruckMoPower" />		
 	<vehicle name="pjtTruckWorkingStiff" />		

@@ -1,13 +1,19 @@
 **EricsGoods** is a 7 Days to Die modlet that replace the vanilla game *Eric's Stuff* (oldwest_business_07 POI) with *Eric's Goods* to add challenge, quest, and loot to the otherwise cute but very boring POI.
 
-![EricsGoods](https://raw.githubusercontent.com/Laotseu/7dtdMods/EricsGoods_v1.1/EricsGoods/Prefabs/EricsGoods.jpg)
+![EricsGoods](https://raw.githubusercontent.com/Laotseu/7dtdMods/EricsGoods_v1.2/EricsGoods/Prefabs/EricsGoods.jpg)
 
 **Important note:** For this modlet to work properly, it needs to be installed on both the **server** and **every player's computer**.
+
+v1.2
+----
+
+* New version of the POI for Alpha 20
+* Removed the rwmmixer.xml as it is no longer needed
 
 v1.1
 ----
 
-+ Make it work with Alpha 19
+* Make it work with Alpha 19
 
 v1.0
 ----
