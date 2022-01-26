@@ -1,7 +1,7 @@
 PaintJob: Change the colour of FinPims vehicles
 ===============================================
 
-![PaintJob](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v2.1/PaintJob/PaintJob.png)
+![PaintJob](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v2.2/PaintJob/PaintJob.png)
 
 How does it work?
 -----------------
@@ -15,16 +15,20 @@ For the motorcycles, you can also change the configuration and remove the spikes
 * You must remove all mods before crafting. If you try to craft using a modded vehicle, you'll get an error message about missing resources.
 * You always need to go back to the white vehicle in order to change to a new skin. I did this to limit the number of new recipes.
 
-[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v2.1/PaintJob_v2.1.zip)<br/>
-[Modlet Installation instruction](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)<br/>
+[Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v2.2/PaintJob_v2.2.zip)
+[Modlet Installation instruction](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)
 [List of all my mods](https://github.com/Laotseu/7dtdMods/blob/master/README.md)
 
 ### Latest version
-* 2.1: Remove the code that prevent Dye usage on vehicle
-	- I haven't found a way to remove this only for my vehicle but I'm removing it so that PaintJob plays well with other mods
-	- Also change the reworked the label in Localization.txt
+2.2: Bug fixes
+	- Patrol Gaming 4x4 doesn't have the right skin
+	- Original 4x4 has two windshields
+	- Yellow cannot be picked-up or ridden (missing vehicle entity)
 
 ### Previous versions
+* 2.1: Remove the code that prevent Dye usage on vehicle
+	- I haven't found a way to remove this only for my vehicle but I'm removing it so that PaintJob plays well with other mods
+	- Also reworked the labels in Localization.txt
 * 2.0: Make it work with Alpha 20
 	- By default, the game will spawn the White version of the vehicles
 	- Added back the Alpha 19 skins
