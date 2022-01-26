@@ -4,7 +4,7 @@
 
 		<entity_class name="pjVehicle4x4Truck" extends="vehicle4x4Truck">
 			<property name="Tags" value="vehicle"/>
-			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep"/>
+			<property name="Prefab" value="#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_base_old"/>
 		</entity_class>
 
 		<entity_class name="pjVehicle4x4TruckBlue" extends="vehicle4x4Truck">
