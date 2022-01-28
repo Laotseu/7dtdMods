@@ -117,8 +117,8 @@
 
 	<property class="seat1">
 		<property name="class" value="Seat"/>
-		<property name="position" value=".50, .35, 1.1"/>
-		<property name="rotation" value="-27, 0, 0"/>
+		<property name="position" value=".50, .42, 1.1"/>
+		<property name="rotation" value="-40, 0, 0"/>
 		<property name="exit" value="1.6,.4,1.9 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/>
 		<property name="IKHandLPosition" value="-.25, .87, .14"/>
 		<property name="IKHandLRotation" value="41, -30, 18"/>
