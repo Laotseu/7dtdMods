@@ -115,17 +115,17 @@
 	</property>
 
 	<property class="seat0">
-		<property name="position" value="-.4, .36, .06"/>
+		<property name="position" value="-.43, .36, .06"/>
 		<property name="rotation" value="-25, 0, 0"/>
 		<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/>
 	</property>
 
 	<property class="seat1">
 		<property name="class" value="Seat"/>
-		<property name="position" value=".4, .36, .1"/>
+		<property name="position" value=".43, .36, .1"/>
 		<property name="rotation" value="-27, 0, 0"/>
 		<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/>
-		<property name="IKHandLPosition" value="-.27, .87, .14"/>
+		<property name="IKHandLPosition" value="-.30, .87, .14"/>
 		<property name="IKHandLRotation" value="41, -30, 18"/>
 		<property name="IKHandRPosition" value=".27, .87, .14"/>
 		<property name="IKHandRRotation" value="41, 30, -18"/>
@@ -208,31 +208,51 @@
 	
 </append>
 
+<!-- Add foot positioning -->
+<append xpath="//vehicle[@name='vehicle4x4Truck' or starts-with(@name,'pjVehicle4x4')]/property[@class='seat0' or @class='seat1']">
+	<property name="class" value="Seat"/>
+
+	<property name="IKFootLPosition" value="-.25, .25, .35"/>
+	<property name="IKFootLRotation" value="-30, 0, 0"/>
+	<property name="IKFootRPosition" value=".1, .25, .35"/>
+	<property name="IKFootRRotation" value="-60, 0, 0"/>
+
+</append>
+
 <!-- Fix the seating position for UK jeeps -->
 <set xpath="//vehicle[@name='pjVehicle4x4TruckUK' or @name='pjVehicle4x4Patrol' or @name='pjVehicle4x4War3zUK']/property[@class='seat0']">
 
-	<property name="position" value=".4, .36, .1"/>
+	<property name="position" value=".43, .36, .1"/>
 	<property name="rotation" value="-30, 0, 0"/>
 	<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/>
+	<property name="class" value="Seat"/>
+	<property name="IKFootLPosition" value="-.1, .25, .3"/>
+	<property name="IKFootLRotation" value="-60, 0, 0"/>
+	<property name="IKFootRPosition" value=".25, .25, .3"/>
+	<property name="IKFootRRotation" value="-30, 0, 0"/>
 
 </set> 
+
 <set xpath="//vehicle[@name='pjVehicle4x4TruckUK' or @name='pjVehicle4x4Patrol' or @name='pjVehicle4x4War3zUK']/property[@class='seat1']">
 
 	<property name="class" value="Seat"/>
-	<property name="position" value="-.4, .36, .06"/>
+	<property name="position" value="-.43, .36, .06"/>
 	<property name="rotation" value="-30, 0, 0"/>
 	<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/>
 	<property name="IKHandLPosition" value="-.27, .87, .14"/>
 	<property name="IKHandLRotation" value="41, -30, 18"/>
 	<property name="IKHandRPosition" value=".27, .87, .14"/>
 	<property name="IKHandRRotation" value="41, 30, -18"/>
+	<property name="IKFootRPosition" value="-.35, .25, .30"/>
+	<property name="IKFootRRotation" value="-30, 0, 0"/>
+	<property name="IKFootLPosition" value=".4, .25, .30"/>
+	<property name="IKFootLRotation" value="-60, 0, 0"/>
 	
 </set> 
 
 <!-- Change the position for all jeeps front row seats -->
-<setattribute xpath="//vehicle[@name='vehicle4x4Truck' or starts-with(@name,'pjVehicle4x4')]/property/property[@name='rotation' and @value='-25, 0, 0']" name="value">-29, 0, 0</setattribute>
-<setattribute xpath="//vehicle[@name='vehicle4x4Truck' or starts-with(@name,'pjVehicle4x4')]/property/property[@name='rotation' and @value='-27, 0, 0']" name="value">-29, 0, 0</setattribute>
-
+<setattribute xpath="//vehicle[@name='vehicle4x4Truck' or starts-with(@name,'pjVehicle4x4')]/property/property[@name='rotation' and @value='-25, 0, 0']" name="value">-30, 0, 0</setattribute>
+<setattribute xpath="//vehicle[@name='vehicle4x4Truck' or starts-with(@name,'pjVehicle4x4')]/property/property[@name='rotation' and @value='-27, 0, 0']" name="value">-30, 0, 0</setattribute>
 
 <!-- ==================== -->
 <!-- Motorcycles vehicles -->
