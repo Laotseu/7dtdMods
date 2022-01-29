@@ -365,17 +365,41 @@
 		<property name="slot_type" value="handlebars"/>
 		<property name="mesh" value="handlebar"/>
 		<property name="transform" value="Origin/handlebar_joint"/>
-		<property name="IKHandLPosition" value="-.3329, .2552, -.158"/>
+		<property name="IKHandLPosition" value="-.3329, .2852, -.158"/>
 		<property name="IKHandLRotation" value="27.30321, -15.59375, 8.961643"/>
-		<property name="IKHandRPosition" value=".3329, .2552, -.158"/>
+		<property name="IKHandRPosition" value=".3329, .2852, -.158"/>
 		<property name="IKHandRRotation" value="27.30321, 15.59375, -8.961643"/>
 		<property name="parent_part" value="chassis"/>
 	</property>
 
+	<!-- <property class="seat0">
+		<property name="position" value="0, 0, 0"/>
+		<property name="rotation" value="-10, 0, 0"/>
+		<property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
+	</property> -->
+
+	<!-- New with Alpha 20 -->
 	<property class="seat0">
-		<property name="position" value="0, 0, -.201"/>
+		<property name="class" value="Seat"/>
+		<property name="position" value="0, -.03, -.151"/>
 		<property name="rotation" value="0, 0, 0"/>
 		<property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
+		<property name="IKFootLPosition" value="-.34, .41, .32"/>
+		<property name="IKFootLRotation" value="-30, 0, 0"/>
+		<property name="IKFootRPosition" value=".34, .41, .32"/>
+		<property name="IKFootRRotation" value="-30, 0, 0"/>
+	</property>
+
+	<property class="seat1">
+		<property name="class" value="Seat"/>
+		<property name="position" value="0, .143, -.500"/>
+		<property name="rotation" value="0, 0, 0"/>
+		<property name="exit" value="-.9,0,-.7 ~ .9,0,-.7 ~ -.6,0,-1.5 ~ -.6,0,1.6 ~ 0,1.5,-.6"/>
+		<property name="mod" value="1"/>
+		<property name="IKHandLPosition" value="-.27, .87, .14"/>
+		<property name="IKHandLRotation" value="41, -30, 18"/>
+		<property name="IKHandRPosition" value=".27, .87, .14"/>
+		<property name="IKHandRRotation" value="41, 30, -18"/>
 	</property>
 
 	<property class="wheel0">
@@ -412,13 +436,31 @@
 
 	<property class="taillight">
 		<property name="class" value="Headlight"/>
-		<property name="transform" value="Origin/taillight"/>
+		<property name="transform" value="taillight_ON"/>
 		<property name="bright" value=".50"/>
 	</property>
 	
 </append>
 
+<!-- Add pedals to the motorcycles to place the feet properly -->
+<!-- <append xpath="//vehicle[@name='vehicleMotorcycle' or starts-with(@name,'pjVehicleMotorcycle')]">
 
+	<property class="pedals">
+		<property name="class" value="Pedals"/>
+		<property name="slot_type" value="pedals"/>
+		<property name="transform" value="Origin/pedalJoint"/>
+		<property name="pedalLPosition" value="-.34, 0, 0"/>
+		<property name="pedalRPosition" value=".34, 0, 0"/>
+		<property name="IKFootLPosition" value="0, 0, 0"/>
+		<property name="IKFootLRotation" value="-25.084, -0.004, -4.529"/>
+		<property name="IKFootRPosition" value="0, 0, 0"/>
+		<property name="IKFootRRotation" value="-25.084, 0.004, 4.529"/>
+		<property name="pedalSound" value=""/>
+		<property name="staminaDrain" value="0,0"/>
+	</property>
+
+</append>
+ -->
 <!-- ================== -->
 <!-- Minibikes vehicles -->
 <!-- ================== -->
