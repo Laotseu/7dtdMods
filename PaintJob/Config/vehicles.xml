@@ -401,7 +401,7 @@
 	<!-- New with Alpha 20 -->
 	<property class="seat0">
 		<property name="class" value="Seat"/>
-		<property name="position" value="0, -.03, -.151"/>
+		<property name="position" value="0, -.03, -.2"/>
 		<property name="rotation" value="0, 0, 0"/>
 		<property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
 		<property name="IKFootLPosition" value="-.34, .41, .32"/>
