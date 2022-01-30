@@ -5,7 +5,7 @@
 		<Name value="PaintJob" />
 		<Description value="New colour schemes for FunPims vehicles" />
 		<Author value="Éric Beaudon" />
-		<Version value="2.2" />
+		<Version value="2.3" />
 		<Website value="https://github.com/Laotseu/7dtdMods/blob/master/README.md"/>
 	</ModInfo>
 
@@ -18,63 +18,65 @@
 	-->
 
 	 
-	
-	<!-- v2.2: Bug fixes
-			- Patrol Gaming 4x4 doesn't have the right skin
-			- Original 4x4 has two windshields
-			- Yellow cannot be picked-up or ridden (missing vehicle entity) -->
-	<!-- v2.1: Remove the code that prevent Dye usage on vehicle
-			- I haven't found a way to remove this only for my vehicle but I'm removing it so that PaintJob plays well with other mods
-			- Also reworked the labels in Localization.txt -->
-	<!-- v2.0:  Make it work with Alpha 20
-			- By default, the game will spawn the White version of the vehicles
-			- Added back the Alpha 19 skins
-			- Flat rate of 5 paints to change from a skin to another
-			- Remove the need for Grain Alcohol (no longer exists in the game) 
-			- Prevent dye from being applied to vehicles -->
-	<!-- v1.18: Design and tail-light tweaks
-			- Played with the blue 4x4 design<br />
-			- Fuddled with the tail-lights lighting -->
-	<!-- v1.17: Blue Thunder + Homage to Noctua
-			- New blue 4x4 design with wolves and lightning
-			- New brown and tan motorcycle
-			- The jeeps and motorcycles tail-lights new now actually emit light when on
-			- Touch-up all the motorcycles' trunk straps to make them look better
-			- Remove old code used for backward compatibility with MotorcycleAlterations -->
-	<!-- v1.16:	4x4 Texture overhaul
-			- Texture refactoring for the 4x4 (from 5 bitmaps to 2)
-			- Fix Green Camo texture (Be Bear Aware)
-			- Fix War3zUK texture (Scottish flag instead of the inverted Union flag)
-			- Little overhaul of the Spartan texture
-			- Complete overhaul of the red jeep
-			- Add a windshield to Miss Spartan's jeep
-			- Fix a cliping issue with the chain -->
-	<!-- v1.15:	Pink motorcycle (for MaryB)
+	<!-- 2.3: Operation Foot-job
+    	- Reworked the foot place for motorcycle and 4x4 (feet are no longer hanging under the Jeep)
+    	- Lower the number of vertices for the motorcycle's taillight (I don't think anyone will notice) -->
+	<!-- 2.2: Bug fixes
+		- Patrol Gaming 4x4 doesn't have the right skin
+		- Original 4x4 has two windshields
+		- Yellow cannot be picked-up or ridden (missing vehicle entity) -->
+	<!-- 2.1: Remove the code that prevent Dye usage on vehicle
+		- I haven't found a way to remove this only for my vehicle but I'm removing it so that PaintJob plays well with other mods
+		- Also reworked the labels in Localization.txt -->
+	<!-- 2.0:  Make it work with Alpha 20
+		- By default, the game will spawn the White version of the vehicles
+		- Added back the Alpha 19 skins
+		- Flat rate of 5 paints to change from a skin to another
+		- Remove the need for Grain Alcohol (no longer exists in the game) 
+		- Prevent dye from being applied to vehicles -->
+	<!-- 1.18: Design and tail-light tweaks
+		- Played with the blue 4x4 design<br />
+		- Fuddled with the tail-lights lighting -->
+	<!-- 1.17: Blue Thunder + Homage to Noctua
+		- New blue 4x4 design with wolves and lightning
+		- New brown and tan motorcycle
+		- The jeeps and motorcycles tail-lights new now actually emit light when on
+		- Touch-up all the motorcycles' trunk straps to make them look better
+		- Remove old code used for backward compatibility with MotorcycleAlterations -->
+	<!-- 1.16:	4x4 Texture overhaul
+		- Texture refactoring for the 4x4 (from 5 bitmaps to 2)
+		- Fix Green Camo texture (Be Bear Aware)
+		- Fix War3zUK texture (Scottish flag instead of the inverted Union flag)
+		- Little overhaul of the Spartan texture
+		- Complete overhaul of the red jeep
+		- Add a windshield to Miss Spartan's jeep
+		- Fix a cliping issue with the chain -->
+	<!-- 1.15:	Pink motorcycle (for MaryB)
 				Green Camo Jeep -->
-	<!-- v1.14: Minibikes
+	<!-- 1.14: Minibikes
 			Remove acid from recipes
 			Cut down textures size from 2K down to 1K for everything but the Jeeps -->
-	<!-- v1.13: Black motorcycle
+	<!-- 1.13: Black motorcycle
 				Black bicycle
 				Integrated MotorcycleAlterations -->
-	<!-- v1.12: Bicycles: white, blue, green, cyan, pink red, and the original yellow
+	<!-- 1.12: Bicycles: white, blue, green, cyan, pink red, and the original yellow
 				Motorcycles: red, white, green and gold, blue, and original
 				integrated Motorcycle Alterations with colours (lots or recipies) -->
-	<!-- v1.11: Fix UK models wobble wheels
+	<!-- 1.11: Fix UK models wobble wheels
 				More prep work for the motorcycles -->
-	<!-- v1.10: Add War3zUK Black -->
-	<!-- v1.9:	Add the missing unity3D package for the Australian jeep -->
-	<!-- v1.8:  Fix problem with the wind-sheild texture
+	<!-- 1.10: Add War3zUK Black -->
+	<!-- 1.9:	Add the missing unity3D package for the Australian jeep -->
+	<!-- 1.8:  Fix problem with the wind-sheild texture
 				Add Patrol Silver and Blue for people that drive on the wrong side of the road -->
-	<!-- V1.7:  The A19 max speed is 14m/s. Vroom, vroom 
+	<!-- 1.7:  The A19 max speed is 14m/s. Vroom, vroom 
 				Try to make the Jeeps more bridge friendly 
 				Add missing Pink Rider icon -->
-	<!-- v1.6:  Plug a hole on the left side of the front bumper
+	<!-- 1.6:  Plug a hole on the left side of the front bumper
 	            Move the steering wheel forward to leave more space for driver's avatar -->
-	<!-- v1.5:  Add Pink Rider -->
-	<!-- v1.4:  Add missing A19 Hud Sprite for the Jeep -->
-	<!-- v1.3:  Rebuild assets for the new linear lighting (Alpha 19) -->
-	<!-- v1.2:	More lights for the 4x4 -->
-	<!-- v1.1:	Pimp your motorcyle -->
-	<!-- v1.0:	Ride in style! Change the colour skin of your 4x4 -->
+	<!-- 1.5:  Add Pink Rider -->
+	<!-- 1.4:  Add missing A19 Hud Sprite for the Jeep -->
+	<!-- 1.3:  Rebuild assets for the new linear lighting (Alpha 19) -->
+	<!-- 1.2:	More lights for the 4x4 -->
+	<!-- 1.1:	Pimp your motorcyle -->
+	<!-- 1.0:	Ride in style! Change the colour skin of your 4x4 -->
 </xml>
