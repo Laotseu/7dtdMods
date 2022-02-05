@@ -1,37 +1,39 @@
 <configs>
 
+
+	<!-- Create the base entity classes for all new vehicles -->
 	<append xpath="/entity_classes">
 
-		<!-- <entity_class name="pjtTest" extends="vehicle4x4Truck"> -->
-			<property name="Tags" value="vehicle"/>
+		<entity_class name="pjtTest" extends="vehicle4x4Truck">
 			<property name="Prefab" value="#@modfolder:Resources/PJTrucks.unity3d?Truck"/>
-			<property name="LootListAlive" value="pjtVehicleTruck"/>
-		<!-- </entity_class> -->
+		</entity_class>
 
 		<entity_class name="pjtTruckAmbulance" extends="vehicle4x4Truck">
-			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/PJTrucks.unity3d?TruckAmbulance"/>
-			<property name="LootListAlive" value="pjtVehicleTruck"/>
 		</entity_class>
 
 		<entity_class name="pjtTruckMoPower" extends="vehicle4x4Truck">
-			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/PJTrucks.unity3d?TruckMoPower"/>
-			<property name="LootListAlive" value="pjtVehicleTruck"/>
 		</entity_class>
 
 		<entity_class name="pjtTruckWorkingStiff" extends="vehicle4x4Truck">
-			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/PJTrucks.unity3d?TruckWorkingStiff"/>
-			<property name="LootListAlive" value="pjtVehicleTruck"/>
 		</entity_class>
 
 		<entity_class name="pjtTruckPaintJob" extends="vehicle4x4Truck">
-			<property name="Tags" value="vehicle"/>
 			<property name="Prefab" value="#@modfolder:Resources/PJTrucks.unity3d?TruckPaintJob"/>
-			<property name="LootListAlive" value="pjtVehicleTruck"/>
 		</entity_class>
 
 	</append>	
+
+	<!-- Add the properties that are common for all new trucks -->
+	<append xpath="//entity_class[starts-with(@name,'pjt')]">
+
+			<property name="Tags" value="vehicle"/>
+			<property name="LootListAlive" value="pjtVehicleTruck"/>
+			<property name="MapIcon" value="pjt_ui_game_symbol_truck"/>
+			<property name="NavObject" value="pjtTruck" />
+
+	</append>
 
 </configs>

@@ -1,0 +1,19 @@
+<config>
+
+	<append xpath="/nav_object_classes">
+
+		<nav_object_class name="pjtTruck" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner" />
+
+			<compass_settings>
+				<property name="sprite_name" value="pjt_ui_game_symbol_truck"/>
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="pjt_ui_game_symbol_truck"/>
+			</onscreen_settings>
+		</nav_object_class>
+
+	</append>
+
+</config>
