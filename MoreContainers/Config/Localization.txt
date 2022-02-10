@@ -1,4 +1,7 @@
 Key,Source,Context,Changes,English
+mcSecureStorageBlockVariantHelper,blocks,Variant,,"Storage Boxes"
+mcSecureStorageBlockVariantHelperDesc,blocks,Variant,,"Craft various wood Storage Box with this helper block.\nPut the crafted block on your hotbar, hold the Reload action and select the Shape entry from the radial menu. Click or Shift-Click to select a variant to build with."
+
 mcCubeContainer,blocks,Block,New,"Generic Storage Box"
 mcCubeContainerInsecure,blocks,Block,New,"Generic Storage Box"
 mcCubeContainerAmmo,blocks,Block,New,"Ammo Storage Box"

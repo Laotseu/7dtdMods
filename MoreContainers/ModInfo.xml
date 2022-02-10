@@ -5,7 +5,7 @@
 		<Name value="MoreContainers" />
 		<Description value="More option for storage boxes and similar items." />
 		<Author value="Éric Beaudon" />
-		<Version value="1.7" />
+		<Version value="1.8" />
 	</ModInfo>
 
 	<!--
@@ -16,23 +16,25 @@
 		For this model to work properly, it needs to be installed on the server and every player's computer.
 	-->
 
-	<!-- v1.7:	More ammo and weapon crates
+	<!-- 1.8: Fix for Alpha 20
+				Created a Storage Boxes variant helper block for Alpha 20 -->
+	<!-- 1.7: More ammo and weapon crates
 				Added crates and half-crates for 9mm, arrow, magnum, and shell ammo
 				Added cretes and half-crates for melee and range weapons -->
-	<!-- v1.6:	Crates for mod parts 
+	<!-- 1.6: Crates for mod parts 
 				Changed the modding design (its purpose was not clear enough)
 				Added designs for Armor, Vehicle (in preparation for Alpha 20), and Weapon Mods crates and half-crates
     			Fix a typo that was there since forever -->
-	<!-- v1.5:  More crates (full and half cube versions)
+	<!-- 1.5: More crates (full and half cube versions)
 				Cement Mixer, Chemistry, Crafting, Electricity, Gas, Gun Craft, Modding, Plants, Resources, Tool Smithing -->
-	<!-- v1.4:	New crates
+	<!-- 1.4: New crates
 				New Auto Parts and Workbench designs -->
-	<!-- v1.3:	Bug fixes
+	<!-- 1.3: Bug fixes
 				Secure Armors Storage now available to players (only could use Insecure version before) -->
-	<!-- v1.2:  Fix: The wood container variant block changed name with Alpha 19
+	<!-- 1.2: Fix: The wood container variant block changed name with Alpha 19
 				Work on the texture to make them look better with new lighting system -->
-	<!-- v1.1:  Rebuild assets for the new linear lighting (Alpha 19) -->
-	<!-- v1.0:	New design for generic, armors, barter (trader), forge, mining, and recycle storage boxes
+	<!-- 1.1: Rebuild assets for the new linear lighting (Alpha 19) -->
+	<!-- 1.0: New design for generic, armors, barter (trader), forge, mining, and recycle storage boxes
 				Everything is also available in half-cube format
 				All new storage boxes are added to the wood storage and furniture helper
 
