@@ -7,6 +7,7 @@
 
 * 1.8: Fix for Alpha 20
 	- Created a Storage Boxes variant helper block for Alpha 20
+	- Fix the Variant menu order
 * 1.7: More ammo crates
 	- Added crates and half-crates for 9mm, arrow, magnum, and shell ammo
 	- Added crates and half-crates for melee and range weapons<br />
