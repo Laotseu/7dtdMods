@@ -770,8 +770,11 @@
     </append>
 
     <!-- Player craftable storage containers  -->
+    <!-- When destroying any player craftable containers, the container is put back in the inventory -->
     <setattribute xpath="//block[@name='cntStorageGenericInsecure' or @name='cntStorageGenericSignedInsecure']/drop[@event='Destroy']" name="name">mcSecureStorageBlockVariantHelper</setattribute>
     <setattribute xpath="//block[@name='cntStorageGenericInsecure' or @name='cntStorageGenericSignedInsecure']/drop[@event='Destroy']" name="count">1</setattribute>
+    <!-- Breaking a container from secure to insecure should not drop any material -->
+    <remove xpath="//block[@name='cntStorageGeneric' or @name='cntStorageGenericSigned']/drop[@event='Destroy']" /> 
 
      <!-- Block order -->
     <append xpath="//block[@name='cntStorageGeneric' or @name='cntStorageGenericInsecure']">             <property name="SortOrder2" value="0401"/> </append>

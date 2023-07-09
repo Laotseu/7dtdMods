@@ -5,13 +5,16 @@
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
 
+* 2.0: Fix for Alpha 21 
+	- Modinfo.xml v2 
+	- Fix: Secure storage boxes should not drop wood on destroy event
 * 1.8: Fix for Alpha 20
 	- Created a Storage Boxes variant helper block for Alpha 20
 	- Fix the Variant menu order
 * 1.7: More ammo crates
 	- Added crates and half-crates for 9mm, arrow, magnum, and shell ammo
 	- Added crates and half-crates for melee and range weapons<br />
-	![New designs for v1.6](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/MoreContainers/New%20designs%20for%20v1.7.png)
+	![New designs for v1.7](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/MoreContainers/New%20designs%20for%20v1.7.png)
 * 1.6: Crates for mod parts 
 	- Changed the modding design (its purpose was not clear enough)
 	- Added designs for Armor, Vehicle (in preparation for Alpha 20), and Weapon Mods crates and half-crates<br />

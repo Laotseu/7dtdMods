@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <xml>
-	<ModInfo>
-		<Name value="MoreContainers" />
-		<Description value="More option for storage boxes and similar items." />
-		<Author value="Éric Beaudon" />
-		<Version value="1.8" />
-	</ModInfo>
+	<Name value="MoreContainers" />
+    <DisplayName value="More Containers" /> 
+	<Description value="More option for storage boxes and similar items." />
+	<Author value="Éric Beaudon" />
+	<Version value="2.0" />
+	<Website value="https://github.com/Laotseu/7dtdMods/" />
+
 
 	<!--
 		*************** 
@@ -16,6 +17,9 @@
 		For this model to work properly, it needs to be installed on the server and every player's computer.
 	-->
 
+	<!-- 2.0: Fix for Alpha 21 
+				Modinfo.xml v2 
+				Fix: Secure storage boxes should not drop wood on destroy event -->
 	<!-- 1.8: Fix for Alpha 20
 				Created a Storage Boxes variant helper block for Alpha 20
 				Fix the Variant menu order -->
