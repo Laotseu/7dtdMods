@@ -1,8 +1,9 @@
 Éric's 7 Days to Die Mods
 =========================
-Mods for the game 7 Days to Die
 
-[Installation instructions](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)
+Mods for the game [7 Days to Die](https://7daystodie.com/)
+
+> [Installation instructions](https://github.com/Laotseu/7dtdMods/blob/master/Modlet%20Installation.md)
 
 MoreContainers v2.1 (Alpha 21)
 ------------------------------
@@ -55,7 +56,8 @@ PaintJob v2.3 (Alpha 20)
 
 Are you tired of driving the exact same Jeep as you friend? Do you want to pimp your ride? PaintJob is for you! This mod add recipes that allow you to change the colour of your ride.
 
-**Note: As of version 1.13, MotorcycleAlterations is integrated into PaintJob. I advise to uninstall MotorcycleAlterations if you use PaintJob.**
+> **Note:** 
+> As of version 1.13, *MotorcycleAlterations* is integrated into PaintJob. I advise to uninstall *MotorcycleAlterations* if you use *PaintJob.*
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v2.3/PaintJob_v2.3.zip)  
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PaintJob_v2.3)
