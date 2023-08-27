@@ -27,12 +27,12 @@ PaintJobTrucks v1.0 (Alpha 20)
 ------------------------------
 
 <section markdown="1" style="display: flex;">
-<div class="column" style="flex: 55%; padding: 10px;">
+<div class="column" style="flex: 55%; padding: 10px;" markdown="1">
 
 ![PaintJobTrucks](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/PaintJobTrucks/PaintJobTrucks_for_readme.png)
 
 </div>
-<div class="column" style="flex: 45%; padding: 5px;">
+<div class="column" style="flex: 45%; padding: 5px;" markdown="1">
 
 You've seen those ambulances and service trucks derelicts around the cities, now you can drive them!
 They are a bit harder to drive and slower than the 4x4, but they have a much more carrying capacity.
