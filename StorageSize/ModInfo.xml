@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <xml>
-	<ModInfo>
-		<Name value="StorageSize" />
-		<Description value="Make the capacity of craftable and buyable storage blocks the same as the Secure Chest." />
-		<Author value="Eric Beaudoin" />
-		<Version value="1.04" />
-		<Website value="https://github.com/Laotseu/7dtdMods/blob/master/README.md" />
-		<!-- 1.00: 	Orinal version (Nightstands, dressers, wooden desks, cabinets, cupboards, bookcases, and pillcases). -->
-		<!-- 1.01:  Added military munitions ammo boxes and lockers. -->
-		<!-- 1.02:  Added file cabinets -->
-		<!-- 1.03:  Added desk and wall safes -->
-		<!-- 1.04:  Fixed for new Alpha 19 loots.xml file -->
+	<Name value="StorageSize" />
+	<DisplayName value="StorageSize" />
+	<Description value="Make the capacity of craftable and buyable storage blocks the same as the Secure Chest." />
+	<Author value="Éric Beaudoin" />
+	<Version value="1.05" />
+	<Website value="https://github.com/Laotseu/7dtdMods/" />
 
-		<!-- Tested with 7 Days to Die Alpha 19.0 -->
+	<!-- 1.05: 	Fix for Alpha 21 -->
+	<!-- 1.04:  Fix for new Alpha 19 loots.xml file -->
+	<!-- 1.03:  Add desk and wall safes -->
+	<!-- 1.02:  Add file cabinets -->
+	<!-- 1.01:  Add military munitions ammo boxes and lockers. -->
+	<!-- 1.00: 	Orinal version (Nightstands, dressers, wooden desks, cabinets, cupboards, bookcases, and pillcases). -->
+
+	<!-- Tested with 7 Days to Die Alpha 21 -->
 		
-	</ModInfo>
 </xml>

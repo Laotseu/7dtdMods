@@ -26,13 +26,13 @@ Do you have friends that can't help themselves and store everything in a specifi
 PaintJobTrucks v1.0 (Alpha 20)
 ------------------------------
 
-<section style="display: flex;">
-<div class="column" style="flex: 55%; padding: 10px;">
+<section style="display: flex;" markdown="1">
+<div class="column" style="flex: 55%; padding: 10px;" markdown="1">
 
 ![PaintJobTrucks](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/PaintJobTrucks/PaintJobTruck.png)
 
 </div>
-<div class="column" style="flex: 45%; padding: 5px;">
+<div class="column" style="flex: 45%; padding: 5px;" markdown="1">
 
 You've seen those ambulances and service trucks derelicts around the cities, now you can drive them!
 They are a bit harder to drive and slower than the 4x4, but they have a much more carrying capacity.
@@ -46,13 +46,13 @@ These bad boys are your best choice for your questing or looting expeditions.
 PaintJob v2.3 (Alpha 20)
 ------------------------
 
-<section markdown="1" style="display: flex;">
-<div class="column" style="flex: 55%; padding: 10px;">
+<section style="display: flex;" markdown="1">
+<div class="column" style="flex: 55%; padding: 10px;" markdown="1">
 
 ![PaintJob](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v2.3/PaintJob/PaintJob.png)
 
 </div>
-<div class="column" style="flex: 45%; padding: 5px">
+<div class="column" style="flex: 45%; padding: 5px" markdown="1">
 
 Are you tired of driving the exact same Jeep as you friend? Do you want to pimp your ride? PaintJob is for you! This mod add recipes that allow you to change the colour of your ride.
 
@@ -68,12 +68,12 @@ Eric's Goods v1.2 (Alpha 20)
 ----------------------------
 
 <section markdown="1" style="display: flex;">
-<div class="column" style="flex: 55%; padding: 10px;">
+<div class="column" style="flex: 55%; padding: 10px;" markdown="1">
 
 ![Eric's Goods](https://raw.githubusercontent.com/Laotseu/7dtdMods/EricsGoods_v1.2/EricsGoods/Prefabs/oldwest_business_07.jpg)
 
 </div>
-<div class="column" style="flex: 45%; padding: 5px">
+<div class="column" style="flex: 45%; padding: 5px" markdown="1">
 
 Replaced the in game *Eric's Stuff* (oldwest_business_07 POI) with *Eric's Goods* to add challenge, quest, and  loot to the otherwise cute but very >boring POI.
 
@@ -86,12 +86,12 @@ StorageSize v1.04 (Alpha 19 and 20)
 -----------------------------------
 
 <section markdown="1" style="display: flex;">
-<div class="column" style="flex: 30%; padding: 10px;">
+<div class="column" style="flex: 30%; padding: 10px;" markdown="1">
 
 ![StorageSize](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/StorageSize/StorageSize.png)
 
 </div>
-<div class="column" style="flex: 70%; padding: 5px">
+<div class="column" style="flex: 70%; padding: 5px" markdown="1">
 
 All the storage containers that can be selected with the new crateble **Wooden Storage / Furniture** have the same number of container slots (8 x 9). The containers in questions are: Storage Box, Cabinet, Cupboard, Bookcase, Pillcase, Dresser, and Wooden Desk.
 
