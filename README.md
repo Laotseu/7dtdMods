@@ -9,12 +9,12 @@ MoreContainers v2.1 (Alpha 21)
 ------------------------------
 
 <section style="display: flex;"  markdown="1">
-<div style="flex: 1; padding: 10px;"  markdown="1">
+<div style="flex: 0 1 auto; padding: 10px;"  markdown="1">
 
 ![MoreContainers](https://raw.githubusercontent.com/Laotseu/7dtdMods/MoreContainers_v2.1/MoreContainers/MoreContainers.png)
 
 </div>
-<div style="flex: 1; padding: 5px;"  markdown="1">
+<div style="flex: 0 1.1 auto; padding: 5px;"  markdown="1">
 
 Do you have friends that can't help themselves and store everything in a specific box for each type of items? I do. This mods add new graphic designs for the storage boxes and also add half-block versions of the storage boxes (for more headspace).
 
@@ -27,12 +27,12 @@ PaintJobTrucks v1.0 (Alpha 20)
 ------------------------------
 
 <section style="display: flex;" markdown="1">
-<div class="column" style="flex: 1 1.03 auto; padding: 10px;" markdown="1">
+<div class="column" style="flex: 0 1 auto; padding: 10px;" markdown="1">
 
 ![PaintJobTrucks](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/PaintJobTrucks/PaintJobTruck.png)
 
 </div>
-<div class="column" style="flex: 1 1 auto; padding: 5px;" markdown="1">
+<div class="column" style="flex: 0 1.1 auto; padding: 5px;" markdown="1">
 
 You've seen those ambulances and service trucks derelicts around the cities, now you can drive them!
 They are a bit harder to drive and slower than the 4x4, but they have a much more carrying capacity.
@@ -47,12 +47,12 @@ PaintJob v2.3 (Alpha 20)
 ------------------------
 
 <section style="display: flex;" markdown="1">
-<div class="column" style="flex: 1; padding: 10px;" markdown="1">
+<div class="column" style="flex: 1 1 70%; padding: 10px;" markdown="1">
 
 ![PaintJob](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v2.3/PaintJob/PaintJob.png)
 
 </div>
-<div class="column" style="flex: .7; padding: 5px" markdown="1">
+<div class="column" style="flex: 1 0 30%; padding: 5px" markdown="1">
 
 Are you tired of driving the exact same Jeep as you friend? Do you want to pimp your ride? PaintJob is for you! This mod add recipes that allow you to change the colour of your ride.
 
@@ -68,12 +68,12 @@ Eric's Goods v1.2 (Alpha 20)
 ----------------------------
 
 <section markdown="1" style="display: flex;">
-<div class="column" style="flex: 1; padding: 10px;" markdown="1">
+<div class="column" style="flex: 1 1 70%; padding: 10px;" markdown="1">
 
 ![Eric's Goods](https://raw.githubusercontent.com/Laotseu/7dtdMods/EricsGoods_v1.2/EricsGoods/Prefabs/oldwest_business_07.jpg)
 
 </div>
-<div class="column" style="flex: .7; padding: 5px" markdown="1">
+<div class="column" style="flex: 1 0 30%; padding: 5px" markdown="1">
 
 Replaced the in game *Eric's Stuff* (oldwest_business_07 POI) with *Eric's Goods* to add challenge, quest, and  loot to the otherwise cute but very >boring POI.
 
@@ -86,12 +86,12 @@ StorageSize v1.04 (Alpha 19 and 20)
 -----------------------------------
 
 <section markdown="1" style="display: flex;">
-<div class="column" style="flex: 1; padding: 10px;" markdown="1">
+<div class="column" style="flex: 1 1 65%; padding: 10px;" markdown="1">
 
 ![StorageSize](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/StorageSize/StorageSize.png)
 
 </div>
-<div class="column" style="flex: .7; padding: 5px" markdown="1">
+<div class="column" style="flex: 1 1 30%; padding: 5px" markdown="1">
 
 All the storage containers that can be selected with the new crateble **Wooden Storage / Furniture** have the same number of container slots (8 x 9). The containers in questions are: Storage Box, Cabinet, Cupboard, Bookcase, Pillcase, Dresser, and Wooden Desk.
 
@@ -104,12 +104,12 @@ ActivateBagLockSlots v1.0 (Alpha 19 and 20)
 -------------------------------------------
 
 <section markdown="1" style="display: flex;">
-<div class="column" style="flex: 1; padding: 10px;" markdown="1">
+<div class="column" style="flex: 1 1 70%; padding: 10px;" markdown="1">
 
 ![ActivateBagLockSlots](https://raw.githubusercontent.com/Laotseu/7dtdMods/ActivateBagLockSlots_v1.0/ActivateBagLockSlots/ActivateBagLockSlots.png)
 
 </div>
-<div class="column" style="flex: .7; padding: 5px" markdown="1">
+<div class="column" style="flex: 1 1 30%; padding: 5px" markdown="1">
 
 This is a very simple mod for Alpha 19 b177 and up that activate the **Locked Slots** control for the player's inventory.
 
@@ -122,12 +122,12 @@ SpartanBlocks v1.8 (Alpha 19)
 -----------------------------
 
 <section markdown="1" style="display: flex;">
-<div class="column" style="flex: 1; padding: 10px;" markdown="1">
+<div class="column" style="flex: 1 1 70%; padding: 10px;" markdown="1">
 
 ![SpartanBlocks](https://raw.githubusercontent.com/Laotseu/7dtdMods/SpartanBlocks_v1.8/SpartanBlocks/SpartanBlocks.jpg)
 
 </div>
-<div class="column" style="flex: .7; padding: 5px" markdown="1">
+<div class="column" style="flex: 1 1 30%; padding: 5px" markdown="1">
 
 Add custom blocks and items for all the Grand Spartan's fans out there.
 
@@ -140,12 +140,12 @@ MotorcycleAlterations v1.3 (Alpha 19)
 -------------------------------------
 
 <section markdown="1" style="display: flex;">
-<div class="column" style="flex: 1; padding: 10px;" markdown="1">
+<div class="column" style="flex: 1 1 70%; padding: 10px;" markdown="1">
 
 ![MotorcycleAlterations](https://raw.githubusercontent.com/Laotseu/7dtdMods/MotorcycleAlterations_v1.3/MotorcycleAlterations/MotorcycleAlterations.png)
 
 </div>
-<div class="column" style="flex: .7; padding: 5px" markdown="1">
+<div class="column" style="flex: 1 1 30%; padding: 5px" markdown="1">
 
 During one of the FunPimps stream for Alpha 19, the motorcycle model was shown without the shield and spikes. I thought it looked cool. This mod allows you to select alterations to the base model. I've also added a taillight just because.  
 
@@ -158,12 +158,12 @@ Wasteland Only Valley (Alpha 19)
 --------------------------------
 
 <section markdown="1" style="display: flex;">
-<div class="column" style="flex: 1; padding: 10px;" markdown="1">
+<div class="column" style="flex: 1 1 70%; padding: 10px;" markdown="1">
 
 ![Wasteland Only Valley](https://raw.githubusercontent.com/Laotseu/7dtd-spantan-multiplayer-bundle/master/Worlds/wasteland_series.png)
 
 </div>
-<div class="column" style="flex: .7; padding: 5px" markdown="1">
+<div class="column" style="flex: 1 1 30%; padding: 5px" markdown="1">
 
 My friend [Grand Spartan](https://www.youtube.com/c/GrandSpartanMP/) >asked me for a world that only one biome: Wasteland. Some people watching the stream asked if they could have a copy of the world.  
 
@@ -175,12 +175,12 @@ Castle Spartan (on GitLab)
 --------------------------
 
 <section markdown="1" style="display: flex;">
-<div class="column" style="flex: 1; padding: 10px;" markdown="1">
+<div class="column" style="flex: 1 1 70%; padding: 10px;" markdown="1">
 
 ![Castle Spartan](https://gitlab.com/spartan-designs/castle-spartan/-/raw/master/Mods/CastleSpartan/Prefabs/CastleSpartan_v3.jpg)
 
 </div>
-<div class="column" style="flex: .7; padding: 5px" markdown="1">
+<div class="column" style="flex: 1 1 30%; padding: 5px" markdown="1">
 
 Looking for **Castle Spartan**? you can find it in his GitLab repository. 
 
@@ -216,12 +216,12 @@ PG13 v1.0 (Alpha 18)
 --------------------
 
 <section markdown="1" style="display: flex;">
-<div class="column" style="flex: 1; padding: 10px;" markdown="1">
+<div class="column" style="flex: 1 1 70%; padding: 10px;" markdown="1">
 
 ![PG13](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/PG13/PG13.png)
 
 </div>
-<div class="column" style="flex: .7; padding: 5px" markdown="1">
+<div class="column" style="flex: 1 1 30%; padding: 5px" markdown="1">
 
 To help my YouTuber friends to comply with the stricter YouTube rules about profanity and nudity, I'm made this little 
 modlet that remove said profanity and nudity from the game.
@@ -235,12 +235,12 @@ Logan's Bar (Alpha 18)
 ----------------------
 
 <section markdown="1" style="display: flex;">
-<div class="column" style="flex: 1; padding: 10px;" markdown="1">
+<div class="column" style="flex: 1 1 70%; padding: 10px;" markdown="1">
 
 ![Logan's Bar](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/LogansBar/Prefabs/logans_bar.jpg)
 
 </div>
-<div class="column" style="flex: .7; padding: 5px" markdown="1">
+<div class="column" style="flex: 1 1 30%; padding: 5px" markdown="1">
 
 Custom POI created by my friend Logan J. Hunter with some improvement by myself to make run as modlet.
 
