@@ -2,7 +2,8 @@
 
 ![MoreContainers](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/MoreContainers/MoreContainers.png)
 
-**Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
+> **Important:**  
+> For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
 The current release of **MoreContainers** with **Alpha 21**.
 

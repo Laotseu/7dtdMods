@@ -7,16 +7,18 @@ Mods for the game 7 Days to Die
 MoreContainers v2.1 (Alpha 21)
 ------------------------------
 
-<div class="row" style="display: flex;">
-<div class="column" style="flex: 55%; padding: 10px;">
+<section style="display: flex;"  markdown="1">
+<div style="flex: 55%; padding: 10px;"  markdown="1">
 
-![MoreContainers](https://raw.githubusercontent.com/Laotseu/7dtdMods/MoreContainers_v2.1/MoreContainers/MoreContainers.png)</div>
-<div class="column" style="flex: 45%; padding: 5px;">
+![MoreContainers](https://raw.githubusercontent.com/Laotseu/7dtdMods/MoreContainers_v2.1/MoreContainers/MoreContainers.png)
+
+</div>
+<div style="flex: 45%; padding: 5px;"  markdown="1">
 
 Do you have friends that can't help themselves and store everything in a specific box for each type of items? I do. This mods add new graphic designs for the storage boxes and also add half-block versions of the storage boxes (for more headspace).
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreContainers_v2.1/MoreContainers_v2.1.zip)  
-[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreContainers_v2.1)</div></div>
+[Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreContainers_v2.1)</div></section>
 
 PaintJobTrucks v1.0 (Alpha 20)
 ------------------------------
@@ -113,7 +115,9 @@ MotorcycleAlterations v1.3 (Alpha 19)
 <div class="row" style="display: flex;">
 <div class="column" style="flex: 55%; padding: 10px;">
 
-![MotorcycleAlterations](https://raw.githubusercontent.com/Laotseu/7dtdMods/MotorcycleAlterations_v1.3/MotorcycleAlterations/MotorcycleAlterations.png)</div>
+![MotorcycleAlterations](https://raw.githubusercontent.com/Laotseu/7dtdMods/MotorcycleAlterations_v1.3/MotorcycleAlterations/MotorcycleAlterations.png)
+
+</div>
 <div class="column" style="flex: 45%; padding: 5px">
 
 During one of the FunPimps stream for Alpha 19, the motorcycle model was shown without the shield and spikes. I thought it looked cool. This mod allows you to select alterations to the base model. I've also added a taillight just because.  
@@ -154,6 +158,7 @@ Add recipes to create decorative blocks and make them available to players (as o
 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/MoreBlocks_v1.03/MoreBlocks_v1.03.zip)  
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MoreBlocks_v1.03)
+
 MorePaintTextures v1.0 (Alpha 18)
 ---------------------------------
 
