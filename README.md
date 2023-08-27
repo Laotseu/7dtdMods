@@ -26,7 +26,7 @@ Do you have friends that can't help themselves and store everything in a specifi
 PaintJobTrucks v1.0 (Alpha 20)
 ------------------------------
 
-<div class="row" style="display: flex;">
+<section markdown="1" style="display: flex;">
 <div class="column" style="flex: 55%; padding: 10px;">
 
 ![PaintJobTrucks](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/PaintJobTrucks/PaintJobTrucks_for_readme.png)
@@ -41,12 +41,12 @@ These bad boys are your best choice for your questing or looting expeditions.
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJobTrucks_v1.0/PaintJobTrucks_v1.0.zip)  
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PaintJobTrucks_v1.0)
 
-</div></div>
+</div></section>
 
 PaintJob v2.3 (Alpha 20)
 ------------------------
 
-<div class="row" style="display: flex;">
+<section markdown="1" style="display: flex;">
 <div class="column" style="flex: 55%; padding: 10px;">
 
 ![PaintJob](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v2.3/PaintJob/PaintJob.png)
@@ -62,12 +62,12 @@ Are you tired of driving the exact same Jeep as you friend? Do you want to pimp 
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/PaintJob_v2.3/PaintJob_v2.3.zip)  
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PaintJob_v2.3)
 
-</div></div>
+</div></section>
 
 Eric's Goods v1.2 (Alpha 20)
 ----------------------------
 
-<div class="row" style="display: flex;">
+<section markdown="1" style="display: flex;">
 <div class="column" style="flex: 55%; padding: 10px;">
 
 ![Eric's Goods](https://raw.githubusercontent.com/Laotseu/7dtdMods/EricsGoods_v1.2/EricsGoods/Prefabs/oldwest_business_07.jpg)
@@ -80,12 +80,12 @@ Replaced the in game *Eric's Stuff* (oldwest_business_07 POI) with *Eric's Goods
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/EricsGoods_v1.2/EricsGoods_v1.2.zip)  
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/EricsGoods_v1.2)
 
-</div></div>
+</div></section>
 
 StorageSize v1.04 (Alpha 19 and 20)
 -----------------------------------
 
-<div class="row" style="display: flex;">
+<section markdown="1" style="display: flex;">
 <div class="column" style="flex: 30%; padding: 10px;">
 
 ![StorageSize](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/StorageSize/StorageSize.png)
@@ -98,12 +98,12 @@ All the storage containers that can be selected with the new crateble **Wooden S
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/StorageSize_v1.04/StorageSize_v1.04.zip)  
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/StorageSize_v1.04)
 
-</div></div>
+</div></section>
 
 ActivateBagLockSlots v1.0 (Alpha 19 and 20)
 -------------------------------------------
 
-<div class="row" style="display: flex;">
+<section markdown="1" style="display: flex;">
 <div class="column" style="flex: 40%; padding: 10px;">
 
 ![ActivateBagLockSlots](https://raw.githubusercontent.com/Laotseu/7dtdMods/ActivateBagLockSlots_v1.0/ActivateBagLockSlots/ActivateBagLockSlots.png)
@@ -116,12 +116,12 @@ This is a very simple mod for Alpha 19 b177 and up that activate the **Locked Sl
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/ActivateBagLockSlots_v1.0/ActivateBagLockSlots_v1.0.zip)  
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/ActivateBagLockSlots_v1.0)
 
-</div></div>
+</div></section>
 
 SpartanBlocks v1.8 (Alpha 19)
 -----------------------------
 
-<div class="row" style="display: flex;">
+<section markdown="1" style="display: flex;">
 <div class="column" style="flex: 55%; padding: 10px;">
 
 ![SpartanBlocks](https://raw.githubusercontent.com/Laotseu/7dtdMods/SpartanBlocks_v1.8/SpartanBlocks/SpartanBlocks.jpg)
@@ -134,12 +134,12 @@ Add custom blocks and items for all the Grand Spartan's fans out there.
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/SpartanBlocks_v1.8/SpartanBlocks_v1.8.zip)  
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/SpartanBlocks_v1.8)
 
-</div></div>
+</div></section>
 
 MotorcycleAlterations v1.3 (Alpha 19)
 -------------------------------------
 
-<div class="row" style="display: flex;">
+<section markdown="1" style="display: flex;">
 <div class="column" style="flex: 55%; padding: 10px;">
 
 ![MotorcycleAlterations](https://raw.githubusercontent.com/Laotseu/7dtdMods/MotorcycleAlterations_v1.3/MotorcycleAlterations/MotorcycleAlterations.png)
@@ -152,12 +152,12 @@ During one of the FunPimps stream for Alpha 19, the motorcycle model was shown w
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/MotorcycleAlterations_v1.3/MotorcycleAlterations_v1.3.zip)  
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/MotorcycleAlterations_v1.3)
 
-</div></div>
+</div></section>
 
 Wasteland Only Valley (Alpha 19)
 --------------------------------
 
-<div class="row" style="display: flex;">
+<section markdown="1" style="display: flex;">
 <div class="column" style="flex: 55%; padding: 10px;">
 
 ![Wasteland Only Valley](https://raw.githubusercontent.com/Laotseu/7dtd-spantan-multiplayer-bundle/master/Worlds/wasteland_series.png)
@@ -169,12 +169,12 @@ My friend [Grand Spartan](https://www.youtube.com/c/GrandSpartanMP/) >asked me f
 
 [Here's the link to download it](https://github.com/Laotseu/7dtd-spantan-multiplayer-bundle/tree/master/Worlds).
 
-</div></div>
+</div></section>
 
 Castle Spartan (on GitLab)
 --------------------------
 
-<div class="row" style="display: flex;">
+<section markdown="1" style="display: flex;">
 <div class="column" style="flex: 55%; padding: 10px;">
 
 ![Castle Spartan](https://gitlab.com/spartan-designs/castle-spartan/-/raw/master/Mods/CastleSpartan/Prefabs/CastleSpartan_v3.jpg)
@@ -186,7 +186,7 @@ Looking for **Castle Spartan**? you can find it in his GitLab repository.
 
 [https://gitlab.com/spartan-designs/castle-spartan](https://gitlab.com/spartan-designs/castle-spartan)
 
-</div></div>
+</div></section>
 
 MoreBlocks v1.03 (Alpha 18)
 ---------------------------
@@ -215,7 +215,7 @@ My friend Grand Spartan is crazy, he wants us to play a game where no firearm or
 PG13 v1.0 (Alpha 18)
 --------------------
 
-<div class="row" style="display: flex;">
+<section markdown="1" style="display: flex;">
 <div class="column" style="flex: 30%; padding: 10px;">
 
 ![PG13](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/PG13/PG13.png)
@@ -229,12 +229,12 @@ modlet that remove said profanity and nudity from the game.
 [Download](https://github.com/Laotseu/7dtdMods/releases/download/PG13_v1.0/PG13_v1.0.zip)  
 [Release Notes](https://github.com/Laotseu/7dtdMods/releases/tag/PG13_v1.0)
 
-</div></div>
+</div></section>
 
 Logan's Bar (Alpha 18)
 ----------------------
 
-<div class="row" style="display: flex;">
+<section markdown="1" style="display: flex;">
 <div class="column" style="flex: 55%; padding: 10px;">
 
 ![Logan's Bar](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/LogansBar/Prefabs/logans_bar.jpg)
@@ -244,7 +244,7 @@ Logan's Bar (Alpha 18)
 
 Custom POI created by my friend Logan J. Hunter with some improvement by myself to make run as modlet.
 
-</div></div>
+</div></section>
 
 EricMods (Alpha 17)
 -------------------
