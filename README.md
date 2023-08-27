@@ -9,12 +9,12 @@ MoreContainers v2.1 (Alpha 21)
 ------------------------------
 
 <section style="display: flex;"  markdown="1">
-<div style="flex: 0 1 auto; padding: 10px;"  markdown="1">
+<div style="flex: 1 1 70%; padding: 10px;"  markdown="1">
 
 ![MoreContainers](https://raw.githubusercontent.com/Laotseu/7dtdMods/MoreContainers_v2.1/MoreContainers/MoreContainers.png)
 
 </div>
-<div style="flex: 0 1.1 auto; padding: 5px;"  markdown="1">
+<div style="flex: 1 1 30%; padding: 5px;"  markdown="1">
 
 Do you have friends that can't help themselves and store everything in a specific box for each type of items? I do. This mods add new graphic designs for the storage boxes and also add half-block versions of the storage boxes (for more headspace).
 
@@ -27,12 +27,12 @@ PaintJobTrucks v1.0 (Alpha 20)
 ------------------------------
 
 <section style="display: flex;" markdown="1">
-<div class="column" style="flex: 0 1 auto; padding: 10px;" markdown="1">
+<div class="column" style="flex: 1 1 70%; padding: 10px;" markdown="1">
 
 ![PaintJobTrucks](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/PaintJobTrucks/PaintJobTruck.png)
 
 </div>
-<div class="column" style="flex: 0 1.1 auto; padding: 5px;" markdown="1">
+<div class="column" style="flex: 1 1 30%; padding: 5px;" markdown="1">
 
 You've seen those ambulances and service trucks derelicts around the cities, now you can drive them!
 They are a bit harder to drive and slower than the 4x4, but they have a much more carrying capacity.
@@ -52,7 +52,7 @@ PaintJob v2.3 (Alpha 20)
 ![PaintJob](https://raw.githubusercontent.com/Laotseu/7dtdMods/PaintJob_v2.3/PaintJob/PaintJob.png)
 
 </div>
-<div class="column" style="flex: 1 0 30%; padding: 5px" markdown="1">
+<div class="column" style="flex: 1 1 30%; padding: 5px" markdown="1">
 
 Are you tired of driving the exact same Jeep as you friend? Do you want to pimp your ride? PaintJob is for you! This mod add recipes that allow you to change the colour of your ride.
 
