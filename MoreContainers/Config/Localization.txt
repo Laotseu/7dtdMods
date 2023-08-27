@@ -1,138 +1,138 @@
-Key,Source,Context,Changes,English
-mcSecureStorageBlockVariantHelper,blocks,Variant,,"Storage Boxes"
-mcSecureStorageBlockVariantHelperDesc,blocks,Variant,,"Craft various wood Storage Box with this helper block.\nPut the crafted block on your hotbar, hold the Reload action and select the Shape entry from the radial menu. Click or Shift-Click to select a variant to build with."
+Key,Source,Context,Changes,English,German
+mcSecureStorageBlockVariantHelper,blocks,Variant,,"Storage Boxes",Lagerkisten
+mcSecureStorageBlockVariantHelperDesc,blocks,Variant,,"Craft various wood Storage Box with this helper block.\nPut the crafted block on your hotbar, hold the Reload action and select the Shape entry from the radial menu. Click or Shift-Click to select a variant to build with.","Fertige verschiedene Holzlagerkisten mit diesem Hilfsblock.\n\nLege den gefertigten Block in deinen Werkzeuggürtel, halte die Aktion "Nachladen" gedrückt und wähle den Eintrag "Form" aus dem Radialmenü aus. Klicke oder klicke bei gedrückter Shift-Taste, um eine Variante auszuwählen, mit der du bauen möchtest."
 
-mcCubeContainer,blocks,Block,New,"Generic Storage Box"
-mcCubeContainerInsecure,blocks,Block,New,"Generic Storage Box"
-mcCubeContainerAmmo,blocks,Block,New,"Ammo Storage Box"
-mcCubeContainerAmmoInsecure,blocks,Block,New,"Ammo Storage Box"
-mcCubeContainerAmmo9mm,blocks,Block,New,"9mm Ammo Storage Box"
-mcCubeContainerAmmo9mmInsecure,blocks,Block,New,"9mm Ammo Storage Box"
-mcCubeContainerAmmoArrow,blocks,Block,New,"Arrows Storage Box"
-mcCubeContainerAmmoArrowInsecure,blocks,Block,New,"Arrows Storage Box"
-mcCubeContainerAmmoMagnum,blocks,Block,New,"Magnum Ammo Storage Box"
-mcCubeContainerAmmoMagnumInsecure,blocks,Block,New,"Magnum Ammo Storage Box"
-mcCubeContainerAmmoShell,blocks,Block,New,"Shotgun Shells Storage Box"
-mcCubeContainerAmmoShellInsecure,blocks,Block,New,"Shotgun Shells Storage Box"
-mcCubeContainerArmors,blocks,Block,New,"Armors Storage Box"
-mcCubeContainerArmorsInsecure,blocks,Block,New,"Armors Storage Box"
-mcCubeContainerAutoparts,blocks,Block,New,"Auto Parts Storage Box"
-mcCubeContainerAutopartsInsecure,blocks,Block,New,"Auto Parts Storage Box"
-mcCubeContainerBarter,blocks,Block,New,"Barter Storage Box"
-mcCubeContainerBarterInsecure,blocks,Block,New,"Barter Storage Box"
-mcCubeContainerBuilding,blocks,Block,New,"Building Storage Box"
-mcCubeContainerBuildingInsecure,blocks,Block,New,"Building Storage Box"
-mcCubeContainerCementMixer,blocks,Block,New,"Cement Mixer Storage Box"
-mcCubeContainerCementMixerInsecure,blocks,Block,New,"Cement Mixer Storage Box"
-mcCubeContainerChemistry,blocks,Block,New,"Chemical Storage Box"
-mcCubeContainerChemistryInsecure,blocks,Block,New,"Chemical Storage Box"
-mcCubeContainerCrafting,blocks,Block,New,"Crafting Storage Box"
-mcCubeContainerCraftingInsecure,blocks,Block,New,"Crafting Storage Box"
-mcCubeContainerElectricity,blocks,Block,New,"Electrical Storage Box"
-mcCubeContainerElectricityInsecure,blocks,Block,New,"Electrical Storage Box"
-mcCubeContainerExplosive,blocks,Block,New,"Explosive Storage Box"
-mcCubeContainerExplosiveInsecure,blocks,Block,New,"Explosive Storage Box"
-mcCubeContainerFood,blocks,Block,New,"Food Storage Box"
-mcCubeContainerFoodInsecure,blocks,Block,New,"Food Storage Box"
-mcCubeContainerForge,blocks,Block,New,"Forge Storage Box"
-mcCubeContainerForgeInsecure,blocks,Block,New,"Forge Storage Box"
-mcCubeContainerGas,blocks,Block,New,"Gasoline Storage Box"
-mcCubeContainerGasInsecure,blocks,Block,New,"Gasoline Storage Box"
-mcCubeContainerGunCrafting,blocks,Block,New,"Gun Crafting Storage Box"
-mcCubeContainerGunCraftingInsecure,blocks,Block,New,"Gun Crafting Storage Box"
-mcCubeContainerHealth,blocks,Block,New,"Health Storage Box"
-mcCubeContainerHealthInsecure,blocks,Block,New,"Health Storage Box"
-mcCubeContainerMining,blocks,Block,New,"Mining Storage Box"
-mcCubeContainerMiningInsecure,blocks,Block,New,"Mining Storage Box"
-mcCubeContainerModding,blocks,Block,New,"Mods Storage Box"
-mcCubeContainerModdingInsecure,blocks,Block,New,"Mods Storage Box"
-mcCubeContainerModArmor,blocks,Block,New,"Armor Mods Storage Box"
-mcCubeContainerModArmorInsecure,blocks,Block,New,"Armor Mods Storage Box"
-mcCubeContainerModVehicle,blocks,Block,New,"Vehicle Mods Storage Box"
-mcCubeContainerModVehicleInsecure,blocks,Block,New,"Vehicle Mods Storage Box"
-mcCubeContainerModWeapon,blocks,Block,New,"Weapon Mods Storage Box"
-mcCubeContainerModWeaponInsecure,blocks,Block,New,"Weapon Mods Storage Box"
-mcCubeContainerPlants,blocks,Block,New,"Plants Storage Box"
-mcCubeContainerPlantsInsecure,blocks,Block,New,"Plants Storage Box"
-mcCubeContainerRecycle,blocks,Block,New,"Recycling Storage Box"
-mcCubeContainerRecycleInsecure,blocks,Block,New,"Recycling Storage Box"
-mcCubeContainerResources,blocks,Block,New,"Resources Storage Box"
-mcCubeContainerResourcesInsecure,blocks,Block,New,"Resources Storage Box"
-mcCubeContainerToolSmithing,blocks,Block,New,"Tool Smithing Storage Box"
-mcCubeContainerToolSmithingInsecure,blocks,Block,New,"Tool Smithing Storage Box"
-mcCubeContainerWeapons,blocks,Block,New,"Weapons Storage Box"
-mcCubeContainerWeaponsInsecure,blocks,Block,New,"Weapons Storage Box"
-mcCubeContainerMeleeWeapons,blocks,Block,New,"Melee Weapons Storage Box"
-mcCubeContainerMeleeWeaponsInsecure,blocks,Block,New,"Melee Weapons Storage Box"
-mcCubeContainerRangeWeapons,blocks,Block,New,"Range Weapons Storage Box"
-mcCubeContainerRangeWeaponsInsecure,blocks,Block,New,"Range Weapons Storage Box"
-mcCubeContainerWorkbench,blocks,Block,New,"Workbench Storage Box"
-mcCubeContainerWorkbenchInsecure,blocks,Block,New,"Workbench Storage Box"
+mcCubeContainer,blocks,Block,New,"Generic Storage Box",Allgemeine Lagerkiste
+mcCubeContainerInsecure,blocks,Block,New,"Generic Storage Box",Allgemeine Lagerkiste
+mcCubeContainerAmmo,blocks,Block,New,"Ammo Storage Box",Lagerkiste [00CED1](Munition)[-]
+mcCubeContainerAmmoInsecure,blocks,Block,New,"Ammo Storage Box",Lagerkiste [00CED1](Munition)[-]
+mcCubeContainerAmmo9mm,blocks,Block,New,"9mm Ammo Storage Box",Lagerkiste [00CED1](9mm Munition)[-]
+mcCubeContainerAmmo9mmInsecure,blocks,Block,New,"9mm Ammo Storage Box",Lagerkiste [00CED1](9mm Munition)[-]
+mcCubeContainerAmmoArrow,blocks,Block,New,"Arrows Storage Box",Lagerkiste [00CED1](Pfeile)[-]
+mcCubeContainerAmmoArrowInsecure,blocks,Block,New,"Arrows Storage Box",Lagerkiste [00CED1](Pfeile)[-]
+mcCubeContainerAmmoMagnum,blocks,Block,New,"Magnum Ammo Storage Box",Lagerkiste [00CED1](.44 Munition)[-]
+mcCubeContainerAmmoMagnumInsecure,blocks,Block,New,"Magnum Ammo Storage Box",Lagerkiste [00CED1](.44 Munition)[-]
+mcCubeContainerAmmoShell,blocks,Block,New,"Shotgun Shells Storage Box",Lagerkiste [00CED1](Schrotpatronen)[-]
+mcCubeContainerAmmoShellInsecure,blocks,Block,New,"Shotgun Shells Storage Box",Lagerkiste [00CED1](Schrotpatronen)[-]
+mcCubeContainerArmors,blocks,Block,New,"Armors Storage Box",Lagerkiste [00CED1](Rüstung)[-]
+mcCubeContainerArmorsInsecure,blocks,Block,New,"Armors Storage Box",Lagerkiste [00CED1](Rüstung)[-]
+mcCubeContainerAutoparts,blocks,Block,New,"Auto Parts Storage Box",Lagerkiste [00CED1](Autoteile)[-]
+mcCubeContainerAutopartsInsecure,blocks,Block,New,"Auto Parts Storage Box",Lagerkiste [00CED1](Autoteile)[-]
+mcCubeContainerBarter,blocks,Block,New,"Barter Storage Box",Lagerkiste [00CED1](Händler)[-]
+mcCubeContainerBarterInsecure,blocks,Block,New,"Barter Storage Box",Lagerkiste [00CED1](Händler)[-]
+mcCubeContainerBuilding,blocks,Block,New,"Building Storage Box",Lagerkiste [00CED1](Bauen)[-]
+mcCubeContainerBuildingInsecure,blocks,Block,New,"Building Storage Box",Lagerkiste [00CED1](Bauen)[-]
+mcCubeContainerCementMixer,blocks,Block,New,"Cement Mixer Storage Box",Lagerkiste [00CED1](Betonmischer)[-]
+mcCubeContainerCementMixerInsecure,blocks,Block,New,"Cement Mixer Storage Box",Lagerkiste [00CED1](Betonmischer)[-]
+mcCubeContainerChemistry,blocks,Block,New,"Chemical Storage Box",Lagerkiste [00CED1](Chemie)[-]
+mcCubeContainerChemistryInsecure,blocks,Block,New,"Chemical Storage Box",Lagerkiste [00CED1](Chemie)[-]
+mcCubeContainerCrafting,blocks,Block,New,"Crafting Storage Box",Lagerkiste [00CED1](Crafting)[-]
+mcCubeContainerCraftingInsecure,blocks,Block,New,"Crafting Storage Box",Lagerkiste [00CED1](Crafting)[-]
+mcCubeContainerElectricity,blocks,Block,New,"Electrical Storage Box",Lagerkiste [00CED1](Elektronik)[-]
+mcCubeContainerElectricityInsecure,blocks,Block,New,"Electrical Storage Box",Lagerkiste [00CED1](Elektronik)[-]
+mcCubeContainerExplosive,blocks,Block,New,"Explosive Storage Box",Lagerkiste [00CED1](Sprengstoffe)[-]
+mcCubeContainerExplosiveInsecure,blocks,Block,New,"Explosive Storage Box",Lagerkiste [00CED1](Sprengstoffe)[-]
+mcCubeContainerFood,blocks,Block,New,"Food Storage Box",Lagerkiste [00CED1](Nahrung)[-]
+mcCubeContainerFoodInsecure,blocks,Block,New,"Food Storage Box",Lagerkiste [00CED1](Nahrung)[-]
+mcCubeContainerForge,blocks,Block,New,"Forge Storage Box",Lagerkiste [00CED1](Schmieden)[-]
+mcCubeContainerForgeInsecure,blocks,Block,New,"Forge Storage Box",Lagerkiste [00CED1](Schmieden)[-]
+mcCubeContainerGas,blocks,Block,New,"Gasoline Storage Box",Lagerkiste [00CED1](Benzin)[-]
+mcCubeContainerGasInsecure,blocks,Block,New,"Gasoline Storage Box",Lagerkiste [00CED1](Benzin)[-]
+mcCubeContainerGunCrafting,blocks,Block,New,"Gun Crafting Storage Box",Lagerkiste [00CED1](Waffencrafting)[-]
+mcCubeContainerGunCraftingInsecure,blocks,Block,New,"Gun Crafting Storage Box",Lagerkiste [00CED1](Waffencrafting)[-]
+mcCubeContainerHealth,blocks,Block,New,"Health Storage Box",Lagerkiste [00CED1](Erste Hilfe)[-]
+mcCubeContainerHealthInsecure,blocks,Block,New,"Health Storage Box",Lagerkiste [00CED1](Erste Hilfe)[-]
+mcCubeContainerMining,blocks,Block,New,"Mining Storage Box",Lagerkiste [00CED1](Bergbau)[-]
+mcCubeContainerMiningInsecure,blocks,Block,New,"Mining Storage Box",Lagerkiste [00CED1](Bergbau)[-]
+mcCubeContainerModding,blocks,Block,New,"Mods Storage Box",Lagerkiste [00CED1](Mods)[-]
+mcCubeContainerModdingInsecure,blocks,Block,New,"Mods Storage Box",Lagerkiste [00CED1](Mods)[-]
+mcCubeContainerModArmor,blocks,Block,New,"Armor Mods Storage Box",Lagerkiste [00CED1](Rüstungsmods)[-]
+mcCubeContainerModArmorInsecure,blocks,Block,New,"Armor Mods Storage Box",Lagerkiste [00CED1](Rüstungsmods)[-]
+mcCubeContainerModVehicle,blocks,Block,New,"Vehicle Mods Storage Box",Lagerkiste [00CED1](Fahrzeugmods)[-]
+mcCubeContainerModVehicleInsecure,blocks,Block,New,"Vehicle Mods Storage Box",Lagerkiste [00CED1](Fahrzeugmods)[-]
+mcCubeContainerModWeapon,blocks,Block,New,"Weapon Mods Storage Box",Lagerkiste [00CED1](Waffenmods)[-]
+mcCubeContainerModWeaponInsecure,blocks,Block,New,"Weapon Mods Storage Box",Lagerkiste [00CED1](Waffenmods)[-]
+mcCubeContainerPlants,blocks,Block,New,"Plants Storage Box",Lagerkiste [00CED1](Pflanzen)[-]
+mcCubeContainerPlantsInsecure,blocks,Block,New,"Plants Storage Box",Lagerkiste [00CED1](Pflanzen)[-]
+mcCubeContainerRecycle,blocks,Block,New,"Recycling Storage Box",Lagerkiste [00CED1](Recycling)[-]
+mcCubeContainerRecycleInsecure,blocks,Block,New,"Recycling Storage Box",Lagerkiste [00CED1](Recycling)[-]
+mcCubeContainerResources,blocks,Block,New,"Resources Storage Box",Lagerkiste [00CED1](Rohstoffe)[-]
+mcCubeContainerResourcesInsecure,blocks,Block,New,"Resources Storage Box",Lagerkiste [00CED1](Rohstoffe)[-]
+mcCubeContainerToolSmithing,blocks,Block,New,"Tool Smithing Storage Box",Lagerkiste [00CED1](Werkzeugschmieden)[-]
+mcCubeContainerToolSmithingInsecure,blocks,Block,New,"Tool Smithing Storage Box",Lagerkiste [00CED1](Werkzeugschmieden)[-]
+mcCubeContainerWeapons,blocks,Block,New,"Weapons Storage Box",Lagerkiste [00CED1](Waffen)[-]
+mcCubeContainerWeaponsInsecure,blocks,Block,New,"Weapons Storage Box",Lagerkiste [00CED1](Waffen)[-]
+mcCubeContainerMeleeWeapons,blocks,Block,New,"Melee Weapons Storage Box",Lagerkiste [00CED1](Nahkampfwaffen)[-]
+mcCubeContainerMeleeWeaponsInsecure,blocks,Block,New,"Melee Weapons Storage Box",Lagerkiste [00CED1](Nahkampfwaffen)[-]
+mcCubeContainerRangeWeapons,blocks,Block,New,"Range Weapons Storage Box",Lagerkiste [00CED1](Fernkampfwaffen)[-]
+mcCubeContainerRangeWeaponsInsecure,blocks,Block,New,"Range Weapons Storage Box",Lagerkiste [00CED1](Fernkampfwaffen)[-]
+mcCubeContainerWorkbench,blocks,Block,New,"Workbench Storage Box",Lagerkiste [00CED1](Werkbank)[-]
+mcCubeContainerWorkbenchInsecure,blocks,Block,New,"Workbench Storage Box",Lagerkiste [00CED1](Werkbank)[-]
 
 
-mcHalfCubeContainer,blocks,Block,New,"Halfblock Generic Storage Box"
-mcHalfCubeContainerInsecure,blocks,Block,New,"Halfblock Generic Storage Box"
-mcHalfCubeContainerAmmo,blocks,Block,New,"Halfblock Ammo Storage Box"
-mcHalfCubeContainerAmmoInsecure,blocks,Block,New,"Halfblock Ammo Storage Box"
-mcHalfCubeContainerAmmo9mm,blocks,Block,New,"Halfblock 9mm Ammo Storage Box"
-mcHalfCubeContainerAmmo9mmInsecure,blocks,Block,New,"Halfblock 9mm Ammo Storage Box"
-mcHalfCubeContainerAmmoArrow,blocks,Block,New,"Halfblock Arrows Storage Box"
-mcHalfCubeContainerAmmoArrowInsecure,blocks,Block,New,"Halfblock Arrows Storage Box"
-mcHalfCubeContainerAmmoMagnum,blocks,Block,New,"Halfblock Magnum Ammo Storage Box"
-mcHalfCubeContainerAmmoMagnumInsecure,blocks,Block,New,"Halfblock Magnum Ammo Storage Box"
-mcHalfCubeContainerAmmoShell,blocks,Block,New,"Halfblock Shotgun Shells Storage Box"
-mcHalfCubeContainerAmmoShellInsecure,blocks,Block,New,"Halfblock Shotgun Shells Storage Box"
-mcHalfCubeContainerArmors,blocks,Block,New,"Halfblock Armors Storage Box"
-mcHalfCubeContainerArmorsInsecure,blocks,Block,New,"Halfblock Armors Storage Box"
-mcHalfCubeContainerAutoparts,blocks,Block,New,"Halfblock Auto Parts Storage Box"
-mcHalfCubeContainerAutopartsInsecure,blocks,Block,New,"Halfblock Auto Parts Storage Box"
-mcHalfCubeContainerBarter,blocks,Block,New,"Halfblock Barter Storage Box"
-mcHalfCubeContainerBarterInsecure,blocks,Block,New,"Halfblock Barter Storage Box"
-mcHalfCubeContainerBuilding,blocks,Block,New,"Halfblock Building Storage Box"
-mcHalfCubeContainerBuildingInsecure,blocks,Block,New,"Halfblock Building Storage Box"
-mcHalfCubeContainerCementMixer,blocks,Block,New,"Halfblock Cement Mixer Storage Box"
-mcHalfCubeContainerCementMixerInsecure,blocks,Block,New,"Halfblock Cement Mixer Storage Box"
-mcHalfCubeContainerChemistry,blocks,Block,New,"Halfblock Chemical Storage Box"
-mcHalfCubeContainerChemistryInsecure,blocks,Block,New,"Halfblock Chemical Storage Box"
-mcHalfCubeContainerCrafting,blocks,Block,New,"Halfblock Crafting Storage Box"
-mcHalfCubeContainerCraftingInsecure,blocks,Block,New,"Halfblock Crafting Storage Box"
-mcHalfCubeContainerElectricity,blocks,Block,New,"Halfblock Electrical Storage Box"
-mcHalfCubeContainerElectricityInsecure,blocks,Block,New,"Halfblock Electrical Storage Box"
-mcHalfCubeContainerExplosive,blocks,Block,New,"Halfblock Explosive Storage Box"
-mcHalfCubeContainerExplosiveInsecure,blocks,Block,New,"Halfblock Explosive Storage Box"
-mcHalfCubeContainerFood,blocks,Block,New,"Halfblock Food Storage Box"
-mcHalfCubeContainerFoodInsecure,blocks,Block,New,"Halfblock Food Storage Box"
-mcHalfCubeContainerForge,blocks,Block,New,"Halfblock Forge Storage Box"
-mcHalfCubeContainerForgeInsecure,blocks,Block,New,"Halfblock Forge Storage Box"
-mcHalfCubeContainerGas,blocks,Block,New,"Halfblock Gasoline Storage Box"
-mcHalfCubeContainerGasInsecure,blocks,Block,New,"Halfblock Gasoline Storage Box"
-mcHalfCubeContainerGunCrafting,blocks,Block,New,"Halfblock Gun Crafting Storage Box"
-mcHalfCubeContainerGunCraftingInsecure,blocks,Block,New,"Halfblock Gun Crafting Storage Box"
-mcHalfCubeContainerHealth,blocks,Block,New,"Halfblock Health Storage Box"
-mcHalfCubeContainerHealthInsecure,blocks,Block,New,"Halfblock Health Storage Box"
-mcHalfCubeContainerMining,blocks,Block,New,"Halfblock Mining Storage Box"
-mcHalfCubeContainerMiningInsecure,blocks,Block,New,"Halfblock Mining Storage Box"
-mcHalfCubeContainerModding,blocks,Block,New,"Halfblock Mods Storage Box"
-mcHalfCubeContainerModdingInsecure,blocks,Block,New,"Halfblock Mods Storage Box"
-mcHalfCubeContainerModArmor,blocks,Block,New,"Halfblock Armor Mods Storage Box"
-mcHalfCubeContainerModArmorInsecure,blocks,Block,New,"Halfblock Armor Mods Storage Box"
-mcHalfCubeContainerModVehicle,blocks,Block,New,"Halfblock Vehicle Mods Storage Box"
-mcHalfCubeContainerModVehicleInsecure,blocks,Block,New,"Halfblock Vehicle Mods Storage Box"
-mcHalfCubeContainerModWeapon,blocks,Block,New,"Halfblock Weapon Mods Storage Box"
-mcHalfCubeContainerModWeaponInsecure,blocks,Block,New,"Halfblock Weapon Mods Storage Box"
-mcHalfCubeContainerPlants,blocks,Block,New,"Halfblock Plants Storage Box"
-mcHalfCubeContainerPlantsInsecure,blocks,Block,New,"Halfblock Plants Storage Box"
-mcHalfCubeContainerRecycle,blocks,Block,New,"Halfblock Recycling Storage Box"
-mcHalfCubeContainerRecycleInsecure,blocks,Block,New,"Halfblock Recycling Storage Box"
-mcHalfCubeContainerResources,blocks,Block,New,"Halfblock Resources Storage Box"
-mcHalfCubeContainerResourcesInsecure,blocks,Block,New,"Halfblock Resources Storage Box"
-mcHalfCubeContainerToolSmithing,blocks,Block,New,"Halfblock Tool Smithing Storage Box"
-mcHalfCubeContainerToolSmithingInsecure,blocks,Block,New,"Halfblock Tool Smithing Storage Box"
-mcHalfCubeContainerWeapons,blocks,Block,New,"Halfblock Weapons Storage Box"
-mcHalfCubeContainerWeaponsInsecure,blocks,Block,New,"Halfblock Weapons Storage Box"
-mcHalfCubeContainerMeleeWeapons,blocks,Block,New,"Halfblock Melee Weapons Storage Box"
-mcHalfCubeContainerMeleeWeaponsInsecure,blocks,Block,New,"Halfblock Melee Weapons Storage Box"
-mcHalfCubeContainerRangeWeapons,blocks,Block,New,"Halfblock Range Weapons Storage Box"
-mcHalfCubeContainerRangeWeaponsInsecure,blocks,Block,New,"Halfblock Range Weapons Storage Box"
-mcHalfCubeContainerWorkbench,blocks,Block,New,"Halfblock Workbench Storage Box"
-mcHalfCubeContainerWorkbenchInsecure,blocks,Block,New,"Halfblock Workbench Storage Box"
+mcHalfCubeContainer,blocks,Block,New,"Halfblock Generic Storage Box",1/2 Block Allgemeine Lagerkiste
+mcHalfCubeContainerInsecure,blocks,Block,New,"Halfblock Generic Storage Box",1/2 Block Allgemeine Lagerkiste
+mcHalfCubeContainerAmmo,blocks,Block,New,"Halfblock Ammo Storage Box",1/2 Block Lagerkiste [00CED1](Munition)[-]
+mcHalfCubeContainerAmmoInsecure,blocks,Block,New,"Halfblock Ammo Storage Box",1/2 Block Lagerkiste [00CED1](Munition)[-]
+mcHalfCubeContainerAmmo9mm,blocks,Block,New,"Halfblock 9mm Ammo Storage Box",1/2 Block Lagerkiste [00CED1](9mm Munition)[-]
+mcHalfCubeContainerAmmo9mmInsecure,blocks,Block,New,"Halfblock 9mm Ammo Storage Box",1/2 Block Lagerkiste [00CED1](9mm Munition)[-]
+mcHalfCubeContainerAmmoArrow,blocks,Block,New,"Halfblock Arrows Storage Box",1/2 Block Lagerkiste [00CED1](Pfeile)[-]
+mcHalfCubeContainerAmmoArrowInsecure,blocks,Block,New,"Halfblock Arrows Storage Box",1/2 Block Lagerkiste [00CED1](Pfeile)[-]
+mcHalfCubeContainerAmmoMagnum,blocks,Block,New,"Halfblock Magnum Ammo Storage Box",1/2 Block Lagerkiste [00CED1](.44 Munition)[-]
+mcHalfCubeContainerAmmoMagnumInsecure,blocks,Block,New,"Halfblock Magnum Ammo Storage Box",1/2 Block Lagerkiste [00CED1](.44 Munition)[-]
+mcHalfCubeContainerAmmoShell,blocks,Block,New,"Halfblock Shotgun Shells Storage Box",1/2 Block Lagerkiste [00CED1](Schrotpatronen)[-]
+mcHalfCubeContainerAmmoShellInsecure,blocks,Block,New,"Halfblock Shotgun Shells Storage Box",1/2 Block Lagerkiste [00CED1](Schrotpatronen)[-]
+mcHalfCubeContainerArmors,blocks,Block,New,"Halfblock Armors Storage Box",1/2 Block Lagerkiste [00CED1](Rüstung)[-]
+mcHalfCubeContainerArmorsInsecure,blocks,Block,New,"Halfblock Armors Storage Box",1/2 Block Lagerkiste [00CED1](Rüstung)[-]
+mcHalfCubeContainerAutoparts,blocks,Block,New,"Halfblock Auto Parts Storage Box",1/2 Block Lagerkiste [00CED1](Autoteile)[-]
+mcHalfCubeContainerAutopartsInsecure,blocks,Block,New,"Halfblock Auto Parts Storage Box",1/2 Block Lagerkiste [00CED1](Autoteile)[-]
+mcHalfCubeContainerBarter,blocks,Block,New,"Halfblock Barter Storage Box",1/2 Block Lagerkiste [00CED1](Händler)[-]
+mcHalfCubeContainerBarterInsecure,blocks,Block,New,"Halfblock Barter Storage Box",1/2 Block Lagerkiste [00CED1](Händler)[-]
+mcHalfCubeContainerBuilding,blocks,Block,New,"Halfblock Building Storage Box",1/2 Block Lagerkiste [00CED1](Bauen)[-]
+mcHalfCubeContainerBuildingInsecure,blocks,Block,New,"Halfblock Building Storage Box",1/2 Block Lagerkiste [00CED1](Bauen)[-]
+mcHalfCubeContainerCementMixer,blocks,Block,New,"Halfblock Cement Mixer Storage Box",1/2 Block Lagerkiste [00CED1](Betonmischer)[-]
+mcHalfCubeContainerCementMixerInsecure,blocks,Block,New,"Halfblock Cement Mixer Storage Box",1/2 Block Lagerkiste [00CED1](Betonmischer)[-]
+mcHalfCubeContainerChemistry,blocks,Block,New,"Halfblock Chemical Storage Box",1/2 Block Lagerkiste [00CED1](Chemie)[-]
+mcHalfCubeContainerChemistryInsecure,blocks,Block,New,"Halfblock Chemical Storage Box",1/2 Block Lagerkiste [00CED1](Chemie)[-]
+mcHalfCubeContainerCrafting,blocks,Block,New,"Halfblock Crafting Storage Box",1/2 Block Lagerkiste [00CED1](Crafting)[-]
+mcHalfCubeContainerCraftingInsecure,blocks,Block,New,"Halfblock Crafting Storage Box",1/2 Block Lagerkiste [00CED1](Crafting)[-]
+mcHalfCubeContainerElectricity,blocks,Block,New,"Halfblock Electrical Storage Box",1/2 Block Lagerkiste [00CED1](Elektronik)[-]
+mcHalfCubeContainerElectricityInsecure,blocks,Block,New,"Halfblock Electrical Storage Box",1/2 Block Lagerkiste [00CED1](Elektronik)[-]
+mcHalfCubeContainerExplosive,blocks,Block,New,"Halfblock Explosive Storage Box",1/2 Block Lagerkiste [00CED1](Sprengstoffe)[-]
+mcHalfCubeContainerExplosiveInsecure,blocks,Block,New,"Halfblock Explosive Storage Box",1/2 Block Lagerkiste [00CED1](Sprengstoffe)[-]
+mcHalfCubeContainerFood,blocks,Block,New,"Halfblock Food Storage Box",1/2 Block Lagerkiste [00CED1](Nahrung)[-]
+mcHalfCubeContainerFoodInsecure,blocks,Block,New,"Halfblock Food Storage Box",1/2 Block Lagerkiste [00CED1](Nahrung)[-]
+mcHalfCubeContainerForge,blocks,Block,New,"Halfblock Forge Storage Box",1/2 Block Lagerkiste [00CED1](Schmieden)[-]
+mcHalfCubeContainerForgeInsecure,blocks,Block,New,"Halfblock Forge Storage Box",1/2 Block Lagerkiste [00CED1](Schmieden)[-]
+mcHalfCubeContainerGas,blocks,Block,New,"Halfblock Gasoline Storage Box",1/2 Block Lagerkiste [00CED1](Benzin)[-]
+mcHalfCubeContainerGasInsecure,blocks,Block,New,"Halfblock Gasoline Storage Box",1/2 Block Lagerkiste [00CED1](Benzin)[-]
+mcHalfCubeContainerGunCrafting,blocks,Block,New,"Halfblock Gun Crafting Storage Box",1/2 Block Lagerkiste [00CED1](Waffencrafting)[-]
+mcHalfCubeContainerGunCraftingInsecure,blocks,Block,New,"Halfblock Gun Crafting Storage Box",1/2 Block Lagerkiste [00CED1](Waffencrafting)[-]
+mcHalfCubeContainerHealth,blocks,Block,New,"Halfblock Health Storage Box",1/2 Block Lagerkiste [00CED1](Erste Hilfe)[-]
+mcHalfCubeContainerHealthInsecure,blocks,Block,New,"Halfblock Health Storage Box",1/2 Block Lagerkiste [00CED1](Erste Hilfe)[-]
+mcHalfCubeContainerMining,blocks,Block,New,"Halfblock Mining Storage Box",1/2 Block Lagerkiste [00CED1](Bergbau)[-]
+mcHalfCubeContainerMiningInsecure,blocks,Block,New,"Halfblock Mining Storage Box",1/2 Block Lagerkiste [00CED1](Bergbau)[-]
+mcHalfCubeContainerModding,blocks,Block,New,"Halfblock Mods Storage Box",1/2 Block Lagerkiste [00CED1](Mods)[-]
+mcHalfCubeContainerModdingInsecure,blocks,Block,New,"Halfblock Mods Storage Box",1/2 Block Lagerkiste [00CED1](Mods)[-]
+mcHalfCubeContainerModArmor,blocks,Block,New,"Halfblock Armor Mods Storage Box",1/2 Block Lagerkiste [00CED1](Rüstungsmods)[-]
+mcHalfCubeContainerModArmorInsecure,blocks,Block,New,"Halfblock Armor Mods Storage Box",1/2 Block Lagerkiste [00CED1](Rüstungsmods)[-]
+mcHalfCubeContainerModVehicle,blocks,Block,New,"Halfblock Vehicle Mods Storage Box",1/2 Block Lagerkiste [00CED1](Fahrzeugmods)[-]
+mcHalfCubeContainerModVehicleInsecure,blocks,Block,New,"Halfblock Vehicle Mods Storage Box",1/2 Block Lagerkiste [00CED1](Fahrzeugmods)[-]
+mcHalfCubeContainerModWeapon,blocks,Block,New,"Halfblock Weapon Mods Storage Box",1/2 Block Lagerkiste [00CED1](Waffenmods)[-]
+mcHalfCubeContainerModWeaponInsecure,blocks,Block,New,"Halfblock Weapon Mods Storage Box",1/2 Block Lagerkiste [00CED1](Waffenmods)[-]
+mcHalfCubeContainerPlants,blocks,Block,New,"Halfblock Plants Storage Box",1/2 Block Lagerkiste [00CED1](Pflanzen)[-]
+mcHalfCubeContainerPlantsInsecure,blocks,Block,New,"Halfblock Plants Storage Box",1/2 Block Lagerkiste [00CED1](Pflanzen)[-]
+mcHalfCubeContainerRecycle,blocks,Block,New,"Halfblock Recycling Storage Box",1/2 Block Lagerkiste [00CED1](Recycling)[-]
+mcHalfCubeContainerRecycleInsecure,blocks,Block,New,"Halfblock Recycling Storage Box",1/2 Block Lagerkiste [00CED1](Recycling)[-]
+mcHalfCubeContainerResources,blocks,Block,New,"Halfblock Resources Storage Box",1/2 Block Lagerkiste [00CED1](Rohstoffe)[-]
+mcHalfCubeContainerResourcesInsecure,blocks,Block,New,"Halfblock Resources Storage Box",1/2 Block Lagerkiste [00CED1](Rohstoffe)[-]
+mcHalfCubeContainerToolSmithing,blocks,Block,New,"Halfblock Tool Smithing Storage Box",1/2 Block Lagerkiste [00CED1](Werkzeugschmieden)[-]
+mcHalfCubeContainerToolSmithingInsecure,blocks,Block,New,"Halfblock Tool Smithing Storage Box",1/2 Block Lagerkiste [00CED1](Werkzeugschmieden)[-]
+mcHalfCubeContainerWeapons,blocks,Block,New,"Halfblock Weapons Storage Box",1/2 Block Lagerkiste [00CED1](Waffen)[-]
+mcHalfCubeContainerWeaponsInsecure,blocks,Block,New,"Halfblock Weapons Storage Box",1/2 Block Lagerkiste [00CED1](Waffen)[-]
+mcHalfCubeContainerMeleeWeapons,blocks,Block,New,"Halfblock Melee Weapons Storage Box",1/2 Block Lagerkiste [00CED1](Nahkampfwaffen)[-]
+mcHalfCubeContainerMeleeWeaponsInsecure,blocks,Block,New,"Halfblock Melee Weapons Storage Box",1/2 Block Lagerkiste [00CED1](Nahkampfwaffen)[-]
+mcHalfCubeContainerRangeWeapons,blocks,Block,New,"Halfblock Range Weapons Storage Box",1/2 Block Lagerkiste [00CED1](Fernkampfwaffen)[-]
+mcHalfCubeContainerRangeWeaponsInsecure,blocks,Block,New,"Halfblock Range Weapons Storage Box",1/2 Block Lagerkiste [00CED1](Fernkampfwaffen)[-]
+mcHalfCubeContainerWorkbench,blocks,Block,New,"Halfblock Workbench Storage Box",1/2 Block Lagerkiste [00CED1](Werkbank)[-]
+mcHalfCubeContainerWorkbenchInsecure,blocks,Block,New,"Halfblock Workbench Storage Box",1/2 Block Lagerkiste [00CED1](Werkbank)[-]

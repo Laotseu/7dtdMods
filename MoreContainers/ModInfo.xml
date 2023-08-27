@@ -5,7 +5,7 @@
     <DisplayName value="More Containers" /> 
 	<Description value="More option for storage boxes and similar items." />
 	<Author value="Éric Beaudon" />
-	<Version value="2.0" />
+	<Version value="2.1" />
 	<Website value="https://github.com/Laotseu/7dtdMods/" />
 
 
@@ -17,6 +17,8 @@
 		For this model to work properly, it needs to be installed on the server and every player's computer.
 	-->
 
+	<!-- 2.1: German localization
+				Thanks to Scomar -->
 	<!-- 2.0: Fix for Alpha 21 
 				Modinfo.xml v2 
 				Fix: Secure storage boxes should not drop wood on destroy event -->

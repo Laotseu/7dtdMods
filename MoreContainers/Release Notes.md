@@ -4,7 +4,10 @@
 
 **Important:** For this modlet to work properly, it needs to be installed on the **server** and **every player's computer**.
 
+The current release of **MoreContainers** with **Alpha 21**.
 
+* 2.1: German localization
+	- Big thanks to Scomar for the translation.
 * 2.0: Fix for Alpha 21 
 	- Modinfo.xml v2 
 	- Fix: Secure storage boxes should not drop wood on destroy event
