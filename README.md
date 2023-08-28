@@ -86,7 +86,7 @@ StorageSize v1.04 (Alpha 19 and 20)
 -----------------------------------
 
 <section markdown="1" style="display: flex;">
-<div class="column" style="flex: 1 1 70%; padding: 10px;" markdown="1">
+<div class="column" style="flex: 1 1 65%; padding: 10px;" markdown="1">
 
 ![StorageSize](https://raw.githubusercontent.com/Laotseu/7dtdMods/master/StorageSize/StorageSize.png)
 

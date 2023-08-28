@@ -1,8 +1,8 @@
 # theme: jekyll-theme-slate
-remote_theme: pages-themes/slate@v0.2.0
+# remote_theme: pages-themes/slate@v0.2.0
 plugins:
   - jekyll-relative-links
-  - jekyll-remote-theme
+  # - jekyll-remote-theme
 relative_links:
   enabled: true
   collections: true
